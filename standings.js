@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260627b";
+import { api } from "./dataService.js?v=20260627e";
 import { renderNav } from "./components/nav.js";
 
 let standings = null;
@@ -707,10 +707,10 @@ function renderTable(rows, txStats, year, playoffRecords, isAllTime) {
             <tr>
                 <td class="rank">${r.rank}</td>
                 <td class="team-name">
-                    <div style="display:flex;align-items:center;gap:8px;">
+                    <a href="team.html?team=${encodeURIComponent(r.name)}" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:inherit;" onmouseover="this.style.color='#818cf8'" onmouseout="this.style.color='inherit'">
                         ${avatarEl(r.name, 26)}
                         <span>${r.name}</span>
-                    </div>
+                    </a>
                 </td>
                 <td class="num wins">${r.wins}</td>
                 <td class="num losses">${r.losses}</td>

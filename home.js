@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260627b";
+import { api } from "./dataService.js?v=20260627e";
 import { renderNav } from "./components/nav.js";
 
 const YEARS = ["2020", "2021", "2022", "2023", "2024", "2025", "2026"];
@@ -321,10 +321,10 @@ function renderStandingsTable(rows, playoffRec, isAllTime, faabRemaining, sosMap
         return `<tr style="border-bottom:1px solid #2d3139;">
             <td style="${TD};color:#5a6070;font-weight:700;">${i+1}</td>
             <td style="${TD};text-align:left;">
-                <div style="display:flex;align-items:center;gap:8px;">
+                <a href="team.html?team=${encodeURIComponent(r.name)}" style="display:flex;align-items:center;gap:8px;text-decoration:none;" onmouseover="this.querySelector('.mgr-name').style.color='#818cf8'" onmouseout="this.querySelector('.mgr-name').style.color='#f0f1f3'">
                     ${avatarEl(av, r.name, 26)}
-                    <span style="font-weight:700;color:#f0f1f3;">${r.name}</span>
-                </div>
+                    <span class="mgr-name" style="font-weight:700;color:#f0f1f3;transition:color .12s;">${r.name}</span>
+                </a>
             </td>
             <td style="${TD};color:#3ecf8e;font-weight:700;">${r.wins}</td>
             <td style="${TD};color:#f87171;font-weight:700;">${r.losses}</td>
