@@ -109,6 +109,44 @@ function computePrizesWon() {
     return totals;
 }
 
+// Final 1–12 placement per team for a season, from playoff (1st–6th) + consolation
+// (7th–12th) brackets. Sleeper's losers-bracket place is consolation-relative, so +6.
+function seasonFinalPlacements(year) {
+    const s = (historyData || {})[year] || {};
+    const out = {};
+    (s.winners_bracket || []).forEach(m => {
+        if ([1, 3, 5].includes(m.place)) {
+            if (m.winner) out[m.winner] = m.place;
+            if (m.loser)  out[m.loser]  = m.place + 1;
+        }
+    });
+    (s.losers_bracket || []).forEach(m => {
+        if ([1, 3, 5].includes(m.place)) {
+            if (m.winner) out[m.winner] = m.place + 6;
+            if (m.loser)  out[m.loser]  = m.place + 7;
+        }
+    });
+    return out;
+}
+
+// Aggregate finishes across all completed seasons -> name: {first, second, third, avgFinish}
+function buildFinishStats() {
+    const stats = {};
+    COMPLETED_YEARS.forEach(year => {
+        const pl = seasonFinalPlacements(year);
+        Object.entries(pl).forEach(([name, rank]) => {
+            if (!stats[name]) stats[name] = { first: 0, second: 0, third: 0, sum: 0, seasons: 0 };
+            const t = stats[name];
+            t.seasons++; t.sum += rank;
+            if (rank === 1) t.first++;
+            else if (rank === 2) t.second++;
+            else if (rank === 3) t.third++;
+        });
+    });
+    Object.values(stats).forEach(t => { t.avgFinish = t.seasons ? t.sum / t.seasons : null; });
+    return stats;
+}
+
 // Compute FAAB remaining for a given year per team
 function computeFaabRemaining(year) {
     const BUDGET = 100;
@@ -262,8 +300,13 @@ function buildSosRanks(rows, sosMap) {
 
 function renderStandingsTable(rows, playoffRec, isAllTime, faabRemaining, sosMap) {
     const sosRanks = buildSosRanks(rows, sosMap);
+    const finishStats = isAllTime ? buildFinishStats() : null;
     const extraHeaders = isAllTime
-        ? `<th style="${TH}">Avg PF</th><th style="${TH}">Best PF</th>`
+        ? `<th style="${TH}" title="1st-place finishes (champion)">1st</th>
+           <th style="${TH}" title="2nd-place finishes">2nd</th>
+           <th style="${TH}" title="3rd-place finishes">3rd</th>
+           <th style="${TH}" title="Average final finish across seasons">Avg Fin</th>
+           <th style="${TH}">Avg PF</th><th style="${TH}">Best PF</th>`
         : "";
     const faabHeader = !isAllTime ? `<th style="${TH}">FAAB Left</th>` : "";
 
@@ -291,8 +334,12 @@ function renderStandingsTable(rows, playoffRec, isAllTime, faabRemaining, sosMap
         const po = playoffRec[r.name];
         const poStr = po ? `${po.wins}-${po.losses}` : "—";
         const av = usersMap[r.name];
+        const fs = finishStats?.[r.name];
+        const medalCell = (count, color) => `<td style="${TD};${count ? `color:${color};font-weight:700;` : "color:#3d4350;"}">${count || "—"}</td>`;
         const extraCells = isAllTime
-            ? `<td style="${TD}">${r.avgPF.toFixed(1)}</td><td style="${TD}">${r.highestPF.toFixed(1)}</td>`
+            ? `${medalCell(fs?.first, "#fbbf24")}${medalCell(fs?.second, "#c8d6e5")}${medalCell(fs?.third, "#cd9b5a")}` +
+              `<td style="${TD};font-weight:700;color:#f0f1f3;">${fs?.avgFinish != null ? fs.avgFinish.toFixed(1) : "—"}</td>` +
+              `<td style="${TD}">${r.avgPF.toFixed(1)}</td><td style="${TD}">${r.highestPF.toFixed(1)}</td>`
             : "";
         const faabLeft = !isAllTime ? faabRemaining?.[r.name] : undefined;
         const faabCell = !isAllTime
