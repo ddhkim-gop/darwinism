@@ -481,73 +481,70 @@ const FORMAT_ITEMS = [
 ];
 const STARTERS = ["QB", "RB", "RB", "WR", "WR", "WR", "TE", "FLEX", "K", "DEF"];
 
+function keeperRow(label, val) {
+    return `<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;padding:7px 0;border-bottom:1px solid #2d3139;font-size:13px;">
+        <span style="color:#8b9099;flex-shrink:0;">${label}</span>
+        <span style="font-weight:600;color:#f0f1f3;text-align:right;">${val}</span>
+    </div>`;
+}
+
 function renderRules() {
     return `
     <div style="margin-bottom:32px;">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" class="rules-grid">
-            <!-- Format card -->
-            <div style="background:#1e2027;border:1px solid #2d3139;border-radius:10px;padding:16px;">
-                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#5a6070;font-weight:700;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #2d3139;">League Format</div>
+        <!-- Row 1: League Format (full width) -->
+        <div style="background:#1e2027;border:1px solid #2d3139;border-radius:10px;padding:16px;margin-bottom:16px;">
+            <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#5a6070;font-weight:700;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #2d3139;">League Format</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px 24px;">
                 ${FORMAT_ITEMS.map(([label, val]) => `
-                    <div style="display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #2d3139;font-size:13px;">
-                        <span style="color:#8b9099;">${label}</span>
-                        <span style="font-weight:600;color:#f0f1f3;">${val}</span>
+                    <div>
+                        <div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;font-weight:700;margin-bottom:4px;">${label}</div>
+                        <div style="font-size:14px;font-weight:600;color:#f0f1f3;">${val}</div>
                     </div>`).join("")}
-                <div style="margin-top:12px;">
-                    <div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;font-weight:700;margin-bottom:8px;">Starting Lineup</div>
-                    <div style="display:flex;flex-wrap:wrap;gap:5px;">
-                        ${STARTERS.map(p => `<span style="background:#252830;color:#c9cdd4;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:600;">${p}</span>`).join("")}
-                        <span style="background:#252830;color:#5a6070;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:600;">5× BN</span>
-                    </div>
+            </div>
+            <div style="margin-top:16px;padding-top:14px;border-top:1px solid #2d3139;">
+                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;font-weight:700;margin-bottom:8px;">Starting Lineup</div>
+                <div style="display:flex;flex-wrap:wrap;gap:5px;">
+                    ${STARTERS.map(p => `<span style="background:#252830;color:#c9cdd4;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:600;">${p}</span>`).join("")}
+                    <span style="background:#252830;color:#5a6070;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:600;">5× BN</span>
                 </div>
             </div>
+        </div>
 
-            <!-- Keepers card — original era -->
+        <!-- Row 2: two Keeper Settings boxes side by side -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" class="rules-grid">
+            <!-- Original era -->
             <div style="background:#1e2027;border:1px solid #2d3139;border-radius:10px;padding:16px;">
                 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #2d3139;">
-                    <span style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#5a6070;font-weight:700;">Keepers</span>
+                    <span style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#5a6070;font-weight:700;">Keeper Settings</span>
                     <span style="font-size:10px;font-weight:700;color:#5a6070;">2020–2024</span>
                 </div>
                 <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
                     <span style="font-size:40px;font-weight:800;color:#8b9099;line-height:1;">2</span>
                     <span style="color:#8b9099;font-size:13px;">keepers per team, each season</span>
                 </div>
-                ${[
-                    ["Draft cost", "None — no round penalty"],
-                    ["Format", "All other players return to the draft pool"],
-                ].map(([label, val]) => `
-                    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;padding:7px 0;border-bottom:1px solid #2d3139;font-size:13px;">
-                        <span style="color:#8b9099;flex-shrink:0;">${label}</span>
-                        <span style="font-weight:600;color:#f0f1f3;text-align:right;">${val}</span>
-                    </div>`).join("")}
+                ${keeperRow("Draft cost", "None — no round penalty")}
+                ${keeperRow("Format", "All other players return to the draft pool")}
             </div>
 
-            <!-- Keepers card — current era (post-2025 redraft), full width -->
-            <div style="grid-column:1 / -1;background:#1e2027;border:1px solid #3ecf8e44;border-radius:10px;padding:16px;">
+            <!-- Current era (post-2025 redraft) -->
+            <div style="background:#1e2027;border:1px solid #3ecf8e44;border-radius:10px;padding:16px;">
                 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #2d3139;">
-                    <span style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#5a6070;font-weight:700;">Keepers
+                    <span style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#5a6070;font-weight:700;">Keeper Settings
                         <span style="background:#3ecf8e22;color:#3ecf8e;border-radius:4px;padding:1px 7px;font-size:9px;font-weight:800;letter-spacing:.04em;margin-left:6px;">CURRENT</span>
                     </span>
                     <span style="font-size:10px;font-weight:700;color:#3ecf8e;">2025–present</span>
                 </div>
-                <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:14px;">
+                <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
                     <span style="font-size:40px;font-weight:800;color:#3ecf8e;line-height:1;">3</span>
                     <span style="color:#8b9099;font-size:13px;">keepers per team, each season</span>
                 </div>
-                <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" class="rules-grid">
-                    ${[
-                        ["Pick trades", "Round 1 & 2 picks cannot be traded"],
-                        ["2025 reset", "League ran a full redraft to reset all rosters"],
-                    ].map(([label, val]) => `
-                        <div style="background:#252830;border-radius:8px;padding:10px 12px;">
-                            <div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;font-weight:700;margin-bottom:4px;">${label}</div>
-                            <div style="font-size:13px;font-weight:600;color:#f0f1f3;line-height:1.4;">${val}</div>
-                        </div>`).join("")}
-                </div>
-                <div style="margin-top:12px;padding:8px 10px;background:#252830;border-radius:8px;font-size:11px;color:#5a6070;line-height:1.5;">
-                    Prize pool & entry fees are set by the commissioner — add them here when confirmed.
-                </div>
+                ${keeperRow("Pick trades", "Round 1 &amp; 2 picks can't be traded")}
+                ${keeperRow("2025 reset", "Full redraft to reset all rosters")}
             </div>
+        </div>
+
+        <div style="margin-top:16px;padding:8px 10px;background:#252830;border-radius:8px;font-size:11px;color:#5a6070;line-height:1.5;">
+            Prize pool &amp; entry fees are set by the commissioner — add them here when confirmed.
         </div>
     </div>`;
 }
