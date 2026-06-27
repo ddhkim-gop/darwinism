@@ -1,0 +1,7 @@
+# Darwinism — data/ IS committed (the site fetches data/{year}/*.json directly)
+venv/
+.claude/
+__pycache__/
+*.pyc
+scripts/players_cache.json
+.DS_Store
