@@ -558,9 +558,8 @@ async function init() {
         container.innerHTML = `
         <style>
           .team-page-outer { max-width:960px; }
-          .team-page-wrap { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; align-items:start; }
-          @media (max-width:750px) { .team-page-wrap { grid-template-columns:1fr 1fr; } }
-          @media (max-width:500px) { .team-page-wrap { grid-template-columns:1fr; } }
+          .team-page-wrap { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; }
+          @media (max-width:600px) { .team-page-wrap { grid-template-columns:1fr; } }
           .team-col { display:flex; flex-direction:column; gap:16px; min-width:0; }
           .team-col-equal { display:flex; flex-direction:column; min-width:0; align-self:stretch; }
           .team-col-equal .equal-card { flex:1; }
@@ -601,16 +600,7 @@ async function init() {
             </div>
           </div>
 
-          <!-- COL 2: Draft Picks -->
-          <div class="team-col-equal">
-            <div class="equal-card" style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:20px;">
-              <div style="font-size:14px;font-weight:700;color:#f0f1f3;margin-bottom:4px;">Draft Picks</div>
-              <div style="font-size:12px;color:#5a6070;margin-bottom:8px;">${myPicks.length} picks</div>
-              ${picksHtml}
-            </div>
-          </div>
-
-          <!-- COL 3: Stats + activity + partners -->
+          <!-- COL 2: Stats + activity + partners -->
           <div class="team-col">
 
             <!-- Stat grid -->
