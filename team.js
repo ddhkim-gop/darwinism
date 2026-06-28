@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260627e";
+import { api } from "./dataService.js?v=20260627i";
 import { renderNav } from "./components/nav.js";
 
 renderNav();
@@ -19,6 +19,35 @@ function accentFor(name) {
 function ordinal(n) {
     const s=["th","st","nd","rd"], v=n%100;
     return n+(s[(v-20)%10]||s[v]||s[0]);
+}
+
+// Render a roster (array of player objects) grouped by position. Preserves input order
+// within each position group, so callers sort beforehand.
+function rosterListHtml(players) {
+    if (!players || !players.length) return "";
+    const grouped = {};
+    players.filter(p => p && p.name).forEach(p => {
+        const pos = (p.position || "").split("/")[0] || "OTHER";
+        (grouped[pos] = grouped[pos] || []).push(p);
+    });
+    const order = POS_ORDER.filter(p => grouped[p])
+        .concat(Object.keys(grouped).filter(p => !POS_ORDER.includes(p)));
+    return order.map(pos => {
+        const header = `<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#5a6070;margin:10px 0 4px;">${pos}</div>`;
+        const rows = grouped[pos].map(p => {
+            const badge = `<span style="background:${posColor((p.position||'').split('/')[0])};color:#fff;font-size:10px;font-weight:800;padding:2px 0;border-radius:4px;width:30px;text-align:center;flex-shrink:0;">${p.position||'?'}</span>`;
+            const rookieBadge = p.years_exp === 0 ? `<span style="font-size:9px;font-weight:700;color:#f6ad55;background:rgba(246,173,85,.15);padding:1px 5px;border-radius:3px;">R</span>` : '';
+            const teamLogo = p.team ? `<img src="https://sleepercdn.com/images/team_logos/nfl/${p.team.toLowerCase()}.jpg" style="width:18px;height:18px;object-fit:contain;opacity:.8;" onerror="this.style.display='none'">` : '';
+            const ageStr = p.birth_date ? (() => { const b = new Date(p.birth_date); return ((Date.now()-b)/(365.25*24*60*60*1000)).toFixed(1); })() : (p.age || '');
+            return `<div style="display:flex;align-items:center;gap:8px;padding:6px 8px;background:#252830;border-radius:8px;margin-bottom:3px;">
+                ${badge}
+                <span style="font-size:13px;font-weight:600;color:#f0f1f3;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${p.name}${rookieBadge}</span>
+                ${teamLogo}
+                ${ageStr ? `<span style="font-size:11px;color:#5a6070;flex-shrink:0;">${ageStr}</span>` : ''}
+            </div>`;
+        }).join("");
+        return header + rows;
+    }).join("");
 }
 
 async function init() {
@@ -48,6 +77,11 @@ async function init() {
         ]);
         const draftByYear = {};
         DRAFT_YEARS.forEach((y, i) => { draftByYear[y] = draftsByYearArr[i] || []; });
+
+        // End-of-season roster snapshots per year (data/{year}/rosters.json)
+        const endRostersArr = await Promise.all(DRAFT_YEARS.map(y => api.getRosters(y).catch(() => [])));
+        const endRosterByYear = {};
+        DRAFT_YEARS.forEach((y, i) => { endRosterByYear[y] = endRostersArr[i] || []; });
 
         // Avatar
         (leagueUsers || []).forEach(u => {
@@ -555,6 +589,43 @@ async function init() {
             ${draftSections}
         </div>` : '';
 
+        // ── Rosters by season: start-of-season (drafted) + end-of-season ──────────
+        const seasonYearsDesc = [...DRAFT_YEARS].reverse(); // 2026 → 2020
+        const teamSeasonYears = seasonYearsDesc.filter(y =>
+            (draftByYear[y] || []).some(p => p.picked_by === teamName) ||
+            (endRosterByYear[y] || []).some(r => r.owner === teamName));
+        // Default to the most recent season that has a draft (so both rosters show)
+        const defaultRosterYear = teamSeasonYears.find(y =>
+            (draftByYear[y] || []).some(p => p.picked_by === teamName)) || teamSeasonYears[0];
+
+        const startRosterFor = y => (draftByYear[y] || [])
+            .filter(p => p.picked_by === teamName)
+            .sort((a, b) => (a.pick_no || 0) - (b.pick_no || 0))
+            .map(p => ({ name: p.player, position: p.position, team: p.team, birth_date: p.birth_date }));
+        const endRosterFor = y => {
+            const r = (endRosterByYear[y] || []).find(r => r.owner === teamName);
+            return (r?.players || []).slice().sort((a, b) => (a.search_rank ?? 1e9) - (b.search_rank ?? 1e9));
+        };
+
+        const emptyNote = msg => `<div style="color:#5a6070;font-size:12px;padding:6px 0;">${msg}</div>`;
+        const seasonBlocks = teamSeasonYears.map(y => {
+            const start = startRosterFor(y);
+            const end = endRosterFor(y);
+            const startHtml = start.length ? rosterListHtml(start)
+                : emptyNote(y === "2026" ? "Draft hasn't been held yet." : "No draft data.");
+            const endHtml = end.length ? rosterListHtml(end) : emptyNote("—");
+            return `<div class="ros-year-block" data-year="${y}" style="display:${y === defaultRosterYear ? '' : 'none'};">
+                <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#3ecf8e;margin:2px 0 4px;">Start of Season · Drafted <span style="color:#5a6070;font-weight:600;">(${start.length})</span></div>
+                ${startHtml}
+                <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#818cf8;margin:18px 0 4px;padding-top:14px;border-top:1px solid #2d3139;">End of Season <span style="color:#5a6070;font-weight:600;">(${end.length})</span></div>
+                ${endHtml}
+            </div>`;
+        }).join("");
+        const rosterYearSelect = teamSeasonYears.length ? `
+            <select onchange="document.querySelectorAll('.ros-year-block').forEach(b=>b.style.display=b.dataset.year===this.value?'':'none')" style="background:#252830;border:1px solid #3d4350;border-radius:8px;color:#f0f1f3;font-size:13px;font-weight:600;padding:5px 10px;">
+                ${teamSeasonYears.map(y => `<option value="${y}"${y === defaultRosterYear ? ' selected' : ''}>${y}${y === "2026" ? " (current)" : ""}</option>`).join("")}
+            </select>` : "";
+
         container.innerHTML = `
         <style>
           .team-page-outer { max-width:960px; }
@@ -591,12 +662,14 @@ async function init() {
 
         <div class="team-page-wrap">
 
-          <!-- COL 1: Roster -->
+          <!-- COL 1: Rosters by season (start + end) -->
           <div class="team-col-equal">
             <div class="equal-card" style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:20px;">
-              <div style="font-size:14px;font-weight:700;color:#f0f1f3;margin-bottom:4px;">Current Roster</div>
-              <div style="font-size:12px;color:#5a6070;margin-bottom:8px;">${players.length} players</div>
-              ${rosterHtml}
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+                <div style="font-size:14px;font-weight:700;color:#f0f1f3;">Rosters by Season</div>
+                ${rosterYearSelect}
+              </div>
+              ${seasonBlocks || `<div style="color:#5a6070;font-size:12px;">No roster history.</div>`}
             </div>
           </div>
 

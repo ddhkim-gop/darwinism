@@ -176,9 +176,13 @@ def build_draft(lg, players):
             selector = lg["uid_name"].get(pk.get("picked_by")) or owner
         else:
             # No slot map -> draft_order owns the slot; picked_by not trustworthy.
-            owner = lg["uid_name"].get(slot_to_uid.get(slot))
+            # A slot missing from draft_order = a since-deleted manager (e.g. 2024
+            # slot 6). Attribute ALL its picks to "Unknown" consistently rather than
+            # scattering them via the unreliable picked_by field.
+            uid = slot_to_uid.get(slot)
+            owner = (lg["uid_name"].get(uid) if uid else None) or "Unknown"
             selector = owner
-        original_owner = owner or lg["uid_name"].get(pk.get("picked_by"), "Unknown")
+        original_owner = owner or "Unknown"
         picked_by = selector or original_owner
         out.append({
             "pick_no": pk.get("pick_no"),
