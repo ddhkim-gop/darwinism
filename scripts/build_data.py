@@ -214,7 +214,6 @@ def build_rosters(lg, players):
                 "name": full_name(p),
                 "position": fmt_pos(p),
                 "team": p.get("team"),
-                "age": age_from(p.get("birth_date")),
                 "birth_date": p.get("birth_date"),
                 "college": p.get("college"),
                 "height": p.get("height"),

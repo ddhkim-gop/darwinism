@@ -216,21 +216,14 @@ def build_rosters(rosters_raw, rid_to_name, players):
             positions = p.get("fantasy_positions") or []
             pos = fmt_pos(p)
             birth = p.get("birth_date")
-            age = None
-            if birth:
-                try:
-                    bd = datetime.strptime(birth, "%Y-%m-%d")
-                    today = datetime.now()
-                    age = today.year - bd.year - ((today.month, today.day) < (bd.month, bd.day))
-                except ValueError:
-                    pass
+            # age is NOT baked — it drifts with the calendar (birthdays) and would
+            # trigger pushes unrelated to Sleeper data. Frontend derives it from birth_date.
             player_list.append({
                 "player_id": str(pid),
                 "espn_id": p.get("espn_id"),
                 "name": full_name,
                 "position": pos,
                 "team": p.get("team"),
-                "age": age,
                 "birth_date": birth,
                 "college": p.get("college"),
                 "height": p.get("height"),
@@ -296,26 +289,17 @@ def main():
     print("Fetching transactions...")
     txns_2026 = fetch_transactions(CURRENT_LEAGUE, CURRENT_YEAR, rid_to_name, players)
 
-    # For older years, include transactions already in data.js (don't re-fetch)
-    # Read existing data.js
+    # Read + parse the full data object. We rewrite the WHOLE file with the same
+    # formatting build_data.py uses (indent=2), so when nothing actually changed the
+    # output is byte-identical to what's on disk -> git sees no diff -> no commit.
     with open(DATA_JS) as f:
         content = f.read()
+    data = json.loads(content[content.index("{"):content.rindex("}") + 1])
 
-    # Extract existing transactions for older years
-    idx = content.find('"transactions"')
-    tx_start = content.index('[', idx)
-    depth = 0
-    for i in range(tx_start, len(content)):
-        if content[i] == '[': depth += 1
-        elif content[i] == ']':
-            depth -= 1
-            if depth == 0: tx_end = i + 1; break
-
-    existing_txns = json.loads(content[tx_start:tx_end])
-    old_txns = [t for t in existing_txns if t.get("season") != CURRENT_YEAR]
-
+    # Keep prior years' transactions as-is; refresh only the current year.
+    old_txns = [t for t in data.get("transactions", []) if t.get("season") != CURRENT_YEAR]
     all_txns = txns_2026 + old_txns
-
+    all_txns.sort(key=lambda x: int(x["transaction_id"]), reverse=True)  # match build_data ordering
     print(f"  {len(txns_2026)} {CURRENT_YEAR} transactions, {len(old_txns)} prior")
 
     print("Building enriched rosters...")
@@ -340,21 +324,18 @@ def main():
         })
     print(f"  {len(traded_picks)} traded picks")
 
-    # Inject into data.js
-    txns_json   = json.dumps(all_txns,    indent=4, ensure_ascii=False)
-    rosters_json = json.dumps(rosters,    indent=4, ensure_ascii=False)
-    picks_json   = json.dumps(traded_picks, indent=4, ensure_ascii=False)
+    # Update only the live sections, preserving key order, then re-dump the whole file.
+    data["transactions"] = all_txns
+    data["rosters"]      = rosters
+    data["traded_picks"] = traded_picks
+    new_content = "window.__STATIC_DATA__ = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
 
-    content, tx_changed    = inject_section(content, "transactions",  txns_json)
-    content, ros_changed   = inject_section(content, "rosters",       rosters_json)
-    content, picks_changed = inject_section(content, "traded_picks",  picks_json)
-
-    if not tx_changed and not ros_changed and not picks_changed:
+    if new_content == content:
         print("No changes detected.")
         sys.exit(1)   # signal to workflow: nothing to commit
 
     with open(DATA_JS, "w") as f:
-        f.write(content)
+        f.write(new_content)
 
     # Bump data.js version string in all HTML files so browsers re-fetch
     import glob, re as _re
@@ -371,11 +352,7 @@ def main():
     if bumped:
         print(f"  Bumped data.js version to {new_ver} in: {', '.join(sorted(bumped))}")
 
-    changes = []
-    if tx_changed:    changes.append(f"transactions ({len(txns_2026)} in {CURRENT_YEAR})")
-    if ros_changed:   changes.append("rosters")
-    if picks_changed: changes.append(f"traded_picks ({len(traded_picks)})")
-    print("Updated:", ", ".join(changes))
+    print(f"Updated: {len(txns_2026)} {CURRENT_YEAR} transactions, rosters, {len(traded_picks)} traded picks")
     sys.exit(0)   # signal to workflow: commit needed
 
 if __name__ == "__main__":
