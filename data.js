@@ -14299,21 +14299,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 24
         },
         {
-          "player_id": "4381",
-          "espn_id": 2468609,
-          "name": "Taysom Hill",
-          "position": "TE",
-          "team": null,
-          "birth_date": "1990-08-23",
-          "college": "BYU",
-          "height": "74",
-          "weight": "221",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 321
-        },
-        {
           "player_id": "4881",
           "espn_id": 3916387,
           "name": "Lamar Jackson",
@@ -14424,21 +14409,6 @@ window.__STATIC_DATA__ = {
           "name": "Denver Broncos",
           "position": "DEF",
           "team": "DEN",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "JAX",
-          "espn_id": null,
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -16363,6 +16333,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Jul 5, 2026 • 7:52 AM PT",
+      "transaction_id": "1379524423798759424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Jul 5, 2026 • 7:52 AM PT",
+      "transaction_id": "1379524351702867968",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Taysom Hill",
+          "position": "TE",
+          "team": null
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2025",
       "week": 17,
