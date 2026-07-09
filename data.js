@@ -14851,6 +14851,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 73
         },
         {
+          "player_id": "7569",
+          "espn_id": null,
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-03-19",
+          "college": "Michigan",
+          "height": "76",
+          "weight": "222",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 21
+        },
+        {
           "player_id": "8698",
           "espn_id": null,
           "name": "Jake Tonges",
@@ -15035,21 +15050,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 999
-        },
-        {
-          "player_id": "7569",
-          "espn_id": null,
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "1999-03-19",
-          "college": "Michigan",
-          "height": "76",
-          "weight": "222",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 21
         },
         {
           "player_id": "8146",
@@ -16333,6 +16333,35 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Jul 9, 2026 • 11:20 AM PT",
+      "transaction_id": "1381026362487209984",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "jonsung",
+        "spiffster"
+      ],
+      "assets_received": {
+        "jonsung": [
+          {
+            "name": "Nico Collins",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "spiffster": [
+          {
+            "name": "2026 Round 2",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "jonsung"
+          }
+        ]
+      }
+    },
     {
       "season": "2026",
       "week": 1,
@@ -161164,6 +161193,16 @@ window.__STATIC_DATA__ = {
       "owner_name": "spiffster",
       "original_owner_name": "sathwikn",
       "previous_owner_name": "sathwikn"
+    },
+    {
+      "season": "2026",
+      "round": 2,
+      "roster_id": "8",
+      "owner_id": "9",
+      "previous_owner_id": "8",
+      "owner_name": "spiffster",
+      "original_owner_name": "jonsung",
+      "previous_owner_name": "jonsung"
     },
     {
       "season": "2026",
