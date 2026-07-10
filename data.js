@@ -16336,6 +16336,62 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 1,
+      "created": "Jul 10, 2026 • 8:46 AM PT",
+      "transaction_id": "1381349967020445696",
+      "type": "commissioner",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Jul 10, 2026 • 8:42 AM PT",
+      "transaction_id": "1381348804296466432",
+      "type": "commissioner",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
       "created": "Jul 9, 2026 • 11:20 AM PT",
       "transaction_id": "1381026362487209984",
       "type": "trade",
