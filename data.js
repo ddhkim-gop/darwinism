@@ -13096,7 +13096,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 20
+          "search_rank": 24
         },
         {
           "player_id": "6786",
@@ -13111,7 +13111,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 11
+          "search_rank": 10
         },
         {
           "player_id": "6806",
@@ -13201,7 +13201,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 71
+          "search_rank": 87
         },
         {
           "player_id": "PHI",
@@ -13252,7 +13252,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 42
+          "search_rank": 46
         },
         {
           "player_id": "12518",
@@ -13267,7 +13267,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 57
+          "search_rank": 50
         },
         {
           "player_id": "12529",
@@ -13789,7 +13789,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 48
+          "search_rank": 41
         },
         {
           "player_id": "12533",
@@ -13909,7 +13909,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 109
+          "search_rank": 120
         },
         {
           "player_id": "9226",
@@ -14005,7 +14005,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 77
+          "search_rank": 76
         },
         {
           "player_id": "12474",
@@ -14170,7 +14170,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 99
+          "search_rank": 98
         },
         {
           "player_id": "NYG",
@@ -14236,7 +14236,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 20
         },
         {
           "player_id": "11631",
@@ -14296,7 +14296,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 24
+          "search_rank": 22
         },
         {
           "player_id": "4881",
@@ -14341,7 +14341,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 11
+          "search_rank": 9
         },
         {
           "player_id": "8126",
@@ -14437,7 +14437,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 143
+          "search_rank": 141
         },
         {
           "player_id": "11603",
@@ -14497,7 +14497,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 12,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 47
+          "search_rank": 57
         },
         {
           "player_id": "3257",
@@ -14848,22 +14848,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 73
-        },
-        {
-          "player_id": "7569",
-          "espn_id": null,
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "1999-03-19",
-          "college": "Michigan",
-          "height": "76",
-          "weight": "222",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 21
+          "search_rank": 71
         },
         {
           "player_id": "8698",
@@ -14929,7 +14914,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 119
+          "search_rank": 111
         },
         {
           "player_id": "12506",
@@ -15052,6 +15037,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 999
         },
         {
+          "player_id": "7569",
+          "espn_id": null,
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-03-19",
+          "college": "Michigan",
+          "height": "76",
+          "weight": "222",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 21
+        },
+        {
           "player_id": "8146",
           "espn_id": null,
           "name": "Garrett Wilson",
@@ -15109,7 +15109,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 44
         },
         {
           "player_id": "NE",
@@ -15175,7 +15175,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 122
+          "search_rank": 120
         },
         {
           "player_id": "11626",
@@ -15235,7 +15235,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 120
+          "search_rank": 132
         },
         {
           "player_id": "12476",
@@ -15325,7 +15325,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 83
+          "search_rank": 97
         },
         {
           "player_id": "7839",
@@ -15541,7 +15541,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 103
+          "search_rank": 113
         },
         {
           "player_id": "8122",
@@ -15586,7 +15586,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 162
+          "search_rank": 150
         },
         {
           "player_id": "9224",
@@ -15637,7 +15637,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 79
+          "search_rank": 76
         },
         {
           "player_id": "11620",
@@ -15652,7 +15652,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 48
+          "search_rank": 63
         },
         {
           "player_id": "11792",
@@ -15772,7 +15772,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 37
+          "search_rank": 41
         },
         {
           "player_id": "7611",
@@ -15802,7 +15802,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 67
+          "search_rank": 82
         },
         {
           "player_id": "8151",
@@ -16333,6 +16333,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Jul 15, 2026 • 8:41 AM PT",
+      "transaction_id": "1383160642176839680",
+      "type": "commissioner",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
@@ -161254,11 +161282,11 @@ window.__STATIC_DATA__ = {
       "season": "2026",
       "round": 2,
       "roster_id": "8",
-      "owner_id": "9",
-      "previous_owner_id": "8",
-      "owner_name": "spiffster",
+      "owner_id": "8",
+      "previous_owner_id": "9",
+      "owner_name": "jonsung",
       "original_owner_name": "jonsung",
-      "previous_owner_name": "jonsung"
+      "previous_owner_name": "spiffster"
     },
     {
       "season": "2026",
