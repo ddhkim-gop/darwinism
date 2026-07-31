@@ -14291,7 +14291,7 @@ window.__STATIC_DATA__ = {
           "team": "BAL",
           "birth_date": "1994-01-04",
           "college": "Alabama",
-          "height": "74",
+          "height": "75",
           "weight": "252",
           "years_exp": 10,
           "status": "Active",
