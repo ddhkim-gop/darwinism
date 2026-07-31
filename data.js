@@ -14996,7 +14996,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 3126486,
           "name": "Deebo Samuel",
           "position": "WR",
-          "team": null,
+          "team": "SF",
           "birth_date": "1996-01-15",
           "college": "South Carolina",
           "height": "72",
@@ -15004,7 +15004,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 79
+          "search_rank": 150
         },
         {
           "player_id": "6149",
