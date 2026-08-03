@@ -13201,7 +13201,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 87
+          "search_rank": 81
         },
         {
           "player_id": "PHI",
@@ -13774,7 +13774,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 86
+          "search_rank": 400
         },
         {
           "player_id": "12517",
@@ -13818,7 +13818,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61
         },
         {
