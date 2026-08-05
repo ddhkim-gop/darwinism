@@ -14169,7 +14169,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 98
         },
         {
@@ -14720,7 +14720,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 2976212,
           "name": "Stefon Diggs",
           "position": "WR",
-          "team": null,
+          "team": "WAS",
           "birth_date": "1993-11-29",
           "college": "Maryland",
           "height": "72",
@@ -14728,7 +14728,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 121
+          "search_rank": 116
         },
         {
           "player_id": "5045",
