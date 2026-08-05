@@ -617,7 +617,7 @@ async function init() {
             return `<div class="ros-year-block" data-year="${y}" style="display:${y === defaultRosterYear ? '' : 'none'};">
                 <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#3ecf8e;margin:2px 0 4px;">Start of Season · Drafted <span style="color:#5a6070;font-weight:600;">(${start.length})</span></div>
                 ${startHtml}
-                <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#818cf8;margin:18px 0 4px;padding-top:14px;border-top:1px solid #2d3139;">End of Season <span style="color:#5a6070;font-weight:600;">(${end.length})</span></div>
+                <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#818cf8;margin:18px 0 4px;padding-top:14px;border-top:1px solid #2d3139;">${y === "2026" ? "Current Roster" : "End of Season"} <span style="color:#5a6070;font-weight:600;">(${end.length})</span></div>
                 ${endHtml}
             </div>`;
         }).join("");
