@@ -13251,7 +13251,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 43
         },
         {
@@ -13614,7 +13614,7 @@ window.__STATIC_DATA__ = {
           "birth_date": "1996-09-13",
           "college": "Oregon",
           "height": "76",
-          "weight": "231",
+          "weight": "245",
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
