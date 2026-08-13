@@ -13013,7 +13013,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 2576925,
           "name": "Darren Waller",
           "position": "TE",
-          "team": null,
+          "team": "CAR",
           "birth_date": "1992-09-13",
           "college": "Georgia Tech",
           "height": "78",
@@ -13021,7 +13021,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 249
+          "search_rank": 999
         },
         {
           "player_id": "2747",
