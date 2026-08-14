@@ -13494,7 +13494,7 @@ window.__STATIC_DATA__ = {
           "birth_date": "2001-01-04",
           "college": "Virginia",
           "height": "68",
-          "weight": "195",
+          "weight": "192",
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
@@ -13920,7 +13920,7 @@ window.__STATIC_DATA__ = {
           "birth_date": "2001-10-13",
           "college": "Texas A&M",
           "height": "69",
-          "weight": "191",
+          "weight": "195",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
@@ -14154,7 +14154,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 2
         },
         {
