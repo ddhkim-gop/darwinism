@@ -14474,7 +14474,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 15818,
           "name": "Keenan Allen",
           "position": "WR",
-          "team": null,
+          "team": "IND",
           "birth_date": "1992-04-27",
           "college": "California",
           "height": "74",
@@ -14482,7 +14482,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 13,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 116
+          "search_rank": 205
         },
         {
           "player_id": "2216",
