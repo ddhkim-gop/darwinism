@@ -13424,7 +13424,7 @@ window.__STATIC_DATA__ = {
           "espn_id": null,
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE",
+          "team": "HOU",
           "birth_date": "2002-05-07",
           "college": "LSU",
           "height": "71",
