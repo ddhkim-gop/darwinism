@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260830a";
+import { api } from "./dataService.js?v=20260830b";
 import { renderNav } from "./components/nav.js";
 
 renderNav();
@@ -781,6 +781,230 @@ function generateSeasonRecap(year, s) {
         </div>`).join("");
 }
 
+// ── 2026 season preview ──────────────────────────────────────────────────────
+// The season hasn't been played, so there is nothing to recap. Project it
+// instead: build each team's best lineup from Sleeper's season projections, then
+// run the real schedule 10,000 times to get records, seeds and title odds.
+
+const PREVIEW_YEAR   = "2026";
+const REG_SEASON_END = 14;      // playoffs start week 15
+const PLAYOFF_TEAMS  = 6;
+const WEEKLY_SD      = 24;      // typical week-to-week spread of a fantasy lineup
+const NFL_WEEKS      = 17;
+const SIMS           = 10000;
+
+let previewData = null;   // {teams, schedule} once loaded
+
+const PV_SLOTS = [["QB",1],["RB",2],["WR",3],["TE",1],["K",1],["DEF",1]];
+const PV_FLEX  = ["RB","WR","TE"];
+
+function pvBasePos(p) { return (p || "").split("/")[0].toUpperCase(); }
+
+function pvBestLineup(players) {
+    const by = {};
+    players.forEach(x => { const p = pvBasePos(x.position); (by[p] = by[p] || []).push(x); });
+    Object.values(by).forEach(a => a.sort((x, y) => (y.proj || 0) - (x.proj || 0)));
+    const used = new Set();
+    let total = 0;
+    const slots = [];
+    PV_SLOTS.forEach(([pos, n]) => {
+        (by[pos] || []).slice(0, n).forEach(x => { total += x.proj || 0; used.add(x); slots.push(x); });
+    });
+    const flex = PV_FLEX.flatMap(pos => by[pos] || []).filter(x => !used.has(x))
+                        .sort((a, b) => (b.proj || 0) - (a.proj || 0))[0];
+    if (flex) { total += flex.proj || 0; used.add(flex); slots.push(flex); }
+    const bench = players.filter(x => !used.has(x)).sort((a, b) => (b.proj || 0) - (a.proj || 0));
+    return { total, slots, bench };
+}
+
+// Box-Muller, so a simulated week is a draw around the team's projected mean.
+function pvNormal() {
+    let u = 0, v = 0;
+    while (u === 0) u = Math.random();
+    while (v === 0) v = Math.random();
+    return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+}
+
+async function loadPreview() {
+    if (previewData) return previewData;
+    const [values, rosters, matchups] = await Promise.all([
+        api.getPlayerValues(PREVIEW_YEAR).catch(() => ({})),
+        api.getRosters(PREVIEW_YEAR).catch(() => []),
+        api.getMatchups(PREVIEW_YEAR).catch(() => ({})),
+    ]);
+    if (!rosters.length || !Object.keys(values).length) return null;
+
+    const teams = {};
+    rosters.forEach(r => {
+        const players = (r.players || []).map(p => ({
+            name: p.name, position: p.position, nfl: p.team,
+            proj: (values[p.player_id] || {}).proj || 0,
+        }));
+        const lineup = pvBestLineup(players);
+        teams[r.owner] = {
+            owner: r.owner,
+            season: lineup.total,
+            perWeek: lineup.total / NFL_WEEKS,
+            starters: lineup.slots.sort((a, b) => b.proj - a.proj),
+            bench: lineup.bench,
+            depth: lineup.bench.slice(0, 4).reduce((s, x) => s + x.proj, 0),
+        };
+    });
+
+    // Real schedule, weeks 1-14, as owner-name pairs.
+    const schedule = [];
+    for (let wk = 1; wk <= REG_SEASON_END; wk++) {
+        const games = (matchups[wk] || matchups[String(wk)] || [])
+            .filter(m => (m.teams || []).length === 2)
+            .map(m => [m.teams[0].owner, m.teams[1].owner]);
+        if (games.length) schedule.push(games);
+    }
+    previewData = { teams, schedule };
+    return previewData;
+}
+
+function simulateSeason(teams, schedule) {
+    const names = Object.keys(teams);
+    const agg = {};
+    names.forEach(n => { agg[n] = { wins: 0, pf: 0, playoffs: 0, bye: 0, finals: 0, titles: 0, seedSum: 0 }; });
+
+    const weekly = {};   // reused per sim
+    for (let s = 0; s < SIMS; s++) {
+        const w = {}, pf = {};
+        names.forEach(n => { w[n] = 0; pf[n] = 0; });
+        schedule.forEach(week => {
+            week.forEach(([a, b]) => {
+                if (!teams[a] || !teams[b]) return;
+                const sa = teams[a].perWeek + pvNormal() * WEEKLY_SD;
+                const sb = teams[b].perWeek + pvNormal() * WEEKLY_SD;
+                pf[a] += sa; pf[b] += sb;
+                if (sa >= sb) w[a]++; else w[b]++;
+            });
+        });
+        const seeded = names.slice().sort((x, y) => (w[y] - w[x]) || (pf[y] - pf[x]));
+        seeded.forEach((n, i) => {
+            agg[n].wins += w[n]; agg[n].pf += pf[n]; agg[n].seedSum += i + 1;
+            if (i < PLAYOFF_TEAMS) agg[n].playoffs++;
+            if (i < 2) agg[n].bye++;
+        });
+        // Bracket: 3v6 and 4v5, winners meet the byes, then the final.
+        const game = (a, b) => (teams[a].perWeek + pvNormal() * WEEKLY_SD >=
+                                teams[b].perWeek + pvNormal() * WEEKLY_SD) ? a : b;
+        const [s1, s2, s3, s4, s5, s6] = seeded;
+        const semiA = game(s1, game(s4, s5));
+        const semiB = game(s2, game(s3, s6));
+        agg[semiA].finals++; agg[semiB].finals++;
+        agg[game(semiA, semiB)].titles++;
+    }
+    return names.map(n => ({
+        owner: n,
+        proj: teams[n].season,
+        perWeek: teams[n].perWeek,
+        wins: agg[n].wins / SIMS,
+        pf: agg[n].pf / SIMS,
+        seed: agg[n].seedSum / SIMS,
+        playoffPct: agg[n].playoffs / SIMS,
+        byePct: agg[n].bye / SIMS,
+        finalsPct: agg[n].finals / SIMS,
+        titlePct: agg[n].titles / SIMS,
+        starters: teams[n].starters,
+        depth: teams[n].depth,
+    })).sort((a, b) => b.titlePct - a.titlePct || b.wins - a.wins);
+}
+
+function pvPredictionText(rows) {
+    const fav = rows[0], second = rows[1];
+    const byWins = rows.slice().sort((a, b) => b.wins - a.wins);
+    const last = byWins[byWins.length - 1];
+    const byPts = rows.slice().sort((a, b) => b.proj - a.proj);
+    const best = byPts[0];
+    const deepest = rows.slice().sort((a, b) => b.depth - a.depth)[0];
+    const bubble = rows.slice().sort((a, b) => Math.abs(a.playoffPct - 0.5) - Math.abs(b.playoffPct - 0.5))[0];
+    const stud = fav.starters[0];
+    const gap = Math.round(best.proj - byPts[byPts.length - 1].proj);
+
+    return `
+    <p><strong>${fav.owner} is the pick.</strong> A projected ${fav.proj.toFixed(0)} points of starting lineup
+    (${fav.perWeek.toFixed(1)} a week) wins the title in <strong>${(fav.titlePct*100).toFixed(0)}%</strong> of
+    10,000 simulated seasons and reaches the final in ${(fav.finalsPct*100).toFixed(0)}%.
+    ${stud ? `${stud.name} anchors it at ${Math.round(stud.proj)} projected points.` : ""}
+    ${second ? `${second.owner} is the closest challenger at ${(second.titlePct*100).toFixed(0)}%.` : ""}</p>
+
+    <p><strong>The spread is narrow.</strong> ${gap} points separate the best and worst projected lineups across a
+    full season — under ${(gap/NFL_WEEKS).toFixed(1)} points a week. In a league where a single lineup swings
+    ±${WEEKLY_SD} in any given week, that is close enough that ${rows.filter(r => r.playoffPct > 0.35 && r.playoffPct < 0.65).length}
+    teams are genuine coin flips for the ${PLAYOFF_TEAMS} playoff spots.</p>
+
+    <p><strong>Watch ${bubble.owner}</strong> — the truest bubble team at ${(bubble.playoffPct*100).toFixed(0)}% to
+    make the playoffs, and ${deepest.owner} has the most usable bench (${Math.round(deepest.depth)} projected points
+    in their top four reserves), which matters most in the weeks the byes and injuries land.</p>
+
+    <p><em>${last.owner} projects last at ${last.wins.toFixed(1)} wins, but ${(last.playoffPct*100).toFixed(0)}%
+    playoff odds means even the bottom of the board is not out of it. This is a projection, not a prophecy —
+    it uses preseason numbers and assumes every manager starts their best lineup and never touches the waiver wire.</em></p>`;
+}
+
+function renderPreview(rows) {
+    const pct = v => `${(v*100).toFixed(0)}%`;
+    const heat = v => v >= 0.66 ? "#3ecf8e" : v >= 0.33 ? "#f6ad55" : "#5a6070";
+
+    const table = `
+        <div class="card" style="padding:14px;background:#1e2027;border-color:#2d3139;">
+            <div class="sh-section-title">Projected Standings</div>
+            <table class="sh-table" style="width:100%;">
+                <thead><tr>
+                    <th style="width:20px;text-align:left;">#</th>
+                    <th style="text-align:left;">Team</th>
+                    <th>W-L</th><th>PF</th><th>Playoff</th><th>Title</th>
+                </tr></thead>
+                <tbody>
+                    ${rows.slice().sort((a,b) => b.wins - a.wins || b.pf - a.pf).map((r, i) => `
+                        <tr class="${i === 0 ? "champ-row" : i < PLAYOFF_TEAMS ? "playoff-row" : ""}">
+                            <td class="rank">${i+1}</td>
+                            <td style="text-align:left;font-weight:600;">
+                                <a href="team.html?team=${encodeURIComponent(r.owner)}" style="color:inherit;text-decoration:none;">${r.owner}</a>
+                            </td>
+                            <td>${r.wins.toFixed(1)}-${(REG_SEASON_END - r.wins).toFixed(1)}</td>
+                            <td>${Math.round(r.pf)}</td>
+                            <td style="color:${heat(r.playoffPct)};font-weight:600;">${pct(r.playoffPct)}</td>
+                            <td style="color:${heat(r.titlePct)};font-weight:600;">${pct(r.titlePct)}</td>
+                        </tr>`).join("")}
+                </tbody>
+            </table>
+            <div style="font-size:10px;color:#5a6070;margin-top:10px;line-height:1.5;">
+                10,000 Monte Carlo seasons over the real 14-week schedule. Each team's weekly score is drawn around
+                its projected best-lineup average with a ±${WEEKLY_SD} point spread; top ${PLAYOFF_TEAMS} seeds make
+                the playoffs, top 2 get a bye.
+            </div>
+        </div>`;
+
+    const favourite = rows[0];
+    const predCard = `
+        <div class="card" style="padding:16px 20px;background:#1e2027;border-color:#2d3139;">
+            <div class="sh-section-title">Prediction</div>
+            <div style="font-size:13px;color:#c9cdd4;line-height:1.7;">${pvPredictionText(rows)}</div>
+        </div>`;
+
+    return `
+        <div class="sh-year" data-year="${PREVIEW_YEAR}">
+            <div class="sh-year-header">
+                <div class="sh-year-title">${PREVIEW_YEAR}</div>
+                <div class="sh-place-badge" style="background:linear-gradient(135deg,#0f2027,#16323b);border:1px solid #38b2ac;color:#5eead4;">Season Preview</div>
+                <div class="sh-champion">🔮 ${favourite.owner} — ${(favourite.titlePct*100).toFixed(0)}% title odds</div>
+            </div>
+            <div class="sh-grid">
+                <div>${table}</div>
+                ${predCard}
+            </div>
+        </div>`;
+}
+
+async function previewHtml() {
+    const data = await loadPreview();
+    if (!data || !data.schedule.length) return "";
+    return renderPreview(simulateSeason(data.teams, data.schedule));
+}
+
 function renderSeason(year) {
     const s = allData[year];
     if (!s) return "";
@@ -899,10 +1123,15 @@ function renderSeason(year) {
     `;
 }
 
-function render(filterYear) {
+let previewCache = null;
+
+async function render(filterYear) {
     const board = document.getElementById("sh-board");
     const years = filterYear === "all" ? allSeasons : [filterYear];
-    board.innerHTML = years.map(renderSeason).join("");
+    const wantPreview = filterYear === "all" || filterYear === PREVIEW_YEAR;
+    if (wantPreview && previewCache === null) previewCache = await previewHtml();
+    const preview = wantPreview ? (previewCache || "") : "";
+    board.innerHTML = preview + years.filter(y => y !== PREVIEW_YEAR).map(renderSeason).join("");
 }
 
 async function init() {
@@ -982,6 +1211,7 @@ async function init() {
     <div class="filter-bar" style="margin-bottom:24px;">
         <select id="sh-select">
             <option value="all">All Years</option>
+            <option value="${PREVIEW_YEAR}">${PREVIEW_YEAR} (preview)</option>
             ${allSeasons.map(y => `<option value="${y}">${y}</option>`).join("")}
         </select>
     </div>
