@@ -6,7 +6,7 @@ updates data.js if anything changed.
 Exit code 0 = changes written; exit code 1 = no changes.
 """
 
-import json, re, sys, time
+import json, os, re, sys, time
 from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError
@@ -337,20 +337,10 @@ def main():
     with open(DATA_JS, "w") as f:
         f.write(new_content)
 
-    # Bump data.js version string in all HTML files so browsers re-fetch
-    import glob, re as _re
-    new_ver = datetime.now().strftime("%Y%m%d%H%M")
-    bumped = []
-    for html_path in glob.glob("*.html"):
-        with open(html_path) as f:
-            html = f.read()
-        new_html = _re.sub(r'data\.js\?v=[^"\']+', f'data.js?v={new_ver}', html)
-        if new_html != html:
-            with open(html_path, "w") as f:
-                f.write(new_html)
-            bumped.append(html_path)
-    if bumped:
-        print(f"  Bumped data.js version to {new_ver} in: {', '.join(sorted(bumped))}")
+    # One shared cache token across every versioned asset -- bumping only the
+    # data.js references is what let a changed script ship behind a stale URL.
+    import subprocess
+    subprocess.run([sys.executable, os.path.join("scripts", "bump_assets.py")], check=True)
 
     print(f"Updated: {len(txns_2026)} {CURRENT_YEAR} transactions, rosters, {len(traded_picks)} traded picks")
     sys.exit(0)   # signal to workflow: commit needed

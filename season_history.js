@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260830c";
+import { api } from "./dataService.js?v=202608302255";
 import { renderNav } from "./components/nav.js";
 
 renderNav();
@@ -841,13 +841,21 @@ async function loadPreview() {
             proj: (values[p.player_id] || {}).proj || 0,
         }));
         const lineup = pvBestLineup(players);
+        const group = {};
+        players.forEach(x => {
+            const pos = pvBasePos(x.position);
+            group[pos] = (group[pos] || 0) + (x.proj || 0);
+        });
+        const ranked = lineup.slots.slice().sort((a, b) => b.proj - a.proj);
         teams[r.owner] = {
             owner: r.owner,
             season: lineup.total,
             perWeek: lineup.total / NFL_WEEKS,
-            starters: lineup.slots.sort((a, b) => b.proj - a.proj),
+            starters: ranked,
+            weakest: ranked.filter(x => !["K","DEF"].includes(pvBasePos(x.position))).slice(-1)[0] || null,
             bench: lineup.bench,
             depth: lineup.bench.slice(0, 4).reduce((s, x) => s + x.proj, 0),
+            group,
         };
     });
 
@@ -908,42 +916,94 @@ function simulateSeason(teams, schedule) {
         finalsPct: agg[n].finals / SIMS,
         titlePct: agg[n].titles / SIMS,
         starters: teams[n].starters,
+        weakest: teams[n].weakest,
         depth: teams[n].depth,
+        group: teams[n].group,
     })).sort((a, b) => b.titlePct - a.titlePct || b.wins - a.wins);
 }
 
 function pvPredictionText(rows) {
-    const fav = rows[0], second = rows[1];
-    const byWins = rows.slice().sort((a, b) => b.wins - a.wins);
+    const pct  = v => `${(v*100).toFixed(0)}%`;
+    const name = x => x ? `<strong>${x.name}</strong>` : "";
+    const byWins  = rows.slice().sort((a, b) => b.wins - a.wins);
+    const byPts   = rows.slice().sort((a, b) => b.proj - a.proj);
+    const best = (pos) => rows.slice().sort((a, b) => (b.group[pos]||0) - (a.group[pos]||0))[0];
+    const topAt = (r, pos) => r.starters.find(x => pvBasePos(x.position) === pos);
+
+    const fav = rows[0], second = rows[1], third = rows[2];
     const last = byWins[byWins.length - 1];
-    const byPts = rows.slice().sort((a, b) => b.proj - a.proj);
-    const best = byPts[0];
+    const gap  = Math.round(byPts[0].proj - byPts[byPts.length - 1].proj);
+    const bubble  = rows.filter(r => r.playoffPct > 0.35 && r.playoffPct < 0.65);
     const deepest = rows.slice().sort((a, b) => b.depth - a.depth)[0];
-    const bubble = rows.slice().sort((a, b) => Math.abs(a.playoffPct - 0.5) - Math.abs(b.playoffPct - 0.5))[0];
-    const stud = fav.starters[0];
-    const gap = Math.round(best.proj - byPts[byPts.length - 1].proj);
+    const thinnest = rows.slice().sort((a, b) => a.depth - b.depth)[0];
+    // Strong roster, soft odds: the projection likes them more than the bracket does.
+    const unlucky = rows.slice().sort((a, b) =>
+        (byPts.indexOf(a) - rows.indexOf(a)) - (byPts.indexOf(b) - rows.indexOf(b)))[0];
+    const rbRoom = best("RB"), wrRoom = best("WR"), qbTeam = best("QB"), teTeam = best("TE");
+    const favStud = fav.starters[0];
 
     return `
-    <p><strong>${fav.owner} is the pick.</strong> A projected ${fav.proj.toFixed(0)} points of starting lineup
-    (${fav.perWeek.toFixed(1)} a week) wins the title in <strong>${(fav.titlePct*100).toFixed(0)}%</strong> of
-    10,000 simulated seasons and reaches the final in ${(fav.finalsPct*100).toFixed(0)}%.
-    ${stud ? `${stud.name} anchors it at ${Math.round(stud.proj)} projected points.` : ""}
-    ${second ? `${second.owner} is the closest challenger at ${(second.titlePct*100).toFixed(0)}%.` : ""}</p>
+    <h3 class="pv-h">The favourite, barely</h3>
+    <p>${fav.owner} comes out of the draft with the most complete roster in the league —
+    ${fav.proj.toFixed(0)} projected points of starting lineup, ${fav.perWeek.toFixed(1)} a week, and a
+    ${fav.wins.toFixed(1)}-win pace that leads every other team. ${name(favStud)} headlines it at
+    ${Math.round(favStud.proj)} projected points${fav.starters[1] ? `, with ${name(fav.starters[1])} behind him` : ""}.
+    That resume is worth <strong>${pct(fav.titlePct)}</strong> to win the thing and ${pct(fav.finalsPct)} to reach
+    the final — the best number on the board, and still a long way from a coronation. In a twelve-team league,
+    random chance alone hands you 8%. ${fav.owner} has bought about ${(fav.titlePct/(1/12)).toFixed(1)}× that.
+    Nobody should be printing banners.</p>
 
-    <p><strong>The spread is narrow.</strong> ${gap} points separate the best and worst projected lineups across a
-    full season — under ${(gap/NFL_WEEKS).toFixed(1)} points a week. In a league where a single lineup swings
-    ±${WEEKLY_SD} in any given week, that is close enough that ${rows.filter(r => r.playoffPct > 0.35 && r.playoffPct < 0.65).length}
-    teams are genuine coin flips for the ${PLAYOFF_TEAMS} playoff spots.</p>
+    <h3 class="pv-h">Who's actually chasing</h3>
+    <p>${second.owner} (${pct(second.titlePct)}) and ${third.owner} (${pct(third.titlePct)}) are close enough that
+    a single injury reorders the top of the league.
+    ${second.weakest ? `${second.owner}'s soft spot is ${name(second.weakest)} at ${Math.round(second.weakest.proj)} projected points —
+    the weakest link in an otherwise strong starting eleven.` : ""}
+    The real story is how little separates anyone: <strong>${gap} points</strong> divide the best and worst
+    projected lineups across an entire season, under ${(gap/NFL_WEEKS).toFixed(1)} a week. A fantasy lineup
+    routinely swings twenty-plus points in either direction on any given Sunday, which means the projected
+    ordering is a whisper, not a shout. ${bubble.length} teams sit between 35% and 65% to make the playoffs.</p>
 
-    <p><strong>Watch ${bubble.owner}</strong> — the truest bubble team at ${(bubble.playoffPct*100).toFixed(0)}% to
-    make the playoffs, and ${deepest.owner} has the most usable bench (${Math.round(deepest.depth)} projected points
-    in their top four reserves), which matters most in the weeks the byes and injuries land.</p>
+    <h3 class="pv-h">Positional battlegrounds</h3>
+    <p>${rbRoom.owner} owns the deepest backfield at ${Math.round(rbRoom.group.RB || 0)} projected points of running
+    back${topAt(rbRoom,"RB") ? `, fronted by ${name(topAt(rbRoom,"RB"))}` : ""} — in a league that starts two plus a
+    flex, that is the position most likely to decide a title.
+    ${wrRoom.owner} counters with the best receiving corps at ${Math.round(wrRoom.group.WR || 0)} points${topAt(wrRoom,"WR") ? ` behind ${name(topAt(wrRoom,"WR"))}` : ""}.
+    ${qbTeam.owner} has the quarterback edge${topAt(qbTeam,"QB") ? ` in ${name(topAt(qbTeam,"QB"))} (${Math.round(topAt(qbTeam,"QB").proj)})` : ""},
+    though single-QB scoring caps how much that is worth.
+    ${teTeam.owner} took the tight end premium seriously${topAt(teTeam,"TE") ? ` with ${name(topAt(teTeam,"TE"))}` : ""},
+    which in a one-TE league is a weekly edge over half the field rather than a luxury.</p>
 
-    <p><em>${last.owner} projects last at ${last.wins.toFixed(1)} wins, but ${(last.playoffPct*100).toFixed(0)}%
-    playoff odds means even the bottom of the board is not out of it. This is a projection, not a prophecy —
-    it uses preseason numbers and assumes every manager starts their best lineup and never touches the waiver wire.</em></p>`;
+    <h3 class="pv-h">Depth is the tiebreaker</h3>
+    <p>Everyone's starters look fine in August. The separation arrives in weeks 5 through 12, when byes stack and
+    the injury report gets long. ${deepest.owner} is best equipped for it — ${Math.round(deepest.depth)} projected
+    points sitting on the bench in their top four reserves. ${thinnest.owner} is the opposite case at
+    ${Math.round(thinnest.depth)}, a starting lineup with very little behind it; one hamstring turns a playoff team
+    into a seller.</p>
+
+    <h3 class="pv-h">Two calls worth making</h3>
+    ${(() => {
+        const ptsRank = byPts.indexOf(unlucky) + 1;
+        const oddsRank = byWins.indexOf(unlucky) + 1;
+        // Only worth calling out when the schedule genuinely buries a good roster.
+        return oddsRank - ptsRank >= 2
+            ? `<p><strong>${unlucky.owner} is better than their seed.</strong> ${ordinal(ptsRank)} in raw
+               projected points but only ${ordinal(oddsRank)} in expected wins at ${pct(unlucky.playoffPct)}
+               to make the playoffs — that gap is the schedule, not the roster. Buy low if anyone in this league
+               reads the standings instead of the point totals.</p>`
+            : `<p><strong>Nobody is being robbed by the schedule.</strong> Every team's expected wins line up with
+               their projected points within a spot or two, so there is no hidden contender to buy low on. The
+               ordering you see is the ordering the rosters earned — which also means it moves the moment somebody
+               wins a waiver claim.</p>`;
+    })()}
+    <p><strong>${last.owner} is not done.</strong> Last in projected wins at ${last.wins.toFixed(1)}, and still
+    ${pct(last.playoffPct)} to make the playoffs. That is the point of a league bunched this tightly: the bottom
+    of the board sits roughly a coin flip away from the sixth seed.</p>
+
+    <p class="pv-caveat">Projections, not prophecy. These are preseason numbers, they assume every manager starts
+    their optimal lineup every week and never touches the waiver wire, and they know nothing about holdouts,
+    training-camp hype or the running back who breaks out in week 3. Half of what decides this season hasn't
+    happened yet.</p>`;
 }
-
 function renderPreview(rows) {
     const pct = v => `${(v*100).toFixed(0)}%`;
     const heat = v => v >= 0.66 ? "#3ecf8e" : v >= 0.33 ? "#f6ad55" : "#5a6070";
@@ -971,11 +1031,6 @@ function renderPreview(rows) {
                         </tr>`).join("")}
                 </tbody>
             </table>
-            <div style="font-size:10px;color:#5a6070;margin-top:10px;line-height:1.5;">
-                10,000 Monte Carlo seasons over the real 14-week schedule. Each team's weekly score is drawn around
-                its projected best-lineup average with a ±${WEEKLY_SD} point spread; top ${PLAYOFF_TEAMS} seeds make
-                the playoffs, top 2 get a bye.
-            </div>
         </div>`;
 
     const favourite = rows[0];
@@ -1185,6 +1240,11 @@ async function init() {
         /* The preview table carries four numeric columns instead of two, so it
            needs a wider left rail than a finished season's standings. */
         .sh-grid-preview { grid-template-columns:400px 1fr; }
+        .pv-h { font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:#5eead4;
+                font-weight:700; margin:20px 0 8px; }
+        .pv-h:first-child { margin-top:0; }
+        .pv-caveat { color:#8b9099; font-style:italic; font-size:12px; border-top:1px solid #2d3139;
+                     padding-top:12px; margin-top:20px; }
         .sh-grid-preview .sh-table td, .sh-grid-preview .sh-table th { padding:6px 4px; }
         .sh-grid > * { min-width:0; }
         .sh-section-title {
