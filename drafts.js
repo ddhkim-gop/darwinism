@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260830b";
+import { api } from "./dataService.js?v=20260830c";
 import { renderNav } from "./components/nav.js";
 
 function el(id) {
