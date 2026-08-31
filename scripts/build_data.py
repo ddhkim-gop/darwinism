@@ -121,6 +121,10 @@ def load_league(year, lid):
     draft_obj = drafts[0] if drafts else None
     draft_picks = []
     if draft_obj:
+        # The /drafts list returns a trimmed draft object with no slot_to_roster_id;
+        # only /draft/{id} carries it, and without it traded picks get attributed to
+        # the slot's original owner.
+        draft_obj = fetch(f"https://api.sleeper.app/v1/draft/{draft_obj['draft_id']}") or draft_obj
         draft_picks = fetch(f"https://api.sleeper.app/v1/draft/{draft_obj['draft_id']}/picks") or []
 
     # Brackets
@@ -147,7 +151,9 @@ def load_league(year, lid):
 def build_draft(lg, players):
     """Return list of pick dicts matching GoP draft shape (+ is_keeper).
 
-    Slot ownership is authoritative via slot_to_roster_id when present; otherwise
+    Slot ownership comes from slot_to_roster_id when present (with the pick's
+    roster_id naming who actually drafted, so traded picks land on the right team);
+    otherwise
     we fall back to draft_order (user_id -> slot). This league's historical drafts
     have no slot_to_roster_id and their per-pick `picked_by` is unreliable (e.g.
     2020 pick 6 is attributed to ddhk though draft_order owns it to youngli), so we
@@ -157,7 +163,8 @@ def build_draft(lg, players):
     draft = lg["draft_obj"]
     if not draft or not lg["draft_picks"]:
         return []
-    slot_to_rid = {int(k): v for k, v in (draft.get("slot_to_roster_id") or {}).items()}
+    slot_to_rid = {int(k): v for k, v in (draft.get("slot_to_roster_id") or {}).items()
+                   if str(k).strip().isdigit() and v is not None}
     draft_order = draft.get("draft_order") or {}        # user_id -> slot
     slot_to_uid = {slot: uid for uid, slot in draft_order.items()}
     out = []
@@ -171,9 +178,13 @@ def build_draft(lg, players):
         team = meta.get("team") or p.get("team")
         slot = pk.get("draft_slot")
         if slot in slot_to_rid:
-            # Reliable slot->roster map: trust picked_by as the selector.
+            # Reliable slot->roster map: slot_to_roster_id is the ORIGINAL owner of
+            # the slot; the pick's own roster_id is the team that actually made the
+            # selection. On a traded pick those differ, and roster_id is the truth --
+            # Sleeper's `picked_by` tracks whoever was on the clock for the slot, so
+            # it still names the original owner and cannot be used here.
             owner = lg["rid_name"].get(slot_to_rid[slot])
-            selector = lg["uid_name"].get(pk.get("picked_by")) or owner
+            selector = lg["rid_name"].get(pk.get("roster_id")) or owner
         else:
             # No slot map -> draft_order owns the slot; picked_by not trustworthy.
             # A slot missing from draft_order = a since-deleted manager (e.g. 2024
