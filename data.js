@@ -13882,21 +13882,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
-          "player_id": "7090",
-          "espn_id": 4040655,
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "NYG",
-          "birth_date": "1997-10-29",
-          "college": "Tulane",
-          "height": "71",
-          "weight": "177",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 194
-        },
-        {
           "player_id": "8134",
           "espn_id": null,
           "name": "Khalil Shakir",
@@ -15234,7 +15219,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "search_rank": 169
         },
         {
@@ -16318,6 +16303,70 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 4:50 PM PT",
+      "transaction_id": "1399953564612173824",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "ddhk",
+        "Pkizzle3000"
+      ],
+      "assets_received": {
+        "Pkizzle3000": [
+          {
+            "name": "2026 Round 11",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "ddhk"
+          },
+          {
+            "name": "2026 Round 7",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "ddhk"
+          }
+        ],
+        "ddhk": [
+          {
+            "name": "2026 Round 10",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "Pkizzle3000"
+          },
+          {
+            "name": "2026 Round 9",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "Pkizzle3000"
+          }
+        ]
+      }
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 4:36 PM PT",
+      "transaction_id": "1399950066164215808",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
@@ -161265,6 +161314,46 @@ window.__STATIC_DATA__ = {
     }
   },
   "traded_picks": [
+    {
+      "season": "2026",
+      "round": 7,
+      "roster_id": "1",
+      "owner_id": "4",
+      "previous_owner_id": "1",
+      "owner_name": "Pkizzle3000",
+      "original_owner_name": "ddhk",
+      "previous_owner_name": "ddhk"
+    },
+    {
+      "season": "2026",
+      "round": 11,
+      "roster_id": "1",
+      "owner_id": "4",
+      "previous_owner_id": "1",
+      "owner_name": "Pkizzle3000",
+      "original_owner_name": "ddhk",
+      "previous_owner_name": "ddhk"
+    },
+    {
+      "season": "2026",
+      "round": 9,
+      "roster_id": "4",
+      "owner_id": "1",
+      "previous_owner_id": "4",
+      "owner_name": "ddhk",
+      "original_owner_name": "Pkizzle3000",
+      "previous_owner_name": "Pkizzle3000"
+    },
+    {
+      "season": "2026",
+      "round": 10,
+      "roster_id": "4",
+      "owner_id": "1",
+      "previous_owner_id": "4",
+      "owner_name": "ddhk",
+      "original_owner_name": "Pkizzle3000",
+      "previous_owner_name": "Pkizzle3000"
+    },
     {
       "season": "2026",
       "round": 8,
