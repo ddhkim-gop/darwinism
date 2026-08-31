@@ -212,8 +212,9 @@ def build_draft(lg, players):
 
 def build_keepers(cur, prev, players):
     """Keepers are free in this league (no round cost), so they never appear as
-    draft picks. Derive them: on the current roster, not drafted by that team
-    this year, and on the same manager's roster at the end of last season."""
+    draft picks. Derive them: on the roster as it stood when the draft ended, not
+    drafted by that team this year, and on the same manager's roster at the end of
+    last season."""
     drafted = {}
     for pk in (cur["draft_picks"] or []):
         drafted.setdefault(pk.get("roster_id"), set()).add(str(pk.get("player_id")))
@@ -221,11 +222,28 @@ def build_keepers(cur, prev, players):
     if prev:
         for r in prev["rosters"]:
             prev_by_owner[prev["rid_name"].get(r["roster_id"])] = {str(x) for x in (r.get("players") or [])}
+    txns = [t for wk in (cur.get("txns_raw") or {}).values() for t in wk
+            if t.get("status") == "complete"]
+    txns.sort(key=lambda t: t.get("status_updated") or t.get("created") or 0)
+
     out = {}
     for r in cur["rosters"]:
         owner = cur["rid_name"].get(r["roster_id"], "Unknown")
+        rid = r["roster_id"]
         held = {str(x) for x in (r.get("players") or [])}
-        kept = held - drafted.get(r["roster_id"], set())
+        # Rewind in reverse chronological order to recover the roster as it stood
+        # when the draft ended. Undo every add -- a player picked up after the draft
+        # is not a keeper even if he was on this roster last season (sathwikn re-signed
+        # Jauan Jennings off waivers). Restore drops only from trades, so a keeper
+        # dealt in week 1 comes back to the team that kept him (spiffster's Nico
+        # Collins) while a plain release stays gone: those are last season's leftovers
+        # being cleaned off the roster, never keepers (andyxia124 cut the Jaguars DEF
+        # and Taysom Hill, Pkizzle3000 cut Darnell Mooney, sathwikn cut AJ Barner).
+        for t in reversed(txns):
+            held -= {str(pid) for pid, x in (t.get("adds") or {}).items() if x == rid}
+            if t.get("type") == "trade":
+                held |= {str(pid) for pid, x in (t.get("drops") or {}).items() if x == rid}
+        kept = held - drafted.get(rid, set())
         if prev_by_owner:
             kept &= prev_by_owner.get(owner, set())
         rows = []

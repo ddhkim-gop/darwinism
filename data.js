@@ -164194,31 +164194,23 @@ window.__STATIC_DATA__ = {
           "years_exp": 6
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
-          "position": "RB",
-          "team": "SF",
-          "birth_date": "1996-06-07",
-          "years_exp": 9
-        },
-        {
           "player_id": "8138",
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
           "birth_date": "1999-09-25",
           "years_exp": 4
+        },
+        {
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "birth_date": "1996-06-07",
+          "years_exp": 9
         }
       ],
       "sallyyoon84": [
-        {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "birth_date": "2002-05-24",
-          "years_exp": 1
-        },
         {
           "player_id": "8150",
           "name": "Kyren Williams",
@@ -164226,6 +164218,14 @@ window.__STATIC_DATA__ = {
           "team": "LAR",
           "birth_date": "2000-08-26",
           "years_exp": 4
+        },
+        {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "birth_date": "2002-05-24",
+          "years_exp": 1
         },
         {
           "player_id": "6794",
@@ -164238,20 +164238,20 @@ window.__STATIC_DATA__ = {
       ],
       "Paul_Yoon": [
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
-          "birth_date": "2003-07-28",
-          "years_exp": 2
-        },
-        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
           "birth_date": "2000-04-22",
           "years_exp": 3
+        },
+        {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "birth_date": "2003-07-28",
+          "years_exp": 2
         },
         {
           "player_id": "9488",
@@ -164264,20 +164264,20 @@ window.__STATIC_DATA__ = {
       ],
       "Pkizzle3000": [
         {
-          "player_id": "9226",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "team": "MIA",
-          "birth_date": "2001-10-13",
-          "years_exp": 3
-        },
-        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
           "team": "CHI",
           "birth_date": "2004-04-09",
           "years_exp": 1
+        },
+        {
+          "player_id": "9226",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
+          "birth_date": "2001-10-13",
+          "years_exp": 3
         },
         {
           "player_id": "4866",
@@ -164298,30 +164298,30 @@ window.__STATIC_DATA__ = {
           "years_exp": 4
         },
         {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
-          "birth_date": "2002-03-20",
-          "years_exp": 3
-        },
-        {
           "player_id": "8144",
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
           "birth_date": "2000-06-27",
           "years_exp": 4
+        },
+        {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "birth_date": "2002-03-20",
+          "years_exp": 3
         }
       ],
       "andyxia124": [
         {
-          "player_id": "3198",
-          "name": "Derrick Henry",
-          "position": "RB",
-          "team": "BAL",
-          "birth_date": "1994-01-04",
-          "years_exp": 10
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "birth_date": "1999-10-24",
+          "years_exp": 5
         },
         {
           "player_id": "11604",
@@ -164332,12 +164332,12 @@ window.__STATIC_DATA__ = {
           "years_exp": 2
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "birth_date": "1999-10-24",
-          "years_exp": 5
+          "player_id": "3198",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1994-01-04",
+          "years_exp": 10
         }
       ],
       "sathwikn": [
@@ -164350,12 +164350,12 @@ window.__STATIC_DATA__ = {
           "years_exp": 4
         },
         {
-          "player_id": "7049",
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "years_exp": 6
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "birth_date": "2001-05-31",
+          "years_exp": 4
         },
         {
           "player_id": "5850",
@@ -164364,14 +164364,6 @@ window.__STATIC_DATA__ = {
           "team": "GB",
           "birth_date": "1998-02-11",
           "years_exp": 7
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "birth_date": "2001-05-31",
-          "years_exp": 4
         }
       ],
       "jonsung": [
@@ -164402,12 +164394,12 @@ window.__STATIC_DATA__ = {
       ],
       "spiffster": [
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "birth_date": "2002-01-30",
-          "years_exp": 3
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-03-19",
+          "years_exp": 5
         },
         {
           "player_id": "12527",
@@ -164418,21 +164410,21 @@ window.__STATIC_DATA__ = {
           "years_exp": 1
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "1999-03-19",
-          "years_exp": 5
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "birth_date": "2002-01-30",
+          "years_exp": 3
         }
       ],
       "edgxrjiang": [
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2001-11-11",
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "birth_date": "2002-08-19",
           "years_exp": 2
         },
         {
@@ -164444,23 +164436,15 @@ window.__STATIC_DATA__ = {
           "years_exp": 3
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "birth_date": "2002-08-19",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2001-11-11",
           "years_exp": 2
         }
       ],
       "danseung": [
-        {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2003-03-16",
-          "years_exp": 1
-        },
         {
           "player_id": "7564",
           "name": "Ja'Marr Chase",
@@ -164468,6 +164452,14 @@ window.__STATIC_DATA__ = {
           "team": "CIN",
           "birth_date": "2000-03-01",
           "years_exp": 5
+        },
+        {
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2003-03-16",
+          "years_exp": 1
         },
         {
           "player_id": "9224",
@@ -164479,6 +164471,14 @@ window.__STATIC_DATA__ = {
         }
       ],
       "eikichii952": [
+        {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "birth_date": "1996-05-21",
+          "years_exp": 8
+        },
         {
           "player_id": "8151",
           "name": "Kenneth Walker",
@@ -164494,14 +164494,6 @@ window.__STATIC_DATA__ = {
           "team": "PHI",
           "birth_date": "1998-11-14",
           "years_exp": 5
-        },
-        {
-          "player_id": "4984",
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
-          "birth_date": "1996-05-21",
-          "years_exp": 8
         }
       ]
     }
