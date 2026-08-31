@@ -199,6 +199,65 @@ def build_draft(lg, players):
     out.sort(key=lambda x: x["pick_no"] or 0)
     return out
 
+def build_keepers(cur, prev, players):
+    """Keepers are free in this league (no round cost), so they never appear as
+    draft picks. Derive them: on the current roster, not drafted by that team
+    this year, and on the same manager's roster at the end of last season."""
+    drafted = {}
+    for pk in (cur["draft_picks"] or []):
+        drafted.setdefault(pk.get("roster_id"), set()).add(str(pk.get("player_id")))
+    prev_by_owner = {}
+    if prev:
+        for r in prev["rosters"]:
+            prev_by_owner[prev["rid_name"].get(r["roster_id"])] = {str(x) for x in (r.get("players") or [])}
+    out = {}
+    for r in cur["rosters"]:
+        owner = cur["rid_name"].get(r["roster_id"], "Unknown")
+        held = {str(x) for x in (r.get("players") or [])}
+        kept = held - drafted.get(r["roster_id"], set())
+        if prev_by_owner:
+            kept &= prev_by_owner.get(owner, set())
+        rows = []
+        for pid in kept:
+            pl = players.get(pid)
+            if not pl:
+                continue
+            rows.append({
+                "player_id": pid,
+                "name": full_name(pl),
+                "position": fmt_pos(pl),
+                "team": pl.get("team"),
+                "birth_date": pl.get("birth_date"),
+                "years_exp": pl.get("years_exp"),
+            })
+        out[owner] = rows
+    return out
+
+
+def build_player_values(year):
+    """Sleeper season projections: half-PPR points + redraft ADP, keyed by player id."""
+    url = ("https://api.sleeper.com/projections/nfl/" + year +
+           "?season_type=regular&order_by=pts_half_ppr" +
+           "".join("&position[]=" + p for p in ("QB", "RB", "WR", "TE", "K", "DEF")))
+    rows = fetch(url) or []
+    out = {}
+    for row in rows:
+        pl = row.get("player") or {}
+        pid = str(pl.get("player_id") or row.get("player_id") or "")
+        st = row.get("stats") or {}
+        if not pid:
+            continue
+        pts = st.get("pts_half_ppr")
+        adp = st.get("adp_half_ppr")
+        if pts is None and adp is None:
+            continue
+        out[pid] = {
+            "proj": round(pts, 1) if pts is not None else None,
+            "adp": adp if (adp is not None and adp < 999) else None,
+        }
+    return out
+
+
 def build_rosters(lg, players):
     out = []
     for r in lg["rosters"]:
@@ -569,6 +628,11 @@ def main():
             if players.get(str(pid)):
                 pnm[full_name(players[str(pid)])] = str(pid)
 
+    # keepers (current season) + projection-based player values
+    prev_year = str(int(CURRENT_YEAR) - 1)
+    keepers = {CURRENT_YEAR: build_keepers(cur, leagues.get(prev_year), players)}
+    player_values = {CURRENT_YEAR: build_player_values(CURRENT_YEAR)}
+
     data = {
         "draft": draft,
         "rosters": rosters,
@@ -581,7 +645,8 @@ def main():
         "season_history": season_history,
         "divisions": divisions,
         "player_name_map": pnm,
-        "player_values": {},
+        "keepers": keepers,
+        "player_values": player_values,
     }
 
     write_data_js(data)
@@ -592,6 +657,8 @@ def main():
     print(f"  transactions: {len(all_txns)}")
     print(f"  league_users: {len(league_users)} ({sum(u['is_active'] for u in league_users)} active)")
     print(f"  traded_picks: {len(traded_picks)}")
+    print(f"  keepers: " + ", ".join(f"{k}:{len(v)}" for k, v in keepers.items()))
+    print(f"  player_values: " + ", ".join(f"{k}:{len(v)}" for k, v in player_values.items()))
 
 if __name__ == "__main__":
     main()

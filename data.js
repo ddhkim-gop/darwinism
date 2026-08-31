@@ -12971,6 +12971,2168 @@ window.__STATIC_DATA__ = {
         "is_keeper": false,
         "birth_date": "2001-06-15"
       }
+    ],
+    "2026": [
+      {
+        "pick_no": 1,
+        "round": 1,
+        "player": "A.J. Brown",
+        "position": "WR",
+        "team": "NE",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-06-30"
+      },
+      {
+        "pick_no": 2,
+        "round": 1,
+        "player": "Jeremiyah Love",
+        "position": "RB",
+        "team": "ARI",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2005-05-31"
+      },
+      {
+        "pick_no": 3,
+        "round": 1,
+        "player": "Javonte Williams",
+        "position": "RB",
+        "team": "DAL",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-04-25"
+      },
+      {
+        "pick_no": 4,
+        "round": 1,
+        "player": "DJ Moore",
+        "position": "WR",
+        "team": "BUF",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-04-14"
+      },
+      {
+        "pick_no": 5,
+        "round": 1,
+        "player": "George Pickens",
+        "position": "WR",
+        "team": "DAL",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-03-04"
+      },
+      {
+        "pick_no": 6,
+        "round": 1,
+        "player": "Garrett Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-07-22"
+      },
+      {
+        "pick_no": 7,
+        "round": 1,
+        "player": "Tee Higgins",
+        "position": "WR",
+        "team": "CIN",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-01-18"
+      },
+      {
+        "pick_no": 8,
+        "round": 1,
+        "player": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-01-07"
+      },
+      {
+        "pick_no": 9,
+        "round": 1,
+        "player": "Zay Flowers",
+        "position": "WR",
+        "team": "BAL",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-09-11"
+      },
+      {
+        "pick_no": 10,
+        "round": 1,
+        "player": "Emeka Egbuka",
+        "position": "WR",
+        "team": "TB",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-10-14"
+      },
+      {
+        "pick_no": 11,
+        "round": 1,
+        "player": "Tetairoa McMillan",
+        "position": "WR",
+        "team": "CAR",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-04-05"
+      },
+      {
+        "pick_no": 12,
+        "round": 1,
+        "player": "Jaylen Waddle",
+        "position": "WR",
+        "team": "DEN",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-11-25"
+      },
+      {
+        "pick_no": 13,
+        "round": 2,
+        "player": "Luther Burden",
+        "position": "WR",
+        "team": "CHI",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-12-12"
+      },
+      {
+        "pick_no": 14,
+        "round": 2,
+        "player": "Cam Skattebo",
+        "position": "RB",
+        "team": "NYG",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-02-05"
+      },
+      {
+        "pick_no": 15,
+        "round": 2,
+        "player": "Rome Odunze",
+        "position": "WR",
+        "team": "CHI",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-06-03"
+      },
+      {
+        "pick_no": 16,
+        "round": 2,
+        "player": "D'Andre Swift",
+        "position": "RB",
+        "team": "CHI",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-01-14"
+      },
+      {
+        "pick_no": 17,
+        "round": 2,
+        "player": "Jameson Williams",
+        "position": "WR",
+        "team": "DET",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-03-26"
+      },
+      {
+        "pick_no": 18,
+        "round": 2,
+        "player": "Bhayshul Tuten",
+        "position": "RB",
+        "team": "JAX",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-02-14"
+      },
+      {
+        "pick_no": 19,
+        "round": 2,
+        "player": "Quinshon Judkins",
+        "position": "RB",
+        "team": "CLE",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-10-29"
+      },
+      {
+        "pick_no": 20,
+        "round": 2,
+        "player": "Davante Adams",
+        "position": "WR",
+        "team": "LAR",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1992-12-24"
+      },
+      {
+        "pick_no": 21,
+        "round": 2,
+        "player": "Christian Watson",
+        "position": "WR",
+        "team": "GB",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-05-12"
+      },
+      {
+        "pick_no": 22,
+        "round": 2,
+        "player": "Jadarian Price",
+        "position": "RB",
+        "team": "SEA",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-10-09"
+      },
+      {
+        "pick_no": 23,
+        "round": 2,
+        "player": "TreVeyon Henderson",
+        "position": "RB",
+        "team": "NE",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-10-22"
+      },
+      {
+        "pick_no": 24,
+        "round": 2,
+        "player": "Terry McLaurin",
+        "position": "WR",
+        "team": "WAS",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-09-15"
+      },
+      {
+        "pick_no": 25,
+        "round": 3,
+        "player": "Marvin Harrison",
+        "position": "WR",
+        "team": "ARI",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-08-11"
+      },
+      {
+        "pick_no": 26,
+        "round": 3,
+        "player": "Parker Washington",
+        "position": "WR",
+        "team": "JAX",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-03-21"
+      },
+      {
+        "pick_no": 27,
+        "round": 3,
+        "player": "Carnell Tate",
+        "position": "WR",
+        "team": "TEN",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2005-01-19"
+      },
+      {
+        "pick_no": 28,
+        "round": 3,
+        "player": "Mike Evans",
+        "position": "WR",
+        "team": "SF",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1993-08-21"
+      },
+      {
+        "pick_no": 29,
+        "round": 3,
+        "player": "Tony Pollard",
+        "position": "RB",
+        "team": "TEN",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-04-30"
+      },
+      {
+        "pick_no": 30,
+        "round": 3,
+        "player": "Drake Maye",
+        "position": "QB",
+        "team": "NE",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-08-30"
+      },
+      {
+        "pick_no": 31,
+        "round": 3,
+        "player": "Harold Fannin",
+        "position": "TE",
+        "team": "CLE",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-07-20"
+      },
+      {
+        "pick_no": 32,
+        "round": 3,
+        "player": "Brian Thomas",
+        "position": "WR",
+        "team": "JAX",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-10-08"
+      },
+      {
+        "pick_no": 33,
+        "round": 3,
+        "player": "DK Metcalf",
+        "position": "WR",
+        "team": "PIT",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-12-14"
+      },
+      {
+        "pick_no": 34,
+        "round": 3,
+        "player": "Jalen Hurts",
+        "position": "QB",
+        "team": "PHI",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-08-07"
+      },
+      {
+        "pick_no": 35,
+        "round": 3,
+        "player": "Joe Burrow",
+        "position": "QB",
+        "team": "CIN",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1996-12-10"
+      },
+      {
+        "pick_no": 36,
+        "round": 3,
+        "player": "Kyle Pitts",
+        "position": "TE",
+        "team": "ATL",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-10-06"
+      },
+      {
+        "pick_no": 37,
+        "round": 4,
+        "player": "Rhamondre Stevenson",
+        "position": "RB",
+        "team": "NE",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-02-23"
+      },
+      {
+        "pick_no": 38,
+        "round": 4,
+        "player": "Jaylen Warren",
+        "position": "RB",
+        "team": "PIT",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-11-01"
+      },
+      {
+        "pick_no": 39,
+        "round": 4,
+        "player": "Courtland Sutton",
+        "position": "WR",
+        "team": "DEN",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-10-10"
+      },
+      {
+        "pick_no": 40,
+        "round": 4,
+        "player": "Jayden Daniels",
+        "position": "QB",
+        "team": "WAS",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-12-18"
+      },
+      {
+        "pick_no": 41,
+        "round": 4,
+        "player": "RJ Harvey",
+        "position": "RB",
+        "team": "DEN",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-02-04"
+      },
+      {
+        "pick_no": 42,
+        "round": 4,
+        "player": "Chuba Hubbard",
+        "position": "RB",
+        "team": "CAR",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-06-11"
+      },
+      {
+        "pick_no": 43,
+        "round": 4,
+        "player": "Tucker Kraft",
+        "position": "TE",
+        "team": "GB",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-11-03"
+      },
+      {
+        "pick_no": 44,
+        "round": 4,
+        "player": "Rico Dowdle",
+        "position": "RB",
+        "team": "PIT",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-06-14"
+      },
+      {
+        "pick_no": 45,
+        "round": 4,
+        "player": "Sam LaPorta",
+        "position": "TE",
+        "team": "DET",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-01-12"
+      },
+      {
+        "pick_no": 46,
+        "round": 4,
+        "player": "Jonathon Brooks",
+        "position": "RB",
+        "team": "CAR",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-07-21"
+      },
+      {
+        "pick_no": 47,
+        "round": 4,
+        "player": "Michael Wilson",
+        "position": "WR",
+        "team": "ARI",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-02-23"
+      },
+      {
+        "pick_no": 48,
+        "round": 4,
+        "player": "Kenny Gainwell",
+        "position": "RB",
+        "team": "TB",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-03-14"
+      },
+      {
+        "pick_no": 49,
+        "round": 5,
+        "player": "Jacory Croskey-Merritt",
+        "position": "RB",
+        "team": "WAS",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-04-12"
+      },
+      {
+        "pick_no": 50,
+        "round": 5,
+        "player": "Justin Herbert",
+        "position": "QB",
+        "team": "LAC",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-03-10"
+      },
+      {
+        "pick_no": 51,
+        "round": 5,
+        "player": "J.K. Dobbins",
+        "position": "RB",
+        "team": "DEN",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-12-17"
+      },
+      {
+        "pick_no": 52,
+        "round": 5,
+        "player": "Jordan Mason",
+        "position": "RB",
+        "team": "MIN",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-05-24"
+      },
+      {
+        "pick_no": 53,
+        "round": 5,
+        "player": "Blake Corum",
+        "position": "RB",
+        "team": "LAR",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-11-25"
+      },
+      {
+        "pick_no": 54,
+        "round": 5,
+        "player": "Jayden Reed",
+        "position": "WR",
+        "team": "GB",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-04-28"
+      },
+      {
+        "pick_no": 55,
+        "round": 5,
+        "player": "Caleb Williams",
+        "position": "QB",
+        "team": "CHI",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-11-18"
+      },
+      {
+        "pick_no": 56,
+        "round": 5,
+        "player": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-01-27"
+      },
+      {
+        "pick_no": 57,
+        "round": 5,
+        "player": "George Kittle",
+        "position": "TE",
+        "team": "SF",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1993-10-09"
+      },
+      {
+        "pick_no": 58,
+        "round": 5,
+        "player": "Quentin Johnston",
+        "position": "WR",
+        "team": "LAC",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-09-06"
+      },
+      {
+        "pick_no": 59,
+        "round": 5,
+        "player": "Makai Lemon",
+        "position": "WR",
+        "team": "PHI",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-06-02"
+      },
+      {
+        "pick_no": 60,
+        "round": 5,
+        "player": "Jordyn Tyson",
+        "position": "WR",
+        "team": "NO",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-08-12"
+      },
+      {
+        "pick_no": 61,
+        "round": 6,
+        "player": "Chris Godwin",
+        "position": "WR",
+        "team": "TB",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1996-02-27"
+      },
+      {
+        "pick_no": 62,
+        "round": 6,
+        "player": "Travis Kelce",
+        "position": "TE",
+        "team": "KC",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1989-10-05"
+      },
+      {
+        "pick_no": 63,
+        "round": 6,
+        "player": "Kyle Monangai",
+        "position": "RB",
+        "team": "CHI",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-06-06"
+      },
+      {
+        "pick_no": 64,
+        "round": 6,
+        "player": "Stefon Diggs",
+        "position": "WR",
+        "team": "WAS",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1993-11-29"
+      },
+      {
+        "pick_no": 65,
+        "round": 6,
+        "player": "De'Zhaun Stribling",
+        "position": "WR",
+        "team": "SF",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-12-18"
+      },
+      {
+        "pick_no": 66,
+        "round": 6,
+        "player": "Jake Ferguson",
+        "position": "TE",
+        "team": "DAL",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-01-18"
+      },
+      {
+        "pick_no": 67,
+        "round": 6,
+        "player": "Alec Pierce",
+        "position": "WR",
+        "team": "IND",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-05-02"
+      },
+      {
+        "pick_no": 68,
+        "round": 6,
+        "player": "Trevor Lawrence",
+        "position": "QB",
+        "team": "JAX",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-10-06"
+      },
+      {
+        "pick_no": 69,
+        "round": 6,
+        "player": "Dalton Kincaid",
+        "position": "TE",
+        "team": "BUF",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-10-18"
+      },
+      {
+        "pick_no": 70,
+        "round": 6,
+        "player": "Los Angeles Rams",
+        "position": "DEF",
+        "team": "LAR",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 71,
+        "round": 6,
+        "player": "Isaiah Likely",
+        "position": "TE",
+        "team": "NYG",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-04-18"
+      },
+      {
+        "pick_no": 72,
+        "round": 6,
+        "player": "Patrick Mahomes",
+        "position": "QB",
+        "team": "KC",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-09-17"
+      },
+      {
+        "pick_no": 73,
+        "round": 7,
+        "player": "Rachaad White",
+        "position": "RB",
+        "team": "WAS",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-01-12"
+      },
+      {
+        "pick_no": 74,
+        "round": 7,
+        "player": "Matthew Golden",
+        "position": "WR",
+        "team": "GB",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-08-01"
+      },
+      {
+        "pick_no": 75,
+        "round": 7,
+        "player": "Josh Downs",
+        "position": "WR",
+        "team": "IND",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-08-12"
+      },
+      {
+        "pick_no": 76,
+        "round": 7,
+        "player": "Aaron Jones",
+        "position": "RB",
+        "team": "MIN",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1994-12-02"
+      },
+      {
+        "pick_no": 77,
+        "round": 7,
+        "player": "KC Concepcion",
+        "position": "WR",
+        "team": "CLE",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-09-23"
+      },
+      {
+        "pick_no": 78,
+        "round": 7,
+        "player": "Michael Pittman",
+        "position": "WR",
+        "team": "PIT",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-10-05"
+      },
+      {
+        "pick_no": 79,
+        "round": 7,
+        "player": "Chris Rodriguez",
+        "position": "RB",
+        "team": "JAX",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-09-26"
+      },
+      {
+        "pick_no": 80,
+        "round": 7,
+        "player": "Houston Texans",
+        "position": "DEF",
+        "team": "HOU",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 81,
+        "round": 7,
+        "player": "Tyler Allgeier",
+        "position": "RB",
+        "team": "ARI",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-04-15"
+      },
+      {
+        "pick_no": 82,
+        "round": 7,
+        "player": "Jalen Coker",
+        "position": "WR",
+        "team": "CAR",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-10-30"
+      },
+      {
+        "pick_no": 83,
+        "round": 7,
+        "player": "Seattle Seahawks",
+        "position": "DEF",
+        "team": "SEA",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 84,
+        "round": 7,
+        "player": "Woody Marks",
+        "position": "RB",
+        "team": "HOU",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-12-29"
+      },
+      {
+        "pick_no": 85,
+        "round": 8,
+        "player": "MarShawn Lloyd",
+        "position": "RB",
+        "team": "GB",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-01-05"
+      },
+      {
+        "pick_no": 86,
+        "round": 8,
+        "player": "Wan'Dale Robinson",
+        "position": "WR",
+        "team": "TEN",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-01-05"
+      },
+      {
+        "pick_no": 87,
+        "round": 8,
+        "player": "Xavier Worthy",
+        "position": "WR",
+        "team": "KC",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-04-27"
+      },
+      {
+        "pick_no": 88,
+        "round": 8,
+        "player": "Deebo Samuel",
+        "position": "WR",
+        "team": "SF",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1996-01-15"
+      },
+      {
+        "pick_no": 89,
+        "round": 8,
+        "player": "Brandon Aubrey",
+        "position": "K",
+        "team": "DAL",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-03-14"
+      },
+      {
+        "pick_no": 90,
+        "round": 8,
+        "player": "Ja'Kobi Lane",
+        "position": "WR",
+        "team": "BAL",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-05-05"
+      },
+      {
+        "pick_no": 91,
+        "round": 8,
+        "player": "Jakobi Meyers",
+        "position": "WR",
+        "team": "JAX",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1996-11-09"
+      },
+      {
+        "pick_no": 92,
+        "round": 8,
+        "player": "Romeo Doubs",
+        "position": "WR",
+        "team": "NE",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-04-13"
+      },
+      {
+        "pick_no": 93,
+        "round": 8,
+        "player": "Jaxson Dart",
+        "position": "QB",
+        "team": "NYG",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-05-13"
+      },
+      {
+        "pick_no": 94,
+        "round": 8,
+        "player": "Dallas Goedert",
+        "position": "TE",
+        "team": "PHI",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-01-03"
+      },
+      {
+        "pick_no": 95,
+        "round": 8,
+        "player": "Mike Washington",
+        "position": "RB",
+        "team": "LV",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-07-03"
+      },
+      {
+        "pick_no": 96,
+        "round": 8,
+        "player": "Mark Andrews",
+        "position": "TE",
+        "team": "BAL",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-09-06"
+      },
+      {
+        "pick_no": 97,
+        "round": 9,
+        "player": "Zach Charbonnet",
+        "position": "RB",
+        "team": "SEA",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-01-08"
+      },
+      {
+        "pick_no": 98,
+        "round": 9,
+        "player": "Jonah Coleman",
+        "position": "RB",
+        "team": "DEN",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-08-20"
+      },
+      {
+        "pick_no": 99,
+        "round": 9,
+        "player": "Dak Prescott",
+        "position": "QB",
+        "team": "DAL",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1993-07-29"
+      },
+      {
+        "pick_no": 100,
+        "round": 9,
+        "player": "Tank Dell",
+        "position": "WR",
+        "team": "HOU",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-10-29"
+      },
+      {
+        "pick_no": 101,
+        "round": 9,
+        "player": "Tyrone Tracy",
+        "position": "RB",
+        "team": "NYG",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-11-23"
+      },
+      {
+        "pick_no": 102,
+        "round": 9,
+        "player": "Denver Broncos",
+        "position": "DEF",
+        "team": "DEN",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 103,
+        "round": 9,
+        "player": "Kenyon Sadiq",
+        "position": "TE",
+        "team": "NYJ",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2005-03-04"
+      },
+      {
+        "pick_no": 104,
+        "round": 9,
+        "player": "Tyjae Spears",
+        "position": "RB",
+        "team": "TEN",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-06-15"
+      },
+      {
+        "pick_no": 105,
+        "round": 9,
+        "player": "Hunter Henry",
+        "position": "TE",
+        "team": "NE",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1994-12-07"
+      },
+      {
+        "pick_no": 106,
+        "round": 9,
+        "player": "Kyler Murray",
+        "position": "QB",
+        "team": "MIN",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-08-07"
+      },
+      {
+        "pick_no": 107,
+        "round": 9,
+        "player": "Khalil Shakir",
+        "position": "WR",
+        "team": "BUF",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-02-03"
+      },
+      {
+        "pick_no": 108,
+        "round": 9,
+        "player": "Tank Bigsby",
+        "position": "RB",
+        "team": "PHI",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-08-30"
+      },
+      {
+        "pick_no": 109,
+        "round": 10,
+        "player": "Kaelon Black",
+        "position": "RB",
+        "team": "SF",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-10-17"
+      },
+      {
+        "pick_no": 110,
+        "round": 10,
+        "player": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-07-25"
+      },
+      {
+        "pick_no": 111,
+        "round": 10,
+        "player": "Minnesota Vikings",
+        "position": "DEF",
+        "team": "MIN",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 112,
+        "round": 10,
+        "player": "Brian Robinson",
+        "position": "RB",
+        "team": "ATL",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-03-22"
+      },
+      {
+        "pick_no": 113,
+        "round": 10,
+        "player": "Isiah Pacheco",
+        "position": "RB",
+        "team": "DET",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-03-02"
+      },
+      {
+        "pick_no": 114,
+        "round": 10,
+        "player": "Nicholas Singleton",
+        "position": "RB",
+        "team": "TEN",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-01-06"
+      },
+      {
+        "pick_no": 115,
+        "round": 10,
+        "player": "Denzel Boston",
+        "position": "WR",
+        "team": "CLE",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-12-06"
+      },
+      {
+        "pick_no": 116,
+        "round": 10,
+        "player": "Harrison Mevis",
+        "position": "K",
+        "team": "LAR",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-03-27"
+      },
+      {
+        "pick_no": 117,
+        "round": 10,
+        "player": "New England Patriots",
+        "position": "DEF",
+        "team": "NE",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 118,
+        "round": 10,
+        "player": "Keaton Mitchell",
+        "position": "RB",
+        "team": "LAC",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-01-17"
+      },
+      {
+        "pick_no": 119,
+        "round": 10,
+        "player": "Keenan Allen",
+        "position": "WR",
+        "team": "IND",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1992-04-27"
+      },
+      {
+        "pick_no": 120,
+        "round": 10,
+        "player": "Philadelphia Eagles",
+        "position": "DEF",
+        "team": "PHI",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 121,
+        "round": 11,
+        "player": "Tre Tucker",
+        "position": "WR",
+        "team": "LV",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-03-08"
+      },
+      {
+        "pick_no": 122,
+        "round": 11,
+        "player": "Rashid Shaheed",
+        "position": "WR",
+        "team": "SEA",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1998-08-31"
+      },
+      {
+        "pick_no": 123,
+        "round": 11,
+        "player": "Demond Claiborne",
+        "position": "RB",
+        "team": "MIN",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-10-09"
+      },
+      {
+        "pick_no": 124,
+        "round": 11,
+        "player": "Cameron Dicker",
+        "position": "K",
+        "team": "LAC",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-05-06"
+      },
+      {
+        "pick_no": 125,
+        "round": 11,
+        "player": "Detroit Lions",
+        "position": "DEF",
+        "team": "DET",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 126,
+        "round": 11,
+        "player": "Ka'imi Fairbairn",
+        "position": "K",
+        "team": "HOU",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1994-01-29"
+      },
+      {
+        "pick_no": 127,
+        "round": 11,
+        "player": "Jalen Nailor",
+        "position": "WR",
+        "team": "LV",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-03-02"
+      },
+      {
+        "pick_no": 128,
+        "round": 11,
+        "player": "Braelon Allen",
+        "position": "RB",
+        "team": "NYJ",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-01-20"
+      },
+      {
+        "pick_no": 129,
+        "round": 11,
+        "player": "Malik Washington",
+        "position": "WR",
+        "team": "MIA",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-01-04"
+      },
+      {
+        "pick_no": 130,
+        "round": 11,
+        "player": "Jaylen Wright",
+        "position": "RB",
+        "team": "MIA",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-04-01"
+      },
+      {
+        "pick_no": 131,
+        "round": 11,
+        "player": "Baltimore Ravens",
+        "position": "DEF",
+        "team": "BAL",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 132,
+        "round": 11,
+        "player": "Jacksonville Jaguars",
+        "position": "DEF",
+        "team": "JAX",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 133,
+        "round": 12,
+        "player": "Emmett Johnson",
+        "position": "RB",
+        "team": "KC",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-10-10"
+      },
+      {
+        "pick_no": 134,
+        "round": 12,
+        "player": "Brenton Strange",
+        "position": "TE",
+        "team": "JAX",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-12-27"
+      },
+      {
+        "pick_no": 135,
+        "round": 12,
+        "player": "Evan McPherson",
+        "position": "K",
+        "team": "CIN",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-07-21"
+      },
+      {
+        "pick_no": 136,
+        "round": 12,
+        "player": "Oronde Gadsden",
+        "position": "TE",
+        "team": "LAC",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-06-25"
+      },
+      {
+        "pick_no": 137,
+        "round": 12,
+        "player": "Dylan Sampson",
+        "position": "RB",
+        "team": "CLE",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-09-14"
+      },
+      {
+        "pick_no": 138,
+        "round": 12,
+        "player": "Matthew Stafford",
+        "position": "QB",
+        "team": "LAR",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1988-02-07"
+      },
+      {
+        "pick_no": 139,
+        "round": 12,
+        "player": "Omar Cooper",
+        "position": "WR",
+        "team": "NYJ",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-12-14"
+      },
+      {
+        "pick_no": 140,
+        "round": 12,
+        "player": "Cyrus Allen",
+        "position": "WR",
+        "team": "KC",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-02-11"
+      },
+      {
+        "pick_no": 141,
+        "round": 12,
+        "player": "Los Angeles Chargers",
+        "position": "DEF",
+        "team": "LAC",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 142,
+        "round": 12,
+        "player": "Malachi Fields",
+        "position": "WR",
+        "team": "NYG",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-08-26"
+      },
+      {
+        "pick_no": 143,
+        "round": 12,
+        "player": "Jason Myers",
+        "position": "K",
+        "team": "SEA",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1991-05-12"
+      },
+      {
+        "pick_no": 144,
+        "round": 12,
+        "player": "Jerry Jeudy",
+        "position": "WR",
+        "team": "CLE",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-04-24"
+      },
+      {
+        "pick_no": 145,
+        "round": 13,
+        "player": "Justice Hill",
+        "position": "RB",
+        "team": "BAL",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-11-14"
+      },
+      {
+        "pick_no": 146,
+        "round": 13,
+        "player": "Jalen McMillan",
+        "position": "WR",
+        "team": "TB",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-12-07"
+      },
+      {
+        "pick_no": 147,
+        "round": 13,
+        "player": "Cam Little",
+        "position": "K",
+        "team": "JAX",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-08-17"
+      },
+      {
+        "pick_no": 148,
+        "round": 13,
+        "player": "Caleb Douglas",
+        "position": "WR",
+        "team": "MIA",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-09-09"
+      },
+      {
+        "pick_no": 149,
+        "round": 13,
+        "player": "Travis Hunter",
+        "position": "WR",
+        "team": "JAX",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-05-18"
+      },
+      {
+        "pick_no": 150,
+        "round": 13,
+        "player": "James Conner",
+        "position": "RB",
+        "team": "ARI",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-05-05"
+      },
+      {
+        "pick_no": 151,
+        "round": 13,
+        "player": "Jake Bates",
+        "position": "K",
+        "team": "DET",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-03-03"
+      },
+      {
+        "pick_no": 152,
+        "round": 13,
+        "player": "Ray Davis",
+        "position": "RB",
+        "team": "BUF",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-11-11"
+      },
+      {
+        "pick_no": 153,
+        "round": 13,
+        "player": "Andy Borregales",
+        "position": "K",
+        "team": "NE",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-01-02"
+      },
+      {
+        "pick_no": 154,
+        "round": 13,
+        "player": "Chris Bell",
+        "position": "WR",
+        "team": "MIA",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-06-07"
+      },
+      {
+        "pick_no": 155,
+        "round": 13,
+        "player": "Will Reichard",
+        "position": "K",
+        "team": "MIN",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-01-09"
+      },
+      {
+        "pick_no": 156,
+        "round": 13,
+        "player": "Zachariah Branch",
+        "position": "WR",
+        "team": "ATL",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-03-29"
+      },
+      {
+        "pick_no": 157,
+        "round": 14,
+        "player": "Eddy Pineiro",
+        "position": "K",
+        "team": "SF",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-09-13"
+      },
+      {
+        "pick_no": 158,
+        "round": 14,
+        "player": "T.J. Hockenson",
+        "position": "TE",
+        "team": "MIN",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1997-07-03"
+      },
+      {
+        "pick_no": 159,
+        "round": 14,
+        "player": "Fernando Mendoza",
+        "position": "QB",
+        "team": "LV",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-10-01"
+      },
+      {
+        "pick_no": 160,
+        "round": 14,
+        "player": "Kayshon Boutte",
+        "position": "WR",
+        "team": "HOU",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-05-07"
+      },
+      {
+        "pick_no": 161,
+        "round": 14,
+        "player": "Chig Okonkwo",
+        "position": "TE",
+        "team": "WAS",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-09-08"
+      },
+      {
+        "pick_no": 162,
+        "round": 14,
+        "player": "Pittsburgh Steelers",
+        "position": "DEF",
+        "team": "PIT",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 163,
+        "round": 14,
+        "player": "Jayden Higgins",
+        "position": "WR",
+        "team": "HOU",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-12-15"
+      },
+      {
+        "pick_no": 164,
+        "round": 14,
+        "player": "Brock Purdy",
+        "position": "QB",
+        "team": "SF",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1999-12-27"
+      },
+      {
+        "pick_no": 165,
+        "round": 14,
+        "player": "Dontayvion Wicks",
+        "position": "WR",
+        "team": "PHI",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-06-16"
+      },
+      {
+        "pick_no": 166,
+        "round": 14,
+        "player": "Tre' Harris",
+        "position": "WR",
+        "team": "LAC",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-02-28"
+      },
+      {
+        "pick_no": 167,
+        "round": 14,
+        "player": "Germie Bernard",
+        "position": "WR",
+        "team": "PIT",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-12-02"
+      },
+      {
+        "pick_no": 168,
+        "round": 14,
+        "player": "Harrison Butker",
+        "position": "K",
+        "team": "KC",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1995-07-14"
+      },
+      {
+        "pick_no": 169,
+        "round": 15,
+        "player": "Jahan Dotson",
+        "position": "WR",
+        "team": "ATL",
+        "picked_by": "IconicJH",
+        "original_owner": "IconicJH",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-03-22"
+      },
+      {
+        "pick_no": 170,
+        "round": 15,
+        "player": "Kaytron Allen",
+        "position": "RB",
+        "team": "WAS",
+        "picked_by": "sathwikn",
+        "original_owner": "sathwikn",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2003-01-08"
+      },
+      {
+        "pick_no": 171,
+        "round": 15,
+        "player": "Juwan Johnson",
+        "position": "TE",
+        "team": "NO",
+        "picked_by": "Paul_Yoon",
+        "original_owner": "Paul_Yoon",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1996-09-13"
+      },
+      {
+        "pick_no": 172,
+        "round": 15,
+        "player": "Kimani Vidal",
+        "position": "RB",
+        "team": "LAC",
+        "picked_by": "spiffster",
+        "original_owner": "spiffster",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2001-08-28"
+      },
+      {
+        "pick_no": 173,
+        "round": 15,
+        "player": "AJ Barner",
+        "position": "TE",
+        "team": "SEA",
+        "picked_by": "sallyyoon84",
+        "original_owner": "sallyyoon84",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-05-03"
+      },
+      {
+        "pick_no": 174,
+        "round": 15,
+        "player": "Bo Nix",
+        "position": "QB",
+        "team": "DEN",
+        "picked_by": "danseung",
+        "original_owner": "danseung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2000-02-25"
+      },
+      {
+        "pick_no": 175,
+        "round": 15,
+        "player": "Jaydon Blue",
+        "position": "RB",
+        "team": "DAL",
+        "picked_by": "edgxrjiang",
+        "original_owner": "edgxrjiang",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2004-01-08"
+      },
+      {
+        "pick_no": 176,
+        "round": 15,
+        "player": "Adonai Mitchell",
+        "position": "WR",
+        "team": "NYJ",
+        "picked_by": "andyxia124",
+        "original_owner": "andyxia124",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-10-08"
+      },
+      {
+        "pick_no": 177,
+        "round": 15,
+        "player": "Dallas Cowboys",
+        "position": "DEF",
+        "team": "DAL",
+        "picked_by": "jonsung",
+        "original_owner": "jonsung",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": null
+      },
+      {
+        "pick_no": 178,
+        "round": 15,
+        "player": "David Njoku",
+        "position": "TE",
+        "team": "LAC",
+        "picked_by": "Pkizzle3000",
+        "original_owner": "Pkizzle3000",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1996-07-10"
+      },
+      {
+        "pick_no": 179,
+        "round": 15,
+        "player": "Jared Goff",
+        "position": "QB",
+        "team": "DET",
+        "picked_by": "eikichii952",
+        "original_owner": "eikichii952",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "1994-10-14"
+      },
+      {
+        "pick_no": 180,
+        "round": 15,
+        "player": "Pat Bryant",
+        "position": "WR",
+        "team": "DEN",
+        "picked_by": "ddhk",
+        "original_owner": "ddhk",
+        "traded": false,
+        "is_keeper": false,
+        "birth_date": "2002-12-10"
+      }
     ]
   },
   "rosters": [
@@ -12979,79 +15141,109 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "12526",
+          "player_id": "11581",
           "espn_id": null,
-          "name": "Tetairoa McMillan",
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "2001-01-05",
+          "college": "USC",
+          "height": "69",
+          "weight": "220",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 159
+        },
+        {
+          "player_id": "12492",
+          "espn_id": null,
+          "name": "Pat Bryant",
           "position": "WR",
-          "team": "CAR",
-          "birth_date": "2003-04-05",
-          "college": "Arizona",
-          "height": "77",
-          "weight": "212",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 37
-        },
-        {
-          "player_id": "12545",
-          "espn_id": null,
-          "name": "Tyler Shough",
-          "position": "QB",
-          "team": "NO",
-          "birth_date": "1999-09-28",
-          "college": "Louisville",
-          "height": "77",
-          "weight": "219",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 86
-        },
-        {
-          "player_id": "2505",
-          "espn_id": 2576925,
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "birth_date": "1992-09-13",
-          "college": "Georgia Tech",
-          "height": "78",
-          "weight": "245",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 398
-        },
-        {
-          "player_id": "2747",
-          "espn_id": 2473037,
-          "name": "Jason Myers",
-          "position": "K",
-          "team": "SEA",
-          "birth_date": "1991-05-12",
-          "college": "Marist",
-          "height": "70",
-          "weight": "190",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 126
-        },
-        {
-          "player_id": "3294",
-          "espn_id": 2577417,
-          "name": "Dak Prescott",
-          "position": "QB",
-          "team": "DAL",
-          "birth_date": "1993-07-29",
-          "college": "Mississippi State",
+          "team": "DEN",
+          "birth_date": "2002-12-10",
+          "college": "Illinois",
           "height": "74",
-          "weight": "230",
-          "years_exp": 10,
+          "weight": "204",
+          "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 42
+          "search_rank": 172
+        },
+        {
+          "player_id": "12519",
+          "espn_id": null,
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "birth_date": "2003-12-12",
+          "college": "Missouri",
+          "height": "72",
+          "weight": "210",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 40
+        },
+        {
+          "player_id": "13281",
+          "espn_id": null,
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO",
+          "birth_date": "2004-08-12",
+          "college": "Arizona State",
+          "height": "74",
+          "weight": "203",
+          "years_exp": 0,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 62
+        },
+        {
+          "player_id": "13320",
+          "espn_id": null,
+          "name": "Zachariah Branch",
+          "position": "WR",
+          "team": "ATL",
+          "birth_date": "2004-03-29",
+          "college": "Georgia",
+          "height": "70",
+          "weight": "180",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 185
+        },
+        {
+          "player_id": "13337",
+          "espn_id": null,
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
+          "birth_date": "2003-10-10",
+          "college": "Nebraska",
+          "height": "71",
+          "weight": "200",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 113
+        },
+        {
+          "player_id": "13414",
+          "espn_id": null,
+          "name": "Kaelon Black",
+          "position": "RB",
+          "team": "SF",
+          "birth_date": "2001-10-17",
+          "college": "Indiana",
+          "height": "70",
+          "weight": "208",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 178
         },
         {
           "player_id": "4034",
@@ -13069,34 +15261,49 @@ window.__STATIC_DATA__ = {
           "search_rank": 5
         },
         {
-          "player_id": "4943",
-          "espn_id": 3912547,
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA",
-          "birth_date": "1997-06-05",
-          "college": "USC",
-          "height": "75",
-          "weight": "225",
+          "player_id": "4037",
+          "espn_id": 3116165,
+          "name": "Chris Godwin",
+          "position": "WR",
+          "team": "TB",
+          "birth_date": "1996-02-27",
+          "college": "Penn State",
+          "height": "73",
+          "weight": "209",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 88
+        },
+        {
+          "player_id": "5189",
+          "espn_id": 4034949,
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "birth_date": "1995-09-13",
+          "college": "Florida",
+          "height": "71",
+          "weight": "190",
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 92
+          "search_rank": 174
         },
         {
-          "player_id": "5859",
-          "espn_id": 4047646,
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "1997-06-30",
-          "college": "Ole Miss",
-          "height": "73",
-          "weight": "226",
+          "player_id": "5849",
+          "espn_id": 3917315,
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
+          "birth_date": "1997-08-07",
+          "college": "Oklahoma",
+          "height": "70",
+          "weight": "207",
           "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 18
+          "search_rank": 93
         },
         {
           "player_id": "6786",
@@ -13114,19 +15321,265 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
-          "player_id": "6806",
-          "espn_id": 4241985,
-          "name": "J.K. Dobbins",
-          "position": "RB",
+          "player_id": "7526",
+          "espn_id": null,
+          "name": "Jaylen Waddle",
+          "position": "WR",
           "team": "DEN",
-          "birth_date": "1998-12-17",
-          "college": "Ohio State",
+          "birth_date": "1998-11-25",
+          "college": "Alabama",
           "height": "70",
-          "weight": "212",
-          "years_exp": 6,
+          "weight": "185",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 42
+        },
+        {
+          "player_id": "7553",
+          "espn_id": null,
+          "name": "Kyle Pitts",
+          "position": "TE",
+          "team": "ATL",
+          "birth_date": "2000-10-06",
+          "college": "Florida",
+          "height": "78",
+          "weight": "250",
+          "years_exp": 5,
           "status": "Active",
           "injury_status": null,
           "search_rank": 68
+        },
+        {
+          "player_id": "7611",
+          "espn_id": null,
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "birth_date": "1998-02-23",
+          "college": "Oklahoma",
+          "height": "72",
+          "weight": "227",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 58
+        },
+        {
+          "player_id": "8138",
+          "espn_id": null,
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "birth_date": "1999-09-25",
+          "college": "Georgia",
+          "height": "71",
+          "weight": "190",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 5
+        },
+        {
+          "player_id": "9225",
+          "espn_id": null,
+          "name": "Tank Bigsby",
+          "position": "RB",
+          "team": "PHI",
+          "birth_date": "2002-08-30",
+          "college": "Auburn",
+          "height": "71",
+          "weight": "215",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 147
+        },
+        {
+          "player_id": "MIN",
+          "espn_id": null,
+          "name": "Minnesota Vikings",
+          "position": "DEF",
+          "team": "MIN",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        }
+      ]
+    },
+    {
+      "owner": "sallyyoon84",
+      "roster_id": 2,
+      "players": [
+        {
+          "player_id": "11586",
+          "espn_id": null,
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "birth_date": "2000-11-25",
+          "college": "Michigan",
+          "height": "68",
+          "weight": "202",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 68
+        },
+        {
+          "player_id": "11603",
+          "espn_id": null,
+          "name": "AJ Barner",
+          "position": "TE",
+          "team": "SEA",
+          "birth_date": "2002-05-03",
+          "college": "Michigan",
+          "height": "78",
+          "weight": "251",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 126
+        },
+        {
+          "player_id": "11655",
+          "espn_id": null,
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "birth_date": "1999-11-23",
+          "college": "Purdue",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 110
+        },
+        {
+          "player_id": "12015",
+          "espn_id": null,
+          "name": "Harrison Mevis",
+          "position": "K",
+          "team": "LAR",
+          "birth_date": "2002-03-27",
+          "college": "Missouri",
+          "height": "72",
+          "weight": "245",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 152
+        },
+        {
+          "player_id": "12518",
+          "espn_id": null,
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "birth_date": "2002-05-24",
+          "college": "Penn State",
+          "height": "78",
+          "weight": "256",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 47
+        },
+        {
+          "player_id": "12530",
+          "espn_id": null,
+          "name": "Travis Hunter",
+          "position": "WR/DB",
+          "team": "JAX",
+          "birth_date": "2003-05-18",
+          "college": "Colorado",
+          "height": "73",
+          "weight": "185",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 114
+        },
+        {
+          "player_id": "13298",
+          "espn_id": null,
+          "name": "KC Concepcion",
+          "position": "WR",
+          "team": "CLE",
+          "birth_date": "2004-09-23",
+          "college": "Texas A&M",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 113
+        },
+        {
+          "player_id": "13413",
+          "espn_id": null,
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC",
+          "birth_date": "2003-02-11",
+          "college": "Cincinnati",
+          "height": "71",
+          "weight": "180",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 174
+        },
+        {
+          "player_id": "2133",
+          "espn_id": 16800,
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "1992-12-24",
+          "college": "Fresno State",
+          "height": "73",
+          "weight": "204",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 46
+        },
+        {
+          "player_id": "5967",
+          "espn_id": 3916148,
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "birth_date": "1997-04-30",
+          "college": "Memphis",
+          "height": "72",
+          "weight": "209",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 63
+        },
+        {
+          "player_id": "6794",
+          "espn_id": 4262921,
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1999-06-16",
+          "college": "LSU",
+          "height": "73",
+          "weight": "195",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 11
         },
         {
           "player_id": "7021",
@@ -13159,6 +15612,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
+          "player_id": "8121",
+          "espn_id": null,
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "2000-04-13",
+          "college": "Nevada",
+          "height": "74",
+          "weight": "210",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 117
+        },
+        {
           "player_id": "8137",
           "espn_id": null,
           "name": "George Pickens",
@@ -13172,237 +15640,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 24
-        },
-        {
-          "player_id": "8138",
-          "espn_id": null,
-          "name": "James Cook",
-          "position": "RB",
-          "team": "BUF",
-          "birth_date": "1999-09-25",
-          "college": "Georgia",
-          "height": "71",
-          "weight": "190",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 5
-        },
-        {
-          "player_id": "9487",
-          "espn_id": null,
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
-          "birth_date": "2002-03-21",
-          "college": "Penn State",
-          "height": "70",
-          "weight": "204",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 72
-        },
-        {
-          "player_id": "PHI",
-          "espn_id": null,
-          "name": "Philadelphia Eagles",
-          "position": "DEF",
-          "team": "PHI",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        }
-      ]
-    },
-    {
-      "owner": "sallyyoon84",
-      "roster_id": 2,
-      "players": [
-        {
-          "player_id": "12485",
-          "espn_id": null,
-          "name": "Tez Johnson",
-          "position": "WR",
-          "team": "TB",
-          "birth_date": "2002-05-18",
-          "college": "Oregon",
-          "height": "70",
-          "weight": "165",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 674
-        },
-        {
-          "player_id": "12514",
-          "espn_id": null,
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "birth_date": "2002-10-14",
-          "college": "Ohio State",
-          "height": "73",
-          "weight": "205",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 39
-        },
-        {
-          "player_id": "12518",
-          "espn_id": null,
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "birth_date": "2002-05-24",
-          "college": "Penn State",
-          "height": "78",
-          "weight": "256",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 47
-        },
-        {
-          "player_id": "12529",
-          "espn_id": null,
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "birth_date": "2002-10-22",
-          "college": "Ohio State",
-          "height": "70",
-          "weight": "202",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 39
-        },
-        {
-          "player_id": "12540",
-          "espn_id": null,
-          "name": "Chimere Dike",
-          "position": "WR",
-          "team": "TEN",
-          "birth_date": "2001-12-14",
-          "college": "Florida",
-          "height": "73",
-          "weight": "196",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 175
-        },
-        {
-          "player_id": "3214",
-          "espn_id": 3046439,
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "birth_date": "1994-12-07",
-          "college": "Arkansas",
-          "height": "77",
-          "weight": "249",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 92
-        },
-        {
-          "player_id": "3451",
-          "espn_id": 2971573,
-          "name": "Ka'imi Fairbairn",
-          "position": "K",
-          "team": "HOU",
-          "birth_date": "1994-01-29",
-          "college": "UCLA",
-          "height": "72",
-          "weight": "183",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 130
-        },
-        {
-          "player_id": "421",
-          "espn_id": 12483,
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "birth_date": "1988-02-07",
-          "college": "Georgia",
-          "height": "75",
-          "weight": "214",
-          "years_exp": 17,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 72
-        },
-        {
-          "player_id": "4892",
-          "espn_id": 3052587,
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "birth_date": "1995-04-14",
-          "college": "Oklahoma",
-          "height": "73",
-          "weight": "215",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 70
-        },
-        {
-          "player_id": "6790",
-          "espn_id": 4259545,
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
-          "birth_date": "1999-01-14",
-          "college": "Georgia",
-          "height": "68",
-          "weight": "204",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 47
-        },
-        {
-          "player_id": "6794",
-          "espn_id": 4262921,
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1999-06-16",
-          "college": "LSU",
-          "height": "73",
-          "weight": "195",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 11
-        },
-        {
-          "player_id": "8136",
-          "espn_id": null,
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS",
-          "birth_date": "1999-01-12",
-          "college": "Arizona State",
-          "height": "72",
-          "weight": "214",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 122
         },
         {
           "player_id": "8150",
@@ -13420,26 +15657,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 13
         },
         {
-          "player_id": "9504",
+          "player_id": "8183",
           "espn_id": null,
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-05-07",
-          "college": "LSU",
-          "height": "72",
-          "weight": "197",
-          "years_exp": 3,
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "birth_date": "1999-12-27",
+          "college": "Iowa State",
+          "height": "73",
+          "weight": "220",
+          "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 164
+          "search_rank": 49
         },
         {
-          "player_id": "ATL",
+          "player_id": "DET",
           "espn_id": null,
-          "name": "Atlanta Falcons",
+          "name": "Detroit Lions",
           "position": "DEF",
-          "team": "ATL",
+          "team": "DET",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -13471,34 +15708,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 28
         },
         {
-          "player_id": "11539",
+          "player_id": "11583",
           "espn_id": null,
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "birth_date": "1999-03-03",
-          "college": "Arkansas",
-          "height": "70",
-          "weight": "205",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 139
-        },
-        {
-          "player_id": "11610",
-          "espn_id": null,
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "birth_date": "2001-01-04",
-          "college": "Virginia",
-          "height": "68",
-          "weight": "192",
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR",
+          "birth_date": "2003-07-21",
+          "college": "Texas",
+          "height": "72",
+          "weight": "207",
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 175
+          "search_rank": 88
         },
         {
           "player_id": "11632",
@@ -13516,109 +15738,94 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "11647",
+          "player_id": "11786",
           "espn_id": null,
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2001-08-28",
-          "college": "Troy",
-          "height": "68",
-          "weight": "215",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "birth_date": "2003-08-17",
+          "college": "Arkansas",
+          "height": "73",
+          "weight": "172",
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 141
+          "search_rank": 135
         },
         {
-          "player_id": "12490",
+          "player_id": "12506",
           "espn_id": null,
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
-          "birth_date": "2003-02-14",
-          "college": "Virginia Tech",
-          "height": "69",
-          "weight": "209",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
+          "birth_date": "2004-07-20",
+          "college": "Bowling Green",
+          "height": "76",
+          "weight": "241",
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 44
+          "search_rank": 63
         },
         {
-          "player_id": "4098",
-          "espn_id": 3059915,
-          "name": "Kareem Hunt",
+          "player_id": "13279",
+          "espn_id": null,
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "birth_date": "2005-01-19",
+          "college": "Ohio State",
+          "height": "74",
+          "weight": "192",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 61
+        },
+        {
+          "player_id": "13286",
+          "espn_id": null,
+          "name": "Jadarian Price",
           "position": "RB",
-          "team": null,
-          "birth_date": "1995-08-06",
-          "college": "Toledo",
+          "team": "SEA",
+          "birth_date": "2003-10-09",
+          "college": "Notre Dame",
           "height": "71",
-          "weight": "216",
-          "years_exp": 9,
+          "weight": "209",
+          "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 242
+          "search_rank": 58
         },
         {
-          "player_id": "5848",
-          "espn_id": 4241372,
-          "name": "Marquise Brown",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "1997-06-04",
-          "college": "Oklahoma",
-          "height": "69",
-          "weight": "170",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 685
-        },
-        {
-          "player_id": "6271",
-          "espn_id": 3917914,
-          "name": "Olamide Zaccheaus",
-          "position": "WR",
-          "team": "ATL",
-          "birth_date": "1997-07-23",
-          "college": "Virginia",
-          "height": "68",
-          "weight": "194",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 698
-        },
-        {
-          "player_id": "6797",
-          "espn_id": 4038941,
-          "name": "Justin Herbert",
+          "player_id": "3294",
+          "espn_id": 2577417,
+          "name": "Dak Prescott",
           "position": "QB",
-          "team": "LAC",
-          "birth_date": "1998-03-10",
-          "college": "Oregon",
-          "height": "78",
-          "weight": "236",
-          "years_exp": 6,
+          "team": "DAL",
+          "birth_date": "1993-07-29",
+          "college": "Mississippi State",
+          "height": "74",
+          "weight": "230",
+          "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 31
+          "search_rank": 42
         },
         {
-          "player_id": "7002",
-          "espn_id": 3929645,
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "birth_date": "1996-09-13",
-          "college": "Oregon",
-          "height": "76",
-          "weight": "245",
+          "player_id": "6806",
+          "espn_id": 4241985,
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "birth_date": "1998-12-17",
+          "college": "Ohio State",
+          "height": "70",
+          "weight": "212",
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 103
+          "search_rank": 68
         },
         {
           "player_id": "7588",
@@ -13636,34 +15843,34 @@ window.__STATIC_DATA__ = {
           "search_rank": 32
         },
         {
-          "player_id": "8110",
+          "player_id": "8167",
           "espn_id": null,
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "birth_date": "1999-01-18",
-          "college": "Wisconsin",
-          "height": "77",
-          "weight": "250",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "birth_date": "1999-05-12",
+          "college": "North Dakota State",
+          "height": "76",
+          "weight": "215",
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 97
+          "search_rank": 64
         },
         {
-          "player_id": "8183",
+          "player_id": "8408",
           "espn_id": null,
-          "name": "Brock Purdy",
-          "position": "QB",
-          "team": "SF",
-          "birth_date": "1999-12-27",
-          "college": "Iowa State",
-          "height": "73",
-          "weight": "220",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
+          "birth_date": "1999-05-24",
+          "college": "Georgia Tech",
+          "height": "71",
+          "weight": "230",
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 98
         },
         {
           "player_id": "9488",
@@ -13681,11 +15888,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 7
         },
         {
-          "player_id": "KC",
+          "player_id": "9500",
           "espn_id": null,
-          "name": "Kansas City Chiefs",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "birth_date": "2001-08-12",
+          "college": "North Carolina",
+          "height": "69",
+          "weight": "171",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 111
+        },
+        {
+          "player_id": "LAR",
+          "espn_id": null,
+          "name": "Los Angeles Rams",
           "position": "DEF",
-          "team": "KC",
+          "team": "LAR",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -13702,79 +15924,94 @@ window.__STATIC_DATA__ = {
       "roster_id": 4,
       "players": [
         {
-          "player_id": "10236",
+          "player_id": "11620",
           "espn_id": null,
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
-          "birth_date": "1999-10-18",
-          "college": "Utah",
-          "height": "75",
-          "weight": "246",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 81
-        },
-        {
-          "player_id": "11560",
-          "espn_id": null,
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "birth_date": "2001-11-18",
-          "college": "USC",
-          "height": "73",
-          "weight": "226",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 20
-        },
-        {
-          "player_id": "11563",
-          "espn_id": null,
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "birth_date": "2000-02-25",
-          "college": "Oregon",
-          "height": "74",
-          "weight": "217",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 43
-        },
-        {
-          "player_id": "11566",
-          "espn_id": null,
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
-          "birth_date": "2000-12-18",
-          "college": "LSU",
-          "height": "76",
-          "weight": "210",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 17
-        },
-        {
-          "player_id": "11638",
-          "espn_id": null,
-          "name": "Ricky Pearsall",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "SF",
-          "birth_date": "2000-09-09",
-          "college": "Florida",
-          "height": "73",
-          "weight": "189",
+          "team": "CHI",
+          "birth_date": "2002-06-03",
+          "college": "Washington",
+          "height": "75",
+          "weight": "214",
           "years_exp": 2,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 244
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 63
+        },
+        {
+          "player_id": "11624",
+          "espn_id": null,
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "birth_date": "2003-04-27",
+          "college": "Texas",
+          "height": "71",
+          "weight": "165",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 122
+        },
+        {
+          "player_id": "11643",
+          "espn_id": null,
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "team": "MIA",
+          "birth_date": "2003-04-01",
+          "college": "Tennessee",
+          "height": "70",
+          "weight": "205",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 174
+        },
+        {
+          "player_id": "11646",
+          "espn_id": null,
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "birth_date": "2001-10-30",
+          "college": "Holy Cross",
+          "height": "75",
+          "weight": "213",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 132
+        },
+        {
+          "player_id": "12474",
+          "espn_id": null,
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "birth_date": "2000-12-29",
+          "college": "USC",
+          "height": "70",
+          "weight": "208",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 105
+        },
+        {
+          "player_id": "12514",
+          "espn_id": null,
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "birth_date": "2002-10-14",
+          "college": "Ohio State",
+          "height": "73",
+          "weight": "205",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 39
         },
         {
           "player_id": "12517",
@@ -13792,21 +16029,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 36
         },
         {
-          "player_id": "12533",
-          "espn_id": null,
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "birth_date": "2001-04-12",
-          "college": "Arizona",
-          "height": "71",
-          "weight": "208",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 95
-        },
-        {
           "player_id": "12534",
           "espn_id": null,
           "name": "Kyle Monangai",
@@ -13822,19 +16044,49 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
-          "player_id": "4227",
-          "espn_id": 3055899,
-          "name": "Harrison Butker",
-          "position": "K",
-          "team": "KC",
-          "birth_date": "1995-07-14",
-          "college": "Georgia Tech",
+          "player_id": "13269",
+          "espn_id": null,
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "team": "LV",
+          "birth_date": "2003-10-01",
+          "college": "Indiana",
+          "height": "77",
+          "weight": "225",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 90
+        },
+        {
+          "player_id": "13311",
+          "espn_id": null,
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2004-06-07",
+          "college": "Louisville",
+          "height": "74",
+          "weight": "228",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 203
+        },
+        {
+          "player_id": "4033",
+          "espn_id": 3123076,
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "LAC",
+          "birth_date": "1996-07-10",
+          "college": "Miami (FL)",
           "height": "76",
-          "weight": "205",
+          "weight": "246",
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 155
+          "search_rank": 131
         },
         {
           "player_id": "4866",
@@ -13852,49 +16104,49 @@ window.__STATIC_DATA__ = {
           "search_rank": 11
         },
         {
-          "player_id": "5846",
-          "espn_id": 4047650,
-          "name": "DK Metcalf",
+          "player_id": "5045",
+          "espn_id": 3128429,
+          "name": "Courtland Sutton",
           "position": "WR",
-          "team": "PIT",
-          "birth_date": "1997-12-14",
-          "college": "Ole Miss",
+          "team": "DEN",
+          "birth_date": "1995-10-10",
+          "college": "SMU",
           "height": "76",
-          "weight": "235",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 73
-        },
-        {
-          "player_id": "5927",
-          "espn_id": 3121422,
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "birth_date": "1995-09-15",
-          "college": "Ohio State",
-          "height": "72",
-          "weight": "210",
-          "years_exp": 7,
+          "weight": "216",
+          "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 53
+          "search_rank": 72
         },
         {
-          "player_id": "8134",
-          "espn_id": null,
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "birth_date": "2000-02-03",
-          "college": "Boise State",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 4,
+          "player_id": "6904",
+          "espn_id": 4040715,
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "birth_date": "1998-08-07",
+          "college": "Oklahoma",
+          "height": "73",
+          "weight": "223",
+          "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 120
+          "injury_status": null,
+          "search_rank": 30
+        },
+        {
+          "player_id": "7839",
+          "espn_id": null,
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "birth_date": "1999-07-21",
+          "college": "Florida",
+          "height": "71",
+          "weight": "185",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 162
         },
         {
           "player_id": "9226",
@@ -13912,11 +16164,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 8
         },
         {
-          "player_id": "DET",
+          "player_id": "9754",
           "espn_id": null,
-          "name": "Detroit Lions",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2001-09-06",
+          "college": "TCU",
+          "height": "74",
+          "weight": "208",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 106
+        },
+        {
+          "player_id": "JAX",
+          "espn_id": null,
+          "name": "Jacksonville Jaguars",
           "position": "DEF",
-          "team": "DET",
+          "team": "JAX",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -13948,36 +16215,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 183
         },
         {
-          "player_id": "10232",
-          "espn_id": null,
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "birth_date": "2000-02-23",
-          "college": "Stanford",
-          "height": "74",
-          "weight": "213",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 75
-        },
-        {
-          "player_id": "11564",
-          "espn_id": null,
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "birth_date": "2002-08-30",
-          "college": "North Carolina",
-          "height": "76",
-          "weight": "225",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 8
-        },
-        {
           "player_id": "11628",
           "espn_id": null,
           "name": "Marvin Harrison",
@@ -13993,94 +16230,124 @@ window.__STATIC_DATA__ = {
           "search_rank": 73
         },
         {
-          "player_id": "12474",
+          "player_id": "12533",
           "espn_id": null,
-          "name": "Woody Marks",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "HOU",
-          "birth_date": "2000-12-29",
-          "college": "USC",
-          "height": "70",
+          "team": "WAS",
+          "birth_date": "2001-04-12",
+          "college": "Arizona",
+          "height": "71",
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
-          "search_rank": 105
+          "injury_status": "Questionable",
+          "search_rank": 95
         },
         {
-          "player_id": "12519",
-          "espn_id": null,
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "birth_date": "2003-12-12",
-          "college": "Missouri",
-          "height": "72",
-          "weight": "210",
-          "years_exp": 1,
+          "player_id": "4046",
+          "espn_id": 3139477,
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "birth_date": "1995-09-17",
+          "college": "Texas Tech",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 9,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 40
+          "search_rank": 38
         },
         {
-          "player_id": "1339",
-          "espn_id": 15835,
-          "name": "Zach Ertz",
+          "player_id": "4227",
+          "espn_id": 3055899,
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC",
+          "birth_date": "1995-07-14",
+          "college": "Georgia Tech",
+          "height": "76",
+          "weight": "205",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 155
+        },
+        {
+          "player_id": "5012",
+          "espn_id": 3116365,
+          "name": "Mark Andrews",
           "position": "TE",
-          "team": null,
-          "birth_date": "1990-11-10",
-          "college": "Stanford",
+          "team": "BAL",
+          "birth_date": "1995-09-06",
+          "college": "Oklahoma",
           "height": "77",
           "weight": "250",
-          "years_exp": 13,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 275
-        },
-        {
-          "player_id": "1945",
-          "espn_id": 17372,
-          "name": "Chris Boswell",
-          "position": "K",
-          "team": "PIT",
-          "birth_date": "1991-03-16",
-          "college": "Rice",
-          "height": "74",
-          "weight": "185",
-          "years_exp": 12,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 151
-        },
-        {
-          "player_id": "4983",
-          "espn_id": 3915416,
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
-          "birth_date": "1997-04-14",
-          "college": "Maryland",
-          "height": "72",
-          "weight": "213",
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 56
+          "search_rank": 96
         },
         {
-          "player_id": "6770",
-          "espn_id": 3915511,
-          "name": "Joe Burrow",
-          "position": "QB",
-          "team": "CIN",
-          "birth_date": "1996-12-10",
-          "college": "LSU",
-          "height": "76",
-          "weight": "215",
+          "player_id": "5859",
+          "espn_id": 4047646,
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "1997-06-30",
+          "college": "Ole Miss",
+          "height": "73",
+          "weight": "226",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 18
+        },
+        {
+          "player_id": "5927",
+          "espn_id": 3121422,
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "1995-09-15",
+          "college": "Ohio State",
+          "height": "72",
+          "weight": "210",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 53
+        },
+        {
+          "player_id": "5995",
+          "espn_id": 4038441,
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1997-11-14",
+          "college": "Oklahoma State",
+          "height": "70",
+          "weight": "195",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 224
+        },
+        {
+          "player_id": "6783",
+          "espn_id": 4241463,
+          "name": "Jerry Jeudy",
+          "position": "WR",
+          "team": "CLE",
+          "birth_date": "1999-04-24",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "195",
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 16
+          "search_rank": 160
         },
         {
           "player_id": "7567",
@@ -14098,6 +16365,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 86
         },
         {
+          "player_id": "8119",
+          "espn_id": null,
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "team": "ATL",
+          "birth_date": "2000-03-22",
+          "college": "Penn State",
+          "height": "71",
+          "weight": "184",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 519
+        },
+        {
           "player_id": "8130",
           "espn_id": null,
           "name": "Trey McBride",
@@ -14111,6 +16393,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 22
+        },
+        {
+          "player_id": "8136",
+          "espn_id": null,
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "birth_date": "1999-01-12",
+          "college": "Arizona State",
+          "height": "72",
+          "weight": "214",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 122
         },
         {
           "player_id": "8144",
@@ -14143,26 +16440,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 2
         },
         {
-          "player_id": "9756",
+          "player_id": "9753",
           "espn_id": null,
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "2002-01-27",
-          "college": "USC",
-          "height": "71",
-          "weight": "179",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "birth_date": "2001-01-08",
+          "college": "UCLA",
+          "height": "73",
+          "weight": "220",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
-          "search_rank": 99
+          "injury_status": "PUP",
+          "search_rank": 101
         },
         {
-          "player_id": "NYG",
+          "player_id": "PHI",
           "espn_id": null,
-          "name": "New York Giants",
+          "name": "Philadelphia Eagles",
           "position": "DEF",
-          "team": "NYG",
+          "team": "PHI",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -14179,34 +16476,49 @@ window.__STATIC_DATA__ = {
       "roster_id": 6,
       "players": [
         {
-          "player_id": "11435",
+          "player_id": "11533",
           "espn_id": null,
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "birth_date": "1999-05-08",
-          "college": "Fort Valley State",
-          "height": "70",
-          "weight": "226",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "birth_date": "1995-03-14",
+          "college": "Notre Dame",
+          "height": "75",
+          "weight": "218",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 161
+          "injury_status": null,
+          "search_rank": 92
         },
         {
-          "player_id": "11586",
+          "player_id": "11575",
           "espn_id": null,
-          "name": "Blake Corum",
+          "name": "Ray Davis",
           "position": "RB",
-          "team": "LAR",
-          "birth_date": "2000-11-25",
-          "college": "Michigan",
+          "team": "BUF",
+          "birth_date": "1999-11-11",
+          "college": "Kentucky",
           "height": "68",
-          "weight": "202",
+          "weight": "211",
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 68
+          "search_rank": 167
+        },
+        {
+          "player_id": "11576",
+          "espn_id": null,
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "birth_date": "2004-01-20",
+          "college": "Wisconsin",
+          "height": "73",
+          "weight": "235",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 135
         },
         {
           "player_id": "11604",
@@ -14224,6 +16536,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 21
         },
         {
+          "player_id": "11625",
+          "espn_id": null,
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "birth_date": "2002-10-08",
+          "college": "Texas",
+          "height": "74",
+          "weight": "205",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 162
+        },
+        {
           "player_id": "11631",
           "espn_id": null,
           "name": "Brian Thomas",
@@ -14239,34 +16566,49 @@ window.__STATIC_DATA__ = {
           "search_rank": 72
         },
         {
-          "player_id": "11655",
+          "player_id": "12469",
           "espn_id": null,
-          "name": "Tyrone Tracy",
+          "name": "Dylan Sampson",
           "position": "RB",
-          "team": "NYG",
-          "birth_date": "1999-11-23",
-          "college": "Purdue",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 110
-        },
-        {
-          "player_id": "2020",
-          "espn_id": 17427,
-          "name": "Cairo Santos",
-          "position": "K",
-          "team": "CHI",
-          "birth_date": "1991-11-12",
-          "college": "Tulane",
+          "team": "CLE",
+          "birth_date": "2004-09-14",
+          "college": "Tennessee",
           "height": "68",
-          "weight": "173",
-          "years_exp": 12,
+          "weight": "200",
+          "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 190
+          "search_rank": 129
+        },
+        {
+          "player_id": "12489",
+          "espn_id": null,
+          "name": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
+          "birth_date": "2001-02-04",
+          "college": "UCF",
+          "height": "68",
+          "weight": "205",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 56
+        },
+        {
+          "player_id": "13417",
+          "espn_id": null,
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "2002-12-18",
+          "college": "Ole Miss",
+          "height": "74",
+          "weight": "207",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 120
         },
         {
           "player_id": "3198",
@@ -14299,21 +16641,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
-          "player_id": "5947",
-          "espn_id": 3916433,
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "birth_date": "1996-11-09",
-          "college": "North Carolina State",
-          "height": "74",
-          "weight": "200",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 77
-        },
-        {
           "player_id": "7547",
           "espn_id": null,
           "name": "Amon-Ra St. Brown",
@@ -14327,21 +16654,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 8
-        },
-        {
-          "player_id": "8126",
-          "espn_id": null,
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
-          "birth_date": "2001-01-05",
-          "college": "Kentucky",
-          "height": "68",
-          "weight": "185",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 105
         },
         {
           "player_id": "8148",
@@ -14359,41 +16671,71 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
-          "player_id": "8167",
+          "player_id": "8205",
           "espn_id": null,
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "birth_date": "1999-05-12",
-          "college": "North Dakota State",
-          "height": "76",
-          "weight": "215",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "DET",
+          "birth_date": "1999-03-02",
+          "college": "Rutgers",
+          "height": "70",
+          "weight": "210",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 151
+        },
+        {
+          "player_id": "8210",
+          "espn_id": null,
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "team": "WAS",
+          "birth_date": "1999-09-08",
+          "college": "Maryland",
+          "height": "75",
+          "weight": "238",
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 64
+          "search_rank": 137
         },
         {
-          "player_id": "9228",
+          "player_id": "9508",
           "espn_id": null,
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "birth_date": "2001-07-25",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "204",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "birth_date": "2001-06-15",
+          "college": "Tulane",
+          "height": "71",
+          "weight": "200",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 124
+          "search_rank": 122
         },
         {
-          "player_id": "DEN",
+          "player_id": "9756",
           "espn_id": null,
-          "name": "Denver Broncos",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "2002-01-27",
+          "college": "USC",
+          "height": "71",
+          "weight": "179",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 99
+        },
+        {
+          "player_id": "HOU",
+          "espn_id": null,
+          "name": "Houston Texans",
           "position": "DEF",
-          "team": "DEN",
+          "team": "HOU",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -14410,124 +16752,139 @@ window.__STATIC_DATA__ = {
       "roster_id": 7,
       "players": [
         {
-          "player_id": "10219",
+          "player_id": "10232",
           "espn_id": null,
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX",
-          "birth_date": "1999-09-26",
-          "college": "Kentucky",
-          "height": "71",
-          "weight": "224",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "birth_date": "2000-02-23",
+          "college": "Stanford",
+          "height": "74",
+          "weight": "213",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 128
+          "search_rank": 75
         },
         {
-          "player_id": "12484",
+          "player_id": "10859",
           "espn_id": null,
-          "name": "Jayden Higgins",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-12-15",
-          "college": "Iowa State",
-          "height": "76",
-          "weight": "215",
-          "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 126
-        },
-        {
-          "player_id": "1479",
-          "espn_id": 15818,
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "birth_date": "1992-04-27",
-          "college": "California",
-          "height": "74",
-          "weight": "211",
-          "years_exp": 13,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 178
-        },
-        {
-          "player_id": "2216",
-          "espn_id": 16737,
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1993-08-21",
-          "college": "Texas A&M",
-          "height": "77",
-          "weight": "231",
-          "years_exp": 12,
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "birth_date": "2001-01-12",
+          "college": "Iowa",
+          "height": "75",
+          "weight": "245",
+          "years_exp": 3,
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 60
         },
         {
-          "player_id": "3257",
-          "espn_id": 2578570,
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
-          "birth_date": "1992-12-11",
-          "college": "North Carolina State",
-          "height": "76",
-          "weight": "235",
-          "years_exp": 10,
+          "player_id": "11618",
+          "espn_id": null,
+          "name": "Jalen McMillan",
+          "position": "WR",
+          "team": "TB",
+          "birth_date": "2001-12-07",
+          "college": "Washington",
+          "height": "73",
+          "weight": "192",
+          "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
-          "search_rank": 181
+          "injury_status": "Questionable",
+          "search_rank": 165
         },
         {
-          "player_id": "4137",
-          "espn_id": 3045147,
-          "name": "James Conner",
+          "player_id": "12501",
+          "espn_id": null,
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "birth_date": "2003-08-01",
+          "college": "Texas",
+          "height": "71",
+          "weight": "191",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 119
+        },
+        {
+          "player_id": "12529",
+          "espn_id": null,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "birth_date": "2002-10-22",
+          "college": "Ohio State",
+          "height": "70",
+          "weight": "202",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 39
+        },
+        {
+          "player_id": "13274",
+          "espn_id": null,
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT",
+          "birth_date": "2003-12-02",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "206",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 194
+        },
+        {
+          "player_id": "13287",
+          "espn_id": null,
+          "name": "Jeremiyah Love",
           "position": "RB",
           "team": "ARI",
-          "birth_date": "1995-05-05",
-          "college": "Pittsburgh",
-          "height": "73",
-          "weight": "233",
-          "years_exp": 9,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 92
+          "birth_date": "2005-05-31",
+          "college": "Notre Dame",
+          "height": "72",
+          "weight": "212",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 15
         },
         {
-          "player_id": "5001",
-          "espn_id": 3117256,
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "birth_date": "1996-07-11",
-          "college": "Stanford",
-          "height": "77",
-          "weight": "242",
-          "years_exp": 8,
+          "player_id": "13345",
+          "espn_id": null,
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
+          "birth_date": "2003-08-20",
+          "college": "Washington",
+          "height": "68",
+          "weight": "220",
+          "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 98
+          "search_rank": 118
         },
         {
-          "player_id": "5022",
-          "espn_id": 3121023,
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
-          "birth_date": "1995-01-03",
-          "college": "South Dakota State",
-          "height": "77",
-          "weight": "256",
-          "years_exp": 8,
+          "player_id": "2747",
+          "espn_id": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "birth_date": "1991-05-12",
+          "college": "Marist",
+          "height": "70",
+          "weight": "190",
+          "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 94
+          "search_rank": 126
         },
         {
           "player_id": "5850",
@@ -14545,19 +16902,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 20
         },
         {
-          "player_id": "7049",
-          "espn_id": 3886598,
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "college": "Tennessee",
-          "height": "75",
-          "weight": "212",
+          "player_id": "6797",
+          "espn_id": 4038941,
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "birth_date": "1998-03-10",
+          "college": "Oregon",
+          "height": "78",
+          "weight": "236",
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 123
+          "search_rank": 31
         },
         {
           "player_id": "8112",
@@ -14575,19 +16932,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 18
         },
         {
-          "player_id": "8132",
+          "player_id": "8131",
           "espn_id": null,
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "birth_date": "2000-04-15",
-          "college": "BYU",
-          "height": "70",
-          "weight": "225",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
+          "birth_date": "2000-04-18",
+          "college": "Coastal Carolina",
+          "height": "76",
+          "weight": "241",
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 107
         },
         {
           "player_id": "8155",
@@ -14605,26 +16962,41 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "8259",
+          "player_id": "8676",
           "espn_id": null,
-          "name": "Cameron Dicker",
-          "position": "K",
-          "team": "LAC",
-          "birth_date": "2000-05-06",
-          "college": "Texas",
-          "height": "73",
-          "weight": "216",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA",
+          "birth_date": "1998-08-31",
+          "college": "Weber State",
+          "height": "72",
+          "weight": "180",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 118
+          "injury_status": null,
+          "search_rank": 147
         },
         {
-          "player_id": "SEA",
+          "player_id": "9487",
           "espn_id": null,
-          "name": "Seattle Seahawks",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "birth_date": "2002-03-21",
+          "college": "Penn State",
+          "height": "70",
+          "weight": "204",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 72
+        },
+        {
+          "player_id": "LAC",
+          "espn_id": null,
+          "name": "Los Angeles Chargers",
           "position": "DEF",
-          "team": "SEA",
+          "team": "LAC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -14641,49 +17013,64 @@ window.__STATIC_DATA__ = {
       "roster_id": 8,
       "players": [
         {
-          "player_id": "11533",
+          "player_id": "11566",
           "espn_id": null,
-          "name": "Brandon Aubrey",
-          "position": "K",
-          "team": "DAL",
-          "birth_date": "1995-03-14",
-          "college": "Notre Dame",
-          "height": "75",
-          "weight": "218",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 92
-        },
-        {
-          "player_id": "11625",
-          "espn_id": null,
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2002-10-08",
-          "college": "Texas",
-          "height": "74",
-          "weight": "205",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "birth_date": "2000-12-18",
+          "college": "LSU",
+          "height": "76",
+          "weight": "210",
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 162
+          "search_rank": 17
         },
         {
-          "player_id": "12469",
+          "player_id": "11610",
           "espn_id": null,
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2004-09-14",
-          "college": "Tennessee",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2001-01-04",
+          "college": "Virginia",
           "height": "68",
-          "weight": "200",
+          "weight": "192",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 175
+        },
+        {
+          "player_id": "12493",
+          "espn_id": null,
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC",
+          "birth_date": "2003-06-25",
+          "college": "Syracuse",
+          "height": "77",
+          "weight": "236",
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 129
+          "search_rank": 83
+        },
+        {
+          "player_id": "12713",
+          "espn_id": null,
+          "name": "Andy Borregales",
+          "position": "K",
+          "team": "NE",
+          "birth_date": "2003-01-02",
+          "college": "Miami (FL)",
+          "height": "71",
+          "weight": "202",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 157
         },
         {
           "player_id": "2449",
@@ -14701,19 +17088,64 @@ window.__STATIC_DATA__ = {
           "search_rank": 110
         },
         {
-          "player_id": "5045",
-          "espn_id": 3128429,
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "1995-10-10",
-          "college": "SMU",
-          "height": "76",
-          "weight": "216",
-          "years_exp": 8,
+          "player_id": "3214",
+          "espn_id": 3046439,
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "birth_date": "1994-12-07",
+          "college": "Arkansas",
+          "height": "77",
+          "weight": "249",
+          "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 72
+          "search_rank": 92
+        },
+        {
+          "player_id": "4217",
+          "espn_id": 3040151,
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "birth_date": "1993-10-09",
+          "college": "Iowa",
+          "height": "76",
+          "weight": "250",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 87
+        },
+        {
+          "player_id": "5846",
+          "espn_id": 4047650,
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "birth_date": "1997-12-14",
+          "college": "Ole Miss",
+          "height": "76",
+          "weight": "235",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 73
+        },
+        {
+          "player_id": "5872",
+          "espn_id": 3126486,
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1996-01-15",
+          "college": "South Carolina",
+          "height": "72",
+          "weight": "215",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 129
         },
         {
           "player_id": "5892",
@@ -14731,6 +17163,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 46
         },
         {
+          "player_id": "6790",
+          "espn_id": 4259545,
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "birth_date": "1999-01-14",
+          "college": "Georgia",
+          "height": "68",
+          "weight": "204",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 47
+        },
+        {
           "player_id": "6813",
           "espn_id": 4242335,
           "name": "Jonathan Taylor",
@@ -14744,51 +17191,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 4
-        },
-        {
-          "player_id": "6819",
-          "espn_id": 4035687,
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "birth_date": "1997-10-05",
-          "college": "USC",
-          "height": "76",
-          "weight": "223",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 103
-        },
-        {
-          "player_id": "6865",
-          "espn_id": 4242557,
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "1999-01-08",
-          "college": "Stanford",
-          "height": "79",
-          "weight": "266",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 136
-        },
-        {
-          "player_id": "6904",
-          "espn_id": 4040715,
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "birth_date": "1998-08-07",
-          "college": "Oklahoma",
-          "height": "73",
-          "weight": "223",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 30
         },
         {
           "player_id": "7543",
@@ -14806,56 +17208,71 @@ window.__STATIC_DATA__ = {
           "search_rank": 34
         },
         {
-          "player_id": "7553",
+          "player_id": "8132",
           "espn_id": null,
-          "name": "Kyle Pitts",
-          "position": "TE",
-          "team": "ATL",
-          "birth_date": "2000-10-06",
-          "college": "Florida",
-          "height": "78",
-          "weight": "250",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 68
-        },
-        {
-          "player_id": "8698",
-          "espn_id": null,
-          "name": "Jake Tonges",
-          "position": "TE",
-          "team": "SF",
-          "birth_date": "1999-07-08",
-          "college": "California",
-          "height": "76",
-          "weight": "240",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "birth_date": "2000-04-15",
+          "college": "BYU",
+          "height": "70",
+          "weight": "225",
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 178
+          "search_rank": 89
         },
         {
-          "player_id": "9754",
+          "player_id": "8154",
           "espn_id": null,
-          "name": "Quentin Johnston",
+          "name": "Brian Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "birth_date": "1999-03-22",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 80
+        },
+        {
+          "player_id": "9504",
+          "espn_id": null,
+          "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "LAC",
-          "birth_date": "2001-09-06",
-          "college": "TCU",
-          "height": "74",
-          "weight": "208",
+          "team": "HOU",
+          "birth_date": "2002-05-07",
+          "college": "LSU",
+          "height": "72",
+          "weight": "197",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 106
+          "search_rank": 164
         },
         {
-          "player_id": "NO",
+          "player_id": "9997",
           "espn_id": null,
-          "name": "New Orleans Saints",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "birth_date": "2000-09-11",
+          "college": "Boston College",
+          "height": "69",
+          "weight": "183",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 41
+        },
+        {
+          "player_id": "DAL",
+          "espn_id": null,
+          "name": "Dallas Cowboys",
           "position": "DEF",
-          "team": "NO",
+          "team": "DAL",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -14872,34 +17289,34 @@ window.__STATIC_DATA__ = {
       "roster_id": 9,
       "players": [
         {
-          "player_id": "10222",
+          "player_id": "10236",
           "espn_id": null,
-          "name": "Jayden Reed",
-          "position": "WR",
-          "team": "GB",
-          "birth_date": "2000-04-28",
-          "college": "Michigan State",
-          "height": "71",
-          "weight": "187",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "birth_date": "1999-10-18",
+          "college": "Utah",
+          "height": "75",
+          "weight": "246",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 102
+          "search_rank": 81
         },
         {
-          "player_id": "12506",
+          "player_id": "11647",
           "espn_id": null,
-          "name": "Harold Fannin",
-          "position": "TE",
-          "team": "CLE",
-          "birth_date": "2004-07-20",
-          "college": "Bowling Green",
-          "height": "76",
-          "weight": "241",
-          "years_exp": 1,
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2001-08-28",
+          "college": "Troy",
+          "height": "68",
+          "weight": "215",
+          "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 63
+          "search_rank": 141
         },
         {
           "player_id": "12508",
@@ -14932,6 +17349,66 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "13296",
+          "espn_id": null,
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2003-09-09",
+          "college": "Texas Tech",
+          "height": "76",
+          "weight": "208",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 198
+        },
+        {
+          "player_id": "13305",
+          "espn_id": null,
+          "name": "Mike Washington",
+          "position": "RB",
+          "team": "LV",
+          "birth_date": "2003-07-03",
+          "college": "Arkansas",
+          "height": "74",
+          "weight": "228",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 135
+        },
+        {
+          "player_id": "1479",
+          "espn_id": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "birth_date": "1992-04-27",
+          "college": "California",
+          "height": "74",
+          "weight": "211",
+          "years_exp": 13,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 178
+        },
+        {
+          "player_id": "2216",
+          "espn_id": 16737,
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1993-08-21",
+          "college": "Texas A&M",
+          "height": "77",
+          "weight": "231",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 60
+        },
+        {
           "player_id": "4199",
           "espn_id": 3042519,
           "name": "Aaron Jones",
@@ -14947,64 +17424,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 85
         },
         {
-          "player_id": "4993",
-          "espn_id": 3116164,
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN",
-          "birth_date": "1995-10-03",
-          "college": "Penn State",
-          "height": "78",
-          "weight": "245",
+          "player_id": "4983",
+          "espn_id": 3915416,
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "birth_date": "1997-04-14",
+          "college": "Maryland",
+          "height": "72",
+          "weight": "213",
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 425
-        },
-        {
-          "player_id": "5872",
-          "espn_id": 3126486,
-          "name": "Deebo Samuel",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1996-01-15",
-          "college": "South Carolina",
-          "height": "72",
-          "weight": "215",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 129
-        },
-        {
-          "player_id": "6149",
-          "espn_id": 3916945,
-          "name": "Darius Slayton",
-          "position": "WR",
-          "team": "NYG",
-          "birth_date": "1997-01-12",
-          "college": "Auburn",
-          "height": "73",
-          "weight": "198",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 541
-        },
-        {
-          "player_id": "6650",
-          "espn_id": 3150744,
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "birth_date": "1996-04-09",
-          "college": "Illinois",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 199
+          "search_rank": 56
         },
         {
           "player_id": "7569",
@@ -15022,34 +17454,49 @@ window.__STATIC_DATA__ = {
           "search_rank": 24
         },
         {
-          "player_id": "8146",
+          "player_id": "8259",
           "espn_id": null,
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2000-07-22",
-          "college": "Ohio State",
-          "height": "72",
-          "weight": "183",
+          "name": "Cameron Dicker",
+          "position": "K",
+          "team": "LAC",
+          "birth_date": "2000-05-06",
+          "college": "Texas",
+          "height": "73",
+          "weight": "216",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
-          "search_rank": 38
+          "injury_status": "Questionable",
+          "search_rank": 118
         },
         {
-          "player_id": "8228",
+          "player_id": "9486",
           "espn_id": null,
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
-          "birth_date": "1998-11-01",
-          "college": "Oklahoma State",
-          "height": "68",
-          "weight": "215",
-          "years_exp": 4,
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2001-06-16",
+          "college": "Virginia",
+          "height": "73",
+          "weight": "206",
+          "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 52
+          "search_rank": 208
+        },
+        {
+          "player_id": "9502",
+          "espn_id": null,
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-10-29",
+          "college": "Houston",
+          "height": "70",
+          "weight": "165",
+          "years_exp": 3,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 181
         },
         {
           "player_id": "9509",
@@ -15067,41 +17514,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 1
         },
         {
-          "player_id": "9997",
-          "espn_id": null,
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "birth_date": "2000-09-11",
-          "college": "Boston College",
-          "height": "69",
-          "weight": "183",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 41
-        },
-        {
           "player_id": "NE",
           "espn_id": null,
           "name": "New England Patriots",
           "position": "DEF",
           "team": "NE",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "TEN",
-          "espn_id": null,
-          "name": "Tennessee Titans",
-          "position": "DEF",
-          "team": "TEN",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -15118,6 +17535,51 @@ window.__STATIC_DATA__ = {
       "roster_id": 10,
       "players": [
         {
+          "player_id": "10219",
+          "espn_id": null,
+          "name": "Chris Rodriguez",
+          "position": "RB",
+          "team": "JAX",
+          "birth_date": "1999-09-26",
+          "college": "Kentucky",
+          "height": "71",
+          "weight": "224",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 128
+        },
+        {
+          "player_id": "11539",
+          "espn_id": null,
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "birth_date": "1999-03-03",
+          "college": "Arkansas",
+          "height": "70",
+          "weight": "205",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 139
+        },
+        {
+          "player_id": "11560",
+          "espn_id": null,
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "birth_date": "2001-11-18",
+          "college": "USC",
+          "height": "73",
+          "weight": "226",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 20
+        },
+        {
           "player_id": "11584",
           "espn_id": null,
           "name": "Bucky Irving",
@@ -15131,51 +17593,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 32
-        },
-        {
-          "player_id": "11624",
-          "espn_id": null,
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "team": "KC",
-          "birth_date": "2003-04-27",
-          "college": "Texas",
-          "height": "71",
-          "weight": "165",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 122
-        },
-        {
-          "player_id": "11626",
-          "espn_id": null,
-          "name": "Xavier Legette",
-          "position": "WR",
-          "team": "CAR",
-          "birth_date": "2001-01-29",
-          "college": "South Carolina",
-          "height": "75",
-          "weight": "227",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 534
-        },
-        {
-          "player_id": "11627",
-          "espn_id": null,
-          "name": "Troy Franklin",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "2003-02-06",
-          "college": "Oregon",
-          "height": "75",
-          "weight": "180",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 171
         },
         {
           "player_id": "11635",
@@ -15193,526 +17610,94 @@ window.__STATIC_DATA__ = {
           "search_rank": 38
         },
         {
-          "player_id": "11646",
+          "player_id": "12457",
           "espn_id": null,
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "birth_date": "2001-10-30",
-          "college": "Holy Cross",
-          "height": "75",
-          "weight": "213",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 132
-        },
-        {
-          "player_id": "12476",
-          "espn_id": null,
-          "name": "Devin Neal",
+          "name": "Jaydon Blue",
           "position": "RB",
-          "team": "NO",
-          "birth_date": "2003-08-12",
-          "college": "Kansas",
-          "height": "71",
-          "weight": "213",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "IR",
-          "search_rank": 169
-        },
-        {
-          "player_id": "12481",
-          "espn_id": null,
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "team": "NYG",
-          "birth_date": "2002-02-05",
-          "college": "Arizona State",
-          "height": "71",
-          "weight": "215",
+          "team": "DAL",
+          "birth_date": "2004-01-08",
+          "college": "Texas",
+          "height": "69",
+          "weight": "198",
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 37
+          "search_rank": 189
         },
         {
-          "player_id": "12489",
+          "player_id": "12490",
           "espn_id": null,
-          "name": "RJ Harvey",
+          "name": "Bhayshul Tuten",
           "position": "RB",
-          "team": "DEN",
-          "birth_date": "2001-02-04",
-          "college": "UCF",
-          "height": "68",
-          "weight": "205",
+          "team": "JAX",
+          "birth_date": "2003-02-14",
+          "college": "Virginia Tech",
+          "height": "69",
+          "weight": "209",
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 56
+          "search_rank": 44
         },
         {
-          "player_id": "1466",
-          "espn_id": 15847,
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
-          "birth_date": "1989-10-05",
-          "college": "Cincinnati",
-          "height": "77",
-          "weight": "250",
-          "years_exp": 13,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 91
-        },
-        {
-          "player_id": "4046",
-          "espn_id": 3139477,
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "team": "KC",
-          "birth_date": "1995-09-17",
-          "college": "Texas Tech",
-          "height": "74",
-          "weight": "225",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 38
-        },
-        {
-          "player_id": "4217",
-          "espn_id": 3040151,
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
-          "birth_date": "1993-10-09",
-          "college": "Iowa",
-          "height": "76",
-          "weight": "250",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 87
-        },
-        {
-          "player_id": "7839",
+          "player_id": "13288",
           "espn_id": null,
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
-          "birth_date": "1999-07-21",
-          "college": "Florida",
-          "height": "71",
-          "weight": "185",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 162
-        },
-        {
-          "player_id": "9493",
-          "espn_id": null,
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "birth_date": "2001-05-29",
-          "college": "BYU",
-          "height": "74",
-          "weight": "216",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 5
-        },
-        {
-          "player_id": "HOU",
-          "espn_id": null,
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "TB",
-          "espn_id": null,
-          "name": "Tampa Bay Buccaneers",
-          "position": "DEF",
-          "team": "TB",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        }
-      ]
-    },
-    {
-      "owner": "danseung",
-      "roster_id": 11,
-      "players": [
-        {
-          "player_id": "10226",
-          "espn_id": null,
-          "name": "Andrei Iosivas",
-          "position": "WR",
-          "team": "CIN",
-          "birth_date": "1999-10-15",
-          "college": "Princeton",
-          "height": "75",
-          "weight": "210",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 523
-        },
-        {
-          "player_id": "12507",
-          "espn_id": null,
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2003-03-16",
-          "college": "North Carolina",
-          "height": "72",
-          "weight": "220",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 12
-        },
-        {
-          "player_id": "2133",
-          "espn_id": 16800,
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "birth_date": "1992-12-24",
-          "college": "Fresno State",
-          "height": "73",
-          "weight": "204",
-          "years_exp": 12,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 46
-        },
-        {
-          "player_id": "5012",
-          "espn_id": 3116365,
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "birth_date": "1995-09-06",
-          "college": "Oklahoma",
-          "height": "77",
-          "weight": "250",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 96
-        },
-        {
-          "player_id": "5230",
-          "espn_id": 3123052,
-          "name": "Michael Badgley",
-          "position": "K",
-          "team": null,
-          "birth_date": "1995-07-28",
-          "college": "Miami (FL)",
-          "height": "70",
-          "weight": "183",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 629
-        },
-        {
-          "player_id": "5844",
-          "espn_id": 4036133,
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "birth_date": "1997-07-03",
-          "college": "Iowa",
-          "height": "77",
-          "weight": "248",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 128
-        },
-        {
-          "player_id": "5967",
-          "espn_id": 3916148,
-          "name": "Tony Pollard",
+          "name": "Nicholas Singleton",
           "position": "RB",
           "team": "TEN",
-          "birth_date": "1997-04-30",
-          "college": "Memphis",
+          "birth_date": "2004-01-06",
+          "college": "Penn State",
           "height": "72",
-          "weight": "209",
-          "years_exp": 7,
+          "weight": "219",
+          "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 63
+          "search_rank": 167
         },
         {
-          "player_id": "7526",
+          "player_id": "13293",
           "espn_id": null,
-          "name": "Jaylen Waddle",
+          "name": "Ja'Kobi Lane",
           "position": "WR",
-          "team": "DEN",
-          "birth_date": "1998-11-25",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "185",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 42
-        },
-        {
-          "player_id": "7564",
-          "espn_id": null,
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "birth_date": "2000-03-01",
-          "college": "LSU",
-          "height": "72",
+          "team": "BAL",
+          "birth_date": "2004-05-05",
+          "college": "USC",
+          "height": "76",
           "weight": "205",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 4
-        },
-        {
-          "player_id": "8121",
-          "espn_id": null,
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "2000-04-13",
-          "college": "Nevada",
-          "height": "74",
-          "weight": "210",
-          "years_exp": 4,
+          "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 117
+          "search_rank": 148
         },
         {
-          "player_id": "8122",
+          "player_id": "13330",
           "espn_id": null,
-          "name": "Zonovan Knight",
-          "position": "RB",
-          "team": "ARI",
-          "birth_date": "2001-04-11",
-          "college": "North Carolina State",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 669
-        },
-        {
-          "player_id": "8161",
-          "espn_id": null,
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
-          "birth_date": "1999-05-25",
-          "college": "Liberty",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 115
-        },
-        {
-          "player_id": "8676",
-          "espn_id": null,
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "SEA",
-          "birth_date": "1998-08-31",
-          "college": "Weber State",
-          "height": "72",
-          "weight": "180",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 147
-        },
-        {
-          "player_id": "9224",
-          "espn_id": null,
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
-          "birth_date": "2000-03-21",
-          "college": "Illinois",
-          "height": "70",
-          "weight": "210",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 15
-        },
-        {
-          "player_id": "LAR",
-          "espn_id": null,
-          "name": "Los Angeles Rams",
-          "position": "DEF",
-          "team": "LAR",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        }
-      ]
-    },
-    {
-      "owner": "eikichii952",
-      "roster_id": 12,
-      "players": [
-        {
-          "player_id": "10859",
-          "espn_id": null,
-          "name": "Sam LaPorta",
+          "name": "Kenyon Sadiq",
           "position": "TE",
-          "team": "DET",
-          "birth_date": "2001-01-12",
-          "college": "Iowa",
+          "team": "NYJ",
+          "birth_date": "2005-03-04",
+          "college": "Oregon",
           "height": "75",
-          "weight": "245",
-          "years_exp": 3,
+          "weight": "241",
+          "years_exp": 0,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 60
+          "search_rank": 109
         },
         {
-          "player_id": "11620",
-          "espn_id": null,
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "birth_date": "2002-06-03",
-          "college": "Washington",
+          "player_id": "421",
+          "espn_id": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
+          "birth_date": "1988-02-07",
+          "college": "Georgia",
           "height": "75",
           "weight": "214",
-          "years_exp": 2,
+          "years_exp": 17,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 63
-        },
-        {
-          "player_id": "11792",
-          "espn_id": null,
-          "name": "Will Reichard",
-          "position": "K",
-          "team": "MIN",
-          "birth_date": "2001-01-09",
-          "college": "Alabama",
-          "height": "73",
-          "weight": "190",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 164
-        },
-        {
-          "player_id": "12493",
-          "espn_id": null,
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
-          "birth_date": "2003-06-25",
-          "college": "Syracuse",
-          "height": "77",
-          "weight": "236",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 83
-        },
-        {
-          "player_id": "12512",
-          "espn_id": null,
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2003-10-29",
-          "college": "Ohio State",
-          "height": "72",
-          "weight": "221",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 45
-        },
-        {
-          "player_id": "4037",
-          "espn_id": 3116165,
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
-          "birth_date": "1996-02-27",
-          "college": "Penn State",
-          "height": "73",
-          "weight": "209",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 88
-        },
-        {
-          "player_id": "4039",
-          "espn_id": 2977187,
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "team": "SEA",
-          "birth_date": "1993-06-15",
-          "college": "Eastern Washington",
-          "height": "73",
-          "weight": "205",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 200
-        },
-        {
-          "player_id": "4984",
-          "espn_id": 3918298,
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
-          "birth_date": "1996-05-21",
-          "college": "Wyoming",
-          "height": "77",
-          "weight": "237",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 4
+          "search_rank": 72
         },
         {
           "player_id": "6801",
@@ -15730,94 +17715,64 @@ window.__STATIC_DATA__ = {
           "search_rank": 34
         },
         {
-          "player_id": "7525",
+          "player_id": "7594",
           "espn_id": null,
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "1998-11-14",
-          "college": "Alabama",
-          "height": "72",
-          "weight": "170",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 35
-        },
-        {
-          "player_id": "7611",
-          "espn_id": null,
-          "name": "Rhamondre Stevenson",
+          "name": "Chuba Hubbard",
           "position": "RB",
-          "team": "NE",
-          "birth_date": "1998-02-23",
-          "college": "Oklahoma",
-          "height": "72",
-          "weight": "227",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 58
-        },
-        {
-          "player_id": "8142",
-          "espn_id": null,
-          "name": "Alec Pierce",
-          "position": "WR",
-          "team": "IND",
-          "birth_date": "2000-05-02",
-          "college": "Cincinnati",
-          "height": "75",
-          "weight": "211",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 94
-        },
-        {
-          "player_id": "8151",
-          "espn_id": null,
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "KC",
-          "birth_date": "2000-10-20",
-          "college": "Michigan State",
-          "height": "69",
-          "weight": "211",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 19
-        },
-        {
-          "player_id": "9480",
-          "espn_id": null,
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "birth_date": "2000-12-27",
-          "college": "Penn State",
-          "height": "76",
-          "weight": "253",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104
-        },
-        {
-          "player_id": "9753",
-          "espn_id": null,
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "birth_date": "2001-01-08",
-          "college": "UCLA",
+          "team": "CAR",
+          "birth_date": "1999-06-11",
+          "college": "Oklahoma State",
           "height": "73",
-          "weight": "220",
+          "weight": "210",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 66
+        },
+        {
+          "player_id": "8110",
+          "espn_id": null,
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "birth_date": "1999-01-18",
+          "college": "Wisconsin",
+          "height": "77",
+          "weight": "250",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 97
+        },
+        {
+          "player_id": "8180",
+          "espn_id": null,
+          "name": "Jalen Nailor",
+          "position": "WR",
+          "team": "LV",
+          "birth_date": "1999-03-02",
+          "college": "Michigan State",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 166
+        },
+        {
+          "player_id": "9493",
+          "espn_id": null,
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "2001-05-29",
+          "college": "BYU",
+          "height": "74",
+          "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "PUP",
-          "search_rank": 101
+          "injury_status": "Questionable",
+          "search_rank": 5
         },
         {
           "player_id": "PIT",
@@ -15835,11 +17790,563 @@ window.__STATIC_DATA__ = {
           "search_rank": null
         }
       ]
+    },
+    {
+      "owner": "danseung",
+      "roster_id": 11,
+      "players": [
+        {
+          "player_id": "10222",
+          "espn_id": null,
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
+          "birth_date": "2000-04-28",
+          "college": "Michigan State",
+          "height": "71",
+          "weight": "187",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 102
+        },
+        {
+          "player_id": "11563",
+          "espn_id": null,
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "birth_date": "2000-02-25",
+          "college": "Oregon",
+          "height": "74",
+          "weight": "217",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 43
+        },
+        {
+          "player_id": "11564",
+          "espn_id": null,
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "birth_date": "2002-08-30",
+          "college": "North Carolina",
+          "height": "76",
+          "weight": "225",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 8
+        },
+        {
+          "player_id": "12484",
+          "espn_id": null,
+          "name": "Jayden Higgins",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "2002-12-15",
+          "college": "Iowa State",
+          "height": "76",
+          "weight": "215",
+          "years_exp": 1,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 126
+        },
+        {
+          "player_id": "12507",
+          "espn_id": null,
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2003-03-16",
+          "college": "North Carolina",
+          "height": "72",
+          "weight": "220",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 12
+        },
+        {
+          "player_id": "12512",
+          "espn_id": null,
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "birth_date": "2003-10-29",
+          "college": "Ohio State",
+          "height": "72",
+          "weight": "221",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 45
+        },
+        {
+          "player_id": "13276",
+          "espn_id": null,
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ",
+          "birth_date": "2003-12-14",
+          "college": "Indiana",
+          "height": "72",
+          "weight": "199",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 151
+        },
+        {
+          "player_id": "13346",
+          "espn_id": null,
+          "name": "Denzel Boston",
+          "position": "WR",
+          "team": "CLE",
+          "birth_date": "2003-12-06",
+          "college": "Washington",
+          "height": "76",
+          "weight": "215",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 153
+        },
+        {
+          "player_id": "3451",
+          "espn_id": 2971573,
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
+          "birth_date": "1994-01-29",
+          "college": "UCLA",
+          "height": "72",
+          "weight": "183",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 130
+        },
+        {
+          "player_id": "4137",
+          "espn_id": 3045147,
+          "name": "James Conner",
+          "position": "RB",
+          "team": "ARI",
+          "birth_date": "1995-05-05",
+          "college": "Pittsburgh",
+          "height": "73",
+          "weight": "233",
+          "years_exp": 9,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 92
+        },
+        {
+          "player_id": "5947",
+          "espn_id": 3916433,
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
+          "birth_date": "1996-11-09",
+          "college": "North Carolina State",
+          "height": "74",
+          "weight": "200",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 77
+        },
+        {
+          "player_id": "6819",
+          "espn_id": 4035687,
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "birth_date": "1997-10-05",
+          "college": "USC",
+          "height": "76",
+          "weight": "223",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 103
+        },
+        {
+          "player_id": "7564",
+          "espn_id": null,
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "birth_date": "2000-03-01",
+          "college": "LSU",
+          "height": "72",
+          "weight": "205",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 4
+        },
+        {
+          "player_id": "8142",
+          "espn_id": null,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "team": "IND",
+          "birth_date": "2000-05-02",
+          "college": "Cincinnati",
+          "height": "75",
+          "weight": "211",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 94
+        },
+        {
+          "player_id": "8146",
+          "espn_id": null,
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "birth_date": "2000-07-22",
+          "college": "Ohio State",
+          "height": "72",
+          "weight": "183",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 38
+        },
+        {
+          "player_id": "9224",
+          "espn_id": null,
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "birth_date": "2000-03-21",
+          "college": "Illinois",
+          "height": "70",
+          "weight": "210",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 15
+        },
+        {
+          "player_id": "9484",
+          "espn_id": null,
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "birth_date": "2000-11-03",
+          "college": "South Dakota State",
+          "height": "77",
+          "weight": "259",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 63
+        },
+        {
+          "player_id": "DEN",
+          "espn_id": null,
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        }
+      ]
+    },
+    {
+      "owner": "eikichii952",
+      "roster_id": 12,
+      "players": [
+        {
+          "player_id": "11792",
+          "espn_id": null,
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "birth_date": "2001-01-09",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "190",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 164
+        },
+        {
+          "player_id": "12481",
+          "espn_id": null,
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "birth_date": "2002-02-05",
+          "college": "Arizona State",
+          "height": "71",
+          "weight": "215",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 37
+        },
+        {
+          "player_id": "12526",
+          "espn_id": null,
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "birth_date": "2003-04-05",
+          "college": "Arizona",
+          "height": "77",
+          "weight": "212",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 37
+        },
+        {
+          "player_id": "13294",
+          "espn_id": null,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2004-06-02",
+          "college": "USC",
+          "height": "71",
+          "weight": "192",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 88
+        },
+        {
+          "player_id": "1466",
+          "espn_id": 15847,
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "birth_date": "1989-10-05",
+          "college": "Cincinnati",
+          "height": "77",
+          "weight": "250",
+          "years_exp": 13,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 91
+        },
+        {
+          "player_id": "3163",
+          "espn_id": 3046779,
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "birth_date": "1994-10-14",
+          "college": "California",
+          "height": "76",
+          "weight": "217",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 64
+        },
+        {
+          "player_id": "4035",
+          "espn_id": 3054850,
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "birth_date": "1995-07-25",
+          "college": "Tennessee",
+          "height": "70",
+          "weight": "215",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 119
+        },
+        {
+          "player_id": "4984",
+          "espn_id": 3918298,
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "birth_date": "1996-05-21",
+          "college": "Wyoming",
+          "height": "77",
+          "weight": "237",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 4
+        },
+        {
+          "player_id": "5844",
+          "espn_id": 4036133,
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "birth_date": "1997-07-03",
+          "college": "Iowa",
+          "height": "77",
+          "weight": "248",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 128
+        },
+        {
+          "player_id": "6770",
+          "espn_id": 3915511,
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "birth_date": "1996-12-10",
+          "college": "LSU",
+          "height": "76",
+          "weight": "215",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 16
+        },
+        {
+          "player_id": "7525",
+          "espn_id": null,
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "1998-11-14",
+          "college": "Alabama",
+          "height": "72",
+          "weight": "170",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 35
+        },
+        {
+          "player_id": "8126",
+          "espn_id": null,
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
+          "birth_date": "2001-01-05",
+          "college": "Kentucky",
+          "height": "68",
+          "weight": "185",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 105
+        },
+        {
+          "player_id": "8134",
+          "espn_id": null,
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "birth_date": "2000-02-03",
+          "college": "Boise State",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 120
+        },
+        {
+          "player_id": "8151",
+          "espn_id": null,
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
+          "birth_date": "2000-10-20",
+          "college": "Michigan State",
+          "height": "69",
+          "weight": "211",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 19
+        },
+        {
+          "player_id": "8228",
+          "espn_id": null,
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "birth_date": "1998-11-01",
+          "college": "Oklahoma State",
+          "height": "68",
+          "weight": "215",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 52
+        },
+        {
+          "player_id": "9480",
+          "espn_id": null,
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "birth_date": "2000-12-27",
+          "college": "Penn State",
+          "height": "76",
+          "weight": "253",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 104
+        },
+        {
+          "player_id": "BAL",
+          "espn_id": null,
+          "name": "Baltimore Ravens",
+          "position": "DEF",
+          "team": "BAL",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "SEA",
+          "espn_id": null,
+          "name": "Seattle Seahawks",
+          "position": "DEF",
+          "team": "SEA",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        }
+      ]
     }
   ],
   "users": [
     {
-      "avatar": "nfl_ne",
+      "avatar": "dcd6d5c8c3a8b12061845c9b4b8295ff",
       "display_name": "danseung",
       "is_bot": null,
       "is_owner": false,
@@ -16147,7 +18654,7 @@ window.__STATIC_DATA__ = {
         "mention_pn": "on",
         "player_like_pn": "on",
         "player_nickname_update": "on",
-        "team_name": "Special agent Gibbs 🕵🏻‍♂️",
+        "team_name": "Repeat to Three-peat 🔁",
         "team_name_update": "on",
         "trade_block_pn": "on",
         "transaction_commissioner": "on",
@@ -16202,7 +18709,7 @@ window.__STATIC_DATA__ = {
     {
       "user_id": "79985610433380352",
       "username": "danseung",
-      "avatar_url": "https://sleepercdn.com/avatars/thumbs/nfl_ne",
+      "avatar_url": "https://sleepercdn.com/avatars/thumbs/dcd6d5c8c3a8b12061845c9b4b8295ff",
       "is_active": true
     },
     {
@@ -16303,6 +18810,204 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:56 PM PT",
+      "transaction_id": "1399970086210510848",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jalen McMillan",
+          "position": "WR",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:55 PM PT",
+      "transaction_id": "1399969908820856832",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:55 PM PT",
+      "transaction_id": "1399969868635213824",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:55 PM PT",
+      "transaction_id": "1399969736766308352",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kaytron Allen",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:54 PM PT",
+      "transaction_id": "1399969684496875520",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:54 PM PT",
+      "transaction_id": "1399969635960373248",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:54 PM PT",
+      "transaction_id": "1399969526711398400",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:54 PM PT",
+      "transaction_id": "1399969484713766912",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Demond Claiborne",
+          "position": "RB",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Aug 30, 2026 • 5:53 PM PT",
+      "transaction_id": "1399969462655942656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
@@ -16993,13 +19698,7 @@ window.__STATIC_DATA__ = {
           "team": "JAX"
         }
       ],
-      "dropped": [
-        {
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -17401,13 +20100,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 19,
       "notes": "This player was claimed by another owner."
@@ -17716,7 +20409,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "dropped": [
@@ -17751,7 +20444,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "faab": 0,
@@ -17772,7 +20465,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "dropped": [],
@@ -17801,7 +20494,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "faab": 0,
@@ -17900,7 +20593,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "dropped": [
@@ -18079,7 +20772,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "faab": 0,
@@ -18209,13 +20902,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kareem Hunt",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -18337,13 +21024,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Troy Franklin",
-          "position": "WR",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -18649,13 +21330,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Malik Davis",
-          "position": "RB",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -18677,13 +21352,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -19173,13 +21842,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -19257,13 +21920,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -19816,16 +22473,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -20019,13 +22670,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -20072,7 +22717,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "dropped": [
@@ -20129,7 +22774,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "faab": 0,
@@ -20150,7 +22795,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "dropped": [
@@ -20833,13 +23478,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dont'e Thornton",
-          "position": "WR",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -20917,13 +23556,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -21089,13 +23722,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -21145,13 +23772,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -21216,7 +23837,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Deebo Samuel",
             "position": "WR",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "2026 Round 10",
@@ -21574,7 +24195,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "faab": 0,
@@ -21690,7 +24311,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "faab": 0,
@@ -21939,7 +24560,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "dropped": [],
@@ -22248,13 +24869,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ty Johnson",
-          "position": "RB",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -22332,13 +24947,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jake Elliott",
-          "position": "K",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -22388,13 +24997,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Denver Broncos",
-          "position": "DEF",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -22448,7 +25051,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrell Jennings",
           "position": "RB",
-          "team": "NE"
+          "team": null
         }
       ],
       "faab": 0,
@@ -22528,13 +25131,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Carolina Panthers",
-          "position": "DEF",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -22556,13 +25153,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -22644,7 +25235,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -22668,13 +25259,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Sterling Shepard",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -22800,7 +25385,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "faab": 0,
@@ -22821,7 +25406,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrell Jennings",
           "position": "RB",
-          "team": "NE"
+          "team": null
         }
       ],
       "dropped": [],
@@ -22899,7 +25484,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -23454,13 +26039,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jeremy McNichols",
-          "position": "RB",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -23482,13 +26061,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jeremy McNichols",
-          "position": "RB",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -23538,13 +26111,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jayden Higgins",
-          "position": "WR",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -23566,13 +26133,7 @@ window.__STATIC_DATA__ = {
           "team": "SF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -23644,13 +26205,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -23800,13 +26355,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Theo Johnson",
-          "position": "TE",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -23856,13 +26405,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -23884,13 +26427,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Elic Ayomanor",
-          "position": "WR",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -24144,7 +26681,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -24446,7 +26983,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -24810,13 +27347,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Atlanta Falcons",
-          "position": "DEF",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -24838,13 +27369,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Atlanta Falcons",
-          "position": "DEF",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -24866,13 +27391,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -24894,13 +27413,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Minnesota Vikings",
-          "position": "DEF",
-          "team": "MIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -24950,13 +27463,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -24978,13 +27485,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -25006,13 +27507,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -25134,13 +27629,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Xavier Legette",
-          "position": "WR",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -25190,13 +27679,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Xavier Legette",
-          "position": "WR",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -25215,7 +27698,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "dropped": [],
@@ -26188,7 +28671,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -26290,13 +28773,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -26318,13 +28795,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "AJ Barner",
-          "position": "TE",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -26550,13 +29021,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -26600,13 +29065,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 30,
       "notes": "This player was claimed by another owner."
@@ -26678,13 +29137,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Michael Carter",
-          "position": "RB",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -26734,13 +29187,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Michael Carter",
-          "position": "RB",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -26766,7 +29213,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -27275,14 +29722,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -27469,7 +29916,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [
@@ -27785,7 +30232,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "dropped": [],
@@ -27882,13 +30329,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Tolbert",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -27907,16 +30348,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -27966,13 +30401,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -27991,7 +30420,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -28167,7 +30596,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -28189,16 +30618,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Xavier Legette",
-          "position": "WR",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -28320,13 +30743,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Luke McCaffrey",
-          "position": "WR",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -28424,13 +30841,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyquan Thornton",
-          "position": "WR",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -28452,13 +30863,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyquan Thornton",
-          "position": "WR",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -28477,16 +30882,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyquan Thornton",
-          "position": "WR",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -28701,7 +31100,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -29313,7 +31712,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -29334,7 +31733,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [
@@ -29837,13 +32236,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -29893,13 +32286,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -30103,13 +32490,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "SF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -30131,13 +32512,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Baltimore Ravens",
-          "position": "DEF",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -30303,13 +32678,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -30752,7 +33121,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -30885,7 +33254,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -31162,13 +33531,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -31312,13 +33675,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Evan Engram",
-          "position": "TE",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -31368,13 +33725,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -31396,13 +33747,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -31452,13 +33797,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -31508,13 +33847,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -31592,13 +33925,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Seattle Seahawks",
-          "position": "DEF",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -31620,13 +33947,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -31676,13 +33997,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -31704,13 +34019,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -31760,13 +34069,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -31788,13 +34091,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 26,
       "notes": "This player was claimed by another owner."
@@ -31838,13 +34135,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 26,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -31894,13 +34185,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -31922,13 +34207,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -31992,7 +34271,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -32041,7 +34320,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Darren Waller",
           "position": "TE",
-          "team": null
+          "team": "CAR"
         }
       ],
       "dropped": [
@@ -32076,7 +34355,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -32317,13 +34596,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -32504,7 +34777,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -32751,7 +35024,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "PIT"
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -32772,7 +35045,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": null
+          "team": "IND"
         },
         {
           "name": "James Conner",
@@ -32799,7 +35072,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": null
+          "team": "IND"
         },
         {
           "name": "James Conner",
@@ -33061,13 +35334,7 @@ window.__STATIC_DATA__ = {
           "team": "LV"
         }
       ],
-      "dropped": [
-        {
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -33145,13 +35412,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Adam Thielen",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -33223,13 +35484,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeAndre Hopkins",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -33251,13 +35506,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Indianapolis Colts",
-          "position": "DEF",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -33351,13 +35600,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "SF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "This player was claimed by another owner."
@@ -33379,13 +35622,7 @@ window.__STATIC_DATA__ = {
           "team": "LV"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 22,
       "notes": "This player was claimed by another owner."
@@ -33483,7 +35720,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": null
+          "team": "NYG"
         }
       ],
       "faab": 0,
@@ -33588,7 +35825,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": null
+          "team": "IND"
         },
         {
           "name": "James Conner",
@@ -33615,7 +35852,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": null
+          "team": "IND"
         },
         {
           "name": "James Conner",
@@ -33658,7 +35895,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Keenan Allen",
             "position": "WR",
-            "team": null
+            "team": "IND"
           },
           {
             "name": "James Conner",
@@ -33762,7 +35999,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Keenan Allen",
             "position": "WR",
-            "team": null
+            "team": "IND"
           },
           {
             "name": "Aaron Jones",
@@ -34027,13 +36264,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyquan Thornton",
-          "position": "WR",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -34339,7 +36570,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "faab": 0,
@@ -34391,13 +36622,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -34419,13 +36644,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ray-Ray McCloud",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 26,
       "notes": "This player was claimed by another owner."
@@ -34475,13 +36694,7 @@ window.__STATIC_DATA__ = {
           "team": "SEA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Rams",
-          "position": "DEF",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -34503,13 +36716,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -34559,13 +36766,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -34619,7 +36820,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -34643,13 +36844,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 27,
       "notes": "This player was claimed by another owner."
@@ -34727,13 +36922,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Arizona Cardinals",
-          "position": "DEF",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -34811,13 +37000,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 34,
       "notes": "This player was claimed by another owner."
@@ -34836,7 +37019,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "dropped": [
@@ -35176,7 +37359,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [],
@@ -35441,13 +37624,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -35494,7 +37671,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -35525,13 +37702,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -35550,16 +37721,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kyle Williams",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -35637,13 +37802,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Xavier Legette",
-          "position": "WR",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -35715,13 +37874,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Colston Loveland",
-          "position": "TE",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -35799,13 +37952,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dameon Pierce",
-          "position": "RB",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 27,
       "notes": "This player was claimed by another owner."
@@ -35824,7 +37971,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -36015,7 +38162,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -36146,13 +38293,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tre' Harris",
-          "position": "WR",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -37570,7 +39711,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -38109,7 +40250,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [
@@ -38346,13 +40487,7 @@ window.__STATIC_DATA__ = {
           "team": "BAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jaleel McLaughlin",
-          "position": "RB",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -38374,13 +40509,7 @@ window.__STATIC_DATA__ = {
           "team": "JAX"
         }
       ],
-      "dropped": [
-        {
-          "name": "Anthony Richardson",
-          "position": "QB",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -38402,13 +40531,7 @@ window.__STATIC_DATA__ = {
           "team": "JAX"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -38646,13 +40769,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Sean Tucker",
-          "position": "RB",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -39068,7 +41185,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -39118,7 +41235,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -39555,7 +41672,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -39628,7 +41745,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -39730,13 +41847,7 @@ window.__STATIC_DATA__ = {
           "team": "SF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ameer Abdullah",
-          "position": "RB",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -39839,7 +41950,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -39951,7 +42062,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cade York",
           "position": "K",
-          "team": "NYJ"
+          "team": null
         }
       ],
       "dropped": [
@@ -40649,7 +42760,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [],
@@ -41330,13 +43441,7 @@ window.__STATIC_DATA__ = {
           "team": "SF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Elijah Moore",
-          "position": "WR",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 22,
       "notes": "This player was claimed by another owner."
@@ -41402,13 +43507,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -41430,13 +43529,7 @@ window.__STATIC_DATA__ = {
           "team": "SF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 45,
       "notes": "This player was claimed by another owner."
@@ -41502,13 +43595,7 @@ window.__STATIC_DATA__ = {
           "team": "SF"
         }
       ],
-      "dropped": [
-        {
-          "name": "New York Giants",
-          "position": "DEF",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 84,
       "notes": "This player was claimed by another owner."
@@ -41550,7 +43637,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -41943,7 +44030,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "dropped": [
@@ -42114,13 +44201,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -42290,7 +44371,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -42564,7 +44645,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -42585,7 +44666,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -42839,7 +44920,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "dropped": [
@@ -42870,13 +44951,7 @@ window.__STATIC_DATA__ = {
           "team": "NYJ"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -42926,13 +45001,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -42954,13 +45023,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jason Sanders",
-          "position": "K",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -42980,7 +45043,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -43002,7 +45065,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -43272,13 +45335,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Ameer Abdullah",
-          "position": "RB",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -43465,7 +45522,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -43488,7 +45545,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -43534,13 +45591,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jameis Winston",
-          "position": "QB",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -43702,13 +45753,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ameer Abdullah",
-          "position": "RB",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -43734,7 +45779,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -43755,7 +45800,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -43948,13 +45993,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ja'Tavion Sanders",
-          "position": "TE",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -44052,7 +46091,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -44350,13 +46389,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -44434,13 +46467,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Gabe Davis",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -44553,7 +46580,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "dropped": [
@@ -44584,13 +46611,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Will Dissly",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -44684,13 +46705,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dawson Knox",
-          "position": "TE",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -44710,7 +46725,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -45309,7 +47324,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE"
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -45672,13 +47687,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -45697,7 +47706,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -45756,13 +47765,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -45784,13 +47787,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -45812,13 +47809,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -45868,13 +47859,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Devin Singletary",
-          "position": "RB",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -46024,13 +48009,7 @@ window.__STATIC_DATA__ = {
           "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Atlanta Falcons",
-          "position": "DEF",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -46074,13 +48053,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -46158,13 +48131,7 @@ window.__STATIC_DATA__ = {
           "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -46358,7 +48325,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -46580,7 +48547,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -46601,7 +48568,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "dropped": [
@@ -46679,7 +48646,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -46779,7 +48746,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedrick Wilson",
           "position": "WR",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -46835,7 +48802,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -46884,7 +48851,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedrick Wilson",
           "position": "WR",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -46919,7 +48886,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -46996,7 +48963,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [],
@@ -47153,13 +49120,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "New Orleans Saints",
-          "position": "DEF",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -47203,13 +49164,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -47228,7 +49183,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -47501,7 +49456,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "faab": 0,
@@ -47522,7 +49477,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -47578,7 +49533,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "dropped": [
@@ -47641,7 +49596,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -47662,7 +49617,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -47746,7 +49701,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -48005,7 +49960,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -48324,7 +50279,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -48493,7 +50448,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -48723,13 +50678,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -48779,13 +50728,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ricky Pearsall",
-          "position": "WR",
-          "team": "SF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -48807,13 +50750,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ezekiel Elliott",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -48833,7 +50770,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Stefon Diggs",
           "position": "WR",
-          "team": null
+          "team": "WAS"
         }
       ],
       "faab": 0,
@@ -48973,13 +50910,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Darius Slayton",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 14,
       "notes": "This player was claimed by another owner."
@@ -49117,13 +51048,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -49302,7 +51227,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -49330,7 +51255,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -49407,7 +51332,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -49632,7 +51557,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -49890,7 +51815,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -50045,7 +51970,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "dropped": [],
@@ -50095,14 +52020,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "faab": 0,
@@ -50151,7 +52076,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -50186,7 +52111,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -50369,7 +52294,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": "CLE"
+          "team": null
         }
       ],
       "dropped": [],
@@ -50391,7 +52316,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -50438,13 +52363,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Rams",
-          "position": "DEF",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -50466,13 +52385,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Clyde Edwards-Helaire",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -50544,13 +52457,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -50632,7 +52539,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "faab": 0,
@@ -50766,13 +52673,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 24,
       "notes": "This player was claimed by another owner."
@@ -50792,7 +52693,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Bub Means",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "faab": 0,
@@ -50948,7 +52849,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -51025,7 +52926,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [
@@ -51110,7 +53011,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -51181,7 +53082,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -51543,7 +53444,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Bub Means",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "dropped": [
@@ -52125,7 +54026,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [],
@@ -52410,7 +54311,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ja'Lynn Polk",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "faab": 0,
@@ -52554,7 +54455,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "faab": 0,
@@ -52631,7 +54532,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ja'Lynn Polk",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "dropped": [
@@ -52884,7 +54785,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ja'Lynn Polk",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "faab": 0,
@@ -53017,7 +54918,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ja'Lynn Polk",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "dropped": [
@@ -53157,7 +55058,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "dropped": [
@@ -53242,7 +55143,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -53264,7 +55165,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -53466,13 +55367,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -53494,13 +55389,7 @@ window.__STATIC_DATA__ = {
           "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -53550,13 +55439,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Andrei Iosivas",
-          "position": "WR",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -53606,13 +55489,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "New England Patriots",
-          "position": "DEF",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -53662,13 +55539,7 @@ window.__STATIC_DATA__ = {
           "team": "NYJ"
         }
       ],
-      "dropped": [
-        {
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -53746,13 +55617,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Erick All",
-          "position": "TE",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -53774,13 +55639,7 @@ window.__STATIC_DATA__ = {
           "team": "LV"
         }
       ],
-      "dropped": [
-        {
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -53828,7 +55687,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -53908,13 +55767,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Erick All",
-          "position": "TE",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -54011,7 +55864,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [
@@ -54618,7 +56471,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -54910,13 +56763,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Pittsburgh Steelers",
-          "position": "DEF",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -54938,13 +56785,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -54963,16 +56804,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Huntley",
-          "position": "QB",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -55022,13 +56857,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Joshua Palmer",
-          "position": "WR",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "This player was claimed by another owner."
@@ -55075,7 +56904,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "dropped": [],
@@ -55100,13 +56929,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -55253,7 +57076,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "dropped": [],
@@ -55347,16 +57170,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tennessee Titans",
-          "position": "DEF",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -55398,7 +57215,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -55419,7 +57236,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -56212,7 +58029,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [
@@ -56297,7 +58114,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -56489,13 +58306,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Johnson",
-          "position": "WR",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -56521,7 +58332,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "faab": 0,
@@ -56645,13 +58456,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -56773,13 +58578,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Adam Thielen",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -56801,13 +58600,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tampa Bay Buccaneers",
-          "position": "DEF",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -56904,14 +58697,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "dropped": [
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -56982,7 +58775,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -57032,7 +58825,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -57089,7 +58882,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -57189,7 +58982,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -57548,7 +59341,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [],
@@ -57627,7 +59420,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "faab": 0,
@@ -57704,7 +59497,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
@@ -57835,13 +59628,7 @@ window.__STATIC_DATA__ = {
           "team": "LV"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -57891,13 +59678,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -57919,13 +59700,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Josh Reynolds",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 26,
       "notes": "This player was claimed by another owner."
@@ -57944,16 +59719,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
-        }
-      ],
-      "dropped": [
-        {
-          "name": "Ray-Ray McCloud",
-          "position": "WR",
           "team": null
         }
       ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 36,
       "notes": "This player was claimed by another owner."
@@ -58016,7 +59785,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [],
@@ -58066,16 +59835,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Greg Dortch",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 14,
       "notes": "This player was claimed by another owner."
@@ -58097,13 +59860,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -58253,13 +60010,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jahan Dotson",
-          "position": "WR",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -58278,16 +60029,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jahan Dotson",
-          "position": "WR",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -58356,7 +60101,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ray-Ray McCloud",
           "position": "WR",
-          "team": null
+          "team": "CHI"
         }
       ],
       "dropped": [
@@ -59275,13 +61020,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cincinnati Bengals",
-          "position": "DEF",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -59381,13 +61120,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -59409,13 +61142,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -59465,13 +61192,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Adam Thielen",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -59493,13 +61214,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Khalil Herbert",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -59525,7 +61240,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -59577,13 +61292,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Isaac Guerendo",
-          "position": "RB",
-          "team": "SF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -59605,13 +61314,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Joshua Palmer",
-          "position": "WR",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -59717,13 +61420,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -59745,13 +61442,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Deshaun Watson",
-          "position": "QB",
-          "team": "CLE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -59773,13 +61464,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Curtis Samuel",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -59961,7 +61646,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Ja'Lynn Polk",
           "position": "WR",
-          "team": "NO"
+          "team": null
         }
       ],
       "faab": 0,
@@ -60122,7 +61807,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [],
@@ -60653,7 +62338,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -60702,7 +62387,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Carson Steele",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
@@ -60804,7 +62489,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Keenan Allen",
             "position": "WR",
-            "team": null
+            "team": "IND"
           },
           {
             "name": "Michael Pittman",
@@ -61244,7 +62929,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -61383,7 +63068,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Zamir White",
             "position": "RB",
-            "team": null
+            "team": "NO"
           }
         ],
         "andyxia124": [
@@ -61395,7 +63080,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           },
           {
             "name": "Nick Chubb",
@@ -62561,7 +64246,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           },
           {
             "name": "Puka Nacua",
@@ -62866,7 +64551,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -62974,13 +64659,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jason Myers",
-          "position": "K",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -63194,7 +64873,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Browning",
           "position": "QB",
-          "team": "TB"
+          "team": null
         }
       ],
       "faab": 0,
@@ -63343,7 +65022,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -63506,7 +65185,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "faab": 0,
@@ -63628,7 +65307,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -63722,7 +65401,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joshua Dobbs",
           "position": "QB",
-          "team": null
+          "team": "DET"
         }
       ],
       "faab": 0,
@@ -63902,13 +65581,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Kareem Hunt",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -63986,13 +65659,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Kareem Hunt",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -64089,7 +65756,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Browning",
           "position": "QB",
-          "team": "TB"
+          "team": null
         }
       ],
       "dropped": [
@@ -64120,13 +65787,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -64145,7 +65806,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "dropped": [
@@ -64395,14 +66056,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -64423,7 +66084,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -64446,7 +66107,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -64551,7 +66212,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [],
@@ -64580,7 +66241,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -64701,7 +66362,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -64736,7 +66397,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -64757,7 +66418,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -64788,13 +66449,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jahan Dotson",
-          "position": "WR",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -64900,13 +66555,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -65194,7 +66843,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -65520,13 +67169,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Brandon McManus",
-          "position": "K",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -65573,16 +67216,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Conklin",
-          "position": "TE",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -65604,13 +67241,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Greg Dortch",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -65632,13 +67263,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -65660,13 +67285,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Brandon McManus",
-          "position": "K",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -65716,13 +67335,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Rams",
-          "position": "DEF",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "You are over the budget for this transaction."
@@ -65769,7 +67382,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -65800,13 +67413,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -65856,13 +67463,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jake Moody",
-          "position": "K",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -65884,13 +67485,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Latavius Murray",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -65953,7 +67548,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [
@@ -66065,7 +67660,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -66150,7 +67745,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -66286,13 +67881,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Rondale Moore",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 35,
       "notes": "This player was claimed by another owner."
@@ -66342,13 +67931,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Skyy Moore",
-          "position": "WR",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 31,
       "notes": "This player was claimed by another owner."
@@ -66370,13 +67953,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Guyton",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 25,
       "notes": "This player was claimed by another owner."
@@ -66395,14 +67972,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -66426,13 +68003,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tennessee Titans",
-          "position": "DEF",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -66510,13 +68081,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Ty Chandler",
-          "position": "RB",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 19,
       "notes": "This player was claimed by another owner."
@@ -66566,13 +68131,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tennessee Titans",
-          "position": "DEF",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -66598,7 +68157,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -66650,13 +68209,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Khalil Herbert",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -66678,13 +68231,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "A.T. Perry",
-          "position": "WR",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -66706,13 +68253,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "A.T. Perry",
-          "position": "WR",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -66738,7 +68279,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "A.T. Perry",
           "position": "WR",
-          "team": "PIT"
+          "team": null
         }
       ],
       "faab": 0,
@@ -66762,13 +68303,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -66844,7 +68379,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -66915,14 +68450,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -66971,7 +68506,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -67027,7 +68562,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joshua Dobbs",
           "position": "QB",
-          "team": null
+          "team": "DET"
         }
       ],
       "dropped": [
@@ -67055,7 +68590,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "A.T. Perry",
           "position": "WR",
-          "team": "PIT"
+          "team": null
         }
       ],
       "dropped": [
@@ -67133,7 +68668,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -67305,7 +68840,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [],
@@ -67334,7 +68869,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joshua Dobbs",
           "position": "QB",
-          "team": null
+          "team": "DET"
         }
       ],
       "faab": 0,
@@ -67386,13 +68921,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -67442,13 +68971,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "D'Onta Foreman",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -67470,13 +68993,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kyle Pitts",
-          "position": "TE",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -67551,16 +69068,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "A.T. Perry",
           "position": "WR",
-          "team": "PIT"
-        }
-      ],
-      "dropped": [
-        {
-          "name": "Michael Thomas",
-          "position": "WR",
           "team": null
         }
       ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -67666,13 +69177,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -67692,7 +69197,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -67834,13 +69339,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Michael Thomas",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -67922,7 +69421,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -68199,7 +69698,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Deebo Samuel",
             "position": "WR",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "2024 Round 11",
@@ -68308,7 +69807,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -69069,13 +70568,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "K.J. Osborn",
-          "position": "WR",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -69119,13 +70612,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Roschon Johnson",
-          "position": "RB",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -69175,13 +70662,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Blake Grupe",
-          "position": "K",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -69203,13 +70684,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Younghoe Koo",
-          "position": "K",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -69231,13 +70706,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -69287,13 +70756,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -69491,13 +70954,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -69547,13 +71004,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Alexander Mattison",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -69573,7 +71024,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -70058,7 +71509,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -70220,7 +71671,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joshua Dobbs",
           "position": "QB",
-          "team": null
+          "team": "DET"
         }
       ],
       "dropped": [],
@@ -70501,13 +71952,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -70529,13 +71974,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cam Akers",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -71125,16 +72564,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -71181,7 +72614,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -71216,7 +72649,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -71300,7 +72733,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -71352,13 +72785,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kansas City Chiefs",
-          "position": "DEF",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -71380,13 +72807,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jordan Love",
-          "position": "QB",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -71540,7 +72961,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -71564,13 +72985,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zay Jones",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -71592,13 +73007,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -71620,13 +73029,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -71676,13 +73079,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -71704,13 +73101,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -72010,7 +73401,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -72618,7 +74009,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -72646,7 +74037,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -72754,13 +74145,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -72782,13 +74167,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -72810,13 +74189,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Curtis Samuel",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -72866,13 +74239,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -72894,13 +74261,7 @@ window.__STATIC_DATA__ = {
           "team": "DAL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -72922,13 +74283,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -72950,13 +74305,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -72978,13 +74327,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -73006,13 +74349,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -73034,13 +74371,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -73062,13 +74393,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Royce Freeman",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -73118,13 +74443,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zach Ertz",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -73296,7 +74615,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Darren Waller",
             "position": "TE",
-            "team": null
+            "team": "CAR"
           },
           {
             "name": "Jeff Wilson",
@@ -73337,7 +74656,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -73570,7 +74889,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -73605,7 +74924,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "faab": 0,
@@ -73776,7 +75095,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [
@@ -73832,7 +75151,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
@@ -73969,13 +75288,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Robert Woods",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -74025,13 +75338,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -74081,13 +75388,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dalvin Cook",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -74137,13 +75438,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Dalvin Cook",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -74193,13 +75488,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Las Vegas Raiders",
-          "position": "DEF",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -74418,13 +75707,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Emari Demercado",
-          "position": "RB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -74785,7 +76068,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Keenan Allen",
             "position": "WR",
-            "team": null
+            "team": "IND"
           },
           {
             "name": "Jaylen Warren",
@@ -74845,7 +76128,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joshua Dobbs",
           "position": "QB",
-          "team": null
+          "team": "DET"
         }
       ],
       "faab": 0,
@@ -74894,7 +76177,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [],
@@ -75001,7 +76284,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -75081,13 +76364,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -75109,13 +76386,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -75221,13 +76492,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Braxton Berrios",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -75365,13 +76630,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Patrick Taylor",
-          "position": "RB",
-          "team": "SF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 35,
       "notes": "This player was claimed by another owner."
@@ -75454,13 +76713,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Calvin Austin",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -75560,13 +76813,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kareem Hunt",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -75588,13 +76835,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -75613,7 +76854,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [
@@ -75810,7 +77051,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -76054,7 +77295,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joshua Dobbs",
           "position": "QB",
-          "team": null
+          "team": "DET"
         }
       ],
       "dropped": [
@@ -76375,13 +77616,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalin Hyatt",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -76431,13 +77666,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dalvin Cook",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -76459,13 +77688,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Matt Breida",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "This player was claimed by another owner."
@@ -76487,13 +77710,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -76515,13 +77732,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cincinnati Bengals",
-          "position": "DEF",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -76571,13 +77782,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Luke Musgrave",
-          "position": "TE",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -76627,13 +77832,7 @@ window.__STATIC_DATA__ = {
           "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kansas City Chiefs",
-          "position": "DEF",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -76683,13 +77882,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -77277,13 +78470,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeVante Parker",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "This player was claimed by another owner."
@@ -77355,13 +78542,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 18,
       "notes": "This player was claimed by another owner."
@@ -77405,13 +78586,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Robert Woods",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -77433,13 +78608,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zay Jones",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 17,
       "notes": "This player was claimed by another owner."
@@ -77511,13 +78680,7 @@ window.__STATIC_DATA__ = {
           "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ronnie Rivers",
-          "position": "RB",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -77539,13 +78702,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tony Jones",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -77595,13 +78752,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tony Jones",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -77627,7 +78778,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -77831,7 +78982,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -78006,7 +79157,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -78350,7 +79501,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -78458,13 +79609,7 @@ window.__STATIC_DATA__ = {
           "team": "SEA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Indianapolis Colts",
-          "position": "DEF",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -78486,13 +79631,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Deon Jackson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -78514,13 +79653,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cleveland Browns",
-          "position": "DEF",
-          "team": "CLE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -78812,7 +79945,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -78877,7 +80010,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Patrick Taylor",
           "position": "RB",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [
@@ -79260,7 +80393,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Isaiah Hodgins",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -79281,7 +80414,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Isaiah Hodgins",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [],
@@ -79690,7 +80823,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Tutu Atwell",
           "position": "WR",
-          "team": "MIA"
+          "team": "LAR"
         }
       ],
       "dropped": [],
@@ -79765,13 +80898,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Geno Smith",
-          "position": "QB",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -79793,13 +80920,7 @@ window.__STATIC_DATA__ = {
           "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Marvin Mims",
-          "position": "WR",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -79849,13 +80970,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Boyd",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -79877,13 +80992,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Rondale Moore",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -79905,13 +81014,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Chig Okonkwo",
-          "position": "TE",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -79961,13 +81064,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -79989,13 +81086,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Rondale Moore",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 26,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -80045,13 +81136,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Graham Gano",
-          "position": "K",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -80101,13 +81186,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -80157,13 +81236,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Van Jefferson",
-          "position": "WR",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 21,
       "notes": "This player was claimed by another owner."
@@ -80185,13 +81258,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Van Jefferson",
-          "position": "WR",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -80238,7 +81305,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jake Moody",
           "position": "K",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [
@@ -80269,13 +81336,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -80297,13 +81358,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -80413,13 +81468,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -80794,7 +81843,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [],
@@ -80901,7 +81950,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -80925,13 +81974,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Sean Tucker",
-          "position": "RB",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -81235,7 +82278,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -81280,7 +82323,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           },
           {
             "name": "Dalvin Cook",
@@ -81687,7 +82730,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Evan Hull",
           "position": "RB",
-          "team": "HOU"
+          "team": "ARI"
         }
       ],
       "faab": 0,
@@ -82174,7 +83217,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [],
@@ -82331,7 +83374,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -82542,7 +83585,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Isaiah Hodgins",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [
@@ -82648,7 +83691,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [],
@@ -83035,13 +84078,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -83479,7 +84516,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -83500,7 +84537,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -83553,13 +84590,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Conklin",
-          "position": "TE",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -83753,13 +84784,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "New York Jets",
-          "position": "DEF",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -84041,13 +85066,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Van Jefferson",
-          "position": "WR",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -84129,7 +85148,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dare Ogunbowale",
           "position": "RB",
-          "team": null
+          "team": "LV"
         }
       ],
       "faab": 0,
@@ -84172,7 +85191,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dare Ogunbowale",
           "position": "RB",
-          "team": null
+          "team": "LV"
         }
       ],
       "dropped": [
@@ -84621,13 +85640,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Noah Fant",
-          "position": "TE",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -84759,13 +85772,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Las Vegas Raiders",
-          "position": "DEF",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -84787,13 +85794,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Las Vegas Raiders",
-          "position": "DEF",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -85321,13 +86322,7 @@ window.__STATIC_DATA__ = {
           "team": "SEA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Greg Joseph",
-          "position": "K",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -85827,13 +86822,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jelani Woods",
-          "position": "TE",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -86031,7 +87020,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -86220,7 +87209,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [
@@ -86451,7 +87440,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -86525,13 +87514,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Matt Breida",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -86628,16 +87611,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kenyan Drake",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -86656,7 +87633,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [
@@ -86687,13 +87664,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kenyan Drake",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -86743,13 +87714,7 @@ window.__STATIC_DATA__ = {
           "team": "CLE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Washington Commanders",
-          "position": "DEF",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -86803,7 +87768,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -88373,7 +89338,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -88564,7 +89529,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -88782,7 +89747,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Samori Toure",
           "position": "WR",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -88838,7 +89803,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -88918,13 +89883,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Terrace Marshall",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -88950,7 +89909,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrace Marshall",
           "position": "WR",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -88974,13 +89933,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Mack Hollins",
-          "position": "WR",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -89006,7 +89959,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -89146,13 +90099,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tennessee Titans",
-          "position": "DEF",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -89240,13 +90187,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Arizona Cardinals",
-          "position": "DEF",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -89296,13 +90237,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Arizona Cardinals",
-          "position": "DEF",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -89324,13 +90259,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Kyren Williams",
-          "position": "RB",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -89474,13 +90403,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Samori Toure",
-          "position": "WR",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -89502,13 +90425,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -89530,13 +90447,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -89558,13 +90469,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -89614,13 +90519,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Samori Toure",
-          "position": "WR",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -89736,13 +90635,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Scotty Miller",
-          "position": "WR",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 28,
       "notes": "This player was claimed by another owner."
@@ -89764,13 +90657,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Arizona Cardinals",
-          "position": "DEF",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 23,
       "notes": "This player was claimed by another owner."
@@ -90057,7 +90944,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Samori Toure",
           "position": "WR",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
@@ -90652,7 +91539,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "faab": 0,
@@ -90676,13 +91563,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -90782,13 +91663,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Rams",
-          "position": "DEF",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -90810,13 +91685,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Robert Tonyan",
-          "position": "TE",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -90838,13 +91707,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Alec Pierce",
-          "position": "WR",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -90866,13 +91729,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -90894,13 +91751,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -90950,13 +91801,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -90978,13 +91823,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Julio Jones",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -91084,13 +91923,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Minnesota Vikings",
-          "position": "DEF",
-          "team": "MIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -91144,7 +91977,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -91249,7 +92082,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [],
@@ -91321,7 +92154,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "dropped": [
@@ -91443,7 +92276,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         },
         {
           "name": "T.J. Hockenson",
@@ -91453,7 +92286,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Deebo Samuel",
           "position": "WR",
-          "team": null
+          "team": "SF"
         },
         {
           "name": "Dawson Knox",
@@ -91485,7 +92318,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         },
         {
           "name": "T.J. Hockenson",
@@ -91495,7 +92328,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Deebo Samuel",
           "position": "WR",
-          "team": null
+          "team": "SF"
         },
         {
           "name": "Dawson Knox",
@@ -91622,7 +92455,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "JuJu Smith-Schuster",
             "position": "WR",
-            "team": "NYG"
+            "team": null
           },
           {
             "name": "T.J. Hockenson",
@@ -91644,7 +92477,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Deebo Samuel",
             "position": "WR",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "Dawson Knox",
@@ -92016,7 +92849,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -92065,7 +92898,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrace Marshall",
           "position": "WR",
-          "team": "MIA"
+          "team": null
         }
       ],
       "dropped": [
@@ -92149,7 +92982,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [
@@ -92358,13 +93191,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jahan Dotson",
-          "position": "WR",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -92676,13 +93503,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -92798,13 +93619,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Renfrow",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -92826,13 +93641,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Marquise Goodwin",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -92854,13 +93663,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Derek Carr",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -92948,13 +93751,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "Brandon McManus",
-          "position": "K",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -92996,7 +93793,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -93064,13 +93861,7 @@ window.__STATIC_DATA__ = {
           "team": "KC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tennessee Titans",
-          "position": "DEF",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -93230,13 +94021,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Josh Reynolds",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -93256,7 +94041,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Bryant",
           "position": "TE",
-          "team": "SEA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -93302,13 +94087,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "New York Jets",
-          "position": "DEF",
-          "team": "NYJ"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -93327,7 +94106,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Bryant",
           "position": "TE",
-          "team": "SEA"
+          "team": null
         }
       ],
       "dropped": [
@@ -93355,7 +94134,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -93692,7 +94471,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -93938,7 +94717,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -94127,7 +94906,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [
@@ -94407,7 +95186,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -94466,13 +95245,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Javonte Williams",
-          "position": "RB",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -94597,7 +95370,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -94644,13 +95417,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -94672,13 +95439,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tre'Quan Smith",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -94700,13 +95461,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Las Vegas Raiders",
-          "position": "DEF",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -94728,13 +95483,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jeff Wilson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -94784,13 +95533,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Marvin Jones",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -94812,13 +95555,7 @@ window.__STATIC_DATA__ = {
           "team": "SEA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Nick Folk",
-          "position": "K",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -94988,7 +95725,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -95065,7 +95802,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [],
@@ -95101,7 +95838,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           },
           {
             "name": "Clyde Edwards-Helaire",
@@ -95209,7 +95946,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -95592,13 +96329,7 @@ window.__STATIC_DATA__ = {
           "team": "NYG"
         }
       ],
-      "dropped": [
-        {
-          "name": "D'Onta Foreman",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -95764,7 +96495,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -96072,13 +96803,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Donovan Peoples-Jones",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -96100,13 +96825,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -96156,13 +96875,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Corey Davis",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -96184,13 +96897,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -96566,13 +97273,7 @@ window.__STATIC_DATA__ = {
           "team": "DEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -97482,13 +98183,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Nyheim Miller-Hines",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -97510,13 +98205,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Rashaad Penny",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -97650,7 +98339,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Zay Jones",
             "position": "WR",
-            "team": null
+            "team": "HOU"
           },
           {
             "name": "D'Andre Swift",
@@ -97950,13 +98639,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Conklin",
-          "position": "TE",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -97978,13 +98661,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -98006,13 +98683,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Conklin",
-          "position": "TE",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -98034,13 +98705,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Denver Broncos",
-          "position": "DEF",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -98084,13 +98749,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Allen Robinson",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -98112,13 +98771,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Minnesota Vikings",
-          "position": "DEF",
-          "team": "MIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -98140,13 +98793,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Rashaad Penny",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -98246,13 +98893,7 @@ window.__STATIC_DATA__ = {
           "team": "LAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeVante Parker",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -98452,13 +99093,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Gus Edwards",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -98614,13 +99249,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -99002,13 +99631,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -99102,13 +99725,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Greg Dortch",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -99747,13 +100364,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Craig Reynolds",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -100051,7 +100662,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -100103,13 +100714,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -100128,7 +100733,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -100153,13 +100758,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -100181,13 +100780,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -100272,7 +100865,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -100295,7 +100888,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cade York",
           "position": "K",
-          "team": "NYJ"
+          "team": null
         }
       ],
       "faab": 0,
@@ -100319,13 +100912,7 @@ window.__STATIC_DATA__ = {
           "team": "GB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Rams",
-          "position": "DEF",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -100344,16 +100931,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -100466,16 +101047,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zay Jones",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jimmy Garoppolo",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -100529,7 +101104,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -100553,13 +101128,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Irv Smith",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -100631,7 +101200,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Najee Harris",
             "position": "RB",
-            "team": null
+            "team": "NYG"
           }
         ]
       }
@@ -100886,7 +101455,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "JuJu Smith-Schuster",
             "position": "WR",
-            "team": "NYG"
+            "team": null
           },
           {
             "name": "Justin Fields",
@@ -100929,7 +101498,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -101099,7 +101668,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Keenan Allen",
             "position": "WR",
-            "team": null
+            "team": "IND"
           },
           {
             "name": "David Montgomery",
@@ -101197,7 +101766,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -101430,7 +101999,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [
@@ -101723,13 +102292,7 @@ window.__STATIC_DATA__ = {
           "team": "LAC"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cincinnati Bengals",
-          "position": "DEF",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -101779,13 +102342,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -101835,13 +102392,7 @@ window.__STATIC_DATA__ = {
           "team": "JAX"
         }
       ],
-      "dropped": [
-        {
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -101907,13 +102458,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Trey Lance",
-          "position": "QB",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -101991,13 +102536,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Josh Gordon",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -102075,13 +102614,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -102153,13 +102686,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -102181,13 +102708,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -102221,7 +102742,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Khalil Herbert",
             "position": "RB",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "2023 Round 2",
@@ -102311,13 +102832,7 @@ window.__STATIC_DATA__ = {
           "team": "ATL"
         }
       ],
-      "dropped": [
-        {
-          "name": "Dallas Cowboys",
-          "position": "DEF",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -102398,7 +102913,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Deebo Samuel",
             "position": "WR",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "DeVonta Smith",
@@ -102682,7 +103197,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "JuJu Smith-Schuster",
             "position": "WR",
-            "team": "NYG"
+            "team": null
           },
           {
             "name": "Javonte Williams",
@@ -102726,7 +103241,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -102881,14 +103396,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [
         {
           "name": "Zamir White",
           "position": "RB",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -102909,7 +103424,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -102944,7 +103459,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -102965,7 +103480,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cade York",
           "position": "K",
-          "team": "NYJ"
+          "team": null
         }
       ],
       "dropped": [
@@ -102993,7 +103508,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [],
@@ -103245,13 +103760,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Isaiah Spiller",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -103273,13 +103782,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -103385,13 +103888,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Noah Fant",
-          "position": "TE",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -103413,13 +103910,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Zamir White",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -103441,13 +103932,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Noah Fant",
-          "position": "TE",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -103569,13 +104054,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Irv Smith",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -103681,13 +104160,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Raheem Mostert",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -103793,13 +104266,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Tolbert",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -103849,13 +104316,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Tolbert",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -103961,13 +104422,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Cincinnati Bengals",
-          "position": "DEF",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -104934,7 +105389,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -105183,7 +105638,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Darren Waller",
             "position": "TE",
-            "team": null
+            "team": "CAR"
           },
           {
             "name": "Chris Godwin",
@@ -105841,7 +106296,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "faab": 0,
@@ -105864,7 +106319,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           }
         ],
         "Paul_Yoon": [
@@ -106480,7 +106935,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "dropped": [],
@@ -107041,7 +107496,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -107149,13 +107604,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Cole Kmet",
-          "position": "TE",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -107290,7 +107739,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dare Ogunbowale",
           "position": "RB",
-          "team": null
+          "team": "LV"
         }
       ],
       "dropped": [],
@@ -107400,7 +107849,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dare Ogunbowale",
           "position": "RB",
-          "team": null
+          "team": "LV"
         }
       ],
       "dropped": [
@@ -108173,7 +108622,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -108421,13 +108870,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -109015,7 +109458,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jermar Jefferson",
           "position": "RB",
-          "team": null
+          "team": "MIN"
         }
       ],
       "faab": 0,
@@ -109151,13 +109594,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jermar Jefferson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -109371,7 +109808,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -109748,7 +110185,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jermar Jefferson",
           "position": "RB",
-          "team": null
+          "team": "MIN"
         }
       ],
       "dropped": [
@@ -109776,7 +110213,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [
@@ -109898,7 +110335,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -109983,7 +110420,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -110011,7 +110448,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -110117,7 +110554,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -110278,7 +110715,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -110619,13 +111056,7 @@ window.__STATIC_DATA__ = {
           "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -110713,13 +111144,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Latavius Murray",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -110741,13 +111166,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Latavius Murray",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -110869,13 +111288,7 @@ window.__STATIC_DATA__ = {
           "team": "SEA"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeSean Jackson",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -110950,7 +111363,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [],
@@ -110972,7 +111385,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [
@@ -111969,13 +112382,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Tyler Conklin",
-          "position": "TE",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -112047,13 +112454,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jake Elliott",
-          "position": "K",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -112107,7 +112508,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedrick Wilson",
           "position": "WR",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -112187,13 +112588,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Matt Breida",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -112215,13 +112610,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cedrick Wilson",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -112287,13 +112676,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Ryan Tannehill",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -112315,13 +112698,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "New Orleans Saints",
-          "position": "DEF",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -112343,13 +112720,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tre'Quan Smith",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -112671,13 +113042,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Cole Kmet",
-          "position": "TE",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -113260,7 +113625,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedrick Wilson",
           "position": "WR",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -113291,13 +113656,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miami Dolphins",
-          "position": "DEF",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -113600,7 +113959,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Keenan Allen",
             "position": "WR",
-            "team": null
+            "team": "IND"
           },
           {
             "name": "Josh Jacobs",
@@ -113786,7 +114145,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -114348,7 +114707,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -114689,13 +115048,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Pittsburgh Steelers",
-          "position": "DEF",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -114743,7 +115096,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -114964,7 +115317,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -115108,7 +115461,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [],
@@ -115477,7 +115830,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -115555,7 +115908,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -115804,7 +116157,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -116218,7 +116571,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Le'Veon Bell",
             "position": "RB",
-            "team": "TB"
+            "team": null
           },
           {
             "name": "Derrick Henry",
@@ -116279,13 +116632,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Marshawn Lynch",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -116624,13 +116971,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Denver Broncos",
-          "position": "DEF",
-          "team": "DEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 111,
       "notes": "This player was claimed by another owner."
@@ -116948,13 +117289,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Le'Veon Bell",
-          "position": "RB",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -116995,7 +117330,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -117048,13 +117383,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Elijah Moore",
-          "position": "WR",
-          "team": "PHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 100,
       "notes": "This player was claimed by another owner."
@@ -117325,13 +117654,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -117444,14 +117767,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": null
+          "team": "NYG"
         }
       ],
       "dropped": [
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": null
+          "team": "NYG"
         }
       ],
       "faab": 0,
@@ -117474,7 +117797,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Najee Harris",
             "position": "RB",
-            "team": null
+            "team": "NYG"
           }
         ],
         "Paul_Yoon": [
@@ -117935,7 +118258,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -118130,7 +118453,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -118232,13 +118555,7 @@ window.__STATIC_DATA__ = {
           "team": "WAS"
         }
       ],
-      "dropped": [
-        {
-          "name": "Darius Slayton",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -118316,13 +118633,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Randall Cobb",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -118676,13 +118987,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Sterling Shepard",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -119119,7 +119424,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           },
           {
             "name": "Alexander Mattison",
@@ -119317,7 +119622,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Anthony Firkser",
           "position": "TE",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -119589,7 +119894,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -119861,7 +120166,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -119911,7 +120216,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trey Sermon",
           "position": "RB",
-          "team": null
+          "team": "ATL"
         }
       ],
       "faab": 0,
@@ -119935,13 +120240,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Carolina Panthers",
-          "position": "DEF",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -120019,13 +120318,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Damien Williams",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -120047,13 +120340,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Derek Carr",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -120075,13 +120362,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Darius Slayton",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -120172,7 +120453,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [],
@@ -120217,7 +120498,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -120319,13 +120600,7 @@ window.__STATIC_DATA__ = {
           "team": "TB"
         }
       ],
-      "dropped": [
-        {
-          "name": "Henry Ruggs",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "This player was claimed by another owner."
@@ -120351,7 +120626,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -120570,7 +120845,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [
@@ -120782,7 +121057,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -121145,13 +121420,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Robbie Chosen",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -121461,7 +121730,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -121482,14 +121751,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Anthony Firkser",
           "position": "TE",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -121510,7 +121779,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -121610,16 +121879,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -121638,7 +121901,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [],
@@ -121688,16 +121951,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
-      "dropped": [
-        {
-          "name": "James Washington",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 30,
       "notes": "This player was claimed by another owner."
@@ -121772,7 +122029,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -121866,7 +122123,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [],
@@ -122377,7 +122634,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JuJu Smith-Schuster",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -122902,7 +123159,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Khalil Herbert",
             "position": "RB",
-            "team": null
+            "team": "SF"
           }
         ],
         "ddhk": [
@@ -123266,13 +123523,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Reagor",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 25,
       "notes": "This player was claimed by another owner."
@@ -123316,13 +123567,7 @@ window.__STATIC_DATA__ = {
           "team": "DET"
         }
       ],
-      "dropped": [
-        {
-          "name": "Sammy Watkins",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -123344,13 +123589,7 @@ window.__STATIC_DATA__ = {
           "team": "MIA"
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -123411,7 +123650,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Trey Sermon",
             "position": "RB",
-            "team": null
+            "team": "ATL"
           },
           {
             "name": "Michael Carter",
@@ -123460,13 +123699,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Baltimore Ravens",
-          "position": "DEF",
-          "team": "BAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -123622,13 +123855,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 13,
       "notes": "This player was claimed by another owner."
@@ -123650,13 +123877,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -123706,13 +123927,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -123793,7 +124008,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [
@@ -123950,7 +124165,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -124278,7 +124493,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -124419,7 +124634,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Deebo Samuel",
             "position": "WR",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "Zack Moss",
@@ -124621,7 +124836,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Khalil Herbert",
           "position": "RB",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -124736,13 +124951,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Rondale Moore",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -124868,7 +125077,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrace Marshall",
           "position": "WR",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -124892,13 +125101,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Nick Westbrook-Ikhine",
-          "position": "WR",
-          "team": "IND"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -124976,13 +125179,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Cincinnati Bengals",
-          "position": "DEF",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -125032,13 +125229,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Peyton Barber",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 34,
       "notes": "This player was claimed by another owner."
@@ -125169,7 +125360,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -125191,7 +125382,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -125263,7 +125454,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "dropped": [
@@ -125376,7 +125567,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "faab": 0,
@@ -125482,7 +125673,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedrick Wilson",
           "position": "WR",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -125823,7 +126014,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrace Marshall",
           "position": "WR",
-          "team": "MIA"
+          "team": null
         }
       ],
       "dropped": [
@@ -126110,13 +126301,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Cedrick Wilson",
-          "position": "WR",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 25,
       "notes": "This player was claimed by another owner."
@@ -126138,13 +126323,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Demetric Felton",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -126194,13 +126373,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Demetric Felton",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -126222,13 +126395,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Braxton Berrios",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -126372,13 +126539,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Blake Jarwin",
-          "position": "TE",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 22,
       "notes": "This player was claimed by another owner."
@@ -126456,13 +126617,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "K.J. Osborn",
-          "position": "WR",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -126488,7 +126643,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -126534,13 +126689,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Latavius Murray",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -126643,7 +126792,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Cedrick Wilson",
           "position": "WR",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -126799,7 +126948,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -126962,7 +127111,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -127080,13 +127229,7 @@ window.__STATIC_DATA__ = {
           "team": "CAR"
         }
       ],
-      "dropped": [
-        {
-          "name": "Ronald Jones",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -128008,7 +128151,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [],
@@ -128271,7 +128414,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -128348,7 +128491,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [
@@ -128376,16 +128519,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
-        }
-      ],
-      "dropped": [
-        {
-          "name": "David Johnson",
-          "position": "RB",
           "team": null
         }
       ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -128404,16 +128541,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
-        }
-      ],
-      "dropped": [
-        {
-          "name": "A.J. Green",
-          "position": "WR",
           "team": null
         }
       ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -128432,7 +128563,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Elijah Mitchell",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
@@ -128488,7 +128619,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -128660,7 +128791,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "dropped": [
@@ -128688,16 +128819,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
-        }
-      ],
-      "dropped": [
-        {
-          "name": "Mark Ingram",
-          "position": "RB",
           "team": null
         }
       ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 11,
       "notes": "This player was claimed by another owner."
@@ -128779,7 +128904,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "faab": 0,
@@ -128807,7 +128932,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -128862,7 +128987,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "dropped": [
@@ -129123,7 +129248,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Terrace Marshall",
           "position": "WR",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -129349,7 +129474,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -130375,7 +130500,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           }
         ],
         "edgxrjiang": [
@@ -130574,14 +130699,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dare Ogunbowale",
           "position": "RB",
-          "team": null
+          "team": "LV"
         }
       ],
       "dropped": [
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -130759,7 +130884,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -131077,7 +131202,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trayveon Williams",
           "position": "RB",
-          "team": null
+          "team": "DET"
         }
       ],
       "faab": 0,
@@ -131101,13 +131226,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jamaal Williams",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -131126,16 +131245,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
-        }
-      ],
-      "dropped": [
-        {
-          "name": "Trayveon Williams",
-          "position": "RB",
           "team": null
         }
       ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -131182,7 +131295,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "dropped": [
@@ -131276,7 +131389,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "dropped": [
@@ -131389,7 +131502,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Le'Veon Bell",
           "position": "RB",
-          "team": "TB"
+          "team": null
         }
       ],
       "faab": 0,
@@ -131517,7 +131630,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -131894,7 +132007,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Trayveon Williams",
           "position": "RB",
-          "team": null
+          "team": "DET"
         }
       ],
       "dropped": [
@@ -132009,13 +132122,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Josh Reynolds",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -132418,7 +132525,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -133249,7 +133356,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jonnu Smith",
           "position": "TE",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -133473,13 +133580,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Gabe Davis",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -134168,7 +134269,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -134262,7 +134363,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -134336,13 +134437,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Anthony McFarland",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -134389,14 +134484,14 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "dropped": [
         {
           "name": "Mecole Hardman",
           "position": "WR",
-          "team": "BUF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -134448,13 +134543,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Derek Carr",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -135037,7 +135126,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "faab": 0,
@@ -135164,7 +135253,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -135248,7 +135337,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "dropped": [],
@@ -135295,13 +135384,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -135445,13 +135528,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Devontae Booker",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -135551,13 +135628,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Rex Burkhead",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -136699,13 +136770,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Teddy Bridgewater",
-          "position": "QB",
-          "team": "DET"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -136727,13 +136792,7 @@ window.__STATIC_DATA__ = {
           "team": "CHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Gus Edwards",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -136911,13 +136970,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "DeeJay Dallas",
-          "position": "RB",
-          "team": "JAX"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -137224,7 +137277,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -137490,7 +137543,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Zane Gonzalez",
             "position": "K",
-            "team": "MIA"
+            "team": null
           },
           {
             "name": "2021 Round 10",
@@ -137546,13 +137599,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 12,
       "notes": "This player was claimed by another owner."
@@ -137696,13 +137743,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tampa Bay Buccaneers",
-          "position": "DEF",
-          "team": "TB"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -138172,7 +138213,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -138614,13 +138655,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Benny Snell",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -138642,13 +138677,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Benny Snell",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -138670,13 +138699,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Benny Snell",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -138698,13 +138721,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Darius Slayton",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -138726,13 +138743,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Kansas City Chiefs",
-          "position": "DEF",
-          "team": "KC"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -139096,7 +139107,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "faab": 0,
@@ -139120,13 +139131,7 @@ window.__STATIC_DATA__ = {
           "team": "NO"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -139472,13 +139477,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Cam Newton",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 16,
       "notes": "This player was claimed by another owner."
@@ -139522,13 +139521,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Golden Tate",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -139761,7 +139754,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "dropped": [
@@ -139994,7 +139987,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Darren Waller",
             "position": "TE",
-            "team": null
+            "team": "CAR"
           },
           {
             "name": "Chris Carson",
@@ -140151,7 +140144,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -140194,7 +140187,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Sterling Shepard",
             "position": "WR",
-            "team": null
+            "team": "HOU"
           },
           {
             "name": "2021 Round 11",
@@ -140276,7 +140269,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "faab": 0,
@@ -140460,7 +140453,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Bryant",
           "position": "TE",
-          "team": "SEA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -140484,13 +140477,7 @@ window.__STATIC_DATA__ = {
           "team": "ARI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Adam Humphries",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -140606,13 +140593,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Marquez Valdes-Scantling",
-          "position": "WR",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -140838,13 +140819,7 @@ window.__STATIC_DATA__ = {
           "team": "PIT"
         }
       ],
-      "dropped": [
-        {
-          "name": "Preston Williams",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -140936,7 +140911,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -140982,13 +140957,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Cam Akers",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -141392,7 +141361,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Zane Gonzalez",
           "position": "K",
-          "team": "MIA"
+          "team": null
         }
       ],
       "faab": 0,
@@ -141957,7 +141926,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "dropped": [
@@ -142070,7 +142039,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "faab": 0,
@@ -142191,7 +142160,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Bryant",
           "position": "TE",
-          "team": "SEA"
+          "team": null
         }
       ],
       "dropped": [
@@ -142300,13 +142269,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Drew Brees",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -142350,13 +142313,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Robert Tonyan",
-          "position": "TE",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -142378,13 +142335,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Denzel Mims",
-          "position": "WR",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 23,
       "notes": "This player was claimed by another owner."
@@ -142406,13 +142357,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -142741,7 +142686,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -142819,16 +142764,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Frank Gore",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -143070,13 +143009,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "NYG"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -143117,7 +143050,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [],
@@ -143214,13 +143147,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Robert Tonyan",
-          "position": "TE",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -143239,7 +143166,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
       "dropped": [],
@@ -143283,16 +143210,10 @@ window.__STATIC_DATA__ = {
         {
           "name": "JaMycal Hasty",
           "position": "RB",
-          "team": null
+          "team": "NE"
         }
       ],
-      "dropped": [
-        {
-          "name": "Malcolm Brown",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 5,
       "notes": "This player was claimed by another owner."
@@ -143314,13 +143235,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Ben Roethlisberger",
-          "position": "QB",
-          "team": "PIT"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -143398,13 +143313,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Denzel Mims",
-          "position": "WR",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -143426,13 +143335,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "J.D. McKissic",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -143476,13 +143379,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -143546,7 +143443,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -143614,13 +143511,7 @@ window.__STATIC_DATA__ = {
           "team": "MIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Austin Hooper",
-          "position": "TE",
-          "team": "ATL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -143796,7 +143687,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Anthony Firkser",
           "position": "TE",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
@@ -143817,7 +143708,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "dropped": [
@@ -144375,7 +144266,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Anthony Firkser",
           "position": "TE",
-          "team": "WAS"
+          "team": null
         }
       ],
       "dropped": [],
@@ -144447,7 +144338,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "dropped": [],
@@ -144519,7 +144410,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -144604,7 +144495,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "faab": 0,
@@ -144728,13 +144619,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Carolina Panthers",
-          "position": "DEF",
-          "team": "CAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 1,
       "notes": "This player was claimed by another owner."
@@ -144884,13 +144769,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Randall Cobb",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -144912,13 +144791,7 @@ window.__STATIC_DATA__ = {
           "team": "BUF"
         }
       ],
-      "dropped": [
-        {
-          "name": "Houston Texans",
-          "position": "DEF",
-          "team": "HOU"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -145195,7 +145068,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "faab": 0,
@@ -145273,7 +145146,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Sterling Shepard",
           "position": "WR",
-          "team": null
+          "team": "HOU"
         }
       ],
       "faab": 0,
@@ -146062,13 +145935,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Greg Ward",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -146090,13 +145957,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "This player was claimed by another owner."
@@ -146146,13 +146007,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Drew Sample",
-          "position": "TE",
-          "team": "CIN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -146178,7 +146033,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -146228,7 +146083,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "faab": 0,
@@ -146424,13 +146279,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Dak Prescott",
-          "position": "QB",
-          "team": "DAL"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 7,
       "notes": "This player was claimed by another owner."
@@ -146452,13 +146301,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Matt Ryan",
-          "position": "QB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -146524,13 +146367,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Zach Pascal",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -147053,7 +146890,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Denzel Mims",
           "position": "WR",
-          "team": "DAL"
+          "team": null
         }
       ],
       "dropped": [],
@@ -147327,13 +147164,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Chris Thompson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -147642,7 +147473,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [
@@ -147729,13 +147560,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jeff Wilson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 22,
       "notes": "This player was claimed by another owner."
@@ -147754,7 +147579,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [
@@ -147863,7 +147688,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Deebo Samuel",
             "position": "WR",
-            "team": null
+            "team": "SF"
           },
           {
             "name": "Joshua Kelley",
@@ -147890,13 +147715,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Randall Cobb",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -147959,7 +147778,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "D'Ernest Johnson",
           "position": "RB",
-          "team": null
+          "team": "TEN"
         }
       ],
       "dropped": [],
@@ -148003,7 +147822,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Daniel Carlson",
           "position": "K",
-          "team": null
+          "team": "NO"
         }
       ],
       "dropped": [
@@ -148276,7 +148095,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Hakeem Butler",
           "position": "TE",
-          "team": "DEN"
+          "team": null
         }
       ],
       "faab": 0,
@@ -149139,7 +148958,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Hakeem Butler",
           "position": "TE",
-          "team": "DEN"
+          "team": null
         }
       ],
       "dropped": [
@@ -149702,13 +149521,7 @@ window.__STATIC_DATA__ = {
           "team": "CIN"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miles Boykin",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 6,
       "notes": "This player was claimed by another owner."
@@ -149730,13 +149543,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "Miles Boykin",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 3,
       "notes": "This player was claimed by another owner."
@@ -150089,7 +149896,7 @@ window.__STATIC_DATA__ = {
           {
             "name": "Stefon Diggs",
             "position": "WR",
-            "team": null
+            "team": "WAS"
           },
           {
             "name": "Henry Ruggs",
@@ -150380,13 +150187,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 8,
       "notes": "This player was claimed by another owner."
@@ -150842,13 +150643,7 @@ window.__STATIC_DATA__ = {
           "team": "IND"
         }
       ],
-      "dropped": [
-        {
-          "name": "New Orleans Saints",
-          "position": "DEF",
-          "team": "NO"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -151024,13 +150819,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Scotty Miller",
-          "position": "WR",
-          "team": "CHI"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 9,
       "notes": "This player was claimed by another owner."
@@ -151102,13 +150891,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Renfrow",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -152054,13 +151837,7 @@ window.__STATIC_DATA__ = {
           "team": "PHI"
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Reagor",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 2,
       "notes": "This player was claimed by another owner."
@@ -152210,13 +151987,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Jalen Reagor",
-          "position": "WR",
-          "team": "MIA"
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 4,
       "notes": "Unfortunately, your roster will have too many players after this transaction."
@@ -152294,13 +152065,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Leonard Fournette",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 15,
       "notes": "This player was claimed by another owner."
@@ -152322,13 +152087,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Duke Johnson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 10,
       "notes": "This player was claimed by another owner."
@@ -152378,13 +152137,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Kerryon Johnson",
-          "position": "RB",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 23,
       "notes": "This player was claimed by another owner."
@@ -152406,13 +152159,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Hunter Renfrow",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 0,
       "notes": "This player was claimed by another owner."
@@ -152484,13 +152231,7 @@ window.__STATIC_DATA__ = {
           "team": null
         }
       ],
-      "dropped": [
-        {
-          "name": "Miles Boykin",
-          "position": "WR",
-          "team": null
-        }
-      ],
+      "dropped": [],
       "faab": 0,
       "waiver_bid": 20,
       "notes": "This player was claimed by another owner."
@@ -152572,7 +152313,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "faab": 0,
@@ -152798,7 +152539,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Teddy Bridgewater",
           "position": "QB",
-          "team": "DET"
+          "team": null
         }
       ],
       "dropped": [],
@@ -159594,14 +159335,963 @@ window.__STATIC_DATA__ = {
           }
         }
       },
-      "2026": {}
+      "2026": {
+        "ddhk": {
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "eikichii952": {
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "sallyyoon84": {
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "andyxia124": {
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "Paul_Yoon": {
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "danseung": {
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "Pkizzle3000": {
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "jonsung": {
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "IconicJH": {
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "edgxrjiang": {
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "sathwikn": {
+          "spiffster": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        },
+        "spiffster": {
+          "sathwikn": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Pkizzle3000": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "jonsung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 2,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "edgxrjiang": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "sallyyoon84": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "danseung": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "ddhk": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "eikichii952": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "Paul_Yoon": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "andyxia124": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          },
+          "IconicJH": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 1,
+            "pf": 0.0,
+            "pa": 0.0
+          }
+        }
+      }
     },
     "all_time": {
       "ddhk": {
         "Pkizzle3000": {
           "wins": 7,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 1335.16,
           "pa": 1056.28
         },
@@ -159615,35 +160305,35 @@ window.__STATIC_DATA__ = {
         "danseung": {
           "wins": 6,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 1066.26,
           "pa": 990.82
         },
         "edgxrjiang": {
           "wins": 2,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 537.88,
           "pa": 565.58
         },
         "spiffster": {
           "wins": 5,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 924.04,
           "pa": 859.18
         },
         "andyxia124": {
           "wins": 4,
           "losses": 2,
-          "ties": 0,
+          "ties": 2,
           "pf": 652.32,
           "pa": 579.62
         },
         "Paul_Yoon": {
           "wins": 6,
           "losses": 1,
-          "ties": 0,
+          "ties": 2,
           "pf": 837.94,
           "pa": 721.72
         },
@@ -159657,7 +160347,7 @@ window.__STATIC_DATA__ = {
         "jonsung": {
           "wins": 6,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 994.28,
           "pa": 842.96
         },
@@ -159671,7 +160361,7 @@ window.__STATIC_DATA__ = {
         "sallyyoon84": {
           "wins": 3,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 836.34,
           "pa": 809.04
         },
@@ -159685,21 +160375,21 @@ window.__STATIC_DATA__ = {
         "sathwikn": {
           "wins": 4,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 639.08,
           "pa": 487.98
         },
         "IconicJH": {
           "wins": 5,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 932.6,
           "pa": 829.96
         },
         "eikichii952": {
           "wins": 1,
           "losses": 2,
-          "ties": 0,
+          "ties": 2,
           "pf": 323.64,
           "pa": 364.42
         },
@@ -159715,14 +160405,14 @@ window.__STATIC_DATA__ = {
         "ddhk": {
           "wins": 3,
           "losses": 7,
-          "ties": 0,
+          "ties": 1,
           "pf": 1056.28,
           "pa": 1335.16
         },
         "danseung": {
           "wins": 4,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 1057.92,
           "pa": 968.28
         },
@@ -159736,35 +160426,35 @@ window.__STATIC_DATA__ = {
         "spiffster": {
           "wins": 3,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 754.18,
           "pa": 809.94
         },
         "edgxrjiang": {
           "wins": 2,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 576.42,
           "pa": 635.62
         },
         "Paul_Yoon": {
           "wins": 5,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 883.5,
           "pa": 809.82
         },
         "andyxia124": {
           "wins": 6,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 924.68,
           "pa": 745.5
         },
         "jonsung": {
           "wins": 4,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 741.14,
           "pa": 714.34
         },
@@ -159778,7 +160468,7 @@ window.__STATIC_DATA__ = {
         "sallyyoon84": {
           "wins": 2,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 578.82,
           "pa": 660.3
         },
@@ -159799,21 +160489,21 @@ window.__STATIC_DATA__ = {
         "sathwikn": {
           "wins": 4,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 531.3,
           "pa": 458.54
         },
         "IconicJH": {
           "wins": 1,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 641.58,
           "pa": 742.16
         },
         "eikichii952": {
           "wins": 1,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 293.16,
           "pa": 310.98
         },
@@ -159836,21 +160526,21 @@ window.__STATIC_DATA__ = {
         "Paul_Yoon": {
           "wins": 2,
           "losses": 7,
-          "ties": 0,
+          "ties": 1,
           "pf": 943.9,
           "pa": 1022.36
         },
         "andyxia124": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 720.08,
           "pa": 601.68
         },
         "jonsung": {
           "wins": 4,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 712.72,
           "pa": 643.92
         },
@@ -159864,21 +160554,21 @@ window.__STATIC_DATA__ = {
         "spiffster": {
           "wins": 5,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 892.62,
           "pa": 727.74
         },
         "edgxrjiang": {
           "wins": 6,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 845.82,
           "pa": 773.72
         },
         "danseung": {
           "wins": 5,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 1045.14,
           "pa": 1049.32
         },
@@ -159892,21 +160582,21 @@ window.__STATIC_DATA__ = {
         "Pkizzle3000": {
           "wins": 4,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 660.3,
           "pa": 578.82
         },
         "ddhk": {
           "wins": 4,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 809.04,
           "pa": 836.34
         },
         "sathwikn": {
           "wins": 5,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 860.4,
           "pa": 798.28
         },
@@ -159920,14 +160610,14 @@ window.__STATIC_DATA__ = {
         "IconicJH": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 621.48,
           "pa": 719.32
         },
         "eikichii952": {
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 219.88,
           "pa": 216.88
         },
@@ -160022,14 +160712,14 @@ window.__STATIC_DATA__ = {
         "andyxia124": {
           "wins": 5,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 948.16,
           "pa": 895.72
         },
         "sallyyoon84": {
           "wins": 7,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 1022.36,
           "pa": 943.9
         },
@@ -160043,7 +160733,7 @@ window.__STATIC_DATA__ = {
         "danseung": {
           "wins": 3,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 693.68,
           "pa": 702.0
         },
@@ -160057,35 +160747,35 @@ window.__STATIC_DATA__ = {
         "Pkizzle3000": {
           "wins": 2,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 809.82,
           "pa": 883.5
         },
         "ddhk": {
           "wins": 1,
           "losses": 6,
-          "ties": 0,
+          "ties": 2,
           "pf": 721.72,
           "pa": 837.94
         },
         "spiffster": {
           "wins": 4,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 972.54,
           "pa": 985.08
         },
         "edgxrjiang": {
           "wins": 4,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 1010.82,
           "pa": 889.58
         },
         "jonsung": {
           "wins": 3,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 894.02,
           "pa": 986.92
         },
@@ -160106,14 +160796,14 @@ window.__STATIC_DATA__ = {
         "sathwikn": {
           "wins": 5,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 717.1,
           "pa": 641.14
         },
         "IconicJH": {
           "wins": 1,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 494.38,
           "pa": 472.02
         },
@@ -160127,7 +160817,7 @@ window.__STATIC_DATA__ = {
         "eikichii952": {
           "wins": 0,
           "losses": 2,
-          "ties": 0,
+          "ties": 2,
           "pf": 201.56,
           "pa": 232.52
         }
@@ -160136,7 +160826,7 @@ window.__STATIC_DATA__ = {
         "Paul_Yoon": {
           "wins": 3,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 895.72,
           "pa": 948.16
         },
@@ -160150,7 +160840,7 @@ window.__STATIC_DATA__ = {
         "sallyyoon84": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 601.68,
           "pa": 720.08
         },
@@ -160164,35 +160854,35 @@ window.__STATIC_DATA__ = {
         "danseung": {
           "wins": 4,
           "losses": 2,
-          "ties": 0,
+          "ties": 2,
           "pf": 608.86,
           "pa": 641.7
         },
         "ddhk": {
           "wins": 2,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 579.62,
           "pa": 652.32
         },
         "Pkizzle3000": {
           "wins": 1,
           "losses": 6,
-          "ties": 0,
+          "ties": 1,
           "pf": 745.5,
           "pa": 924.68
         },
         "edgxrjiang": {
           "wins": 3,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 589.18,
           "pa": 548.58
         },
         "spiffster": {
           "wins": 7,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 990.66,
           "pa": 876.12
         },
@@ -160206,7 +160896,7 @@ window.__STATIC_DATA__ = {
         "jonsung": {
           "wins": 7,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 1025.12,
           "pa": 869.1
         },
@@ -160220,14 +160910,14 @@ window.__STATIC_DATA__ = {
         "sathwikn": {
           "wins": 1,
           "losses": 6,
-          "ties": 0,
+          "ties": 1,
           "pf": 695.68,
           "pa": 961.7
         },
         "IconicJH": {
           "wins": 2,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 375.12,
           "pa": 422.36
         },
@@ -160241,7 +160931,7 @@ window.__STATIC_DATA__ = {
         "eikichii952": {
           "wins": 2,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 396.84,
           "pa": 363.22
         }
@@ -160336,21 +161026,21 @@ window.__STATIC_DATA__ = {
         "spiffster": {
           "wins": 5,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 993.64,
           "pa": 1094.22
         },
         "edgxrjiang": {
           "wins": 1,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 511.56,
           "pa": 612.32
         },
         "sallyyoon84": {
           "wins": 2,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 643.92,
           "pa": 712.72
         },
@@ -160364,7 +161054,7 @@ window.__STATIC_DATA__ = {
         "danseung": {
           "wins": 2,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 691.26,
           "pa": 753.3
         },
@@ -160378,35 +161068,35 @@ window.__STATIC_DATA__ = {
         "Pkizzle3000": {
           "wins": 3,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 714.34,
           "pa": 741.14
         },
         "ddhk": {
           "wins": 2,
           "losses": 6,
-          "ties": 0,
+          "ties": 1,
           "pf": 842.96,
           "pa": 994.28
         },
         "Paul_Yoon": {
           "wins": 5,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 986.92,
           "pa": 894.02
         },
         "andyxia124": {
           "wins": 2,
           "losses": 7,
-          "ties": 0,
+          "ties": 1,
           "pf": 869.1,
           "pa": 1025.12
         },
         "sathwikn": {
           "wins": 5,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 680.02,
           "pa": 614.7
         },
@@ -160420,7 +161110,7 @@ window.__STATIC_DATA__ = {
         "IconicJH": {
           "wins": 2,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 528.06,
           "pa": 506.92
         },
@@ -160434,7 +161124,7 @@ window.__STATIC_DATA__ = {
         "eikichii952": {
           "wins": 3,
           "losses": 0,
-          "ties": 0,
+          "ties": 2,
           "pf": 308.8,
           "pa": 263.36
         }
@@ -160443,14 +161133,14 @@ window.__STATIC_DATA__ = {
         "edgxrjiang": {
           "wins": 4,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 778.9,
           "pa": 708.44
         },
         "jonsung": {
           "wins": 4,
           "losses": 5,
-          "ties": 0,
+          "ties": 2,
           "pf": 1094.22,
           "pa": 993.64
         },
@@ -160464,21 +161154,21 @@ window.__STATIC_DATA__ = {
         "Pkizzle3000": {
           "wins": 4,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 809.94,
           "pa": 754.18
         },
         "ddhk": {
           "wins": 2,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 859.18,
           "pa": 924.04
         },
         "sallyyoon84": {
           "wins": 2,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 727.74,
           "pa": 892.62
         },
@@ -160492,21 +161182,21 @@ window.__STATIC_DATA__ = {
         "Paul_Yoon": {
           "wins": 4,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 985.08,
           "pa": 972.54
         },
         "andyxia124": {
           "wins": 1,
           "losses": 7,
-          "ties": 0,
+          "ties": 1,
           "pf": 876.12,
           "pa": 990.66
         },
         "danseung": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 739.94,
           "pa": 775.08
         },
@@ -160520,7 +161210,7 @@ window.__STATIC_DATA__ = {
         "sathwikn": {
           "wins": 5,
           "losses": 2,
-          "ties": 0,
+          "ties": 2,
           "pf": 851.16,
           "pa": 752.94
         },
@@ -160534,7 +161224,7 @@ window.__STATIC_DATA__ = {
         "IconicJH": {
           "wins": 4,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 552.48,
           "pa": 486.48
         },
@@ -160548,7 +161238,7 @@ window.__STATIC_DATA__ = {
         "eikichii952": {
           "wins": 2,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 305.96,
           "pa": 275.62
         }
@@ -160557,7 +161247,7 @@ window.__STATIC_DATA__ = {
         "spiffster": {
           "wins": 3,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 708.44,
           "pa": 778.9
         },
@@ -160571,21 +161261,21 @@ window.__STATIC_DATA__ = {
         "jonsung": {
           "wins": 4,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 612.32,
           "pa": 511.56
         },
         "ddhk": {
           "wins": 3,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 565.58,
           "pa": 537.88
         },
         "Pkizzle3000": {
           "wins": 4,
           "losses": 2,
-          "ties": 0,
+          "ties": 2,
           "pf": 635.62,
           "pa": 576.42
         },
@@ -160599,21 +161289,21 @@ window.__STATIC_DATA__ = {
         "sallyyoon84": {
           "wins": 2,
           "losses": 6,
-          "ties": 0,
+          "ties": 1,
           "pf": 773.72,
           "pa": 845.82
         },
         "andyxia124": {
           "wins": 2,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 548.58,
           "pa": 589.18
         },
         "Paul_Yoon": {
           "wins": 4,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 889.58,
           "pa": 1010.82
         },
@@ -160627,14 +161317,14 @@ window.__STATIC_DATA__ = {
         "danseung": {
           "wins": 4,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 841.28,
           "pa": 844.74
         },
         "sathwikn": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 620.48,
           "pa": 695.72
         },
@@ -160648,14 +161338,14 @@ window.__STATIC_DATA__ = {
         "IconicJH": {
           "wins": 3,
           "losses": 0,
-          "ties": 0,
+          "ties": 2,
           "pf": 400.68,
           "pa": 314.24
         },
         "eikichii952": {
           "wins": 0,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 81.14,
           "pa": 122.54
         }
@@ -160671,35 +161361,35 @@ window.__STATIC_DATA__ = {
         "Pkizzle3000": {
           "wins": 5,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 968.28,
           "pa": 1057.92
         },
         "ddhk": {
           "wins": 3,
           "losses": 6,
-          "ties": 0,
+          "ties": 1,
           "pf": 990.82,
           "pa": 1066.26
         },
         "Paul_Yoon": {
           "wins": 4,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 702.0,
           "pa": 693.68
         },
         "andyxia124": {
           "wins": 2,
           "losses": 4,
-          "ties": 0,
+          "ties": 2,
           "pf": 641.7,
           "pa": 608.86
         },
         "jonsung": {
           "wins": 4,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 753.3,
           "pa": 691.26
         },
@@ -160713,7 +161403,7 @@ window.__STATIC_DATA__ = {
         "sallyyoon84": {
           "wins": 4,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 1049.32,
           "pa": 1045.14
         },
@@ -160727,21 +161417,21 @@ window.__STATIC_DATA__ = {
         "spiffster": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 775.08,
           "pa": 739.94
         },
         "edgxrjiang": {
           "wins": 3,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 844.74,
           "pa": 841.28
         },
         "sathwikn": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 706.28,
           "pa": 674.86
         },
@@ -160755,14 +161445,14 @@ window.__STATIC_DATA__ = {
         "IconicJH": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 608.24,
           "pa": 674.8
         },
         "eikichii952": {
           "wins": 2,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 359.78,
           "pa": 344.18
         },
@@ -160957,28 +161647,28 @@ window.__STATIC_DATA__ = {
         "edgxrjiang": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 695.72,
           "pa": 620.48
         },
         "sallyyoon84": {
           "wins": 3,
           "losses": 5,
-          "ties": 0,
+          "ties": 2,
           "pf": 798.28,
           "pa": 860.4
         },
         "danseung": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 674.86,
           "pa": 706.28
         },
         "andyxia124": {
           "wins": 6,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 961.7,
           "pa": 695.68
         },
@@ -160992,21 +161682,21 @@ window.__STATIC_DATA__ = {
         "jonsung": {
           "wins": 1,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 614.7,
           "pa": 680.02
         },
         "spiffster": {
           "wins": 2,
           "losses": 5,
-          "ties": 0,
+          "ties": 2,
           "pf": 752.94,
           "pa": 851.16
         },
         "Pkizzle3000": {
           "wins": 1,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 458.54,
           "pa": 531.3
         },
@@ -161020,28 +161710,28 @@ window.__STATIC_DATA__ = {
         "Paul_Yoon": {
           "wins": 1,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 641.14,
           "pa": 717.1
         },
         "ddhk": {
           "wins": 1,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 487.98,
           "pa": 639.08
         },
         "IconicJH": {
           "wins": 2,
           "losses": 3,
-          "ties": 0,
+          "ties": 1,
           "pf": 541.54,
           "pa": 607.74
         },
         "eikichii952": {
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 281.04,
           "pa": 237.06
         },
@@ -161057,35 +161747,35 @@ window.__STATIC_DATA__ = {
         "jonsung": {
           "wins": 3,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 506.92,
           "pa": 528.06
         },
         "ddhk": {
           "wins": 2,
           "losses": 5,
-          "ties": 0,
+          "ties": 1,
           "pf": 829.96,
           "pa": 932.6
         },
         "Pkizzle3000": {
           "wins": 5,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 742.16,
           "pa": 641.58
         },
         "Paul_Yoon": {
           "wins": 3,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 472.02,
           "pa": 494.38
         },
         "edgxrjiang": {
           "wins": 0,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 314.24,
           "pa": 400.68
         },
@@ -161099,35 +161789,35 @@ window.__STATIC_DATA__ = {
         "andyxia124": {
           "wins": 2,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 422.36,
           "pa": 375.12
         },
         "sallyyoon84": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 719.32,
           "pa": 621.48
         },
         "danseung": {
           "wins": 3,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 674.8,
           "pa": 608.24
         },
         "spiffster": {
           "wins": 1,
           "losses": 4,
-          "ties": 0,
+          "ties": 1,
           "pf": 486.48,
           "pa": 552.48
         },
         "sathwikn": {
           "wins": 3,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 607.74,
           "pa": 541.54
         },
@@ -161141,7 +161831,7 @@ window.__STATIC_DATA__ = {
         "eikichii952": {
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 235.46,
           "pa": 200.58
         }
@@ -161229,56 +161919,56 @@ window.__STATIC_DATA__ = {
         "danseung": {
           "wins": 1,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 344.18,
           "pa": 359.78
         },
         "ddhk": {
           "wins": 2,
           "losses": 1,
-          "ties": 0,
+          "ties": 2,
           "pf": 364.42,
           "pa": 323.64
         },
         "Pkizzle3000": {
           "wins": 2,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 310.98,
           "pa": 293.16
         },
         "sallyyoon84": {
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 216.88,
           "pa": 219.88
         },
         "sathwikn": {
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 237.06,
           "pa": 281.04
         },
         "Paul_Yoon": {
           "wins": 2,
           "losses": 0,
-          "ties": 0,
+          "ties": 2,
           "pf": 232.52,
           "pa": 201.56
         },
         "jonsung": {
           "wins": 0,
           "losses": 3,
-          "ties": 0,
+          "ties": 2,
           "pf": 263.36,
           "pa": 308.8
         },
         "andyxia124": {
           "wins": 1,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 363.22,
           "pa": 396.84
         },
@@ -161292,21 +161982,21 @@ window.__STATIC_DATA__ = {
         "spiffster": {
           "wins": 1,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "pf": 275.62,
           "pa": 305.96
         },
         "IconicJH": {
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pf": 200.58,
           "pa": 235.46
         },
         "edgxrjiang": {
           "wins": 1,
           "losses": 0,
-          "ties": 0,
+          "ties": 1,
           "pf": 122.54,
           "pa": 81.14
         }
@@ -163395,39 +164085,13584 @@ window.__STATIC_DATA__ = {
     "Detroit Lions": "DET",
     "Elic Ayomanor": "12499",
     "Jalen McMillan": "11618",
-    "Tyler Shough": "12545",
-    "Sam Darnold": "4943",
+    "Jeremiyah Love": "13287",
+    "Jadarian Price": "13286",
     "Parker Washington": "9487",
-    "Tez Johnson": "12485",
-    "Chimere Dike": "12540",
-    "Kayshon Boutte": "9504",
-    "Atlanta Falcons": "ATL",
-    "Malik Washington": "11610",
-    "Olamide Zaccheaus": "6271",
-    "Juwan Johnson": "7002",
-    "Kyle Monangai": "12534",
-    "Tre Tucker": "10213",
-    "New York Giants": "NYG",
-    "Emanuel Wilson": "11435",
-    "Cairo Santos": "2020",
-    "Jacksonville Jaguars": "JAX",
-    "Chris Rodriguez": "10219",
-    "AJ Barner": "11603",
-    "Jacoby Brissett": "3257",
-    "Colby Parkinson": "6865",
-    "Jake Tonges": "8698",
+    "Carnell Tate": "13279",
     "Harold Fannin": "12506",
-    "Jaxson Dart": "12508",
-    "Tennessee Titans": "TEN",
+    "Makai Lemon": "13294",
+    "Jordyn Tyson": "13281",
+    "Kyle Monangai": "12534",
+    "De'Zhaun Stribling": "13417",
+    "KC Concepcion": "13298",
+    "Chris Rodriguez": "10219",
     "Jalen Coker": "11646",
-    "Devin Neal": "12476",
-    "Andrei Iosivas": "10226",
-    "Michael Badgley": "5230",
-    "Zonovan Knight": "8122",
-    "Malik Willis": "8161",
-    "Will Reichard": "11792",
+    "Ja'Kobi Lane": "13293",
+    "Jaxson Dart": "12508",
+    "Mike Washington": "13305",
+    "Jonah Coleman": "13345",
+    "Kenyon Sadiq": "13330",
+    "Kaelon Black": "13414",
+    "Nicholas Singleton": "13288",
+    "Denzel Boston": "13346",
+    "Harrison Mevis": "12015",
+    "Keaton Mitchell": "9511",
+    "Tre Tucker": "10213",
+    "Demond Claiborne": "13347",
+    "Jalen Nailor": "8180",
+    "Malik Washington": "11610",
+    "Jacksonville Jaguars": "JAX",
+    "Emmett Johnson": "13337",
+    "Brenton Strange": "9480",
     "Oronde Gadsden": "12493",
-    "Brenton Strange": "9480"
+    "Omar Cooper": "13276",
+    "Cyrus Allen": "13413",
+    "Malachi Fields": "13285",
+    "Justice Hill": "5995",
+    "Caleb Douglas": "13296",
+    "Andy Borregales": "12713",
+    "Chris Bell": "13311",
+    "Will Reichard": "11792",
+    "Zachariah Branch": "13320",
+    "Eddy Pineiro": "5189",
+    "Fernando Mendoza": "13269",
+    "Kayshon Boutte": "9504",
+    "Germie Bernard": "13274",
+    "Kaytron Allen": "13405",
+    "Juwan Johnson": "7002",
+    "AJ Barner": "11603",
+    "Pat Bryant": "12492"
   },
-  "player_values": {}
+  "keepers": {
+    "2026": {
+      "ddhk": [
+        {
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "birth_date": "1999-04-08",
+          "years_exp": 6
+        },
+        {
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "birth_date": "1996-06-07",
+          "years_exp": 9
+        },
+        {
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "birth_date": "1999-09-25",
+          "years_exp": 4
+        }
+      ],
+      "sallyyoon84": [
+        {
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1999-06-16",
+          "years_exp": 6
+        },
+        {
+          "player_id": "8150",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "birth_date": "2000-08-26",
+          "years_exp": 4
+        },
+        {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "birth_date": "2002-05-24",
+          "years_exp": 1
+        }
+      ],
+      "Paul_Yoon": [
+        {
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "birth_date": "2002-02-14",
+          "years_exp": 3
+        },
+        {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "birth_date": "2003-07-28",
+          "years_exp": 2
+        },
+        {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "birth_date": "2000-04-22",
+          "years_exp": 3
+        }
+      ],
+      "Pkizzle3000": [
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "birth_date": "1997-02-09",
+          "years_exp": 8
+        },
+        {
+          "player_id": "9226",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
+          "birth_date": "2001-10-13",
+          "years_exp": 3
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "birth_date": "2004-04-09",
+          "years_exp": 1
+        }
+      ],
+      "IconicJH": [
+        {
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "birth_date": "1999-11-22",
+          "years_exp": 4
+        },
+        {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "birth_date": "2000-06-27",
+          "years_exp": 4
+        },
+        {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "birth_date": "2002-03-20",
+          "years_exp": 3
+        }
+      ],
+      "andyxia124": [
+        {
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "birth_date": "1999-10-24",
+          "years_exp": 5
+        },
+        {
+          "player_id": "3198",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1994-01-04",
+          "years_exp": 10
+        },
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "birth_date": "2002-12-13",
+          "years_exp": 2
+        }
+      ],
+      "sathwikn": [
+        {
+          "player_id": "8112",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "birth_date": "2001-07-24",
+          "years_exp": 4
+        },
+        {
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "1998-02-11",
+          "years_exp": 7
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "birth_date": "2001-05-31",
+          "years_exp": 4
+        }
+      ],
+      "jonsung": [
+        {
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
+          "birth_date": "1999-01-26",
+          "years_exp": 5
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "birth_date": "1997-06-07",
+          "years_exp": 7
+        },
+        {
+          "player_id": "6813",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
+          "birth_date": "1999-01-19",
+          "years_exp": 6
+        }
+      ],
+      "spiffster": [
+        {
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "birth_date": "2003-12-02",
+          "years_exp": 1
+        },
+        {
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "birth_date": "2002-01-30",
+          "years_exp": 3
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-03-19",
+          "years_exp": 5
+        }
+      ],
+      "edgxrjiang": [
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "2001-05-29",
+          "years_exp": 3
+        },
+        {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2001-11-11",
+          "years_exp": 2
+        },
+        {
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "birth_date": "2002-08-19",
+          "years_exp": 2
+        }
+      ],
+      "danseung": [
+        {
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "birth_date": "2000-03-01",
+          "years_exp": 5
+        },
+        {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "birth_date": "2000-03-21",
+          "years_exp": 3
+        },
+        {
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2003-03-16",
+          "years_exp": 1
+        }
+      ],
+      "eikichii952": [
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
+          "birth_date": "2000-10-20",
+          "years_exp": 4
+        },
+        {
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "birth_date": "1996-05-21",
+          "years_exp": 8
+        },
+        {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "1998-11-14",
+          "years_exp": 5
+        }
+      ]
+    }
+  },
+  "player_values": {
+    "2026": {
+      "4984": {
+        "proj": 361.5,
+        "adp": 20.6
+      },
+      "4881": {
+        "proj": 326.0,
+        "adp": 35.4
+      },
+      "11564": {
+        "proj": 320.8,
+        "adp": 51.9
+      },
+      "6904": {
+        "proj": 310.5,
+        "adp": 62.6
+      },
+      "11566": {
+        "proj": 308.7,
+        "adp": 68.8
+      },
+      "6770": {
+        "proj": 306.1,
+        "adp": 54.8
+      },
+      "3294": {
+        "proj": 303.9,
+        "adp": 84.2
+      },
+      "7523": {
+        "proj": 303.4,
+        "adp": 98.0
+      },
+      "8183": {
+        "proj": 303.2,
+        "adp": 124.0
+      },
+      "9221": {
+        "proj": 299.9,
+        "adp": 1.9
+      },
+      "11560": {
+        "proj": 299.3,
+        "adp": 74.3
+      },
+      "12508": {
+        "proj": 296.5,
+        "adp": 103.0
+      },
+      "11563": {
+        "proj": 295.7,
+        "adp": 118.1
+      },
+      "6797": {
+        "proj": 295.5,
+        "adp": 79.4
+      },
+      "9509": {
+        "proj": 292.9,
+        "adp": 2.1
+      },
+      "4046": {
+        "proj": 286.7,
+        "adp": 111.4
+      },
+      "3163": {
+        "proj": 283.5,
+        "adp": 142.5
+      },
+      "5849": {
+        "proj": 283.1,
+        "adp": 146.6
+      },
+      "421": {
+        "proj": 280.2,
+        "adp": 106.5
+      },
+      "6804": {
+        "proj": 278.5,
+        "adp": 167.5
+      },
+      "4892": {
+        "proj": 274.9,
+        "adp": 153.3
+      },
+      "12545": {
+        "proj": 270.9,
+        "adp": 191.6
+      },
+      "8161": {
+        "proj": 270.1,
+        "adp": 193.7
+      },
+      "4943": {
+        "proj": 262.7,
+        "adp": 185.6
+      },
+      "9493": {
+        "proj": 259.0,
+        "adp": 5.7
+      },
+      "7564": {
+        "proj": 256.6,
+        "adp": 3.8
+      },
+      "4034": {
+        "proj": 256.0,
+        "adp": 4.7
+      },
+      "6813": {
+        "proj": 254.3,
+        "adp": 6.2
+      },
+      "9758": {
+        "proj": 247.8,
+        "adp": 211.0
+      },
+      "8138": {
+        "proj": 245.3,
+        "adp": 9.6
+      },
+      "3198": {
+        "proj": 238.4,
+        "adp": 15.9
+      },
+      "9228": {
+        "proj": 235.6,
+        "adp": 234.6
+      },
+      "9488": {
+        "proj": 235.1,
+        "adp": 7.3
+      },
+      "9226": {
+        "proj": 229.9,
+        "adp": 14.6
+      },
+      "4866": {
+        "proj": 228.2,
+        "adp": 10.8
+      },
+      "12522": {
+        "proj": 227.8,
+        "adp": 231.3
+      },
+      "7547": {
+        "proj": 227.5,
+        "adp": 7.7
+      },
+      "9224": {
+        "proj": 226.7,
+        "adp": 17.3
+      },
+      "8151": {
+        "proj": 225.5,
+        "adp": 18.5
+      },
+      "5870": {
+        "proj": 223.5,
+        "adp": 214.2
+      },
+      "6786": {
+        "proj": 222.5,
+        "adp": 11.0
+      },
+      "1373": {
+        "proj": 222.5,
+        "adp": 257.0
+      },
+      "7569": {
+        "proj": 220.0,
+        "adp": 23.5
+      },
+      "12507": {
+        "proj": 218.9,
+        "adp": 15.3
+      },
+      "13269": {
+        "proj": 212.2,
+        "adp": 188.1
+      },
+      "12527": {
+        "proj": 211.4,
+        "adp": 13.1
+      },
+      "5859": {
+        "proj": 207.7,
+        "adp": 19.5
+      },
+      "8137": {
+        "proj": 205.7,
+        "adp": 23.5
+      },
+      "6794": {
+        "proj": 205.4,
+        "adp": 12.8
+      },
+      "8112": {
+        "proj": 205.2,
+        "adp": 21.6
+      },
+      "11604": {
+        "proj": 202.5,
+        "adp": 22.0
+      },
+      "8144": {
+        "proj": 194.9,
+        "adp": 31.0
+      },
+      "11632": {
+        "proj": 193.7,
+        "adp": 28.7
+      },
+      "8155": {
+        "proj": 192.5,
+        "adp": 31.1
+      },
+      "8150": {
+        "proj": 192.0,
+        "adp": 26.8
+      },
+      "5892": {
+        "proj": 190.1,
+        "adp": 46.3
+      },
+      "7543": {
+        "proj": 189.7,
+        "adp": 41.8
+      },
+      "6790": {
+        "proj": 189.5,
+        "adp": 47.2
+      },
+      "7525": {
+        "proj": 189.2,
+        "adp": 34.5
+      },
+      "7588": {
+        "proj": 188.8,
+        "adp": 33.4
+      },
+      "13287": {
+        "proj": 188.3,
+        "adp": 27.5
+      },
+      "9997": {
+        "proj": 187.7,
+        "adp": 42.6
+      },
+      "11635": {
+        "proj": 187.7,
+        "adp": 39.5
+      },
+      "2216": {
+        "proj": 187.2,
+        "adp": 61.3
+      },
+      "8130": {
+        "proj": 186.9,
+        "adp": 25.7
+      },
+      "6801": {
+        "proj": 186.9,
+        "adp": 38.9
+      },
+      "5850": {
+        "proj": 186.1,
+        "adp": 29.7
+      },
+      "12514": {
+        "proj": 185.5,
+        "adp": 39.3
+      },
+      "10229": {
+        "proj": 185.3,
+        "adp": 30.8
+      },
+      "12526": {
+        "proj": 184.5,
+        "adp": 36.6
+      },
+      "8146": {
+        "proj": 183.4,
+        "adp": 44.2
+      },
+      "7526": {
+        "proj": 182.5,
+        "adp": 47.7
+      },
+      "12481": {
+        "proj": 180.2,
+        "adp": 37.3
+      },
+      "12512": {
+        "proj": 180.0,
+        "adp": 49.8
+      },
+      "11584": {
+        "proj": 179.3,
+        "adp": 45.6
+      },
+      "96": {
+        "proj": 177.0,
+        "adp": 235.5
+      },
+      "5927": {
+        "proj": 176.8,
+        "adp": 53.3
+      },
+      "9487": {
+        "proj": 176.4,
+        "adp": 71.7
+      },
+      "8148": {
+        "proj": 176.2,
+        "adp": 57.7
+      },
+      "8167": {
+        "proj": 176.1,
+        "adp": 66.4
+      },
+      "11620": {
+        "proj": 173.9,
+        "adp": 63.1
+      },
+      "12517": {
+        "proj": 173.4,
+        "adp": 43.9
+      },
+      "12519": {
+        "proj": 173.0,
+        "adp": 60.2
+      },
+      "11631": {
+        "proj": 164.4,
+        "adp": 71.7
+      },
+      "10222": {
+        "proj": 162.6,
+        "adp": 102.4
+      },
+      "2133": {
+        "proj": 161.0,
+        "adp": 55.7
+      },
+      "13286": {
+        "proj": 160.5,
+        "adp": 58.0
+      },
+      "3257": {
+        "proj": 160.0,
+        "adp": 251.2
+      },
+      "12518": {
+        "proj": 159.6,
+        "adp": 50.3
+      },
+      "12490": {
+        "proj": 158.8,
+        "adp": 59.2
+      },
+      "10859": {
+        "proj": 158.5,
+        "adp": 63.1
+      },
+      "11628": {
+        "proj": 155.2,
+        "adp": 73.1
+      },
+      "7611": {
+        "proj": 154.5,
+        "adp": 75.6
+      },
+      "12529": {
+        "proj": 153.5,
+        "adp": 52.2
+      },
+      "8228": {
+        "proj": 152.6,
+        "adp": 69.0
+      },
+      "5846": {
+        "proj": 152.3,
+        "adp": 77.7
+      },
+      "8142": {
+        "proj": 150.9,
+        "adp": 95.2
+      },
+      "4983": {
+        "proj": 147.5,
+        "adp": 55.9
+      },
+      "6806": {
+        "proj": 147.2,
+        "adp": 85.8
+      },
+      "5967": {
+        "proj": 146.1,
+        "adp": 79.8
+      },
+      "5045": {
+        "proj": 144.8,
+        "adp": 82.9
+      },
+      "13279": {
+        "proj": 144.8,
+        "adp": 67.8
+      },
+      "8408": {
+        "proj": 143.7,
+        "adp": 97.9
+      },
+      "12506": {
+        "proj": 143.4,
+        "adp": 76.2
+      },
+      "11559": {
+        "proj": 143.2,
+        "adp": 694.7
+      },
+      "12534": {
+        "proj": 143.1,
+        "adp": 92.9
+      },
+      "7021": {
+        "proj": 142.1,
+        "adp": 83.0
+      },
+      "9756": {
+        "proj": 141.7,
+        "adp": 100.6
+      },
+      "12501": {
+        "proj": 141.1,
+        "adp": 119.3
+      },
+      "9484": {
+        "proj": 140.9,
+        "adp": 65.3
+      },
+      "4037": {
+        "proj": 139.6,
+        "adp": 90.5
+      },
+      "7553": {
+        "proj": 138.6,
+        "adp": 70.9
+      },
+      "13294": {
+        "proj": 138.5,
+        "adp": 87.6
+      },
+      "4217": {
+        "proj": 138.3,
+        "adp": 86.7
+      },
+      "11583": {
+        "proj": 137.9,
+        "adp": 87.5
+      },
+      "9500": {
+        "proj": 137.3,
+        "adp": 110.7
+      },
+      "5947": {
+        "proj": 137.3,
+        "adp": 126.7
+      },
+      "7594": {
+        "proj": 136.9,
+        "adp": 78.7
+      },
+      "10232": {
+        "proj": 136.5,
+        "adp": 89.3
+      },
+      "6819": {
+        "proj": 136.4,
+        "adp": 103.4
+      },
+      "1466": {
+        "proj": 136.4,
+        "adp": 94.7
+      },
+      "11646": {
+        "proj": 135.9,
+        "adp": 145.9
+      },
+      "8134": {
+        "proj": 135.2,
+        "adp": 151.0
+      },
+      "8126": {
+        "proj": 135.2,
+        "adp": 117.2
+      },
+      "9754": {
+        "proj": 134.9,
+        "adp": 105.9
+      },
+      "11624": {
+        "proj": 134.0,
+        "adp": 127.1
+      },
+      "8121": {
+        "proj": 132.7,
+        "adp": 129.1
+      },
+      "5012": {
+        "proj": 132.5,
+        "adp": 123.9
+      },
+      "10236": {
+        "proj": 130.6,
+        "adp": 91.6
+      },
+      "9480": {
+        "proj": 129.5,
+        "adp": 167.5
+      },
+      "7567": {
+        "proj": 128.8,
+        "adp": 108.3
+      },
+      "11586": {
+        "proj": 127.8,
+        "adp": 93.2
+      },
+      "5872": {
+        "proj": 127.7,
+        "adp": 131.3
+      },
+      "13298": {
+        "proj": 127.4,
+        "adp": 113.1
+      },
+      "8131": {
+        "proj": 126.3,
+        "adp": 111.4
+      },
+      "12489": {
+        "proj": 125.6,
+        "adp": 81.7
+      },
+      "2449": {
+        "proj": 125.3,
+        "adp": 114.0
+      },
+      "10219": {
+        "proj": 125.0,
+        "adp": 127.9
+      },
+      "8110": {
+        "proj": 124.8,
+        "adp": 109.9
+      },
+      "3214": {
+        "proj": 124.5,
+        "adp": 149.2
+      },
+      "5844": {
+        "proj": 122.0,
+        "adp": 183.8
+      },
+      "4199": {
+        "proj": 120.1,
+        "adp": 115.4
+      },
+      "5001": {
+        "proj": 118.9,
+        "adp": 212.8
+      },
+      "12533": {
+        "proj": 118.4,
+        "adp": 99.6
+      },
+      "11533": {
+        "proj": 116.0,
+        "adp": 135.0
+      },
+      "8676": {
+        "proj": 115.6,
+        "adp": 148.2
+      },
+      "12493": {
+        "proj": 113.8,
+        "adp": 155.5
+      },
+      "8210": {
+        "proj": 113.6,
+        "adp": 195.0
+      },
+      "11603": {
+        "proj": 113.4,
+        "adp": 199.3
+      },
+      "3451": {
+        "proj": 113.0,
+        "adp": 139.4
+      },
+      "7002": {
+        "proj": 112.9,
+        "adp": 182.6
+      },
+      "11786": {
+        "proj": 112.0,
+        "adp": 143.7
+      },
+      "8136": {
+        "proj": 111.1,
+        "adp": 121.8
+      },
+      "2747": {
+        "proj": 111.0,
+        "adp": 138.4
+      },
+      "5022": {
+        "proj": 109.5,
+        "adp": 125.2
+      },
+      "11792": {
+        "proj": 109.0,
+        "adp": 163.8
+      },
+      "13346": {
+        "proj": 108.2,
+        "adp": 159.2
+      },
+      "8180": {
+        "proj": 107.6,
+        "adp": 166.3
+      },
+      "11610": {
+        "proj": 107.3,
+        "adp": 181.5
+      },
+      "1945": {
+        "proj": 107.0,
+        "adp": 186.6
+      },
+      "LAR": {
+        "proj": 106.0,
+        "adp": 101.8
+      },
+      "8259": {
+        "proj": 106.0,
+        "adp": 137.6
+      },
+      "7839": {
+        "proj": 106.0,
+        "adp": 161.5
+      },
+      "12711": {
+        "proj": 106.0,
+        "adp": 190.9
+      },
+      "12015": {
+        "proj": 106.0,
+        "adp": 158.5
+      },
+      "13417": {
+        "proj": 105.4,
+        "adp": 119.6
+      },
+      "11618": {
+        "proj": 105.4,
+        "adp": 197.3
+      },
+      "6650": {
+        "proj": 105.0,
+        "adp": 222.7
+      },
+      "11539": {
+        "proj": 105.0,
+        "adp": 151.6
+      },
+      "9504": {
+        "proj": 104.7,
+        "adp": 204.0
+      },
+      "13276": {
+        "proj": 104.6,
+        "adp": 196.0
+      },
+      "HOU": {
+        "proj": 104.0,
+        "adp": 107.2
+      },
+      "SEA": {
+        "proj": 103.0,
+        "adp": 116.7
+      },
+      "7042": {
+        "proj": 103.0,
+        "adp": 671.6
+      },
+      "7600": {
+        "proj": 102.9,
+        "adp": 230.3
+      },
+      "10213": {
+        "proj": 102.9,
+        "adp": 183.2
+      },
+      "4017": {
+        "proj": 102.1,
+        "adp": 655.5
+      },
+      "12502": {
+        "proj": 101.8,
+        "adp": 244.1
+      },
+      "5189": {
+        "proj": 101.0,
+        "adp": 174.4
+      },
+      "11655": {
+        "proj": 100.8,
+        "adp": 133.4
+      },
+      "4227": {
+        "proj": 100.0,
+        "adp": 180.3
+      },
+      "3678": {
+        "proj": 100.0,
+        "adp": 671.2
+      },
+      "2020": {
+        "proj": 100.0,
+        "adp": 675.0
+      },
+      "2505": {
+        "proj": 99.1,
+        "adp": 680.2
+      },
+      "11058": {
+        "proj": 99.0,
+        "adp": 689.4
+      },
+      "6783": {
+        "proj": 98.1,
+        "adp": 215.6
+      },
+      "PHI": {
+        "proj": 98.0,
+        "adp": 130.0
+      },
+      "11783": {
+        "proj": 97.7,
+        "adp": 238.3
+      },
+      "12524": {
+        "proj": 97.1,
+        "adp": 682.2
+      },
+      "9508": {
+        "proj": 97.1,
+        "adp": 170.3
+      },
+      "DEN": {
+        "proj": 96.0,
+        "adp": 122.8
+      },
+      "12713": {
+        "proj": 96.0,
+        "adp": 219.8
+      },
+      "8111": {
+        "proj": 95.8,
+        "adp": 246.0
+      },
+      "BAL": {
+        "proj": 95.0,
+        "adp": 134.6
+      },
+      "650": {
+        "proj": 95.0,
+        "adp": 628.2
+      },
+      "12509": {
+        "proj": 93.4,
+        "adp": 231.2
+      },
+      "6768": {
+        "proj": 93.0,
+        "adp": 258.4
+      },
+      "NE": {
+        "proj": 92.0,
+        "adp": 150.6
+      },
+      "MIN": {
+        "proj": 92.0,
+        "adp": 154.5
+      },
+      "DET": {
+        "proj": 92.0,
+        "adp": 173.7
+      },
+      "5095": {
+        "proj": 92.0,
+        "adp": 607.4
+      },
+      "12961": {
+        "proj": 92.0,
+        "adp": 659.9
+      },
+      "JAX": {
+        "proj": 91.0,
+        "adp": 157.9
+      },
+      "5119": {
+        "proj": 91.0,
+        "adp": 582.2
+      },
+      "13281": {
+        "proj": 90.5,
+        "adp": 95.7
+      },
+      "4195": {
+        "proj": 90.0,
+        "adp": 693.4
+      },
+      "11834": {
+        "proj": 89.6,
+        "adp": 680.1
+      },
+      "13305": {
+        "proj": 89.5,
+        "adp": 135.1
+      },
+      "10955": {
+        "proj": 89.0,
+        "adp": 653.7
+      },
+      "PIT": {
+        "proj": 88.0,
+        "adp": 169.2
+      },
+      "9511": {
+        "proj": 87.9,
+        "adp": 165.6
+      },
+      "8172": {
+        "proj": 87.4,
+        "adp": 242.8
+      },
+      "13293": {
+        "proj": 87.4,
+        "adp": 147.6
+      },
+      "KC": {
+        "proj": 87.0,
+        "adp": 227.1
+      },
+      "7049": {
+        "proj": 86.2,
+        "adp": 218.8
+      },
+      "13285": {
+        "proj": 86.2,
+        "adp": 207.1
+      },
+      "NYG": {
+        "proj": 86.0,
+        "adp": 695.4
+      },
+      "LAC": {
+        "proj": 86.0,
+        "adp": 162.5
+      },
+      "GB": {
+        "proj": 86.0,
+        "adp": 205.2
+      },
+      "DAL": {
+        "proj": 86.0,
+        "adp": 203.5
+      },
+      "CHI": {
+        "proj": 85.0,
+        "adp": 221.9
+      },
+      "1479": {
+        "proj": 84.8,
+        "adp": 178.3
+      },
+      "7571": {
+        "proj": 84.3,
+        "adp": 700.9
+      },
+      "SF": {
+        "proj": 84.0,
+        "adp": 220.3
+      },
+      "IND": {
+        "proj": 84.0,
+        "adp": 698.7
+      },
+      "BUF": {
+        "proj": 84.0,
+        "adp": 633.0
+      },
+      "6528": {
+        "proj": 84.0,
+        "adp": 687.4
+      },
+      "11261": {
+        "proj": 84.0,
+        "adp": 667.9
+      },
+      "4993": {
+        "proj": 83.9,
+        "adp": 659.6
+      },
+      "12530": {
+        "proj": 83.1,
+        "adp": 175.4
+      },
+      "ATL": {
+        "proj": 83.0,
+        "adp": 696.9
+      },
+      "12487": {
+        "proj": 82.8,
+        "adp": 209.1
+      },
+      "TB": {
+        "proj": 81.0,
+        "adp": 657.3
+      },
+      "CAR": {
+        "proj": 81.0,
+        "adp": 658.6
+      },
+      "13274": {
+        "proj": 80.9,
+        "adp": 241.4
+      },
+      "11625": {
+        "proj": 80.8,
+        "adp": 229.7
+      },
+      "13330": {
+        "proj": 80.2,
+        "adp": 175.7
+      },
+      "13317": {
+        "proj": 79.9,
+        "adp": 239.6
+      },
+      "CIN": {
+        "proj": 79.0,
+        "adp": 648.8
+      },
+      "12492": {
+        "proj": 78.9,
+        "adp": 225.2
+      },
+      "13296": {
+        "proj": 77.8,
+        "adp": 202.5
+      },
+      "13413": {
+        "proj": 77.5,
+        "adp": 179.5
+      },
+      "3321": {
+        "proj": 77.2,
+        "adp": 233.9
+      },
+      "12469": {
+        "proj": 77.2,
+        "adp": 191.6
+      },
+      "NO": {
+        "proj": 77.0,
+        "adp": 698.8
+      },
+      "12497": {
+        "proj": 76.5,
+        "adp": 260.2
+      },
+      "12498": {
+        "proj": 76.4,
+        "adp": 667.6
+      },
+      "10226": {
+        "proj": 75.3,
+        "adp": 700.9
+      },
+      "WAS": {
+        "proj": 75.0,
+        "adp": 677.8
+      },
+      "6083": {
+        "proj": 75.0,
+        "adp": 670.4
+      },
+      "12474": {
+        "proj": 74.3,
+        "adp": 141.9
+      },
+      "CLE": {
+        "proj": 74.0,
+        "adp": 671.5
+      },
+      "13968": {
+        "proj": 74.0,
+        "adp": 653.3
+      },
+      "12535": {
+        "proj": 73.1,
+        "adp": 235.2
+      },
+      "8132": {
+        "proj": 72.7,
+        "adp": 132.8
+      },
+      "11637": {
+        "proj": 71.3,
+        "adp": 242.2
+      },
+      "4039": {
+        "proj": 70.4,
+        "adp": 206.4
+      },
+      "12540": {
+        "proj": 70.4,
+        "adp": 657.8
+      },
+      "13545": {
+        "proj": 70.0,
+        "adp": 201.8
+      },
+      "12536": {
+        "proj": 69.2,
+        "adp": 664.2
+      },
+      "9479": {
+        "proj": 68.6,
+        "adp": 674.8
+      },
+      "TEN": {
+        "proj": 67.0,
+        "adp": 680.8
+      },
+      "ARI": {
+        "proj": 66.0,
+        "adp": 699.2
+      },
+      "13833": {
+        "proj": 66.0,
+        "adp": 670.6
+      },
+      "9501": {
+        "proj": 65.9,
+        "adp": 697.0
+      },
+      "13349": {
+        "proj": 65.9,
+        "adp": 248.9
+      },
+      "LV": {
+        "proj": 65.0,
+        "adp": 643.5
+      },
+      "NYJ": {
+        "proj": 64.0,
+        "adp": 690.0
+      },
+      "9482": {
+        "proj": 63.8,
+        "adp": 695.9
+      },
+      "4981": {
+        "proj": 63.8,
+        "adp": 250.7
+      },
+      "13320": {
+        "proj": 63.5,
+        "adp": 215.6
+      },
+      "8154": {
+        "proj": 63.4,
+        "adp": 172.5
+      },
+      "6149": {
+        "proj": 63.3,
+        "adp": 668.0
+      },
+      "12483": {
+        "proj": 62.9,
+        "adp": 676.7
+      },
+      "4147": {
+        "proj": 62.8,
+        "adp": 629.6
+      },
+      "6826": {
+        "proj": 62.7,
+        "adp": 683.3
+      },
+      "5906": {
+        "proj": 62.4,
+        "adp": 683.5
+      },
+      "MIA": {
+        "proj": 62.0,
+        "adp": 685.0
+      },
+      "4454": {
+        "proj": 61.9,
+        "adp": 672.6
+      },
+      "6865": {
+        "proj": 61.8,
+        "adp": 261.8
+      },
+      "9753": {
+        "proj": 61.7,
+        "adp": 140.9
+      },
+      "11597": {
+        "proj": 61.5,
+        "adp": 262.8
+      },
+      "9225": {
+        "proj": 61.2,
+        "adp": 164.3
+      },
+      "13301": {
+        "proj": 61.2,
+        "adp": 245.1
+      },
+      "8917": {
+        "proj": 61.0,
+        "adp": 693.4
+      },
+      "7922": {
+        "proj": 61.0,
+        "adp": 592.4
+      },
+      "7090": {
+        "proj": 60.9,
+        "adp": 259.3
+      },
+      "6271": {
+        "proj": 60.8,
+        "adp": 697.7
+      },
+      "11575": {
+        "proj": 60.6,
+        "adp": 210.6
+      },
+      "13337": {
+        "proj": 59.2,
+        "adp": 194.0
+      },
+      "13345": {
+        "proj": 58.9,
+        "adp": 143.5
+      },
+      "8119": {
+        "proj": 58.2,
+        "adp": 686.3
+      },
+      "13288": {
+        "proj": 57.7,
+        "adp": 198.6
+      },
+      "12521": {
+        "proj": 57.7,
+        "adp": 667.7
+      },
+      "9486": {
+        "proj": 57.4,
+        "adp": 207.5
+      },
+      "9494": {
+        "proj": 56.4,
+        "adp": 700.8
+      },
+      "8698": {
+        "proj": 55.8,
+        "adp": 253.0
+      },
+      "5995": {
+        "proj": 55.7,
+        "adp": 223.7
+      },
+      "4066": {
+        "proj": 55.2,
+        "adp": 699.6
+      },
+      "5848": {
+        "proj": 55.0,
+        "adp": 684.9
+      },
+      "13272": {
+        "proj": 54.9,
+        "adp": 692.7
+      },
+      "13311": {
+        "proj": 54.7,
+        "adp": 223.2
+      },
+      "12467": {
+        "proj": 54.2,
+        "adp": 226.6
+      },
+      "11627": {
+        "proj": 54.1,
+        "adp": 263.6
+      },
+      "11626": {
+        "proj": 54.0,
+        "adp": 686.5
+      },
+      "11571": {
+        "proj": 54.0,
+        "adp": 695.4
+      },
+      "4035": {
+        "proj": 53.0,
+        "adp": 156.9
+      },
+      "11647": {
+        "proj": 53.0,
+        "adp": 239.3
+      },
+      "8188": {
+        "proj": 52.6,
+        "adp": 698.5
+      },
+      "13402": {
+        "proj": 52.6,
+        "adp": 691.0
+      },
+      "12457": {
+        "proj": 52.1,
+        "adp": 213.5
+      },
+      "13533": {
+        "proj": 52.0,
+        "adp": 668.3
+      },
+      "12503": {
+        "proj": 51.8,
+        "adp": 682.5
+      },
+      "4137": {
+        "proj": 51.7,
+        "adp": 217.6
+      },
+      "11435": {
+        "proj": 51.0,
+        "adp": 265.7
+      },
+      "13268": {
+        "proj": 50.4,
+        "adp": 695.8
+      },
+      "13329": {
+        "proj": 50.1,
+        "adp": 543.5
+      },
+      "11370": {
+        "proj": 49.3,
+        "adp": 695.2
+      },
+      "13434": {
+        "proj": 49.1,
+        "adp": 537.3
+      },
+      "13394": {
+        "proj": 49.1,
+        "adp": 655.8
+      },
+      "8205": {
+        "proj": 48.6,
+        "adp": 171.8
+      },
+      "9506": {
+        "proj": 48.5,
+        "adp": 249.2
+      },
+      "11581": {
+        "proj": 48.3,
+        "adp": 159.2
+      },
+      "4177": {
+        "proj": 47.6,
+        "adp": 697.0
+      },
+      "6039": {
+        "proj": 47.3,
+        "adp": 668.0
+      },
+      "13411": {
+        "proj": 47.2,
+        "adp": 697.8
+      },
+      "12544": {
+        "proj": 47.2,
+        "adp": 690.0
+      },
+      "11576": {
+        "proj": 47.2,
+        "adp": 187.8
+      },
+      "7828": {
+        "proj": 47.1,
+        "adp": 683.3
+      },
+      "12499": {
+        "proj": 46.7,
+        "adp": 699.1
+      },
+      "4033": {
+        "proj": 46.5,
+        "adp": 228.9
+      },
+      "13400": {
+        "proj": 46.5,
+        "adp": 683.8
+      },
+      "13435": {
+        "proj": 46.3,
+        "adp": 553.0
+      },
+      "13278": {
+        "proj": 45.1,
+        "adp": 694.2
+      },
+      "9502": {
+        "proj": 43.4,
+        "adp": 189.2
+      },
+      "13282": {
+        "proj": 42.8,
+        "adp": 508.3
+      },
+      "13405": {
+        "proj": 41.9,
+        "adp": 237.4
+      },
+      "6803": {
+        "proj": 41.6,
+        "adp": 267.4
+      },
+      "11643": {
+        "proj": 41.1,
+        "adp": 236.0
+      },
+      "13414": {
+        "proj": 39.3,
+        "adp": 177.9
+      },
+      "1166": {
+        "proj": 39.2,
+        "adp": 685.6
+      },
+      "8147": {
+        "proj": 38.8,
+        "adp": 696.9
+      },
+      "5970": {
+        "proj": 37.6,
+        "adp": 584.5
+      },
+      "4950": {
+        "proj": 36.9,
+        "adp": 692.7
+      },
+      "4233": {
+        "proj": 36.0,
+        "adp": null
+      },
+      "1433": {
+        "proj": 36.0,
+        "adp": 673.6
+      },
+      "13342": {
+        "proj": 34.9,
+        "adp": 518.8
+      },
+      "7591": {
+        "proj": 34.7,
+        "adp": 683.5
+      },
+      "11653": {
+        "proj": 34.0,
+        "adp": 686.7
+      },
+      "10937": {
+        "proj": 34.0,
+        "adp": 689.8
+      },
+      "12718": {
+        "proj": 33.7,
+        "adp": 678.2
+      },
+      "10231": {
+        "proj": 32.9,
+        "adp": 547.0
+      },
+      "13424": {
+        "proj": 32.8,
+        "adp": 692.6
+      },
+      "11570": {
+        "proj": 32.7,
+        "adp": 682.0
+      },
+      "11199": {
+        "proj": 32.3,
+        "adp": 678.5
+      },
+      "12531": {
+        "proj": 32.2,
+        "adp": 690.4
+      },
+      "9481": {
+        "proj": 32.1,
+        "adp": 687.3
+      },
+      "13380": {
+        "proj": 32.0,
+        "adp": 662.8
+      },
+      "13270": {
+        "proj": 31.8,
+        "adp": 649.6
+      },
+      "8225": {
+        "proj": 31.6,
+        "adp": 680.8
+      },
+      "12485": {
+        "proj": 31.4,
+        "adp": 673.8
+      },
+      "13420": {
+        "proj": 31.2,
+        "adp": 571.1
+      },
+      "3286": {
+        "proj": 31.1,
+        "adp": 679.0
+      },
+      "13066": {
+        "proj": 31.0,
+        "adp": 501.5
+      },
+      "13319": {
+        "proj": 30.9,
+        "adp": 677.9
+      },
+      "8800": {
+        "proj": 30.7,
+        "adp": 686.1
+      },
+      "12641": {
+        "proj": 30.7,
+        "adp": 691.0
+      },
+      "8127": {
+        "proj": 30.4,
+        "adp": 660.8
+      },
+      "13306": {
+        "proj": 30.3,
+        "adp": 641.0
+      },
+      "10218": {
+        "proj": 29.7,
+        "adp": 679.1
+      },
+      "12504": {
+        "proj": 29.5,
+        "adp": 692.6
+      },
+      "5857": {
+        "proj": 29.1,
+        "adp": 642.2
+      },
+      "12670": {
+        "proj": 29.0,
+        "adp": 647.5
+      },
+      "8135": {
+        "proj": 28.8,
+        "adp": 678.8
+      },
+      "11577": {
+        "proj": 28.8,
+        "adp": 685.8
+      },
+      "19": {
+        "proj": 28.7,
+        "adp": 698.8
+      },
+      "1339": {
+        "proj": 28.7,
+        "adp": 646.0
+      },
+      "4144": {
+        "proj": 28.4,
+        "adp": 457.5
+      },
+      "12476": {
+        "proj": 28.4,
+        "adp": 685.9
+      },
+      "13348": {
+        "proj": 28.2,
+        "adp": 614.1
+      },
+      "6011": {
+        "proj": 28.0,
+        "adp": 650.1
+      },
+      "8117": {
+        "proj": 27.7,
+        "adp": 617.2
+      },
+      "12505": {
+        "proj": 27.4,
+        "adp": 686.3
+      },
+      "2028": {
+        "proj": 27.2,
+        "adp": 359.2
+      },
+      "12482": {
+        "proj": 27.0,
+        "adp": 678.8
+      },
+      "12471": {
+        "proj": 27.0,
+        "adp": 694.0
+      },
+      "13401": {
+        "proj": 26.8,
+        "adp": 689.9
+      },
+      "7527": {
+        "proj": 26.7,
+        "adp": 685.8
+      },
+      "7670": {
+        "proj": 26.6,
+        "adp": 624.0
+      },
+      "13322": {
+        "proj": 26.5,
+        "adp": 630.0
+      },
+      "13338": {
+        "proj": 26.4,
+        "adp": 674.7
+      },
+      "3202": {
+        "proj": 26.2,
+        "adp": 505.0
+      },
+      "12547": {
+        "proj": 26.2,
+        "adp": 683.8
+      },
+      "11599": {
+        "proj": 26.2,
+        "adp": null
+      },
+      "13302": {
+        "proj": 26.1,
+        "adp": 616.7
+      },
+      "13421": {
+        "proj": 26.0,
+        "adp": 695.1
+      },
+      "3271": {
+        "proj": 25.9,
+        "adp": 651.9
+      },
+      "13408": {
+        "proj": 25.8,
+        "adp": null
+      },
+      "6130": {
+        "proj": 25.6,
+        "adp": 660.1
+      },
+      "13477": {
+        "proj": 25.5,
+        "adp": 643.8
+      },
+      "12658": {
+        "proj": 25.4,
+        "adp": 661.1
+      },
+      "7716": {
+        "proj": 25.3,
+        "adp": 334.6
+      },
+      "7694": {
+        "proj": 25.3,
+        "adp": 597.0
+      },
+      "13324": {
+        "proj": 25.3,
+        "adp": 685.5
+      },
+      "11608": {
+        "proj": 25.3,
+        "adp": 649.5
+      },
+      "12523": {
+        "proj": 25.2,
+        "adp": 663.1
+      },
+      "6001": {
+        "proj": 25.1,
+        "adp": 454.2
+      },
+      "13431": {
+        "proj": 25.1,
+        "adp": null
+      },
+      "13422": {
+        "proj": 25.1,
+        "adp": null
+      },
+      "13357": {
+        "proj": 25.1,
+        "adp": null
+      },
+      "5973": {
+        "proj": 24.9,
+        "adp": 647.4
+      },
+      "11629": {
+        "proj": 24.9,
+        "adp": 650.1
+      },
+      "10871": {
+        "proj": 24.9,
+        "adp": 668.8
+      },
+      "13309": {
+        "proj": 24.7,
+        "adp": 681.4
+      },
+      "13354": {
+        "proj": 24.6,
+        "adp": null
+      },
+      "7496": {
+        "proj": 24.5,
+        "adp": 687.2
+      },
+      "11588": {
+        "proj": 24.5,
+        "adp": 642.8
+      },
+      "12496": {
+        "proj": 24.2,
+        "adp": 700.0
+      },
+      "13303": {
+        "proj": 24.0,
+        "adp": 649.6
+      },
+      "13316": {
+        "proj": 23.9,
+        "adp": null
+      },
+      "7528": {
+        "proj": 23.8,
+        "adp": 657.2
+      },
+      "2197": {
+        "proj": 23.8,
+        "adp": 683.0
+      },
+      "13307": {
+        "proj": 23.5,
+        "adp": 663.1
+      },
+      "11593": {
+        "proj": 23.4,
+        "adp": null
+      },
+      "13327": {
+        "proj": 23.3,
+        "adp": null
+      },
+      "3634": {
+        "proj": 23.2,
+        "adp": 645.2
+      },
+      "12048": {
+        "proj": 23.2,
+        "adp": 700.0
+      },
+      "2078": {
+        "proj": 23.0,
+        "adp": 697.0
+      },
+      "5086": {
+        "proj": 22.9,
+        "adp": 632.5
+      },
+      "12543": {
+        "proj": 22.9,
+        "adp": 686.8
+      },
+      "2374": {
+        "proj": 22.8,
+        "adp": 699.0
+      },
+      "13347": {
+        "proj": 22.8,
+        "adp": 243.6
+      },
+      "4098": {
+        "proj": 22.7,
+        "adp": 663.5
+      },
+      "12511": {
+        "proj": 22.5,
+        "adp": 609.5
+      },
+      "6154": {
+        "proj": 22.4,
+        "adp": 456.0
+      },
+      "6869": {
+        "proj": 22.3,
+        "adp": 675.3
+      },
+      "13273": {
+        "proj": 22.3,
+        "adp": 671.5
+      },
+      "11630": {
+        "proj": 22.3,
+        "adp": 688.0
+      },
+      "13289": {
+        "proj": 22.0,
+        "adp": 656.9
+      },
+      "11640": {
+        "proj": 22.0,
+        "adp": 535.0
+      },
+      "11596": {
+        "proj": 22.0,
+        "adp": 671.5
+      },
+      "13299": {
+        "proj": 21.9,
+        "adp": 673.5
+      },
+      "7891": {
+        "proj": 21.8,
+        "adp": 697.6
+      },
+      "12495": {
+        "proj": 21.7,
+        "adp": 665.9
+      },
+      "13297": {
+        "proj": 21.6,
+        "adp": 698.6
+      },
+      "5010": {
+        "proj": 21.5,
+        "adp": null
+      },
+      "13079": {
+        "proj": 21.4,
+        "adp": 663.9
+      },
+      "9229": {
+        "proj": 21.3,
+        "adp": 657.4
+      },
+      "11579": {
+        "proj": 21.1,
+        "adp": 692.6
+      },
+      "8177": {
+        "proj": 20.6,
+        "adp": 668.3
+      },
+      "11168": {
+        "proj": 20.6,
+        "adp": 588.8
+      },
+      "5938": {
+        "proj": 20.0,
+        "adp": 629.9
+      },
+      "11600": {
+        "proj": 19.9,
+        "adp": 694.3
+      },
+      "13333": {
+        "proj": 19.3,
+        "adp": 670.0
+      },
+      "11623": {
+        "proj": 19.3,
+        "adp": 647.5
+      },
+      "13403": {
+        "proj": 18.9,
+        "adp": 679.0
+      },
+      "4666": {
+        "proj": 18.0,
+        "adp": 612.4
+      },
+      "12455": {
+        "proj": 17.9,
+        "adp": 669.4
+      },
+      "7610": {
+        "proj": 14.6,
+        "adp": 639.6
+      },
+      "1379": {
+        "proj": 14.4,
+        "adp": 655.7
+      },
+      "5230": {
+        "proj": 14.0,
+        "adp": null
+      },
+      "503": {
+        "proj": 14.0,
+        "adp": null
+      },
+      "17": {
+        "proj": 14.0,
+        "adp": 594.2
+      },
+      "12510": {
+        "proj": 13.9,
+        "adp": 663.0
+      },
+      "13275": {
+        "proj": 13.6,
+        "adp": 673.1
+      },
+      "11565": {
+        "proj": 13.6,
+        "adp": 653.9
+      },
+      "2307": {
+        "proj": 13.1,
+        "adp": 507.5
+      },
+      "827": {
+        "proj": 12.9,
+        "adp": 610.6
+      },
+      "2306": {
+        "proj": 12.9,
+        "adp": 664.4
+      },
+      "9999": {
+        "proj": 12.7,
+        "adp": 675.8
+      },
+      "8181": {
+        "proj": 12.7,
+        "adp": 471.5
+      },
+      "7083": {
+        "proj": 12.7,
+        "adp": 690.0
+      },
+      "11562": {
+        "proj": 12.7,
+        "adp": 686.3
+      },
+      "13427": {
+        "proj": 12.5,
+        "adp": 692.5
+      },
+      "11256": {
+        "proj": 12.5,
+        "adp": 606.0
+      },
+      "3161": {
+        "proj": 12.4,
+        "adp": 633.3
+      },
+      "12470": {
+        "proj": 12.4,
+        "adp": 683.3
+      },
+      "9230": {
+        "proj": 12.4,
+        "adp": 676.6
+      },
+      "4179": {
+        "proj": 12.4,
+        "adp": 692.8
+      },
+      "12500": {
+        "proj": 12.4,
+        "adp": 697.4
+      },
+      "11557": {
+        "proj": 12.4,
+        "adp": 684.4
+      },
+      "10217": {
+        "proj": 12.4,
+        "adp": 643.8
+      },
+      "11292": {
+        "proj": 12.4,
+        "adp": 655.5
+      },
+      "1837": {
+        "proj": 12.3,
+        "adp": 356.3
+      },
+      "6136": {
+        "proj": 12.2,
+        "adp": 325.0
+      },
+      "7585": {
+        "proj": 12.0,
+        "adp": 676.3
+      },
+      "4464": {
+        "proj": 12.0,
+        "adp": 570.0
+      },
+      "5127": {
+        "proj": 12.0,
+        "adp": 672.0
+      },
+      "3976": {
+        "proj": 11.9,
+        "adp": 654.8
+      },
+      "12486": {
+        "proj": 11.9,
+        "adp": null
+      },
+      "829": {
+        "proj": 11.8,
+        "adp": 657.2
+      },
+      "12473": {
+        "proj": 11.7,
+        "adp": 269.0
+      },
+      "4972": {
+        "proj": 11.7,
+        "adp": 655.3
+      },
+      "2152": {
+        "proj": 11.6,
+        "adp": 515.0
+      },
+      "4054": {
+        "proj": 11.4,
+        "adp": 613.0
+      },
+      "11716": {
+        "proj": 11.4,
+        "adp": null
+      },
+      "260": {
+        "proj": 11.3,
+        "adp": null
+      },
+      "4351": {
+        "proj": 10.7,
+        "adp": 655.2
+      },
+      "2749": {
+        "proj": 10.0,
+        "adp": 383.5
+      },
+      "11574": {
+        "proj": 9.9,
+        "adp": 606.8
+      },
+      "13419": {
+        "proj": 9.7,
+        "adp": 548.0
+      },
+      "8258": {
+        "proj": 9.0,
+        "adp": 489.0
+      },
+      "7562": {
+        "proj": 8.7,
+        "adp": 690.5
+      },
+      "11569": {
+        "proj": 8.6,
+        "adp": 698.4
+      },
+      "7561": {
+        "proj": 8.3,
+        "adp": 370.0
+      },
+      "4219": {
+        "proj": 7.9,
+        "adp": null
+      },
+      "8204": {
+        "proj": 7.8,
+        "adp": 667.8
+      },
+      "4663": {
+        "proj": 7.8,
+        "adp": 632.2
+      },
+      "7842": {
+        "proj": 7.6,
+        "adp": null
+      },
+      "4381": {
+        "proj": 7.5,
+        "adp": 688.6
+      },
+      "5008": {
+        "proj": 7.4,
+        "adp": 684.0
+      },
+      "13315": {
+        "proj": 7.4,
+        "adp": 699.0
+      },
+      "5985": {
+        "proj": 7.3,
+        "adp": 569.8
+      },
+      "4234": {
+        "proj": 7.3,
+        "adp": null
+      },
+      "11650": {
+        "proj": 7.3,
+        "adp": 620.4
+      },
+      "6920": {
+        "proj": 7.2,
+        "adp": null
+      },
+      "4718": {
+        "proj": 7.2,
+        "adp": 684.8
+      },
+      "13433": {
+        "proj": 7.1,
+        "adp": 400.0
+      },
+      "12860": {
+        "proj": 6.9,
+        "adp": 665.5
+      },
+      "8145": {
+        "proj": 6.8,
+        "adp": null
+      },
+      "7607": {
+        "proj": 6.6,
+        "adp": 659.5
+      },
+      "10235": {
+        "proj": 6.6,
+        "adp": 670.7
+      },
+      "8116": {
+        "proj": 6.5,
+        "adp": 631.2
+      },
+      "7039": {
+        "proj": 6.5,
+        "adp": null
+      },
+      "12462": {
+        "proj": 6.5,
+        "adp": null
+      },
+      "11510": {
+        "proj": 6.5,
+        "adp": 617.1
+      },
+      "11439": {
+        "proj": 6.5,
+        "adp": 660.9
+      },
+      "8208": {
+        "proj": 6.4,
+        "adp": 312.0
+      },
+      "8249": {
+        "proj": 6.1,
+        "adp": null
+      },
+      "10227": {
+        "proj": 6.1,
+        "adp": 565.6
+      },
+      "7536": {
+        "proj": 6.0,
+        "adp": null
+      },
+      "7075": {
+        "proj": 6.0,
+        "adp": 355.0
+      },
+      "13838": {
+        "proj": 6.0,
+        "adp": 482.0
+      },
+      "13429": {
+        "proj": 6.0,
+        "adp": 558.0
+      },
+      "12548": {
+        "proj": 6.0,
+        "adp": 521.0
+      },
+      "4992": {
+        "proj": 5.8,
+        "adp": null
+      },
+      "11617": {
+        "proj": 5.8,
+        "adp": null
+      },
+      "12738": {
+        "proj": 5.7,
+        "adp": 665.1
+      },
+      "11651": {
+        "proj": 5.7,
+        "adp": 677.5
+      },
+      "8195": {
+        "proj": 5.6,
+        "adp": null
+      },
+      "12539": {
+        "proj": 5.6,
+        "adp": null
+      },
+      "11921": {
+        "proj": 5.6,
+        "adp": null
+      },
+      "8885": {
+        "proj": 5.5,
+        "adp": null
+      },
+      "7946": {
+        "proj": 5.5,
+        "adp": null
+      },
+      "11606": {
+        "proj": 5.5,
+        "adp": null
+      },
+      "6853": {
+        "proj": 5.3,
+        "adp": null
+      },
+      "13846": {
+        "proj": 5.3,
+        "adp": 551.0
+      },
+      "11820": {
+        "proj": 5.3,
+        "adp": null
+      },
+      "13150": {
+        "proj": 5.2,
+        "adp": 657.8
+      },
+      "13410": {
+        "proj": 5.1,
+        "adp": 673.3
+      },
+      "13356": {
+        "proj": 5.1,
+        "adp": 643.8
+      },
+      "13336": {
+        "proj": 5.1,
+        "adp": null
+      },
+      "13318": {
+        "proj": 5.1,
+        "adp": null
+      },
+      "10444": {
+        "proj": 5.1,
+        "adp": 697.6
+      },
+      "8200": {
+        "proj": 5.0,
+        "adp": null
+      },
+      "6960": {
+        "proj": 5.0,
+        "adp": null
+      },
+      "4171": {
+        "proj": 5.0,
+        "adp": null
+      },
+      "11034": {
+        "proj": 5.0,
+        "adp": 661.0
+      },
+      "5185": {
+        "proj": 4.9,
+        "adp": 676.5
+      },
+      "10212": {
+        "proj": 4.7,
+        "adp": 685.2
+      },
+      "9757": {
+        "proj": 4.6,
+        "adp": 677.9
+      },
+      "8254": {
+        "proj": 4.6,
+        "adp": 650.8
+      },
+      "12516": {
+        "proj": 4.6,
+        "adp": null
+      },
+      "11299": {
+        "proj": 4.6,
+        "adp": 691.0
+      },
+      "10214": {
+        "proj": 4.4,
+        "adp": 676.6
+      },
+      "5409": {
+        "proj": 4.3,
+        "adp": 322.0
+      },
+      "4082": {
+        "proj": 4.3,
+        "adp": null
+      },
+      "8583": {
+        "proj": 4.2,
+        "adp": null
+      },
+      "4189": {
+        "proj": 4.2,
+        "adp": null
+      },
+      "11433": {
+        "proj": 4.2,
+        "adp": 276.0
+      },
+      "10216": {
+        "proj": 4.2,
+        "adp": 667.8
+      },
+      "8139": {
+        "proj": 4.1,
+        "adp": 547.3
+      },
+      "7568": {
+        "proj": 4.1,
+        "adp": null
+      },
+      "6938": {
+        "proj": 4.1,
+        "adp": 308.8
+      },
+      "11371": {
+        "proj": 4.1,
+        "adp": 683.2
+      },
+      "8489": {
+        "proj": 3.9,
+        "adp": null
+      },
+      "7612": {
+        "proj": 3.9,
+        "adp": null
+      },
+      "7587": {
+        "proj": 3.9,
+        "adp": null
+      },
+      "8207": {
+        "proj": 3.8,
+        "adp": 479.7
+      },
+      "8129": {
+        "proj": 3.8,
+        "adp": 665.5
+      },
+      "2359": {
+        "proj": 3.8,
+        "adp": 598.8
+      },
+      "12520": {
+        "proj": 3.8,
+        "adp": 277.0
+      },
+      "11994": {
+        "proj": 3.8,
+        "adp": 463.3
+      },
+      "12541": {
+        "proj": 3.7,
+        "adp": 677.0
+      },
+      "12472": {
+        "proj": 3.7,
+        "adp": 690.0
+      },
+      "8527": {
+        "proj": 3.6,
+        "adp": null
+      },
+      "12542": {
+        "proj": 3.6,
+        "adp": 572.4
+      },
+      "13946": {
+        "proj": 3.5,
+        "adp": 341.0
+      },
+      "6659": {
+        "proj": 3.4,
+        "adp": 511.8
+      },
+      "11201": {
+        "proj": 3.4,
+        "adp": 267.0
+      },
+      "4274": {
+        "proj": 3.3,
+        "adp": 252.0
+      },
+      "13047": {
+        "proj": 3.3,
+        "adp": 363.0
+      },
+      "7595": {
+        "proj": 3.2,
+        "adp": null
+      },
+      "13491": {
+        "proj": 3.2,
+        "adp": 635.6
+      },
+      "12475": {
+        "proj": 3.2,
+        "adp": null
+      },
+      "10867": {
+        "proj": 3.2,
+        "adp": 635.9
+      },
+      "4040": {
+        "proj": 3.1,
+        "adp": 579.9
+      },
+      "3269": {
+        "proj": 3.1,
+        "adp": null
+      },
+      "7602": {
+        "proj": 3.0,
+        "adp": null
+      },
+      "6850": {
+        "proj": 3.0,
+        "adp": null
+      },
+      "4995": {
+        "proj": 3.0,
+        "adp": 275.8
+      },
+      "13121": {
+        "proj": 3.0,
+        "adp": null
+      },
+      "11729": {
+        "proj": 3.0,
+        "adp": 527.3
+      },
+      "11377": {
+        "proj": 3.0,
+        "adp": null
+      },
+      "10210": {
+        "proj": 3.0,
+        "adp": 666.7
+      },
+      "6945": {
+        "proj": 2.9,
+        "adp": 532.3
+      },
+      "5154": {
+        "proj": 2.9,
+        "adp": null
+      },
+      "13516": {
+        "proj": 2.8,
+        "adp": null
+      },
+      "11762": {
+        "proj": 2.7,
+        "adp": null
+      },
+      "8168": {
+        "proj": 2.5,
+        "adp": 608.2
+      },
+      "6427": {
+        "proj": 2.5,
+        "adp": 696.8
+      },
+      "12515": {
+        "proj": 2.1,
+        "adp": 251.0
+      },
+      "1426": {
+        "proj": 2.0,
+        "adp": 246.0
+      },
+      "12634": {
+        "proj": 1.9,
+        "adp": null
+      },
+      "8484": {
+        "proj": 1.8,
+        "adp": 253.0
+      },
+      "8041": {
+        "proj": 1.8,
+        "adp": null
+      },
+      "3048": {
+        "proj": 1.8,
+        "adp": 665.0
+      },
+      "7531": {
+        "proj": 1.4,
+        "adp": null
+      },
+      "4602": {
+        "proj": 1.4,
+        "adp": null
+      },
+      "13101": {
+        "proj": 1.4,
+        "adp": null
+      },
+      "2750": {
+        "proj": 1.3,
+        "adp": null
+      },
+      "5133": {
+        "proj": 1.2,
+        "adp": 644.8
+      },
+      "11616": {
+        "proj": 1.2,
+        "adp": 362.7
+      },
+      "6820": {
+        "proj": 0.8,
+        "adp": null
+      },
+      "7757": {
+        "proj": 0.6,
+        "adp": 300.0
+      },
+      "6957": {
+        "proj": 0.6,
+        "adp": null
+      },
+      "3200": {
+        "proj": 0.6,
+        "adp": 666.0
+      },
+      "11320": {
+        "proj": 0.6,
+        "adp": 498.0
+      },
+      "12699": {
+        "proj": 0.5,
+        "adp": 688.9
+      },
+      "9998": {
+        "proj": null,
+        "adp": 659.7
+      },
+      "982": {
+        "proj": null,
+        "adp": 697.6
+      },
+      "9759": {
+        "proj": null,
+        "adp": 694.3
+      },
+      "973": {
+        "proj": null,
+        "adp": 655.0
+      },
+      "964": {
+        "proj": null,
+        "adp": 695.5
+      },
+      "963": {
+        "proj": null,
+        "adp": 699.0
+      },
+      "956": {
+        "proj": null,
+        "adp": 679.3
+      },
+      "954": {
+        "proj": null,
+        "adp": 635.5
+      },
+      "9512": {
+        "proj": null,
+        "adp": 697.9
+      },
+      "9510": {
+        "proj": null,
+        "adp": 664.5
+      },
+      "9507": {
+        "proj": null,
+        "adp": 699.5
+      },
+      "9505": {
+        "proj": null,
+        "adp": 693.8
+      },
+      "9503": {
+        "proj": null,
+        "adp": 684.2
+      },
+      "9499": {
+        "proj": null,
+        "adp": 530.9
+      },
+      "9498": {
+        "proj": null,
+        "adp": 688.5
+      },
+      "9497": {
+        "proj": null,
+        "adp": 685.9
+      },
+      "9496": {
+        "proj": null,
+        "adp": 682.0
+      },
+      "9495": {
+        "proj": null,
+        "adp": 699.3
+      },
+      "9492": {
+        "proj": null,
+        "adp": 674.2
+      },
+      "9491": {
+        "proj": null,
+        "adp": 678.2
+      },
+      "9490": {
+        "proj": null,
+        "adp": 694.8
+      },
+      "9489": {
+        "proj": null,
+        "adp": 695.5
+      },
+      "9483": {
+        "proj": null,
+        "adp": 681.3
+      },
+      "947": {
+        "proj": null,
+        "adp": 674.3
+      },
+      "943": {
+        "proj": null,
+        "adp": 520.0
+      },
+      "928": {
+        "proj": null,
+        "adp": 645.5
+      },
+      "9231": {
+        "proj": null,
+        "adp": 595.0
+      },
+      "9227": {
+        "proj": null,
+        "adp": 678.7
+      },
+      "9223": {
+        "proj": null,
+        "adp": 492.3
+      },
+      "9222": {
+        "proj": null,
+        "adp": null
+      },
+      "9220": {
+        "proj": null,
+        "adp": 685.5
+      },
+      "902": {
+        "proj": null,
+        "adp": null
+      },
+      "899": {
+        "proj": null,
+        "adp": 675.7
+      },
+      "8938": {
+        "proj": null,
+        "adp": null
+      },
+      "8937": {
+        "proj": null,
+        "adp": 409.6
+      },
+      "8934": {
+        "proj": null,
+        "adp": 677.4
+      },
+      "8932": {
+        "proj": null,
+        "adp": null
+      },
+      "8931": {
+        "proj": null,
+        "adp": null
+      },
+      "8928": {
+        "proj": null,
+        "adp": null
+      },
+      "8924": {
+        "proj": null,
+        "adp": null
+      },
+      "8921": {
+        "proj": null,
+        "adp": 656.5
+      },
+      "8915": {
+        "proj": null,
+        "adp": 663.0
+      },
+      "8908": {
+        "proj": null,
+        "adp": 587.0
+      },
+      "8905": {
+        "proj": null,
+        "adp": 644.2
+      },
+      "89": {
+        "proj": null,
+        "adp": 681.0
+      },
+      "8893": {
+        "proj": null,
+        "adp": null
+      },
+      "8892": {
+        "proj": null,
+        "adp": null
+      },
+      "8891": {
+        "proj": null,
+        "adp": null
+      },
+      "8890": {
+        "proj": null,
+        "adp": 685.5
+      },
+      "8888": {
+        "proj": null,
+        "adp": null
+      },
+      "8884": {
+        "proj": null,
+        "adp": null
+      },
+      "8881": {
+        "proj": null,
+        "adp": null
+      },
+      "8878": {
+        "proj": null,
+        "adp": null
+      },
+      "8876": {
+        "proj": null,
+        "adp": null
+      },
+      "8864": {
+        "proj": null,
+        "adp": null
+      },
+      "8863": {
+        "proj": null,
+        "adp": null
+      },
+      "8861": {
+        "proj": null,
+        "adp": null
+      },
+      "886": {
+        "proj": null,
+        "adp": 658.0
+      },
+      "8858": {
+        "proj": null,
+        "adp": null
+      },
+      "8849": {
+        "proj": null,
+        "adp": 681.0
+      },
+      "8840": {
+        "proj": null,
+        "adp": 667.3
+      },
+      "8831": {
+        "proj": null,
+        "adp": null
+      },
+      "8828": {
+        "proj": null,
+        "adp": null
+      },
+      "8825": {
+        "proj": null,
+        "adp": null
+      },
+      "8824": {
+        "proj": null,
+        "adp": 653.5
+      },
+      "8820": {
+        "proj": null,
+        "adp": 503.6
+      },
+      "8817": {
+        "proj": null,
+        "adp": null
+      },
+      "8813": {
+        "proj": null,
+        "adp": null
+      },
+      "8812": {
+        "proj": null,
+        "adp": null
+      },
+      "8809": {
+        "proj": null,
+        "adp": null
+      },
+      "8801": {
+        "proj": null,
+        "adp": null
+      },
+      "8799": {
+        "proj": null,
+        "adp": null
+      },
+      "8798": {
+        "proj": null,
+        "adp": 361.8
+      },
+      "8783": {
+        "proj": null,
+        "adp": 487.5
+      },
+      "8778": {
+        "proj": null,
+        "adp": null
+      },
+      "8775": {
+        "proj": null,
+        "adp": 681.2
+      },
+      "8770": {
+        "proj": null,
+        "adp": 447.8
+      },
+      "8769": {
+        "proj": null,
+        "adp": 530.9
+      },
+      "8760": {
+        "proj": null,
+        "adp": null
+      },
+      "8757": {
+        "proj": null,
+        "adp": 458.6
+      },
+      "8756": {
+        "proj": null,
+        "adp": null
+      },
+      "8755": {
+        "proj": null,
+        "adp": 646.1
+      },
+      "8751": {
+        "proj": null,
+        "adp": null
+      },
+      "8749": {
+        "proj": null,
+        "adp": 449.3
+      },
+      "8747": {
+        "proj": null,
+        "adp": null
+      },
+      "8745": {
+        "proj": null,
+        "adp": null
+      },
+      "8741": {
+        "proj": null,
+        "adp": null
+      },
+      "8732": {
+        "proj": null,
+        "adp": null
+      },
+      "8731": {
+        "proj": null,
+        "adp": null
+      },
+      "8721": {
+        "proj": null,
+        "adp": 545.3
+      },
+      "8707": {
+        "proj": null,
+        "adp": 632.3
+      },
+      "8706": {
+        "proj": null,
+        "adp": null
+      },
+      "8705": {
+        "proj": null,
+        "adp": null
+      },
+      "8700": {
+        "proj": null,
+        "adp": null
+      },
+      "8699": {
+        "proj": null,
+        "adp": null
+      },
+      "8697": {
+        "proj": null,
+        "adp": null
+      },
+      "8694": {
+        "proj": null,
+        "adp": null
+      },
+      "8690": {
+        "proj": null,
+        "adp": null
+      },
+      "8685": {
+        "proj": null,
+        "adp": null
+      },
+      "868": {
+        "proj": null,
+        "adp": null
+      },
+      "8670": {
+        "proj": null,
+        "adp": null
+      },
+      "8665": {
+        "proj": null,
+        "adp": 691.7
+      },
+      "8663": {
+        "proj": null,
+        "adp": null
+      },
+      "8660": {
+        "proj": null,
+        "adp": null
+      },
+      "8656": {
+        "proj": null,
+        "adp": null
+      },
+      "8650": {
+        "proj": null,
+        "adp": null
+      },
+      "8638": {
+        "proj": null,
+        "adp": null
+      },
+      "8634": {
+        "proj": null,
+        "adp": null
+      },
+      "8633": {
+        "proj": null,
+        "adp": null
+      },
+      "8632": {
+        "proj": null,
+        "adp": null
+      },
+      "8628": {
+        "proj": null,
+        "adp": null
+      },
+      "8624": {
+        "proj": null,
+        "adp": 584.0
+      },
+      "8621": {
+        "proj": null,
+        "adp": null
+      },
+      "862": {
+        "proj": null,
+        "adp": 664.0
+      },
+      "8613": {
+        "proj": null,
+        "adp": null
+      },
+      "8602": {
+        "proj": null,
+        "adp": null
+      },
+      "8595": {
+        "proj": null,
+        "adp": null
+      },
+      "8589": {
+        "proj": null,
+        "adp": 406.0
+      },
+      "8581": {
+        "proj": null,
+        "adp": null
+      },
+      "8579": {
+        "proj": null,
+        "adp": 437.0
+      },
+      "8577": {
+        "proj": null,
+        "adp": 696.0
+      },
+      "8575": {
+        "proj": null,
+        "adp": 651.1
+      },
+      "8573": {
+        "proj": null,
+        "adp": null
+      },
+      "8572": {
+        "proj": null,
+        "adp": null
+      },
+      "8571": {
+        "proj": null,
+        "adp": null
+      },
+      "8570": {
+        "proj": null,
+        "adp": null
+      },
+      "8568": {
+        "proj": null,
+        "adp": 303.7
+      },
+      "8560": {
+        "proj": null,
+        "adp": 618.0
+      },
+      "8559": {
+        "proj": null,
+        "adp": null
+      },
+      "8553": {
+        "proj": null,
+        "adp": null
+      },
+      "8549": {
+        "proj": null,
+        "adp": null
+      },
+      "8543": {
+        "proj": null,
+        "adp": null
+      },
+      "8539": {
+        "proj": null,
+        "adp": null
+      },
+      "8536": {
+        "proj": null,
+        "adp": null
+      },
+      "8523": {
+        "proj": null,
+        "adp": null
+      },
+      "8500": {
+        "proj": null,
+        "adp": null
+      },
+      "8475": {
+        "proj": null,
+        "adp": 651.0
+      },
+      "8442": {
+        "proj": null,
+        "adp": null
+      },
+      "8441": {
+        "proj": null,
+        "adp": null
+      },
+      "8439": {
+        "proj": null,
+        "adp": 578.0
+      },
+      "8438": {
+        "proj": null,
+        "adp": 674.8
+      },
+      "8437": {
+        "proj": null,
+        "adp": null
+      },
+      "8436": {
+        "proj": null,
+        "adp": null
+      },
+      "8435": {
+        "proj": null,
+        "adp": null
+      },
+      "8433": {
+        "proj": null,
+        "adp": null
+      },
+      "8431": {
+        "proj": null,
+        "adp": null
+      },
+      "8429": {
+        "proj": null,
+        "adp": null
+      },
+      "8428": {
+        "proj": null,
+        "adp": null
+      },
+      "8424": {
+        "proj": null,
+        "adp": 357.0
+      },
+      "8423": {
+        "proj": null,
+        "adp": null
+      },
+      "8421": {
+        "proj": null,
+        "adp": null
+      },
+      "8420": {
+        "proj": null,
+        "adp": null
+      },
+      "8419": {
+        "proj": null,
+        "adp": 511.0
+      },
+      "8418": {
+        "proj": null,
+        "adp": null
+      },
+      "8416": {
+        "proj": null,
+        "adp": null
+      },
+      "8414": {
+        "proj": null,
+        "adp": null
+      },
+      "8413": {
+        "proj": null,
+        "adp": null
+      },
+      "8411": {
+        "proj": null,
+        "adp": 597.3
+      },
+      "8410": {
+        "proj": null,
+        "adp": null
+      },
+      "8409": {
+        "proj": null,
+        "adp": null
+      },
+      "8407": {
+        "proj": null,
+        "adp": null
+      },
+      "830": {
+        "proj": null,
+        "adp": 654.0
+      },
+      "8260": {
+        "proj": null,
+        "adp": 359.7
+      },
+      "8255": {
+        "proj": null,
+        "adp": 653.5
+      },
+      "8253": {
+        "proj": null,
+        "adp": null
+      },
+      "8252": {
+        "proj": null,
+        "adp": null
+      },
+      "8251": {
+        "proj": null,
+        "adp": null
+      },
+      "8250": {
+        "proj": null,
+        "adp": null
+      },
+      "8248": {
+        "proj": null,
+        "adp": 530.3
+      },
+      "8247": {
+        "proj": null,
+        "adp": null
+      },
+      "8246": {
+        "proj": null,
+        "adp": null
+      },
+      "8245": {
+        "proj": null,
+        "adp": 329.0
+      },
+      "8243": {
+        "proj": null,
+        "adp": null
+      },
+      "8242": {
+        "proj": null,
+        "adp": null
+      },
+      "8241": {
+        "proj": null,
+        "adp": null
+      },
+      "8240": {
+        "proj": null,
+        "adp": null
+      },
+      "8239": {
+        "proj": null,
+        "adp": null
+      },
+      "8238": {
+        "proj": null,
+        "adp": 649.7
+      },
+      "8236": {
+        "proj": null,
+        "adp": null
+      },
+      "8235": {
+        "proj": null,
+        "adp": null
+      },
+      "8234": {
+        "proj": null,
+        "adp": 585.7
+      },
+      "8233": {
+        "proj": null,
+        "adp": 660.8
+      },
+      "8232": {
+        "proj": null,
+        "adp": 485.3
+      },
+      "8230": {
+        "proj": null,
+        "adp": 647.7
+      },
+      "8229": {
+        "proj": null,
+        "adp": 431.5
+      },
+      "8227": {
+        "proj": null,
+        "adp": 611.5
+      },
+      "8226": {
+        "proj": null,
+        "adp": 599.3
+      },
+      "8224": {
+        "proj": null,
+        "adp": 583.5
+      },
+      "8223": {
+        "proj": null,
+        "adp": 549.0
+      },
+      "8222": {
+        "proj": null,
+        "adp": 433.6
+      },
+      "8221": {
+        "proj": null,
+        "adp": 578.5
+      },
+      "8220": {
+        "proj": null,
+        "adp": 657.5
+      },
+      "8219": {
+        "proj": null,
+        "adp": 307.0
+      },
+      "8218": {
+        "proj": null,
+        "adp": 417.5
+      },
+      "8217": {
+        "proj": null,
+        "adp": 412.0
+      },
+      "8215": {
+        "proj": null,
+        "adp": 377.0
+      },
+      "8214": {
+        "proj": null,
+        "adp": null
+      },
+      "8213": {
+        "proj": null,
+        "adp": null
+      },
+      "8212": {
+        "proj": null,
+        "adp": null
+      },
+      "8211": {
+        "proj": null,
+        "adp": null
+      },
+      "8209": {
+        "proj": null,
+        "adp": null
+      },
+      "8206": {
+        "proj": null,
+        "adp": null
+      },
+      "8203": {
+        "proj": null,
+        "adp": null
+      },
+      "8202": {
+        "proj": null,
+        "adp": null
+      },
+      "8201": {
+        "proj": null,
+        "adp": null
+      },
+      "8199": {
+        "proj": null,
+        "adp": null
+      },
+      "8198": {
+        "proj": null,
+        "adp": 627.3
+      },
+      "8197": {
+        "proj": null,
+        "adp": null
+      },
+      "8196": {
+        "proj": null,
+        "adp": 493.5
+      },
+      "8194": {
+        "proj": null,
+        "adp": 672.0
+      },
+      "8193": {
+        "proj": null,
+        "adp": null
+      },
+      "8192": {
+        "proj": null,
+        "adp": null
+      },
+      "8191": {
+        "proj": null,
+        "adp": null
+      },
+      "8190": {
+        "proj": null,
+        "adp": 345.6
+      },
+      "8189": {
+        "proj": null,
+        "adp": null
+      },
+      "8187": {
+        "proj": null,
+        "adp": null
+      },
+      "8186": {
+        "proj": null,
+        "adp": null
+      },
+      "8185": {
+        "proj": null,
+        "adp": null
+      },
+      "8184": {
+        "proj": null,
+        "adp": 401.0
+      },
+      "8182": {
+        "proj": null,
+        "adp": null
+      },
+      "818": {
+        "proj": null,
+        "adp": 654.8
+      },
+      "8179": {
+        "proj": null,
+        "adp": 391.0
+      },
+      "8178": {
+        "proj": null,
+        "adp": null
+      },
+      "8176": {
+        "proj": null,
+        "adp": null
+      },
+      "8175": {
+        "proj": null,
+        "adp": null
+      },
+      "8174": {
+        "proj": null,
+        "adp": 671.5
+      },
+      "8173": {
+        "proj": null,
+        "adp": null
+      },
+      "8171": {
+        "proj": null,
+        "adp": null
+      },
+      "8170": {
+        "proj": null,
+        "adp": null
+      },
+      "8169": {
+        "proj": null,
+        "adp": null
+      },
+      "8166": {
+        "proj": null,
+        "adp": null
+      },
+      "8164": {
+        "proj": null,
+        "adp": null
+      },
+      "8162": {
+        "proj": null,
+        "adp": 689.0
+      },
+      "8160": {
+        "proj": null,
+        "adp": 665.5
+      },
+      "8159": {
+        "proj": null,
+        "adp": null
+      },
+      "8158": {
+        "proj": null,
+        "adp": null
+      },
+      "8157": {
+        "proj": null,
+        "adp": 483.0
+      },
+      "8153": {
+        "proj": null,
+        "adp": null
+      },
+      "8152": {
+        "proj": null,
+        "adp": null
+      },
+      "8149": {
+        "proj": null,
+        "adp": null
+      },
+      "8143": {
+        "proj": null,
+        "adp": 636.6
+      },
+      "8140": {
+        "proj": null,
+        "adp": null
+      },
+      "8125": {
+        "proj": null,
+        "adp": 698.3
+      },
+      "8123": {
+        "proj": null,
+        "adp": null
+      },
+      "8122": {
+        "proj": null,
+        "adp": 668.5
+      },
+      "8120": {
+        "proj": null,
+        "adp": 452.7
+      },
+      "812": {
+        "proj": null,
+        "adp": 351.5
+      },
+      "8118": {
+        "proj": null,
+        "adp": null
+      },
+      "8115": {
+        "proj": null,
+        "adp": null
+      },
+      "8114": {
+        "proj": null,
+        "adp": null
+      },
+      "8108": {
+        "proj": null,
+        "adp": null
+      },
+      "8107": {
+        "proj": null,
+        "adp": null
+      },
+      "8105": {
+        "proj": null,
+        "adp": null
+      },
+      "8103": {
+        "proj": null,
+        "adp": null
+      },
+      "8102": {
+        "proj": null,
+        "adp": null
+      },
+      "8101": {
+        "proj": null,
+        "adp": null
+      },
+      "8095": {
+        "proj": null,
+        "adp": null
+      },
+      "8094": {
+        "proj": null,
+        "adp": null
+      },
+      "8092": {
+        "proj": null,
+        "adp": null
+      },
+      "8090": {
+        "proj": null,
+        "adp": null
+      },
+      "8089": {
+        "proj": null,
+        "adp": null
+      },
+      "8088": {
+        "proj": null,
+        "adp": null
+      },
+      "8087": {
+        "proj": null,
+        "adp": null
+      },
+      "8085": {
+        "proj": null,
+        "adp": null
+      },
+      "8077": {
+        "proj": null,
+        "adp": null
+      },
+      "8076": {
+        "proj": null,
+        "adp": null
+      },
+      "8074": {
+        "proj": null,
+        "adp": null
+      },
+      "8070": {
+        "proj": null,
+        "adp": null
+      },
+      "8068": {
+        "proj": null,
+        "adp": null
+      },
+      "8061": {
+        "proj": null,
+        "adp": null
+      },
+      "8058": {
+        "proj": null,
+        "adp": null
+      },
+      "8057": {
+        "proj": null,
+        "adp": null
+      },
+      "8056": {
+        "proj": null,
+        "adp": null
+      },
+      "8055": {
+        "proj": null,
+        "adp": null
+      },
+      "8052": {
+        "proj": null,
+        "adp": 463.7
+      },
+      "8051": {
+        "proj": null,
+        "adp": null
+      },
+      "8042": {
+        "proj": null,
+        "adp": 676.5
+      },
+      "8040": {
+        "proj": null,
+        "adp": 663.0
+      },
+      "8039": {
+        "proj": null,
+        "adp": null
+      },
+      "8038": {
+        "proj": null,
+        "adp": null
+      },
+      "8033": {
+        "proj": null,
+        "adp": 339.0
+      },
+      "8027": {
+        "proj": null,
+        "adp": null
+      },
+      "8026": {
+        "proj": null,
+        "adp": null
+      },
+      "8025": {
+        "proj": null,
+        "adp": 678.6
+      },
+      "8021": {
+        "proj": null,
+        "adp": null
+      },
+      "8019": {
+        "proj": null,
+        "adp": null
+      },
+      "8018": {
+        "proj": null,
+        "adp": null
+      },
+      "8013": {
+        "proj": null,
+        "adp": null
+      },
+      "801": {
+        "proj": null,
+        "adp": 386.0
+      },
+      "8008": {
+        "proj": null,
+        "adp": 687.5
+      },
+      "8005": {
+        "proj": null,
+        "adp": null
+      },
+      "8002": {
+        "proj": null,
+        "adp": null
+      },
+      "7996": {
+        "proj": null,
+        "adp": null
+      },
+      "7993": {
+        "proj": null,
+        "adp": null
+      },
+      "7992": {
+        "proj": null,
+        "adp": 599.5
+      },
+      "7990": {
+        "proj": null,
+        "adp": null
+      },
+      "7989": {
+        "proj": null,
+        "adp": null
+      },
+      "7988": {
+        "proj": null,
+        "adp": null
+      },
+      "7985": {
+        "proj": null,
+        "adp": 342.0
+      },
+      "7983": {
+        "proj": null,
+        "adp": null
+      },
+      "7980": {
+        "proj": null,
+        "adp": 299.0
+      },
+      "7978": {
+        "proj": null,
+        "adp": 697.7
+      },
+      "7972": {
+        "proj": null,
+        "adp": null
+      },
+      "7961": {
+        "proj": null,
+        "adp": null
+      },
+      "7960": {
+        "proj": null,
+        "adp": null
+      },
+      "7956": {
+        "proj": null,
+        "adp": null
+      },
+      "7954": {
+        "proj": null,
+        "adp": null
+      },
+      "7951": {
+        "proj": null,
+        "adp": null
+      },
+      "7949": {
+        "proj": null,
+        "adp": null
+      },
+      "7944": {
+        "proj": null,
+        "adp": 523.5
+      },
+      "7943": {
+        "proj": null,
+        "adp": null
+      },
+      "7941": {
+        "proj": null,
+        "adp": null
+      },
+      "7938": {
+        "proj": null,
+        "adp": null
+      },
+      "7935": {
+        "proj": null,
+        "adp": null
+      },
+      "7933": {
+        "proj": null,
+        "adp": 634.5
+      },
+      "7926": {
+        "proj": null,
+        "adp": null
+      },
+      "7918": {
+        "proj": null,
+        "adp": 695.8
+      },
+      "7915": {
+        "proj": null,
+        "adp": null
+      },
+      "7905": {
+        "proj": null,
+        "adp": null
+      },
+      "7904": {
+        "proj": null,
+        "adp": null
+      },
+      "7903": {
+        "proj": null,
+        "adp": null
+      },
+      "7901": {
+        "proj": null,
+        "adp": 481.7
+      },
+      "7899": {
+        "proj": null,
+        "adp": null
+      },
+      "7897": {
+        "proj": null,
+        "adp": 490.2
+      },
+      "7893": {
+        "proj": null,
+        "adp": null
+      },
+      "7890": {
+        "proj": null,
+        "adp": null
+      },
+      "7885": {
+        "proj": null,
+        "adp": null
+      },
+      "788": {
+        "proj": null,
+        "adp": null
+      },
+      "7874": {
+        "proj": null,
+        "adp": null
+      },
+      "7868": {
+        "proj": null,
+        "adp": null
+      },
+      "7867": {
+        "proj": null,
+        "adp": null
+      },
+      "7865": {
+        "proj": null,
+        "adp": null
+      },
+      "7864": {
+        "proj": null,
+        "adp": null
+      },
+      "7863": {
+        "proj": null,
+        "adp": null
+      },
+      "7862": {
+        "proj": null,
+        "adp": null
+      },
+      "7860": {
+        "proj": null,
+        "adp": null
+      },
+      "7859": {
+        "proj": null,
+        "adp": 643.8
+      },
+      "7858": {
+        "proj": null,
+        "adp": null
+      },
+      "7855": {
+        "proj": null,
+        "adp": 425.0
+      },
+      "7854": {
+        "proj": null,
+        "adp": null
+      },
+      "7852": {
+        "proj": null,
+        "adp": null
+      },
+      "7848": {
+        "proj": null,
+        "adp": null
+      },
+      "7812": {
+        "proj": null,
+        "adp": 426.7
+      },
+      "7809": {
+        "proj": null,
+        "adp": null
+      },
+      "7808": {
+        "proj": null,
+        "adp": null
+      },
+      "7794": {
+        "proj": null,
+        "adp": null
+      },
+      "7793": {
+        "proj": null,
+        "adp": null
+      },
+      "7789": {
+        "proj": null,
+        "adp": null
+      },
+      "7771": {
+        "proj": null,
+        "adp": 633.8
+      },
+      "7752": {
+        "proj": null,
+        "adp": 449.5
+      },
+      "7751": {
+        "proj": null,
+        "adp": null
+      },
+      "775": {
+        "proj": null,
+        "adp": null
+      },
+      "7746": {
+        "proj": null,
+        "adp": null
+      },
+      "7744": {
+        "proj": null,
+        "adp": null
+      },
+      "7741": {
+        "proj": null,
+        "adp": 478.7
+      },
+      "7735": {
+        "proj": null,
+        "adp": null
+      },
+      "7734": {
+        "proj": null,
+        "adp": 622.4
+      },
+      "7733": {
+        "proj": null,
+        "adp": null
+      },
+      "7729": {
+        "proj": null,
+        "adp": null
+      },
+      "7720": {
+        "proj": null,
+        "adp": 696.0
+      },
+      "7713": {
+        "proj": null,
+        "adp": null
+      },
+      "7703": {
+        "proj": null,
+        "adp": null
+      },
+      "7624": {
+        "proj": null,
+        "adp": null
+      },
+      "7623": {
+        "proj": null,
+        "adp": null
+      },
+      "7622": {
+        "proj": null,
+        "adp": null
+      },
+      "7619": {
+        "proj": null,
+        "adp": null
+      },
+      "7618": {
+        "proj": null,
+        "adp": null
+      },
+      "7617": {
+        "proj": null,
+        "adp": null
+      },
+      "7616": {
+        "proj": null,
+        "adp": null
+      },
+      "7614": {
+        "proj": null,
+        "adp": null
+      },
+      "7613": {
+        "proj": null,
+        "adp": 637.6
+      },
+      "7609": {
+        "proj": null,
+        "adp": null
+      },
+      "7608": {
+        "proj": null,
+        "adp": 690.3
+      },
+      "7606": {
+        "proj": null,
+        "adp": 491.0
+      },
+      "7605": {
+        "proj": null,
+        "adp": 660.5
+      },
+      "7603": {
+        "proj": null,
+        "adp": null
+      },
+      "7599": {
+        "proj": null,
+        "adp": 611.5
+      },
+      "7597": {
+        "proj": null,
+        "adp": null
+      },
+      "7596": {
+        "proj": null,
+        "adp": null
+      },
+      "7593": {
+        "proj": null,
+        "adp": null
+      },
+      "7589": {
+        "proj": null,
+        "adp": null
+      },
+      "7586": {
+        "proj": null,
+        "adp": null
+      },
+      "7584": {
+        "proj": null,
+        "adp": 694.0
+      },
+      "7583": {
+        "proj": null,
+        "adp": null
+      },
+      "7582": {
+        "proj": null,
+        "adp": null
+      },
+      "7581": {
+        "proj": null,
+        "adp": 484.0
+      },
+      "7580": {
+        "proj": null,
+        "adp": null
+      },
+      "7579": {
+        "proj": null,
+        "adp": null
+      },
+      "7578": {
+        "proj": null,
+        "adp": null
+      },
+      "7576": {
+        "proj": null,
+        "adp": null
+      },
+      "7574": {
+        "proj": null,
+        "adp": null
+      },
+      "7573": {
+        "proj": null,
+        "adp": null
+      },
+      "7572": {
+        "proj": null,
+        "adp": null
+      },
+      "7565": {
+        "proj": null,
+        "adp": null
+      },
+      "7563": {
+        "proj": null,
+        "adp": null
+      },
+      "7560": {
+        "proj": null,
+        "adp": null
+      },
+      "7559": {
+        "proj": null,
+        "adp": null
+      },
+      "7558": {
+        "proj": null,
+        "adp": 587.3
+      },
+      "7556": {
+        "proj": null,
+        "adp": null
+      },
+      "7555": {
+        "proj": null,
+        "adp": null
+      },
+      "7554": {
+        "proj": null,
+        "adp": null
+      },
+      "7552": {
+        "proj": null,
+        "adp": null
+      },
+      "7551": {
+        "proj": null,
+        "adp": null
+      },
+      "7550": {
+        "proj": null,
+        "adp": null
+      },
+      "7549": {
+        "proj": null,
+        "adp": null
+      },
+      "7548": {
+        "proj": null,
+        "adp": 662.0
+      },
+      "7546": {
+        "proj": null,
+        "adp": null
+      },
+      "7545": {
+        "proj": null,
+        "adp": null
+      },
+      "7541": {
+        "proj": null,
+        "adp": 682.6
+      },
+      "7540": {
+        "proj": null,
+        "adp": null
+      },
+      "7539": {
+        "proj": null,
+        "adp": null
+      },
+      "7538": {
+        "proj": null,
+        "adp": 684.2
+      },
+      "7537": {
+        "proj": null,
+        "adp": null
+      },
+      "7535": {
+        "proj": null,
+        "adp": 411.0
+      },
+      "7534": {
+        "proj": null,
+        "adp": null
+      },
+      "7533": {
+        "proj": null,
+        "adp": null
+      },
+      "7532": {
+        "proj": null,
+        "adp": 527.0
+      },
+      "7530": {
+        "proj": null,
+        "adp": 699.5
+      },
+      "7529": {
+        "proj": null,
+        "adp": 616.0
+      },
+      "7522": {
+        "proj": null,
+        "adp": null
+      },
+      "7521": {
+        "proj": null,
+        "adp": null
+      },
+      "7518": {
+        "proj": null,
+        "adp": 603.7
+      },
+      "7515": {
+        "proj": null,
+        "adp": 678.5
+      },
+      "7503": {
+        "proj": null,
+        "adp": null
+      },
+      "7502": {
+        "proj": null,
+        "adp": null
+      },
+      "7499": {
+        "proj": null,
+        "adp": 642.3
+      },
+      "7483": {
+        "proj": null,
+        "adp": null
+      },
+      "7481": {
+        "proj": null,
+        "adp": null
+      },
+      "7475": {
+        "proj": null,
+        "adp": null
+      },
+      "7466": {
+        "proj": null,
+        "adp": null
+      },
+      "7465": {
+        "proj": null,
+        "adp": null
+      },
+      "7464": {
+        "proj": null,
+        "adp": null
+      },
+      "7462": {
+        "proj": null,
+        "adp": null
+      },
+      "7460": {
+        "proj": null,
+        "adp": null
+      },
+      "7458": {
+        "proj": null,
+        "adp": 679.5
+      },
+      "7457": {
+        "proj": null,
+        "adp": null
+      },
+      "7455": {
+        "proj": null,
+        "adp": 662.0
+      },
+      "7454": {
+        "proj": null,
+        "adp": null
+      },
+      "7452": {
+        "proj": null,
+        "adp": 689.0
+      },
+      "745": {
+        "proj": null,
+        "adp": 640.1
+      },
+      "7446": {
+        "proj": null,
+        "adp": null
+      },
+      "7439": {
+        "proj": null,
+        "adp": null
+      },
+      "7438": {
+        "proj": null,
+        "adp": 422.0
+      },
+      "7436": {
+        "proj": null,
+        "adp": null
+      },
+      "7435": {
+        "proj": null,
+        "adp": null
+      },
+      "7427": {
+        "proj": null,
+        "adp": null
+      },
+      "7426": {
+        "proj": null,
+        "adp": null
+      },
+      "7425": {
+        "proj": null,
+        "adp": null
+      },
+      "7424": {
+        "proj": null,
+        "adp": null
+      },
+      "7420": {
+        "proj": null,
+        "adp": 665.8
+      },
+      "7418": {
+        "proj": null,
+        "adp": null
+      },
+      "7414": {
+        "proj": null,
+        "adp": null
+      },
+      "7412": {
+        "proj": null,
+        "adp": 404.8
+      },
+      "7407": {
+        "proj": null,
+        "adp": null
+      },
+      "7404": {
+        "proj": null,
+        "adp": null
+      },
+      "7401": {
+        "proj": null,
+        "adp": 644.0
+      },
+      "7400": {
+        "proj": null,
+        "adp": null
+      },
+      "7397": {
+        "proj": null,
+        "adp": null
+      },
+      "7396": {
+        "proj": null,
+        "adp": null
+      },
+      "7395": {
+        "proj": null,
+        "adp": null
+      },
+      "7394": {
+        "proj": null,
+        "adp": null
+      },
+      "7387": {
+        "proj": null,
+        "adp": 594.3
+      },
+      "7379": {
+        "proj": null,
+        "adp": null
+      },
+      "7378": {
+        "proj": null,
+        "adp": null
+      },
+      "7376": {
+        "proj": null,
+        "adp": null
+      },
+      "7370": {
+        "proj": null,
+        "adp": null
+      },
+      "7368": {
+        "proj": null,
+        "adp": null
+      },
+      "7367": {
+        "proj": null,
+        "adp": null
+      },
+      "7359": {
+        "proj": null,
+        "adp": 592.9
+      },
+      "7358": {
+        "proj": null,
+        "adp": null
+      },
+      "7357": {
+        "proj": null,
+        "adp": null
+      },
+      "7352": {
+        "proj": null,
+        "adp": null
+      },
+      "7351": {
+        "proj": null,
+        "adp": 689.6
+      },
+      "7340": {
+        "proj": null,
+        "adp": null
+      },
+      "7339": {
+        "proj": null,
+        "adp": null
+      },
+      "7337": {
+        "proj": null,
+        "adp": null
+      },
+      "7336": {
+        "proj": null,
+        "adp": null
+      },
+      "7335": {
+        "proj": null,
+        "adp": 671.5
+      },
+      "7334": {
+        "proj": null,
+        "adp": null
+      },
+      "7320": {
+        "proj": null,
+        "adp": null
+      },
+      "7319": {
+        "proj": null,
+        "adp": null
+      },
+      "7318": {
+        "proj": null,
+        "adp": 450.0
+      },
+      "7317": {
+        "proj": null,
+        "adp": null
+      },
+      "7316": {
+        "proj": null,
+        "adp": null
+      },
+      "7315": {
+        "proj": null,
+        "adp": 516.0
+      },
+      "7314": {
+        "proj": null,
+        "adp": null
+      },
+      "7309": {
+        "proj": null,
+        "adp": null
+      },
+      "7308": {
+        "proj": null,
+        "adp": 681.7
+      },
+      "7299": {
+        "proj": null,
+        "adp": null
+      },
+      "7296": {
+        "proj": null,
+        "adp": null
+      },
+      "7288": {
+        "proj": null,
+        "adp": null
+      },
+      "7287": {
+        "proj": null,
+        "adp": null
+      },
+      "7286": {
+        "proj": null,
+        "adp": null
+      },
+      "7279": {
+        "proj": null,
+        "adp": null
+      },
+      "7274": {
+        "proj": null,
+        "adp": null
+      },
+      "7272": {
+        "proj": null,
+        "adp": null
+      },
+      "7264": {
+        "proj": null,
+        "adp": null
+      },
+      "7262": {
+        "proj": null,
+        "adp": null
+      },
+      "7258": {
+        "proj": null,
+        "adp": null
+      },
+      "7245": {
+        "proj": null,
+        "adp": null
+      },
+      "7244": {
+        "proj": null,
+        "adp": null
+      },
+      "7243": {
+        "proj": null,
+        "adp": null
+      },
+      "7237": {
+        "proj": null,
+        "adp": null
+      },
+      "7236": {
+        "proj": null,
+        "adp": null
+      },
+      "7235": {
+        "proj": null,
+        "adp": null
+      },
+      "7234": {
+        "proj": null,
+        "adp": 692.5
+      },
+      "7233": {
+        "proj": null,
+        "adp": null
+      },
+      "7228": {
+        "proj": null,
+        "adp": null
+      },
+      "7227": {
+        "proj": null,
+        "adp": null
+      },
+      "7218": {
+        "proj": null,
+        "adp": 513.5
+      },
+      "7217": {
+        "proj": null,
+        "adp": null
+      },
+      "7216": {
+        "proj": null,
+        "adp": null
+      },
+      "7212": {
+        "proj": null,
+        "adp": 460.0
+      },
+      "7211": {
+        "proj": null,
+        "adp": 680.3
+      },
+      "7210": {
+        "proj": null,
+        "adp": null
+      },
+      "7204": {
+        "proj": null,
+        "adp": 625.0
+      },
+      "7201": {
+        "proj": null,
+        "adp": 407.6
+      },
+      "7191": {
+        "proj": null,
+        "adp": null
+      },
+      "7190": {
+        "proj": null,
+        "adp": null
+      },
+      "7176": {
+        "proj": null,
+        "adp": null
+      },
+      "7175": {
+        "proj": null,
+        "adp": null
+      },
+      "7174": {
+        "proj": null,
+        "adp": null
+      },
+      "7173": {
+        "proj": null,
+        "adp": null
+      },
+      "7172": {
+        "proj": null,
+        "adp": null
+      },
+      "7162": {
+        "proj": null,
+        "adp": null
+      },
+      "7161": {
+        "proj": null,
+        "adp": null
+      },
+      "7159": {
+        "proj": null,
+        "adp": null
+      },
+      "7158": {
+        "proj": null,
+        "adp": null
+      },
+      "7157": {
+        "proj": null,
+        "adp": 407.1
+      },
+      "7156": {
+        "proj": null,
+        "adp": 285.0
+      },
+      "7152": {
+        "proj": null,
+        "adp": 653.3
+      },
+      "7149": {
+        "proj": null,
+        "adp": null
+      },
+      "7143": {
+        "proj": null,
+        "adp": 497.0
+      },
+      "7135": {
+        "proj": null,
+        "adp": null
+      },
+      "7131": {
+        "proj": null,
+        "adp": null
+      },
+      "7121": {
+        "proj": null,
+        "adp": 646.5
+      },
+      "7109": {
+        "proj": null,
+        "adp": null
+      },
+      "7107": {
+        "proj": null,
+        "adp": null
+      },
+      "7106": {
+        "proj": null,
+        "adp": null
+      },
+      "7105": {
+        "proj": null,
+        "adp": null
+      },
+      "7103": {
+        "proj": null,
+        "adp": null
+      },
+      "7101": {
+        "proj": null,
+        "adp": null
+      },
+      "7100": {
+        "proj": null,
+        "adp": null
+      },
+      "7098": {
+        "proj": null,
+        "adp": null
+      },
+      "7095": {
+        "proj": null,
+        "adp": 641.0
+      },
+      "7094": {
+        "proj": null,
+        "adp": 670.3
+      },
+      "7093": {
+        "proj": null,
+        "adp": null
+      },
+      "7092": {
+        "proj": null,
+        "adp": null
+      },
+      "7091": {
+        "proj": null,
+        "adp": null
+      },
+      "7088": {
+        "proj": null,
+        "adp": null
+      },
+      "7087": {
+        "proj": null,
+        "adp": 367.5
+      },
+      "7086": {
+        "proj": null,
+        "adp": null
+      },
+      "7085": {
+        "proj": null,
+        "adp": null
+      },
+      "7084": {
+        "proj": null,
+        "adp": null
+      },
+      "7082": {
+        "proj": null,
+        "adp": null
+      },
+      "7081": {
+        "proj": null,
+        "adp": null
+      },
+      "7080": {
+        "proj": null,
+        "adp": 402.0
+      },
+      "7079": {
+        "proj": null,
+        "adp": 470.3
+      },
+      "7078": {
+        "proj": null,
+        "adp": null
+      },
+      "7076": {
+        "proj": null,
+        "adp": null
+      },
+      "7071": {
+        "proj": null,
+        "adp": null
+      },
+      "7066": {
+        "proj": null,
+        "adp": null
+      },
+      "7065": {
+        "proj": null,
+        "adp": 518.2
+      },
+      "7064": {
+        "proj": null,
+        "adp": null
+      },
+      "7063": {
+        "proj": null,
+        "adp": 674.0
+      },
+      "7062": {
+        "proj": null,
+        "adp": 586.8
+      },
+      "7056": {
+        "proj": null,
+        "adp": null
+      },
+      "7055": {
+        "proj": null,
+        "adp": null
+      },
+      "7050": {
+        "proj": null,
+        "adp": null
+      },
+      "7048": {
+        "proj": null,
+        "adp": null
+      },
+      "7045": {
+        "proj": null,
+        "adp": null
+      },
+      "7038": {
+        "proj": null,
+        "adp": null
+      },
+      "7035": {
+        "proj": null,
+        "adp": null
+      },
+      "7032": {
+        "proj": null,
+        "adp": 673.0
+      },
+      "7015": {
+        "proj": null,
+        "adp": null
+      },
+      "7013": {
+        "proj": null,
+        "adp": null
+      },
+      "7009": {
+        "proj": null,
+        "adp": null
+      },
+      "7008": {
+        "proj": null,
+        "adp": null
+      },
+      "7005": {
+        "proj": null,
+        "adp": null
+      },
+      "7001": {
+        "proj": null,
+        "adp": null
+      },
+      "6996": {
+        "proj": null,
+        "adp": 685.0
+      },
+      "6993": {
+        "proj": null,
+        "adp": null
+      },
+      "6992": {
+        "proj": null,
+        "adp": null
+      },
+      "6989": {
+        "proj": null,
+        "adp": null
+      },
+      "6988": {
+        "proj": null,
+        "adp": null
+      },
+      "6985": {
+        "proj": null,
+        "adp": null
+      },
+      "6984": {
+        "proj": null,
+        "adp": null
+      },
+      "6982": {
+        "proj": null,
+        "adp": null
+      },
+      "6973": {
+        "proj": null,
+        "adp": 418.9
+      },
+      "6970": {
+        "proj": null,
+        "adp": null
+      },
+      "6967": {
+        "proj": null,
+        "adp": null
+      },
+      "6966": {
+        "proj": null,
+        "adp": null
+      },
+      "6964": {
+        "proj": null,
+        "adp": null
+      },
+      "6963": {
+        "proj": null,
+        "adp": null
+      },
+      "6959": {
+        "proj": null,
+        "adp": null
+      },
+      "6956": {
+        "proj": null,
+        "adp": null
+      },
+      "6955": {
+        "proj": null,
+        "adp": null
+      },
+      "6954": {
+        "proj": null,
+        "adp": null
+      },
+      "6951": {
+        "proj": null,
+        "adp": null
+      },
+      "695": {
+        "proj": null,
+        "adp": 271.0
+      },
+      "6943": {
+        "proj": null,
+        "adp": null
+      },
+      "6939": {
+        "proj": null,
+        "adp": null
+      },
+      "6932": {
+        "proj": null,
+        "adp": 663.4
+      },
+      "6931": {
+        "proj": null,
+        "adp": null
+      },
+      "6927": {
+        "proj": null,
+        "adp": null
+      },
+      "6926": {
+        "proj": null,
+        "adp": null
+      },
+      "6919": {
+        "proj": null,
+        "adp": 389.8
+      },
+      "6918": {
+        "proj": null,
+        "adp": 527.5
+      },
+      "6913": {
+        "proj": null,
+        "adp": 669.6
+      },
+      "6909": {
+        "proj": null,
+        "adp": null
+      },
+      "6908": {
+        "proj": null,
+        "adp": null
+      },
+      "6906": {
+        "proj": null,
+        "adp": null
+      },
+      "6898": {
+        "proj": null,
+        "adp": null
+      },
+      "6895": {
+        "proj": null,
+        "adp": null
+      },
+      "6894": {
+        "proj": null,
+        "adp": null
+      },
+      "6892": {
+        "proj": null,
+        "adp": null
+      },
+      "6886": {
+        "proj": null,
+        "adp": 687.7
+      },
+      "6885": {
+        "proj": null,
+        "adp": null
+      },
+      "6879": {
+        "proj": null,
+        "adp": null
+      },
+      "6878": {
+        "proj": null,
+        "adp": null
+      },
+      "6873": {
+        "proj": null,
+        "adp": null
+      },
+      "6870": {
+        "proj": null,
+        "adp": 311.0
+      },
+      "6866": {
+        "proj": null,
+        "adp": null
+      },
+      "6857": {
+        "proj": null,
+        "adp": null
+      },
+      "6849": {
+        "proj": null,
+        "adp": null
+      },
+      "6846": {
+        "proj": null,
+        "adp": null
+      },
+      "6845": {
+        "proj": null,
+        "adp": 659.4
+      },
+      "6843": {
+        "proj": null,
+        "adp": 403.5
+      },
+      "6834": {
+        "proj": null,
+        "adp": 677.2
+      },
+      "6832": {
+        "proj": null,
+        "adp": 247.0
+      },
+      "6828": {
+        "proj": null,
+        "adp": 688.3
+      },
+      "6824": {
+        "proj": null,
+        "adp": null
+      },
+      "6823": {
+        "proj": null,
+        "adp": null
+      },
+      "6822": {
+        "proj": null,
+        "adp": null
+      },
+      "6814": {
+        "proj": null,
+        "adp": null
+      },
+      "6805": {
+        "proj": null,
+        "adp": null
+      },
+      "6798": {
+        "proj": null,
+        "adp": null
+      },
+      "6789": {
+        "proj": null,
+        "adp": 698.3
+      },
+      "6778": {
+        "proj": null,
+        "adp": 608.5
+      },
+      "6763": {
+        "proj": null,
+        "adp": null
+      },
+      "6762": {
+        "proj": null,
+        "adp": null
+      },
+      "676": {
+        "proj": null,
+        "adp": 621.2
+      },
+      "6755": {
+        "proj": null,
+        "adp": null
+      },
+      "6753": {
+        "proj": null,
+        "adp": null
+      },
+      "6744": {
+        "proj": null,
+        "adp": 515.2
+      },
+      "6742": {
+        "proj": null,
+        "adp": null
+      },
+      "6737": {
+        "proj": null,
+        "adp": null
+      },
+      "6730": {
+        "proj": null,
+        "adp": null
+      },
+      "6728": {
+        "proj": null,
+        "adp": null
+      },
+      "6727": {
+        "proj": null,
+        "adp": null
+      },
+      "6723": {
+        "proj": null,
+        "adp": 428.0
+      },
+      "6713": {
+        "proj": null,
+        "adp": null
+      },
+      "6712": {
+        "proj": null,
+        "adp": null
+      },
+      "6710": {
+        "proj": null,
+        "adp": null
+      },
+      "6705": {
+        "proj": null,
+        "adp": null
+      },
+      "6701": {
+        "proj": null,
+        "adp": null
+      },
+      "6700": {
+        "proj": null,
+        "adp": null
+      },
+      "6699": {
+        "proj": null,
+        "adp": 657.7
+      },
+      "6697": {
+        "proj": null,
+        "adp": null
+      },
+      "6694": {
+        "proj": null,
+        "adp": null
+      },
+      "6692": {
+        "proj": null,
+        "adp": null
+      },
+      "6686": {
+        "proj": null,
+        "adp": null
+      },
+      "6685": {
+        "proj": null,
+        "adp": null
+      },
+      "6665": {
+        "proj": null,
+        "adp": null
+      },
+      "6664": {
+        "proj": null,
+        "adp": 693.9
+      },
+      "6663": {
+        "proj": null,
+        "adp": null
+      },
+      "6662": {
+        "proj": null,
+        "adp": null
+      },
+      "6661": {
+        "proj": null,
+        "adp": null
+      },
+      "6637": {
+        "proj": null,
+        "adp": null
+      },
+      "663": {
+        "proj": null,
+        "adp": null
+      },
+      "6629": {
+        "proj": null,
+        "adp": null
+      },
+      "6628": {
+        "proj": null,
+        "adp": null
+      },
+      "6626": {
+        "proj": null,
+        "adp": null
+      },
+      "6625": {
+        "proj": null,
+        "adp": null
+      },
+      "6621": {
+        "proj": null,
+        "adp": null
+      },
+      "6618": {
+        "proj": null,
+        "adp": null
+      },
+      "6617": {
+        "proj": null,
+        "adp": null
+      },
+      "6606": {
+        "proj": null,
+        "adp": null
+      },
+      "6605": {
+        "proj": null,
+        "adp": null
+      },
+      "6598": {
+        "proj": null,
+        "adp": 349.0
+      },
+      "6596": {
+        "proj": null,
+        "adp": 561.0
+      },
+      "6595": {
+        "proj": null,
+        "adp": 591.5
+      },
+      "6593": {
+        "proj": null,
+        "adp": null
+      },
+      "6592": {
+        "proj": null,
+        "adp": null
+      },
+      "6591": {
+        "proj": null,
+        "adp": null
+      },
+      "6590": {
+        "proj": null,
+        "adp": null
+      },
+      "6588": {
+        "proj": null,
+        "adp": 462.0
+      },
+      "6586": {
+        "proj": null,
+        "adp": null
+      },
+      "6585": {
+        "proj": null,
+        "adp": null
+      },
+      "658": {
+        "proj": null,
+        "adp": null
+      },
+      "6557": {
+        "proj": null,
+        "adp": null
+      },
+      "6554": {
+        "proj": null,
+        "adp": 582.0
+      },
+      "6553": {
+        "proj": null,
+        "adp": null
+      },
+      "6552": {
+        "proj": null,
+        "adp": null
+      },
+      "6549": {
+        "proj": null,
+        "adp": null
+      },
+      "6548": {
+        "proj": null,
+        "adp": null
+      },
+      "6540": {
+        "proj": null,
+        "adp": 666.0
+      },
+      "6539": {
+        "proj": null,
+        "adp": null
+      },
+      "6535": {
+        "proj": null,
+        "adp": null
+      },
+      "6529": {
+        "proj": null,
+        "adp": null
+      },
+      "6524": {
+        "proj": null,
+        "adp": null
+      },
+      "6522": {
+        "proj": null,
+        "adp": null
+      },
+      "6519": {
+        "proj": null,
+        "adp": null
+      },
+      "6506": {
+        "proj": null,
+        "adp": null
+      },
+      "6501": {
+        "proj": null,
+        "adp": null
+      },
+      "6496": {
+        "proj": null,
+        "adp": null
+      },
+      "6493": {
+        "proj": null,
+        "adp": null
+      },
+      "6492": {
+        "proj": null,
+        "adp": null
+      },
+      "6491": {
+        "proj": null,
+        "adp": null
+      },
+      "6490": {
+        "proj": null,
+        "adp": null
+      },
+      "6489": {
+        "proj": null,
+        "adp": null
+      },
+      "6487": {
+        "proj": null,
+        "adp": null
+      },
+      "6469": {
+        "proj": null,
+        "adp": null
+      },
+      "6468": {
+        "proj": null,
+        "adp": null
+      },
+      "6465": {
+        "proj": null,
+        "adp": null
+      },
+      "6462": {
+        "proj": null,
+        "adp": null
+      },
+      "6460": {
+        "proj": null,
+        "adp": null
+      },
+      "6459": {
+        "proj": null,
+        "adp": null
+      },
+      "6453": {
+        "proj": null,
+        "adp": 696.6
+      },
+      "6451": {
+        "proj": null,
+        "adp": null
+      },
+      "6450": {
+        "proj": null,
+        "adp": 674.0
+      },
+      "6449": {
+        "proj": null,
+        "adp": null
+      },
+      "6448": {
+        "proj": null,
+        "adp": 420.5
+      },
+      "6446": {
+        "proj": null,
+        "adp": null
+      },
+      "6443": {
+        "proj": null,
+        "adp": null
+      },
+      "6439": {
+        "proj": null,
+        "adp": null
+      },
+      "6438": {
+        "proj": null,
+        "adp": null
+      },
+      "6435": {
+        "proj": null,
+        "adp": 469.0
+      },
+      "6421": {
+        "proj": null,
+        "adp": null
+      },
+      "6420": {
+        "proj": null,
+        "adp": null
+      },
+      "642": {
+        "proj": null,
+        "adp": null
+      },
+      "6402": {
+        "proj": null,
+        "adp": null
+      },
+      "6401": {
+        "proj": null,
+        "adp": null
+      },
+      "6399": {
+        "proj": null,
+        "adp": null
+      },
+      "6396": {
+        "proj": null,
+        "adp": null
+      },
+      "6395": {
+        "proj": null,
+        "adp": null
+      },
+      "6394": {
+        "proj": null,
+        "adp": null
+      },
+      "6392": {
+        "proj": null,
+        "adp": 525.0
+      },
+      "6389": {
+        "proj": null,
+        "adp": null
+      },
+      "6388": {
+        "proj": null,
+        "adp": null
+      },
+      "6387": {
+        "proj": null,
+        "adp": null
+      },
+      "6386": {
+        "proj": null,
+        "adp": null
+      },
+      "6385": {
+        "proj": null,
+        "adp": null
+      },
+      "6384": {
+        "proj": null,
+        "adp": null
+      },
+      "6381": {
+        "proj": null,
+        "adp": null
+      },
+      "6380": {
+        "proj": null,
+        "adp": null
+      },
+      "6379": {
+        "proj": null,
+        "adp": null
+      },
+      "6375": {
+        "proj": null,
+        "adp": null
+      },
+      "6374": {
+        "proj": null,
+        "adp": null
+      },
+      "6373": {
+        "proj": null,
+        "adp": 692.6
+      },
+      "6372": {
+        "proj": null,
+        "adp": null
+      },
+      "6371": {
+        "proj": null,
+        "adp": null
+      },
+      "6370": {
+        "proj": null,
+        "adp": null
+      },
+      "6365": {
+        "proj": null,
+        "adp": null
+      },
+      "6364": {
+        "proj": null,
+        "adp": null
+      },
+      "6363": {
+        "proj": null,
+        "adp": null
+      },
+      "6362": {
+        "proj": null,
+        "adp": 471.5
+      },
+      "6361": {
+        "proj": null,
+        "adp": null
+      },
+      "6359": {
+        "proj": null,
+        "adp": null
+      },
+      "6358": {
+        "proj": null,
+        "adp": null
+      },
+      "6357": {
+        "proj": null,
+        "adp": null
+      },
+      "6352": {
+        "proj": null,
+        "adp": null
+      },
+      "6343": {
+        "proj": null,
+        "adp": null
+      },
+      "6342": {
+        "proj": null,
+        "adp": null
+      },
+      "6334": {
+        "proj": null,
+        "adp": null
+      },
+      "6323": {
+        "proj": null,
+        "adp": 664.3
+      },
+      "6322": {
+        "proj": null,
+        "adp": null
+      },
+      "6320": {
+        "proj": null,
+        "adp": null
+      },
+      "6318": {
+        "proj": null,
+        "adp": null
+      },
+      "6317": {
+        "proj": null,
+        "adp": 643.5
+      },
+      "6311": {
+        "proj": null,
+        "adp": null
+      },
+      "6308": {
+        "proj": null,
+        "adp": null
+      },
+      "6298": {
+        "proj": null,
+        "adp": 553.5
+      },
+      "6293": {
+        "proj": null,
+        "adp": null
+      },
+      "6290": {
+        "proj": null,
+        "adp": 549.4
+      },
+      "6288": {
+        "proj": null,
+        "adp": null
+      },
+      "6279": {
+        "proj": null,
+        "adp": null
+      },
+      "627": {
+        "proj": null,
+        "adp": null
+      },
+      "6269": {
+        "proj": null,
+        "adp": null
+      },
+      "6268": {
+        "proj": null,
+        "adp": 508.0
+      },
+      "6263": {
+        "proj": null,
+        "adp": null
+      },
+      "6261": {
+        "proj": null,
+        "adp": null
+      },
+      "6260": {
+        "proj": null,
+        "adp": null
+      },
+      "6259": {
+        "proj": null,
+        "adp": null
+      },
+      "6248": {
+        "proj": null,
+        "adp": null
+      },
+      "6247": {
+        "proj": null,
+        "adp": null
+      },
+      "6246": {
+        "proj": null,
+        "adp": 427.8
+      },
+      "6239": {
+        "proj": null,
+        "adp": null
+      },
+      "6238": {
+        "proj": null,
+        "adp": null
+      },
+      "6237": {
+        "proj": null,
+        "adp": null
+      },
+      "6236": {
+        "proj": null,
+        "adp": 580.1
+      },
+      "6234": {
+        "proj": null,
+        "adp": null
+      },
+      "6233": {
+        "proj": null,
+        "adp": null
+      },
+      "6231": {
+        "proj": null,
+        "adp": 414.0
+      },
+      "6227": {
+        "proj": null,
+        "adp": null
+      },
+      "6223": {
+        "proj": null,
+        "adp": null
+      },
+      "6219": {
+        "proj": null,
+        "adp": null
+      },
+      "6209": {
+        "proj": null,
+        "adp": null
+      },
+      "6208": {
+        "proj": null,
+        "adp": null
+      },
+      "6205": {
+        "proj": null,
+        "adp": null
+      },
+      "6203": {
+        "proj": null,
+        "adp": 685.8
+      },
+      "6202": {
+        "proj": null,
+        "adp": null
+      },
+      "6196": {
+        "proj": null,
+        "adp": null
+      },
+      "6195": {
+        "proj": null,
+        "adp": 664.2
+      },
+      "6193": {
+        "proj": null,
+        "adp": null
+      },
+      "6192": {
+        "proj": null,
+        "adp": 657.5
+      },
+      "6188": {
+        "proj": null,
+        "adp": null
+      },
+      "6187": {
+        "proj": null,
+        "adp": 458.2
+      },
+      "6185": {
+        "proj": null,
+        "adp": 671.5
+      },
+      "6181": {
+        "proj": null,
+        "adp": null
+      },
+      "6178": {
+        "proj": null,
+        "adp": null
+      },
+      "6175": {
+        "proj": null,
+        "adp": null
+      },
+      "6171": {
+        "proj": null,
+        "adp": null
+      },
+      "6168": {
+        "proj": null,
+        "adp": null
+      },
+      "6167": {
+        "proj": null,
+        "adp": null
+      },
+      "6165": {
+        "proj": null,
+        "adp": null
+      },
+      "6164": {
+        "proj": null,
+        "adp": null
+      },
+      "6163": {
+        "proj": null,
+        "adp": null
+      },
+      "6161": {
+        "proj": null,
+        "adp": null
+      },
+      "616": {
+        "proj": null,
+        "adp": 627.7
+      },
+      "6159": {
+        "proj": null,
+        "adp": null
+      },
+      "6156": {
+        "proj": null,
+        "adp": null
+      },
+      "6155": {
+        "proj": null,
+        "adp": null
+      },
+      "6153": {
+        "proj": null,
+        "adp": 265.5
+      },
+      "6151": {
+        "proj": null,
+        "adp": null
+      },
+      "6148": {
+        "proj": null,
+        "adp": null
+      },
+      "6147": {
+        "proj": null,
+        "adp": 320.0
+      },
+      "6146": {
+        "proj": null,
+        "adp": null
+      },
+      "6144": {
+        "proj": null,
+        "adp": 663.4
+      },
+      "6142": {
+        "proj": null,
+        "adp": 485.7
+      },
+      "6139": {
+        "proj": null,
+        "adp": null
+      },
+      "6137": {
+        "proj": null,
+        "adp": 699.0
+      },
+      "6126": {
+        "proj": null,
+        "adp": null
+      },
+      "6115": {
+        "proj": null,
+        "adp": null
+      },
+      "6111": {
+        "proj": null,
+        "adp": null
+      },
+      "6109": {
+        "proj": null,
+        "adp": 686.0
+      },
+      "6108": {
+        "proj": null,
+        "adp": null
+      },
+      "6107": {
+        "proj": null,
+        "adp": null
+      },
+      "6097": {
+        "proj": null,
+        "adp": null
+      },
+      "6089": {
+        "proj": null,
+        "adp": 306.0
+      },
+      "6088": {
+        "proj": null,
+        "adp": null
+      },
+      "6081": {
+        "proj": null,
+        "adp": null
+      },
+      "6075": {
+        "proj": null,
+        "adp": null
+      },
+      "6074": {
+        "proj": null,
+        "adp": null
+      },
+      "6072": {
+        "proj": null,
+        "adp": null
+      },
+      "6069": {
+        "proj": null,
+        "adp": null
+      },
+      "6068": {
+        "proj": null,
+        "adp": null
+      },
+      "6063": {
+        "proj": null,
+        "adp": null
+      },
+      "606": {
+        "proj": null,
+        "adp": 681.0
+      },
+      "6059": {
+        "proj": null,
+        "adp": null
+      },
+      "6049": {
+        "proj": null,
+        "adp": null
+      },
+      "6047": {
+        "proj": null,
+        "adp": 562.0
+      },
+      "6045": {
+        "proj": null,
+        "adp": null
+      },
+      "6040": {
+        "proj": null,
+        "adp": null
+      },
+      "6037": {
+        "proj": null,
+        "adp": null
+      },
+      "6036": {
+        "proj": null,
+        "adp": null
+      },
+      "6032": {
+        "proj": null,
+        "adp": null
+      },
+      "6031": {
+        "proj": null,
+        "adp": null
+      },
+      "6021": {
+        "proj": null,
+        "adp": null
+      },
+      "6019": {
+        "proj": null,
+        "adp": null
+      },
+      "6018": {
+        "proj": null,
+        "adp": null
+      },
+      "6017": {
+        "proj": null,
+        "adp": null
+      },
+      "6016": {
+        "proj": null,
+        "adp": null
+      },
+      "6012": {
+        "proj": null,
+        "adp": null
+      },
+      "6007": {
+        "proj": null,
+        "adp": null
+      },
+      "6002": {
+        "proj": null,
+        "adp": 541.8
+      },
+      "5997": {
+        "proj": null,
+        "adp": null
+      },
+      "5987": {
+        "proj": null,
+        "adp": null
+      },
+      "5984": {
+        "proj": null,
+        "adp": 298.0
+      },
+      "5980": {
+        "proj": null,
+        "adp": null
+      },
+      "5977": {
+        "proj": null,
+        "adp": 364.0
+      },
+      "5976": {
+        "proj": null,
+        "adp": null
+      },
+      "5975": {
+        "proj": null,
+        "adp": null
+      },
+      "5974": {
+        "proj": null,
+        "adp": 692.0
+      },
+      "5965": {
+        "proj": null,
+        "adp": null
+      },
+      "5962": {
+        "proj": null,
+        "adp": null
+      },
+      "5961": {
+        "proj": null,
+        "adp": null
+      },
+      "5957": {
+        "proj": null,
+        "adp": null
+      },
+      "5955": {
+        "proj": null,
+        "adp": 662.8
+      },
+      "5950": {
+        "proj": null,
+        "adp": null
+      },
+      "5941": {
+        "proj": null,
+        "adp": null
+      },
+      "5937": {
+        "proj": null,
+        "adp": 624.6
+      },
+      "5929": {
+        "proj": null,
+        "adp": null
+      },
+      "5924": {
+        "proj": null,
+        "adp": null
+      },
+      "5919": {
+        "proj": null,
+        "adp": 465.9
+      },
+      "5918": {
+        "proj": null,
+        "adp": null
+      },
+      "5917": {
+        "proj": null,
+        "adp": 623.0
+      },
+      "5916": {
+        "proj": null,
+        "adp": null
+      },
+      "5915": {
+        "proj": null,
+        "adp": null
+      },
+      "5911": {
+        "proj": null,
+        "adp": null
+      },
+      "5903": {
+        "proj": null,
+        "adp": 288.0
+      },
+      "5902": {
+        "proj": null,
+        "adp": null
+      },
+      "59": {
+        "proj": null,
+        "adp": 646.8
+      },
+      "5890": {
+        "proj": null,
+        "adp": null
+      },
+      "5889": {
+        "proj": null,
+        "adp": 476.0
+      },
+      "5886": {
+        "proj": null,
+        "adp": 571.0
+      },
+      "5885": {
+        "proj": null,
+        "adp": 395.0
+      },
+      "5884": {
+        "proj": null,
+        "adp": null
+      },
+      "5880": {
+        "proj": null,
+        "adp": null
+      },
+      "5878": {
+        "proj": null,
+        "adp": 318.0
+      },
+      "5873": {
+        "proj": null,
+        "adp": null
+      },
+      "587": {
+        "proj": null,
+        "adp": null
+      },
+      "5863": {
+        "proj": null,
+        "adp": null
+      },
+      "5854": {
+        "proj": null,
+        "adp": 691.4
+      },
+      "5838": {
+        "proj": null,
+        "adp": 700.0
+      },
+      "5837": {
+        "proj": null,
+        "adp": null
+      },
+      "5831": {
+        "proj": null,
+        "adp": null
+      },
+      "5828": {
+        "proj": null,
+        "adp": null
+      },
+      "5823": {
+        "proj": null,
+        "adp": 520.0
+      },
+      "5809": {
+        "proj": null,
+        "adp": null
+      },
+      "5808": {
+        "proj": null,
+        "adp": null
+      },
+      "5806": {
+        "proj": null,
+        "adp": null
+      },
+      "5804": {
+        "proj": null,
+        "adp": null
+      },
+      "5801": {
+        "proj": null,
+        "adp": null
+      },
+      "5800": {
+        "proj": null,
+        "adp": null
+      },
+      "5799": {
+        "proj": null,
+        "adp": null
+      },
+      "5798": {
+        "proj": null,
+        "adp": null
+      },
+      "5796": {
+        "proj": null,
+        "adp": null
+      },
+      "5791": {
+        "proj": null,
+        "adp": null
+      },
+      "5787": {
+        "proj": null,
+        "adp": null
+      },
+      "5786": {
+        "proj": null,
+        "adp": null
+      },
+      "5785": {
+        "proj": null,
+        "adp": null
+      },
+      "5781": {
+        "proj": null,
+        "adp": null
+      },
+      "5777": {
+        "proj": null,
+        "adp": null
+      },
+      "5776": {
+        "proj": null,
+        "adp": null
+      },
+      "5775": {
+        "proj": null,
+        "adp": null
+      },
+      "5774": {
+        "proj": null,
+        "adp": null
+      },
+      "5773": {
+        "proj": null,
+        "adp": null
+      },
+      "5772": {
+        "proj": null,
+        "adp": null
+      },
+      "5762": {
+        "proj": null,
+        "adp": null
+      },
+      "5760": {
+        "proj": null,
+        "adp": null
+      },
+      "5756": {
+        "proj": null,
+        "adp": 650.9
+      },
+      "5754": {
+        "proj": null,
+        "adp": 650.5
+      },
+      "5752": {
+        "proj": null,
+        "adp": 698.3
+      },
+      "5751": {
+        "proj": null,
+        "adp": null
+      },
+      "5750": {
+        "proj": null,
+        "adp": null
+      },
+      "5747": {
+        "proj": null,
+        "adp": null
+      },
+      "5745": {
+        "proj": null,
+        "adp": null
+      },
+      "5744": {
+        "proj": null,
+        "adp": null
+      },
+      "574": {
+        "proj": null,
+        "adp": 667.3
+      },
+      "5734": {
+        "proj": null,
+        "adp": null
+      },
+      "5733": {
+        "proj": null,
+        "adp": null
+      },
+      "5722": {
+        "proj": null,
+        "adp": null
+      },
+      "5718": {
+        "proj": null,
+        "adp": null
+      },
+      "5714": {
+        "proj": null,
+        "adp": null
+      },
+      "5710": {
+        "proj": null,
+        "adp": null
+      },
+      "5709": {
+        "proj": null,
+        "adp": null
+      },
+      "5705": {
+        "proj": null,
+        "adp": null
+      },
+      "5703": {
+        "proj": null,
+        "adp": null
+      },
+      "5700": {
+        "proj": null,
+        "adp": null
+      },
+      "5699": {
+        "proj": null,
+        "adp": null
+      },
+      "5697": {
+        "proj": null,
+        "adp": null
+      },
+      "5695": {
+        "proj": null,
+        "adp": null
+      },
+      "5692": {
+        "proj": null,
+        "adp": null
+      },
+      "5663": {
+        "proj": null,
+        "adp": null
+      },
+      "5661": {
+        "proj": null,
+        "adp": null
+      },
+      "5638": {
+        "proj": null,
+        "adp": null
+      },
+      "5637": {
+        "proj": null,
+        "adp": null
+      },
+      "5619": {
+        "proj": null,
+        "adp": null
+      },
+      "5618": {
+        "proj": null,
+        "adp": null
+      },
+      "5612": {
+        "proj": null,
+        "adp": null
+      },
+      "5609": {
+        "proj": null,
+        "adp": null
+      },
+      "5608": {
+        "proj": null,
+        "adp": null
+      },
+      "5597": {
+        "proj": null,
+        "adp": null
+      },
+      "5590": {
+        "proj": null,
+        "adp": 645.1
+      },
+      "559": {
+        "proj": null,
+        "adp": 626.7
+      },
+      "5587": {
+        "proj": null,
+        "adp": null
+      },
+      "5586": {
+        "proj": null,
+        "adp": 575.5
+      },
+      "5570": {
+        "proj": null,
+        "adp": null
+      },
+      "5569": {
+        "proj": null,
+        "adp": null
+      },
+      "5566": {
+        "proj": null,
+        "adp": null
+      },
+      "5565": {
+        "proj": null,
+        "adp": null
+      },
+      "5560": {
+        "proj": null,
+        "adp": null
+      },
+      "5558": {
+        "proj": null,
+        "adp": null
+      },
+      "5550": {
+        "proj": null,
+        "adp": null
+      },
+      "5549": {
+        "proj": null,
+        "adp": null
+      },
+      "5548": {
+        "proj": null,
+        "adp": null
+      },
+      "5547": {
+        "proj": null,
+        "adp": null
+      },
+      "5539": {
+        "proj": null,
+        "adp": null
+      },
+      "5536": {
+        "proj": null,
+        "adp": null
+      },
+      "5530": {
+        "proj": null,
+        "adp": null
+      },
+      "5468": {
+        "proj": null,
+        "adp": 517.3
+      },
+      "5465": {
+        "proj": null,
+        "adp": null
+      },
+      "5464": {
+        "proj": null,
+        "adp": null
+      },
+      "5463": {
+        "proj": null,
+        "adp": null
+      },
+      "5462": {
+        "proj": null,
+        "adp": 658.8
+      },
+      "5460": {
+        "proj": null,
+        "adp": null
+      },
+      "5432": {
+        "proj": null,
+        "adp": null
+      },
+      "5431": {
+        "proj": null,
+        "adp": null
+      },
+      "5428": {
+        "proj": null,
+        "adp": null
+      },
+      "5427": {
+        "proj": null,
+        "adp": null
+      },
+      "5425": {
+        "proj": null,
+        "adp": null
+      },
+      "5408": {
+        "proj": null,
+        "adp": null
+      },
+      "5407": {
+        "proj": null,
+        "adp": null
+      },
+      "5403": {
+        "proj": null,
+        "adp": null
+      },
+      "5401": {
+        "proj": null,
+        "adp": null
+      },
+      "5398": {
+        "proj": null,
+        "adp": null
+      },
+      "5397": {
+        "proj": null,
+        "adp": null
+      },
+      "5395": {
+        "proj": null,
+        "adp": null
+      },
+      "5392": {
+        "proj": null,
+        "adp": null
+      },
+      "5386": {
+        "proj": null,
+        "adp": null
+      },
+      "5385": {
+        "proj": null,
+        "adp": null
+      },
+      "5384": {
+        "proj": null,
+        "adp": null
+      },
+      "538": {
+        "proj": null,
+        "adp": 526.0
+      },
+      "5374": {
+        "proj": null,
+        "adp": 310.0
+      },
+      "536": {
+        "proj": null,
+        "adp": 631.7
+      },
+      "5359": {
+        "proj": null,
+        "adp": null
+      },
+      "5358": {
+        "proj": null,
+        "adp": null
+      },
+      "5355": {
+        "proj": null,
+        "adp": null
+      },
+      "5347": {
+        "proj": null,
+        "adp": 630.0
+      },
+      "533": {
+        "proj": null,
+        "adp": 668.0
+      },
+      "5323": {
+        "proj": null,
+        "adp": 346.8
+      },
+      "5322": {
+        "proj": null,
+        "adp": null
+      },
+      "5310": {
+        "proj": null,
+        "adp": 326.0
+      },
+      "5296": {
+        "proj": null,
+        "adp": null
+      },
+      "5295": {
+        "proj": null,
+        "adp": 531.0
+      },
+      "5294": {
+        "proj": null,
+        "adp": null
+      },
+      "5293": {
+        "proj": null,
+        "adp": null
+      },
+      "5292": {
+        "proj": null,
+        "adp": null
+      },
+      "5290": {
+        "proj": null,
+        "adp": null
+      },
+      "5289": {
+        "proj": null,
+        "adp": null
+      },
+      "5286": {
+        "proj": null,
+        "adp": null
+      },
+      "5285": {
+        "proj": null,
+        "adp": null
+      },
+      "5284": {
+        "proj": null,
+        "adp": null
+      },
+      "5283": {
+        "proj": null,
+        "adp": 348.0
+      },
+      "5278": {
+        "proj": null,
+        "adp": null
+      },
+      "5277": {
+        "proj": null,
+        "adp": null
+      },
+      "5276": {
+        "proj": null,
+        "adp": null
+      },
+      "5275": {
+        "proj": null,
+        "adp": null
+      },
+      "5273": {
+        "proj": null,
+        "adp": null
+      },
+      "5272": {
+        "proj": null,
+        "adp": null
+      },
+      "5271": {
+        "proj": null,
+        "adp": null
+      },
+      "5269": {
+        "proj": null,
+        "adp": null
+      },
+      "5268": {
+        "proj": null,
+        "adp": null
+      },
+      "5265": {
+        "proj": null,
+        "adp": null
+      },
+      "5264": {
+        "proj": null,
+        "adp": null
+      },
+      "5263": {
+        "proj": null,
+        "adp": null
+      },
+      "5261": {
+        "proj": null,
+        "adp": null
+      },
+      "5260": {
+        "proj": null,
+        "adp": null
+      },
+      "5257": {
+        "proj": null,
+        "adp": null
+      },
+      "5255": {
+        "proj": null,
+        "adp": null
+      },
+      "5254": {
+        "proj": null,
+        "adp": null
+      },
+      "5253": {
+        "proj": null,
+        "adp": null
+      },
+      "5252": {
+        "proj": null,
+        "adp": null
+      },
+      "5250": {
+        "proj": null,
+        "adp": null
+      },
+      "5249": {
+        "proj": null,
+        "adp": null
+      },
+      "5248": {
+        "proj": null,
+        "adp": 567.8
+      },
+      "5247": {
+        "proj": null,
+        "adp": 439.2
+      },
+      "5246": {
+        "proj": null,
+        "adp": null
+      },
+      "5245": {
+        "proj": null,
+        "adp": null
+      },
+      "5244": {
+        "proj": null,
+        "adp": null
+      },
+      "5243": {
+        "proj": null,
+        "adp": 443.0
+      },
+      "5242": {
+        "proj": null,
+        "adp": null
+      },
+      "5241": {
+        "proj": null,
+        "adp": null
+      },
+      "5240": {
+        "proj": null,
+        "adp": null
+      },
+      "5239": {
+        "proj": null,
+        "adp": 274.3
+      },
+      "5238": {
+        "proj": null,
+        "adp": null
+      },
+      "5236": {
+        "proj": null,
+        "adp": null
+      },
+      "5235": {
+        "proj": null,
+        "adp": null
+      },
+      "5233": {
+        "proj": null,
+        "adp": null
+      },
+      "5231": {
+        "proj": null,
+        "adp": null
+      },
+      "5228": {
+        "proj": null,
+        "adp": null
+      },
+      "5224": {
+        "proj": null,
+        "adp": null
+      },
+      "5223": {
+        "proj": null,
+        "adp": null
+      },
+      "5220": {
+        "proj": null,
+        "adp": 261.0
+      },
+      "5217": {
+        "proj": null,
+        "adp": null
+      },
+      "5211": {
+        "proj": null,
+        "adp": null
+      },
+      "5210": {
+        "proj": null,
+        "adp": null
+      },
+      "5209": {
+        "proj": null,
+        "adp": 671.2
+      },
+      "5207": {
+        "proj": null,
+        "adp": null
+      },
+      "5201": {
+        "proj": null,
+        "adp": null
+      },
+      "5199": {
+        "proj": null,
+        "adp": null
+      },
+      "5197": {
+        "proj": null,
+        "adp": null
+      },
+      "5196": {
+        "proj": null,
+        "adp": 451.0
+      },
+      "5195": {
+        "proj": null,
+        "adp": null
+      },
+      "5176": {
+        "proj": null,
+        "adp": null
+      },
+      "5171": {
+        "proj": null,
+        "adp": null
+      },
+      "5170": {
+        "proj": null,
+        "adp": 324.0
+      },
+      "5169": {
+        "proj": null,
+        "adp": null
+      },
+      "5168": {
+        "proj": null,
+        "adp": null
+      },
+      "5167": {
+        "proj": null,
+        "adp": null
+      },
+      "5166": {
+        "proj": null,
+        "adp": null
+      },
+      "5163": {
+        "proj": null,
+        "adp": null
+      },
+      "5162": {
+        "proj": null,
+        "adp": null
+      },
+      "5156": {
+        "proj": null,
+        "adp": null
+      },
+      "5155": {
+        "proj": null,
+        "adp": null
+      },
+      "515": {
+        "proj": null,
+        "adp": 617.5
+      },
+      "5145": {
+        "proj": null,
+        "adp": null
+      },
+      "5144": {
+        "proj": null,
+        "adp": null
+      },
+      "5143": {
+        "proj": null,
+        "adp": null
+      },
+      "5142": {
+        "proj": null,
+        "adp": 677.6
+      },
+      "5140": {
+        "proj": null,
+        "adp": null
+      },
+      "5139": {
+        "proj": null,
+        "adp": null
+      },
+      "5138": {
+        "proj": null,
+        "adp": null
+      },
+      "5137": {
+        "proj": null,
+        "adp": null
+      },
+      "5136": {
+        "proj": null,
+        "adp": null
+      },
+      "5134": {
+        "proj": null,
+        "adp": 660.8
+      },
+      "5132": {
+        "proj": null,
+        "adp": null
+      },
+      "5131": {
+        "proj": null,
+        "adp": null
+      },
+      "5130": {
+        "proj": null,
+        "adp": null
+      },
+      "5129": {
+        "proj": null,
+        "adp": 467.7
+      },
+      "5128": {
+        "proj": null,
+        "adp": null
+      },
+      "5126": {
+        "proj": null,
+        "adp": null
+      },
+      "5125": {
+        "proj": null,
+        "adp": null
+      },
+      "5124": {
+        "proj": null,
+        "adp": null
+      },
+      "5123": {
+        "proj": null,
+        "adp": null
+      },
+      "5122": {
+        "proj": null,
+        "adp": 631.5
+      },
+      "5121": {
+        "proj": null,
+        "adp": 689.9
+      },
+      "5120": {
+        "proj": null,
+        "adp": null
+      },
+      "5117": {
+        "proj": null,
+        "adp": null
+      },
+      "5116": {
+        "proj": null,
+        "adp": null
+      },
+      "5113": {
+        "proj": null,
+        "adp": 539.0
+      },
+      "5112": {
+        "proj": null,
+        "adp": null
+      },
+      "5111": {
+        "proj": null,
+        "adp": null
+      },
+      "5110": {
+        "proj": null,
+        "adp": null
+      },
+      "5108": {
+        "proj": null,
+        "adp": null
+      },
+      "5107": {
+        "proj": null,
+        "adp": 378.0
+      },
+      "5103": {
+        "proj": null,
+        "adp": null
+      },
+      "5102": {
+        "proj": null,
+        "adp": null
+      },
+      "5101": {
+        "proj": null,
+        "adp": null
+      },
+      "5100": {
+        "proj": null,
+        "adp": null
+      },
+      "5096": {
+        "proj": null,
+        "adp": 675.5
+      },
+      "5094": {
+        "proj": null,
+        "adp": 295.0
+      },
+      "5092": {
+        "proj": null,
+        "adp": null
+      },
+      "5089": {
+        "proj": null,
+        "adp": null
+      },
+      "5080": {
+        "proj": null,
+        "adp": null
+      },
+      "5076": {
+        "proj": null,
+        "adp": null
+      },
+      "5068": {
+        "proj": null,
+        "adp": 696.0
+      },
+      "5052": {
+        "proj": null,
+        "adp": 564.0
+      },
+      "5046": {
+        "proj": null,
+        "adp": null
+      },
+      "5038": {
+        "proj": null,
+        "adp": null
+      },
+      "5032": {
+        "proj": null,
+        "adp": null
+      },
+      "5026": {
+        "proj": null,
+        "adp": null
+      },
+      "5024": {
+        "proj": null,
+        "adp": null
+      },
+      "5013": {
+        "proj": null,
+        "adp": null
+      },
+      "5009": {
+        "proj": null,
+        "adp": null
+      },
+      "5007": {
+        "proj": null,
+        "adp": null
+      },
+      "5005": {
+        "proj": null,
+        "adp": null
+      },
+      "5004": {
+        "proj": null,
+        "adp": null
+      },
+      "5000": {
+        "proj": null,
+        "adp": null
+      },
+      "4998": {
+        "proj": null,
+        "adp": null
+      },
+      "4997": {
+        "proj": null,
+        "adp": null
+      },
+      "4996": {
+        "proj": null,
+        "adp": null
+      },
+      "4994": {
+        "proj": null,
+        "adp": 573.5
+      },
+      "4988": {
+        "proj": null,
+        "adp": 656.8
+      },
+      "4985": {
+        "proj": null,
+        "adp": 690.5
+      },
+      "4973": {
+        "proj": null,
+        "adp": 661.5
+      },
+      "4962": {
+        "proj": null,
+        "adp": null
+      },
+      "4958": {
+        "proj": null,
+        "adp": 375.8
+      },
+      "4955": {
+        "proj": null,
+        "adp": null
+      },
+      "4951": {
+        "proj": null,
+        "adp": null
+      },
+      "4949": {
+        "proj": null,
+        "adp": null
+      },
+      "4942": {
+        "proj": null,
+        "adp": null
+      },
+      "4940": {
+        "proj": null,
+        "adp": null
+      },
+      "4938": {
+        "proj": null,
+        "adp": null
+      },
+      "4937": {
+        "proj": null,
+        "adp": null
+      },
+      "4936": {
+        "proj": null,
+        "adp": null
+      },
+      "4934": {
+        "proj": null,
+        "adp": null
+      },
+      "4931": {
+        "proj": null,
+        "adp": null
+      },
+      "4930": {
+        "proj": null,
+        "adp": 283.0
+      },
+      "4929": {
+        "proj": null,
+        "adp": null
+      },
+      "4926": {
+        "proj": null,
+        "adp": null
+      },
+      "4924": {
+        "proj": null,
+        "adp": null
+      },
+      "4923": {
+        "proj": null,
+        "adp": null
+      },
+      "4922": {
+        "proj": null,
+        "adp": null
+      },
+      "4917": {
+        "proj": null,
+        "adp": null
+      },
+      "4910": {
+        "proj": null,
+        "adp": null
+      },
+      "491": {
+        "proj": null,
+        "adp": 640.5
+      },
+      "490": {
+        "proj": null,
+        "adp": 309.0
+      },
+      "49": {
+        "proj": null,
+        "adp": null
+      },
+      "4895": {
+        "proj": null,
+        "adp": null
+      },
+      "4878": {
+        "proj": null,
+        "adp": null
+      },
+      "4874": {
+        "proj": null,
+        "adp": null
+      },
+      "4864": {
+        "proj": null,
+        "adp": null
+      },
+      "4863": {
+        "proj": null,
+        "adp": 659.5
+      },
+      "4861": {
+        "proj": null,
+        "adp": null
+      },
+      "4854": {
+        "proj": null,
+        "adp": null
+      },
+      "4853": {
+        "proj": null,
+        "adp": null
+      },
+      "4839": {
+        "proj": null,
+        "adp": 554.7
+      },
+      "4835": {
+        "proj": null,
+        "adp": null
+      },
+      "4832": {
+        "proj": null,
+        "adp": null
+      },
+      "4831": {
+        "proj": null,
+        "adp": null
+      },
+      "4829": {
+        "proj": null,
+        "adp": null
+      },
+      "4828": {
+        "proj": null,
+        "adp": null
+      },
+      "4827": {
+        "proj": null,
+        "adp": null
+      },
+      "4823": {
+        "proj": null,
+        "adp": null
+      },
+      "4821": {
+        "proj": null,
+        "adp": null
+      },
+      "4815": {
+        "proj": null,
+        "adp": null
+      },
+      "4814": {
+        "proj": null,
+        "adp": null
+      },
+      "4813": {
+        "proj": null,
+        "adp": null
+      },
+      "4807": {
+        "proj": null,
+        "adp": 438.0
+      },
+      "4806": {
+        "proj": null,
+        "adp": null
+      },
+      "4805": {
+        "proj": null,
+        "adp": 486.3
+      },
+      "4803": {
+        "proj": null,
+        "adp": 336.0
+      },
+      "4798": {
+        "proj": null,
+        "adp": 634.0
+      },
+      "4797": {
+        "proj": null,
+        "adp": null
+      },
+      "4794": {
+        "proj": null,
+        "adp": null
+      },
+      "4791": {
+        "proj": null,
+        "adp": null
+      },
+      "4790": {
+        "proj": null,
+        "adp": 319.0
+      },
+      "4787": {
+        "proj": null,
+        "adp": 496.0
+      },
+      "4786": {
+        "proj": null,
+        "adp": null
+      },
+      "4785": {
+        "proj": null,
+        "adp": null
+      },
+      "4779": {
+        "proj": null,
+        "adp": null
+      },
+      "4777": {
+        "proj": null,
+        "adp": null
+      },
+      "4775": {
+        "proj": null,
+        "adp": null
+      },
+      "4774": {
+        "proj": null,
+        "adp": null
+      },
+      "4768": {
+        "proj": null,
+        "adp": 485.0
+      },
+      "4752": {
+        "proj": null,
+        "adp": null
+      },
+      "4750": {
+        "proj": null,
+        "adp": null
+      },
+      "4749": {
+        "proj": null,
+        "adp": null
+      },
+      "4747": {
+        "proj": null,
+        "adp": 590.0
+      },
+      "4744": {
+        "proj": null,
+        "adp": 281.0
+      },
+      "4741": {
+        "proj": null,
+        "adp": 567.0
+      },
+      "4738": {
+        "proj": null,
+        "adp": null
+      },
+      "4733": {
+        "proj": null,
+        "adp": 279.0
+      },
+      "4731": {
+        "proj": null,
+        "adp": null
+      },
+      "4730": {
+        "proj": null,
+        "adp": 444.0
+      },
+      "4728": {
+        "proj": null,
+        "adp": null
+      },
+      "4727": {
+        "proj": null,
+        "adp": null
+      },
+      "4725": {
+        "proj": null,
+        "adp": 331.0
+      },
+      "4721": {
+        "proj": null,
+        "adp": null
+      },
+      "4710": {
+        "proj": null,
+        "adp": 323.0
+      },
+      "4708": {
+        "proj": null,
+        "adp": null
+      },
+      "4704": {
+        "proj": null,
+        "adp": 302.3
+      },
+      "4699": {
+        "proj": null,
+        "adp": null
+      },
+      "4697": {
+        "proj": null,
+        "adp": null
+      },
+      "4696": {
+        "proj": null,
+        "adp": null
+      },
+      "4683": {
+        "proj": null,
+        "adp": null
+      },
+      "4680": {
+        "proj": null,
+        "adp": null
+      },
+      "4678": {
+        "proj": null,
+        "adp": 405.0
+      },
+      "4676": {
+        "proj": null,
+        "adp": null
+      },
+      "4673": {
+        "proj": null,
+        "adp": null
+      },
+      "4670": {
+        "proj": null,
+        "adp": null
+      },
+      "4669": {
+        "proj": null,
+        "adp": null
+      },
+      "4665": {
+        "proj": null,
+        "adp": null
+      },
+      "4660": {
+        "proj": null,
+        "adp": null
+      },
+      "4651": {
+        "proj": null,
+        "adp": null
+      },
+      "4650": {
+        "proj": null,
+        "adp": null
+      },
+      "4647": {
+        "proj": null,
+        "adp": null
+      },
+      "4641": {
+        "proj": null,
+        "adp": null
+      },
+      "4636": {
+        "proj": null,
+        "adp": null
+      },
+      "4630": {
+        "proj": null,
+        "adp": null
+      },
+      "4626": {
+        "proj": null,
+        "adp": 413.0
+      },
+      "4623": {
+        "proj": null,
+        "adp": null
+      },
+      "4622": {
+        "proj": null,
+        "adp": null
+      },
+      "4621": {
+        "proj": null,
+        "adp": 382.0
+      },
+      "4613": {
+        "proj": null,
+        "adp": null
+      },
+      "4610": {
+        "proj": null,
+        "adp": null
+      },
+      "4607": {
+        "proj": null,
+        "adp": null
+      },
+      "4605": {
+        "proj": null,
+        "adp": null
+      },
+      "4600": {
+        "proj": null,
+        "adp": 594.5
+      },
+      "4599": {
+        "proj": null,
+        "adp": null
+      },
+      "4595": {
+        "proj": null,
+        "adp": null
+      },
+      "4593": {
+        "proj": null,
+        "adp": null
+      },
+      "4588": {
+        "proj": null,
+        "adp": null
+      },
+      "4585": {
+        "proj": null,
+        "adp": null
+      },
+      "4574": {
+        "proj": null,
+        "adp": 698.0
+      },
+      "4571": {
+        "proj": null,
+        "adp": null
+      },
+      "4569": {
+        "proj": null,
+        "adp": null
+      },
+      "4563": {
+        "proj": null,
+        "adp": null
+      },
+      "4557": {
+        "proj": null,
+        "adp": null
+      },
+      "4555": {
+        "proj": null,
+        "adp": null
+      },
+      "4551": {
+        "proj": null,
+        "adp": null
+      },
+      "455": {
+        "proj": null,
+        "adp": 692.0
+      },
+      "4548": {
+        "proj": null,
+        "adp": null
+      },
+      "4545": {
+        "proj": null,
+        "adp": null
+      },
+      "4544": {
+        "proj": null,
+        "adp": null
+      },
+      "4537": {
+        "proj": null,
+        "adp": null
+      },
+      "4536": {
+        "proj": null,
+        "adp": null
+      },
+      "4535": {
+        "proj": null,
+        "adp": 343.5
+      },
+      "4533": {
+        "proj": null,
+        "adp": null
+      },
+      "4531": {
+        "proj": null,
+        "adp": null
+      },
+      "4528": {
+        "proj": null,
+        "adp": null
+      },
+      "4526": {
+        "proj": null,
+        "adp": null
+      },
+      "4520": {
+        "proj": null,
+        "adp": null
+      },
+      "4519": {
+        "proj": null,
+        "adp": null
+      },
+      "4515": {
+        "proj": null,
+        "adp": null
+      },
+      "4508": {
+        "proj": null,
+        "adp": null
+      },
+      "4504": {
+        "proj": null,
+        "adp": null
+      },
+      "4497": {
+        "proj": null,
+        "adp": null
+      },
+      "4494": {
+        "proj": null,
+        "adp": null
+      },
+      "4491": {
+        "proj": null,
+        "adp": null
+      },
+      "4490": {
+        "proj": null,
+        "adp": null
+      },
+      "4489": {
+        "proj": null,
+        "adp": null
+      },
+      "4485": {
+        "proj": null,
+        "adp": 694.6
+      },
+      "4480": {
+        "proj": null,
+        "adp": null
+      },
+      "4479": {
+        "proj": null,
+        "adp": null
+      },
+      "4475": {
+        "proj": null,
+        "adp": null
+      },
+      "4468": {
+        "proj": null,
+        "adp": null
+      },
+      "4463": {
+        "proj": null,
+        "adp": null
+      },
+      "4456": {
+        "proj": null,
+        "adp": null
+      },
+      "4455": {
+        "proj": null,
+        "adp": null
+      },
+      "4453": {
+        "proj": null,
+        "adp": null
+      },
+      "4445": {
+        "proj": null,
+        "adp": null
+      },
+      "4443": {
+        "proj": null,
+        "adp": null
+      },
+      "4437": {
+        "proj": null,
+        "adp": null
+      },
+      "4435": {
+        "proj": null,
+        "adp": null
+      },
+      "4434": {
+        "proj": null,
+        "adp": null
+      },
+      "4421": {
+        "proj": null,
+        "adp": null
+      },
+      "4420": {
+        "proj": null,
+        "adp": null
+      },
+      "4416": {
+        "proj": null,
+        "adp": null
+      },
+      "4411": {
+        "proj": null,
+        "adp": null
+      },
+      "4409": {
+        "proj": null,
+        "adp": 380.0
+      },
+      "4408": {
+        "proj": null,
+        "adp": null
+      },
+      "4406": {
+        "proj": null,
+        "adp": null
+      },
+      "4401": {
+        "proj": null,
+        "adp": 599.7
+      },
+      "4396": {
+        "proj": null,
+        "adp": null
+      },
+      "4392": {
+        "proj": null,
+        "adp": null
+      },
+      "4385": {
+        "proj": null,
+        "adp": null
+      },
+      "4384": {
+        "proj": null,
+        "adp": null
+      },
+      "4373": {
+        "proj": null,
+        "adp": 626.0
+      },
+      "4367": {
+        "proj": null,
+        "adp": null
+      },
+      "4365": {
+        "proj": null,
+        "adp": null
+      },
+      "4364": {
+        "proj": null,
+        "adp": null
+      },
+      "4362": {
+        "proj": null,
+        "adp": null
+      },
+      "4360": {
+        "proj": null,
+        "adp": null
+      },
+      "4358": {
+        "proj": null,
+        "adp": null
+      },
+      "4353": {
+        "proj": null,
+        "adp": 676.0
+      },
+      "4350": {
+        "proj": null,
+        "adp": null
+      },
+      "4349": {
+        "proj": null,
+        "adp": null
+      },
+      "4344": {
+        "proj": null,
+        "adp": null
+      },
+      "4338": {
+        "proj": null,
+        "adp": null
+      },
+      "4335": {
+        "proj": null,
+        "adp": 461.0
+      },
+      "4330": {
+        "proj": null,
+        "adp": null
+      },
+      "4328": {
+        "proj": null,
+        "adp": 292.0
+      },
+      "4327": {
+        "proj": null,
+        "adp": null
+      },
+      "4326": {
+        "proj": null,
+        "adp": null
+      },
+      "4324": {
+        "proj": null,
+        "adp": null
+      },
+      "4323": {
+        "proj": null,
+        "adp": null
+      },
+      "4322": {
+        "proj": null,
+        "adp": null
+      },
+      "4320": {
+        "proj": null,
+        "adp": null
+      },
+      "4319": {
+        "proj": null,
+        "adp": null
+      },
+      "4314": {
+        "proj": null,
+        "adp": 446.7
+      },
+      "4309": {
+        "proj": null,
+        "adp": null
+      },
+      "4305": {
+        "proj": null,
+        "adp": null
+      },
+      "4301": {
+        "proj": null,
+        "adp": null
+      },
+      "4289": {
+        "proj": null,
+        "adp": null
+      },
+      "4285": {
+        "proj": null,
+        "adp": null
+      },
+      "4283": {
+        "proj": null,
+        "adp": 671.7
+      },
+      "4273": {
+        "proj": null,
+        "adp": null
+      },
+      "4263": {
+        "proj": null,
+        "adp": null
+      },
+      "4252": {
+        "proj": null,
+        "adp": 466.0
+      },
+      "4250": {
+        "proj": null,
+        "adp": null
+      },
+      "4229": {
+        "proj": null,
+        "adp": null
+      },
+      "4226": {
+        "proj": null,
+        "adp": null
+      },
+      "4221": {
+        "proj": null,
+        "adp": 305.0
+      },
+      "4218": {
+        "proj": null,
+        "adp": null
+      },
+      "4214": {
+        "proj": null,
+        "adp": 250.0
+      },
+      "4208": {
+        "proj": null,
+        "adp": null
+      },
+      "4200": {
+        "proj": null,
+        "adp": null
+      },
+      "4198": {
+        "proj": null,
+        "adp": null
+      },
+      "4197": {
+        "proj": null,
+        "adp": null
+      },
+      "4187": {
+        "proj": null,
+        "adp": null
+      },
+      "4186": {
+        "proj": null,
+        "adp": null
+      },
+      "4184": {
+        "proj": null,
+        "adp": 669.4
+      },
+      "4183": {
+        "proj": null,
+        "adp": 699.3
+      },
+      "4175": {
+        "proj": null,
+        "adp": null
+      },
+      "4169": {
+        "proj": null,
+        "adp": null
+      },
+      "4162": {
+        "proj": null,
+        "adp": null
+      },
+      "4160": {
+        "proj": null,
+        "adp": null
+      },
+      "4157": {
+        "proj": null,
+        "adp": 506.0
+      },
+      "4153": {
+        "proj": null,
+        "adp": null
+      },
+      "4152": {
+        "proj": null,
+        "adp": 675.8
+      },
+      "4151": {
+        "proj": null,
+        "adp": 689.9
+      },
+      "4150": {
+        "proj": null,
+        "adp": 602.5
+      },
+      "4149": {
+        "proj": null,
+        "adp": null
+      },
+      "4146": {
+        "proj": null,
+        "adp": null
+      },
+      "4139": {
+        "proj": null,
+        "adp": null
+      },
+      "4131": {
+        "proj": null,
+        "adp": 675.8
+      },
+      "4128": {
+        "proj": null,
+        "adp": null
+      },
+      "4127": {
+        "proj": null,
+        "adp": null
+      },
+      "4125": {
+        "proj": null,
+        "adp": null
+      },
+      "4111": {
+        "proj": null,
+        "adp": null
+      },
+      "4108": {
+        "proj": null,
+        "adp": 453.0
+      },
+      "4089": {
+        "proj": null,
+        "adp": null
+      },
+      "4085": {
+        "proj": null,
+        "adp": 529.5
+      },
+      "4080": {
+        "proj": null,
+        "adp": 647.4
+      },
+      "4068": {
+        "proj": null,
+        "adp": 550.4
+      },
+      "4061": {
+        "proj": null,
+        "adp": 421.5
+      },
+      "4055": {
+        "proj": null,
+        "adp": null
+      },
+      "4051": {
+        "proj": null,
+        "adp": null
+      },
+      "4050": {
+        "proj": null,
+        "adp": null
+      },
+      "4042": {
+        "proj": null,
+        "adp": null
+      },
+      "4038": {
+        "proj": null,
+        "adp": 477.0
+      },
+      "4036": {
+        "proj": null,
+        "adp": null
+      },
+      "4031": {
+        "proj": null,
+        "adp": null
+      },
+      "4029": {
+        "proj": null,
+        "adp": 659.5
+      },
+      "4026": {
+        "proj": null,
+        "adp": 415.0
+      },
+      "4018": {
+        "proj": null,
+        "adp": 666.1
+      },
+      "4004": {
+        "proj": null,
+        "adp": null
+      },
+      "3978": {
+        "proj": null,
+        "adp": null
+      },
+      "3969": {
+        "proj": null,
+        "adp": 695.8
+      },
+      "3957": {
+        "proj": null,
+        "adp": null
+      },
+      "3934": {
+        "proj": null,
+        "adp": null
+      },
+      "3921": {
+        "proj": null,
+        "adp": null
+      },
+      "3920": {
+        "proj": null,
+        "adp": null
+      },
+      "3917": {
+        "proj": null,
+        "adp": null
+      },
+      "3916": {
+        "proj": null,
+        "adp": null
+      },
+      "391": {
+        "proj": null,
+        "adp": null
+      },
+      "3909": {
+        "proj": null,
+        "adp": 694.5
+      },
+      "3908": {
+        "proj": null,
+        "adp": null
+      },
+      "3895": {
+        "proj": null,
+        "adp": null
+      },
+      "3894": {
+        "proj": null,
+        "adp": null
+      },
+      "3893": {
+        "proj": null,
+        "adp": null
+      },
+      "3891": {
+        "proj": null,
+        "adp": null
+      },
+      "3890": {
+        "proj": null,
+        "adp": null
+      },
+      "3883": {
+        "proj": null,
+        "adp": null
+      },
+      "3880": {
+        "proj": null,
+        "adp": null
+      },
+      "3868": {
+        "proj": null,
+        "adp": null
+      },
+      "3859": {
+        "proj": null,
+        "adp": null
+      },
+      "3852": {
+        "proj": null,
+        "adp": null
+      },
+      "3846": {
+        "proj": null,
+        "adp": null
+      },
+      "3832": {
+        "proj": null,
+        "adp": 696.2
+      },
+      "3827": {
+        "proj": null,
+        "adp": 606.3
+      },
+      "3824": {
+        "proj": null,
+        "adp": null
+      },
+      "3817": {
+        "proj": null,
+        "adp": null
+      },
+      "3816": {
+        "proj": null,
+        "adp": 671.5
+      },
+      "3811": {
+        "proj": null,
+        "adp": 394.0
+      },
+      "3805": {
+        "proj": null,
+        "adp": null
+      },
+      "3803": {
+        "proj": null,
+        "adp": null
+      },
+      "3780": {
+        "proj": null,
+        "adp": null
+      },
+      "3774": {
+        "proj": null,
+        "adp": null
+      },
+      "3770": {
+        "proj": null,
+        "adp": null
+      },
+      "3762": {
+        "proj": null,
+        "adp": null
+      },
+      "3732": {
+        "proj": null,
+        "adp": null
+      },
+      "3730": {
+        "proj": null,
+        "adp": null
+      },
+      "3727": {
+        "proj": null,
+        "adp": null
+      },
+      "3695": {
+        "proj": null,
+        "adp": null
+      },
+      "3688": {
+        "proj": null,
+        "adp": null
+      },
+      "3670": {
+        "proj": null,
+        "adp": null
+      },
+      "367": {
+        "proj": null,
+        "adp": 639.1
+      },
+      "3668": {
+        "proj": null,
+        "adp": null
+      },
+      "3664": {
+        "proj": null,
+        "adp": 670.1
+      },
+      "3660": {
+        "proj": null,
+        "adp": null
+      },
+      "3655": {
+        "proj": null,
+        "adp": null
+      },
+      "3652": {
+        "proj": null,
+        "adp": null
+      },
+      "3648": {
+        "proj": null,
+        "adp": null
+      },
+      "3646": {
+        "proj": null,
+        "adp": null
+      },
+      "3640": {
+        "proj": null,
+        "adp": null
+      },
+      "3630": {
+        "proj": null,
+        "adp": null
+      },
+      "3621": {
+        "proj": null,
+        "adp": null
+      },
+      "3615": {
+        "proj": null,
+        "adp": null
+      },
+      "3614": {
+        "proj": null,
+        "adp": null
+      },
+      "3609": {
+        "proj": null,
+        "adp": null
+      },
+      "3606": {
+        "proj": null,
+        "adp": null
+      },
+      "3599": {
+        "proj": null,
+        "adp": null
+      },
+      "3596": {
+        "proj": null,
+        "adp": null
+      },
+      "3594": {
+        "proj": null,
+        "adp": null
+      },
+      "3593": {
+        "proj": null,
+        "adp": null
+      },
+      "3588": {
+        "proj": null,
+        "adp": null
+      },
+      "3584": {
+        "proj": null,
+        "adp": null
+      },
+      "3582": {
+        "proj": null,
+        "adp": null
+      },
+      "3579": {
+        "proj": null,
+        "adp": null
+      },
+      "3574": {
+        "proj": null,
+        "adp": null
+      },
+      "3572": {
+        "proj": null,
+        "adp": null
+      },
+      "3570": {
+        "proj": null,
+        "adp": null
+      },
+      "3568": {
+        "proj": null,
+        "adp": null
+      },
+      "3561": {
+        "proj": null,
+        "adp": null
+      },
+      "3556": {
+        "proj": null,
+        "adp": null
+      },
+      "3555": {
+        "proj": null,
+        "adp": null
+      },
+      "3554": {
+        "proj": null,
+        "adp": null
+      },
+      "3551": {
+        "proj": null,
+        "adp": null
+      },
+      "3548": {
+        "proj": null,
+        "adp": null
+      },
+      "3542": {
+        "proj": null,
+        "adp": null
+      },
+      "3540": {
+        "proj": null,
+        "adp": null
+      },
+      "3531": {
+        "proj": null,
+        "adp": null
+      },
+      "3524": {
+        "proj": null,
+        "adp": null
+      },
+      "3520": {
+        "proj": null,
+        "adp": null
+      },
+      "3516": {
+        "proj": null,
+        "adp": null
+      },
+      "3515": {
+        "proj": null,
+        "adp": null
+      },
+      "3514": {
+        "proj": null,
+        "adp": null
+      },
+      "3505": {
+        "proj": null,
+        "adp": null
+      },
+      "3504": {
+        "proj": null,
+        "adp": null
+      },
+      "3503": {
+        "proj": null,
+        "adp": null
+      },
+      "3500": {
+        "proj": null,
+        "adp": null
+      },
+      "3497": {
+        "proj": null,
+        "adp": null
+      },
+      "3496": {
+        "proj": null,
+        "adp": null
+      },
+      "3495": {
+        "proj": null,
+        "adp": null
+      },
+      "3488": {
+        "proj": null,
+        "adp": null
+      },
+      "3486": {
+        "proj": null,
+        "adp": 685.7
+      },
+      "3476": {
+        "proj": null,
+        "adp": null
+      },
+      "3475": {
+        "proj": null,
+        "adp": null
+      },
+      "3467": {
+        "proj": null,
+        "adp": null
+      },
+      "3465": {
+        "proj": null,
+        "adp": null
+      },
+      "3464": {
+        "proj": null,
+        "adp": null
+      },
+      "3462": {
+        "proj": null,
+        "adp": null
+      },
+      "3460": {
+        "proj": null,
+        "adp": null
+      },
+      "3456": {
+        "proj": null,
+        "adp": 374.0
+      },
+      "3454": {
+        "proj": null,
+        "adp": null
+      },
+      "3453": {
+        "proj": null,
+        "adp": null
+      },
+      "345": {
+        "proj": null,
+        "adp": 390.0
+      },
+      "3447": {
+        "proj": null,
+        "adp": null
+      },
+      "3445": {
+        "proj": null,
+        "adp": null
+      },
+      "3443": {
+        "proj": null,
+        "adp": null
+      },
+      "3440": {
+        "proj": null,
+        "adp": null
+      },
+      "344": {
+        "proj": null,
+        "adp": 698.8
+      },
+      "3433": {
+        "proj": null,
+        "adp": null
+      },
+      "3423": {
+        "proj": null,
+        "adp": 475.0
+      },
+      "3418": {
+        "proj": null,
+        "adp": null
+      },
+      "3412": {
+        "proj": null,
+        "adp": null
+      },
+      "3410": {
+        "proj": null,
+        "adp": 687.0
+      },
+      "3407": {
+        "proj": null,
+        "adp": null
+      },
+      "3402": {
+        "proj": null,
+        "adp": null
+      },
+      "3398": {
+        "proj": null,
+        "adp": null
+      },
+      "3397": {
+        "proj": null,
+        "adp": null
+      },
+      "3393": {
+        "proj": null,
+        "adp": null
+      },
+      "3391": {
+        "proj": null,
+        "adp": null
+      },
+      "3380": {
+        "proj": null,
+        "adp": null
+      },
+      "3371": {
+        "proj": null,
+        "adp": null
+      },
+      "3362": {
+        "proj": null,
+        "adp": 430.0
+      },
+      "3357": {
+        "proj": null,
+        "adp": 662.5
+      },
+      "3355": {
+        "proj": null,
+        "adp": null
+      },
+      "3354": {
+        "proj": null,
+        "adp": null
+      },
+      "3353": {
+        "proj": null,
+        "adp": null
+      },
+      "3348": {
+        "proj": null,
+        "adp": null
+      },
+      "3347": {
+        "proj": null,
+        "adp": null
+      },
+      "3343": {
+        "proj": null,
+        "adp": 682.5
+      },
+      "3342": {
+        "proj": null,
+        "adp": null
+      },
+      "3340": {
+        "proj": null,
+        "adp": 624.0
+      },
+      "3336": {
+        "proj": null,
+        "adp": 650.7
+      },
+      "3333": {
+        "proj": null,
+        "adp": null
+      },
+      "3332": {
+        "proj": null,
+        "adp": null
+      },
+      "333": {
+        "proj": null,
+        "adp": 638.9
+      },
+      "3328": {
+        "proj": null,
+        "adp": null
+      },
+      "3319": {
+        "proj": null,
+        "adp": null
+      },
+      "3318": {
+        "proj": null,
+        "adp": null
+      },
+      "3312": {
+        "proj": null,
+        "adp": null
+      },
+      "331": {
+        "proj": null,
+        "adp": 688.3
+      },
+      "3309": {
+        "proj": null,
+        "adp": null
+      },
+      "3306": {
+        "proj": null,
+        "adp": 536.0
+      },
+      "3300": {
+        "proj": null,
+        "adp": null
+      },
+      "3297": {
+        "proj": null,
+        "adp": null
+      },
+      "3296": {
+        "proj": null,
+        "adp": null
+      },
+      "3280": {
+        "proj": null,
+        "adp": null
+      },
+      "3278": {
+        "proj": null,
+        "adp": null
+      },
+      "3258": {
+        "proj": null,
+        "adp": null
+      },
+      "3242": {
+        "proj": null,
+        "adp": 695.4
+      },
+      "3239": {
+        "proj": null,
+        "adp": null
+      },
+      "3225": {
+        "proj": null,
+        "adp": 381.0
+      },
+      "3211": {
+        "proj": null,
+        "adp": null
+      },
+      "3209": {
+        "proj": null,
+        "adp": null
+      },
+      "3208": {
+        "proj": null,
+        "adp": null
+      },
+      "3205": {
+        "proj": null,
+        "adp": null
+      },
+      "3204": {
+        "proj": null,
+        "adp": null
+      },
+      "3199": {
+        "proj": null,
+        "adp": 675.3
+      },
+      "3178": {
+        "proj": null,
+        "adp": null
+      },
+      "3177": {
+        "proj": null,
+        "adp": null
+      },
+      "3170": {
+        "proj": null,
+        "adp": 694.5
+      },
+      "3164": {
+        "proj": null,
+        "adp": 698.6
+      },
+      "3157": {
+        "proj": null,
+        "adp": null
+      },
+      "3155": {
+        "proj": null,
+        "adp": 676.3
+      },
+      "3150": {
+        "proj": null,
+        "adp": null
+      },
+      "3148": {
+        "proj": null,
+        "adp": null
+      },
+      "312": {
+        "proj": null,
+        "adp": null
+      },
+      "3078": {
+        "proj": null,
+        "adp": null
+      },
+      "3052": {
+        "proj": null,
+        "adp": null
+      },
+      "3045": {
+        "proj": null,
+        "adp": null
+      },
+      "3041": {
+        "proj": null,
+        "adp": null
+      },
+      "3036": {
+        "proj": null,
+        "adp": null
+      },
+      "3021": {
+        "proj": null,
+        "adp": null
+      },
+      "3020": {
+        "proj": null,
+        "adp": null
+      },
+      "3008": {
+        "proj": null,
+        "adp": null
+      },
+      "2996": {
+        "proj": null,
+        "adp": null
+      },
+      "2981": {
+        "proj": null,
+        "adp": null
+      },
+      "2962": {
+        "proj": null,
+        "adp": null
+      },
+      "2957": {
+        "proj": null,
+        "adp": null
+      },
+      "2949": {
+        "proj": null,
+        "adp": 371.0
+      },
+      "2948": {
+        "proj": null,
+        "adp": null
+      },
+      "2947": {
+        "proj": null,
+        "adp": null
+      },
+      "2945": {
+        "proj": null,
+        "adp": null
+      },
+      "2944": {
+        "proj": null,
+        "adp": null
+      },
+      "2943": {
+        "proj": null,
+        "adp": null
+      },
+      "2940": {
+        "proj": null,
+        "adp": null
+      },
+      "2939": {
+        "proj": null,
+        "adp": 692.0
+      },
+      "2938": {
+        "proj": null,
+        "adp": 464.5
+      },
+      "2937": {
+        "proj": null,
+        "adp": null
+      },
+      "2936": {
+        "proj": null,
+        "adp": null
+      },
+      "2935": {
+        "proj": null,
+        "adp": null
+      },
+      "2934": {
+        "proj": null,
+        "adp": null
+      },
+      "2933": {
+        "proj": null,
+        "adp": null
+      },
+      "2932": {
+        "proj": null,
+        "adp": null
+      },
+      "2931": {
+        "proj": null,
+        "adp": null
+      },
+      "2930": {
+        "proj": null,
+        "adp": null
+      },
+      "2929": {
+        "proj": null,
+        "adp": 670.5
+      },
+      "2927": {
+        "proj": null,
+        "adp": null
+      },
+      "2925": {
+        "proj": null,
+        "adp": null
+      },
+      "2923": {
+        "proj": null,
+        "adp": null
+      },
+      "2922": {
+        "proj": null,
+        "adp": null
+      },
+      "2921": {
+        "proj": null,
+        "adp": null
+      },
+      "2920": {
+        "proj": null,
+        "adp": null
+      },
+      "2918": {
+        "proj": null,
+        "adp": null
+      },
+      "2917": {
+        "proj": null,
+        "adp": 652.3
+      },
+      "2916": {
+        "proj": null,
+        "adp": null
+      },
+      "2914": {
+        "proj": null,
+        "adp": null
+      },
+      "2913": {
+        "proj": null,
+        "adp": null
+      },
+      "2911": {
+        "proj": null,
+        "adp": null
+      },
+      "2910": {
+        "proj": null,
+        "adp": 656.2
+      },
+      "2909": {
+        "proj": null,
+        "adp": null
+      },
+      "2906": {
+        "proj": null,
+        "adp": null
+      },
+      "2905": {
+        "proj": null,
+        "adp": null
+      },
+      "2903": {
+        "proj": null,
+        "adp": null
+      },
+      "2900": {
+        "proj": null,
+        "adp": null
+      },
+      "2898": {
+        "proj": null,
+        "adp": null
+      },
+      "2892": {
+        "proj": null,
+        "adp": null
+      },
+      "289": {
+        "proj": null,
+        "adp": 649.7
+      },
+      "2886": {
+        "proj": null,
+        "adp": null
+      },
+      "2880": {
+        "proj": null,
+        "adp": null
+      },
+      "2879": {
+        "proj": null,
+        "adp": null
+      },
+      "2875": {
+        "proj": null,
+        "adp": null
+      },
+      "2870": {
+        "proj": null,
+        "adp": 671.0
+      },
+      "2846": {
+        "proj": null,
+        "adp": null
+      },
+      "284": {
+        "proj": null,
+        "adp": null
+      },
+      "2838": {
+        "proj": null,
+        "adp": null
+      },
+      "2836": {
+        "proj": null,
+        "adp": null
+      },
+      "2822": {
+        "proj": null,
+        "adp": null
+      },
+      "2821": {
+        "proj": null,
+        "adp": null
+      },
+      "2820": {
+        "proj": null,
+        "adp": null
+      },
+      "2819": {
+        "proj": null,
+        "adp": 664.3
+      },
+      "2818": {
+        "proj": null,
+        "adp": null
+      },
+      "2817": {
+        "proj": null,
+        "adp": null
+      },
+      "2802": {
+        "proj": null,
+        "adp": null
+      },
+      "2801": {
+        "proj": null,
+        "adp": null
+      },
+      "2800": {
+        "proj": null,
+        "adp": null
+      },
+      "2790": {
+        "proj": null,
+        "adp": null
+      },
+      "2787": {
+        "proj": null,
+        "adp": null
+      },
+      "2785": {
+        "proj": null,
+        "adp": null
+      },
+      "2783": {
+        "proj": null,
+        "adp": null
+      },
+      "2771": {
+        "proj": null,
+        "adp": null
+      },
+      "2770": {
+        "proj": null,
+        "adp": null
+      },
+      "2768": {
+        "proj": null,
+        "adp": null
+      },
+      "2767": {
+        "proj": null,
+        "adp": null
+      },
+      "2756": {
+        "proj": null,
+        "adp": null
+      },
+      "2755": {
+        "proj": null,
+        "adp": null
+      },
+      "2754": {
+        "proj": null,
+        "adp": null
+      },
+      "2753": {
+        "proj": null,
+        "adp": null
+      },
+      "2752": {
+        "proj": null,
+        "adp": null
+      },
+      "2751": {
+        "proj": null,
+        "adp": null
+      },
+      "2733": {
+        "proj": null,
+        "adp": null
+      },
+      "2730": {
+        "proj": null,
+        "adp": null
+      },
+      "2713": {
+        "proj": null,
+        "adp": null
+      },
+      "2711": {
+        "proj": null,
+        "adp": null
+      },
+      "2703": {
+        "proj": null,
+        "adp": null
+      },
+      "2684": {
+        "proj": null,
+        "adp": null
+      },
+      "268": {
+        "proj": null,
+        "adp": 373.4
+      },
+      "2674": {
+        "proj": null,
+        "adp": null
+      },
+      "2673": {
+        "proj": null,
+        "adp": null
+      },
+      "2672": {
+        "proj": null,
+        "adp": null
+      },
+      "2671": {
+        "proj": null,
+        "adp": null
+      },
+      "2658": {
+        "proj": null,
+        "adp": 645.5
+      },
+      "2651": {
+        "proj": null,
+        "adp": null
+      },
+      "2650": {
+        "proj": null,
+        "adp": 396.0
+      },
+      "2639": {
+        "proj": null,
+        "adp": null
+      },
+      "2636": {
+        "proj": null,
+        "adp": null
+      },
+      "2635": {
+        "proj": null,
+        "adp": null
+      },
+      "2632": {
+        "proj": null,
+        "adp": null
+      },
+      "2620": {
+        "proj": null,
+        "adp": null
+      },
+      "2602": {
+        "proj": null,
+        "adp": null
+      },
+      "2600": {
+        "proj": null,
+        "adp": null
+      },
+      "2597": {
+        "proj": null,
+        "adp": null
+      },
+      "2595": {
+        "proj": null,
+        "adp": null
+      },
+      "2593": {
+        "proj": null,
+        "adp": null
+      },
+      "2588": {
+        "proj": null,
+        "adp": null
+      },
+      "2587": {
+        "proj": null,
+        "adp": null
+      },
+      "2583": {
+        "proj": null,
+        "adp": null
+      },
+      "2582": {
+        "proj": null,
+        "adp": 301.0
+      },
+      "2581": {
+        "proj": null,
+        "adp": null
+      },
+      "2580": {
+        "proj": null,
+        "adp": null
+      },
+      "2578": {
+        "proj": null,
+        "adp": null
+      },
+      "2577": {
+        "proj": null,
+        "adp": null
+      },
+      "2576": {
+        "proj": null,
+        "adp": null
+      },
+      "2573": {
+        "proj": null,
+        "adp": null
+      },
+      "2570": {
+        "proj": null,
+        "adp": null
+      },
+      "2569": {
+        "proj": null,
+        "adp": null
+      },
+      "2567": {
+        "proj": null,
+        "adp": null
+      },
+      "2565": {
+        "proj": null,
+        "adp": null
+      },
+      "2561": {
+        "proj": null,
+        "adp": null
+      },
+      "2560": {
+        "proj": null,
+        "adp": 647.5
+      },
+      "2557": {
+        "proj": null,
+        "adp": null
+      },
+      "2553": {
+        "proj": null,
+        "adp": null
+      },
+      "2549": {
+        "proj": null,
+        "adp": null
+      },
+      "2545": {
+        "proj": null,
+        "adp": null
+      },
+      "2532": {
+        "proj": null,
+        "adp": null
+      },
+      "2528": {
+        "proj": null,
+        "adp": null
+      },
+      "2502": {
+        "proj": null,
+        "adp": null
+      },
+      "2496": {
+        "proj": null,
+        "adp": null
+      },
+      "2495": {
+        "proj": null,
+        "adp": null
+      },
+      "2487": {
+        "proj": null,
+        "adp": null
+      },
+      "2476": {
+        "proj": null,
+        "adp": null
+      },
+      "2474": {
+        "proj": null,
+        "adp": null
+      },
+      "2471": {
+        "proj": null,
+        "adp": 640.0
+      },
+      "2465": {
+        "proj": null,
+        "adp": null
+      },
+      "2463": {
+        "proj": null,
+        "adp": 455.0
+      },
+      "2462": {
+        "proj": null,
+        "adp": null
+      },
+      "2460": {
+        "proj": null,
+        "adp": 644.3
+      },
+      "246": {
+        "proj": null,
+        "adp": null
+      },
+      "2452": {
+        "proj": null,
+        "adp": 615.3
+      },
+      "2450": {
+        "proj": null,
+        "adp": null
+      },
+      "2446": {
+        "proj": null,
+        "adp": null
+      },
+      "2431": {
+        "proj": null,
+        "adp": null
+      },
+      "2430": {
+        "proj": null,
+        "adp": null
+      },
+      "2422": {
+        "proj": null,
+        "adp": null
+      },
+      "2412": {
+        "proj": null,
+        "adp": null
+      },
+      "2410": {
+        "proj": null,
+        "adp": null
+      },
+      "24": {
+        "proj": null,
+        "adp": 692.1
+      },
+      "2399": {
+        "proj": null,
+        "adp": null
+      },
+      "2397": {
+        "proj": null,
+        "adp": null
+      },
+      "2394": {
+        "proj": null,
+        "adp": 689.5
+      },
+      "2391": {
+        "proj": null,
+        "adp": 410.0
+      },
+      "2390": {
+        "proj": null,
+        "adp": null
+      },
+      "2382": {
+        "proj": null,
+        "adp": null
+      },
+      "2381": {
+        "proj": null,
+        "adp": null
+      },
+      "2378": {
+        "proj": null,
+        "adp": 613.1
+      },
+      "2373": {
+        "proj": null,
+        "adp": null
+      },
+      "2360": {
+        "proj": null,
+        "adp": null
+      },
+      "2346": {
+        "proj": null,
+        "adp": 695.5
+      },
+      "2342": {
+        "proj": null,
+        "adp": 249.0
+      },
+      "2341": {
+        "proj": null,
+        "adp": null
+      },
+      "2334": {
+        "proj": null,
+        "adp": null
+      },
+      "2331": {
+        "proj": null,
+        "adp": 542.0
+      },
+      "233": {
+        "proj": null,
+        "adp": 352.0
+      },
+      "2325": {
+        "proj": null,
+        "adp": null
+      },
+      "2320": {
+        "proj": null,
+        "adp": 644.5
+      },
+      "232": {
+        "proj": null,
+        "adp": 683.4
+      },
+      "2319": {
+        "proj": null,
+        "adp": null
+      },
+      "2315": {
+        "proj": null,
+        "adp": 638.0
+      },
+      "2312": {
+        "proj": null,
+        "adp": null
+      },
+      "2309": {
+        "proj": null,
+        "adp": 673.0
+      },
+      "2304": {
+        "proj": null,
+        "adp": null
+      },
+      "23": {
+        "proj": null,
+        "adp": 605.3
+      },
+      "2291": {
+        "proj": null,
+        "adp": null
+      },
+      "2279": {
+        "proj": null,
+        "adp": null
+      },
+      "2262": {
+        "proj": null,
+        "adp": null
+      },
+      "2257": {
+        "proj": null,
+        "adp": 669.0
+      },
+      "2251": {
+        "proj": null,
+        "adp": null
+      },
+      "2238": {
+        "proj": null,
+        "adp": null
+      },
+      "223": {
+        "proj": null,
+        "adp": 613.7
+      },
+      "2229": {
+        "proj": null,
+        "adp": null
+      },
+      "2214": {
+        "proj": null,
+        "adp": null
+      },
+      "2206": {
+        "proj": null,
+        "adp": null
+      },
+      "2200": {
+        "proj": null,
+        "adp": 691.9
+      },
+      "2191": {
+        "proj": null,
+        "adp": null
+      },
+      "2174": {
+        "proj": null,
+        "adp": null
+      },
+      "2168": {
+        "proj": null,
+        "adp": 260.0
+      },
+      "2161": {
+        "proj": null,
+        "adp": null
+      },
+      "2146": {
+        "proj": null,
+        "adp": 593.5
+      },
+      "2142": {
+        "proj": null,
+        "adp": null
+      },
+      "2121": {
+        "proj": null,
+        "adp": null
+      },
+      "2119": {
+        "proj": null,
+        "adp": 596.0
+      },
+      "2118": {
+        "proj": null,
+        "adp": null
+      },
+      "2114": {
+        "proj": null,
+        "adp": null
+      },
+      "2106": {
+        "proj": null,
+        "adp": null
+      },
+      "2093": {
+        "proj": null,
+        "adp": null
+      },
+      "2082": {
+        "proj": null,
+        "adp": null
+      },
+      "208": {
+        "proj": null,
+        "adp": 636.6
+      },
+      "2073": {
+        "proj": null,
+        "adp": null
+      },
+      "2044": {
+        "proj": null,
+        "adp": null
+      },
+      "2040": {
+        "proj": null,
+        "adp": null
+      },
+      "2039": {
+        "proj": null,
+        "adp": null
+      },
+      "2025": {
+        "proj": null,
+        "adp": null
+      },
+      "2023": {
+        "proj": null,
+        "adp": null
+      },
+      "2004": {
+        "proj": null,
+        "adp": null
+      },
+      "2003": {
+        "proj": null,
+        "adp": null
+      },
+      "200": {
+        "proj": null,
+        "adp": null
+      },
+      "1992": {
+        "proj": null,
+        "adp": 397.0
+      },
+      "1987": {
+        "proj": null,
+        "adp": null
+      },
+      "1984": {
+        "proj": null,
+        "adp": null
+      },
+      "1979": {
+        "proj": null,
+        "adp": 584.8
+      },
+      "1974": {
+        "proj": null,
+        "adp": 429.0
+      },
+      "1971": {
+        "proj": null,
+        "adp": null
+      },
+      "1943": {
+        "proj": null,
+        "adp": null
+      },
+      "1939": {
+        "proj": null,
+        "adp": null
+      },
+      "1916": {
+        "proj": null,
+        "adp": 297.5
+      },
+      "1911": {
+        "proj": null,
+        "adp": null
+      },
+      "1903": {
+        "proj": null,
+        "adp": null
+      },
+      "1895": {
+        "proj": null,
+        "adp": 338.2
+      },
+      "1855": {
+        "proj": null,
+        "adp": null
+      },
+      "1854": {
+        "proj": null,
+        "adp": null
+      },
+      "1848": {
+        "proj": null,
+        "adp": 676.4
+      },
+      "1842": {
+        "proj": null,
+        "adp": null
+      },
+      "1841": {
+        "proj": null,
+        "adp": null
+      },
+      "184": {
+        "proj": null,
+        "adp": 646.2
+      },
+      "1833": {
+        "proj": null,
+        "adp": null
+      },
+      "1825": {
+        "proj": null,
+        "adp": null
+      },
+      "1817": {
+        "proj": null,
+        "adp": 273.0
+      },
+      "181": {
+        "proj": null,
+        "adp": 685.0
+      },
+      "1800": {
+        "proj": null,
+        "adp": null
+      },
+      "1794": {
+        "proj": null,
+        "adp": null
+      },
+      "1793": {
+        "proj": null,
+        "adp": 678.0
+      },
+      "178": {
+        "proj": null,
+        "adp": 692.8
+      },
+      "1777": {
+        "proj": null,
+        "adp": null
+      },
+      "1737": {
+        "proj": null,
+        "adp": 664.7
+      },
+      "1718": {
+        "proj": null,
+        "adp": null
+      },
+      "1706": {
+        "proj": null,
+        "adp": null
+      },
+      "1701": {
+        "proj": null,
+        "adp": null
+      },
+      "1696": {
+        "proj": null,
+        "adp": null
+      },
+      "1693": {
+        "proj": null,
+        "adp": null
+      },
+      "1689": {
+        "proj": null,
+        "adp": 653.5
+      },
+      "1684": {
+        "proj": null,
+        "adp": null
+      },
+      "1678": {
+        "proj": null,
+        "adp": 687.6
+      },
+      "167": {
+        "proj": null,
+        "adp": 664.3
+      },
+      "1652": {
+        "proj": null,
+        "adp": null
+      },
+      "1642": {
+        "proj": null,
+        "adp": null
+      },
+      "1619": {
+        "proj": null,
+        "adp": null
+      },
+      "1612": {
+        "proj": null,
+        "adp": null
+      },
+      "1604": {
+        "proj": null,
+        "adp": null
+      },
+      "1603": {
+        "proj": null,
+        "adp": null
+      },
+      "1601": {
+        "proj": null,
+        "adp": null
+      },
+      "1592": {
+        "proj": null,
+        "adp": null
+      },
+      "1587": {
+        "proj": null,
+        "adp": null
+      },
+      "1567": {
+        "proj": null,
+        "adp": null
+      },
+      "1559": {
+        "proj": null,
+        "adp": 333.0
+      },
+      "1555": {
+        "proj": null,
+        "adp": null
+      },
+      "1550": {
+        "proj": null,
+        "adp": null
+      },
+      "1546": {
+        "proj": null,
+        "adp": null
+      },
+      "1535": {
+        "proj": null,
+        "adp": 604.0
+      },
+      "1517": {
+        "proj": null,
+        "adp": null
+      },
+      "1502": {
+        "proj": null,
+        "adp": 683.6
+      },
+      "1500": {
+        "proj": null,
+        "adp": null
+      },
+      "1476": {
+        "proj": null,
+        "adp": null
+      },
+      "147": {
+        "proj": null,
+        "adp": 688.0
+      },
+      "1451": {
+        "proj": null,
+        "adp": 688.0
+      },
+      "1425": {
+        "proj": null,
+        "adp": null
+      },
+      "14085": {
+        "proj": null,
+        "adp": null
+      },
+      "14082": {
+        "proj": null,
+        "adp": 651.8
+      },
+      "14080": {
+        "proj": null,
+        "adp": 474.0
+      },
+      "1408": {
+        "proj": null,
+        "adp": 691.9
+      },
+      "14076": {
+        "proj": null,
+        "adp": null
+      },
+      "14071": {
+        "proj": null,
+        "adp": null
+      },
+      "14069": {
+        "proj": null,
+        "adp": 661.7
+      },
+      "14068": {
+        "proj": null,
+        "adp": null
+      },
+      "14067": {
+        "proj": null,
+        "adp": 638.0
+      },
+      "14064": {
+        "proj": null,
+        "adp": 697.2
+      },
+      "14063": {
+        "proj": null,
+        "adp": null
+      },
+      "14062": {
+        "proj": null,
+        "adp": null
+      },
+      "14061": {
+        "proj": null,
+        "adp": null
+      },
+      "14058": {
+        "proj": null,
+        "adp": 656.0
+      },
+      "14056": {
+        "proj": null,
+        "adp": null
+      },
+      "14055": {
+        "proj": null,
+        "adp": 649.0
+      },
+      "14049": {
+        "proj": null,
+        "adp": null
+      },
+      "14047": {
+        "proj": null,
+        "adp": null
+      },
+      "14044": {
+        "proj": null,
+        "adp": null
+      },
+      "14041": {
+        "proj": null,
+        "adp": null
+      },
+      "14040": {
+        "proj": null,
+        "adp": null
+      },
+      "14039": {
+        "proj": null,
+        "adp": null
+      },
+      "14038": {
+        "proj": null,
+        "adp": null
+      },
+      "14037": {
+        "proj": null,
+        "adp": 679.1
+      },
+      "14034": {
+        "proj": null,
+        "adp": 698.4
+      },
+      "14031": {
+        "proj": null,
+        "adp": null
+      },
+      "14029": {
+        "proj": null,
+        "adp": null
+      },
+      "14021": {
+        "proj": null,
+        "adp": null
+      },
+      "14020": {
+        "proj": null,
+        "adp": null
+      },
+      "14018": {
+        "proj": null,
+        "adp": null
+      },
+      "14017": {
+        "proj": null,
+        "adp": 544.0
+      },
+      "14008": {
+        "proj": null,
+        "adp": 672.4
+      },
+      "14005": {
+        "proj": null,
+        "adp": null
+      },
+      "14001": {
+        "proj": null,
+        "adp": null
+      },
+      "13996": {
+        "proj": null,
+        "adp": null
+      },
+      "13990": {
+        "proj": null,
+        "adp": 385.0
+      },
+      "13989": {
+        "proj": null,
+        "adp": null
+      },
+      "13988": {
+        "proj": null,
+        "adp": null
+      },
+      "13981": {
+        "proj": null,
+        "adp": null
+      },
+      "13975": {
+        "proj": null,
+        "adp": 639.2
+      },
+      "13973": {
+        "proj": null,
+        "adp": null
+      },
+      "13972": {
+        "proj": null,
+        "adp": null
+      },
+      "13967": {
+        "proj": null,
+        "adp": null
+      },
+      "13964": {
+        "proj": null,
+        "adp": 621.3
+      },
+      "13963": {
+        "proj": null,
+        "adp": null
+      },
+      "13962": {
+        "proj": null,
+        "adp": null
+      },
+      "13957": {
+        "proj": null,
+        "adp": null
+      },
+      "13949": {
+        "proj": null,
+        "adp": null
+      },
+      "13943": {
+        "proj": null,
+        "adp": 439.7
+      },
+      "13941": {
+        "proj": null,
+        "adp": null
+      },
+      "13939": {
+        "proj": null,
+        "adp": null
+      },
+      "13937": {
+        "proj": null,
+        "adp": 660.5
+      },
+      "13931": {
+        "proj": null,
+        "adp": null
+      },
+      "13930": {
+        "proj": null,
+        "adp": null
+      },
+      "13929": {
+        "proj": null,
+        "adp": null
+      },
+      "13923": {
+        "proj": null,
+        "adp": null
+      },
+      "13920": {
+        "proj": null,
+        "adp": null
+      },
+      "13916": {
+        "proj": null,
+        "adp": 563.3
+      },
+      "13913": {
+        "proj": null,
+        "adp": null
+      },
+      "13909": {
+        "proj": null,
+        "adp": 375.0
+      },
+      "13906": {
+        "proj": null,
+        "adp": 522.5
+      },
+      "13905": {
+        "proj": null,
+        "adp": 589.4
+      },
+      "13904": {
+        "proj": null,
+        "adp": 289.5
+      },
+      "13898": {
+        "proj": null,
+        "adp": null
+      },
+      "13890": {
+        "proj": null,
+        "adp": null
+      },
+      "13889": {
+        "proj": null,
+        "adp": null
+      },
+      "13888": {
+        "proj": null,
+        "adp": null
+      },
+      "1388": {
+        "proj": null,
+        "adp": null
+      },
+      "13879": {
+        "proj": null,
+        "adp": null
+      },
+      "13873": {
+        "proj": null,
+        "adp": null
+      },
+      "13870": {
+        "proj": null,
+        "adp": null
+      },
+      "1387": {
+        "proj": null,
+        "adp": 669.0
+      },
+      "13867": {
+        "proj": null,
+        "adp": null
+      },
+      "13862": {
+        "proj": null,
+        "adp": null
+      },
+      "13861": {
+        "proj": null,
+        "adp": null
+      },
+      "1386": {
+        "proj": null,
+        "adp": 648.4
+      },
+      "13859": {
+        "proj": null,
+        "adp": null
+      },
+      "13852": {
+        "proj": null,
+        "adp": 387.0
+      },
+      "13850": {
+        "proj": null,
+        "adp": 541.0
+      },
+      "13849": {
+        "proj": null,
+        "adp": 695.5
+      },
+      "13844": {
+        "proj": null,
+        "adp": null
+      },
+      "13842": {
+        "proj": null,
+        "adp": 282.0
+      },
+      "13839": {
+        "proj": null,
+        "adp": null
+      },
+      "13835": {
+        "proj": null,
+        "adp": null
+      },
+      "13834": {
+        "proj": null,
+        "adp": null
+      },
+      "13831": {
+        "proj": null,
+        "adp": null
+      },
+      "13830": {
+        "proj": null,
+        "adp": null
+      },
+      "13827": {
+        "proj": null,
+        "adp": null
+      },
+      "13826": {
+        "proj": null,
+        "adp": null
+      },
+      "13825": {
+        "proj": null,
+        "adp": null
+      },
+      "13818": {
+        "proj": null,
+        "adp": null
+      },
+      "13816": {
+        "proj": null,
+        "adp": null
+      },
+      "13813": {
+        "proj": null,
+        "adp": 270.0
+      },
+      "13810": {
+        "proj": null,
+        "adp": null
+      },
+      "13806": {
+        "proj": null,
+        "adp": null
+      },
+      "13805": {
+        "proj": null,
+        "adp": 583.4
+      },
+      "13804": {
+        "proj": null,
+        "adp": 691.6
+      },
+      "13802": {
+        "proj": null,
+        "adp": null
+      },
+      "138": {
+        "proj": null,
+        "adp": 690.7
+      },
+      "13783": {
+        "proj": null,
+        "adp": null
+      },
+      "13781": {
+        "proj": null,
+        "adp": null
+      },
+      "13780": {
+        "proj": null,
+        "adp": null
+      },
+      "13779": {
+        "proj": null,
+        "adp": null
+      },
+      "13778": {
+        "proj": null,
+        "adp": 639.0
+      },
+      "13777": {
+        "proj": null,
+        "adp": null
+      },
+      "13776": {
+        "proj": null,
+        "adp": null
+      },
+      "13773": {
+        "proj": null,
+        "adp": null
+      },
+      "13772": {
+        "proj": null,
+        "adp": null
+      },
+      "13770": {
+        "proj": null,
+        "adp": 601.3
+      },
+      "13768": {
+        "proj": null,
+        "adp": null
+      },
+      "13764": {
+        "proj": null,
+        "adp": 677.5
+      },
+      "13760": {
+        "proj": null,
+        "adp": null
+      },
+      "13750": {
+        "proj": null,
+        "adp": null
+      },
+      "13749": {
+        "proj": null,
+        "adp": null
+      },
+      "13744": {
+        "proj": null,
+        "adp": null
+      },
+      "13743": {
+        "proj": null,
+        "adp": null
+      },
+      "13731": {
+        "proj": null,
+        "adp": 369.0
+      },
+      "13726": {
+        "proj": null,
+        "adp": 608.2
+      },
+      "13725": {
+        "proj": null,
+        "adp": null
+      },
+      "13712": {
+        "proj": null,
+        "adp": null
+      },
+      "13710": {
+        "proj": null,
+        "adp": 473.6
+      },
+      "13708": {
+        "proj": null,
+        "adp": null
+      },
+      "13705": {
+        "proj": null,
+        "adp": null
+      },
+      "13702": {
+        "proj": null,
+        "adp": null
+      },
+      "13698": {
+        "proj": null,
+        "adp": 693.0
+      },
+      "13696": {
+        "proj": null,
+        "adp": null
+      },
+      "13685": {
+        "proj": null,
+        "adp": null
+      },
+      "13681": {
+        "proj": null,
+        "adp": null
+      },
+      "13677": {
+        "proj": null,
+        "adp": null
+      },
+      "13674": {
+        "proj": null,
+        "adp": null
+      },
+      "13673": {
+        "proj": null,
+        "adp": null
+      },
+      "13670": {
+        "proj": null,
+        "adp": 614.7
+      },
+      "13667": {
+        "proj": null,
+        "adp": null
+      },
+      "13663": {
+        "proj": null,
+        "adp": 607.8
+      },
+      "13662": {
+        "proj": null,
+        "adp": null
+      },
+      "13661": {
+        "proj": null,
+        "adp": null
+      },
+      "13658": {
+        "proj": null,
+        "adp": null
+      },
+      "13657": {
+        "proj": null,
+        "adp": null
+      },
+      "13647": {
+        "proj": null,
+        "adp": null
+      },
+      "13645": {
+        "proj": null,
+        "adp": null
+      },
+      "13644": {
+        "proj": null,
+        "adp": 321.5
+      },
+      "13632": {
+        "proj": null,
+        "adp": null
+      },
+      "13630": {
+        "proj": null,
+        "adp": null
+      },
+      "13624": {
+        "proj": null,
+        "adp": null
+      },
+      "13621": {
+        "proj": null,
+        "adp": 593.0
+      },
+      "13619": {
+        "proj": null,
+        "adp": null
+      },
+      "13617": {
+        "proj": null,
+        "adp": null
+      },
+      "13608": {
+        "proj": null,
+        "adp": null
+      },
+      "13604": {
+        "proj": null,
+        "adp": null
+      },
+      "13603": {
+        "proj": null,
+        "adp": 524.7
+      },
+      "13602": {
+        "proj": null,
+        "adp": 687.7
+      },
+      "13600": {
+        "proj": null,
+        "adp": 674.5
+      },
+      "13599": {
+        "proj": null,
+        "adp": null
+      },
+      "13597": {
+        "proj": null,
+        "adp": null
+      },
+      "13595": {
+        "proj": null,
+        "adp": 604.2
+      },
+      "13592": {
+        "proj": null,
+        "adp": null
+      },
+      "13582": {
+        "proj": null,
+        "adp": 570.0
+      },
+      "13580": {
+        "proj": null,
+        "adp": null
+      },
+      "13577": {
+        "proj": null,
+        "adp": null
+      },
+      "13557": {
+        "proj": null,
+        "adp": 641.7
+      },
+      "13554": {
+        "proj": null,
+        "adp": null
+      },
+      "13541": {
+        "proj": null,
+        "adp": 683.5
+      },
+      "1352": {
+        "proj": null,
+        "adp": null
+      },
+      "1348": {
+        "proj": null,
+        "adp": 419.0
+      },
+      "1346": {
+        "proj": null,
+        "adp": 666.8
+      },
+      "13440": {
+        "proj": null,
+        "adp": null
+      },
+      "13438": {
+        "proj": null,
+        "adp": null
+      },
+      "13437": {
+        "proj": null,
+        "adp": 591.7
+      },
+      "13436": {
+        "proj": null,
+        "adp": 317.5
+      },
+      "13432": {
+        "proj": null,
+        "adp": null
+      },
+      "13430": {
+        "proj": null,
+        "adp": null
+      },
+      "13428": {
+        "proj": null,
+        "adp": 577.0
+      },
+      "13426": {
+        "proj": null,
+        "adp": null
+      },
+      "13425": {
+        "proj": null,
+        "adp": 625.4
+      },
+      "13423": {
+        "proj": null,
+        "adp": 691.4
+      },
+      "13418": {
+        "proj": null,
+        "adp": 688.4
+      },
+      "13416": {
+        "proj": null,
+        "adp": 700.0
+      },
+      "13415": {
+        "proj": null,
+        "adp": 691.9
+      },
+      "13412": {
+        "proj": null,
+        "adp": null
+      },
+      "13409": {
+        "proj": null,
+        "adp": null
+      },
+      "13407": {
+        "proj": null,
+        "adp": null
+      },
+      "13404": {
+        "proj": null,
+        "adp": 677.9
+      },
+      "13392": {
+        "proj": null,
+        "adp": 574.5
+      },
+      "1338": {
+        "proj": null,
+        "adp": 499.0
+      },
+      "13355": {
+        "proj": null,
+        "adp": null
+      },
+      "13353": {
+        "proj": null,
+        "adp": 689.1
+      },
+      "13352": {
+        "proj": null,
+        "adp": null
+      },
+      "13351": {
+        "proj": null,
+        "adp": null
+      },
+      "13350": {
+        "proj": null,
+        "adp": 655.6
+      },
+      "13344": {
+        "proj": null,
+        "adp": null
+      },
+      "13343": {
+        "proj": null,
+        "adp": null
+      },
+      "13339": {
+        "proj": null,
+        "adp": null
+      },
+      "13335": {
+        "proj": null,
+        "adp": 671.2
+      },
+      "13334": {
+        "proj": null,
+        "adp": null
+      },
+      "13331": {
+        "proj": null,
+        "adp": 468.0
+      },
+      "1333": {
+        "proj": null,
+        "adp": null
+      },
+      "13328": {
+        "proj": null,
+        "adp": null
+      },
+      "13326": {
+        "proj": null,
+        "adp": 681.5
+      },
+      "13325": {
+        "proj": null,
+        "adp": 654.7
+      },
+      "13323": {
+        "proj": null,
+        "adp": null
+      },
+      "13321": {
+        "proj": null,
+        "adp": null
+      },
+      "13314": {
+        "proj": null,
+        "adp": null
+      },
+      "13313": {
+        "proj": null,
+        "adp": null
+      },
+      "13312": {
+        "proj": null,
+        "adp": null
+      },
+      "13310": {
+        "proj": null,
+        "adp": null
+      },
+      "13308": {
+        "proj": null,
+        "adp": 472.3
+      },
+      "13304": {
+        "proj": null,
+        "adp": null
+      },
+      "13300": {
+        "proj": null,
+        "adp": 538.0
+      },
+      "13295": {
+        "proj": null,
+        "adp": 684.0
+      },
+      "13292": {
+        "proj": null,
+        "adp": null
+      },
+      "13291": {
+        "proj": null,
+        "adp": null
+      },
+      "13290": {
+        "proj": null,
+        "adp": null
+      },
+      "1329": {
+        "proj": null,
+        "adp": null
+      },
+      "13284": {
+        "proj": null,
+        "adp": null
+      },
+      "13280": {
+        "proj": null,
+        "adp": null
+      },
+      "13277": {
+        "proj": null,
+        "adp": null
+      },
+      "13264": {
+        "proj": null,
+        "adp": 686.4
+      },
+      "13261": {
+        "proj": null,
+        "adp": null
+      },
+      "13258": {
+        "proj": null,
+        "adp": null
+      },
+      "13256": {
+        "proj": null,
+        "adp": null
+      },
+      "13255": {
+        "proj": null,
+        "adp": null
+      },
+      "13251": {
+        "proj": null,
+        "adp": null
+      },
+      "13250": {
+        "proj": null,
+        "adp": null
+      },
+      "13249": {
+        "proj": null,
+        "adp": null
+      },
+      "13246": {
+        "proj": null,
+        "adp": null
+      },
+      "13242": {
+        "proj": null,
+        "adp": null
+      },
+      "13240": {
+        "proj": null,
+        "adp": null
+      },
+      "13238": {
+        "proj": null,
+        "adp": null
+      },
+      "13237": {
+        "proj": null,
+        "adp": 258.0
+      },
+      "13228": {
+        "proj": null,
+        "adp": null
+      },
+      "13227": {
+        "proj": null,
+        "adp": 659.5
+      },
+      "13225": {
+        "proj": null,
+        "adp": null
+      },
+      "13222": {
+        "proj": null,
+        "adp": 669.2
+      },
+      "13221": {
+        "proj": null,
+        "adp": 534.0
+      },
+      "13217": {
+        "proj": null,
+        "adp": null
+      },
+      "13213": {
+        "proj": null,
+        "adp": null
+      },
+      "13212": {
+        "proj": null,
+        "adp": null
+      },
+      "13211": {
+        "proj": null,
+        "adp": 358.0
+      },
+      "13210": {
+        "proj": null,
+        "adp": null
+      },
+      "13208": {
+        "proj": null,
+        "adp": null
+      },
+      "13205": {
+        "proj": null,
+        "adp": null
+      },
+      "13202": {
+        "proj": null,
+        "adp": null
+      },
+      "13199": {
+        "proj": null,
+        "adp": 693.5
+      },
+      "13194": {
+        "proj": null,
+        "adp": null
+      },
+      "13193": {
+        "proj": null,
+        "adp": null
+      },
+      "13191": {
+        "proj": null,
+        "adp": null
+      },
+      "13190": {
+        "proj": null,
+        "adp": null
+      },
+      "13189": {
+        "proj": null,
+        "adp": 676.5
+      },
+      "13179": {
+        "proj": null,
+        "adp": 665.0
+      },
+      "13175": {
+        "proj": null,
+        "adp": 546.3
+      },
+      "13173": {
+        "proj": null,
+        "adp": 680.5
+      },
+      "13166": {
+        "proj": null,
+        "adp": null
+      },
+      "13162": {
+        "proj": null,
+        "adp": null
+      },
+      "13161": {
+        "proj": null,
+        "adp": null
+      },
+      "13160": {
+        "proj": null,
+        "adp": null
+      },
+      "13158": {
+        "proj": null,
+        "adp": null
+      },
+      "13154": {
+        "proj": null,
+        "adp": null
+      },
+      "13153": {
+        "proj": null,
+        "adp": null
+      },
+      "13152": {
+        "proj": null,
+        "adp": null
+      },
+      "13151": {
+        "proj": null,
+        "adp": null
+      },
+      "13149": {
+        "proj": null,
+        "adp": 264.0
+      },
+      "13145": {
+        "proj": null,
+        "adp": null
+      },
+      "13143": {
+        "proj": null,
+        "adp": null
+      },
+      "13139": {
+        "proj": null,
+        "adp": null
+      },
+      "13136": {
+        "proj": null,
+        "adp": null
+      },
+      "13129": {
+        "proj": null,
+        "adp": null
+      },
+      "13128": {
+        "proj": null,
+        "adp": 458.3
+      },
+      "13125": {
+        "proj": null,
+        "adp": null
+      },
+      "13124": {
+        "proj": null,
+        "adp": null
+      },
+      "13122": {
+        "proj": null,
+        "adp": null
+      },
+      "13120": {
+        "proj": null,
+        "adp": null
+      },
+      "1312": {
+        "proj": null,
+        "adp": null
+      },
+      "13119": {
+        "proj": null,
+        "adp": null
+      },
+      "13117": {
+        "proj": null,
+        "adp": null
+      },
+      "13116": {
+        "proj": null,
+        "adp": null
+      },
+      "13113": {
+        "proj": null,
+        "adp": null
+      },
+      "13110": {
+        "proj": null,
+        "adp": 598.5
+      },
+      "13108": {
+        "proj": null,
+        "adp": null
+      },
+      "13100": {
+        "proj": null,
+        "adp": null
+      },
+      "13088": {
+        "proj": null,
+        "adp": null
+      },
+      "13085": {
+        "proj": null,
+        "adp": null
+      },
+      "13080": {
+        "proj": null,
+        "adp": null
+      },
+      "1308": {
+        "proj": null,
+        "adp": null
+      },
+      "13075": {
+        "proj": null,
+        "adp": 699.5
+      },
+      "13074": {
+        "proj": null,
+        "adp": null
+      },
+      "13065": {
+        "proj": null,
+        "adp": null
+      },
+      "13064": {
+        "proj": null,
+        "adp": null
+      },
+      "13063": {
+        "proj": null,
+        "adp": null
+      },
+      "13053": {
+        "proj": null,
+        "adp": null
+      },
+      "1305": {
+        "proj": null,
+        "adp": null
+      },
+      "13043": {
+        "proj": null,
+        "adp": null
+      },
+      "13042": {
+        "proj": null,
+        "adp": null
+      },
+      "13041": {
+        "proj": null,
+        "adp": null
+      },
+      "13034": {
+        "proj": null,
+        "adp": null
+      },
+      "13032": {
+        "proj": null,
+        "adp": null
+      },
+      "1303": {
+        "proj": null,
+        "adp": null
+      },
+      "13026": {
+        "proj": null,
+        "adp": 393.0
+      },
+      "13022": {
+        "proj": null,
+        "adp": null
+      },
+      "13017": {
+        "proj": null,
+        "adp": null
+      },
+      "13014": {
+        "proj": null,
+        "adp": null
+      },
+      "13013": {
+        "proj": null,
+        "adp": null
+      },
+      "13011": {
+        "proj": null,
+        "adp": 502.0
+      },
+      "13010": {
+        "proj": null,
+        "adp": 559.0
+      },
+      "13005": {
+        "proj": null,
+        "adp": null
+      },
+      "13003": {
+        "proj": null,
+        "adp": null
+      },
+      "13001": {
+        "proj": null,
+        "adp": null
+      },
+      "12984": {
+        "proj": null,
+        "adp": null
+      },
+      "12983": {
+        "proj": null,
+        "adp": 379.7
+      },
+      "12981": {
+        "proj": null,
+        "adp": 592.0
+      },
+      "12976": {
+        "proj": null,
+        "adp": 507.0
+      },
+      "12975": {
+        "proj": null,
+        "adp": null
+      },
+      "12973": {
+        "proj": null,
+        "adp": null
+      },
+      "12972": {
+        "proj": null,
+        "adp": null
+      },
+      "12971": {
+        "proj": null,
+        "adp": 619.5
+      },
+      "12969": {
+        "proj": null,
+        "adp": 662.0
+      },
+      "12967": {
+        "proj": null,
+        "adp": null
+      },
+      "12966": {
+        "proj": null,
+        "adp": 680.0
+      },
+      "12965": {
+        "proj": null,
+        "adp": 576.0
+      },
+      "12963": {
+        "proj": null,
+        "adp": null
+      },
+      "12959": {
+        "proj": null,
+        "adp": null
+      },
+      "12954": {
+        "proj": null,
+        "adp": 657.3
+      },
+      "12953": {
+        "proj": null,
+        "adp": null
+      },
+      "12950": {
+        "proj": null,
+        "adp": null
+      },
+      "12946": {
+        "proj": null,
+        "adp": null
+      },
+      "12941": {
+        "proj": null,
+        "adp": null
+      },
+      "12940": {
+        "proj": null,
+        "adp": null
+      },
+      "12939": {
+        "proj": null,
+        "adp": null
+      },
+      "12938": {
+        "proj": null,
+        "adp": 560.0
+      },
+      "12935": {
+        "proj": null,
+        "adp": null
+      },
+      "12933": {
+        "proj": null,
+        "adp": null
+      },
+      "12928": {
+        "proj": null,
+        "adp": 453.8
+      },
+      "12925": {
+        "proj": null,
+        "adp": null
+      },
+      "12913": {
+        "proj": null,
+        "adp": null
+      },
+      "12909": {
+        "proj": null,
+        "adp": null
+      },
+      "12908": {
+        "proj": null,
+        "adp": null
+      },
+      "12907": {
+        "proj": null,
+        "adp": null
+      },
+      "12906": {
+        "proj": null,
+        "adp": null
+      },
+      "12905": {
+        "proj": null,
+        "adp": null
+      },
+      "12901": {
+        "proj": null,
+        "adp": 581.5
+      },
+      "1290": {
+        "proj": null,
+        "adp": null
+      },
+      "12898": {
+        "proj": null,
+        "adp": null
+      },
+      "12897": {
+        "proj": null,
+        "adp": null
+      },
+      "12893": {
+        "proj": null,
+        "adp": null
+      },
+      "12892": {
+        "proj": null,
+        "adp": 491.0
+      },
+      "12891": {
+        "proj": null,
+        "adp": null
+      },
+      "12889": {
+        "proj": null,
+        "adp": null
+      },
+      "12888": {
+        "proj": null,
+        "adp": null
+      },
+      "12884": {
+        "proj": null,
+        "adp": null
+      },
+      "12883": {
+        "proj": null,
+        "adp": null
+      },
+      "12880": {
+        "proj": null,
+        "adp": null
+      },
+      "1287": {
+        "proj": null,
+        "adp": 587.3
+      },
+      "12868": {
+        "proj": null,
+        "adp": null
+      },
+      "12866": {
+        "proj": null,
+        "adp": null
+      },
+      "12865": {
+        "proj": null,
+        "adp": null
+      },
+      "12863": {
+        "proj": null,
+        "adp": null
+      },
+      "12859": {
+        "proj": null,
+        "adp": null
+      },
+      "12852": {
+        "proj": null,
+        "adp": null
+      },
+      "12851": {
+        "proj": null,
+        "adp": null
+      },
+      "12850": {
+        "proj": null,
+        "adp": null
+      },
+      "12849": {
+        "proj": null,
+        "adp": null
+      },
+      "12848": {
+        "proj": null,
+        "adp": 601.0
+      },
+      "12834": {
+        "proj": null,
+        "adp": null
+      },
+      "12832": {
+        "proj": null,
+        "adp": null
+      },
+      "12831": {
+        "proj": null,
+        "adp": null
+      },
+      "12829": {
+        "proj": null,
+        "adp": null
+      },
+      "12826": {
+        "proj": null,
+        "adp": null
+      },
+      "12824": {
+        "proj": null,
+        "adp": 266.0
+      },
+      "12820": {
+        "proj": null,
+        "adp": null
+      },
+      "12818": {
+        "proj": null,
+        "adp": null
+      },
+      "12817": {
+        "proj": null,
+        "adp": 487.2
+      },
+      "12815": {
+        "proj": null,
+        "adp": null
+      },
+      "12810": {
+        "proj": null,
+        "adp": null
+      },
+      "12809": {
+        "proj": null,
+        "adp": null
+      },
+      "12803": {
+        "proj": null,
+        "adp": null
+      },
+      "12800": {
+        "proj": null,
+        "adp": null
+      },
+      "12799": {
+        "proj": null,
+        "adp": null
+      },
+      "12797": {
+        "proj": null,
+        "adp": null
+      },
+      "12792": {
+        "proj": null,
+        "adp": null
+      },
+      "12791": {
+        "proj": null,
+        "adp": 452.0
+      },
+      "12788": {
+        "proj": null,
+        "adp": 499.8
+      },
+      "12787": {
+        "proj": null,
+        "adp": 663.0
+      },
+      "12786": {
+        "proj": null,
+        "adp": 500.0
+      },
+      "12778": {
+        "proj": null,
+        "adp": null
+      },
+      "12777": {
+        "proj": null,
+        "adp": null
+      },
+      "12776": {
+        "proj": null,
+        "adp": null
+      },
+      "12775": {
+        "proj": null,
+        "adp": 620.8
+      },
+      "12773": {
+        "proj": null,
+        "adp": 693.5
+      },
+      "12772": {
+        "proj": null,
+        "adp": null
+      },
+      "12765": {
+        "proj": null,
+        "adp": null
+      },
+      "12762": {
+        "proj": null,
+        "adp": 543.0
+      },
+      "12761": {
+        "proj": null,
+        "adp": null
+      },
+      "12760": {
+        "proj": null,
+        "adp": null
+      },
+      "12757": {
+        "proj": null,
+        "adp": null
+      },
+      "12756": {
+        "proj": null,
+        "adp": null
+      },
+      "12755": {
+        "proj": null,
+        "adp": null
+      },
+      "12753": {
+        "proj": null,
+        "adp": null
+      },
+      "12750": {
+        "proj": null,
+        "adp": 424.0
+      },
+      "12746": {
+        "proj": null,
+        "adp": null
+      },
+      "12743": {
+        "proj": null,
+        "adp": 268.0
+      },
+      "12735": {
+        "proj": null,
+        "adp": null
+      },
+      "12732": {
+        "proj": null,
+        "adp": 354.0
+      },
+      "1273": {
+        "proj": null,
+        "adp": null
+      },
+      "12725": {
+        "proj": null,
+        "adp": null
+      },
+      "12721": {
+        "proj": null,
+        "adp": null
+      },
+      "12715": {
+        "proj": null,
+        "adp": null
+      },
+      "12705": {
+        "proj": null,
+        "adp": 586.0
+      },
+      "12700": {
+        "proj": null,
+        "adp": null
+      },
+      "127": {
+        "proj": null,
+        "adp": 388.0
+      },
+      "12690": {
+        "proj": null,
+        "adp": 467.7
+      },
+      "12688": {
+        "proj": null,
+        "adp": null
+      },
+      "1266": {
+        "proj": null,
+        "adp": 686.0
+      },
+      "12656": {
+        "proj": null,
+        "adp": null
+      },
+      "1264": {
+        "proj": null,
+        "adp": 628.5
+      },
+      "1262": {
+        "proj": null,
+        "adp": null
+      },
+      "12551": {
+        "proj": null,
+        "adp": null
+      },
+      "12549": {
+        "proj": null,
+        "adp": null
+      },
+      "12546": {
+        "proj": null,
+        "adp": null
+      },
+      "12538": {
+        "proj": null,
+        "adp": 673.0
+      },
+      "12532": {
+        "proj": null,
+        "adp": 689.5
+      },
+      "12528": {
+        "proj": null,
+        "adp": null
+      },
+      "12494": {
+        "proj": null,
+        "adp": null
+      },
+      "12491": {
+        "proj": null,
+        "adp": 272.0
+      },
+      "12488": {
+        "proj": null,
+        "adp": null
+      },
+      "12484": {
+        "proj": null,
+        "adp": 199.7
+      },
+      "12480": {
+        "proj": null,
+        "adp": null
+      },
+      "12479": {
+        "proj": null,
+        "adp": null
+      },
+      "12478": {
+        "proj": null,
+        "adp": null
+      },
+      "12477": {
+        "proj": null,
+        "adp": 692.5
+      },
+      "12460": {
+        "proj": null,
+        "adp": null
+      },
+      "12453": {
+        "proj": null,
+        "adp": null
+      },
+      "12443": {
+        "proj": null,
+        "adp": null
+      },
+      "1244": {
+        "proj": null,
+        "adp": 652.8
+      },
+      "12438": {
+        "proj": null,
+        "adp": 664.0
+      },
+      "12435": {
+        "proj": null,
+        "adp": 459.7
+      },
+      "12434": {
+        "proj": null,
+        "adp": null
+      },
+      "12433": {
+        "proj": null,
+        "adp": null
+      },
+      "12431": {
+        "proj": null,
+        "adp": null
+      },
+      "12421": {
+        "proj": null,
+        "adp": null
+      },
+      "12413": {
+        "proj": null,
+        "adp": null
+      },
+      "12412": {
+        "proj": null,
+        "adp": null
+      },
+      "12410": {
+        "proj": null,
+        "adp": null
+      },
+      "12408": {
+        "proj": null,
+        "adp": null
+      },
+      "12404": {
+        "proj": null,
+        "adp": 426.3
+      },
+      "12403": {
+        "proj": null,
+        "adp": 340.3
+      },
+      "12402": {
+        "proj": null,
+        "adp": null
+      },
+      "12399": {
+        "proj": null,
+        "adp": null
+      },
+      "12398": {
+        "proj": null,
+        "adp": null
+      },
+      "12395": {
+        "proj": null,
+        "adp": null
+      },
+      "12392": {
+        "proj": null,
+        "adp": null
+      },
+      "12389": {
+        "proj": null,
+        "adp": null
+      },
+      "12385": {
+        "proj": null,
+        "adp": 681.5
+      },
+      "12383": {
+        "proj": null,
+        "adp": null
+      },
+      "12374": {
+        "proj": null,
+        "adp": null
+      },
+      "12373": {
+        "proj": null,
+        "adp": null
+      },
+      "12372": {
+        "proj": null,
+        "adp": 695.5
+      },
+      "12370": {
+        "proj": null,
+        "adp": 330.0
+      },
+      "12363": {
+        "proj": null,
+        "adp": null
+      },
+      "12361": {
+        "proj": null,
+        "adp": null
+      },
+      "12360": {
+        "proj": null,
+        "adp": null
+      },
+      "12357": {
+        "proj": null,
+        "adp": null
+      },
+      "12356": {
+        "proj": null,
+        "adp": null
+      },
+      "12355": {
+        "proj": null,
+        "adp": 327.5
+      },
+      "12354": {
+        "proj": null,
+        "adp": null
+      },
+      "12352": {
+        "proj": null,
+        "adp": null
+      },
+      "12350": {
+        "proj": null,
+        "adp": null
+      },
+      "12341": {
+        "proj": null,
+        "adp": null
+      },
+      "12340": {
+        "proj": null,
+        "adp": null
+      },
+      "1234": {
+        "proj": null,
+        "adp": 662.3
+      },
+      "12333": {
+        "proj": null,
+        "adp": null
+      },
+      "12324": {
+        "proj": null,
+        "adp": null
+      },
+      "12320": {
+        "proj": null,
+        "adp": null
+      },
+      "1232": {
+        "proj": null,
+        "adp": null
+      },
+      "12314": {
+        "proj": null,
+        "adp": null
+      },
+      "12312": {
+        "proj": null,
+        "adp": 650.4
+      },
+      "12311": {
+        "proj": null,
+        "adp": 533.4
+      },
+      "12308": {
+        "proj": null,
+        "adp": null
+      },
+      "12306": {
+        "proj": null,
+        "adp": null
+      },
+      "12300": {
+        "proj": null,
+        "adp": null
+      },
+      "12296": {
+        "proj": null,
+        "adp": null
+      },
+      "12291": {
+        "proj": null,
+        "adp": null
+      },
+      "12288": {
+        "proj": null,
+        "adp": null
+      },
+      "12285": {
+        "proj": null,
+        "adp": null
+      },
+      "12284": {
+        "proj": null,
+        "adp": null
+      },
+      "12283": {
+        "proj": null,
+        "adp": null
+      },
+      "12281": {
+        "proj": null,
+        "adp": null
+      },
+      "12278": {
+        "proj": null,
+        "adp": null
+      },
+      "12277": {
+        "proj": null,
+        "adp": null
+      },
+      "12276": {
+        "proj": null,
+        "adp": null
+      },
+      "12270": {
+        "proj": null,
+        "adp": null
+      },
+      "12268": {
+        "proj": null,
+        "adp": null
+      },
+      "12267": {
+        "proj": null,
+        "adp": null
+      },
+      "12264": {
+        "proj": null,
+        "adp": null
+      },
+      "12260": {
+        "proj": null,
+        "adp": null
+      },
+      "12259": {
+        "proj": null,
+        "adp": null
+      },
+      "12256": {
+        "proj": null,
+        "adp": null
+      },
+      "12254": {
+        "proj": null,
+        "adp": null
+      },
+      "12250": {
+        "proj": null,
+        "adp": null
+      },
+      "12246": {
+        "proj": null,
+        "adp": null
+      },
+      "12245": {
+        "proj": null,
+        "adp": 442.0
+      },
+      "12244": {
+        "proj": null,
+        "adp": null
+      },
+      "12239": {
+        "proj": null,
+        "adp": 690.0
+      },
+      "12237": {
+        "proj": null,
+        "adp": 315.0
+      },
+      "12235": {
+        "proj": null,
+        "adp": null
+      },
+      "12231": {
+        "proj": null,
+        "adp": null
+      },
+      "1223": {
+        "proj": null,
+        "adp": null
+      },
+      "12226": {
+        "proj": null,
+        "adp": null
+      },
+      "12224": {
+        "proj": null,
+        "adp": 519.0
+      },
+      "12222": {
+        "proj": null,
+        "adp": null
+      },
+      "12220": {
+        "proj": null,
+        "adp": null
+      },
+      "12218": {
+        "proj": null,
+        "adp": null
+      },
+      "12217": {
+        "proj": null,
+        "adp": 698.2
+      },
+      "12215": {
+        "proj": null,
+        "adp": null
+      },
+      "12212": {
+        "proj": null,
+        "adp": null
+      },
+      "12210": {
+        "proj": null,
+        "adp": 479.0
+      },
+      "12198": {
+        "proj": null,
+        "adp": null
+      },
+      "12197": {
+        "proj": null,
+        "adp": 517.0
+      },
+      "12191": {
+        "proj": null,
+        "adp": null
+      },
+      "12190": {
+        "proj": null,
+        "adp": null
+      },
+      "12189": {
+        "proj": null,
+        "adp": 551.7
+      },
+      "12188": {
+        "proj": null,
+        "adp": null
+      },
+      "12187": {
+        "proj": null,
+        "adp": 365.0
+      },
+      "12185": {
+        "proj": null,
+        "adp": 680.0
+      },
+      "12180": {
+        "proj": null,
+        "adp": 649.9
+      },
+      "12173": {
+        "proj": null,
+        "adp": null
+      },
+      "12171": {
+        "proj": null,
+        "adp": 668.9
+      },
+      "12170": {
+        "proj": null,
+        "adp": null
+      },
+      "12169": {
+        "proj": null,
+        "adp": null
+      },
+      "12168": {
+        "proj": null,
+        "adp": null
+      },
+      "12166": {
+        "proj": null,
+        "adp": null
+      },
+      "12165": {
+        "proj": null,
+        "adp": 503.2
+      },
+      "12156": {
+        "proj": null,
+        "adp": 648.0
+      },
+      "12154": {
+        "proj": null,
+        "adp": null
+      },
+      "12151": {
+        "proj": null,
+        "adp": null
+      },
+      "12150": {
+        "proj": null,
+        "adp": null
+      },
+      "1215": {
+        "proj": null,
+        "adp": null
+      },
+      "12149": {
+        "proj": null,
+        "adp": null
+      },
+      "12144": {
+        "proj": null,
+        "adp": null
+      },
+      "12135": {
+        "proj": null,
+        "adp": null
+      },
+      "12134": {
+        "proj": null,
+        "adp": null
+      },
+      "12133": {
+        "proj": null,
+        "adp": null
+      },
+      "12129": {
+        "proj": null,
+        "adp": null
+      },
+      "12126": {
+        "proj": null,
+        "adp": 296.0
+      },
+      "12121": {
+        "proj": null,
+        "adp": null
+      },
+      "12118": {
+        "proj": null,
+        "adp": 665.3
+      },
+      "12114": {
+        "proj": null,
+        "adp": null
+      },
+      "12113": {
+        "proj": null,
+        "adp": null
+      },
+      "12112": {
+        "proj": null,
+        "adp": 699.5
+      },
+      "1211": {
+        "proj": null,
+        "adp": 286.7
+      },
+      "12107": {
+        "proj": null,
+        "adp": null
+      },
+      "12100": {
+        "proj": null,
+        "adp": null
+      },
+      "12097": {
+        "proj": null,
+        "adp": null
+      },
+      "12095": {
+        "proj": null,
+        "adp": null
+      },
+      "12093": {
+        "proj": null,
+        "adp": null
+      },
+      "12090": {
+        "proj": null,
+        "adp": null
+      },
+      "12086": {
+        "proj": null,
+        "adp": null
+      },
+      "12085": {
+        "proj": null,
+        "adp": null
+      },
+      "12080": {
+        "proj": null,
+        "adp": null
+      },
+      "12079": {
+        "proj": null,
+        "adp": null
+      },
+      "12077": {
+        "proj": null,
+        "adp": null
+      },
+      "12074": {
+        "proj": null,
+        "adp": null
+      },
+      "12070": {
+        "proj": null,
+        "adp": null
+      },
+      "12068": {
+        "proj": null,
+        "adp": null
+      },
+      "12066": {
+        "proj": null,
+        "adp": null
+      },
+      "12063": {
+        "proj": null,
+        "adp": 555.0
+      },
+      "12062": {
+        "proj": null,
+        "adp": null
+      },
+      "12061": {
+        "proj": null,
+        "adp": null
+      },
+      "12046": {
+        "proj": null,
+        "adp": null
+      },
+      "12045": {
+        "proj": null,
+        "adp": null
+      },
+      "12039": {
+        "proj": null,
+        "adp": 494.8
+      },
+      "12036": {
+        "proj": null,
+        "adp": null
+      },
+      "12033": {
+        "proj": null,
+        "adp": null
+      },
+      "12029": {
+        "proj": null,
+        "adp": null
+      },
+      "12028": {
+        "proj": null,
+        "adp": null
+      },
+      "12026": {
+        "proj": null,
+        "adp": null
+      },
+      "12019": {
+        "proj": null,
+        "adp": null
+      },
+      "12018": {
+        "proj": null,
+        "adp": null
+      },
+      "12013": {
+        "proj": null,
+        "adp": null
+      },
+      "12009": {
+        "proj": null,
+        "adp": 366.0
+      },
+      "12007": {
+        "proj": null,
+        "adp": null
+      },
+      "12003": {
+        "proj": null,
+        "adp": 392.0
+      },
+      "12001": {
+        "proj": null,
+        "adp": null
+      },
+      "120": {
+        "proj": null,
+        "adp": 654.1
+      },
+      "11998": {
+        "proj": null,
+        "adp": null
+      },
+      "11995": {
+        "proj": null,
+        "adp": 615.8
+      },
+      "11989": {
+        "proj": null,
+        "adp": null
+      },
+      "11982": {
+        "proj": null,
+        "adp": null
+      },
+      "11975": {
+        "proj": null,
+        "adp": null
+      },
+      "11969": {
+        "proj": null,
+        "adp": null
+      },
+      "11964": {
+        "proj": null,
+        "adp": 469.4
+      },
+      "11963": {
+        "proj": null,
+        "adp": 537.7
+      },
+      "11962": {
+        "proj": null,
+        "adp": null
+      },
+      "11961": {
+        "proj": null,
+        "adp": 672.0
+      },
+      "11960": {
+        "proj": null,
+        "adp": 628.0
+      },
+      "11959": {
+        "proj": null,
+        "adp": null
+      },
+      "11957": {
+        "proj": null,
+        "adp": null
+      },
+      "11949": {
+        "proj": null,
+        "adp": 694.5
+      },
+      "11947": {
+        "proj": null,
+        "adp": 629.9
+      },
+      "11946": {
+        "proj": null,
+        "adp": null
+      },
+      "11943": {
+        "proj": null,
+        "adp": null
+      },
+      "11942": {
+        "proj": null,
+        "adp": 678.1
+      },
+      "11941": {
+        "proj": null,
+        "adp": null
+      },
+      "11940": {
+        "proj": null,
+        "adp": null
+      },
+      "11932": {
+        "proj": null,
+        "adp": 664.5
+      },
+      "11931": {
+        "proj": null,
+        "adp": 280.0
+      },
+      "11925": {
+        "proj": null,
+        "adp": 682.8
+      },
+      "11924": {
+        "proj": null,
+        "adp": 501.0
+      },
+      "11918": {
+        "proj": null,
+        "adp": 686.0
+      },
+      "11913": {
+        "proj": null,
+        "adp": null
+      },
+      "11911": {
+        "proj": null,
+        "adp": 495.8
+      },
+      "11906": {
+        "proj": null,
+        "adp": null
+      },
+      "11901": {
+        "proj": null,
+        "adp": null
+      },
+      "11900": {
+        "proj": null,
+        "adp": null
+      },
+      "11897": {
+        "proj": null,
+        "adp": null
+      },
+      "11895": {
+        "proj": null,
+        "adp": null
+      },
+      "11886": {
+        "proj": null,
+        "adp": null
+      },
+      "11885": {
+        "proj": null,
+        "adp": null
+      },
+      "11874": {
+        "proj": null,
+        "adp": null
+      },
+      "11867": {
+        "proj": null,
+        "adp": null
+      },
+      "11864": {
+        "proj": null,
+        "adp": null
+      },
+      "11863": {
+        "proj": null,
+        "adp": null
+      },
+      "11862": {
+        "proj": null,
+        "adp": null
+      },
+      "11859": {
+        "proj": null,
+        "adp": 294.0
+      },
+      "11857": {
+        "proj": null,
+        "adp": null
+      },
+      "11851": {
+        "proj": null,
+        "adp": 278.0
+      },
+      "11850": {
+        "proj": null,
+        "adp": null
+      },
+      "11848": {
+        "proj": null,
+        "adp": 448.0
+      },
+      "11821": {
+        "proj": null,
+        "adp": 657.4
+      },
+      "11815": {
+        "proj": null,
+        "adp": null
+      },
+      "11808": {
+        "proj": null,
+        "adp": null
+      },
+      "11806": {
+        "proj": null,
+        "adp": null
+      },
+      "11802": {
+        "proj": null,
+        "adp": null
+      },
+      "11789": {
+        "proj": null,
+        "adp": 668.8
+      },
+      "11773": {
+        "proj": null,
+        "adp": null
+      },
+      "11748": {
+        "proj": null,
+        "adp": 663.0
+      },
+      "1170": {
+        "proj": null,
+        "adp": 629.9
+      },
+      "1169": {
+        "proj": null,
+        "adp": 663.3
+      },
+      "11654": {
+        "proj": null,
+        "adp": null
+      },
+      "11652": {
+        "proj": null,
+        "adp": null
+      },
+      "11649": {
+        "proj": null,
+        "adp": 657.0
+      },
+      "11648": {
+        "proj": null,
+        "adp": 590.6
+      },
+      "11645": {
+        "proj": null,
+        "adp": 483.3
+      },
+      "11644": {
+        "proj": null,
+        "adp": 636.5
+      },
+      "11638": {
+        "proj": null,
+        "adp": 693.0
+      },
+      "11636": {
+        "proj": null,
+        "adp": 478.0
+      },
+      "11633": {
+        "proj": null,
+        "adp": null
+      },
+      "11621": {
+        "proj": null,
+        "adp": 335.7
+      },
+      "11619": {
+        "proj": null,
+        "adp": null
+      },
+      "11615": {
+        "proj": null,
+        "adp": null
+      },
+      "11607": {
+        "proj": null,
+        "adp": null
+      },
+      "11605": {
+        "proj": null,
+        "adp": 442.0
+      },
+      "11601": {
+        "proj": null,
+        "adp": 514.8
+      },
+      "11598": {
+        "proj": null,
+        "adp": 667.0
+      },
+      "11595": {
+        "proj": null,
+        "adp": 435.0
+      },
+      "11592": {
+        "proj": null,
+        "adp": 565.3
+      },
+      "11590": {
+        "proj": null,
+        "adp": null
+      },
+      "11589": {
+        "proj": null,
+        "adp": 263.6
+      },
+      "11582": {
+        "proj": null,
+        "adp": 383.3
+      },
+      "11580": {
+        "proj": null,
+        "adp": null
+      },
+      "11573": {
+        "proj": null,
+        "adp": 674.3
+      },
+      "11568": {
+        "proj": null,
+        "adp": null
+      },
+      "11567": {
+        "proj": null,
+        "adp": 607.2
+      },
+      "11561": {
+        "proj": null,
+        "adp": 683.2
+      },
+      "11558": {
+        "proj": null,
+        "adp": 690.1
+      },
+      "11556": {
+        "proj": null,
+        "adp": 328.0
+      },
+      "11554": {
+        "proj": null,
+        "adp": null
+      },
+      "11548": {
+        "proj": null,
+        "adp": null
+      },
+      "11544": {
+        "proj": null,
+        "adp": null
+      },
+      "11543": {
+        "proj": null,
+        "adp": null
+      },
+      "11540": {
+        "proj": null,
+        "adp": 290.5
+      },
+      "11538": {
+        "proj": null,
+        "adp": null
+      },
+      "11537": {
+        "proj": null,
+        "adp": 372.0
+      },
+      "11536": {
+        "proj": null,
+        "adp": null
+      },
+      "11532": {
+        "proj": null,
+        "adp": 622.0
+      },
+      "11530": {
+        "proj": null,
+        "adp": null
+      },
+      "11529": {
+        "proj": null,
+        "adp": 287.0
+      },
+      "11528": {
+        "proj": null,
+        "adp": null
+      },
+      "11526": {
+        "proj": null,
+        "adp": null
+      },
+      "11524": {
+        "proj": null,
+        "adp": 556.0
+      },
+      "11523": {
+        "proj": null,
+        "adp": null
+      },
+      "11522": {
+        "proj": null,
+        "adp": null
+      },
+      "11521": {
+        "proj": null,
+        "adp": null
+      },
+      "11520": {
+        "proj": null,
+        "adp": 619.9
+      },
+      "11511": {
+        "proj": null,
+        "adp": 441.0
+      },
+      "11508": {
+        "proj": null,
+        "adp": 436.0
+      },
+      "11506": {
+        "proj": null,
+        "adp": 699.8
+      },
+      "11505": {
+        "proj": null,
+        "adp": null
+      },
+      "11504": {
+        "proj": null,
+        "adp": null
+      },
+      "11502": {
+        "proj": null,
+        "adp": 677.8
+      },
+      "11496": {
+        "proj": null,
+        "adp": null
+      },
+      "11495": {
+        "proj": null,
+        "adp": null
+      },
+      "11493": {
+        "proj": null,
+        "adp": null
+      },
+      "11491": {
+        "proj": null,
+        "adp": 605.5
+      },
+      "1149": {
+        "proj": null,
+        "adp": 651.2
+      },
+      "11486": {
+        "proj": null,
+        "adp": null
+      },
+      "11483": {
+        "proj": null,
+        "adp": null
+      },
+      "11478": {
+        "proj": null,
+        "adp": null
+      },
+      "11474": {
+        "proj": null,
+        "adp": null
+      },
+      "11472": {
+        "proj": null,
+        "adp": null
+      },
+      "11467": {
+        "proj": null,
+        "adp": 337.0
+      },
+      "11457": {
+        "proj": null,
+        "adp": 689.0
+      },
+      "11456": {
+        "proj": null,
+        "adp": null
+      },
+      "11452": {
+        "proj": null,
+        "adp": null
+      },
+      "11447": {
+        "proj": null,
+        "adp": 332.0
+      },
+      "11445": {
+        "proj": null,
+        "adp": null
+      },
+      "1144": {
+        "proj": null,
+        "adp": 423.0
+      },
+      "11438": {
+        "proj": null,
+        "adp": null
+      },
+      "11431": {
+        "proj": null,
+        "adp": null
+      },
+      "11421": {
+        "proj": null,
+        "adp": null
+      },
+      "11419": {
+        "proj": null,
+        "adp": null
+      },
+      "11418": {
+        "proj": null,
+        "adp": null
+      },
+      "11415": {
+        "proj": null,
+        "adp": 398.0
+      },
+      "11413": {
+        "proj": null,
+        "adp": null
+      },
+      "11410": {
+        "proj": null,
+        "adp": 557.2
+      },
+      "11388": {
+        "proj": null,
+        "adp": 664.5
+      },
+      "11387": {
+        "proj": null,
+        "adp": null
+      },
+      "11385": {
+        "proj": null,
+        "adp": 257.3
+      },
+      "11384": {
+        "proj": null,
+        "adp": null
+      },
+      "11382": {
+        "proj": null,
+        "adp": null
+      },
+      "11381": {
+        "proj": null,
+        "adp": 457.8
+      },
+      "11380": {
+        "proj": null,
+        "adp": 528.3
+      },
+      "11378": {
+        "proj": null,
+        "adp": null
+      },
+      "11374": {
+        "proj": null,
+        "adp": 626.5
+      },
+      "11367": {
+        "proj": null,
+        "adp": null
+      },
+      "11366": {
+        "proj": null,
+        "adp": null
+      },
+      "11359": {
+        "proj": null,
+        "adp": null
+      },
+      "11357": {
+        "proj": null,
+        "adp": null
+      },
+      "11351": {
+        "proj": null,
+        "adp": 434.0
+      },
+      "11347": {
+        "proj": null,
+        "adp": null
+      },
+      "11344": {
+        "proj": null,
+        "adp": null
+      },
+      "11329": {
+        "proj": null,
+        "adp": null
+      },
+      "11312": {
+        "proj": null,
+        "adp": null
+      },
+      "11311": {
+        "proj": null,
+        "adp": null
+      },
+      "11306": {
+        "proj": null,
+        "adp": null
+      },
+      "11304": {
+        "proj": null,
+        "adp": 316.3
+      },
+      "11301": {
+        "proj": null,
+        "adp": null
+      },
+      "11298": {
+        "proj": null,
+        "adp": 259.0
+      },
+      "11284": {
+        "proj": null,
+        "adp": null
+      },
+      "11283": {
+        "proj": null,
+        "adp": null
+      },
+      "11282": {
+        "proj": null,
+        "adp": null
+      },
+      "11280": {
+        "proj": null,
+        "adp": 540.9
+      },
+      "11276": {
+        "proj": null,
+        "adp": null
+      },
+      "11270": {
+        "proj": null,
+        "adp": null
+      },
+      "11267": {
+        "proj": null,
+        "adp": 618.6
+      },
+      "11266": {
+        "proj": null,
+        "adp": 620.0
+      },
+      "11262": {
+        "proj": null,
+        "adp": 510.3
+      },
+      "11260": {
+        "proj": null,
+        "adp": null
+      },
+      "11257": {
+        "proj": null,
+        "adp": null
+      },
+      "11249": {
+        "proj": null,
+        "adp": 263.0
+      },
+      "11247": {
+        "proj": null,
+        "adp": 690.0
+      },
+      "11245": {
+        "proj": null,
+        "adp": 343.5
+      },
+      "11237": {
+        "proj": null,
+        "adp": 674.5
+      },
+      "11232": {
+        "proj": null,
+        "adp": null
+      },
+      "11231": {
+        "proj": null,
+        "adp": 509.3
+      },
+      "11229": {
+        "proj": null,
+        "adp": 262.0
+      },
+      "11226": {
+        "proj": null,
+        "adp": null
+      },
+      "11225": {
+        "proj": null,
+        "adp": 304.0
+      },
+      "11224": {
+        "proj": null,
+        "adp": 353.0
+      },
+      "11223": {
+        "proj": null,
+        "adp": null
+      },
+      "11222": {
+        "proj": null,
+        "adp": 255.0
+      },
+      "11216": {
+        "proj": null,
+        "adp": 683.5
+      },
+      "11214": {
+        "proj": null,
+        "adp": 683.8
+      },
+      "11213": {
+        "proj": null,
+        "adp": 615.5
+      },
+      "11210": {
+        "proj": null,
+        "adp": null
+      },
+      "11209": {
+        "proj": null,
+        "adp": 254.0
+      },
+      "11204": {
+        "proj": null,
+        "adp": null
+      },
+      "11197": {
+        "proj": null,
+        "adp": 554.8
+      },
+      "11192": {
+        "proj": null,
+        "adp": 622.9
+      },
+      "11191": {
+        "proj": null,
+        "adp": null
+      },
+      "11190": {
+        "proj": null,
+        "adp": null
+      },
+      "11189": {
+        "proj": null,
+        "adp": 670.2
+      },
+      "11186": {
+        "proj": null,
+        "adp": 677.8
+      },
+      "11184": {
+        "proj": null,
+        "adp": null
+      },
+      "11182": {
+        "proj": null,
+        "adp": 612.9
+      },
+      "11176": {
+        "proj": null,
+        "adp": 699.3
+      },
+      "11174": {
+        "proj": null,
+        "adp": 610.5
+      },
+      "11172": {
+        "proj": null,
+        "adp": 248.0
+      },
+      "11169": {
+        "proj": null,
+        "adp": 661.0
+      },
+      "11163": {
+        "proj": null,
+        "adp": 655.0
+      },
+      "11159": {
+        "proj": null,
+        "adp": 293.5
+      },
+      "11158": {
+        "proj": null,
+        "adp": 255.5
+      },
+      "11157": {
+        "proj": null,
+        "adp": 367.4
+      },
+      "11155": {
+        "proj": null,
+        "adp": 415.8
+      },
+      "11148": {
+        "proj": null,
+        "adp": 492.5
+      },
+      "11146": {
+        "proj": null,
+        "adp": 654.7
+      },
+      "11145": {
+        "proj": null,
+        "adp": 658.0
+      },
+      "11140": {
+        "proj": null,
+        "adp": 564.3
+      },
+      "11139": {
+        "proj": null,
+        "adp": 498.0
+      },
+      "11136": {
+        "proj": null,
+        "adp": 566.0
+      },
+      "11133": {
+        "proj": null,
+        "adp": 609.0
+      },
+      "11130": {
+        "proj": null,
+        "adp": 493.0
+      },
+      "11126": {
+        "proj": null,
+        "adp": 590.5
+      },
+      "11123": {
+        "proj": null,
+        "adp": 557.0
+      },
+      "11115": {
+        "proj": null,
+        "adp": 658.2
+      },
+      "11114": {
+        "proj": null,
+        "adp": 445.0
+      },
+      "11113": {
+        "proj": null,
+        "adp": 314.0
+      },
+      "11111": {
+        "proj": null,
+        "adp": 347.0
+      },
+      "11105": {
+        "proj": null,
+        "adp": 550.6
+      },
+      "11104": {
+        "proj": null,
+        "adp": 692.4
+      },
+      "11102": {
+        "proj": null,
+        "adp": 431.5
+      },
+      "1110": {
+        "proj": null,
+        "adp": 461.4
+      },
+      "111": {
+        "proj": null,
+        "adp": 700.0
+      },
+      "11099": {
+        "proj": null,
+        "adp": 313.7
+      },
+      "11092": {
+        "proj": null,
+        "adp": 666.0
+      },
+      "11089": {
+        "proj": null,
+        "adp": 350.4
+      },
+      "11088": {
+        "proj": null,
+        "adp": 644.5
+      },
+      "11082": {
+        "proj": null,
+        "adp": 284.3
+      },
+      "11081": {
+        "proj": null,
+        "adp": 682.5
+      },
+      "11080": {
+        "proj": null,
+        "adp": 291.7
+      },
+      "11077": {
+        "proj": null,
+        "adp": 653.0
+      },
+      "11073": {
+        "proj": null,
+        "adp": 677.0
+      },
+      "11070": {
+        "proj": null,
+        "adp": 669.5
+      },
+      "11068": {
+        "proj": null,
+        "adp": 607.9
+      },
+      "11065": {
+        "proj": null,
+        "adp": 603.0
+      },
+      "11060": {
+        "proj": null,
+        "adp": 579.0
+      },
+      "11056": {
+        "proj": null,
+        "adp": 675.0
+      },
+      "11053": {
+        "proj": null,
+        "adp": 662.0
+      },
+      "11046": {
+        "proj": null,
+        "adp": 476.3
+      },
+      "11024": {
+        "proj": null,
+        "adp": 629.2
+      },
+      "11008": {
+        "proj": null,
+        "adp": 687.5
+      },
+      "110": {
+        "proj": null,
+        "adp": 682.1
+      },
+      "1099": {
+        "proj": null,
+        "adp": 661.0
+      },
+      "10983": {
+        "proj": null,
+        "adp": 618.5
+      },
+      "10870": {
+        "proj": null,
+        "adp": 694.0
+      },
+      "10869": {
+        "proj": null,
+        "adp": 695.0
+      },
+      "10866": {
+        "proj": null,
+        "adp": 580.1
+      },
+      "10865": {
+        "proj": null,
+        "adp": 399.3
+      },
+      "10863": {
+        "proj": null,
+        "adp": 654.0
+      },
+      "10862": {
+        "proj": null,
+        "adp": 572.0
+      },
+      "10861": {
+        "proj": null,
+        "adp": 681.1
+      },
+      "10860": {
+        "proj": null,
+        "adp": 671.5
+      },
+      "10858": {
+        "proj": null,
+        "adp": 687.0
+      },
+      "10857": {
+        "proj": null,
+        "adp": 634.8
+      },
+      "1077": {
+        "proj": null,
+        "adp": 689.0
+      },
+      "1071": {
+        "proj": null,
+        "adp": 641.7
+      },
+      "1067": {
+        "proj": null,
+        "adp": 470.6
+      },
+      "10651": {
+        "proj": null,
+        "adp": 700.3
+      },
+      "1049": {
+        "proj": null,
+        "adp": 631.3
+      },
+      "1048": {
+        "proj": null,
+        "adp": 655.8
+      },
+      "1034": {
+        "proj": null,
+        "adp": 666.7
+      },
+      "1029": {
+        "proj": null,
+        "adp": 639.3
+      },
+      "10233": {
+        "proj": null,
+        "adp": 647.7
+      },
+      "10230": {
+        "proj": null,
+        "adp": 503.0
+      },
+      "10228": {
+        "proj": null,
+        "adp": 659.8
+      },
+      "10225": {
+        "proj": null,
+        "adp": 693.3
+      },
+      "10224": {
+        "proj": null,
+        "adp": 695.5
+      },
+      "10223": {
+        "proj": null,
+        "adp": 658.0
+      },
+      "10221": {
+        "proj": null,
+        "adp": 683.3
+      },
+      "10220": {
+        "proj": null,
+        "adp": 681.4
+      },
+      "10215": {
+        "proj": null,
+        "adp": 659.3
+      },
+      "10211": {
+        "proj": null,
+        "adp": 647.4
+      },
+      "10234": {
+        "proj": -0.9,
+        "adp": 615.3
+      },
+      "6847": {
+        "proj": -1.4,
+        "adp": 636.2
+      }
+    }
+  }
 };
