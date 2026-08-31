@@ -29,5 +29,6 @@ export const api = {
     async getTradedPicks()     { return D.traded_picks || []; },
     async getDivisions()       { return D.divisions || {}; },
     async getPlayerNameMap()   { return D.player_name_map || {}; },
-    async getPlayerValues()    { return D.player_values || {}; },
+    async getPlayerValues(year) { const pv = D.player_values || {}; return (year ? pv[String(year)] : pv) || {}; },
+    async getKeepers(year)     { const k = D.keepers || {}; return (year ? k[String(year)] : k) || {}; },
 };

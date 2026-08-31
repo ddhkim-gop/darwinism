@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=20260630a";
+import { api } from "./dataService.js?v=20260830a";
 import { renderNav } from "./components/nav.js";
 
 const PLAYER_PROFILES = {
@@ -65,6 +65,7 @@ const PLAYER_PROFILES = {
 const PICK_BG = { QB:"#fda4af", RB:"#86efac", WR:"#93c5fd", TE:"#fdba74", K:"#c4b5fd", DEF:"#94a3b8" };
 const PICK_FG = { QB:"#e74c82", RB:"#16a34a", WR:"#2563eb", TE:"#d97706", K:"#7c3aed", DEF:"#475569" };
 
+const CURRENT_DRAFT_YEAR = "2026";
 const CARD_H = 72;
 const COL_W  = 130; // px per team column
 
@@ -412,9 +413,294 @@ function posColorDA(pos) {
     return {QB:"#e74c82",RB:"#3ecf8e",WR:"#4299e1",TE:"#f6ad55",K:"#9f7aea",DEF:"#38b2ac"}[pos] || "#5a6070";
 }
 
+// ── Current-season draft grades (keeper-inclusive) ───────────────────────────
+// A just-finished draft has no retention/results to grade on, so grade it on
+// projected value instead: Sleeper season projections (half-PPR, matching league
+// scoring) for the 15 picks *plus* the 3 free keepers each team carried over.
+
+const STARTER_SLOTS = [["QB",1],["RB",2],["WR",3],["TE",1],["K",1],["DEF",1]];
+const FLEX_POS      = ["RB","WR","TE"];
+// Replacement level = last startable player at each position across 12 teams.
+const REPLACEMENT_RANK = { QB:13, RB:31, WR:43, TE:14, K:13, DEF:13 };
+
+function basePos(p) { return (p || "").split("/")[0].toUpperCase(); }
+
+function gradeLetter(z) {
+    if (z >=  1.15) return { g:"A+", c:"#3ecf8e" };
+    if (z >=  0.70) return { g:"A",  c:"#3ecf8e" };
+    if (z >=  0.35) return { g:"A-", c:"#4ade80" };
+    if (z >=  0.12) return { g:"B+", c:"#a3e635" };
+    if (z >= -0.12) return { g:"B",  c:"#a78bfa" };
+    if (z >= -0.35) return { g:"B-", c:"#c084fc" };
+    if (z >= -0.70) return { g:"C+", c:"#f6ad55" };
+    if (z >= -1.15) return { g:"C",  c:"#fb923c" };
+    return                 { g:"C-", c:"#e74c82" };
+}
+
+function bestLineup(players) {
+    const by = {};
+    players.forEach(x => { const pos = basePos(x.position); (by[pos] = by[pos] || []).push(x); });
+    Object.values(by).forEach(a => a.sort((x, y) => (y.proj || 0) - (x.proj || 0)));
+    const used = new Set();
+    let total = 0;
+    STARTER_SLOTS.forEach(([pos, n]) => {
+        (by[pos] || []).slice(0, n).forEach(x => { total += x.proj || 0; used.add(x); });
+    });
+    const flex = FLEX_POS.flatMap(pos => by[pos] || []).filter(x => !used.has(x))
+                         .sort((a, b) => (b.proj || 0) - (a.proj || 0))[0];
+    if (flex) { total += flex.proj || 0; used.add(flex); }
+    const bench = players.filter(x => !used.has(x));
+    return { starters: total, bench, benchVor: bench.reduce((s, x) => s + (x.vor || 0), 0) };
+}
+
+async function renderCurrentDraftGrades(picks, year) {
+    const el = document.getElementById("draft-analysis");
+    if (!el) return;
+    el.innerHTML = `<div style="color:#5a6070;font-size:13px;">Grading draft…</div>`;
+
+    const [values, keepers, nameMap] = await Promise.all([
+        api.getPlayerValues(year).catch(() => ({})),
+        api.getKeepers(year).catch(() => ({})),
+        api.getPlayerNameMap().catch(() => ({})),
+    ]);
+
+    const val = id => values[id] || {};
+    const teams = [...new Set(picks.map(p => p.picked_by))];
+
+    // ── Build the full pool: 15 picks + 3 keepers per team ───────────────────
+    const pool = [];
+    picks.forEach(p => {
+        const id = nameMap[p.player];
+        pool.push({ id, name:p.player, position:p.position, nfl:p.team, owner:p.picked_by,
+                    pick_no:p.pick_no, round:p.round, keeper:false,
+                    proj: val(id).proj || 0, adp: val(id).adp ?? null });
+    });
+    Object.entries(keepers).forEach(([owner, ks]) => (ks || []).forEach(k => {
+        pool.push({ id:k.player_id, name:k.name, position:k.position, nfl:k.team, owner,
+                    pick_no:0, round:0, keeper:true,
+                    proj: val(k.player_id).proj || 0, adp: val(k.player_id).adp ?? null });
+    }));
+
+    // Replacement level per position, then value over replacement.
+    const byPos = {};
+    pool.forEach(x => { const pos = basePos(x.position); (byPos[pos] = byPos[pos] || []).push(x); });
+    const replacement = {};
+    Object.entries(byPos).forEach(([pos, arr]) => {
+        arr.sort((a, b) => b.proj - a.proj);
+        const idx = Math.min((REPLACEMENT_RANK[pos] || 13) - 1, arr.length - 1);
+        replacement[pos] = arr[idx] ? arr[idx].proj : 0;
+    });
+    // K and DEF are fungible — every team takes exactly one, and the spread between
+    // the best and a waiver-wire replacement is noise. Zero their VOR so they neither
+    // inflate draft efficiency nor show up as "value left on the board".
+    pool.forEach(x => {
+        const pos = basePos(x.position);
+        x.vor = (pos === "K" || pos === "DEF") ? 0
+              : Math.max(0, x.proj - (replacement[pos] || 0));
+    });
+
+    // ── Draft efficiency: VOR taken vs. best VOR still on the board ──────────
+    const drafted = pool.filter(x => !x.keeper).sort((a, b) => a.pick_no - b.pick_no);
+    const board   = new Map(drafted.map(x => [x.id, x]));
+    const eff = {};
+    drafted.forEach(p => {
+        let best = null;
+        board.forEach(x => { if (!best || x.vor > best.vor) best = x; });
+        const e = eff[p.owner] || (eff[p.owner] = { got:0, max:0, misses:[] });
+        e.got += p.vor;
+        e.max += best ? best.vor : 0;
+        if (best && best.id !== p.id && best.vor - p.vor > 15) {
+            e.misses.push({ pick:p, passed:best, gap: best.vor - p.vor });
+        }
+        board.delete(p.id);
+        p.bestAvail = best;
+    });
+
+    // Adjusted board position: redraft ADP with the 36 keepers removed.
+    const keptIds = new Set(pool.filter(x => x.keeper).map(x => x.id));
+    const adpBoard = Object.entries(values)
+        .filter(([id, v]) => v.adp != null && !keptIds.has(id))
+        .sort((a, b) => a[1].adp - b[1].adp);
+    const expSlot = {};
+    adpBoard.forEach(([id], i) => { expSlot[id] = i + 1; });
+    drafted.forEach(p => {
+        p.expSlot = expSlot[p.id] ?? null;
+        // Only trust ADP inside the drafted range — the tail is noise.
+        // Positive = fell past where the keeper-adjusted board expected them (value);
+        // negative = taken ahead of the board (reach).
+        p.slotDelta = (p.expSlot != null && p.expSlot <= 260) ? p.pick_no - p.expSlot : null;
+    });
+
+    // ── Per-team scoring ─────────────────────────────────────────────────────
+    const rows = teams.map(t => {
+        const tPicks   = drafted.filter(x => x.owner === t).sort((a,b) => a.pick_no - b.pick_no);
+        const tKeepers = pool.filter(x => x.keeper && x.owner === t).sort((a,b) => b.proj - a.proj);
+        const roster   = [...tPicks, ...tKeepers];
+        const lineup   = bestLineup(roster);
+        const e        = eff[t] || { got:0, max:1, misses:[] };
+        const withDelta = tPicks.filter(p => p.slotDelta != null);
+        const steal  = withDelta.slice().sort((a,b) => b.slotDelta - a.slotDelta)[0] || null;
+        const reach  = withDelta.slice().sort((a,b) => a.slotDelta - b.slotDelta)[0] || null;
+        const miss   = (e.misses.slice().sort((a,b) => b.gap - a.gap))[0] || null;
+        return {
+            team: t, picks: tPicks, keepers: tKeepers, roster,
+            starters: lineup.starters, benchVor: lineup.benchVor,
+            keeperProj: tKeepers.reduce((s,x) => s + x.proj, 0),
+            pickVor:  tPicks.reduce((s,x) => s + x.vor, 0),
+            efficiency: e.max ? e.got / e.max : 0,
+            steal, reach, miss,
+        };
+    });
+
+    const z = (arr, v) => {
+        const m  = arr.reduce((s,x) => s + x, 0) / arr.length;
+        const sd = Math.sqrt(arr.reduce((s,x) => s + (x-m)*(x-m), 0) / arr.length) || 1;
+        return (v - m) / sd;
+    };
+    const startArr = rows.map(r => r.starters);
+    const effArr   = rows.map(r => r.efficiency);
+    const benchArr = rows.map(r => r.benchVor);
+    rows.forEach(r => {
+        r.zStart = z(startArr, r.starters);
+        r.zEff   = z(effArr,   r.efficiency);
+        r.zBench = z(benchArr, r.benchVor);
+        r.composite = r.zStart * 0.55 + r.zEff * 0.30 + r.zBench * 0.15;
+    });
+    const compArr = rows.map(r => r.composite);
+    rows.forEach(r => {
+        r.grade = gradeLetter(z(compArr, r.composite));
+        r.score = Math.max(0, Math.min(10, Math.round((5.8 + z(compArr, r.composite) * 1.6) * 10) / 10));
+    });
+    rows.sort((a, b) => b.composite - a.composite);
+    rows.forEach((r, i) => { r.rank = i + 1; });
+
+    // ── Narrative ────────────────────────────────────────────────────────────
+    const posName = { QB:"quarterback", RB:"running back", WR:"receiver", TE:"tight end", K:"kicker", DEF:"defense" };
+    function recap(r) {
+        const parts = [];
+        const kNames = r.keepers.map(k => `<strong>${k.name}</strong>`);
+        const kList = kNames.length === 3 ? `${kNames[0]}, ${kNames[1]} and ${kNames[2]}` : kNames.join(" and ");
+        if (kNames.length) {
+            parts.push(`Carried in ${kList} — ${Math.round(r.keeperProj)} projected points kept for free, ` +
+                       `${r.keeperProj >= 700 ? "the kind of head start that makes the draft itself a formality" :
+                          r.keeperProj >= 620 ? "a solid but not overwhelming base" :
+                          "the thinnest keeper trio in the league and a lot of ground to make up"}.`);
+        }
+        const posCount = {};
+        r.picks.forEach(p => { const b = basePos(p.position); posCount[b] = (posCount[b]||0) + 1; });
+        const heavy = Object.entries(posCount).sort((a,b) => b[1]-a[1])[0];
+        const early = r.picks.slice(0, 3).map(p => `<strong>${p.name}</strong> (${basePos(p.position)}, ${p.round}.${String(((p.pick_no-1)%12)+1).padStart(2,"0")})`);
+        if (early.length) parts.push(`Opened the draft with ${early.join(", ")}.`);
+        if (heavy && heavy[1] >= 6) parts.push(`Leaned hard on ${posName[heavy[0]]||heavy[0]} depth with ${heavy[1]} of 15 picks there.`);
+
+        if (r.steal && r.steal.slotDelta >= 12)
+            parts.push(`Best value: <strong>${r.steal.name}</strong> at ${r.steal.pick_no} overall — ${r.steal.slotDelta} slots later than the keeper-adjusted board expected.`);
+        if (r.reach && r.reach.slotDelta <= -20)
+            parts.push(`Biggest reach: <strong>${r.reach.name}</strong> went ${Math.abs(r.reach.slotDelta)} picks ahead of the board at ${r.reach.pick_no}.`);
+        if (r.miss)
+            parts.push(`Left value on the board once — took ${r.miss.pick.name} at ${r.miss.pick.pick_no} with <strong>${r.miss.passed.name}</strong> (+${Math.round(r.miss.gap)} VOR) still there.`);
+
+        parts.push(`<em>Projected starting lineup: ${Math.round(r.starters)} points (${r.rank === 1 ? "best" : r.rank + ordinal(r.rank)} in the league); ` +
+                   `captured ${Math.round(r.efficiency*100)}% of the value available at their picks.</em>`);
+        return parts.join(" ");
+    }
+    function ordinal(n) { return n === 1 ? "st" : n === 2 ? "nd" : n === 3 ? "rd" : "th"; }
+
+    // ── Render ───────────────────────────────────────────────────────────────
+    const chip = (x) => `<span style="display:inline-flex;align-items:center;gap:5px;background:#1e2027;border:1px solid #2d3139;border-radius:7px;padding:4px 8px;">
+        <span style="background:${posColorDA(basePos(x.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 4px;border-radius:3px;">${basePos(x.position)}</span>
+        <span style="font-size:12px;font-weight:600;color:#f0f1f3;">${x.name}</span>
+        <span style="font-size:10px;color:#5a6070;">${Math.round(x.proj)}</span>
+    </span>`;
+
+    const leaderboard = `
+        <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:14px;margin-bottom:20px;overflow-x:auto;">
+            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">Draft Grades · Keepers Included</div>
+            <table style="width:100%;border-collapse:collapse;font-size:12px;min-width:520px;">
+                <thead><tr style="color:#5a6070;text-align:left;">
+                    <th style="padding:4px 6px;font-weight:700;">#</th>
+                    <th style="padding:4px 6px;font-weight:700;">Team</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Grade</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Score</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Starters</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Keepers</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Efficiency</th>
+                </tr></thead>
+                <tbody>${rows.map(r => `
+                    <tr style="border-top:1px solid #2d3139;">
+                        <td style="padding:6px;color:#5a6070;">${r.rank}</td>
+                        <td style="padding:6px;"><a href="team.html?team=${encodeURIComponent(r.team)}" style="color:#f0f1f3;text-decoration:none;font-weight:600;">${r.team}</a></td>
+                        <td style="padding:6px;text-align:right;font-weight:900;color:${r.grade.c};">${r.grade.g}</td>
+                        <td style="padding:6px;text-align:right;color:#c9cdd4;">${r.score.toFixed(1)}</td>
+                        <td style="padding:6px;text-align:right;color:#c9cdd4;">${Math.round(r.starters)}</td>
+                        <td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>
+                        <td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.efficiency*100)}%</td>
+                    </tr>`).join("")}
+                </tbody>
+            </table>
+            <div style="font-size:10px;color:#5a6070;margin-top:10px;line-height:1.5;">
+                Grade = 55% projected starting lineup (best QB/2RB/3WR/TE/FLEX/K/DEF from the 3 keepers + 15 picks)
+                · 30% draft efficiency (value-over-replacement taken vs. the best still on the board at each pick)
+                · 15% bench value. Projections are Sleeper's ${year} half-PPR season projections, which match league scoring.
+            </div>
+        </div>`;
+
+    const cards = rows.map(r => {
+        const pickRows = r.picks.map(p => {
+            const pir = ((p.pick_no - 1) % 12) + 1;
+            const d = p.slotDelta;
+            const badge = d == null ? "" : d >= 12
+                ? `<span style="font-size:10px;font-weight:700;color:#3ecf8e;background:#3ecf8e18;padding:1px 6px;border-radius:4px;">+${d}</span>`
+                : d <= -20
+                ? `<span style="font-size:10px;font-weight:700;color:#e74c82;background:#e74c8218;padding:1px 6px;border-radius:4px;">${d}</span>`
+                : `<span style="font-size:10px;font-weight:700;color:#5a6070;background:#2d3139;padding:1px 6px;border-radius:4px;">${d > 0 ? "+" : ""}${d}</span>`;
+            return `<div style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
+                <span style="background:${posColorDA(basePos(p.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;width:26px;text-align:center;flex-shrink:0;">${basePos(p.position)}</span>
+                <span style="font-size:12px;font-weight:600;color:#f0f1f3;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</span>
+                <span style="font-size:10px;color:#5a6070;flex-shrink:0;">${p.round}.${String(pir).padStart(2,"0")}</span>
+                <span style="font-size:10px;color:#8b9099;flex-shrink:0;width:30px;text-align:right;">${p.proj ? Math.round(p.proj) : "—"}</span>
+                ${badge}
+            </div>`;
+        }).join("");
+
+        return `
+        <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:16px;">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid #2d3139;">
+                ${avatarEl(r.team, 28)}
+                <a href="team.html?team=${encodeURIComponent(r.team)}" style="font-size:14px;font-weight:700;color:#f0f1f3;text-decoration:none;flex:1;">${r.team}</a>
+                <span style="font-size:26px;font-weight:900;color:${r.grade.c};line-height:1;">${r.grade.g}</span>
+            </div>
+
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:6px;">Keepers</div>
+            <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;">${r.keepers.map(chip).join("")}</div>
+
+            <div style="display:flex;gap:14px;margin-bottom:12px;">
+                <div><div style="font-size:16px;font-weight:800;color:#f0f1f3;">${Math.round(r.starters)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Starters</div></div>
+                <div><div style="font-size:16px;font-weight:800;color:#3ecf8e;">${Math.round(r.keeperProj)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Keeper Pts</div></div>
+                <div><div style="font-size:16px;font-weight:800;color:#4299e1;">${Math.round(r.efficiency*100)}%</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Efficiency</div></div>
+                <div><div style="font-size:16px;font-weight:800;color:#a78bfa;">${r.score.toFixed(1)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Score</div></div>
+            </div>
+
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:6px;">Picks · proj pts · vs board</div>
+            ${pickRows}
+
+            <div style="background:#252830;border:1px solid #2d3139;border-radius:10px;padding:12px;margin-top:12px;font-size:12px;color:#c9cdd4;line-height:1.6;">
+                ${recap(r)}
+            </div>
+        </div>`;
+    }).join("");
+
+    el.innerHTML = `
+        <div style="font-size:16px;font-weight:700;color:#f0f1f3;margin-bottom:16px;">${year} Draft Analysis</div>
+        ${leaderboard}
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;">${cards}</div>`;
+}
+
 async function renderDraftAnalysis(picks, year) {
     const el = document.getElementById("draft-analysis");
     if (!el) return;
+    // The current season has no results yet — grade it on projected value instead.
+    if (String(year) === CURRENT_DRAFT_YEAR) return renderCurrentDraftGrades(picks, year);
     el.innerHTML = `<div style="color:#5a6070;font-size:13px;">Loading analysis…</div>`;
 
     const isStartup = year === "2020";
