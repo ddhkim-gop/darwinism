@@ -953,9 +953,9 @@ function renderPreview(rows) {
             <div class="sh-section-title">Projected Standings</div>
             <table class="sh-table" style="width:100%;">
                 <thead><tr>
-                    <th style="width:20px;text-align:left;">#</th>
+                    <th style="width:18px;text-align:left;">#</th>
                     <th style="text-align:left;">Team</th>
-                    <th>W-L</th><th>PF</th><th>Playoff</th><th>Title</th>
+                    <th>Rec</th><th>PF</th><th>Playoff</th><th>Title</th>
                 </tr></thead>
                 <tbody>
                     ${rows.slice().sort((a,b) => b.wins - a.wins || b.pf - a.pf).map((r, i) => `
@@ -992,7 +992,7 @@ function renderPreview(rows) {
                 <div class="sh-place-badge" style="background:linear-gradient(135deg,#0f2027,#16323b);border:1px solid #38b2ac;color:#5eead4;">Season Preview</div>
                 <div class="sh-champion">🔮 ${favourite.owner} — ${(favourite.titlePct*100).toFixed(0)}% title odds</div>
             </div>
-            <div class="sh-grid">
+            <div class="sh-grid sh-grid-preview">
                 <div>${table}</div>
                 ${predCard}
             </div>
@@ -1182,6 +1182,10 @@ async function init() {
         .sh-silver { background:linear-gradient(135deg,#141a2e,#1c2640); border:1px solid #64748b; color:#c8d6e5; }
         .sh-bronze { background:linear-gradient(135deg,#1c1608,#231d0b); border:1px solid #7c5f2a; color:#cd9b5a; }
         .sh-grid { display:grid; grid-template-columns:280px 1fr; gap:20px; align-items:stretch; min-width:0; }
+        /* The preview table carries four numeric columns instead of two, so it
+           needs a wider left rail than a finished season's standings. */
+        .sh-grid-preview { grid-template-columns:400px 1fr; }
+        .sh-grid-preview .sh-table td, .sh-grid-preview .sh-table th { padding:6px 4px; }
         .sh-grid > * { min-width:0; }
         .sh-section-title {
             font-size:10px; text-transform:uppercase; letter-spacing:0.07em;
@@ -1205,7 +1209,7 @@ async function init() {
         .silver-row td { background:#1a1f2e !important; font-weight:700; color:#c8d6e5 !important; }
         .bronze-row td { background:#1e1a10 !important; font-weight:700; color:#cd9b5a !important; }
         .bracket-wrap { overflow-x:auto; padding-bottom:8px; -webkit-overflow-scrolling:touch; }
-        @media (max-width:800px) { .sh-grid { grid-template-columns:1fr; } }
+        @media (max-width:800px) { .sh-grid, .sh-grid-preview { grid-template-columns:1fr; } }
     </style>
 
     <div class="filter-bar" style="margin-bottom:24px;">
