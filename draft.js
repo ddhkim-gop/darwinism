@@ -458,11 +458,16 @@ async function renderCurrentDraftGrades(picks, year) {
     if (!el) return;
     el.innerHTML = `<div style="color:#5a6070;font-size:13px;">Grading draft…</div>`;
 
-    const [values, keepers, nameMap] = await Promise.all([
+    const [values, keepers, nameMap, news] = await Promise.all([
         api.getPlayerValues(year).catch(() => ({})),
         api.getKeepers(year).catch(() => ({})),
         api.getPlayerNameMap().catch(() => ({})),
+        fetch(`data/${year}/draft_news.json?v=20260831`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})),
     ]);
+
+    const normNm = s => (s || "").toLowerCase().replace(/[^a-z]/g, "");
+    const newsByName = {};
+    (news.items || []).forEach(i => { newsByName[normNm(i.player)] = i; });
 
     const val = id => values[id] || {};
     const teams = [...new Set(picks.map(p => p.picked_by))];
@@ -529,6 +534,24 @@ async function renderCurrentDraftGrades(picks, year) {
         // Positive = fell past where the keeper-adjusted board expected them (value);
         // negative = taken ahead of the board (reach).
         p.slotDelta = (p.expSlot != null && p.expSlot <= 260) ? p.pick_no - p.expSlot : null;
+    });
+
+    // ── News layer ───────────────────────────────────────────────────────────
+    // ADP is a lagging signal. Live football news (injuries, suspensions, the
+    // Commissioner's Exempt List, depth-chart/role changes) moves a player's true
+    // value before the board catches up. A curated web-search pass in
+    // data/{year}/draft_news.json shifts the keeper-adjusted board and can override
+    // a verdict — e.g. MarShawn Lloyd reads as a reach vs stale ADP, but Jacobs on
+    // the exempt list makes him the Packers' starter and the pick defensible.
+    drafted.forEach(p => {
+        const n = newsByName[normNm(p.name)];
+        if (!n) return;
+        p.news = n;
+        if (n.board_shift != null && p.expSlot != null) {
+            const adj = p.expSlot + n.board_shift;
+            if (adj <= 300) p.slotDelta = p.pick_no - adj;
+        }
+        if (n.verdict_override) p.forcedVerdict = n.verdict_override;
     });
 
     // ── Per-team scoring ─────────────────────────────────────────────────────
@@ -600,6 +623,13 @@ async function renderCurrentDraftGrades(picks, year) {
         if (r.miss)
             parts.push(`Left value on the board once — took ${r.miss.pick.name} at ${r.miss.pick.pick_no} with <strong>${r.miss.passed.name}</strong> (+${Math.round(r.miss.gap)} VOR) still there.`);
 
+        r.picks.filter(p => p.news).forEach(p => {
+            const verb = p.forcedVerdict === "value" ? "looks defensible despite the reach on paper"
+                       : p.forcedVerdict === "reach" ? "is confirmed a reach"
+                       : "is worth watching";
+            parts.push(`<span style="color:#f6ad55;">📰</span> <strong>${p.name}</strong> at ${p.pick_no} ${verb} — ${p.news.rationale}`);
+        });
+
         parts.push(`<em>Projected starting lineup: ${Math.round(r.starters)} points (${r.rank === 1 ? "best" : r.rank + ordinal(r.rank)} in the league); ` +
                    `captured ${Math.round(r.efficiency*100)}% of the value available at their picks.</em>`);
         return parts.join(" ");
@@ -642,6 +672,7 @@ async function renderCurrentDraftGrades(picks, year) {
                 Grade = 55% projected starting lineup (best QB/2RB/3WR/TE/FLEX/K/DEF from the 3 keepers + 15 picks)
                 · 30% draft efficiency (value-over-replacement taken vs. the best still on the board at each pick)
                 · 15% bench value. Projections are Sleeper's ${year} half-PPR season projections, which match league scoring.
+                ${(news.items||[]).length ? `<br><span style="color:#f6ad55;">📰</span> Reach/value is adjusted for breaking football news (${news.items.length} update${news.items.length>1?"s":""}${news.updated ? " · "+news.updated : ""}) — injuries, suspensions and depth-chart moves ADP hasn't caught up to.` : ""}
             </div>
         </div>`;
 
@@ -660,6 +691,7 @@ async function renderCurrentDraftGrades(picks, year) {
                 <span style="font-size:10px;color:#5a6070;flex-shrink:0;">${p.round}.${String(pir).padStart(2,"0")}</span>
                 <span style="font-size:10px;color:#8b9099;flex-shrink:0;width:30px;text-align:right;">${p.proj ? Math.round(p.proj) : "—"}</span>
                 ${badge}
+                ${p.news ? `<span title="${(p.news.rationale||'').replace(/"/g,'&quot;')}" style="font-size:11px;flex-shrink:0;cursor:help;">📰</span>` : ""}
             </div>`;
         }).join("");
 
