@@ -1,0 +1,27 @@
+{
+ "updated": "2026-08-31",
+ "note": "Curated web-search depth pass over the movers emitted by build_draft_grades.py. board_shift moves a player's keeper-adjusted expected pick (negative = value rose). verdict_override forces the final verdict when news outweighs the preseason board.",
+ "items": [
+  {
+   "player": "MarShawn Lloyd",
+   "board_shift": -22,
+   "verdict_override": "value",
+   "rationale": "Josh Jacobs placed on the Commissioner's Exempt List indefinitely (misdemeanor battery charge); Lloyd took every Week-1-prep first-team snap and is the presumed starter. Real value has jumped to ~Round 7, so pick 85 is fair — the raw ADP just hadn't moved yet.",
+   "source": "CBS Sports, NBC Sports, Yahoo, FantasyLife (2026-08-30/31)"
+  },
+  {
+   "player": "Zach Charbonnet",
+   "board_shift": 60,
+   "verdict_override": "reach",
+   "rationale": "Remains on PUP (Feb ACL surgery), out at least the first 4 games; redraft ADP has fallen past 200 and rookie Jadarian Price was drafted 32nd. Long-term upside with Kenneth Walker gone to KC, but near-term value is gone.",
+   "source": "Sports Illustrated, Heavy (2026-08-30)"
+  },
+  {
+   "player": "Tank Dell",
+   "board_shift": null,
+   "verdict_override": null,
+   "rationale": "On IR to open the season (torn ACL/MCL/LCL, dislocated knee), out at least 4 games with no timetable — a deep IR stash only.",
+   "source": "PlayerProfiler, Yahoo, RotoBaller (2026-08)"
+  }
+ ]
+}
