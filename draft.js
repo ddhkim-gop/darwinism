@@ -465,8 +465,8 @@ async function renderCurrentDraftGrades(picks, year) {
         api.getPlayerValues(year).catch(() => ({})),
         api.getKeepers(year).catch(() => ({})),
         api.getPlayerNameMap().catch(() => ({})),
-        isCurrent ? fetch(`data/${year}/draft_news.json?v=202609010507`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})) : Promise.resolve({items:[]}),
-        isCurrent ? fetch(`data/${year}/draft_writeups.json?v=202609010507`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})) : Promise.resolve({teams:{}}),
+        isCurrent ? fetch(`data/${year}/draft_news.json?v=202609010515`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})) : Promise.resolve({items:[]}),
+        isCurrent ? fetch(`data/${year}/draft_writeups.json?v=202609010515`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})) : Promise.resolve({teams:{}}),
     ]);
 
     const normNm = s => (s || "").toLowerCase().replace(/[^a-z]/g, "");
@@ -651,7 +651,7 @@ async function renderCurrentDraftGrades(picks, year) {
     const leaderboard = `
         <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:14px;margin-bottom:20px;overflow-x:auto;">
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">Draft Grades${anyKeepers ? " · Keepers Included" : ""}</div>
-            <table style="width:100%;border-collapse:collapse;font-size:12px;min-width:520px;">
+            <table style="width:100%;border-collapse:collapse;font-size:12px;min-width:520px;font-variant-numeric:tabular-nums;">
                 <thead><tr style="color:#5a6070;text-align:left;">
                     <th style="padding:4px 6px;font-weight:700;">#</th>
                     <th style="padding:4px 6px;font-weight:700;">Team</th>
@@ -685,18 +685,19 @@ async function renderCurrentDraftGrades(picks, year) {
         const pickRows = r.picks.map(p => {
             const pir = ((p.pick_no - 1) % 12) + 1;
             const d = p.slotDelta;
-            const badge = d == null ? "" : d >= 12
-                ? `<span style="font-size:10px;font-weight:700;color:#3ecf8e;background:#3ecf8e18;padding:1px 6px;border-radius:4px;">+${d}</span>`
-                : d <= -20
-                ? `<span style="font-size:10px;font-weight:700;color:#e74c82;background:#e74c8218;padding:1px 6px;border-radius:4px;">${d}</span>`
-                : `<span style="font-size:10px;font-weight:700;color:#5a6070;background:#2d3139;padding:1px 6px;border-radius:4px;">${d > 0 ? "+" : ""}${d}</span>`;
-            return `<div style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
-                <span style="background:${posColorDA(basePos(p.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;width:26px;text-align:center;flex-shrink:0;">${basePos(p.position)}</span>
-                <span style="font-size:12px;font-weight:600;color:#f0f1f3;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</span>
-                <span style="font-size:10px;color:#5a6070;flex-shrink:0;">${p.round}.${String(pir).padStart(2,"0")}</span>
-                <span style="font-size:10px;color:#8b9099;flex-shrink:0;width:30px;text-align:right;">${p.proj ? Math.round(p.proj) : "—"}</span>
-                ${badge}
-                ${p.news ? `<span title="${(p.news.rationale||'').replace(/"/g,'&quot;')}" style="font-size:11px;flex-shrink:0;cursor:help;">📰</span>` : ""}
+            const dColor = d == null ? "#5a6070" : d >= 12 ? "#3ecf8e" : d <= -20 ? "#e74c82" : "#8b9099";
+            const dBg    = d == null ? "transparent" : d >= 12 ? "#3ecf8e18" : d <= -20 ? "#e74c8218" : "#2d3139";
+            const dText  = d == null ? "" : `${d > 0 ? "+" : ""}${d}`;
+            const badge  = dText
+                ? `<span style="font-size:10px;font-weight:700;color:${dColor};background:${dBg};padding:1px 6px;border-radius:4px;font-variant-numeric:tabular-nums;">${dText}</span>`
+                : "";
+            return `<div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
+                <span style="background:${posColorDA(basePos(p.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;width:28px;text-align:center;flex-shrink:0;">${basePos(p.position)}</span>
+                <span style="font-size:12px;font-weight:600;color:#f0f1f3;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</span>
+                <span style="font-size:10px;color:#5a6070;flex-shrink:0;width:36px;text-align:right;font-variant-numeric:tabular-nums;">${p.round}.${String(pir).padStart(2,"0")}</span>
+                <span style="font-size:10px;color:#8b9099;flex-shrink:0;width:30px;text-align:right;font-variant-numeric:tabular-nums;">${p.proj ? Math.round(p.proj) : "—"}</span>
+                <span style="flex-shrink:0;width:44px;display:inline-flex;justify-content:flex-end;">${badge}</span>
+                <span style="flex-shrink:0;width:14px;text-align:center;">${p.news ? `<span title="${(p.news.rationale||'').replace(/"/g,'&quot;')}" style="font-size:11px;cursor:help;">📰</span>` : ""}</span>
             </div>`;
         }).join("");
 
