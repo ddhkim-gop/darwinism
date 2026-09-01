@@ -458,12 +458,15 @@ async function renderCurrentDraftGrades(picks, year) {
     if (!el) return;
     el.innerHTML = `<div style="color:#5a6070;font-size:13px;">Grading draft…</div>`;
 
+    // News + LLM write-ups exist only for the current draft; past years grade on
+    // that season's preseason projections and use the deterministic recap().
+    const isCurrent = String(year) === CURRENT_DRAFT_YEAR;
     const [values, keepers, nameMap, news, writeups] = await Promise.all([
         api.getPlayerValues(year).catch(() => ({})),
         api.getKeepers(year).catch(() => ({})),
         api.getPlayerNameMap().catch(() => ({})),
-        fetch(`data/${year}/draft_news.json?v=202609010419`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})),
-        fetch(`data/${year}/draft_writeups.json?v=202609010419`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})),
+        isCurrent ? fetch(`data/${year}/draft_news.json?v=202609010507`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})) : Promise.resolve({items:[]}),
+        isCurrent ? fetch(`data/${year}/draft_writeups.json?v=202609010507`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})) : Promise.resolve({teams:{}}),
     ]);
 
     const normNm = s => (s || "").toLowerCase().replace(/[^a-z]/g, "");
@@ -618,7 +621,7 @@ async function renderCurrentDraftGrades(picks, year) {
         if (heavy && heavy[1] >= 6) parts.push(`Leaned hard on ${posName[heavy[0]]||heavy[0]} depth with ${heavy[1]} of 15 picks there.`);
 
         if (r.steal && r.steal.slotDelta >= 12)
-            parts.push(`Best value: <strong>${r.steal.name}</strong> at ${r.steal.pick_no} overall — ${r.steal.slotDelta} slots later than the keeper-adjusted board expected.`);
+            parts.push(`Best value: <strong>${r.steal.name}</strong> at ${r.steal.pick_no} overall — ${r.steal.slotDelta} slots later than the ${r.keepers.length ? "keeper-adjusted " : ""}board expected.`);
         if (r.reach && r.reach.slotDelta <= -20)
             parts.push(`Biggest reach: <strong>${r.reach.name}</strong> went ${Math.abs(r.reach.slotDelta)} picks ahead of the board at ${r.reach.pick_no}.`);
         if (r.miss)
@@ -644,9 +647,10 @@ async function renderCurrentDraftGrades(picks, year) {
         <span style="font-size:10px;color:#5a6070;">${Math.round(x.proj)}</span>
     </span>`;
 
+    const anyKeepers = rows.some(r => r.keepers && r.keepers.length);
     const leaderboard = `
         <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:14px;margin-bottom:20px;overflow-x:auto;">
-            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">Draft Grades · Keepers Included</div>
+            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">Draft Grades${anyKeepers ? " · Keepers Included" : ""}</div>
             <table style="width:100%;border-collapse:collapse;font-size:12px;min-width:520px;">
                 <thead><tr style="color:#5a6070;text-align:left;">
                     <th style="padding:4px 6px;font-weight:700;">#</th>
@@ -654,7 +658,7 @@ async function renderCurrentDraftGrades(picks, year) {
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Grade</th>
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Score</th>
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Starters</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Keepers</th>
+                    ${anyKeepers ? `<th style="padding:4px 6px;font-weight:700;text-align:right;">Keepers</th>` : ""}
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Efficiency</th>
                 </tr></thead>
                 <tbody>${rows.map(r => `
@@ -664,13 +668,13 @@ async function renderCurrentDraftGrades(picks, year) {
                         <td style="padding:6px;text-align:right;font-weight:900;color:${r.grade.c};">${r.grade.g}</td>
                         <td style="padding:6px;text-align:right;color:#c9cdd4;">${r.score.toFixed(1)}</td>
                         <td style="padding:6px;text-align:right;color:#c9cdd4;">${Math.round(r.starters)}</td>
-                        <td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>
+                        ${anyKeepers ? `<td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>` : ""}
                         <td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.efficiency*100)}%</td>
                     </tr>`).join("")}
                 </tbody>
             </table>
             <div style="font-size:10px;color:#5a6070;margin-top:10px;line-height:1.5;">
-                Grade = 55% projected starting lineup (best QB/2RB/3WR/TE/FLEX/K/DEF from the 3 keepers + 15 picks)
+                Grade = 55% projected starting lineup (best QB/2RB/3WR/TE/FLEX/K/DEF from ${anyKeepers ? "the 3 keepers + 15 picks" : "the draft"})
                 · 30% draft efficiency (value-over-replacement taken vs. the best still on the board at each pick)
                 · 15% bench value. Projections are Sleeper's ${year} half-PPR season projections, which match league scoring.
                 ${(news.items||[]).length ? `<br><span style="color:#f6ad55;">📰</span> Reach/value is adjusted for breaking football news (${news.items.length} update${news.items.length>1?"s":""}${news.updated ? " · "+news.updated : ""}) — injuries, suspensions and depth-chart moves ADP hasn't caught up to.` : ""}
@@ -704,12 +708,12 @@ async function renderCurrentDraftGrades(picks, year) {
                 <span style="font-size:26px;font-weight:900;color:${r.grade.c};line-height:1;">${r.grade.g}</span>
             </div>
 
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:6px;">Keepers</div>
-            <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;">${r.keepers.map(chip).join("")}</div>
+            ${r.keepers.length ? `<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:6px;">Keepers</div>
+            <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;">${r.keepers.map(chip).join("")}</div>` : ""}
 
             <div style="display:flex;gap:14px;margin-bottom:12px;">
                 <div><div style="font-size:16px;font-weight:800;color:#f0f1f3;">${Math.round(r.starters)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Starters</div></div>
-                <div><div style="font-size:16px;font-weight:800;color:#3ecf8e;">${Math.round(r.keeperProj)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Keeper Pts</div></div>
+                ${r.keepers.length ? `<div><div style="font-size:16px;font-weight:800;color:#3ecf8e;">${Math.round(r.keeperProj)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Keeper Pts</div></div>` : ""}
                 <div><div style="font-size:16px;font-weight:800;color:#4299e1;">${Math.round(r.efficiency*100)}%</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Efficiency</div></div>
                 <div><div style="font-size:16px;font-weight:800;color:#a78bfa;">${r.score.toFixed(1)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Score</div></div>
             </div>
@@ -732,8 +736,11 @@ async function renderCurrentDraftGrades(picks, year) {
 async function renderDraftAnalysis(picks, year) {
     const el = document.getElementById("draft-analysis");
     if (!el) return;
-    // The current season has no results yet — grade it on projected value instead.
-    if (String(year) === CURRENT_DRAFT_YEAR) return renderCurrentDraftGrades(picks, year);
+    // Grade every draft on how it looked that preseason (Sleeper projections + ADP
+    // for the year). Falls back to the legacy retention view only if a year has no
+    // projection data baked into data.js.
+    const pv = await api.getPlayerValues(year).catch(() => ({}));
+    if (pv && Object.keys(pv).length) return renderCurrentDraftGrades(picks, year);
     el.innerHTML = `<div style="color:#5a6070;font-size:13px;">Loading analysis…</div>`;
 
     const isStartup = year === "2020";
