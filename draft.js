@@ -641,11 +641,11 @@ async function renderCurrentDraftGrades(picks, year) {
     function ordinal(n) { return n === 1 ? "st" : n === 2 ? "nd" : n === 3 ? "rd" : "th"; }
 
     // ── Render ───────────────────────────────────────────────────────────────
-    const chip = (x) => `<span style="display:inline-flex;align-items:center;gap:5px;background:#1e2027;border:1px solid #2d3139;border-radius:7px;padding:4px 8px;">
-        <span style="background:${posColorDA(basePos(x.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 4px;border-radius:3px;">${basePos(x.position)}</span>
-        <span style="font-size:12px;font-weight:600;color:#f0f1f3;">${x.name}</span>
-        <span style="font-size:10px;color:#5a6070;">${Math.round(x.proj)}</span>
-    </span>`;
+    const chip = (x) => `<div style="display:grid;grid-template-columns:30px 1fr 34px;align-items:center;gap:8px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
+        <span style="background:${posColorDA(basePos(x.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;text-align:center;">${basePos(x.position)}</span>
+        <span style="font-size:12px;font-weight:600;color:#f0f1f3;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${x.name}</span>
+        <span style="font-size:10px;color:#8b9099;text-align:right;font-variant-numeric:tabular-nums;">${Math.round(x.proj)}</span>
+    </div>`;
 
     const anyKeepers = rows.some(r => r.keepers && r.keepers.length);
     const leaderboard = `
@@ -705,7 +705,7 @@ async function renderCurrentDraftGrades(picks, year) {
             </div>
 
             ${r.keepers.length ? `<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:6px;">Keepers</div>
-            <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;">${r.keepers.map(chip).join("")}</div>` : ""}
+            <div style="margin-bottom:12px;">${r.keepers.map(chip).join("")}</div>` : ""}
 
             <div style="display:flex;gap:14px;margin-bottom:12px;">
                 <div><div style="font-size:16px;font-weight:800;color:#f0f1f3;">${Math.round(r.starters)}</div><div style="font-size:9px;color:#5a6070;text-transform:uppercase;margin-top:1px;">Starters</div></div>
