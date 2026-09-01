@@ -651,7 +651,7 @@ async function renderCurrentDraftGrades(picks, year) {
     const leaderboard = `
         <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:14px;margin-bottom:20px;overflow-x:auto;">
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">Draft Grades${anyKeepers ? " · Keepers Included" : ""}</div>
-            <table style="width:100%;border-collapse:collapse;font-size:12px;min-width:520px;font-variant-numeric:tabular-nums;">
+            <table style="width:auto;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;">
                 <thead><tr style="color:#5a6070;text-align:left;">
                     <th style="padding:4px 6px;font-weight:700;">#</th>
                     <th style="padding:4px 6px;font-weight:700;">Team</th>
