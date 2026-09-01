@@ -1,0 +1,59 @@
+name: Regenerate draft write-ups
+
+# LLM-authored roster-context write-ups. Runs once daily (projections/news move
+# slowly, and each run costs API tokens). Gated on the ANTHROPIC_API_KEY secret —
+# until it is set, this workflow is a no-op and the last hand-authored write-ups
+# stay in place. Add the secret in repo Settings → Secrets → Actions to enable.
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # once a day, 13:00 UTC
+  workflow_dispatch:
+
+jobs:
+  writeups:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      HAS_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache Sleeper players data
+        uses: actions/cache@v4
+        with:
+          path: scripts/players_cache.json
+          key: sleeper-players-${{ hashFiles('scripts/players_cache.json') }}
+          restore-keys: |
+            sleeper-players-
+
+      - name: Install anthropic SDK
+        if: env.HAS_KEY == 'true'
+        run: pip install anthropic
+
+      - name: Rebuild context + regenerate write-ups
+        if: env.HAS_KEY == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 scripts/build_draft_context.py 2026
+          python3 scripts/generate_writeups.py 2026
+
+      - name: Commit and push if changed
+        if: env.HAS_KEY == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          python3 scripts/bump_assets.py
+          git add data/ *.html *.js
+          git diff --cached --quiet || { git commit -m "Auto: regenerate draft write-ups"; git push; }
