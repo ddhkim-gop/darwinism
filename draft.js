@@ -689,14 +689,14 @@ async function renderCurrentDraftGrades(picks, year) {
             const dBg    = d == null ? "transparent" : d >= 12 ? "#3ecf8e18" : d <= -20 ? "#e74c8218" : "#2d3139";
             const dText  = d == null ? "" : `${d > 0 ? "+" : ""}${d}`;
             const badge  = dText
-                ? `<span style="font-size:10px;font-weight:700;color:${dColor};background:${dBg};padding:1px 6px;border-radius:4px;font-variant-numeric:tabular-nums;">${dText}</span>`
+                ? `<span style="display:inline-block;width:44px;box-sizing:border-box;font-size:10px;font-weight:700;color:${dColor};background:${dBg};padding:1px 0;border-radius:4px;text-align:center;font-variant-numeric:tabular-nums;">${dText}</span>`
                 : "";
             return `<div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
                 <span style="background:${posColorDA(basePos(p.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;width:28px;text-align:center;flex-shrink:0;">${basePos(p.position)}</span>
                 <span style="font-size:12px;font-weight:600;color:#f0f1f3;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</span>
                 <span style="font-size:10px;color:#5a6070;flex-shrink:0;width:36px;text-align:right;font-variant-numeric:tabular-nums;">${p.round}.${String(pir).padStart(2,"0")}</span>
                 <span style="font-size:10px;color:#8b9099;flex-shrink:0;width:30px;text-align:right;font-variant-numeric:tabular-nums;">${p.proj ? Math.round(p.proj) : "—"}</span>
-                <span style="flex-shrink:0;width:44px;display:inline-flex;justify-content:flex-end;">${badge}</span>
+                <span style="flex-shrink:0;width:44px;">${badge}</span>
                 <span style="flex-shrink:0;width:14px;text-align:center;">${p.news ? `<span title="${(p.news.rationale||'').replace(/"/g,'&quot;')}" style="font-size:11px;cursor:help;">📰</span>` : ""}</span>
             </div>`;
         }).join("");
