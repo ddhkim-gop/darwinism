@@ -17464,7 +17464,7 @@ window.__STATIC_DATA__ = {
           "espn_id": null,
           "name": "Jaydon Blue",
           "position": "RB",
-          "team": null,
+          "team": "PHI",
           "birth_date": "2004-01-08",
           "college": "Texas",
           "height": "69",
