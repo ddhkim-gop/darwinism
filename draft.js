@@ -573,9 +573,12 @@ async function renderCurrentDraftGrades(picks, year) {
         const STARTERS_AT = { QB:1, RB:2, WR:3, TE:1 };
         const posStr = {};
         Object.entries(STARTERS_AT).forEach(([pos, n]) => {
-            posStr[pos] = roster.filter(x => basePos(x.position) === pos)
-                .sort((a,b) => b.proj - a.proj).slice(0, n)
-                .reduce((s,x) => s + x.proj, 0);
+            const at = roster.filter(x => basePos(x.position) === pos);
+            // Older seasons have gaps in Sleeper's projections. A position with no
+            // usable projection is unknown, not zero — don't paint it worst-in-league.
+            posStr[pos] = at.some(x => x.proj > 0)
+                ? at.sort((a,b) => b.proj - a.proj).slice(0, n).reduce((s,x) => s + (x.proj||0), 0)
+                : null;
         });
         return {
             team: t, picks: tPicks, keepers: tKeepers, roster,
@@ -613,8 +616,8 @@ async function renderCurrentDraftGrades(picks, year) {
     // Per-position min/max for the strength heatmap, and a red→green cell color.
     const posRange = {};
     ["QB","RB","WR","TE"].forEach(pos => {
-        const vals = rows.map(r => r.posStr[pos]);
-        posRange[pos] = [Math.min(...vals), Math.max(...vals)];
+        const vals = rows.map(r => r.posStr[pos]).filter(v => v != null);
+        posRange[pos] = vals.length ? [Math.min(...vals), Math.max(...vals)] : [0, 0];
     });
     const heat = (v, [mn, mx]) => {
         const t = mx > mn ? (v - mn) / (mx - mn) : 0.5;
@@ -710,7 +713,9 @@ async function renderCurrentDraftGrades(picks, year) {
         <tbody>${rows.map(r => `
             <tr style="border-top:1px solid #2d3139;">
                 ${teamCell(r.team)}
-                ${["QB","RB","WR","TE"].map(pos => `<td style="padding:6px 8px;text-align:center;color:#f0f1f3;background:${heat(r.posStr[pos],posRange[pos])};">${Math.round(r.posStr[pos])}</td>`).join("")}
+                ${["QB","RB","WR","TE"].map(pos => r.posStr[pos] == null
+                    ? `<td style="padding:6px 8px;text-align:center;color:#5a6070;" title="No projection data for this position that season">—</td>`
+                    : `<td style="padding:6px 8px;text-align:center;color:#f0f1f3;background:${heat(r.posStr[pos],posRange[pos])};">${Math.round(r.posStr[pos])}</td>`).join("")}
             </tr>`).join("")}</tbody>`);
 
     // Panel 3 — value & reach
@@ -721,8 +726,13 @@ async function renderCurrentDraftGrades(picks, year) {
         <tbody>${rows.map(r => `
             <tr style="border-top:1px solid #2d3139;">
                 ${teamCell(r.team)}
-                <td style="padding:6px 8px;white-space:nowrap;">${r.steal ? `<span style="color:#f0f1f3;">${firstName(r.steal.name)}</span> <span style="color:#3ecf8e;font-weight:700;">+${r.steal.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
-                <td style="padding:6px 8px;white-space:nowrap;">${r.reach ? `<span style="color:#f0f1f3;">${firstName(r.reach.name)}</span> <span style="color:#e74c82;font-weight:700;">${r.reach.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
+                ${[[r.steal, "#3ecf8e", d => `+${d}`], [r.reach, "#e74c82", d => `${d}`]].map(([p, color, fmt]) => `
+                <td style="padding:6px 8px;white-space:nowrap;">
+                    <span style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+                        <span style="color:${p ? "#f0f1f3" : "#5a6070"};overflow:hidden;text-overflow:ellipsis;">${p ? firstName(p.name) : "—"}</span>
+                        <span style="color:${color};font-weight:700;flex-shrink:0;">${p ? fmt(p.slotDelta) : ""}</span>
+                    </span>
+                </td>`).join("")}
             </tr>`).join("")}</tbody>`);
 
     const leaderboard = `<div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px;align-items:flex-start;">
