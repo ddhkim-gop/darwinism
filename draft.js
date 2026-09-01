@@ -458,11 +458,12 @@ async function renderCurrentDraftGrades(picks, year) {
     if (!el) return;
     el.innerHTML = `<div style="color:#5a6070;font-size:13px;">Grading draft…</div>`;
 
-    const [values, keepers, nameMap, news] = await Promise.all([
+    const [values, keepers, nameMap, news, writeups] = await Promise.all([
         api.getPlayerValues(year).catch(() => ({})),
         api.getKeepers(year).catch(() => ({})),
         api.getPlayerNameMap().catch(() => ({})),
         fetch(`data/${year}/draft_news.json?v=202609010419`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})),
+        fetch(`data/${year}/draft_writeups.json?v=202609010419`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})),
     ]);
 
     const normNm = s => (s || "").toLowerCase().replace(/[^a-z]/g, "");
@@ -717,7 +718,7 @@ async function renderCurrentDraftGrades(picks, year) {
             ${pickRows}
 
             <div style="background:#252830;border:1px solid #2d3139;border-radius:10px;padding:12px;margin-top:12px;font-size:12px;color:#c9cdd4;line-height:1.6;">
-                ${recap(r)}
+                ${((writeups.teams||{})[r.team]) || recap(r)}
             </div>
         </div>`;
     }).join("");
