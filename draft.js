@@ -569,13 +569,21 @@ async function renderCurrentDraftGrades(picks, year) {
         const steal  = withDelta.slice().sort((a,b) => b.slotDelta - a.slotDelta)[0] || null;
         const reach  = withDelta.slice().sort((a,b) => a.slotDelta - b.slotDelta)[0] || null;
         const miss   = (e.misses.slice().sort((a,b) => b.gap - a.gap))[0] || null;
+        // Positional strength = projected points from each position's starters.
+        const STARTERS_AT = { QB:1, RB:2, WR:3, TE:1 };
+        const posStr = {};
+        Object.entries(STARTERS_AT).forEach(([pos, n]) => {
+            posStr[pos] = roster.filter(x => basePos(x.position) === pos)
+                .sort((a,b) => b.proj - a.proj).slice(0, n)
+                .reduce((s,x) => s + x.proj, 0);
+        });
         return {
             team: t, picks: tPicks, keepers: tKeepers, roster,
             starters: lineup.starters, benchVor: lineup.benchVor,
             keeperProj: tKeepers.reduce((s,x) => s + x.proj, 0),
             pickVor:  tPicks.reduce((s,x) => s + x.vor, 0),
             efficiency: e.max ? e.got / e.max : 0,
-            steal, reach, miss,
+            steal, reach, miss, posStr,
         };
     });
 
@@ -600,6 +608,18 @@ async function renderCurrentDraftGrades(picks, year) {
     });
     rows.sort((a, b) => b.composite - a.composite);
     rows.forEach((r, i) => { r.rank = i + 1; });
+
+    // Per-position min/max for the strength heatmap, and a red→green cell color.
+    const posRange = {};
+    ["QB","RB","WR","TE"].forEach(pos => {
+        const vals = rows.map(r => r.posStr[pos]);
+        posRange[pos] = [Math.min(...vals), Math.max(...vals)];
+    });
+    const heat = (v, [mn, mx]) => {
+        const t = mx > mn ? (v - mn) / (mx - mn) : 0.5;
+        return `hsl(${Math.round(t * 130)}, 50%, ${18 + Math.round(t * 12)}%)`;   // red→green
+    };
+    const firstName = n => n && n.includes(" ") ? n.replace(/^(\w)\w+\s+/, "$1. ") : (n || "");
 
     // ── Narrative ────────────────────────────────────────────────────────────
     const posName = { QB:"quarterback", RB:"running back", WR:"receiver", TE:"tight end", K:"kicker", DEF:"defense" };
@@ -660,6 +680,12 @@ async function renderCurrentDraftGrades(picks, year) {
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Starters</th>
                     ${anyKeepers ? `<th style="padding:4px 6px;font-weight:700;text-align:right;">Keepers</th>` : ""}
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Efficiency</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:center;border-left:1px solid #2d3139;">QB</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:center;">RB</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:center;">WR</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:center;">TE</th>
+                    <th style="padding:4px 10px;font-weight:700;text-align:left;border-left:1px solid #2d3139;">Best Value</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:left;">Biggest Reach</th>
                 </tr></thead>
                 <tbody>${rows.map(r => `
                     <tr style="border-top:1px solid #2d3139;">
@@ -670,6 +696,9 @@ async function renderCurrentDraftGrades(picks, year) {
                         <td style="padding:6px;text-align:right;color:#c9cdd4;">${Math.round(r.starters)}</td>
                         ${anyKeepers ? `<td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>` : ""}
                         <td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.efficiency*100)}%</td>
+                        ${["QB","RB","WR","TE"].map((pos,i) => `<td style="padding:6px;text-align:center;color:#f0f1f3;background:${heat(r.posStr[pos],posRange[pos])};${i===0?"border-left:1px solid #2d3139;":""}">${Math.round(r.posStr[pos])}</td>`).join("")}
+                        <td style="padding:6px 10px;text-align:left;white-space:nowrap;border-left:1px solid #2d3139;">${r.steal ? `<span style="color:#f0f1f3;">${firstName(r.steal.name)}</span> <span style="color:#3ecf8e;font-weight:700;">+${r.steal.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
+                        <td style="padding:6px;text-align:left;white-space:nowrap;">${r.reach ? `<span style="color:#f0f1f3;">${firstName(r.reach.name)}</span> <span style="color:#e74c82;font-weight:700;">${r.reach.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
                     </tr>`).join("")}
                 </tbody>
             </table>
