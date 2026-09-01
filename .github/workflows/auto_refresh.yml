@@ -35,20 +35,11 @@ jobs:
         run: python3 scripts/refresh_transactions.py
         continue-on-error: true   # exit code 1 = no changes (not an error)
 
-      - name: Refresh draft grade data
-        # Keep the draft grader's inputs current: this year's projections + ADP,
-        # and the write-up context brief. Deterministic, no API key. Never blocks.
-        continue-on-error: true
-        run: |
-          python3 scripts/build_player_values_history.py 2026 || true
-          python3 scripts/build_draft_context.py 2026 || true
-
-      - name: Commit and push if anything changed
-        if: always()
+      - name: Commit and push if data changed
+        if: steps.refresh.outcome == 'success' && steps.refresh.conclusion == 'success'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Bump the shared cache token whenever data.js changed so browsers refetch.
-          if ! git diff --quiet -- data.js; then python3 scripts/bump_assets.py; fi
-          git add data.js data/ *.html *.js
-          git diff --cached --quiet || { git commit -m "Auto-refresh: transactions, rosters, draft grades"; git push; }
+          git add data.js *.html *.js
+          git diff --cached --quiet || git commit -m "Auto-refresh: update transactions and rosters"
+          git push
