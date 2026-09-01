@@ -580,6 +580,7 @@ async function renderCurrentDraftGrades(picks, year) {
         return {
             team: t, picks: tPicks, keepers: tKeepers, roster,
             starters: lineup.starters, benchVor: lineup.benchVor,
+            total: roster.reduce((s,x) => s + (x.proj || 0), 0),
             keeperProj: tKeepers.reduce((s,x) => s + x.proj, 0),
             pickVor:  tPicks.reduce((s,x) => s + x.vor, 0),
             efficiency: e.max ? e.got / e.max : 0,
@@ -668,47 +669,67 @@ async function renderCurrentDraftGrades(picks, year) {
     </div>`;
 
     const anyKeepers = rows.some(r => r.keepers && r.keepers.length);
-    const leaderboard = `
-        <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:14px;margin-bottom:20px;overflow-x:auto;">
-            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">Draft Grades${anyKeepers ? " · Keepers Included" : ""}</div>
-            <table style="width:auto;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;">
-                <thead><tr style="color:#5a6070;text-align:left;">
-                    <th style="padding:4px 6px;font-weight:700;">#</th>
-                    <th style="padding:4px 6px;font-weight:700;">Team</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:center;">Grade</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Score</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Starters</th>
-                    ${anyKeepers ? `<th style="padding:4px 6px;font-weight:700;text-align:right;">Keepers</th>` : ""}
-                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Efficiency</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:center;border-left:1px solid #2d3139;">QB</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:center;">RB</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:center;">WR</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:center;">TE</th>
-                    <th style="padding:4px 10px;font-weight:700;text-align:left;border-left:1px solid #2d3139;">Best Value</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:left;">Biggest Reach</th>
-                </tr></thead>
-                <tbody>${rows.map(r => `
-                    <tr style="border-top:1px solid #2d3139;">
-                        <td style="padding:6px;color:#5a6070;">${r.rank}</td>
-                        <td style="padding:6px;"><a href="team.html?team=${encodeURIComponent(r.team)}" style="color:#f0f1f3;text-decoration:none;font-weight:600;">${r.team}</a></td>
-                        <td style="padding:6px;text-align:center;font-weight:900;color:${r.grade.c};">${r.grade.g}</td>
-                        <td style="padding:6px;text-align:right;color:#c9cdd4;">${r.score.toFixed(1)}</td>
-                        <td style="padding:6px;text-align:right;color:#c9cdd4;">${Math.round(r.starters)}</td>
-                        ${anyKeepers ? `<td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>` : ""}
-                        <td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.efficiency*100)}%</td>
-                        ${["QB","RB","WR","TE"].map((pos,i) => `<td style="padding:6px;text-align:center;color:#f0f1f3;background:${heat(r.posStr[pos],posRange[pos])};${i===0?"border-left:1px solid #2d3139;":""}">${Math.round(r.posStr[pos])}</td>`).join("")}
-                        <td style="padding:6px 10px;text-align:left;white-space:nowrap;border-left:1px solid #2d3139;">${r.steal ? `<span style="color:#f0f1f3;">${firstName(r.steal.name)}</span> <span style="color:#3ecf8e;font-weight:700;">+${r.steal.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
-                        <td style="padding:6px;text-align:left;white-space:nowrap;">${r.reach ? `<span style="color:#f0f1f3;">${firstName(r.reach.name)}</span> <span style="color:#e74c82;font-weight:700;">${r.reach.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
-                    </tr>`).join("")}
-                </tbody>
-            </table>
-            <div style="font-size:10px;color:#5a6070;margin-top:10px;line-height:1.5;">
-                Grade = 55% projected starting lineup (best QB/2RB/3WR/TE/FLEX/K/DEF from ${anyKeepers ? "the 3 keepers + 15 picks" : "the draft"})
-                · 30% draft efficiency (value-over-replacement taken vs. the best still on the board at each pick)
-                · 15% bench value. Projections are Sleeper's ${year} half-PPR season projections, which match league scoring.
-                ${(news.items||[]).length ? `<br>Reach/value is adjusted for breaking football news (${news.items.length} update${news.items.length>1?"s":""}${news.updated ? " · "+news.updated : ""}) — injuries, suspensions and depth-chart moves ADP hasn't caught up to.` : ""}
-            </div>
+    const th = (label, extra = "") => `<th style="padding:4px 8px;font-weight:700;${extra}">${label}</th>`;
+    const teamCell = t => `<td style="padding:6px 8px;"><a href="team.html?team=${encodeURIComponent(t)}" style="color:#f0f1f3;text-decoration:none;font-weight:600;">${t}</a></td>`;
+    const panel = (title, inner, footer = "") => `
+        <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:14px;overflow-x:auto;">
+            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5a6070;margin-bottom:10px;">${title}</div>
+            <table style="width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;">${inner}</table>
+            ${footer}
         </div>`;
+
+    // Panel 1 — grades
+    const gradesPanel = panel(`Draft Grades${anyKeepers ? " · Keepers Included" : ""}`, `
+        <thead><tr style="color:#5a6070;text-align:left;">
+            ${th("#")}${th("Team")}${th("Grade","text-align:center;")}${th("Score","text-align:right;")}
+            ${th("Starters","text-align:right;")}${th("Total","text-align:right;")}
+            ${anyKeepers ? th("Keepers","text-align:right;") : ""}${th("Efficiency","text-align:right;")}
+        </tr></thead>
+        <tbody>${rows.map(r => `
+            <tr style="border-top:1px solid #2d3139;">
+                <td style="padding:6px 8px;color:#5a6070;">${r.rank}</td>
+                ${teamCell(r.team)}
+                <td style="padding:6px 8px;text-align:center;font-weight:900;color:${r.grade.c};">${r.grade.g}</td>
+                <td style="padding:6px 8px;text-align:right;color:#c9cdd4;">${r.score.toFixed(1)}</td>
+                <td style="padding:6px 8px;text-align:right;color:#c9cdd4;">${Math.round(r.starters)}</td>
+                <td style="padding:6px 8px;text-align:right;color:#8b9099;">${Math.round(r.total)}</td>
+                ${anyKeepers ? `<td style="padding:6px 8px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>` : ""}
+                <td style="padding:6px 8px;text-align:right;color:#8b9099;">${Math.round(r.efficiency*100)}%</td>
+            </tr>`).join("")}</tbody>`,
+        `<div style="font-size:10px;color:#5a6070;margin-top:10px;line-height:1.5;">
+            Grade = 55% projected starting lineup · 30% draft efficiency (VOR taken vs. best on the board) · 15% bench value.
+            Starters = best QB/2RB/3WR/TE/FLEX/K/DEF; Total = every ${anyKeepers ? "keeper + pick" : "pick"}. Projections are Sleeper's ${year} half-PPR.
+            ${(news.items||[]).length ? `<br>Reach/value is adjusted for breaking football news (${news.items.length} update${news.items.length>1?"s":""}${news.updated ? " · "+news.updated : ""}) — injuries, suspensions and depth-chart moves ADP hasn't caught up to.` : ""}
+        </div>`);
+
+    // Panel 2 — positional strength heatmap
+    const posPanel = panel("Positional Strength", `
+        <thead><tr style="color:#5a6070;text-align:left;">
+            ${th("Team")}${th("QB","text-align:center;")}${th("RB","text-align:center;")}${th("WR","text-align:center;")}${th("TE","text-align:center;")}
+        </tr></thead>
+        <tbody>${rows.map(r => `
+            <tr style="border-top:1px solid #2d3139;">
+                ${teamCell(r.team)}
+                ${["QB","RB","WR","TE"].map(pos => `<td style="padding:6px 8px;text-align:center;color:#f0f1f3;background:${heat(r.posStr[pos],posRange[pos])};">${Math.round(r.posStr[pos])}</td>`).join("")}
+            </tr>`).join("")}</tbody>`);
+
+    // Panel 3 — value & reach
+    const valuePanel = panel("Best Value · Biggest Reach", `
+        <thead><tr style="color:#5a6070;text-align:left;">
+            ${th("Team")}${th("Best Value")}${th("Biggest Reach")}
+        </tr></thead>
+        <tbody>${rows.map(r => `
+            <tr style="border-top:1px solid #2d3139;">
+                ${teamCell(r.team)}
+                <td style="padding:6px 8px;white-space:nowrap;">${r.steal ? `<span style="color:#f0f1f3;">${firstName(r.steal.name)}</span> <span style="color:#3ecf8e;font-weight:700;">+${r.steal.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
+                <td style="padding:6px 8px;white-space:nowrap;">${r.reach ? `<span style="color:#f0f1f3;">${firstName(r.reach.name)}</span> <span style="color:#e74c82;font-weight:700;">${r.reach.slotDelta}</span>` : `<span style="color:#5a6070;">—</span>`}</td>
+            </tr>`).join("")}</tbody>`);
+
+    const leaderboard = `<div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px;align-items:flex-start;">
+        <div style="flex:2 1 380px;">${gradesPanel}</div>
+        <div style="flex:1 1 240px;">${posPanel}</div>
+        <div style="flex:1 1 260px;">${valuePanel}</div>
+    </div>`;
 
     const cards = rows.map(r => {
         const pickRows = r.picks.map(p => {
