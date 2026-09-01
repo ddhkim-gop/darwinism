@@ -631,7 +631,7 @@ async function renderCurrentDraftGrades(picks, year) {
             const verb = p.forcedVerdict === "value" ? "looks defensible despite the reach on paper"
                        : p.forcedVerdict === "reach" ? "is confirmed a reach"
                        : "is worth watching";
-            parts.push(`<span style="color:#f6ad55;">📰</span> <strong>${p.name}</strong> at ${p.pick_no} ${verb} — ${p.news.rationale}`);
+            parts.push(`<strong>${p.name}</strong> at ${p.pick_no} ${verb} — ${p.news.rationale}`);
         });
 
         parts.push(`<em>Projected starting lineup: ${Math.round(r.starters)} points (${r.rank === 1 ? "best" : r.rank + ordinal(r.rank)} in the league); ` +
@@ -655,7 +655,7 @@ async function renderCurrentDraftGrades(picks, year) {
                 <thead><tr style="color:#5a6070;text-align:left;">
                     <th style="padding:4px 6px;font-weight:700;">#</th>
                     <th style="padding:4px 6px;font-weight:700;">Team</th>
-                    <th style="padding:4px 6px;font-weight:700;text-align:right;">Grade</th>
+                    <th style="padding:4px 6px;font-weight:700;text-align:center;">Grade</th>
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Score</th>
                     <th style="padding:4px 6px;font-weight:700;text-align:right;">Starters</th>
                     ${anyKeepers ? `<th style="padding:4px 6px;font-weight:700;text-align:right;">Keepers</th>` : ""}
@@ -665,7 +665,7 @@ async function renderCurrentDraftGrades(picks, year) {
                     <tr style="border-top:1px solid #2d3139;">
                         <td style="padding:6px;color:#5a6070;">${r.rank}</td>
                         <td style="padding:6px;"><a href="team.html?team=${encodeURIComponent(r.team)}" style="color:#f0f1f3;text-decoration:none;font-weight:600;">${r.team}</a></td>
-                        <td style="padding:6px;text-align:right;font-weight:900;color:${r.grade.c};">${r.grade.g}</td>
+                        <td style="padding:6px;text-align:center;font-weight:900;color:${r.grade.c};">${r.grade.g}</td>
                         <td style="padding:6px;text-align:right;color:#c9cdd4;">${r.score.toFixed(1)}</td>
                         <td style="padding:6px;text-align:right;color:#c9cdd4;">${Math.round(r.starters)}</td>
                         ${anyKeepers ? `<td style="padding:6px;text-align:right;color:#8b9099;">${Math.round(r.keeperProj)}</td>` : ""}
@@ -677,7 +677,7 @@ async function renderCurrentDraftGrades(picks, year) {
                 Grade = 55% projected starting lineup (best QB/2RB/3WR/TE/FLEX/K/DEF from ${anyKeepers ? "the 3 keepers + 15 picks" : "the draft"})
                 · 30% draft efficiency (value-over-replacement taken vs. the best still on the board at each pick)
                 · 15% bench value. Projections are Sleeper's ${year} half-PPR season projections, which match league scoring.
-                ${(news.items||[]).length ? `<br><span style="color:#f6ad55;">📰</span> Reach/value is adjusted for breaking football news (${news.items.length} update${news.items.length>1?"s":""}${news.updated ? " · "+news.updated : ""}) — injuries, suspensions and depth-chart moves ADP hasn't caught up to.` : ""}
+                ${(news.items||[]).length ? `<br>Reach/value is adjusted for breaking football news (${news.items.length} update${news.items.length>1?"s":""}${news.updated ? " · "+news.updated : ""}) — injuries, suspensions and depth-chart moves ADP hasn't caught up to.` : ""}
             </div>
         </div>`;
 
@@ -686,18 +686,13 @@ async function renderCurrentDraftGrades(picks, year) {
             const pir = ((p.pick_no - 1) % 12) + 1;
             const d = p.slotDelta;
             const dColor = d == null ? "#5a6070" : d >= 12 ? "#3ecf8e" : d <= -20 ? "#e74c82" : "#8b9099";
-            const dBg    = d == null ? "transparent" : d >= 12 ? "#3ecf8e18" : d <= -20 ? "#e74c8218" : "#2d3139";
             const dText  = d == null ? "" : `${d > 0 ? "+" : ""}${d}`;
-            const badge  = dText
-                ? `<span style="display:inline-block;width:44px;box-sizing:border-box;font-size:10px;font-weight:700;color:${dColor};background:${dBg};padding:1px 0;border-radius:4px;text-align:center;font-variant-numeric:tabular-nums;">${dText}</span>`
-                : "";
-            return `<div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
-                <span style="background:${posColorDA(basePos(p.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;width:28px;text-align:center;flex-shrink:0;">${basePos(p.position)}</span>
-                <span style="font-size:12px;font-weight:600;color:#f0f1f3;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</span>
-                <span style="font-size:10px;color:#5a6070;flex-shrink:0;width:36px;text-align:right;font-variant-numeric:tabular-nums;">${p.round}.${String(pir).padStart(2,"0")}</span>
-                <span style="font-size:10px;color:#8b9099;flex-shrink:0;width:30px;text-align:right;font-variant-numeric:tabular-nums;">${p.proj ? Math.round(p.proj) : "—"}</span>
-                <span style="flex-shrink:0;width:44px;">${badge}</span>
-                <span style="flex-shrink:0;width:14px;text-align:center;">${p.news ? `<span title="${(p.news.rationale||'').replace(/"/g,'&quot;')}" style="font-size:11px;cursor:help;">📰</span>` : ""}</span>
+            return `<div style="display:grid;grid-template-columns:30px 1fr 40px 34px 44px;align-items:center;gap:8px;padding:5px 8px;background:#1e2027;border-radius:7px;margin-bottom:2px;">
+                <span style="background:${posColorDA(basePos(p.position))};color:#fff;font-size:9px;font-weight:800;padding:1px 0;border-radius:3px;text-align:center;">${basePos(p.position)}</span>
+                <span style="font-size:12px;font-weight:600;color:#f0f1f3;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</span>
+                <span style="font-size:10px;color:#5a6070;text-align:right;font-variant-numeric:tabular-nums;">${p.round}.${String(pir).padStart(2,"0")}</span>
+                <span style="font-size:10px;color:#8b9099;text-align:right;font-variant-numeric:tabular-nums;">${p.proj ? Math.round(p.proj) : "—"}</span>
+                <span style="font-size:10px;font-weight:700;color:${dColor};text-align:right;font-variant-numeric:tabular-nums;">${dText}</span>
             </div>`;
         }).join("");
 
