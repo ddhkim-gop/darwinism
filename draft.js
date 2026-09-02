@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=202609021734";
+import { api } from "./dataService.js?v=202609022017";
 import { renderNav } from "./components/nav.js";
 
 const PLAYER_PROFILES = {
@@ -465,8 +465,8 @@ async function renderCurrentDraftGrades(picks, year) {
         api.getPlayerValues(year).catch(() => ({})),
         api.getKeepers(year).catch(() => ({})),
         api.getPlayerNameMap().catch(() => ({})),
-        isCurrent ? fetch(`data/${year}/draft_news.json?v=202609021734`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})) : Promise.resolve({items:[]}),
-        isCurrent ? fetch(`data/${year}/draft_writeups.json?v=202609021734`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})) : Promise.resolve({teams:{}}),
+        isCurrent ? fetch(`data/${year}/draft_news.json?v=202609022017`).then(r => r.ok ? r.json() : {items:[]}).catch(() => ({items:[]})) : Promise.resolve({items:[]}),
+        isCurrent ? fetch(`data/${year}/draft_writeups.json?v=202609022017`).then(r => r.ok ? r.json() : {teams:{}}).catch(() => ({teams:{}})) : Promise.resolve({teams:{}}),
     ]);
 
     const normNm = s => (s || "").toLowerCase().replace(/[^a-z]/g, "");
