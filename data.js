@@ -17721,21 +17721,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 45
         },
         {
-          "player_id": "13276",
-          "espn_id": null,
-          "name": "Omar Cooper",
-          "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2003-12-14",
-          "college": "Indiana",
-          "height": "72",
-          "weight": "199",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 151
-        },
-        {
           "player_id": "13346",
           "espn_id": null,
           "name": "Denzel Boston",
@@ -17779,6 +17764,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 92
+        },
+        {
+          "player_id": "4147",
+          "espn_id": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "birth_date": "1995-09-16",
+          "college": "Oklahoma",
+          "height": "71",
+          "weight": "240",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 409
         },
         {
           "player_id": "5947",
@@ -18645,6 +18645,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 2, 2026 • 3:16 AM PT",
+      "transaction_id": "1400835738370641920",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
