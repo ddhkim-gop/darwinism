@@ -17982,36 +17982,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 90
         },
         {
-          "player_id": "3163",
-          "espn_id": 3046779,
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
-          "birth_date": "1994-10-14",
-          "college": "California",
-          "height": "76",
-          "weight": "217",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 64
-        },
-        {
-          "player_id": "4035",
-          "espn_id": 3054850,
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "1995-07-25",
-          "college": "Tennessee",
-          "height": "70",
-          "weight": "215",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 119
-        },
-        {
           "player_id": "4984",
           "espn_id": 3918298,
           "name": "Josh Allen",
@@ -18130,21 +18100,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 52
-        },
-        {
-          "player_id": "9480",
-          "espn_id": null,
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "birth_date": "2000-12-27",
-          "college": "Penn State",
-          "height": "76",
-          "weight": "253",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104
         },
         {
           "player_id": "BAL",
@@ -18645,6 +18600,72 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 2, 2026 • 9:57 AM PT",
+      "transaction_id": "1400936806819627008",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 2, 2026 • 9:56 AM PT",
+      "transaction_id": "1400936465793339392",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 2, 2026 • 9:55 AM PT",
+      "transaction_id": "1400936281579483136",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
