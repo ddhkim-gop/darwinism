@@ -72,6 +72,7 @@ export function renderNav() {
                 <a href="teams.html"${teamsActive ? ' class="current"' : ""}>Teams</a>
                 <a href="transactions.html"${txActive ? ' class="current"' : ""}>Transactions</a>
                 <a href="matchups.html"${cur("matchups.html")}>Matchups</a>
+                <a href="podcast.html"${cur("podcast.html")}>Podcast</a>
                 <a href="head_to_head.html"${cur("head_to_head.html")}>H2H</a>
                 <a href="season_history.html"${cur("season_history.html")}>History</a>
             </div>
