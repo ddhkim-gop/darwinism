@@ -13,12 +13,12 @@
  */
 export const PODCAST_EPISODES = {
     2026: [
-        // {
-        //     title: "Episode 1 — Draft Recap",
-        //     date: "2026-09-05",
-        //     duration: "48:22",
-        //     audio: "assets/podcasts/2026-01-draft-recap.mp3",
-        //     description: "Every pick of the 2026 draft, round by round, plus the three reaches nobody is talking about.",
-        // },
+        {
+            title: "Episode 1 — The Grades Are In",
+            date: "2026-09-03",
+            duration: "14:12",
+            audio: "assets/podcasts/2026-01-the-grades-are-in.mp3",
+            description: "Draft recap and season predictions, graded off the site's own draft panel: three tiers, twelve teams, predicted standings and awards.",
+        },
     ],
 };
