@@ -1,4 +1,8 @@
+import { initAnalytics } from "./analytics.js";
+
 export function renderNav() {
+    initAnalytics();
+
     const el = document.getElementById("nav");
     if (!el) return;
 

@@ -1,8 +1,11 @@
 import { renderNav } from "./components/nav.js";
-import { PODCAST_EPISODES } from "./podcasts.js?v=202609032019";
+import { trackEvent } from "./components/analytics.js";
+import { PODCAST_EPISODES } from "./podcasts.js?v=202609031330";
 
 const audio = new Audio();
 let playingId = null;   // "<year>-<index>" of the row currently loaded
+const titles = {};      // row id -> episode title, for analytics
+const fired = {};       // "<id>:<milestone>" -> true, so each fires once per page load
 
 function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, c => (
@@ -91,9 +94,27 @@ function toggle(btn) {
     } else {
         playingId = id;
         audio.src = src;
-        audio.play().catch(() => { /* file missing or blocked — leave paused */ });
+        audio.play().then(() => once(id, "play")).catch(() => { /* file missing or blocked — leave paused */ });
     }
     syncButtons();
+}
+
+/* Fire an event at most once per episode per page load. Without this, scrubbing
+ * back over a milestone or pausing and resuming would inflate the counts. */
+function once(id, milestone) {
+    const key = `${id}:${milestone}`;
+    if (fired[key]) return;
+    fired[key] = true;
+    trackEvent(`podcast/${milestone}`, titles[id] || id);
+}
+
+/* Progress milestones say whether a 14-minute episode actually gets finished. */
+function onProgress() {
+    if (!playingId || !audio.duration || !isFinite(audio.duration)) return;
+    const pct = audio.currentTime / audio.duration;
+    if (pct >= 0.25) once(playingId, "25pct");
+    if (pct >= 0.50) once(playingId, "50pct");
+    if (pct >= 0.90) once(playingId, "complete");
 }
 
 function render() {
@@ -108,6 +129,10 @@ function render() {
         return;
     }
 
+    years.forEach(y => (PODCAST_EPISODES[y] || []).forEach((ep, i) => {
+        titles[`${y}-${i}`] = ep.title;
+    }));
+
     el.innerHTML = years.map(y => yearHtml(y, PODCAST_EPISODES[y] || [])).join("");
 
     el.addEventListener("click", e => {
@@ -116,6 +141,8 @@ function render() {
     });
 
     ["play", "pause", "ended"].forEach(ev => audio.addEventListener(ev, syncButtons));
+    audio.addEventListener("timeupdate", onProgress);
+    audio.addEventListener("ended", () => playingId && once(playingId, "complete"));
     syncButtons();
 }
 
