@@ -540,3 +540,18 @@ main {
     .pod-title-cell { min-width: 130px; }
     .pod-desc { font-size: 11px; }
 }
+
+/* Play-count badge — hidden until a real count comes back, so an episode with
+   no plays (or counts disabled) shows nothing rather than a discouraging zero. */
+.pod-plays {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    background: var(--card-el);
+    border: 1px solid var(--border);
+    color: var(--text-3);
+    font-size: 11px;
+    font-family: var(--font-mono);
+    line-height: 1.5;
+}
