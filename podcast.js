@@ -1,10 +1,11 @@
 import { renderNav } from "./components/nav.js";
-import { trackEvent } from "./components/analytics.js";
-import { PODCAST_EPISODES } from "./podcasts.js?v=202609040031";
+import { trackEvent, fetchCount } from "./components/analytics.js";
+import { PODCAST_EPISODES } from "./podcasts.js?v=202609032118";
 
 const audio = new Audio();
 let playingId = null;   // "<year>-<index>" of the row currently loaded
 const titles = {};      // row id -> episode title, for analytics
+const slugs  = {};      // row id -> stable episode slug, for event paths
 const fired = {};       // "<id>:<milestone>" -> true, so each fires once per page load
 
 function esc(s) {
@@ -23,6 +24,15 @@ function metaLine(ep) {
     return bits.join(" · ");
 }
 
+/* Analytics paths must stay stable across edits, so prefer an explicit slug and
+ * fall back to the audio filename rather than the row index — reordering the
+ * manifest would otherwise silently reassign every episode's counts. */
+function episodeSlug(ep, id) {
+    if (ep.slug) return ep.slug;
+    const file = (ep.audio || "").split("/").pop() || "";
+    return file.replace(/\.[^.]+$/, "") || id;
+}
+
 function rowHtml(ep, id) {
     const playable = Boolean(ep.audio);
     const meta = metaLine(ep);
@@ -38,6 +48,7 @@ function rowHtml(ep, id) {
             <td class="pod-title-cell">
                 <div class="pod-title">${esc(ep.title)}</div>
                 ${meta ? `<div class="pod-meta">${esc(meta)}</div>` : ""}
+                <div class="pod-plays" data-plays="${id}" hidden></div>
             </td>
             <td class="pod-desc">${esc(ep.description || "")}</td>
         </tr>`;
@@ -105,7 +116,7 @@ function once(id, milestone) {
     const key = `${id}:${milestone}`;
     if (fired[key]) return;
     fired[key] = true;
-    trackEvent(`podcast/${milestone}`, titles[id] || id);
+    trackEvent(`podcast/${milestone}/${slugs[id] || id}`, titles[id] || id);
 }
 
 /* Progress milestones say whether a 14-minute episode actually gets finished. */
@@ -115,6 +126,21 @@ function onProgress() {
     if (pct >= 0.25) once(playingId, "25pct");
     if (pct >= 0.50) once(playingId, "50pct");
     if (pct >= 0.90) once(playingId, "complete");
+}
+
+/* Fill in the play-count badges. Counts are public and cached by GoatCounter,
+ * so a badge can lag a play by a minute; a null result (counts disabled, or the
+ * request blocked) leaves the badge hidden rather than showing a false zero. */
+async function loadPlayCounts() {
+    const els = [...document.querySelectorAll("[data-plays]")];
+    await Promise.all(els.map(async el => {
+        const id = el.dataset.plays;
+        const res = await fetchCount(`podcast/play/${slugs[id] || id}`);
+        if (!res || !res.count) return;
+        const n = res.count;
+        el.textContent = `${n.toLocaleString()} play${n === 1 ? "" : "s"}`;
+        el.hidden = false;
+    }));
 }
 
 function render() {
@@ -130,7 +156,9 @@ function render() {
     }
 
     years.forEach(y => (PODCAST_EPISODES[y] || []).forEach((ep, i) => {
-        titles[`${y}-${i}`] = ep.title;
+        const id = `${y}-${i}`;
+        titles[id] = ep.title;
+        slugs[id]  = episodeSlug(ep, id);
     }));
 
     el.innerHTML = years.map(y => yearHtml(y, PODCAST_EPISODES[y] || [])).join("");
@@ -139,6 +167,8 @@ function render() {
         const btn = e.target.closest(".pod-play");
         if (btn && !btn.disabled) toggle(btn);
     });
+
+    loadPlayCounts();
 
     ["play", "pause", "ended"].forEach(ev => audio.addEventListener(ev, syncButtons));
     audio.addEventListener("timeupdate", onProgress);
