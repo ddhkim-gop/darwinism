@@ -39,7 +39,11 @@ export function trackEvent(path, title) {
 export async function fetchCount(path) {
     if (!SITE_CODE) return null;
     try {
-        const url = `https://${SITE_CODE}.goatcounter.com/counter/${encodeURIComponent(path)}.json`;
+        // GoatCounter addresses counters by literal path — /counter/<path>.json —
+        // so the separators must stay as slashes. encodeURIComponent() would turn
+        // them into %2F and the lookup would miss.
+        const safe = path.split("/").map(encodeURIComponent).join("/");
+        const url = `https://${SITE_CODE}.goatcounter.com/counter/${safe}.json`;
         const r = await fetch(url, { mode: "cors" });
         if (!r.ok) return null;
         const j = await r.json();
