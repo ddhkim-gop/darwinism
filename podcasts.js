@@ -6,7 +6,8 @@
  * Fields:
  *   title       required — episode name shown in the table
  *   description required — one or two sentences; kept short for the table cell
- *   audio       path to the audio file (put files in assets/podcasts/).
+ *   audio       path to the audio file. Files live in assets/podcasts/<year>/,
+ *               named ep<NN>-<kebab-title>.mp3.
  *               Omit it and the row renders with the play button disabled.
  *   date        optional ISO date (YYYY-MM-DD) shown under the title
  *   duration    optional human string, e.g. "42:10"
@@ -22,7 +23,7 @@ export const PODCAST_EPISODES = {
             date: "2026-09-03",
             duration: "14:12",
             slug: "2026-01-the-grades-are-in",
-            audio: "assets/podcasts/2026-01-the-grades-are-in.mp3",
+            audio: "assets/podcasts/2026/ep01-the-grades-are-in.mp3",
             description: "Draft recap and season predictions, graded off the site's own draft panel: three tiers, twelve teams, predicted standings and awards.",
         },
     ],
