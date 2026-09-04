@@ -15141,6 +15141,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "10235",
+          "espn_id": null,
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "birth_date": "2001-01-31",
+          "college": "Texas",
+          "height": "72",
+          "weight": "227",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 671
+        },
+        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15154,21 +15169,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 136
-        },
-        {
-          "player_id": "12492",
-          "espn_id": null,
-          "name": "Pat Bryant",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "2002-12-10",
-          "college": "Illinois",
-          "height": "74",
-          "weight": "204",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 172
         },
         {
           "player_id": "12519",
@@ -15246,19 +15246,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
-          "player_id": "5189",
-          "espn_id": 4034949,
-          "name": "Eddy Pineiro",
-          "position": "K",
+          "player_id": "4950",
+          "espn_id": 3895856,
+          "name": "Christian Kirk",
+          "position": "WR",
           "team": "SF",
-          "birth_date": "1995-09-13",
-          "college": "Florida",
+          "birth_date": "1996-11-18",
+          "college": "Texas A&M",
           "height": "71",
-          "weight": "190",
+          "weight": "200",
           "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 176
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 210
         },
         {
           "player_id": "5849",
@@ -15366,11 +15366,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 147
         },
         {
-          "player_id": "MIN",
+          "player_id": "9486",
           "espn_id": null,
-          "name": "Minnesota Vikings",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2001-06-16",
+          "college": "Virginia",
+          "height": "73",
+          "weight": "206",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 203
+        },
+        {
+          "player_id": "KC",
+          "espn_id": null,
+          "name": "Kansas City Chiefs",
           "position": "DEF",
-          "team": "MIN",
+          "team": "KC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18570,6 +18585,112 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 3, 2026 • 5:37 PM PT",
+      "transaction_id": "1401414795223162880",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 3, 2026 • 5:36 PM PT",
+      "transaction_id": "1401414703896383488",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Christian Kirk",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Minnesota Vikings",
+          "position": "DEF",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 3, 2026 • 5:35 PM PT",
+      "transaction_id": "1401414264647901184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 3, 2026 • 5:34 PM PT",
+      "transaction_id": "1401414104681349120",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
