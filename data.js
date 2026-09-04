@@ -15984,21 +15984,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 98
         },
         {
-          "player_id": "13311",
-          "espn_id": null,
-          "name": "Chris Bell",
-          "position": "WR",
-          "team": "MIA",
-          "birth_date": "2004-06-07",
-          "college": "Louisville",
-          "height": "74",
-          "weight": "228",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 203
-        },
-        {
           "player_id": "4033",
           "espn_id": 3123076,
           "name": "David Njoku",
@@ -17460,21 +17445,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 35
         },
         {
-          "player_id": "12457",
-          "espn_id": null,
-          "name": "Jaydon Blue",
-          "position": "RB",
-          "team": "PHI",
-          "birth_date": "2004-01-08",
-          "college": "Texas",
-          "height": "69",
-          "weight": "198",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 189
-        },
-        {
           "player_id": "12490",
           "espn_id": null,
           "name": "Bhayshul Tuten",
@@ -18600,6 +18570,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 3, 2026 • 4:07 PM PT",
+      "transaction_id": "1401392227392962560",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 3, 2026 • 3:43 PM PT",
+      "transaction_id": "1401386074588106752",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
