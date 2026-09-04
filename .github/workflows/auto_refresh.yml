@@ -2,7 +2,11 @@ name: Auto-refresh transactions
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # every 30 minutes
+    # Deliberately off the :00/:30 boundary. GitHub queues scheduled runs at low
+    # priority and drops them under load, and every '*/30' repo on the platform
+    # contends for the same two minutes each hour — observed firing interval was
+    # 1.9-4.7h against a nominal 30m. An odd offset competes with far fewer jobs.
+    - cron: '13,43 * * * *'
   workflow_dispatch:           # allow manual trigger from GitHub UI
 
 jobs:
