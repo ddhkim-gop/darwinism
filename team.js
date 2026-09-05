@@ -679,6 +679,13 @@ async function init() {
           .team-page-outer { max-width:960px; }
           .team-page-wrap { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; }
           @media (max-width:600px) { .team-page-wrap { grid-template-columns:1fr; } }
+          /* News left, highlight reel right - equal halves on desktop, stacked on mobile */
+          .team-top-wrap { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; align-items:stretch; }
+          @media (max-width:600px) { .team-top-wrap { grid-template-columns:1fr; } }
+          .team-top-wrap .top-card { background:#1e2027; border:1px solid #2d3139; border-radius:12px;
+            padding:16px 20px; display:flex; flex-direction:column; min-width:0; max-height:340px; }
+          .team-reel-video { width:100%; max-height:280px; border-radius:8px; background:#000;
+            display:block; object-fit:contain; }
           .team-col { display:flex; flex-direction:column; gap:16px; min-width:0; }
           .team-col-equal { display:flex; flex-direction:column; min-width:0; align-self:stretch; }
           .team-col-equal .equal-card { flex:1; }
@@ -708,14 +715,26 @@ async function init() {
           </div>
         </div>
 
-        <!-- Roster news -->
-        <div style="background:#1e2027;border:1px solid #2d3139;border-radius:12px;padding:16px 20px;margin-bottom:16px;">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
-            <div style="font-size:14px;font-weight:700;color:#f0f1f3;">Latest Roster News</div>
-            <div id="team-news-count" style="font-size:12px;color:#5a6070;">Loading…</div>
+        <!-- Roster news (left) + highlight reel (right) -->
+        <div class="team-top-wrap">
+          <div class="top-card">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+              <div style="font-size:14px;font-weight:700;color:#f0f1f3;">Latest Roster News</div>
+              <div id="team-news-count" style="font-size:12px;color:#5a6070;">Loading…</div>
+            </div>
+            <div id="team-news-body" style="flex:1;overflow-y:auto;padding-right:6px;">
+              <div style="color:#5a6070;font-size:12px;">Loading news…</div>
+            </div>
           </div>
-          <div id="team-news-body" style="max-height:240px;overflow-y:auto;padding-right:6px;">
-            <div style="color:#5a6070;font-size:12px;">Loading news…</div>
+
+          <div class="top-card">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+              <div style="font-size:14px;font-weight:700;color:#f0f1f3;">Highlight Reel</div>
+              <div id="team-reel-note" style="font-size:12px;color:#5a6070;">Training camp</div>
+            </div>
+            <div id="team-reel-body" style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;">
+              <div style="color:#5a6070;font-size:12px;">Checking for footage…</div>
+            </div>
           </div>
         </div>
 
@@ -783,6 +802,7 @@ async function init() {
         </div><!-- /team-page-outer -->`;
 
         loadTeamNews(players);
+        loadTeamReel(teamName);
 
         // Clickable roster → shared player card popover
         pcPlayerValues = playerValues || {};
@@ -794,6 +814,36 @@ async function init() {
         console.error(err);
         container.innerHTML = `<p style="color:#e74c82;padding:20px;">Error loading team: ${err.message}</p>`;
     }
+}
+
+// ── Highlight reel ───────────────────────────────────────────────────────────
+// One MP4 per team at assets/highlights/<team>.mp4, built offline from public
+// camp/game clips. Absent for most teams, so the panel probes first and shows
+// an honest empty state rather than a broken player.
+async function loadTeamReel(teamName) {
+    const body = document.getElementById("team-reel-body");
+    const note = document.getElementById("team-reel-note");
+    if (!body) return;
+    const slug = String(teamName || "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const src = `assets/highlights/${slug}.mp4`;
+    const poster = `assets/highlights/${slug}.jpg`;
+
+    let ok = false;
+    try {
+        const r = await fetch(src, { method: "HEAD" });
+        ok = r.ok;
+    } catch (e) { ok = false; }
+
+    if (!ok) {
+        if (note) note.textContent = "";
+        body.innerHTML = `<div style="text-align:center;color:#5a6070;font-size:12px;line-height:1.6;">
+            No reel for this team yet.<br>
+            <span style="color:#454b58;">Built from public camp footage; only some teams have any.</span>
+        </div>`;
+        return;
+    }
+    body.innerHTML = `<video class="team-reel-video" controls preload="metadata"
+        playsinline poster="${poster}" src="${src}"></video>`;
 }
 
 // ── Roster news (Sleeper player news, aggregated + sorted newest-first) ──────
