@@ -13,3 +13,4 @@ graft/
 .agent-activity.jsonl
 .mcp.json
 .ignore
+.highlights_video_cache.json

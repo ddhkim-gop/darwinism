@@ -4,13 +4,6 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/BleacherReport/status/2096227598846341556",
-      "player": "Christian McCaffrey",
-      "meta": "RB \u00b7 SF",
-      "date": "2026-09-05",
-      "author": "Bleacher Report"
-    },
-    {
       "url": "https://x.com/MySportsUpdate/status/2095990222525735336",
       "player": "Jaylen Waddle",
       "meta": "WR \u00b7 DEN",
@@ -32,20 +25,6 @@
       "author": "FantasyPros"
     },
     {
-      "url": "https://x.com/PPRFantasyTips/status/2095984130152628571",
-      "player": "Christian McCaffrey",
-      "meta": "RB \u00b7 SF",
-      "date": "2026-09-04",
-      "author": "PPRFantasyTips"
-    },
-    {
-      "url": "https://x.com/bet_105/status/2095896428786684321",
-      "player": "Christian McCaffrey",
-      "meta": "RB \u00b7 SF",
-      "date": "2026-09-04",
-      "author": "Bet105"
-    },
-    {
       "url": "https://x.com/ChiSportsTracks/status/2095307339750404405",
       "player": "Luther Burden",
       "meta": "WR \u00b7 CHI",
@@ -58,13 +37,6 @@
       "meta": "RB \u00b7 SF",
       "date": "2026-09-03",
       "author": "The Fantasy's Phinest"
-    },
-    {
-      "url": "https://x.com/UnderdogNFL/status/2095628236919021595",
-      "player": "Roschon Johnson",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-09-03",
-      "author": "Underdog NFL"
     },
     {
       "url": "https://x.com/UnderdogNFL/status/2094869543046795763",
@@ -86,6 +58,34 @@
       "meta": "WR \u00b7 DAL",
       "date": "2026-08-26",
       "author": "Ben Havin"
+    },
+    {
+      "url": "https://x.com/SleeperPackers/status/2091917085068706125",
+      "player": "MarShawn Lloyd",
+      "meta": "RB \u00b7 GB",
+      "date": "2026-08-24",
+      "author": "SleeperPackers"
+    },
+    {
+      "url": "https://x.com/DreareaSports/status/2091624681573146837",
+      "player": "Christian McCaffrey",
+      "meta": "RB \u00b7 SF",
+      "date": "2026-08-23",
+      "author": "Dre Area Sports \ud83c\udf99\ufe0f"
+    },
+    {
+      "url": "https://x.com/Schultz_Report/status/2090918231456301160",
+      "player": "Kyle Pitts",
+      "meta": "TE \u00b7 ATL",
+      "date": "2026-08-21",
+      "author": "Jordan Schultz"
+    },
+    {
+      "url": "https://x.com/AFantasyFormula/status/2090575974840561965",
+      "player": "Kyle Pitts",
+      "meta": "TE \u00b7 ATL",
+      "date": "2026-08-20",
+      "author": "TheFantasyFormula"
     }
   ]
 }

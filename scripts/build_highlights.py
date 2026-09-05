@@ -22,6 +22,8 @@ import argparse
 import html
 import json
 import re
+import shutil
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -40,6 +42,12 @@ MAX_PER_TEAM = 12
 # mentioning the place matches. That produced 11 entries like a Vikings tweet
 # filed under "Minnesota Vikings DEF" - a location match, not a highlight.
 EXCLUDE_POSITIONS = {"DEF", "DST", "D/ST"}
+
+# A "highlight" should be footage, not a take about a player. oembed cannot tell
+# a video post from a text or photo one - pic.twitter.com appears for both - so
+# yt-dlp is asked whether the post carries a playable video. Results are cached
+# because the check costs a network round trip per post.
+VIDEO_CACHE = REPO / "scripts" / ".highlights_video_cache.json"
 
 # Surnames common enough that a bare match is meaningless - these need the
 # first name too, or "Cook" pulls in every post about a coach named Cook.
@@ -80,6 +88,36 @@ def rosters() -> dict[str, list[dict]]:
                            "team": p.get("team") or "FA"})
         out[owner] = roster
     return out
+
+
+def _load_video_cache() -> dict:
+    if VIDEO_CACHE.exists():
+        try:
+            return json.loads(VIDEO_CACHE.read_text())
+        except ValueError:
+            return {}
+    return {}
+
+
+def has_video(url: str, cache: dict) -> bool:
+    if url in cache:
+        return bool(cache[url])
+    if not shutil.which("yt-dlp"):
+        print("  ! yt-dlp not found; cannot verify video. Install it or pass "
+              "--any-post.", file=sys.stderr)
+        cache[url] = False
+        return False
+    try:
+        r = subprocess.run(
+            ["yt-dlp", "-q", "--no-warnings", "--skip-download",
+             "--socket-timeout", "20", "--print", "%(duration)s", url],
+            capture_output=True, text=True, timeout=90, stdin=subprocess.DEVNULL)
+        first = (r.stdout or "").strip().splitlines()
+        ok = bool(first) and re.fullmatch(r"[0-9.]+", first[0].strip()) is not None
+    except Exception:
+        ok = False
+    cache[url] = ok
+    return ok
 
 
 def oembed(url: str) -> dict | None:
@@ -137,16 +175,25 @@ def mentions(text: str, player_name: str) -> bool:
     return True
 
 
-def build(pool: list[str], only_team: str | None, dry_run: bool) -> int:
-    print(f"resolving {len(pool)} candidate posts via oembed…")
-    resolved = []
+def build(pool: list[str], only_team: str | None, dry_run: bool,
+          video_only: bool = True) -> int:
+    print(f"resolving {len(pool)} candidate posts via oembed"
+          f"{' (video posts only)' if video_only else ''}…")
+    cache = _load_video_cache()
+    resolved, skipped = [], 0
     for url in pool:
+        if video_only and not has_video(url, cache):
+            skipped += 1
+            continue
         info = oembed(url)
         if info:
             resolved.append(info)
             print(f"  ok  {info['date'] or '????-??-??'}  @{info['author_url'].rsplit('/',1)[-1]}"
                   f"  {info['text'][:58]}")
         time.sleep(0.4)          # be polite to a public endpoint
+    if video_only:
+        VIDEO_CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True) + "\n")
+        print(f"\nskipped {skipped} posts with no video")
     if not resolved:
         print("no posts resolved; nothing written", file=sys.stderr)
         return 1
@@ -189,10 +236,12 @@ def main() -> int:
     ap.add_argument("pool", help="file of candidate X post URLs, one per line")
     ap.add_argument("--team", help="only rebuild this team's feed (slug)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--any-post", action="store_true",
+                    help="keep text-only posts too (default: video posts only)")
     a = ap.parse_args()
     urls = [l.strip() for l in Path(a.pool).read_text().splitlines()
             if l.strip() and not l.startswith("#")]
-    return build(urls, a.team, a.dry_run)
+    return build(urls, a.team, a.dry_run, video_only=not a.any_post)
 
 
 if __name__ == "__main__":
