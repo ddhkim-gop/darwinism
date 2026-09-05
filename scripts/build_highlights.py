@@ -36,6 +36,11 @@ SLEEPER = "https://api.sleeper.app/v1"
 OEMBED = "https://publish.twitter.com/oembed"
 MAX_PER_TEAM = 12
 
+# Team defences are excluded: their "name" is a city or franchise, so any post
+# mentioning the place matches. That produced 11 entries like a Vikings tweet
+# filed under "Minnesota Vikings DEF" - a location match, not a highlight.
+EXCLUDE_POSITIONS = {"DEF", "DST", "D/ST"}
+
 # Surnames common enough that a bare match is meaningless - these need the
 # first name too, or "Cook" pulls in every post about a coach named Cook.
 AMBIGUOUS = {
@@ -68,8 +73,10 @@ def rosters() -> dict[str, list[dict]]:
                     or f"{p.get('first_name','')} {p.get('last_name','')}".strip())
             if not name:
                 continue
-            roster.append({"name": name,
-                           "position": p.get("position") or "",
+            position = p.get("position") or ""
+            if position.upper() in EXCLUDE_POSITIONS:
+                continue
+            roster.append({"name": name, "position": position,
                            "team": p.get("team") or "FA"})
         out[owner] = roster
     return out
