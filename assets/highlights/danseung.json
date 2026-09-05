@@ -1,0 +1,14 @@
+{
+  "team": "danseung",
+  "updated": "2026-09-05",
+  "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
+  "tweets": [
+    {
+      "url": "https://x.com/MySportsUpdate/status/2095990222525735336",
+      "player": "Denver Broncos",
+      "meta": "DEF \u00b7 DEN",
+      "date": "2026-09-04",
+      "author": "Ari Meirov"
+    }
+  ]
+}

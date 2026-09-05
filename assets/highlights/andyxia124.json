@@ -1,0 +1,21 @@
+{
+  "team": "andyxia124",
+  "updated": "2026-09-05",
+  "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
+  "tweets": [
+    {
+      "url": "https://x.com/FantasyPros/status/2096045903811424673",
+      "player": "De'Zhaun Stribling",
+      "meta": "WR \u00b7 SF",
+      "date": "2026-09-05",
+      "author": "FantasyPros"
+    },
+    {
+      "url": "https://x.com/FantasyPros/status/2095947312925233556",
+      "player": "De'Zhaun Stribling",
+      "meta": "WR \u00b7 SF",
+      "date": "2026-09-04",
+      "author": "FantasyPros"
+    }
+  ]
+}

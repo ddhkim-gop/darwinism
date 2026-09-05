@@ -1,0 +1,28 @@
+{
+  "team": "spiffster",
+  "updated": "2026-09-05",
+  "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
+  "tweets": [
+    {
+      "url": "https://x.com/Nate_Tice/status/2095691914121265331",
+      "player": "Minnesota Vikings",
+      "meta": "DEF \u00b7 MIN",
+      "date": "2026-09-04",
+      "author": "Nate Tice"
+    },
+    {
+      "url": "https://x.com/NFL_Talk_Sports/status/2093156629013233752",
+      "player": "Minnesota Vikings",
+      "meta": "DEF \u00b7 MIN",
+      "date": "2026-08-28",
+      "author": "NFL Talk"
+    },
+    {
+      "url": "https://x.com/Schultz_Report/status/2090918231456301160",
+      "player": "Bijan Robinson",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-08-21",
+      "author": "Jordan Schultz"
+    }
+  ]
+}
