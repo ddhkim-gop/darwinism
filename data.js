@@ -17646,21 +17646,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 9
         },
         {
-          "player_id": "12484",
-          "espn_id": null,
-          "name": "Jayden Higgins",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-12-15",
-          "college": "Iowa State",
-          "height": "76",
-          "weight": "215",
-          "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 126
-        },
-        {
           "player_id": "12507",
           "espn_id": null,
           "name": "Omarion Hampton",
@@ -18570,6 +18555,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 5, 2026 • 8:24 AM PT",
+      "transaction_id": "1402000439955742720",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jayden Higgins",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,

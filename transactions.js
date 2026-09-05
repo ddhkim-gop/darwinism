@@ -1,4 +1,4 @@
-import { api } from "./dataService.js?v=202609050618";
+import { api } from "./dataService.js?v=202609051648";
 import { renderNav } from "./components/nav.js";
 
 const POS_COLORS = { QB:"#e74c82", RB:"#3ecf8e", WR:"#4299e1", TE:"#f6ad55", K:"#9f7aea", DEF:"#94a3b8" };
