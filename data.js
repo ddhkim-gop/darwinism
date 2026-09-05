@@ -17364,11 +17364,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 148
         },
         {
-          "player_id": "NE",
+          "player_id": "MIN",
           "espn_id": null,
-          "name": "New England Patriots",
+          "name": "Minnesota Vikings",
           "position": "DEF",
-          "team": "NE",
+          "team": "MIN",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17475,6 +17475,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 44
         },
         {
+          "player_id": "13276",
+          "espn_id": null,
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ",
+          "birth_date": "2003-12-14",
+          "college": "Indiana",
+          "height": "72",
+          "weight": "199",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 151
+        },
+        {
           "player_id": "13288",
           "espn_id": null,
           "name": "Nicholas Singleton",
@@ -17520,21 +17535,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 109
         },
         {
-          "player_id": "421",
-          "espn_id": 12483,
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "birth_date": "1988-02-07",
-          "college": "Georgia",
-          "height": "75",
-          "weight": "214",
-          "years_exp": 17,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 67
-        },
-        {
           "player_id": "6801",
           "espn_id": 4239993,
           "name": "Tee Higgins",
@@ -17578,21 +17578,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 97
-        },
-        {
-          "player_id": "8180",
-          "espn_id": null,
-          "name": "Jalen Nailor",
-          "position": "WR",
-          "team": "LV",
-          "birth_date": "1999-03-02",
-          "college": "Michigan State",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 168
         },
         {
           "player_id": "9493",
@@ -18585,6 +18570,84 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 4, 2026 • 4:55 PM PT",
+      "transaction_id": "1401766753800888320",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jalen Nailor",
+          "position": "WR",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 4, 2026 • 4:48 PM PT",
+      "transaction_id": "1401764973293645824",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 4, 2026 • 9:20 AM PT",
+      "transaction_id": "1401652250979348480",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Minnesota Vikings",
+          "position": "DEF",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "New England Patriots",
+          "position": "DEF",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 1,
+      "notes": "Your waiver claim was processed successfully!"
+    },
     {
       "season": "2026",
       "week": 1,
