@@ -4,11 +4,32 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/BleacherReport/status/2096227598846341556",
+      "player": "Ashton Jeanty",
+      "meta": "RB \u00b7 LV",
+      "date": "2026-09-05",
+      "author": "Bleacher Report"
+    },
+    {
       "url": "https://x.com/Nate_Tice/status/2095691914121265331",
       "player": "Minnesota Vikings",
       "meta": "DEF \u00b7 MIN",
       "date": "2026-09-04",
       "author": "Nate Tice"
+    },
+    {
+      "url": "https://x.com/PPRFantasyTips/status/2095984130152628571",
+      "player": "Ashton Jeanty",
+      "meta": "RB \u00b7 LV",
+      "date": "2026-09-04",
+      "author": "PPRFantasyTips"
+    },
+    {
+      "url": "https://x.com/bet_105/status/2095896428786684321",
+      "player": "Bijan Robinson",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-09-04",
+      "author": "Bet105"
     },
     {
       "url": "https://x.com/NFL_Talk_Sports/status/2093156629013233752",
