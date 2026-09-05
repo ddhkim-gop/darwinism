@@ -1,0 +1,35 @@
+{
+  "team": "sallyyoon84",
+  "updated": "2026-09-05",
+  "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
+  "tweets": [
+    {
+      "url": "https://x.com/FantasyPros/status/2096045903811424673",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-09-05",
+      "author": "FantasyPros"
+    },
+    {
+      "url": "https://x.com/dawhitehousepod/status/2096011194247069748",
+      "player": "George Pickens",
+      "meta": "WR \u00b7 DAL",
+      "date": "2026-09-04",
+      "author": "The White House Pod"
+    },
+    {
+      "url": "https://x.com/Jack_Aylmer/status/2095950182378578007",
+      "player": "Detroit Lions",
+      "meta": "DEF \u00b7 DET",
+      "date": "2026-09-04",
+      "author": "Jack Aylmer"
+    },
+    {
+      "url": "https://x.com/FantasyPros/status/2095947312925233556",
+      "player": "KC Concepcion",
+      "meta": "WR \u00b7 CLE",
+      "date": "2026-09-04",
+      "author": "FantasyPros"
+    }
+  ]
+}

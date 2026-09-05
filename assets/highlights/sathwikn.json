@@ -1,0 +1,49 @@
+{
+  "team": "sathwikn",
+  "updated": "2026-09-05",
+  "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
+  "tweets": [
+    {
+      "url": "https://x.com/AdamSchefter/status/2096033493306286233",
+      "player": "Josh Jacobs",
+      "meta": "RB \u00b7 GB",
+      "date": "2026-09-05",
+      "author": "Adam Schefter"
+    },
+    {
+      "url": "https://x.com/RapSheet/status/2096022439092207751",
+      "player": "Los Angeles Chargers",
+      "meta": "DEF \u00b7 LAC",
+      "date": "2026-09-04",
+      "author": "Ian Rapoport"
+    },
+    {
+      "url": "https://x.com/AdamSchefter/status/2095964161415196956",
+      "player": "Josh Jacobs",
+      "meta": "RB \u00b7 GB",
+      "date": "2026-09-04",
+      "author": "Adam Schefter"
+    },
+    {
+      "url": "https://x.com/NFL_DovKleiman/status/2095628400337818075",
+      "player": "Los Angeles Chargers",
+      "meta": "DEF \u00b7 LAC",
+      "date": "2026-09-03",
+      "author": "Dov Kleiman"
+    },
+    {
+      "url": "https://x.com/SleeperPackers/status/2091917085068706125",
+      "player": "Josh Jacobs",
+      "meta": "RB \u00b7 GB",
+      "date": "2026-08-24",
+      "author": "SleeperPackers"
+    },
+    {
+      "url": "https://x.com/Schultz_Report/status/2090918231456301160",
+      "player": "Drake London",
+      "meta": "WR \u00b7 ATL",
+      "date": "2026-08-21",
+      "author": "Jordan Schultz"
+    }
+  ]
+}
