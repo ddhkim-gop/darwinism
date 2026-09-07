@@ -2,5 +2,16 @@
   "team": "jonsung",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/Coach_Yac/status/2096804898125865137",
+      "player": "George Kittle",
+      "meta": "TE \u00b7 SF",
+      "date": "2026-09-07",
+      "author": "Coach_Yac",
+      "verified": true,
+      "faves": 136,
+      "secs": 8
+    }
+  ]
 }

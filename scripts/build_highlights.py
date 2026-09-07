@@ -37,6 +37,8 @@ LEAGUE_ID = "1373230564454191104"          # Darwinism 2026
 SLEEPER = "https://api.sleeper.app/v1"
 OEMBED = "https://publish.twitter.com/oembed"
 MAX_PER_TEAM = 12
+MAX_PER_PLAYER = 2      # the same play gets posted by a dozen accounts
+MAX_AGE_DAYS = 21       # the panel says "Latest Highlights"; old college film is not
 
 # Team defences are excluded: their "name" is a city or franchise, so any post
 # mentioning the place matches. That produced 11 entries like a Vikings tweet
@@ -68,7 +70,11 @@ AMBIGUOUS = {
 # are the shapes that kept slipping through: a college betting prop, a fantasy
 # rankings graphic, a transaction report. Each embeds video of someone.
 REJECT_PATTERNS = [
-    (r"\b(ncaaf|cfb|college\s*football|ncaa)\b", "college football"),
+    (r"\b(ncaaf|cfb|college\s*football|ncaa|heisman|bowl\s+game)\b",
+     "college football"),
+    # A clip captioned with a past season is old college or archive film.
+    (r"\((?:19|20)\d{2}[,)]|\b(?:20(?:1\d|2[0-5]))\s*(?:season|week|vs)\b|"
+     r"\bin\s+20(?:1\d|2[0-5])\b", "archive/old season"),
     (r"""\b(prop|props|parlay|bet|bets|betting|odds|sportsbook|
            fanduel|draftkings|underdog|\d+u|units?)\b
         | \b(over|under)\s*\d
@@ -108,6 +114,14 @@ EXCLUDE_AUTHORS = {
     "rapsheet", "jfowlerespn", "schultz_report", "nfl_dovkleiman",
     "mysportsupdate", "dawhitehousepod", "nfl_talk_sports",
     "chisportstracks", "thescorechicago", "lostalkspats",
+    # exposed by watching: advice talking-heads and college-only accounts
+    "thedumbzone", "simmbros", "popes_ff", "fbbible_", "noexpertfs",
+    "dynastydadff", "blueprintffb", "rotowire", "fantasypts", "fantasylabs",
+    "upsidersff", "weekinfantasy", "dynastynerds", "sleeperhq", "sleepernfl",
+    "matthewberrytmr", "yahoofantasyjh", "parlayanalyzer", "linecrushbot",
+    "line_crush", "925_sports", "performancescfb", "swankywolverine",
+    "terrapins247", "yahh_nezzz", "section313sport", "micnuggetsnfl",
+    "kalshifb", "profootballdoc", "medspirationnfp", "singhdpt",
 }
 
 HIGHLIGHT_CUES = r"""\b(
@@ -286,14 +300,85 @@ def is_highlight(text: str, player_name: str, roster_union: set[str]) -> tuple[b
     return True, ""
 
 
+def load_capture(path: Path) -> list[dict]:
+    """Records harvested from X's own timeline responses in the browser.
+
+    Each already carries text, author, date and the fact that it has video, so
+    this path needs no oembed call and no yt-dlp probe.
+    """
+    out = []
+    for r in json.loads(path.read_text()):
+        d = ""
+        m = re.match(r"([A-Za-z]{3})\s+(\d{1,2})", r.get("d") or "")
+        if m:
+            month = ["Jan","Feb","Mar","Apr","May","Jun",
+                     "Jul","Aug","Sep","Oct","Nov","Dec"].index(m.group(1)) + 1
+            year = 2026 if month >= 6 else 2027
+            d = f"{year}-{month:02d}-{int(m.group(2)):02d}"
+        out.append({"url": r["u"], "author": r.get("a") or "",
+                    "author_url": f"https://x.com/{r.get('a','')}",
+                    "text": r.get("t") or "", "date": d,
+                    "faves": r.get("f") or 0, "secs": r.get("s") or 0})
+    return out
+
+
+def fresh(date: str) -> bool:
+    """Inside the recency window. A three-week-old clip is not a highlight of
+    this week, and the panel is labelled Latest Highlights."""
+    if not date:
+        return False
+    try:
+        d = datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return False
+    return (datetime.now(timezone.utc) - d).days <= MAX_AGE_DAYS
+
+
+def dedupe(hits: list[dict]) -> list[dict]:
+    """Collapse re-posts of the same play, then cap per player.
+
+    A notable play is posted by many accounts within minutes, often with
+    near-identical wording. Keeping all of them fills a team's panel with one
+    catch. Grouping by (player, date, rounded clip length) catches the
+    re-uploads; the most-liked copy wins, which also favours the account that
+    posted the cleanest cut.
+    """
+    best: dict[tuple, dict] = {}
+    for h in sorted([x for x in hits if fresh(x["date"])],
+                    key=lambda x: -x.get("faves", 0)):
+        key = (h["player"], h["date"], round((h.get("secs") or 0) / 5))
+        best.setdefault(key, h)
+    kept, per_player = [], {}
+    for h in sorted(best.values(), key=lambda x: (x["date"] or "0", x.get("faves", 0)),
+                    reverse=True):
+        n = per_player.get(h["player"], 0)
+        if n >= MAX_PER_PLAYER:
+            continue
+        per_player[h["player"]] = n + 1
+        kept.append(h)
+    return kept
+
+
 def build(pool: list[str], only_team: str | None, dry_run: bool,
-          video_only: bool = True, highlights_only: bool = True) -> int:
-    print(f"resolving {len(pool)} candidate posts via oembed"
-          f"{' (video posts only)' if video_only else ''}…")
+          video_only: bool = True, highlights_only: bool = True,
+          capture: Path | None = None, verified_only: bool = False) -> int:
+    if not capture:
+        print(f"resolving {len(pool)} candidate posts via oembed"
+              f"{' (video posts only)' if video_only else ''}…")
     cache = _load_video_cache()
     approved, refused = _load_reviewed()
-    resolved, skipped, vetoed, by_author = [], 0, 0, 0
-    for url in pool:
+    if capture:
+        resolved = [r for r in load_capture(capture) if r["url"] not in refused]
+        n0 = len(resolved)
+        if highlights_only:
+            resolved = [r for r in resolved
+                        if r["url"] in approved
+                        or r["author"].lower() not in EXCLUDE_AUTHORS]
+        print(f"capture: {n0} video posts, {len(resolved)} after author filter")
+    skipped, vetoed, by_author = 0, 0, 0
+    if not capture:
+        resolved = []
+    for url in ([] if capture else pool):
         if url in refused:
             vetoed += 1
             continue
@@ -337,6 +422,8 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             for p in roster:
                 if not mentions(post["text"], p["name"]):
                     continue
+                if verified_only and post["url"] not in approved:
+                    break
                 if post["url"] in approved:
                     ok, why = True, ""      # watched and confirmed
                 elif not highlights_only:
@@ -349,10 +436,11 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                 hits.append({"url": post["url"], "player": p["name"],
                              "meta": f"{p['position']} · {p['team']}",
                              "date": post["date"], "author": post["author"],
-                             "verified": post["url"] in approved})
+                             "verified": post["url"] in approved,
+                             "faves": post.get("faves", 0),
+                             "secs": post.get("secs", 0)})
                 break            # one post is filed under one player
-        hits.sort(key=lambda h: h["date"] or "0000-00-00", reverse=True)
-        hits = hits[:MAX_PER_TEAM]
+        hits = dedupe(hits)[:MAX_PER_TEAM]
         feed = {"team": owner,
                 "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 "note": "Curated: X has no public search API, so posts are "
@@ -375,19 +463,27 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("pool", help="file of candidate X post URLs, one per line")
+    ap.add_argument("pool", nargs="?", help="file of candidate X post URLs")
+    ap.add_argument("--capture", type=Path,
+                    help="JSON harvested from X timeline responses; skips oembed")
     ap.add_argument("--team", help="only rebuild this team's feed (slug)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--any-post", action="store_true",
                     help="keep text-only posts too (default: video posts only)")
+    ap.add_argument("--verified-only", action="store_true",
+                    help="emit only posts watched and confirmed in "
+                         "highlights_reviewed.json (what ships)")
     ap.add_argument("--any-mention", action="store_true",
                     help="keep posts that merely name the player (default: the "
                          "post must describe a play by him)")
     a = ap.parse_args()
-    urls = [l.strip() for l in Path(a.pool).read_text().splitlines()
-            if l.strip() and not l.startswith("#")]
+    urls = []
+    if a.pool:
+        urls = [l.strip() for l in Path(a.pool).read_text().splitlines()
+                if l.strip() and not l.startswith("#")]
     return build(urls, a.team, a.dry_run, video_only=not a.any_post,
-                 highlights_only=not a.any_mention)
+                 highlights_only=not a.any_mention, capture=a.capture,
+                 verified_only=a.verified_only)
 
 
 if __name__ == "__main__":

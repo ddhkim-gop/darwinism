@@ -4,28 +4,44 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Dizzy_3D/status/2095884689374392769",
+      "player": "CeeDee Lamb",
+      "meta": "WR \u00b7 DAL",
+      "date": "2026-09-04",
+      "author": "Dizzy_3D",
+      "verified": true,
+      "faves": 569,
+      "secs": 30
+    },
+    {
       "url": "https://x.com/SleeperPackers/status/2091917085068706125",
       "player": "MarShawn Lloyd",
       "meta": "RB \u00b7 GB",
       "date": "2026-08-24",
       "author": "SleeperPackers",
-      "verified": true
+      "verified": true,
+      "faves": 300,
+      "secs": 12
     },
     {
       "url": "https://x.com/DreareaSports/status/2091624681573146837",
       "player": "Christian McCaffrey",
       "meta": "RB \u00b7 SF",
       "date": "2026-08-23",
-      "author": "Dre Area Sports \ud83c\udf99\ufe0f",
-      "verified": true
+      "author": "DreareaSports",
+      "verified": true,
+      "faves": 300,
+      "secs": 13
     },
     {
       "url": "https://x.com/AFantasyFormula/status/2090575974840561965",
       "player": "Kyle Pitts",
       "meta": "TE \u00b7 ATL",
       "date": "2026-08-20",
-      "author": "TheFantasyFormula",
-      "verified": true
+      "author": "AFantasyFormula",
+      "verified": true,
+      "faves": 300,
+      "secs": 5
     }
   ]
 }
