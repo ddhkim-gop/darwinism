@@ -175,6 +175,19 @@ def rosters() -> dict[str, list[dict]]:
     return out
 
 
+def reviewed_players(verdict: str) -> set[str]:
+    """The player a verdict actually confirms, read off the note's prefix.
+
+    Notes are written as "Player Name - what the footage shows", or
+    "Player A & Player B - ..." when one clip genuinely shows both. A post often
+    names several players, so without this a clip verified as Trey McBride's
+    touchdown could be filed under Marvin Harrison on another roster - the
+    label would lie about footage that had genuinely been watched.
+    """
+    head = (verdict or "").split(" - ", 1)[0].strip()
+    return {n.strip() for n in head.split(" & ") if n.strip()}
+
+
 def _load_reviewed() -> tuple[dict, dict]:
     if not REVIEWED.exists():
         return {}, {}
@@ -459,6 +472,9 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                     continue
                 if verified_only and post["url"] not in approved:
                     break
+                who = reviewed_players(approved.get(post["url"], ""))
+                if who and p["name"] not in who:
+                    continue        # watched, but it shows a different player
                 if post["url"] in approved:
                     ok, why = True, ""      # watched and confirmed
                 elif not highlights_only:

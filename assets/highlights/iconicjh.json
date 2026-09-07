@@ -2,5 +2,26 @@
   "team": "IconicJH",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/MustDraftHQ/status/2096781895400907122",
+      "player": "Trey McBride",
+      "meta": "TE \u00b7 ARI",
+      "date": "2026-09-07",
+      "author": "MustDraftHQ",
+      "verified": true,
+      "faves": 2,
+      "secs": 86
+    },
+    {
+      "url": "https://x.com/CommandersLead/status/2095582297110012226",
+      "player": "Terry McLaurin",
+      "meta": "WR \u00b7 WAS",
+      "date": "2026-09-03",
+      "author": "CommandersLead",
+      "verified": true,
+      "faves": 599,
+      "secs": 22
+    }
+  ]
 }
