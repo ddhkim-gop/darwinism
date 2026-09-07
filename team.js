@@ -869,128 +869,23 @@ async function loadTeamReel(teamName) {
     }
     if (note) note.textContent = `${tweets.length} posts`;
 
-    // Modelled on X's *embed* (publish.twitter.com), not the app timeline: name
-    // and blue check on one line, "@handle · Follow" stacked beneath, X mark top
-    // right, then text, media, and a date footer. The widget itself cannot be
-    // used - 42 of 43 clips are monetized amplify video, which X's embed refuses
-    // to play in place and replaces with a "Watch on X" button. Avatar and mp4
-    // still come from X's servers, so only the chrome is ours.
-    const XS = {
-        bg: "#000", text: "#e7e9ea", dim: "#71767b", line: "#2f3336", blue: "#1d9bf0",
-        font: `"TwitterChirp","Helvetica Neue",Helvetica,Arial,sans-serif`
-    };
-    const check = `<svg viewBox="0 0 22 22" width="16" height="16" aria-label="Verified"
-        style="flex:0 0 16px;" fill="${XS.blue}"><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816
-        -.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687
-        -.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44
-        S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272
-        -1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896
-        -.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817
-        .356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688
-        .47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439
-        .54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44
-        c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681
-        s.075-1.299-.163-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662
-        14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"/></svg>`;
-    const xmark = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"
-        fill="${XS.text}"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817
-        L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084
-        4.126H5.117z"/></svg>`;
-    const longDate = (iso) => {
-        if (!iso) return "";
-        const d = new Date(iso + "T12:00:00Z");
-        return isNaN(d) ? iso
-            : d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
-    };
-
-    body.innerHTML = tweets.map((t, i) => {
-        const tag = `
-          <div style="display:flex;gap:7px;align-items:baseline;margin:0 2px 5px;">
-            <span style="font-size:11px;font-weight:700;color:#8b919c;">${esc(t.player || "")}</span>
+    body.innerHTML = tweets.map((t) => `
+        <div style="margin-bottom:14px;">
+          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:4px;">
+            <span style="font-size:12px;font-weight:700;color:#f0f1f3;">${esc(t.player || "")}</span>
             <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
-          </div>`;
-        if (!t.video) {
-            return `<div style="margin-bottom:14px;">${tag}
-              <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
-                          data-conversation="none" data-width="330"
-                          style="margin:0;font-size:12px;">
-                <a href="${esc(t.url)}">View post on X →</a>
-              </blockquote></div>`;
-        }
-        const handle = esc(t.author || "");
-        const name = esc(t.author_name || t.author || "");
-        const avatar = t.avatar
-            ? `<img src="${esc(t.avatar)}" alt="" loading="lazy"
-                    style="width:48px;height:48px;border-radius:50%;flex:0 0 48px;
-                           object-fit:cover;background:${XS.line};">`
-            : `<div style="width:48px;height:48px;border-radius:50%;flex:0 0 48px;
-                           background:${XS.line};"></div>`;
-        return `<div style="margin-bottom:14px;">${tag}
-          <div style="border:1px solid ${XS.line};border-radius:12px;background:${XS.bg};
-                      font-family:${XS.font};padding:12px;">
-            <div style="display:flex;gap:12px;align-items:flex-start;">
-              <a href="https://x.com/${handle}" target="_blank" rel="noopener"
-                 style="line-height:0;">${avatar}</a>
-              <div style="min-width:0;flex:1;">
-                <div style="display:flex;align-items:center;gap:4px;">
-                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
-                     style="font-size:15px;font-weight:700;color:${XS.text};
-                            text-decoration:none;white-space:nowrap;overflow:hidden;
-                            text-overflow:ellipsis;">${name}</a>
-                  ${t.author_verified ? check : ""}
-                </div>
-                <div style="font-size:15px;color:${XS.dim};margin-top:1px;
-                            white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-                  @${handle} ·
-                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
-                     style="color:${XS.blue};text-decoration:none;font-weight:400;">Follow</a>
-                </div>
-              </div>
-              <a href="${esc(t.url)}" target="_blank" rel="noopener" title="View on X"
-                 style="line-height:0;flex:0 0 18px;">${xmark}</a>
-            </div>
-            ${t.text ? `<div style="font-size:15px;line-height:1.4;color:${XS.text};
-                                    margin:12px 0 0;white-space:pre-wrap;
-                                    word-break:break-word;">${esc(t.text)}</div>` : ""}
-            <div style="margin-top:12px;border:1px solid ${XS.line};border-radius:12px;
-                        overflow:hidden;">
-              <video class="reel-video" data-i="${i}" controls playsinline preload="none"
-                     ${t.poster ? `poster="${esc(t.poster)}"` : ""}
-                     style="width:100%;display:block;background:#000;
-                            aspect-ratio:16/9;object-fit:contain;">
-                <source src="${esc(t.video)}" type="video/mp4">
-              </video>
-            </div>
-            <a href="${esc(t.url)}" target="_blank" rel="noopener"
-               style="display:block;margin-top:12px;font-size:15px;color:${XS.dim};
-                      text-decoration:none;">${esc(longDate(t.date))}</a>
-          </div></div>`;
-    }).join("");
+            <span style="font-size:11px;color:#454b58;margin-left:auto;">${esc(t.date || "")}</span>
+          </div>
+          <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
+                      data-conversation="none" data-width="330"
+                      style="margin:0;font-size:12px;">
+            <a href="${esc(t.url)}">View post on X →</a>
+          </blockquote>
+        </div>`).join("");
 
-    // preload="none" is what defers the download. The <source> stays in the
-    // markup: attaching it on the play event meant a real click had nothing to
-    // load and the player sat dead.
-    body.querySelectorAll("video.reel-video").forEach((v) => {
-        const t = tweets[Number(v.dataset.i)] || {};
-        v.addEventListener("play", () => {
-            body.querySelectorAll("video.reel-video").forEach((o) => {
-                if (o !== v && !o.paused) o.pause();
-            });
-        });
-        v.addEventListener("error", () => {
-            const d = document.createElement("div");
-            d.style.cssText = "font-size:15px;color:#71767b;padding:16px 0;";
-            d.innerHTML = `Clip unavailable — <a href="${esc(t.url)}" target="_blank"
-                rel="noopener" style="color:#1d9bf0;">watch on X →</a>`;
-            v.replaceWith(d);
-        });
-    });
-
-    if (body.querySelector("blockquote.twitter-tweet")) {
-        const twttr = await loadTwitterWidget();
-        if (twttr && twttr.widgets && twttr.widgets.load) {
-            try { twttr.widgets.load(body); } catch (e) { /* links remain */ }
-        }
+    const twttr = await loadTwitterWidget();
+    if (twttr && twttr.widgets && twttr.widgets.load) {
+        try { twttr.widgets.load(body); } catch (e) { /* blockquote links remain */ }
     }
 }
 
