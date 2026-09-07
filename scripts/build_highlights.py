@@ -59,6 +59,14 @@ VIDEO_CACHE = REPO / "scripts" / ".highlights_video_cache.json"
 # from actually watching a post live here and outrank it in both directions.
 REVIEWED = REPO / "scripts" / "highlights_reviewed.json"
 
+# Scoreboards read off clips, as "AWAY@HOME AS-HS". Looked up against
+# nflverse's schedule so a clip's season and week are a fact, not a guess.
+try:
+    from scoreboard import verdict as score_verdict
+except ImportError:                       # running from another directory
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from scoreboard import verdict as score_verdict
+
 # Surnames common enough that a bare match is meaningless - these need the
 # first name too, or "Cook" pulls in every post about a coach named Cook.
 AMBIGUOUS = {
@@ -205,6 +213,41 @@ def _load_reviewed() -> tuple[dict, dict, dict]:
         return {}, {}, {}
     return (d.get("keep") or {}, d.get("keep_preseason_only") or {},
             d.get("reject") or {})
+
+
+def _load_scoreboards() -> dict:
+    if not REVIEWED.exists():
+        return {}
+    try:
+        return (json.loads(REVIEWED.read_text()).get("games") or {})
+    except ValueError:
+        return {}
+
+
+SCORE_RE = re.compile(r"^\s*([A-Za-z]{2,3})\s*@\s*([A-Za-z]{2,3})\s+"
+                      r"(\d{1,2})\s*-\s*(\d{1,2})\s*$")
+
+
+def dated_by_scoreboard(url: str, boards: dict, st: dict | None) -> tuple[str, str]:
+    """(verdict, detail) for a clip whose score bug was recorded.
+
+    Returns "unrecorded" when no scoreboard was read for this post - practice
+    and camp clips have none, so they fall back to the review buckets.
+    """
+    raw = boards.get(url)
+    if not raw:
+        return "unrecorded", ""
+    m = SCORE_RE.match(raw)
+    if not m:
+        return "unparsed", raw
+    away, home, a, h = m.groups()
+    try:
+        v, g = score_verdict(away, home, a, h, st=st)
+    except Exception as e:
+        return "unparsed", f"{raw} ({e})"
+    if not g:
+        return v, raw
+    return v, f"{g['season']} wk{g['week']} {g['away']} {g['away_score']} @ {g['home']} {g['home_score']}"
 
 
 def _load_video_cache() -> dict:
@@ -361,6 +404,10 @@ _WINDOW: str | None = None
 _IN_SEASON: bool = False
 
 
+def _state() -> dict:
+    return get_json(f"{SLEEPER}/state/nfl", timeout=20)
+
+
 def in_season() -> bool:
     """Are games being played? Drives whether archive footage is allowed."""
     window_start()
@@ -440,11 +487,19 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
               f"{' (video posts only)' if video_only else ''}…")
     cache = _load_video_cache()
     approved, archive, refused = _load_reviewed()
+    boards = _load_scoreboards()
+    season_state = None
     if not in_season():
         approved = {**archive, **approved}      # no games yet, so old plays count
-    elif archive:
-        print(f"in season: holding back {len(archive)} posts whose footage is "
-              f"from a previous season")
+    else:
+        try:
+            season_state = _state()
+        except Exception as e:
+            print(f"  ! could not read season state ({e}); "
+                  f"scoreboard dating disabled", file=sys.stderr)
+        if archive:
+            print(f"in season: holding back {len(archive)} posts whose footage "
+                  f"is from a previous season")
     if capture:
         resolved = [r for r in load_capture(capture) if r["url"] not in refused]
         n0 = len(resolved)
@@ -491,6 +546,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     rejects: dict[str, str] = {}
+    dropped_by_score: dict[str, str] = {}
     for owner, roster in sorted(teams.items()):
         slug = re.sub(r"[^a-z0-9]+", "-", owner.lower()).strip("-")
         if only_team and slug != only_team.lower():
@@ -505,6 +561,12 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                 who = reviewed_players(approved.get(post["url"], ""))
                 if who and p["name"] not in who:
                     continue        # watched, but it shows a different player
+                if in_season():
+                    v, detail = dated_by_scoreboard(post["url"], boards,
+                                                    season_state)
+                    if v not in ("current-week", "unrecorded"):
+                        dropped_by_score[post["url"]] = f"{v}: {detail}"
+                        break
                 if post["url"] in approved:
                     ok, why = True, ""      # watched and confirmed
                 elif not highlights_only:
@@ -532,6 +594,10 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         if not dry_run:
             (OUT_DIR / f"{slug}.json").write_text(json.dumps(feed, indent=2) + "\n")
             written += 1
+    if dropped_by_score:
+        print(f"\nscoreboard dating dropped {len(dropped_by_score)} posts:")
+        for url, why in sorted(dropped_by_score.items(), key=lambda kv: kv[1]):
+            print(f"  - {why:<44} {url}")
     if rejects:
         print(f"\nrejected {len(rejects)} posts that named a player but showed "
               f"no play by him:")

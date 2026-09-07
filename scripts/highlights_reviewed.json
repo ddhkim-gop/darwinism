@@ -1,5 +1,5 @@
 {
-  "_note": "Verdicts from watching the video, which the text gate cannot do. 'keep' bypasses the text gate and the author blocklist; 'reject' is permanent. Frames sampled at >=1 fps - a play is 3-5s and a catch under 1s, so one thumbnail is not enough. 'keep_preseason_only' does show the named player, but the footage is from a previous season; it counts only while no games have been played.",
+  "_note": "Verdicts from watching the video, which the text gate cannot do. 'keep' bypasses the text gate and the author blocklist; 'reject' is permanent. Frames sampled at >=1 fps - a play is 3-5s and a catch under 1s, so one thumbnail is not enough. 'keep_preseason_only' does show the named player, but the footage is from a previous season; it counts only while no games have been played. 'games' records the scoreboard read off a clip as \"AWAY@HOME AS-HS\"; scoreboard.py resolves it to a season and week against nflverse, so in season only the current week's games pass.",
   "keep": {
     "https://x.com/NFLBrasil/status/2093514185812431184": "Brandon Aubrey - FG attempt, Cowboys game footage",
     "https://x.com/dmn_cowboys/status/2093502838970167380": "Brandon Aubrey - FG attempt, Cowboys game footage",
@@ -176,5 +176,13 @@
     "https://x.com/BallInSportsNet/status/2094887060519715258": "Jauan Jennings - 49ers catch and run",
     "https://x.com/KurtBenkert/status/2096052234287042704": "Davante Adams - game play, end-zone angle",
     "https://x.com/Elliott_snz/status/2096750334043435107": "Drake Maye - Rams at Patriots game play"
+  },
+  "games": {
+    "https://x.com/Dizzy_3D/status/2095884689374392769": "DAL@PHI 20-24",
+    "https://x.com/McGruderPmac/status/2096820745586241843": "DEN@SEA 13-9",
+    "https://x.com/BallInSportsNet/status/2094887060519715258": "CHI@SF 38-35",
+    "https://x.com/BallInSportsNet/status/2094480383328874529": "NO@TEN 0-6",
+    "https://x.com/Buccaneers/status/2096599304618348907": "ARI@TB 3-10",
+    "https://x.com/ClutchPoints/status/2013017306281005258": "HOU@NE 13-21"
   }
 }
