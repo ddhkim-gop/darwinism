@@ -869,23 +869,64 @@ async function loadTeamReel(teamName) {
     }
     if (note) note.textContent = `${tweets.length} posts`;
 
-    body.innerHTML = tweets.map((t) => `
-        <div style="margin-bottom:14px;">
-          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:4px;">
+    // A clip with a resolved mp4 plays in place. The file is served from
+    // video.twimg.com, unsigned and public, so the bytes still come from X and
+    // nothing is rehosted here. Posts without one fall back to X's embed,
+    // which plays via a click through to X.
+    body.innerHTML = tweets.map((t, i) => {
+        const head = `
+          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:5px;">
             <span style="font-size:12px;font-weight:700;color:#f0f1f3;">${esc(t.player || "")}</span>
             <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
             <span style="font-size:11px;color:#454b58;margin-left:auto;">${esc(t.date || "")}</span>
-          </div>
-          <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
-                      data-conversation="none" data-width="330"
-                      style="margin:0;font-size:12px;">
-            <a href="${esc(t.url)}">View post on X →</a>
-          </blockquote>
-        </div>`).join("");
+          </div>`;
+        if (!t.video) {
+            return `<div style="margin-bottom:14px;">${head}
+              <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
+                          data-conversation="none" data-width="330"
+                          style="margin:0;font-size:12px;">
+                <a href="${esc(t.url)}">View post on X →</a>
+              </blockquote></div>`;
+        }
+        return `<div style="margin-bottom:16px;">${head}
+          <video class="reel-video" data-i="${i}" controls playsinline preload="none"
+                 ${t.poster ? `poster="${esc(t.poster)}"` : ""}
+                 style="width:100%;border-radius:8px;background:#000;display:block;
+                        aspect-ratio:16/9;object-fit:contain;">
+            <source src="${esc(t.video)}" type="video/mp4">
+          </video>
+          <div style="display:flex;gap:10px;align-items:center;margin-top:4px;">
+            <span style="font-size:11px;color:#5a6070;">@${esc(t.author || "")}</span>
+            <a href="${esc(t.url)}" target="_blank" rel="noopener"
+               style="font-size:11px;color:#5a6070;margin-left:auto;
+                      text-decoration:none;">on X →</a>
+          </div></div>`;
+    }).join("");
 
-    const twttr = await loadTwitterWidget();
-    if (twttr && twttr.widgets && twttr.widgets.load) {
-        try { twttr.widgets.load(body); } catch (e) { /* blockquote links remain */ }
+    // One clip at a time - a panel of simultaneously playing videos is noise.
+    body.querySelectorAll("video.reel-video").forEach((v) => {
+        v.addEventListener("play", () => {
+            body.querySelectorAll("video.reel-video").forEach((o) => {
+                if (o !== v && !o.paused) o.pause();
+            });
+        });
+        // If the CDN URL has rotated, say so instead of showing a dead player.
+        v.addEventListener("error", () => {
+            const t = tweets[Number(v.dataset.i)] || {};
+            const d = document.createElement("div");
+            d.style.cssText = "font-size:11px;color:#5a6070;padding:10px 0;";
+            d.innerHTML = `Clip unavailable — <a href="${esc(t.url)}" target="_blank"
+                rel="noopener" style="color:#7aa2ff;">watch on X →</a>`;
+            v.replaceWith(d);
+        });
+    });
+
+    // Only load X's widget if some post still needs an embed.
+    if (body.querySelector("blockquote.twitter-tweet")) {
+        const twttr = await loadTwitterWidget();
+        if (twttr && twttr.widgets && twttr.widgets.load) {
+            try { twttr.widgets.load(body); } catch (e) { /* links remain */ }
+        }
     }
 }
 
