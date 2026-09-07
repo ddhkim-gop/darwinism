@@ -1,6 +1,6 @@
-import { api } from "./dataService.js?v=202609070605";
+import { api } from "./dataService.js?v=202609071106";
 import { renderNav } from "./components/nav.js";
-import { ensurePlayerCardPopover, openPlayerCard } from "./playerCard.js?v=202609070605";
+import { ensurePlayerCardPopover, openPlayerCard } from "./playerCard.js?v=202609071106";
 
 renderNav();
 
@@ -859,7 +859,11 @@ async function loadTeamReel(teamName) {
     // still come from X's servers, so only the chrome is ours.
     const XS = {
         bg: "#0b0d10", text: "#e7e9ea", dim: "#71767b", line: "#3b424c", blue: "#1d9bf0",
-        font: `"TwitterChirp","Helvetica Neue",Helvetica,Arial,sans-serif`
+        // Single quotes: this string goes inside a double-quoted style="..."
+        // attribute, and double quotes here terminated the attribute early -
+        // silently dropping every declaration after font-family, which is why
+        // the cards rendered with no padding at all.
+        font: `'TwitterChirp','Helvetica Neue',Helvetica,Arial,sans-serif`
     };
     const check = `<svg viewBox="0 0 22 22" width="14" height="14" aria-label="Verified"
         style="flex:0 0 14px;" fill="${XS.blue}"><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816
