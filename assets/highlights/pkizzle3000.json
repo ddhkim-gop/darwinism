@@ -1,28 +1,6 @@
 {
   "team": "Pkizzle3000",
-  "updated": "2026-09-05",
+  "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": [
-    {
-      "url": "https://x.com/MySportsUpdate/status/2095990222525735336",
-      "player": "Courtland Sutton",
-      "meta": "WR \u00b7 DEN",
-      "date": "2026-09-04",
-      "author": "Ari Meirov"
-    },
-    {
-      "url": "https://x.com/FantasyPros/status/2095998691286958577",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-09-04",
-      "author": "FantasyPros"
-    },
-    {
-      "url": "https://x.com/thescorechicago/status/2095861735408214076",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-09-04",
-      "author": "104.3 The Score"
-    }
-  ]
+  "tweets": []
 }

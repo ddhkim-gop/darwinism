@@ -1,0 +1,15 @@
+{
+  "_note": "Verdicts from watching the video, which the text filter cannot do. 'keep' bypasses the text gate (already verified); 'reject' is permanent regardless of what the caption says. Reviewed by sampling frames at >=1 fps - a football play is 3-5s and a catch under 1s, so a single thumbnail is not enough to judge.",
+  "keep": {
+    "https://x.com/SleeperPackers/status/2091917085068706125": "Packers RB drill - #32 (MarShawn Lloyd) and #8 (Josh Jacobs) both take ball-carrier reps, so it stands for either",
+    "https://x.com/DreareaSports/status/2091624681573146837": "Christian McCaffrey - #23 MCCAFFREY legible, ball-carrier drill",
+    "https://x.com/AFantasyFormula/status/2090575974840561965": "Kyle Pitts - captioned route rep, ball in the air"
+  },
+  "reject": {
+    "https://x.com/MySportsUpdate/status/2095990222525735336": "talking-head analyst segment over stills, and it is about Courtland Sutton, not Waddle",
+    "https://x.com/NFL_Talk_Sports/status/2093156629013233752": "Kevin O'Connell press conference, no football",
+    "https://x.com/talktoemhavin/status/2092756082384941418": "20s of pre-practice warmup milling; checked at 1 fps, no play at all",
+    "https://x.com/MattHarmon_BYB/status/2087908039374352574": "podcast interview with James Cook, talking heads only",
+    "https://x.com/NFL_DovKleiman/status/2096024258753462314": "Joe Burrow sitting on a podcast couch"
+  }
+}

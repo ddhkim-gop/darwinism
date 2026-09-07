@@ -1,35 +1,6 @@
 {
   "team": "jonsung",
-  "updated": "2026-09-05",
+  "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": [
-    {
-      "url": "https://x.com/burgermanders/status/2096208530218811728",
-      "player": "Jayden Daniels",
-      "meta": "QB \u00b7 WAS",
-      "date": "2026-09-05",
-      "author": "brady"
-    },
-    {
-      "url": "https://x.com/avicarrgloth/status/2096050183070941426",
-      "player": "Zay Flowers",
-      "meta": "WR \u00b7 BAL",
-      "date": "2026-09-05",
-      "author": "Avi Carr-Gloth"
-    },
-    {
-      "url": "https://x.com/fantasyfocus/status/2095998338160108030",
-      "player": "Travis Etienne",
-      "meta": "RB \u00b7 NO",
-      "date": "2026-09-04",
-      "author": "Fantasy Focus Live"
-    },
-    {
-      "url": "https://x.com/thescorechicago/status/2095861735408214076",
-      "player": "D'Andre Swift",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-09-04",
-      "author": "104.3 The Score"
-    }
-  ]
+  "tweets": []
 }
