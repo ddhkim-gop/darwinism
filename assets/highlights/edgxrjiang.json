@@ -2,5 +2,36 @@
   "team": "edgxrjiang",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/Buccaneers/status/2096599304618348907",
+      "player": "Bucky Irving",
+      "meta": "RB \u00b7 TB",
+      "date": "2026-09-06",
+      "author": "Buccaneers",
+      "verified": true,
+      "faves": 482,
+      "secs": 467
+    },
+    {
+      "url": "https://x.com/JoeOrrico/status/2094507991437357454",
+      "player": "Bhayshul Tuten",
+      "meta": "RB \u00b7 JAX",
+      "date": "2026-08-31",
+      "author": "JoeOrrico",
+      "verified": true,
+      "faves": 1241,
+      "secs": 46
+    },
+    {
+      "url": "https://x.com/AMOSLOCKDOWN/status/2092018428018045031",
+      "player": "Chris Rodriguez",
+      "meta": "RB \u00b7 JAX",
+      "date": "2026-08-24",
+      "author": "AMOSLOCKDOWN",
+      "verified": true,
+      "faves": 6,
+      "secs": 19
+    }
+  ]
 }

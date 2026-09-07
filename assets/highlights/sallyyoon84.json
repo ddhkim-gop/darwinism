@@ -2,5 +2,26 @@
   "team": "sallyyoon84",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/FoN9ne/status/2096628040914837895",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-09-06",
+      "author": "FoN9ne",
+      "verified": true,
+      "faves": 366,
+      "secs": 11
+    },
+    {
+      "url": "https://x.com/NFLRT/status/2094953984700154048",
+      "player": "Justin Jefferson",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-09-02",
+      "author": "NFLRT",
+      "verified": true,
+      "faves": 10676,
+      "secs": 46
+    }
+  ]
 }

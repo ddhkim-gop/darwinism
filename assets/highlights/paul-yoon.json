@@ -2,5 +2,36 @@
   "team": "Paul_Yoon",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/DripMasterFlex1/status/2096724405690781743",
+      "player": "Christian Watson",
+      "meta": "WR \u00b7 GB",
+      "date": "2026-09-06",
+      "author": "DripMasterFlex1",
+      "verified": true,
+      "faves": 483,
+      "secs": 10
+    },
+    {
+      "url": "https://x.com/DennisSuttonSZN/status/2096256912970936681",
+      "player": "Christian Watson",
+      "meta": "WR \u00b7 GB",
+      "date": "2026-09-05",
+      "author": "DennisSuttonSZN",
+      "verified": true,
+      "faves": 41,
+      "secs": 9
+    },
+    {
+      "url": "https://x.com/WUTangKids/status/2091845582495105104",
+      "player": "Cam Little",
+      "meta": "K \u00b7 JAX",
+      "date": "2026-08-24",
+      "author": "WUTangKids",
+      "verified": true,
+      "faves": 656,
+      "secs": 23
+    }
+  ]
 }

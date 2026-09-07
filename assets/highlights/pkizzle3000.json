@@ -2,5 +2,16 @@
   "team": "Pkizzle3000",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/SleeperMiami/status/2096646102988570873",
+      "player": "De'Von Achane",
+      "meta": "RB \u00b7 MIA",
+      "date": "2026-09-06",
+      "author": "SleeperMiami",
+      "verified": true,
+      "faves": 85,
+      "secs": 39
+    }
+  ]
 }

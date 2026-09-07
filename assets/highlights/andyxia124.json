@@ -2,5 +2,56 @@
   "team": "andyxia124",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/BallInSportsNet/status/2094480383328874529",
+      "player": "Chig Okonkwo",
+      "meta": "TE \u00b7 WAS",
+      "date": "2026-08-31",
+      "author": "BallInSportsNet",
+      "verified": true,
+      "faves": 1,
+      "secs": 15
+    },
+    {
+      "url": "https://x.com/NFLBrasil/status/2093514185812431184",
+      "player": "Brandon Aubrey",
+      "meta": "K \u00b7 DAL",
+      "date": "2026-08-29",
+      "author": "NFLBrasil",
+      "verified": true,
+      "faves": 20,
+      "secs": 11
+    },
+    {
+      "url": "https://x.com/dmn_cowboys/status/2093502838970167380",
+      "player": "Brandon Aubrey",
+      "meta": "K \u00b7 DAL",
+      "date": "2026-08-29",
+      "author": "dmn_cowboys",
+      "verified": true,
+      "faves": 4,
+      "secs": 13
+    },
+    {
+      "url": "https://x.com/1010XL/status/2092616049245987257",
+      "player": "Brian Thomas",
+      "meta": "WR \u00b7 JAX",
+      "date": "2026-08-26",
+      "author": "1010XL",
+      "verified": true,
+      "faves": 13,
+      "secs": 9
+    },
+    {
+      "url": "https://x.com/BallCoach_Nate/status/2089410194602098973",
+      "player": "De'Zhaun Stribling",
+      "meta": "WR \u00b7 SF",
+      "date": "2026-08-17",
+      "author": "BallCoach_Nate",
+      "verified": true,
+      "faves": 7,
+      "secs": 7
+    }
+  ]
 }
