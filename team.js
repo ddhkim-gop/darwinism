@@ -684,7 +684,15 @@ async function init() {
           @media (max-width:600px) { .team-top-wrap { grid-template-columns:1fr; } }
           .team-top-wrap .top-card { background:#1e2027; border:1px solid #2d3139; border-radius:12px;
             padding:16px 20px; display:flex; flex-direction:column; min-width:0; max-height:520px; }
-          .team-top-wrap twitter-widget, .team-top-wrap iframe { max-width:100% !important; }
+          /* X sizes the embed from data-width and writes it inline on the
+             rendered element. Overriding with !important stretches it to the
+             panel instead, and the embed reflows to the frame it is given -
+             measuring the panel in JS is not an option, because neither the
+             card nor the feed body has a laid-out width at render time. */
+          .team-top-wrap twitter-widget,
+          .team-top-wrap .twitter-tweet-rendered,
+          .team-top-wrap iframe { width:100% !important; max-width:100% !important; }
+          .team-top-wrap .twitter-tweet-rendered { margin:0 0 14px !important; }
           .team-col { display:flex; flex-direction:column; gap:16px; min-width:0; }
           .team-col-equal { display:flex; flex-direction:column; min-width:0; align-self:stretch; }
           .team-col-equal .equal-card { flex:1; }
@@ -877,7 +885,7 @@ async function loadTeamReel(teamName) {
             <span style="font-size:11px;color:#454b58;margin-left:auto;">${esc(t.date || "")}</span>
           </div>
           <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
-                      data-conversation="none" data-width="330"
+                      data-conversation="none" data-width="550"
                       style="margin:0;font-size:12px;">
             <a href="${esc(t.url)}">View post on X →</a>
           </blockquote>
