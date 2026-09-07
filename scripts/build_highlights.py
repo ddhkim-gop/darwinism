@@ -42,6 +42,12 @@ MAX_PER_PLAYER = 2      # the same play gets posted by a dozen accounts
 # week only - the panel is about what just happened. Before week 1 there are no
 # games, so it opens up to the whole camp/preseason run.
 PRESEASON_FLOOR = "2026-07-01"
+
+# Previous-season footage is never shown, in or out of season (David,
+# 2026-09-07): a clip of last year's touchdown is not this year's highlight,
+# even while there are no games to clip from. Flip to True to let camp-season
+# panels fall back on it.
+ALLOW_PREVIOUS_SEASON = False
 MAX_AGE_DAYS = 21       # fallback if Sleeper's state endpoint is unreachable
 
 # Team defences are excluded: their "name" is a city or franchise, so any post
@@ -542,7 +548,10 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
     approved, archive, refused = _load_reviewed()
     boards = _load_scoreboards()
     season_state = None
-    if not in_season():
+    if archive and not ALLOW_PREVIOUS_SEASON:
+        print(f"excluding {len(archive)} posts whose footage is from a previous "
+              f"season (ALLOW_PREVIOUS_SEASON is off)")
+    elif not in_season():
         approved = {**archive, **approved}      # no games yet, so old plays count
     else:
         try:
