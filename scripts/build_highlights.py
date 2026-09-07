@@ -188,15 +188,23 @@ def reviewed_players(verdict: str) -> set[str]:
     return {n.strip() for n in head.split(" & ") if n.strip()}
 
 
-def _load_reviewed() -> tuple[dict, dict]:
+def _load_reviewed() -> tuple[dict, dict, dict]:
+    """(keep, keep_preseason_only, reject) from the reviewed file.
+
+    `keep_preseason_only` holds posts that do show the named player but whose
+    footage is from a previous season - a season-long touchdown reel, a clip
+    in an old uniform. Fine while there are no games to clip from; once games
+    are being played the panel must be that week's football, so they drop out.
+    """
     if not REVIEWED.exists():
-        return {}, {}
+        return {}, {}, {}
     try:
         d = json.loads(REVIEWED.read_text())
     except ValueError:
         print(f"  ! {REVIEWED.name} is not valid JSON; ignoring", file=sys.stderr)
-        return {}, {}
-    return d.get("keep") or {}, d.get("reject") or {}
+        return {}, {}, {}
+    return (d.get("keep") or {}, d.get("keep_preseason_only") or {},
+            d.get("reject") or {})
 
 
 def _load_video_cache() -> dict:
@@ -332,8 +340,16 @@ def load_capture(path: Path) -> list[dict]:
         if m:
             month = ["Jan","Feb","Mar","Apr","May","Jun",
                      "Jul","Aug","Sep","Oct","Nov","Dec"].index(m.group(1)) + 1
-            year = 2026 if month >= 6 else 2027
-            d = f"{year}-{month:02d}-{int(m.group(2)):02d}"
+            day = int(m.group(2))
+            # X's timeline drops the year from recent dates. Choose the most
+            # recent year that is not in the future - an earlier rule keyed off
+            # the month and dated a May post to next year, so it would have
+            # looked fresh forever.
+            today = datetime.now(timezone.utc).date()
+            year = today.year
+            if (month, day) > (today.month, today.day):
+                year -= 1
+            d = f"{year}-{month:02d}-{day:02d}"
         out.append({"url": r["u"], "author": r.get("a") or "",
                     "author_url": f"https://x.com/{r.get('a','')}",
                     "text": r.get("t") or "", "date": d,
@@ -342,6 +358,13 @@ def load_capture(path: Path) -> list[dict]:
 
 
 _WINDOW: str | None = None
+_IN_SEASON: bool = False
+
+
+def in_season() -> bool:
+    """Are games being played? Drives whether archive footage is allowed."""
+    window_start()
+    return bool(_IN_SEASON)
 
 
 def window_start() -> str:
@@ -352,7 +375,7 @@ def window_start() -> str:
     is about what just happened. Before the opener there is nothing to clip
     from a game, so it reaches back over camp and the preseason.
     """
-    global _WINDOW
+    global _WINDOW, _IN_SEASON
     if _WINDOW:
         return _WINDOW
     floor = PRESEASON_FLOOR
@@ -364,7 +387,9 @@ def window_start() -> str:
         today = datetime.now(timezone.utc).replace(tzinfo=None)
         if today >= start:                     # games have been played
             floor = wk_start.strftime("%Y-%m-%d")
-            print(f"window: week {week} only, from {floor}")
+            _IN_SEASON = True
+            print(f"window: week {week} only, from {floor}; "
+                  f"previous-season footage excluded")
         else:
             print(f"window: preseason, from {floor} "
                   f"(week 1 opens {st['season_start_date']})")
@@ -414,7 +439,12 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         print(f"resolving {len(pool)} candidate posts via oembed"
               f"{' (video posts only)' if video_only else ''}…")
     cache = _load_video_cache()
-    approved, refused = _load_reviewed()
+    approved, archive, refused = _load_reviewed()
+    if not in_season():
+        approved = {**archive, **approved}      # no games yet, so old plays count
+    elif archive:
+        print(f"in season: holding back {len(archive)} posts whose footage is "
+              f"from a previous season")
     if capture:
         resolved = [r for r in load_capture(capture) if r["url"] not in refused]
         n0 = len(resolved)

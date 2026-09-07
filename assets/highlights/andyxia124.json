@@ -4,16 +4,6 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/ObservingsS/status/2056324210130145767",
-      "player": "Lamar Jackson",
-      "meta": "QB \u00b7 BAL",
-      "date": "2027-05-18",
-      "author": "ObservingsS",
-      "verified": true,
-      "faves": 267,
-      "secs": 22
-    },
-    {
       "url": "https://x.com/BallInSportsNet/status/2094480383328874529",
       "player": "Chig Okonkwo",
       "meta": "TE \u00b7 WAS",
