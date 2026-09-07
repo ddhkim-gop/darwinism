@@ -692,7 +692,17 @@ async function init() {
           .team-top-wrap twitter-widget,
           .team-top-wrap .twitter-tweet-rendered,
           .team-top-wrap iframe { width:100% !important; max-width:100% !important; }
-          .team-top-wrap .twitter-tweet-rendered { margin:0 0 14px !important; }
+          /* The post text is inside X's cross-origin iframe, so its font-size
+             cannot be set from here - contentDocument is null and the embed
+             takes no size parameter. Scaling the whole embed is the only
+             lever. zoom rather than transform: zoom reflows the box, so the
+             panel closes up behind it instead of leaving a gap. */
+          .team-top-wrap .twitter-tweet-rendered { margin:0 0 12px !important; zoom:0.85; }
+          @supports not (zoom: 1) {
+              .team-top-wrap .twitter-tweet-rendered {
+                  transform:scale(0.85); transform-origin:top left; width:117.6% !important;
+              }
+          }
           .team-col { display:flex; flex-direction:column; gap:16px; min-width:0; }
           .team-col-equal { display:flex; flex-direction:column; min-width:0; align-self:stretch; }
           .team-col-equal .equal-card { flex:1; }
