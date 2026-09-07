@@ -65,6 +65,10 @@ MEDIA_CACHE = REPO / "scripts" / ".highlights_media_cache.json"
 # responses; committed because it changes rarely.
 AUTHORS = REPO / "scripts" / "highlights_authors.json"
 
+# Engagement counts per post id, so the card can carry the post's own numbers.
+# A snapshot: they only drift upward, and re-harvesting refreshes them.
+STATS = REPO / "scripts" / "highlights_stats.json"
+
 # The text gate below reads captions; it cannot watch the footage. Verdicts
 # from actually watching a post live here and outrank it in both directions.
 REVIEWED = REPO / "scripts" / "highlights_reviewed.json"
@@ -599,6 +603,13 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             authors = {k.lower(): v for k, v in json.loads(AUTHORS.read_text()).items()}
         except ValueError:
             print(f"  ! {AUTHORS.name} is not valid JSON; ignoring", file=sys.stderr)
+    stats = {}
+    if STATS.exists():
+        try:
+            stats = {k: v for k, v in json.loads(STATS.read_text()).items()
+                     if not k.startswith("_")}
+        except ValueError:
+            print(f"  ! {STATS.name} is not valid JSON; ignoring", file=sys.stderr)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     rejects: dict[str, str] = {}
@@ -643,6 +654,9 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         hits = dedupe(hits)[:MAX_PER_TEAM]
         for h in hits:                    # only for what actually ships
             h.update(media(h["url"], media_cache))
+            st = stats.get(h["url"].rsplit("/", 1)[-1])
+            if st:
+                h["stats"] = st
             a = authors.get((h.get("author") or "").lower())
             if a:
                 h["author_name"] = a.get("name") or h["author"]

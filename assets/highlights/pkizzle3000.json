@@ -15,6 +15,12 @@
       "secs": 50,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096671551735447553/img/2GU1S00rf6B7i9dZ.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2096671551735447553/vid/avc1/3840x2160/WGtdEuLTdf-nxw2t.mp4?tag=29",
+      "stats": {
+        "replies": 6,
+        "reposts": 6,
+        "likes": 234,
+        "views": 26986
+      },
       "author_name": "Joe Orrico",
       "avatar": "https://pbs.twimg.com/profile_images/2005292191078313984/tL5FM05c_x96.jpg",
       "author_verified": true
@@ -31,6 +37,12 @@
       "secs": 39,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096645881172762625/img/7kFzEYWEmU6Yzi2a.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2096645881172762625/vid/avc1/1920x1080/8O-t-yv7rUbcr0x9.mp4?tag=29",
+      "stats": {
+        "replies": 1,
+        "reposts": 8,
+        "likes": 89,
+        "views": 9580
+      },
       "author_name": "SleeperDolphins",
       "avatar": "https://pbs.twimg.com/profile_images/1899528654964789248/fB131fDy_x96.jpg",
       "author_verified": true
@@ -47,6 +59,12 @@
       "secs": 24,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096614347644751873/img/uykUyJjzU9NrYxJI.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2096614347644751873/vid/avc1/1280x712/PkmbmyPapOAq3MPJ.mp4?tag=29",
+      "stats": {
+        "replies": 8,
+        "reposts": 0,
+        "likes": 9,
+        "views": 1464
+      },
       "author_name": "FIRST ROUND MOCK",
       "avatar": "https://pbs.twimg.com/profile_images/1487885489306841091/8cfK5kQC_x96.jpg",
       "author_verified": true
@@ -63,6 +81,12 @@
       "secs": 57,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2094410016602124288/img/byRXqyfWSJgGlz0n.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2094410016602124288/vid/avc1/1280x728/UPHeFX7iQk6q26X1.mp4?tag=29",
+      "stats": {
+        "replies": 0,
+        "reposts": 4,
+        "likes": 16,
+        "views": 903
+      },
       "author_name": "Fly Eagles Fly Bets",
       "avatar": "https://pbs.twimg.com/profile_images/1771014792225902592/a1KUiWFY_x96.jpg",
       "author_verified": true
@@ -79,6 +103,12 @@
       "secs": 17,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2091977577996894208/img/HAAAlQWXq4yVOIOj.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2091977577996894208/vid/avc1/720x1280/PlEIuvS90HFOLMXj.mp4?tag=29",
+      "stats": {
+        "replies": 3,
+        "reposts": 7,
+        "likes": 36,
+        "views": 4161
+      },
       "author_name": "Noelle Blumel",
       "avatar": "https://pbs.twimg.com/profile_images/1978749969063358464/lF0or7GM_x96.jpg",
       "author_verified": false

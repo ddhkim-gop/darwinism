@@ -15,6 +15,12 @@
       "secs": 10,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096724361206288384/img/qFb6Kd4WqV22Nvyx.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2096724361206288384/vid/avc1/1234x720/R-mUTbCMlbAVOX3b.mp4?tag=29",
+      "stats": {
+        "replies": 3,
+        "reposts": 10,
+        "likes": 527,
+        "views": 58221
+      },
       "author_name": "DripMasterFlex \ud83d\udd77\ufe0f",
       "avatar": "https://pbs.twimg.com/profile_images/2072830707844472832/YA23Gj-h_x96.jpg",
       "author_verified": false
@@ -31,6 +37,12 @@
       "secs": 9,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096256875234783233/img/nFlhSAU2XSP4RhjJ.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2096256875234783233/vid/avc1/1206x664/Plbw0O42J3fMJ336.mp4?tag=29",
+      "stats": {
+        "replies": 18,
+        "reposts": 2,
+        "likes": 41,
+        "views": 1791
+      },
       "author_name": "Dennis-Sutton SZN",
       "avatar": "https://pbs.twimg.com/profile_images/2054215935561510912/fq0Sa1K2_x96.jpg",
       "author_verified": true
@@ -47,6 +59,12 @@
       "secs": 11,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2093494160666075137/img/q07HVOjfe3gDb4aO.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2093494160666075137/vid/avc1/1920x1080/A17R57ls9N5ztRHb.mp4?tag=29",
+      "stats": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 16,
+        "views": 10980
+      },
       "author_name": "ClutchPoints",
       "avatar": "https://pbs.twimg.com/profile_images/1975965877825851392/hEOFxPXh_x96.jpg",
       "author_verified": true
@@ -63,6 +81,12 @@
       "secs": 23,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/1954338639846285312/img/Vd0MJvPq2RuPY96p.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/1954338639846285312/vid/avc1/1920x1080/lP_03An4xRDXDhpO.mp4?tag=21",
+      "stats": {
+        "replies": 5,
+        "reposts": 29,
+        "likes": 657,
+        "views": 24614
+      },
       "author_name": "Wu Tang is for the Children",
       "avatar": "https://pbs.twimg.com/profile_images/1961839346757029888/cw19Lahm_x96.jpg",
       "author_verified": true

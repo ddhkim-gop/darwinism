@@ -858,7 +858,7 @@ async function loadTeamReel(teamName) {
     // to play in place and replaces with a "Watch on X" button. Avatar and mp4
     // still come from X's servers, so only the chrome is ours.
     const XS = {
-        bg: "#000", text: "#e7e9ea", dim: "#71767b", line: "#2f3336", blue: "#1d9bf0",
+        bg: "#0b0d10", text: "#e7e9ea", dim: "#71767b", line: "#3b424c", blue: "#1d9bf0",
         font: `"TwitterChirp","Helvetica Neue",Helvetica,Arial,sans-serif`
     };
     const check = `<svg viewBox="0 0 22 22" width="14" height="14" aria-label="Verified"
@@ -878,6 +878,35 @@ async function loadTeamReel(teamName) {
         fill="${XS.text}"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817
         L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084
         4.126H5.117z"/></svg>`;
+    // The post's own numbers, in X's order. Icons are X's glyphs; nothing here
+    // is clickable, because a static page cannot reply or like on your behalf.
+    const nfmt = (n) => {
+        n = Number(n || 0);
+        if (n >= 1e6) return (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, "") + "M";
+        if (n >= 1e4) return Math.round(n / 1e3) + "K";
+        if (n >= 1e3) return (n / 1e3).toFixed(1).replace(/\.0$/, "") + "K";
+        return String(n);
+    };
+    const GLYPH = {
+        replies: "M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.14 6.01l1.86-.04v2.35l5.058-2.8c1.95-1.08 3.16-3.13 3.16-5.36 0-3.39-2.74-6.13-6.129-6.13z",
+        reposts: "M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z",
+        likes: "M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91z",
+        views: "M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
+    };
+    const statRow = (st) => {
+        if (!st) return "";
+        const cell = (key, n) => `<span style="display:flex;align-items:center;gap:5px;">
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"
+                 fill="currentColor" style="flex:0 0 14px;"><path d="${GLYPH[key]}"/></svg>
+            ${nfmt(n)}</span>`;
+        return `<div style="display:flex;align-items:center;justify-content:space-between;
+                            gap:8px;margin-top:10px;padding-top:9px;
+                            border-top:1px solid ${XS.line};font-size:12px;
+                            color:${XS.dim};">
+            ${cell("replies", st.replies)}${cell("reposts", st.reposts)}
+            ${cell("likes", st.likes)}${cell("views", st.views)}
+        </div>`;
+    };
     const longDate = (iso) => {
         if (!iso) return "";
         const d = new Date(iso + "T12:00:00Z");
@@ -911,9 +940,9 @@ async function loadTeamReel(teamName) {
                            object-fit:cover;background:${XS.line};">`
             : `<div style="width:38px;height:38px;border-radius:50%;flex:0 0 38px;
                            background:${XS.line};"></div>`;
-        return `<div style="margin-bottom:14px;">${tag}
-          <div style="border:1px solid ${XS.line};border-radius:12px;background:${XS.bg};
-                      font-family:${XS.font};padding:11px 12px;">
+        return `<div style="margin:0 2px 16px;">${tag}
+          <div style="border:1px solid ${XS.line};border-radius:14px;background:${XS.bg};
+                      font-family:${XS.font};padding:13px 14px 11px;">
             <div style="display:flex;gap:9px;align-items:flex-start;">
               <a href="https://x.com/${handle}" target="_blank" rel="noopener"
                  style="line-height:0;">${avatar}</a>
@@ -950,6 +979,7 @@ async function loadTeamReel(teamName) {
             <a href="${esc(t.url)}" target="_blank" rel="noopener"
                style="display:block;margin-top:10px;font-size:12px;color:${XS.dim};
                       text-decoration:none;">${esc(longDate(t.date))}</a>
+            ${statRow(t.stats)}
           </div></div>`;
     }).join("");
 
