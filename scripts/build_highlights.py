@@ -49,6 +49,10 @@ EXCLUDE_POSITIONS = {"DEF", "DST", "D/ST"}
 # because the check costs a network round trip per post.
 VIDEO_CACHE = REPO / "scripts" / ".highlights_video_cache.json"
 
+# The text gate below reads captions; it cannot watch the footage. Verdicts
+# from actually watching a post live here and outrank it in both directions.
+REVIEWED = REPO / "scripts" / "highlights_reviewed.json"
+
 # Surnames common enough that a bare match is meaningless - these need the
 # first name too, or "Cook" pulls in every post about a coach named Cook.
 AMBIGUOUS = {
@@ -58,6 +62,42 @@ AMBIGUOUS = {
     "black", "thomas", "taylor", "scott", "green", "king", "wright", "lloyd",
     "pitts", "cousins", "jackson", "adams", "evans", "collins", "reed", "hall",
 }
+
+
+# A post can carry video and name a player without ever showing him. These
+# are the shapes that kept slipping through: a college betting prop, a fantasy
+# rankings graphic, a transaction report. Each embeds video of someone.
+REJECT_PATTERNS = [
+    (r"\b(ncaaf|cfb|college \s* football|ncaa)\b", "college football"),
+    (r"""\b(prop|props|parlay|bet|bets|betting|odds|sportsbook|
+           fanduel|draftkings|underdog|\d+u|units?)\b
+        | \b(over|under)\s*\d
+        | (?<![\w.])[-+]\d{3}(?![\w.])""", "betting"),
+    (r"""\b(ranking|rankings|tiers?|start\s*/?\s*sit|waiver|sleepers?|
+           mock\s+draft|draft\s+(guide|kit|board|steal)|adp|
+           top\s+\d+|best\s+ball|dynasty\s+(value|rankings?))\b""",
+     "rankings/list"),
+    (r"""\b(injur\w+|questionable|doubtful|ruled\s+out|placed\s+on\s+ir|
+           activated|contract|extension|restructure|holdout|
+           signs?|signed|waived|released|cut|suspended|fined|
+           traded|acquires?|acquired)\b""", "news/transaction"),
+]
+
+# The words a post uses when it is actually showing a play. Training-camp and
+# practice clips count - that is most of what is available in September.
+HIGHLIGHT_CUES = r"""\b(
+    touchdown|tds?|score[sd]?|scoring|end\s*zone|six
+  | catch|catches|caught|grab|grabs|snag|reception|hands
+  | one[-\s]?hand|toe[-\s]?tap|contested|sideline|over\s+the\s+shoulder
+  | juke[sd]?|hurdle[sd]?|stiff[-\s]?arm|spin|truck(ed|s)?|broke[n]?\s+tackle
+  | route|releases?|footwork|separation|beat
+  | deep\s+ball|dime|bomb|dot|throw[sn]?|pass|dart|launch
+  | rush|run|runs|carry|carries|burst|explode[sd]?|speed
+  | sack[s]?|pressure|interception|int|pick[-\s]?six|forced\s+fumble|tackle
+  | highlight[s]?|reel|film|footage|clip|rep[s]?|drill[s]?
+  | camp|practice|ota|preseason|scrimmage|joint\s+practice
+  | wow|nasty|filthy|absurd|insane|cooking|cooked|smooth
+)\b"""
 
 
 def get_json(url: str, timeout: int = 30):
@@ -88,6 +128,17 @@ def rosters() -> dict[str, list[dict]]:
                            "team": p.get("team") or "FA"})
         out[owner] = roster
     return out
+
+
+def _load_reviewed() -> tuple[dict, dict]:
+    if not REVIEWED.exists():
+        return {}, {}
+    try:
+        d = json.loads(REVIEWED.read_text())
+    except ValueError:
+        print(f"  ! {REVIEWED.name} is not valid JSON; ignoring", file=sys.stderr)
+        return {}, {}
+    return d.get("keep") or {}, d.get("reject") or {}
 
 
 def _load_video_cache() -> dict:
@@ -156,6 +207,13 @@ def oembed(url: str) -> dict | None:
             "text": text, "date": date}
 
 
+def _word(term: str) -> str:
+    """A whole-word pattern for a name part. Without the boundaries, "Tate"
+    matched the "tate" inside "statement" and filed a college betting prop
+    under Carnell Tate."""
+    return r"\b" + re.escape(term) + r"\b"
+
+
 def mentions(text: str, player_name: str) -> bool:
     """Does this post name the player? Conservative on common surnames."""
     t = text.lower()
@@ -166,23 +224,56 @@ def mentions(text: str, player_name: str) -> bool:
     # drop suffixes so "Kyle Pitts Sr." still matches on "Pitts"
     if last in {"jr.", "sr.", "ii", "iii", "iv", "v"} and len(parts) > 2:
         last = parts[-2]
-    if player_name.lower() in t:
+    if re.search(_word(player_name.lower()), t):
         return True
-    if last not in t:
+    if not re.search(_word(last), t):
         return False
     if last in AMBIGUOUS:
-        return first in t or f"{first[0]}. {last}" in t
+        return bool(re.search(_word(first), t)
+                    or re.search(re.escape(f"{first[0]}. {last}"), t))
     return True
 
 
+def is_highlight(text: str, player_name: str, roster_union: set[str]) -> tuple[bool, str]:
+    """Does this post show a play by this player, or merely name him?
+
+    Carrying video is not enough. A betting prop, a rankings graphic and a
+    news roundup all embed video and all name players they never show. Three
+    gates, all of which must pass. This reads the post's own words - it cannot
+    see the footage - so it is a precision filter, not a proof.
+    """
+    t = text.lower()
+
+    for pattern, why in REJECT_PATTERNS:
+        if re.search(pattern, t, re.VERBOSE):
+            return False, why
+
+    # A post naming several players is a list or a slate, not one player's play.
+    named = {n for n in roster_union if re.search(_word(n.split()[-1].lower()), t)}
+    if len(named) >= 3:
+        return False, f"names {len(named)} players (list)"
+
+    # The play itself has to be described. Without a cue the post is a caption
+    # about a player, not footage of one.
+    if not re.search(HIGHLIGHT_CUES, t, re.VERBOSE):
+        return False, "no play described"
+
+    return True, ""
+
+
 def build(pool: list[str], only_team: str | None, dry_run: bool,
-          video_only: bool = True) -> int:
+          video_only: bool = True, highlights_only: bool = True) -> int:
     print(f"resolving {len(pool)} candidate posts via oembed"
           f"{' (video posts only)' if video_only else ''}…")
     cache = _load_video_cache()
-    resolved, skipped = [], 0
+    approved, refused = _load_reviewed()
+    resolved, skipped, vetoed = [], 0, 0
     for url in pool:
-        if video_only and not has_video(url, cache):
+        if url in refused:
+            vetoed += 1
+            continue
+        # An approved post was watched, so the video question is already settled.
+        if video_only and url not in approved and not has_video(url, cache):
             skipped += 1
             continue
         info = oembed(url)
@@ -194,14 +285,18 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
     if video_only:
         VIDEO_CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True) + "\n")
         print(f"\nskipped {skipped} posts with no video")
+    if vetoed:
+        print(f"dropped {vetoed} posts rejected on review (watched, showed no play)")
     if not resolved:
         print("no posts resolved; nothing written", file=sys.stderr)
         return 1
 
     teams = rosters()
     print(f"\nmatching against {len(teams)} rosters…")
+    roster_union = {p["name"] for roster in teams.values() for p in roster}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
+    rejects: dict[str, str] = {}
     for owner, roster in sorted(teams.items()):
         slug = re.sub(r"[^a-z0-9]+", "-", owner.lower()).strip("-")
         if only_team and slug != only_team.lower():
@@ -209,11 +304,22 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         hits = []
         for post in resolved:
             for p in roster:
-                if mentions(post["text"], p["name"]):
-                    hits.append({"url": post["url"], "player": p["name"],
-                                 "meta": f"{p['position']} · {p['team']}",
-                                 "date": post["date"], "author": post["author"]})
-                    break        # one post is filed under one player
+                if not mentions(post["text"], p["name"]):
+                    continue
+                if post["url"] in approved:
+                    ok, why = True, ""      # watched and confirmed
+                elif not highlights_only:
+                    ok, why = True, ""
+                else:
+                    ok, why = is_highlight(post["text"], p["name"], roster_union)
+                if not ok:
+                    rejects[post["url"]] = f"{p['name']}: {why}"
+                    break
+                hits.append({"url": post["url"], "player": p["name"],
+                             "meta": f"{p['position']} · {p['team']}",
+                             "date": post["date"], "author": post["author"],
+                             "verified": post["url"] in approved})
+                break            # one post is filed under one player
         hits.sort(key=lambda h: h["date"] or "0000-00-00", reverse=True)
         hits = hits[:MAX_PER_TEAM]
         feed = {"team": owner,
@@ -226,6 +332,11 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         if not dry_run:
             (OUT_DIR / f"{slug}.json").write_text(json.dumps(feed, indent=2) + "\n")
             written += 1
+    if rejects:
+        print(f"\nrejected {len(rejects)} posts that named a player but showed "
+              f"no play by him:")
+        for url, why in sorted(rejects.items(), key=lambda kv: kv[1]):
+            print(f"  - {why:<44} {url}")
     print(f"\n{'dry run - nothing written' if dry_run else f'wrote {written} feeds to {OUT_DIR}'}")
     return 0
 
@@ -238,10 +349,14 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--any-post", action="store_true",
                     help="keep text-only posts too (default: video posts only)")
+    ap.add_argument("--any-mention", action="store_true",
+                    help="keep posts that merely name the player (default: the "
+                         "post must describe a play by him)")
     a = ap.parse_args()
     urls = [l.strip() for l in Path(a.pool).read_text().splitlines()
             if l.strip() and not l.startswith("#")]
-    return build(urls, a.team, a.dry_run, video_only=not a.any_post)
+    return build(urls, a.team, a.dry_run, video_only=not a.any_post,
+                 highlights_only=not a.any_mention)
 
 
 if __name__ == "__main__":

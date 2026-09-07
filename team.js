@@ -816,9 +816,11 @@ async function init() {
 }
 
 // ── Latest highlights ────────────────────────────────────────────────────────
-// A feed of hand-picked X posts about players on this roster, from
+// A feed of X posts showing players on this roster make a play, from
 // assets/highlights/<team>.json. Curated rather than fetched: X has no public
-// search API, so every post is verified by hand before it lands in the file.
+// search API. Naming a player is not enough - rankings graphics, podcasts and
+// betting slates all embed video and name players they never show - so posts
+// are screened on their text and then watched before they land in the file.
 //
 // Rendered as <blockquote class="twitter-tweet"> and upgraded by X's widget.
 // The blockquote is a real link on its own, so if the widget is blocked or slow
@@ -858,8 +860,10 @@ async function loadTeamReel(teamName) {
     if (!tweets.length) {
         if (note) note.textContent = "";
         body.innerHTML = `<div style="color:#5a6070;font-size:12px;line-height:1.6;">
-            No posts curated for this team yet.<br>
-            <span style="color:#454b58;">X has no public search API, so these are added by hand.</span>
+            No highlights for this roster yet.<br>
+            <span style="color:#454b58;">A post only lands here if the video actually
+            shows the player making a play &mdash; not a rankings graphic, a podcast
+            or a betting slate that merely names him.</span>
         </div>`;
         return;
     }
