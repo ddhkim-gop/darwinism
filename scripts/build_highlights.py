@@ -68,23 +68,48 @@ AMBIGUOUS = {
 # are the shapes that kept slipping through: a college betting prop, a fantasy
 # rankings graphic, a transaction report. Each embeds video of someone.
 REJECT_PATTERNS = [
-    (r"\b(ncaaf|cfb|college \s* football|ncaa)\b", "college football"),
+    (r"\b(ncaaf|cfb|college\s*football|ncaa)\b", "college football"),
     (r"""\b(prop|props|parlay|bet|bets|betting|odds|sportsbook|
            fanduel|draftkings|underdog|\d+u|units?)\b
         | \b(over|under)\s*\d
         | (?<![\w.])[-+]\d{3}(?![\w.])""", "betting"),
+    # Fantasy advice of any shape. The feed shows football, not roster takes.
     (r"""\b(ranking|rankings|tiers?|start\s*/?\s*sit|waiver|sleepers?|
            mock\s+draft|draft\s+(guide|kit|board|steal)|adp|
-           top\s+\d+|best\s+ball|dynasty\s+(value|rankings?))\b""",
-     "rankings/list"),
+           top\s+\d+|best\s+ball|dynasty|redraft|
+           fantasy|lineup|roster\s+(spot|crunch)|stash|
+           buy\s+low|sell\s+high|breakout|bust|value|target[s]?\s+him|
+           who\s+(should|would)\s+you|take\s+the\s+over)\b""",
+     "fantasy advice/list"),
+    # Podcasts, radio, shows and interviews. All of these embed video of a
+    # person talking about football, which is not a highlight.
+    (r"""\b(podcast|pod|episode|ep\.?\s*\d|full\s+episode|
+           radio|show|segment|livestream|live\s+stream|
+           interview|interviews|sits?\s+down|joins?\s+(us|the|on)|
+           talks?\s+(about|to)|spoke|speaks|discuss(es|ing)?|
+           react(s|ion|ing)?|explains?|breaks?\s+down|
+           press\s+conference|presser|told\s+reporters|media\s+availability|
+           on\s+how|on\s+his|on\s+what|on\s+why|asked\s+about|
+           subscribe|listen|watch\s+the\s+full|clip\s+from|
+           presented\s+by|via\s+@\w+\s*$)\b""", "podcast/interview/show"),
     (r"""\b(injur\w+|questionable|doubtful|ruled\s+out|placed\s+on\s+ir|
            activated|contract|extension|restructure|holdout|
            signs?|signed|waived|released|cut|suspended|fined|
-           traded|acquires?|acquired)\b""", "news/transaction"),
+           traded|acquires?|acquired|banged\s+up)\b""", "news/transaction"),
 ]
 
-# The words a post uses when it is actually showing a play. Training-camp and
-# practice clips count - that is most of what is available in September.
+# Accounts whose video is essentially never a highlight: fantasy-advice shops,
+# podcast feeds, news breakers whose clips are TV hits, and repost aggregators.
+# A specific post from one of these can still be admitted by hand through
+# highlights_reviewed.json, which outranks this list.
+EXCLUDE_AUTHORS = {
+    "fantasypros", "fantasyfocus", "mattharmon_byb", "ffphinest",
+    "afantasyformula", "underdognfl", "balls_out_bets", "propkitchen",
+    "rapsheet", "jfowlerespn", "schultz_report", "nfl_dovkleiman",
+    "mysportsupdate", "dawhitehousepod", "nfl_talk_sports",
+    "chisportstracks", "thescorechicago", "lostalkspats",
+}
+
 HIGHLIGHT_CUES = r"""\b(
     touchdown|tds?|score[sd]?|scoring|end\s*zone|six
   | catch|catches|caught|grab|grabs|snag|reception|hands
@@ -267,7 +292,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
           f"{' (video posts only)' if video_only else ''}…")
     cache = _load_video_cache()
     approved, refused = _load_reviewed()
-    resolved, skipped, vetoed = [], 0, 0
+    resolved, skipped, vetoed, by_author = [], 0, 0, 0
     for url in pool:
         if url in refused:
             vetoed += 1
@@ -278,6 +303,10 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             continue
         info = oembed(url)
         if info:
+            handle = info["author_url"].rsplit("/", 1)[-1].lower()
+            if highlights_only and url not in approved and handle in EXCLUDE_AUTHORS:
+                by_author += 1
+                continue
             resolved.append(info)
             print(f"  ok  {info['date'] or '????-??-??'}  @{info['author_url'].rsplit('/',1)[-1]}"
                   f"  {info['text'][:58]}")
@@ -287,6 +316,8 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         print(f"\nskipped {skipped} posts with no video")
     if vetoed:
         print(f"dropped {vetoed} posts rejected on review (watched, showed no play)")
+    if by_author:
+        print(f"dropped {by_author} posts from advice/podcast/news accounts")
     if not resolved:
         print("no posts resolved; nothing written", file=sys.stderr)
         return 1
