@@ -60,6 +60,11 @@ VIDEO_CACHE = REPO / "scripts" / ".highlights_video_cache.json"
 # nothing is rehosted here. Resolution costs a yt-dlp call, so it is cached.
 MEDIA_CACHE = REPO / "scripts" / ".highlights_media_cache.json"
 
+# Display name, avatar and verified flag per handle, so the panel can render a
+# post the way X does instead of a bare handle. Harvested from X's own timeline
+# responses; committed because it changes rarely.
+AUTHORS = REPO / "scripts" / "highlights_authors.json"
+
 # The text gate below reads captions; it cannot watch the footage. Verdicts
 # from actually watching a post live here and outrank it in both directions.
 REVIEWED = REPO / "scripts" / "highlights_reviewed.json"
@@ -588,6 +593,12 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
     print(f"\nmatching against {len(teams)} rosters…")
     roster_union = {p["name"] for roster in teams.values() for p in roster}
     media_cache = _load_media_cache()
+    authors = {}
+    if AUTHORS.exists():
+        try:
+            authors = {k.lower(): v for k, v in json.loads(AUTHORS.read_text()).items()}
+        except ValueError:
+            print(f"  ! {AUTHORS.name} is not valid JSON; ignoring", file=sys.stderr)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     rejects: dict[str, str] = {}
@@ -632,6 +643,11 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         hits = dedupe(hits)[:MAX_PER_TEAM]
         for h in hits:                    # only for what actually ships
             h.update(media(h["url"], media_cache))
+            a = authors.get((h.get("author") or "").lower())
+            if a:
+                h["author_name"] = a.get("name") or h["author"]
+                h["avatar"] = a.get("avatar") or ""
+                h["author_verified"] = bool(a.get("verified"))
         feed = {"team": owner,
                 "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 "note": "Curated: X has no public search API, so posts are "

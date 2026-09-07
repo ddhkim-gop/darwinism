@@ -14,7 +14,10 @@
       "faves": 136,
       "secs": 8,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096804835664285700/img/cyWWwihUbsI6YKJo.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2096804835664285700/vid/avc1/1320x1842/v48TbsOdKA6kYPcH.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2096804835664285700/vid/avc1/1320x1842/v48TbsOdKA6kYPcH.mp4?tag=29",
+      "author_name": "Coach Yac \ud83d\udde3",
+      "avatar": "https://pbs.twimg.com/profile_images/1494334947590475794/G7PUys49_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/JoeOrrico/status/2095219252835889660",
@@ -27,7 +30,10 @@
       "faves": 230,
       "secs": 49,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2095218758042136576/img/dWRY4fvmNH-CpBpA.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2095218758042136576/vid/avc1/3840x1948/4XH2poiSbb0SWJVN.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2095218758042136576/vid/avc1/3840x1948/4XH2poiSbb0SWJVN.mp4?tag=29",
+      "author_name": "Joe Orrico",
+      "avatar": "https://pbs.twimg.com/profile_images/2005292191078313984/tL5FM05c_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/BennyGIFs/status/2088049072712163512",
@@ -40,7 +46,10 @@
       "faves": 4,
       "secs": 6,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2088048887533645824/img/kIarrtW1KyhQ-rHZ.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2088048887533645824/vid/avc1/1280x720/cDBbmcYwhQ5pSqYQ.mp4?tag=14"
+      "video": "https://video.twimg.com/amplify_video/2088048887533645824/vid/avc1/1280x720/cDBbmcYwhQ5pSqYQ.mp4?tag=14",
+      "author_name": "Ben Brown \ud83c\udf3b",
+      "avatar": "https://pbs.twimg.com/profile_images/2087965139622379520/UcicKuiC_x96.jpg",
+      "author_verified": false
     }
   ]
 }

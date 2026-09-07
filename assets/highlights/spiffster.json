@@ -14,7 +14,10 @@
       "faves": 858,
       "secs": 7,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2092704533352685568/img/mkTBNreKg00xKAxe.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2092704533352685568/vid/avc1/1126x1398/pGjaDfkCCFRIHB5U.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2092704533352685568/vid/avc1/1126x1398/pGjaDfkCCFRIHB5U.mp4?tag=29",
+      "author_name": "Bobby Shouse",
+      "avatar": "https://pbs.twimg.com/profile_images/2021302648415322113/VWGwfRq1_x96.jpg",
+      "author_verified": true
     }
   ]
 }
