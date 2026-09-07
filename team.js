@@ -869,59 +869,88 @@ async function loadTeamReel(teamName) {
     }
     if (note) note.textContent = `${tweets.length} posts`;
 
-    // A clip with a resolved mp4 plays in place. The file is served from
-    // video.twimg.com, unsigned and public, so the bytes still come from X and
-    // nothing is rehosted here. Posts without one fall back to X's embed,
-    // which plays via a click through to X.
+    // The post, rendered here rather than by X's widget, so the clip plays in
+    // place instead of sending you to twitter.com. The mp4 is still served from
+    // video.twimg.com, so nothing is rehosted - only the chrome is ours.
+    // Posts without a resolved mp4 fall back to X's own embed.
     body.innerHTML = tweets.map((t, i) => {
-        const head = `
-          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:5px;">
+        const label = `
+          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:6px;">
             <span style="font-size:12px;font-weight:700;color:#f0f1f3;">${esc(t.player || "")}</span>
             <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
             <span style="font-size:11px;color:#454b58;margin-left:auto;">${esc(t.date || "")}</span>
           </div>`;
         if (!t.video) {
-            return `<div style="margin-bottom:14px;">${head}
+            return `<div style="margin-bottom:14px;">${label}
               <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
                           data-conversation="none" data-width="330"
                           style="margin:0;font-size:12px;">
                 <a href="${esc(t.url)}">View post on X →</a>
               </blockquote></div>`;
         }
-        return `<div style="margin-bottom:16px;">${head}
+        const handle = esc(t.author || "");
+        const initial = handle ? handle[0].toUpperCase() : "?";
+        return `<div style="margin-bottom:16px;border:1px solid #2d3139;
+                            border-radius:12px;background:#16181c;overflow:hidden;">
+          ${`<div style="padding:10px 12px 0;">${label}</div>`}
+          <div style="display:flex;gap:8px;align-items:center;padding:0 12px 8px;">
+            <div style="width:26px;height:26px;border-radius:50%;flex:0 0 26px;
+                        background:#2d3139;color:#9aa1ad;font-size:12px;
+                        font-weight:700;display:flex;align-items:center;
+                        justify-content:center;">${esc(initial)}</div>
+            <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+               style="font-size:12px;color:#9aa1ad;text-decoration:none;">@${handle}</a>
+            <a href="${esc(t.url)}" target="_blank" rel="noopener" title="View on X"
+               style="margin-left:auto;color:#5a6070;line-height:0;">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"
+                   fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502
+                   11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254
+                   2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+          ${t.text ? `<div style="padding:0 12px 9px;font-size:12px;line-height:1.5;
+                                  color:#c9ccd3;">${esc(t.text)}</div>` : ""}
           <video class="reel-video" data-i="${i}" controls playsinline preload="none"
                  ${t.poster ? `poster="${esc(t.poster)}"` : ""}
-                 style="width:100%;border-radius:8px;background:#000;display:block;
-                        aspect-ratio:16/9;object-fit:contain;">
-            <source src="${esc(t.video)}" type="video/mp4">
-          </video>
-          <div style="display:flex;gap:10px;align-items:center;margin-top:4px;">
-            <span style="font-size:11px;color:#5a6070;">@${esc(t.author || "")}</span>
-            <a href="${esc(t.url)}" target="_blank" rel="noopener"
-               style="font-size:11px;color:#5a6070;margin-left:auto;
-                      text-decoration:none;">on X →</a>
-          </div></div>`;
+                 style="width:100%;display:block;background:#000;
+                        aspect-ratio:16/9;object-fit:contain;"></video>
+          <div style="display:flex;gap:12px;align-items:center;padding:7px 12px 9px;
+                      font-size:11px;color:#5a6070;">
+            <span>♥ ${Number(t.faves || 0).toLocaleString()}</span>
+            ${t.secs ? `<span>${Math.floor(t.secs / 60)}:${String(t.secs % 60).padStart(2, "0")}</span>` : ""}
+          </div>
+        </div>`;
     }).join("");
 
-    // One clip at a time - a panel of simultaneously playing videos is noise.
+    // preload="none" keeps 12 clips from all fetching at once, so the source is
+    // attached on first interaction rather than in the markup.
     body.querySelectorAll("video.reel-video").forEach((v) => {
+        const t = tweets[Number(v.dataset.i)] || {};
+        const attach = () => {
+            if (v.dataset.loaded) return;
+            v.dataset.loaded = "1";
+            const src = document.createElement("source");
+            src.src = t.video;
+            src.type = "video/mp4";
+            v.appendChild(src);
+            v.load();
+        };
         v.addEventListener("play", () => {
+            attach();
             body.querySelectorAll("video.reel-video").forEach((o) => {
                 if (o !== v && !o.paused) o.pause();
             });
         });
-        // If the CDN URL has rotated, say so instead of showing a dead player.
+        v.addEventListener("pointerdown", attach, { once: true });
         v.addEventListener("error", () => {
-            const t = tweets[Number(v.dataset.i)] || {};
             const d = document.createElement("div");
-            d.style.cssText = "font-size:11px;color:#5a6070;padding:10px 0;";
+            d.style.cssText = "font-size:11px;color:#5a6070;padding:14px 12px;";
             d.innerHTML = `Clip unavailable — <a href="${esc(t.url)}" target="_blank"
                 rel="noopener" style="color:#7aa2ff;">watch on X →</a>`;
             v.replaceWith(d);
         });
     });
 
-    // Only load X's widget if some post still needs an embed.
     if (body.querySelector("blockquote.twitter-tweet")) {
         const twttr = await loadTwitterWidget();
         if (twttr && twttr.widgets && twttr.widgets.load) {

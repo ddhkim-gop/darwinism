@@ -624,6 +624,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                 hits.append({"url": post["url"], "player": p["name"],
                              "meta": f"{p['position']} · {p['team']}",
                              "date": post["date"], "author": post["author"],
+                             "text": post.get("text", ""),
                              "verified": post["url"] in approved,
                              "faves": post.get("faves", 0),
                              "secs": post.get("secs", 0)})
