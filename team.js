@@ -869,16 +869,56 @@ async function loadTeamReel(teamName) {
     }
     if (note) note.textContent = `${tweets.length} posts`;
 
-    // The post, rendered here rather than by X's widget, so the clip plays in
-    // place instead of sending you to twitter.com. The mp4 is still served from
-    // video.twimg.com, so nothing is rehosted - only the chrome is ours.
-    // Posts without a resolved mp4 fall back to X's own embed.
+    // The post is rendered here, not by X's widget, because the widget makes
+    // these video posts a click-through to twitter.com. Layout, type scale and
+    // palette follow X's own dark theme so it reads as the post it is; the mp4
+    // and avatar still come from X's servers, so nothing is rehosted.
+    const X = { bg:"#000", text:"#e7e9ea", dim:"#71767b", line:"#2f3336", blue:"#1d9bf0" };
+    const badge = `<svg viewBox="0 0 22 22" width="15" height="15" aria-label="Verified"
+        style="flex:0 0 15px;" fill="${X.blue}"><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816
+        -.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687
+        -.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44
+        S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272
+        -1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896
+        -.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817
+        .356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688
+        .47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439
+        .54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44
+        c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681
+        s.075-1.299-.163-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662
+        14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"/></svg>`;
+
+    const rel = (iso) => {
+        if (!iso) return "";
+        const d = new Date(iso + "T12:00:00Z");
+        if (isNaN(d)) return iso;
+        const days = Math.round((Date.now() - d.getTime()) / 86400000);
+        if (days <= 0) return "today";
+        if (days === 1) return "1d";
+        if (days < 7) return days + "d";
+        return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    };
+    const compact = (n) => {
+        n = Number(n || 0);
+        if (n >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M";
+        if (n >= 1e3) return (n / 1e3).toFixed(1).replace(/\.0$/, "") + "K";
+        return String(n);
+    };
+    const icon = (d) => `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"
+        fill="currentColor" style="flex:0 0 15px;"><path d="${d}"/></svg>`;
+    const ICONS = {
+        reply: "M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.14 6.01l1.86-.04v2.35l5.058-2.8c1.95-1.08 3.16-3.13 3.16-5.36 0-3.39-2.74-6.13-6.129-6.13z",
+        repost: "M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z",
+        like: "M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91z",
+        views: "M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
+    };
+
     body.innerHTML = tweets.map((t, i) => {
         const label = `
-          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:6px;">
-            <span style="font-size:12px;font-weight:700;color:#f0f1f3;">${esc(t.player || "")}</span>
+          <div style="display:flex;gap:8px;align-items:baseline;margin:0 0 6px 2px;">
+            <span style="font-size:11px;font-weight:700;color:#8b919c;
+                         letter-spacing:.02em;">${esc(t.player || "")}</span>
             <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
-            <span style="font-size:11px;color:#454b58;margin-left:auto;">${esc(t.date || "")}</span>
           </div>`;
         if (!t.video) {
             return `<div style="margin-bottom:14px;">${label}
@@ -889,64 +929,78 @@ async function loadTeamReel(teamName) {
               </blockquote></div>`;
         }
         const handle = esc(t.author || "");
-        const initial = handle ? handle[0].toUpperCase() : "?";
-        return `<div style="margin-bottom:16px;border:1px solid #2d3139;
-                            border-radius:12px;background:#16181c;overflow:hidden;">
-          ${`<div style="padding:10px 12px 0;">${label}</div>`}
-          <div style="display:flex;gap:8px;align-items:center;padding:0 12px 8px;">
-            <div style="width:26px;height:26px;border-radius:50%;flex:0 0 26px;
-                        background:#2d3139;color:#9aa1ad;font-size:12px;
-                        font-weight:700;display:flex;align-items:center;
-                        justify-content:center;">${esc(initial)}</div>
-            <a href="https://x.com/${handle}" target="_blank" rel="noopener"
-               style="font-size:12px;color:#9aa1ad;text-decoration:none;">@${handle}</a>
-            <a href="${esc(t.url)}" target="_blank" rel="noopener" title="View on X"
-               style="margin-left:auto;color:#5a6070;line-height:0;">
-              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"
-                   fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502
-                   11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254
-                   2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            </a>
+        const name = esc(t.author_name || t.author || "");
+        const avatar = t.avatar
+            ? `<img src="${esc(t.avatar)}" alt="" loading="lazy" width="40" height="40"
+                    style="width:40px;height:40px;border-radius:50%;flex:0 0 40px;
+                           object-fit:cover;background:${X.line};">`
+            : `<div style="width:40px;height:40px;border-radius:50%;flex:0 0 40px;
+                           background:${X.line};"></div>`;
+        return `<article style="margin-bottom:12px;border:1px solid ${X.line};
+                     border-radius:16px;background:${X.bg};overflow:hidden;">
+          <div style="padding:12px 12px 0;">${label}
+            <div style="display:flex;gap:10px;">
+              <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+                 style="line-height:0;">${avatar}</a>
+              <div style="min-width:0;flex:1;">
+                <div style="display:flex;align-items:center;gap:3px;flex-wrap:wrap;
+                            line-height:1.25;">
+                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+                     style="font-size:13.5px;font-weight:700;color:${X.text};
+                            text-decoration:none;white-space:nowrap;overflow:hidden;
+                            text-overflow:ellipsis;max-width:150px;">${name}</a>
+                  ${t.author_verified ? badge : ""}
+                  <span style="font-size:13px;color:${X.dim};white-space:nowrap;
+                               overflow:hidden;text-overflow:ellipsis;">@${handle}</span>
+                  <span style="font-size:13px;color:${X.dim};">· ${esc(rel(t.date))}</span>
+                  <a href="${esc(t.url)}" target="_blank" rel="noopener" title="View on X"
+                     style="margin-left:auto;color:${X.dim};line-height:0;">
+                    <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"
+                         fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502
+                         11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254
+                         2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  </a>
+                </div>
+                ${t.text ? `<div style="font-size:14px;line-height:1.35;color:${X.text};
+                                        margin-top:3px;white-space:pre-wrap;
+                                        word-break:break-word;">${esc(t.text)}</div>` : ""}
+              </div>
+            </div>
           </div>
-          ${t.text ? `<div style="padding:0 12px 9px;font-size:12px;line-height:1.5;
-                                  color:#c9ccd3;">${esc(t.text)}</div>` : ""}
-          <video class="reel-video" data-i="${i}" controls playsinline preload="none"
-                 ${t.poster ? `poster="${esc(t.poster)}"` : ""}
-                 style="width:100%;display:block;background:#000;
-                        aspect-ratio:16/9;object-fit:contain;"></video>
-          <div style="display:flex;gap:12px;align-items:center;padding:7px 12px 9px;
-                      font-size:11px;color:#5a6070;">
-            <span>♥ ${Number(t.faves || 0).toLocaleString()}</span>
-            ${t.secs ? `<span>${Math.floor(t.secs / 60)}:${String(t.secs % 60).padStart(2, "0")}</span>` : ""}
+          <div style="margin:10px 12px 0;border:1px solid ${X.line};border-radius:14px;
+                      overflow:hidden;">
+            <video class="reel-video" data-i="${i}" controls playsinline preload="none"
+                   ${t.poster ? `poster="${esc(t.poster)}"` : ""}
+                   style="width:100%;display:block;background:#000;
+                          aspect-ratio:16/9;object-fit:contain;">
+              <source src="${esc(t.video)}" type="video/mp4">
+            </video>
           </div>
-        </div>`;
+          <div style="display:flex;align-items:center;gap:0;padding:6px 12px 10px;
+                      color:${X.dim};font-size:12.5px;">
+            <span style="display:flex;align-items:center;gap:5px;flex:1;">${icon(ICONS.reply)}</span>
+            <span style="display:flex;align-items:center;gap:5px;flex:1;">${icon(ICONS.repost)}</span>
+            <span style="display:flex;align-items:center;gap:5px;flex:1;">${icon(ICONS.like)}${compact(t.faves)}</span>
+            <span style="display:flex;align-items:center;gap:5px;">${icon(ICONS.views)}</span>
+          </div>
+        </article>`;
     }).join("");
 
-    // preload="none" keeps 12 clips from all fetching at once, so the source is
-    // attached on first interaction rather than in the markup.
+    // preload="none" is what keeps twelve clips from fetching on page load. The
+    // <source> stays in the markup: attaching it on the play event instead
+    // meant a real click had nothing to load and the player sat dead.
     body.querySelectorAll("video.reel-video").forEach((v) => {
         const t = tweets[Number(v.dataset.i)] || {};
-        const attach = () => {
-            if (v.dataset.loaded) return;
-            v.dataset.loaded = "1";
-            const src = document.createElement("source");
-            src.src = t.video;
-            src.type = "video/mp4";
-            v.appendChild(src);
-            v.load();
-        };
         v.addEventListener("play", () => {
-            attach();
             body.querySelectorAll("video.reel-video").forEach((o) => {
                 if (o !== v && !o.paused) o.pause();
             });
         });
-        v.addEventListener("pointerdown", attach, { once: true });
         v.addEventListener("error", () => {
             const d = document.createElement("div");
-            d.style.cssText = "font-size:11px;color:#5a6070;padding:14px 12px;";
+            d.style.cssText = "font-size:12px;color:#71767b;padding:16px 12px;";
             d.innerHTML = `Clip unavailable — <a href="${esc(t.url)}" target="_blank"
-                rel="noopener" style="color:#7aa2ff;">watch on X →</a>`;
+                rel="noopener" style="color:#1d9bf0;">watch on X →</a>`;
             v.replaceWith(d);
         });
     });

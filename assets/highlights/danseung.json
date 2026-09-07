@@ -14,7 +14,10 @@
       "faves": 104,
       "secs": 11,
       "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1858214115535134720/pu/img/iQaVD4MLOIaspg16.jpg?name=orig",
-      "video": "https://video.twimg.com/ext_tw_video/1858214115535134720/pu/vid/avc1/1280x720/KhvdCU9YTUhM8TXw.mp4?tag=12"
+      "video": "https://video.twimg.com/ext_tw_video/1858214115535134720/pu/vid/avc1/1280x720/KhvdCU9YTUhM8TXw.mp4?tag=12",
+      "author_name": "Elliott",
+      "avatar": "https://pbs.twimg.com/profile_images/2015377984220270592/AYLhtsaZ_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/FootbaIl_Tweets/status/2095980375965040855",
@@ -27,7 +30,10 @@
       "faves": 628,
       "secs": 35,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2095826649837088772/img/80LypAGM5M06yP9x.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2095826649837088772/vid/avc1/720x900/ZvGw7pZauK1HxRCS.mp4?tag=14"
+      "video": "https://video.twimg.com/amplify_video/2095826649837088772/vid/avc1/720x900/ZvGw7pZauK1HxRCS.mp4?tag=14",
+      "author_name": "Football Is Life",
+      "avatar": "https://pbs.twimg.com/profile_images/1577398641039482881/FE2Fq-fs_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/PolymarketBlitz/status/2095620013864694257",
@@ -40,7 +46,10 @@
       "faves": 884,
       "secs": 17,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/1701399303867297792/img/1PB1frZV4yFvW3-x.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/1701399303867297792/vid/avc1/1920x1080/WOZ0uTalquiCUeJj.mp4?tag=16"
+      "video": "https://video.twimg.com/amplify_video/1701399303867297792/vid/avc1/1920x1080/WOZ0uTalquiCUeJj.mp4?tag=16",
+      "author_name": "Polymarket Football",
+      "avatar": "https://pbs.twimg.com/profile_images/1930227786804793344/C0MhZXHI_x96.jpg",
+      "author_verified": true
     }
   ]
 }

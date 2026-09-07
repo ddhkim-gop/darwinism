@@ -14,7 +14,10 @@
       "faves": 0,
       "secs": 14,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/1832905062605307904/img/ElaolkAbT9aRrhLP.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/1832905062605307904/vid/avc1/1920x1080/M_rBFgjNXgVRVl_d.mp4?tag=16"
+      "video": "https://video.twimg.com/amplify_video/1832905062605307904/vid/avc1/1920x1080/M_rBFgjNXgVRVl_d.mp4?tag=16",
+      "author_name": "Phillip P-Mac McGruder",
+      "avatar": "https://pbs.twimg.com/profile_images/2089550325363449856/XPlK1pKR_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/ItsGiantsSzn/status/2095921631365325028",
@@ -27,7 +30,10 @@
       "faves": 133,
       "secs": 44,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2095119697943375872/img/_qjxipqXmH1S5PLI.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2095119697943375872/vid/avc1/1044x576/9t1BrjUj9iMK0vir.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2095119697943375872/vid/avc1/1044x576/9t1BrjUj9iMK0vir.mp4?tag=29",
+      "author_name": "Brody",
+      "avatar": "https://pbs.twimg.com/profile_images/1819933975810281472/Bt44Hqd__x96.jpg",
+      "author_verified": true
     }
   ]
 }

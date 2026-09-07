@@ -14,7 +14,10 @@
       "faves": 159,
       "secs": 15,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096805913919438848/img/clfPlexE9Neib40D.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2096805913919438848/vid/avc1/1320x1762/ER9-f0bzuaIMZVoy.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2096805913919438848/vid/avc1/1320x1762/ER9-f0bzuaIMZVoy.mp4?tag=29",
+      "author_name": "Coach Yac \ud83d\udde3",
+      "avatar": "https://pbs.twimg.com/profile_images/1494334947590475794/G7PUys49_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/FoN9ne/status/2096628040914837895",
@@ -27,7 +30,10 @@
       "faves": 366,
       "secs": 11,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/1711177132632924160/img/GV4xzCGDZQ1hlmNi.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/1711177132632924160/vid/avc1/1920x1080/hDABaD3XOUlazZkb.mp4?tag=16"
+      "video": "https://video.twimg.com/amplify_video/1711177132632924160/vid/avc1/1920x1080/hDABaD3XOUlazZkb.mp4?tag=16",
+      "author_name": "FoN9ne",
+      "avatar": "https://pbs.twimg.com/profile_images/1790157543760969728/_czXOyzB_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/KurtBenkert/status/2096052234287042704",
@@ -40,7 +46,10 @@
       "faves": 2490,
       "secs": 6,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096050209352544256/img/mlNB8fjq9XXaP7lB.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2096050209352544256/vid/avc1/1206x660/oYGi99jIC68VQsRc.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2096050209352544256/vid/avc1/1206x660/oYGi99jIC68VQsRc.mp4?tag=29",
+      "author_name": "Kurt Benkert",
+      "avatar": "https://pbs.twimg.com/profile_images/2021437153918570497/zi24GZFq_x96.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/EmmaDavis0nw/status/2095911406612685251",
@@ -53,7 +62,10 @@
       "faves": 0,
       "secs": 117,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2095910771163070465/img/f1FEPDDrr4esq5uw.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2095910771163070465/vid/avc1/1920x1080/9s5CGToR2RKjd5N2.mp4?tag=29"
+      "video": "https://video.twimg.com/amplify_video/2095910771163070465/vid/avc1/1920x1080/9s5CGToR2RKjd5N2.mp4?tag=29",
+      "author_name": "Emma Davis",
+      "avatar": "https://pbs.twimg.com/profile_images/2088653899351683072/rDQhH3wy_x96.jpg",
+      "author_verified": false
     },
     {
       "url": "https://x.com/NFLRT/status/2094953984700154048",
@@ -66,7 +78,10 @@
       "faves": 10676,
       "secs": 46,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/1856886242362703872/img/1L0YtUQ777HU0g7y.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/1856886242362703872/vid/avc1/720x900/ay-vSusyrpRSWBrd.mp4?tag=14"
+      "video": "https://video.twimg.com/amplify_video/1856886242362703872/vid/avc1/720x900/ay-vSusyrpRSWBrd.mp4?tag=14",
+      "author_name": "NFL Retweet",
+      "avatar": "https://pbs.twimg.com/profile_images/815641088698544128/-7i64k56_x96.jpg",
+      "author_verified": true
     }
   ]
 }
