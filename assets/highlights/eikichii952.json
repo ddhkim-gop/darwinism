@@ -2,5 +2,32 @@
   "team": "eikichii952",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/NFL/status/2093491432569065932",
+      "player": "Travis Kelce",
+      "meta": "TE \u00b7 KC",
+      "date": "2026-08-29",
+      "author": "NFL",
+      "text": "Travis Kelce making guys miss in preseason \u203c\ufe0f Stream on @NFLPlus",
+      "verified": true,
+      "faves": 3426,
+      "secs": 12,
+      "video": "https://video.twimg.com/amplify_video/2093491334808317952/vid/avc1/1920x1080/ezy00JIorfPaTrWl.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2093491334808317952/img/molBiV2I3a0DvMpc.jpg?name=orig"
+    },
+    {
+      "url": "https://x.com/alexbrasky/status/2088730930382770612",
+      "player": "Khalil Shakir",
+      "meta": "WR \u00b7 BUF",
+      "date": "2026-08-15",
+      "author": "alexbrasky",
+      "text": "Khalil Shakir down the field was one of my takeaways from training camp You saw it come to fruition today against the Panthers 2 receptions ",
+      "verified": true,
+      "faves": 84,
+      "secs": 11,
+      "video": "https://video.twimg.com/amplify_video/2088673008768684032/vid/avc1/1920x1080/_q5Ag0BYJ25X2lb5.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2088673008768684032/img/c0naZ-INHg1x80kI.jpg?name=orig"
+    }
+  ]
 }

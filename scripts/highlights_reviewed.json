@@ -21,7 +21,11 @@
     "https://x.com/ActionSportsJax/status/2087173356810371288": "Jakobi Meyers - Jaguars camp, captioned Lawrence-to-Meyers catch",
     "https://x.com/ThFootballSuite/status/2087927935323779376": "Jakobi Meyers - MEYERS #3 catch at Jaguars/Saints joint practice",
     "https://x.com/LangmanVince/status/2091466320726356089": "Harrison Butker - BUTKER #7 field goal through the uprights, 2026 preseason",
-    "https://x.com/GuntherEagleman/status/2091580806581961129": "Harrison Butker - FG with his name on the broadcast graphic; KC at TB has no regular-season match in games.csv, so 2026 preseason"
+    "https://x.com/GuntherEagleman/status/2091580806581961129": "Harrison Butker - FG with his name on the broadcast graphic; KC at TB has no regular-season match in games.csv, so 2026 preseason",
+    "https://x.com/1010XL/status/2082819811290104296": "Bhayshul Tuten - Jaguars camp, captioned Tuten Receiving Work, catching passes",
+    "https://x.com/NYJetsTFMedia/status/2081870366893592761": "Omar Cooper - labelled Omar Cooper Jr. Jets WR over a single subject running routes",
+    "https://x.com/alexbrasky/status/2088730930382770612": "Khalil Shakir - CAR at BUF has no regular-season match in 2025-26, so 2026 preseason; Bills beat account's clip",
+    "https://x.com/NFL/status/2093491432569065932": "Travis Kelce - SEA at KC, not a 2026 regular-season matchup (that is KC at SEA wk7), so 2026 preseason"
   },
   "reject": {
     "https://x.com/MySportsUpdate/status/2095990222525735336": "analyst talking head over stills, and about Courtland Sutton not Waddle",
@@ -172,7 +176,25 @@
     "https://x.com/Scott7news/status/2090411681822159117": "players walking to practice, no play",
     "https://x.com/RaidersWAttitud/status/2091716126333866332": "Raiders camp catch by #1; Tucker wears #11, attribution unsafe",
     "https://x.com/fornekdf/status/2088320975511196017": "Raiders coaches film, player not identifiable",
-    "https://x.com/SamiOnTap/status/2089457782777147424": "Seahawks #26 in a full stadium - previous-season regular-season footage"
+    "https://x.com/SamiOnTap/status/2089457782777147424": "Seahawks #26 in a full stadium - previous-season regular-season footage",
+    "https://x.com/ActionSportsJax/status/2083147790482288657": "TV interview setup at Jaguars camp, no play",
+    "https://x.com/bucsnationx210/status/2085367856049311857": "Bucs camp ball-carrier rep, player not identifiable",
+    "https://x.com/JStCyrTV/status/2082452493154263176": "Jaguars camp distant drills",
+    "https://x.com/alexzietlow05/status/2087906171445252129": "Panthers camp wide shot, player not identifiable",
+    "https://x.com/bobbytrosset/status/2092611555045093721": "podcast segment",
+    "https://x.com/D4DDYD4K/status/2085741309952680017": "Rams camp wide shot, player not identifiable",
+    "https://x.com/ZackBlatt/status/2095215207777775810": "Jets TE pad drill, multiple players, none identifiable",
+    "https://x.com/jagibbs_23/status/2094126141317468467": "coaches film, player not identifiable",
+    "https://x.com/Ethanshirazi24/status/2082560166478909912": "Rams camp, players walking, no play",
+    "https://x.com/LindseyThiry/status/2094555881702875297": "Rams camp, players walking, no play",
+    "https://x.com/TalkinGiants/status/2083602908054982704": "Giants camp warmup, no play",
+    "https://x.com/PatMcAfeeShow/status/2082866197725401464": "TV show segment",
+    "https://x.com/SleeperBengals/status/2095174729720041477": "Joe Burrow on a podcast couch",
+    "https://x.com/NoelleBlumel/status/2094153964690284909": "Bengals camp wide shot plus interviews",
+    "https://x.com/JClarkNBCS/status/2090080907235406331": "Eagles camp, SMITH #6 stretching, no play",
+    "https://x.com/KeepBlitzin/status/2090121156846141752": "Panthers player interview",
+    "https://x.com/Sara_Walsh/status/2087248848951333176": "Panthers player interview",
+    "https://x.com/alexzietlow05/status/2084650222106407152": "Panthers/Dolphins camp wide shot, player not identifiable"
   },
   "keep_preseason_only": {
     "https://x.com/JoeOrrico/status/2094507991437357454": "Bhayshul Tuten - TD compilation, real game footage",

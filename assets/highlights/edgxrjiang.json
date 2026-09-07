@@ -2,5 +2,35 @@
   "team": "edgxrjiang",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/1010XL/status/2082819811290104296",
+      "player": "Bhayshul Tuten",
+      "meta": "RB \u00b7 JAX",
+      "date": "2026-07-30",
+      "author": "1010XL",
+      "text": "Bhayshul Tuten getting the hands warm at Day 2 of Jaguars Training Camp\u203c\ufe0f\ud83d\udd25 #DUUUVAL | #Jaguars",
+      "verified": true,
+      "faves": 24,
+      "secs": 10,
+      "video": "https://video.twimg.com/amplify_video/2082819746525786113/vid/avc1/1080x1920/XDeRxyL9usbJa_Mp.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2082819746525786113/img/eMPENsUVgNpstTJ3.jpg?name=orig",
+      "author_name": "1010 XL / 92.5 FM",
+      "avatar": "https://pbs.twimg.com/profile_images/1831432168335130624/DIFGWYX8_x96.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NYJetsTFMedia/status/2081870366893592761",
+      "player": "Omar Cooper",
+      "meta": "WR \u00b7 NYJ",
+      "date": "2026-07-27",
+      "author": "NYJetsTFMedia",
+      "text": "Rookie WR Omar Cooper Jr working before camp starts \ud83c\udfc8 #Jets",
+      "verified": true,
+      "faves": 743,
+      "secs": 5,
+      "video": "https://video.twimg.com/amplify_video/2081870307711766528/vid/avc1/720x1280/Ow-mPAnnb7Nj0-IJ.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2081870307711766528/img/7NZi0zM88pN3QYTM.jpg?name=orig"
+    }
+  ]
 }
