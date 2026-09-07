@@ -684,25 +684,7 @@ async function init() {
           @media (max-width:600px) { .team-top-wrap { grid-template-columns:1fr; } }
           .team-top-wrap .top-card { background:#1e2027; border:1px solid #2d3139; border-radius:12px;
             padding:16px 20px; display:flex; flex-direction:column; min-width:0; max-height:520px; }
-          /* X sizes the embed from data-width and writes it inline on the
-             rendered element. Overriding with !important stretches it to the
-             panel instead, and the embed reflows to the frame it is given -
-             measuring the panel in JS is not an option, because neither the
-             card nor the feed body has a laid-out width at render time. */
-          .team-top-wrap twitter-widget,
-          .team-top-wrap .twitter-tweet-rendered,
-          .team-top-wrap iframe { width:100% !important; max-width:100% !important; }
-          /* The post text is inside X's cross-origin iframe, so its font-size
-             cannot be set from here - contentDocument is null and the embed
-             takes no size parameter. Scaling the whole embed is the only
-             lever. zoom rather than transform: zoom reflows the box, so the
-             panel closes up behind it instead of leaving a gap. */
-          .team-top-wrap .twitter-tweet-rendered { margin:0 0 12px !important; zoom:0.85; }
-          @supports not (zoom: 1) {
-              .team-top-wrap .twitter-tweet-rendered {
-                  transform:scale(0.85); transform-origin:top left; width:117.6% !important;
-              }
-          }
+          .team-top-wrap twitter-widget, .team-top-wrap iframe { max-width:100% !important; }
           .team-col { display:flex; flex-direction:column; gap:16px; min-width:0; }
           .team-col-equal { display:flex; flex-direction:column; min-width:0; align-self:stretch; }
           .team-col-equal .equal-card { flex:1; }
@@ -840,28 +822,10 @@ async function init() {
 // betting slates all embed video and name players they never show - so posts
 // are screened on their text and then watched before they land in the file.
 //
-// Rendered as <blockquote class="twitter-tweet"> and upgraded by X's widget.
-// The blockquote is a real link on its own, so if the widget is blocked or slow
-// the panel still shows a usable list instead of an empty box. (An earlier
-// version used twttr.widgets.createTweet, whose promise never settles here -
-// awaiting it in a loop left every post stuck as a bare link.)
-let twitterWidgetPromise = null;
-function loadTwitterWidget() {
-    if (twitterWidgetPromise) return twitterWidgetPromise;
-    twitterWidgetPromise = new Promise((resolve) => {
-        if (window.twttr && window.twttr.widgets) return resolve(window.twttr);
-        const el = document.createElement("script");
-        el.src = "https://platform.twitter.com/widgets.js";
-        el.async = true;
-        el.charset = "utf-8";
-        el.onload = () => resolve(window.twttr || null);
-        el.onerror = () => resolve(null);
-        document.head.appendChild(el);
-        setTimeout(() => resolve(window.twttr || null), 8000);
-    });
-    return twitterWidgetPromise;
-}
-
+// Rendered as our own card around a native <video>. X's widget is not used:
+// 42 of the 43 shipped clips are monetized amplify video, which the widget
+// covers with a "Watch on X" button instead of playing in place, and every
+// element being ours keeps the panel uniform.
 async function loadTeamReel(teamName) {
     const body = document.getElementById("team-reel-body");
     const note = document.getElementById("team-reel-note");
@@ -887,24 +851,127 @@ async function loadTeamReel(teamName) {
     }
     if (note) note.textContent = `${tweets.length} posts`;
 
-    body.innerHTML = tweets.map((t) => `
-        <div style="margin-bottom:14px;">
-          <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:4px;">
-            <span style="font-size:12px;font-weight:700;color:#f0f1f3;">${esc(t.player || "")}</span>
-            <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
-            <span style="font-size:11px;color:#454b58;margin-left:auto;">${esc(t.date || "")}</span>
-          </div>
-          <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"
-                      data-conversation="none" data-width="550"
-                      style="margin:0;font-size:12px;">
-            <a href="${esc(t.url)}">View post on X →</a>
-          </blockquote>
-        </div>`).join("");
+    // Modelled on X's *embed* (publish.twitter.com), not the app timeline: name
+    // and blue check on one line, "@handle · Follow" stacked beneath, X mark top
+    // right, then text, media, and a date footer. The widget itself cannot be
+    // used - 42 of 43 clips are monetized amplify video, which X's embed refuses
+    // to play in place and replaces with a "Watch on X" button. Avatar and mp4
+    // still come from X's servers, so only the chrome is ours.
+    const XS = {
+        bg: "#000", text: "#e7e9ea", dim: "#71767b", line: "#2f3336", blue: "#1d9bf0",
+        font: `"TwitterChirp","Helvetica Neue",Helvetica,Arial,sans-serif`
+    };
+    const check = `<svg viewBox="0 0 22 22" width="14" height="14" aria-label="Verified"
+        style="flex:0 0 14px;" fill="${XS.blue}"><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816
+        -.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687
+        -.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44
+        S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272
+        -1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896
+        -.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817
+        .356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688
+        .47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439
+        .54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44
+        c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681
+        s.075-1.299-.163-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662
+        14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"/></svg>`;
+    const xmark = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"
+        fill="${XS.text}"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817
+        L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084
+        4.126H5.117z"/></svg>`;
+    const longDate = (iso) => {
+        if (!iso) return "";
+        const d = new Date(iso + "T12:00:00Z");
+        return isNaN(d) ? iso
+            : d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+    };
 
-    const twttr = await loadTwitterWidget();
-    if (twttr && twttr.widgets && twttr.widgets.load) {
-        try { twttr.widgets.load(body); } catch (e) { /* blockquote links remain */ }
-    }
+    body.innerHTML = tweets.map((t, i) => {
+        const tag = `
+          <div style="display:flex;gap:7px;align-items:baseline;margin:0 2px 5px;">
+            <span style="font-size:11px;font-weight:700;color:#8b919c;">${esc(t.player || "")}</span>
+            <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
+          </div>`;
+        if (!t.video) {
+            // No direct mp4 resolved. Rather than fall back to X's widget -
+            // which will not play these clips in place anyway - keep the card
+            // and link out, so the panel stays one consistent design.
+            return `<div style="margin-bottom:14px;">${tag}
+              <div style="border:1px solid ${XS.line};border-radius:12px;
+                          background:${XS.bg};font-family:${XS.font};padding:11px 12px;">
+                <a href="${esc(t.url)}" target="_blank" rel="noopener"
+                   style="font-size:13px;color:${XS.blue};text-decoration:none;">
+                  View post on X →</a>
+              </div></div>`;
+        }
+        const handle = esc(t.author || "");
+        const name = esc(t.author_name || t.author || "");
+        const avatar = t.avatar
+            ? `<img src="${esc(t.avatar)}" alt="" loading="lazy"
+                    style="width:38px;height:38px;border-radius:50%;flex:0 0 38px;
+                           object-fit:cover;background:${XS.line};">`
+            : `<div style="width:38px;height:38px;border-radius:50%;flex:0 0 38px;
+                           background:${XS.line};"></div>`;
+        return `<div style="margin-bottom:14px;">${tag}
+          <div style="border:1px solid ${XS.line};border-radius:12px;background:${XS.bg};
+                      font-family:${XS.font};padding:11px 12px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;">
+              <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+                 style="line-height:0;">${avatar}</a>
+              <div style="min-width:0;flex:1;">
+                <div style="display:flex;align-items:center;gap:4px;">
+                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+                     style="font-size:13.5px;font-weight:700;color:${XS.text};
+                            text-decoration:none;white-space:nowrap;overflow:hidden;
+                            text-overflow:ellipsis;">${name}</a>
+                  ${t.author_verified ? check : ""}
+                </div>
+                <div style="font-size:12.5px;color:${XS.dim};margin-top:1px;
+                            white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+                  @${handle} ·
+                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+                     style="color:${XS.blue};text-decoration:none;font-weight:400;">Follow</a>
+                </div>
+              </div>
+              <a href="${esc(t.url)}" target="_blank" rel="noopener" title="View on X"
+                 style="line-height:0;flex:0 0 15px;">${xmark}</a>
+            </div>
+            ${t.text ? `<div style="font-size:13px;line-height:1.45;color:${XS.text};
+                                    margin:10px 0 0;white-space:pre-wrap;
+                                    word-break:break-word;">${esc(t.text)}</div>` : ""}
+            <div style="margin-top:10px;border:1px solid ${XS.line};border-radius:12px;
+                        overflow:hidden;">
+              <video class="reel-video" data-i="${i}" controls playsinline preload="none"
+                     ${t.poster ? `poster="${esc(t.poster)}"` : ""}
+                     style="width:100%;display:block;background:#000;
+                            aspect-ratio:16/9;object-fit:contain;">
+                <source src="${esc(t.video)}" type="video/mp4">
+              </video>
+            </div>
+            <a href="${esc(t.url)}" target="_blank" rel="noopener"
+               style="display:block;margin-top:10px;font-size:12px;color:${XS.dim};
+                      text-decoration:none;">${esc(longDate(t.date))}</a>
+          </div></div>`;
+    }).join("");
+
+    // preload="none" is what defers the download. The <source> stays in the
+    // markup: attaching it on the play event meant a real click had nothing to
+    // load and the player sat dead.
+    body.querySelectorAll("video.reel-video").forEach((v) => {
+        const t = tweets[Number(v.dataset.i)] || {};
+        v.addEventListener("play", () => {
+            body.querySelectorAll("video.reel-video").forEach((o) => {
+                if (o !== v && !o.paused) o.pause();
+            });
+        });
+        v.addEventListener("error", () => {
+            const d = document.createElement("div");
+            d.style.cssText = "font-size:13px;color:#71767b;padding:16px 0;";
+            d.innerHTML = `Clip unavailable — <a href="${esc(t.url)}" target="_blank"
+                rel="noopener" style="color:#1d9bf0;">watch on X →</a>`;
+            v.replaceWith(d);
+        });
+    });
+
 }
 
 // ── Roster news (Sleeper player news, aggregated + sorted newest-first) ──────
