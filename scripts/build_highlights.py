@@ -28,7 +28,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -38,7 +38,11 @@ SLEEPER = "https://api.sleeper.app/v1"
 OEMBED = "https://publish.twitter.com/oembed"
 MAX_PER_TEAM = 12
 MAX_PER_PLAYER = 2      # the same play gets posted by a dozen accounts
-MAX_AGE_DAYS = 21       # the panel says "Latest Highlights"; old college film is not
+# How far back a highlight may come from. In season this is the current game
+# week only - the panel is about what just happened. Before week 1 there are no
+# games, so it opens up to the whole camp/preseason run.
+PRESEASON_FLOOR = "2026-07-01"
+MAX_AGE_DAYS = 21       # fallback if Sleeper's state endpoint is unreachable
 
 # Team defences are excluded: their "name" is a city or franchise, so any post
 # mentioning the place matches. That produced 11 entries like a Vikings tweet
@@ -63,6 +67,8 @@ AMBIGUOUS = {
     "harris", "walker", "mitchell", "warren", "love", "james", "murray", "kirk",
     "black", "thomas", "taylor", "scott", "green", "king", "wright", "lloyd",
     "pitts", "cousins", "jackson", "adams", "evans", "collins", "reed", "hall",
+    "harrison", "pierce", "douglas", "washington", "mitchell", "little",
+    "watson", "cook", "dell", "henry", "conner", "gibbs", "burden",
 }
 
 
@@ -322,16 +328,45 @@ def load_capture(path: Path) -> list[dict]:
     return out
 
 
-def fresh(date: str) -> bool:
-    """Inside the recency window. A three-week-old clip is not a highlight of
-    this week, and the panel is labelled Latest Highlights."""
-    if not date:
-        return False
+_WINDOW: str | None = None
+
+
+def window_start() -> str:
+    """Earliest date a highlight may carry, as YYYY-MM-DD.
+
+    Asks Sleeper what week it is rather than hardcoding a calendar. Once games
+    are being played the window is the current week alone, because a highlight
+    is about what just happened. Before the opener there is nothing to clip
+    from a game, so it reaches back over camp and the preseason.
+    """
+    global _WINDOW
+    if _WINDOW:
+        return _WINDOW
+    floor = PRESEASON_FLOOR
     try:
-        d = datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    except ValueError:
-        return False
-    return (datetime.now(timezone.utc) - d).days <= MAX_AGE_DAYS
+        st = get_json(f"{SLEEPER}/state/nfl", timeout=15)
+        start = datetime.strptime(st["season_start_date"], "%Y-%m-%d")
+        week = int(st.get("week") or 1)
+        wk_start = start + timedelta(days=7 * max(week - 1, 0))
+        today = datetime.now(timezone.utc).replace(tzinfo=None)
+        if today >= start:                     # games have been played
+            floor = wk_start.strftime("%Y-%m-%d")
+            print(f"window: week {week} only, from {floor}")
+        else:
+            print(f"window: preseason, from {floor} "
+                  f"(week 1 opens {st['season_start_date']})")
+    except Exception as e:
+        floor = (datetime.now(timezone.utc)
+                 - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
+        print(f"  ! Sleeper state unreachable ({e}); "
+              f"falling back to last {MAX_AGE_DAYS} days", file=sys.stderr)
+    _WINDOW = floor
+    return floor
+
+
+def fresh(date: str) -> bool:
+    """Inside the highlight window - see window_start()."""
+    return bool(date) and date >= window_start()
 
 
 def dedupe(hits: list[dict]) -> list[dict]:
