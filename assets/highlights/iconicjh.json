@@ -15,6 +15,12 @@
       "secs": 86,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2096781698700611589/img/Q62Unj4CrOWm1aFD.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2096781698700611589/vid/avc1/1080x1920/HvEdavVaNEIhdXQG.mp4?tag=29",
+      "stats": {
+        "replies": 0,
+        "reposts": 1,
+        "likes": 2,
+        "views": 37
+      },
       "author_name": "MustDraft",
       "avatar": "https://pbs.twimg.com/profile_images/2085912082893987840/672n1mJB_x96.jpg",
       "author_verified": true
@@ -31,6 +37,12 @@
       "secs": 22,
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2095582113433366528/img/hBAN3cgSmR2C0nCS.jpg?name=orig",
       "video": "https://video.twimg.com/amplify_video/2095582113433366528/vid/avc1/1290x724/pIUFUchdSRnG1iY_.mp4?tag=29",
+      "stats": {
+        "replies": 155,
+        "reposts": 85,
+        "likes": 599,
+        "views": 983067
+      },
       "author_name": "Commanders Lead",
       "avatar": "https://pbs.twimg.com/profile_images/1859262984570187776/FfxbwiqH_x96.jpg",
       "author_verified": true
