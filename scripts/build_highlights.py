@@ -55,6 +55,11 @@ EXCLUDE_POSITIONS = {"DEF", "DST", "D/ST"}
 # because the check costs a network round trip per post.
 VIDEO_CACHE = REPO / "scripts" / ".highlights_video_cache.json"
 
+# Direct media URLs so the panel can play a clip in place. These point at
+# video.twimg.com, unsigned and public, so the bytes still come from X's CDN -
+# nothing is rehosted here. Resolution costs a yt-dlp call, so it is cached.
+MEDIA_CACHE = REPO / "scripts" / ".highlights_media_cache.json"
+
 # The text gate below reads captions; it cannot watch the footage. Verdicts
 # from actually watching a post live here and outrank it in both directions.
 REVIEWED = REPO / "scripts" / "highlights_reviewed.json"
@@ -278,6 +283,45 @@ def has_video(url: str, cache: dict) -> bool:
         ok = False
     cache[url] = ok
     return ok
+
+
+def _load_media_cache() -> dict:
+    if MEDIA_CACHE.exists():
+        try:
+            return json.loads(MEDIA_CACHE.read_text())
+        except ValueError:
+            return {}
+    return {}
+
+
+def media(url: str, cache: dict) -> dict:
+    """{video, poster} for a post, or {} if they cannot be resolved.
+
+    An empty result is not a failure the panel cannot survive - it falls back
+    to X's own embed, which still plays via a click through to X.
+    """
+    if url in cache:
+        return cache[url] or {}
+    out = {}
+    if shutil.which("yt-dlp"):
+        try:
+            r = subprocess.run(
+                ["yt-dlp", "-q", "--no-warnings", "--skip-download",
+                 "--socket-timeout", "20", "-f", "mp4/best",
+                 "--print", "%(url)s", "--print", "%(thumbnail)s", url],
+                capture_output=True, text=True, timeout=90,
+                stdin=subprocess.DEVNULL)
+            lines = [l.strip() for l in (r.stdout or "").splitlines() if l.strip()]
+            vids = [l for l in lines if l.startswith("http") and ".mp4" in l]
+            thumbs = [l for l in lines if l.startswith("http") and ".mp4" not in l]
+            if vids:
+                out = {"video": vids[0]}
+                if thumbs:
+                    out["poster"] = thumbs[0]
+        except Exception:
+            out = {}
+    cache[url] = out
+    return out
 
 
 def oembed(url: str) -> dict | None:
@@ -543,6 +587,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
     teams = rosters()
     print(f"\nmatching against {len(teams)} rosters…")
     roster_union = {p["name"] for roster in teams.values() for p in roster}
+    media_cache = _load_media_cache()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     rejects: dict[str, str] = {}
@@ -584,6 +629,8 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                              "secs": post.get("secs", 0)})
                 break            # one post is filed under one player
         hits = dedupe(hits)[:MAX_PER_TEAM]
+        for h in hits:                    # only for what actually ships
+            h.update(media(h["url"], media_cache))
         feed = {"team": owner,
                 "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 "note": "Curated: X has no public search API, so posts are "
@@ -603,6 +650,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
               f"no play by him:")
         for url, why in sorted(rejects.items(), key=lambda kv: kv[1]):
             print(f"  - {why:<44} {url}")
+    MEDIA_CACHE.write_text(json.dumps(media_cache, indent=1, sort_keys=True) + "\n")
     print(f"\n{'dry run - nothing written' if dry_run else f'wrote {written} feeds to {OUT_DIR}'}")
     return 0
 
