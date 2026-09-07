@@ -2,50 +2,5 @@
   "team": "eikichii952",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": [
-    {
-      "url": "https://x.com/McGruderPmac/status/2096820745586241843",
-      "player": "Kenneth Walker",
-      "meta": "RB \u00b7 KC",
-      "date": "2026-09-07",
-      "author": "McGruderPmac",
-      "text": "RB Kenneth Walker makes KC debut after 1,726 scrimmage yds (1,340 rush, 386 rec.) &amp; 9 rush TDs with SEA last season ",
-      "verified": true,
-      "faves": 0,
-      "secs": 14,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/1832905062605307904/img/ElaolkAbT9aRrhLP.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/1832905062605307904/vid/avc1/1920x1080/M_rBFgjNXgVRVl_d.mp4?tag=16",
-      "stats": {
-        "replies": 0,
-        "reposts": 0,
-        "likes": 0,
-        "views": 70
-      },
-      "author_name": "Phillip P-Mac McGruder",
-      "avatar": "https://pbs.twimg.com/profile_images/2089550325363449856/XPlK1pKR_x96.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/ItsGiantsSzn/status/2095921631365325028",
-      "player": "Cam Skattebo",
-      "meta": "RB \u00b7 NYG",
-      "date": "2026-09-04",
-      "author": "ItsGiantsSzn",
-      "text": "Jaxson Dart and Cam Skattebo are nine days away from doing unspeakable things to Dallas\u2026 Can\u2019t wait for Dak to finally l",
-      "verified": true,
-      "faves": 133,
-      "secs": 44,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2095119697943375872/img/_qjxipqXmH1S5PLI.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2095119697943375872/vid/avc1/1044x576/9t1BrjUj9iMK0vir.mp4?tag=29",
-      "stats": {
-        "replies": 30,
-        "reposts": 11,
-        "likes": 133,
-        "views": 6771
-      },
-      "author_name": "Brody",
-      "avatar": "https://pbs.twimg.com/profile_images/1819933975810281472/Bt44Hqd__x96.jpg",
-      "author_verified": true
-    }
-  ]
+  "tweets": []
 }

@@ -4,70 +4,30 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/Elliott_snz/status/2096750334043435107",
-      "player": "Drake Maye",
-      "meta": "QB \u00b7 NE",
-      "date": "2026-09-07",
-      "author": "Elliott_snz",
-      "text": "Posting a Drake Maye touchdown everyday until #NFLKickoff",
+      "url": "https://x.com/ThFootballSuite/status/2087927935323779376",
+      "player": "Jakobi Meyers",
+      "meta": "WR \u00b7 JAX",
+      "date": "2026-08-13",
+      "author": "ThFootballSuite",
+      "text": "Jakobi Meyers coming down with the jump ball in Jaguars - Saints joint practice.",
       "verified": true,
-      "faves": 104,
-      "secs": 11,
-      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1858214115535134720/pu/img/iQaVD4MLOIaspg16.jpg?name=orig",
-      "video": "https://video.twimg.com/ext_tw_video/1858214115535134720/pu/vid/avc1/1280x720/KhvdCU9YTUhM8TXw.mp4?tag=12",
-      "stats": {
-        "replies": 0,
-        "reposts": 3,
-        "likes": 112,
-        "views": 1996
-      },
-      "author_name": "Elliott",
-      "avatar": "https://pbs.twimg.com/profile_images/2015377984220270592/AYLhtsaZ_x96.jpg",
-      "author_verified": true
+      "faves": 12,
+      "secs": 23,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2087926407271776256/img/5iwAG4ZMBNHgUlGT.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2087926407271776256/vid/avc1/1080x1920/rx6mXE3GDlvnlwFL.mp4?tag=29"
     },
     {
-      "url": "https://x.com/FootbaIl_Tweets/status/2095980375965040855",
-      "player": "Garrett Wilson",
-      "meta": "WR \u00b7 NYJ",
-      "date": "2026-09-04",
-      "author": "FootbaIl_Tweets",
-      "text": "Throwback to this INSANE catch by Garrett Wilson \ud83e\udd2f",
+      "url": "https://x.com/ActionSportsJax/status/2087173356810371288",
+      "player": "Jakobi Meyers",
+      "meta": "WR \u00b7 JAX",
+      "date": "2026-08-11",
+      "author": "ActionSportsJax",
+      "text": "Trevor Lawrence finds Jakobi Meyers \ud83c\udfaf Day 11 of #Jaguars Training Camp",
       "verified": true,
-      "faves": 628,
-      "secs": 35,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2095826649837088772/img/80LypAGM5M06yP9x.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2095826649837088772/vid/avc1/720x900/ZvGw7pZauK1HxRCS.mp4?tag=14",
-      "stats": {
-        "replies": 11,
-        "reposts": 40,
-        "likes": 627,
-        "views": 73968
-      },
-      "author_name": "Football Is Life",
-      "avatar": "https://pbs.twimg.com/profile_images/1577398641039482881/FE2Fq-fs_x96.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/PolymarketBlitz/status/2095620013864694257",
-      "player": "Garrett Wilson",
-      "meta": "WR \u00b7 NYJ",
-      "date": "2026-09-03",
-      "author": "PolymarketBlitz",
-      "text": "Garrett Wilson not giving his teammate an easy touchdown is still concerning.",
-      "verified": true,
-      "faves": 884,
-      "secs": 17,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/1701399303867297792/img/1PB1frZV4yFvW3-x.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/1701399303867297792/vid/avc1/1920x1080/WOZ0uTalquiCUeJj.mp4?tag=16",
-      "stats": {
-        "replies": 19,
-        "reposts": 9,
-        "likes": 886,
-        "views": 310107
-      },
-      "author_name": "Polymarket Football",
-      "avatar": "https://pbs.twimg.com/profile_images/1930227786804793344/C0MhZXHI_x96.jpg",
-      "author_verified": true
+      "faves": 38,
+      "secs": 9,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2087173317186777088/img/Fdr6v3DoWW3XU_O1.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2087173317186777088/vid/avc1/1080x1920/hjlqtIfXYkAGIzf0.mp4?tag=29"
     }
   ]
 }
