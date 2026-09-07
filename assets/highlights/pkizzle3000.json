@@ -4,14 +4,54 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/JoeOrrico/status/2096671948432445805",
+      "player": "Emeka Egbuka",
+      "meta": "WR \u00b7 TB",
+      "date": "2026-09-06",
+      "author": "JoeOrrico",
+      "verified": true,
+      "faves": 220,
+      "secs": 50
+    },
+    {
       "url": "https://x.com/SleeperMiami/status/2096646102988570873",
       "player": "De'Von Achane",
       "meta": "RB \u00b7 MIA",
       "date": "2026-09-06",
       "author": "SleeperMiami",
       "verified": true,
-      "faves": 85,
+      "faves": 86,
       "secs": 39
+    },
+    {
+      "url": "https://x.com/firstroundmock/status/2096614385233854519",
+      "player": "Fernando Mendoza",
+      "meta": "QB \u00b7 LV",
+      "date": "2026-09-06",
+      "author": "firstroundmock",
+      "verified": true,
+      "faves": 9,
+      "secs": 24
+    },
+    {
+      "url": "https://x.com/Fly_EaglesBets/status/2094410100379177254",
+      "player": "Saquon Barkley",
+      "meta": "RB \u00b7 PHI",
+      "date": "2026-08-31",
+      "author": "Fly_EaglesBets",
+      "verified": true,
+      "faves": 16,
+      "secs": 57
+    },
+    {
+      "url": "https://x.com/NoelleBlumel/status/2091977615858864578",
+      "player": "Evan McPherson",
+      "meta": "K \u00b7 CIN",
+      "date": "2026-08-24",
+      "author": "NoelleBlumel",
+      "verified": true,
+      "faves": 36,
+      "secs": 17
     }
   ]
 }

@@ -2,5 +2,46 @@
   "team": "danseung",
   "updated": "2026-09-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://x.com/ClutchPoints/status/2013017306281005258",
+      "player": "Ka'imi Fairbairn",
+      "meta": "K \u00b7 HOU",
+      "date": "2027-01-18",
+      "author": "ClutchPoints",
+      "verified": true,
+      "faves": 20,
+      "secs": 11
+    },
+    {
+      "url": "https://x.com/Elliott_snz/status/2096750334043435107",
+      "player": "Drake Maye",
+      "meta": "QB \u00b7 NE",
+      "date": "2026-09-07",
+      "author": "Elliott_snz",
+      "verified": true,
+      "faves": 104,
+      "secs": 11
+    },
+    {
+      "url": "https://x.com/FootbaIl_Tweets/status/2095980375965040855",
+      "player": "Garrett Wilson",
+      "meta": "WR \u00b7 NYJ",
+      "date": "2026-09-04",
+      "author": "FootbaIl_Tweets",
+      "verified": true,
+      "faves": 628,
+      "secs": 35
+    },
+    {
+      "url": "https://x.com/PolymarketBlitz/status/2095620013864694257",
+      "player": "Garrett Wilson",
+      "meta": "WR \u00b7 NYJ",
+      "date": "2026-09-03",
+      "author": "PolymarketBlitz",
+      "verified": true,
+      "faves": 884,
+      "secs": 17
+    }
+  ]
 }

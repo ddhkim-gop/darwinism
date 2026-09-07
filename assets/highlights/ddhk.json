@@ -4,6 +4,16 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Cashbinoo/status/2096623919071645958",
+      "player": "Kyler Murray",
+      "meta": "QB \u00b7 MIN",
+      "date": "2026-09-06",
+      "author": "Cashbinoo",
+      "verified": true,
+      "faves": 3,
+      "secs": 7
+    },
+    {
       "url": "https://x.com/Dizzy_3D/status/2095884689374392769",
       "player": "CeeDee Lamb",
       "meta": "WR \u00b7 DAL",
@@ -12,6 +22,26 @@
       "verified": true,
       "faves": 569,
       "secs": 30
+    },
+    {
+      "url": "https://x.com/JamesCookMuse/status/2095880413432459476",
+      "player": "James Cook",
+      "meta": "RB \u00b7 BUF",
+      "date": "2026-09-04",
+      "author": "JamesCookMuse",
+      "verified": true,
+      "faves": 16,
+      "secs": 7
+    },
+    {
+      "url": "https://x.com/mattblively/status/2094548824522129910",
+      "player": "Kaelon Black",
+      "meta": "RB \u00b7 SF",
+      "date": "2026-08-31",
+      "author": "mattblively",
+      "verified": true,
+      "faves": 66,
+      "secs": 13
     },
     {
       "url": "https://x.com/SleeperPackers/status/2091917085068706125",

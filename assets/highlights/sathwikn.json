@@ -4,6 +4,16 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/BallInSportsNet/status/2094887060519715258",
+      "player": "Jauan Jennings",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-09-01",
+      "author": "BallInSportsNet",
+      "verified": true,
+      "faves": 0,
+      "secs": 23
+    },
+    {
       "url": "https://x.com/SleeperPackers/status/2091917085068706125",
       "player": "Josh Jacobs",
       "meta": "RB \u00b7 GB",
