@@ -1,4 +1,4 @@
-import { renderNav } from "./components/nav.js";
+import { renderNav } from "./components/nav.js?v=20260907a";
 import { trackEvent, fetchCount } from "./components/analytics.js";
 import { PODCAST_EPISODES } from "./podcasts.js?v=202609072346";
 
