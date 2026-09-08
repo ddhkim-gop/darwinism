@@ -1,6 +1,6 @@
 {
   "team": "sathwikn",
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -24,6 +24,45 @@
       "author_name": "SleeperPackers",
       "avatar": "https://pbs.twimg.com/profile_images/1899528250533326848/ke26SJjL_x96.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://x.com/stevehoikkala/status/2087994136179646872",
+      "player": "Jauan Jennings",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-08-13",
+      "author": "stevehoikkala",
+      "text": "QB Kyler Murray to WR Jauan Jennings with the catch going out of bounds. #Vikings are spoiled to have him added to the r",
+      "verified": true,
+      "faves": 293,
+      "secs": 11,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2087994093448146944/img/2FaGMlCEvXPcnTc9.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2087994093448146944/vid/avc1/1080x1422/Srpye7yG_hYdkn13.mp4?tag=29"
+    },
+    {
+      "url": "https://x.com/vikingzfanpage/status/2086255384075899037",
+      "player": "Jauan Jennings",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-08-09",
+      "author": "vikingzfanpage",
+      "text": "JJ McCarthy finds Jauan Jennings for the TD. (Via Vikings IG)",
+      "verified": true,
+      "faves": 570,
+      "secs": 10,
+      "video": "https://video.twimg.com/amplify_video/2086255369978773504/vid/avc1/614x878/mi_EO5PROh9LnRdt.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2086255369978773504/img/TsOY7qaRu88BaCPT.jpg?name=orig"
+    },
+    {
+      "url": "https://x.com/BardenJaden/status/2082986968070095129",
+      "player": "Justin Herbert",
+      "meta": "QB \u00b7 LAC",
+      "date": "2026-07-31",
+      "author": "BardenJaden",
+      "text": "Charges Quarterback Justin Herbert To His Wide Receivers One On Ladd McConkey Who Take it To The House In Training Camp Practice Today",
+      "verified": true,
+      "faves": 6,
+      "secs": 12,
+      "video": "https://video.twimg.com/amplify_video/2082910967248416770/vid/avc1/1080x1080/E1C0Ljf-fuuZ7Z9M.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2082910967248416770/img/4AnZJ1ZTrjRZfoWx.jpg?name=orig"
     }
   ]
 }

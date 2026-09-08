@@ -1,6 +1,6 @@
 {
   "team": "Paul_Yoon",
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -46,6 +46,19 @@
       "author_name": "Wu Tang is for the Children",
       "avatar": "https://pbs.twimg.com/profile_images/1961839346757029888/cw19Lahm_x96.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://x.com/jagibbs_23/status/2089026268322750855",
+      "player": "Jonathon Brooks",
+      "meta": "RB \u00b7 CAR",
+      "date": "2026-08-16",
+      "author": "jagibbs_23",
+      "text": "Jonathon Brooks - Preseason Week 1 - every touch",
+      "verified": true,
+      "faves": 421,
+      "secs": 40,
+      "video": "https://video.twimg.com/amplify_video/2089025728633339904/vid/avc1/1378x768/JQ-l_ntAwTe2_mNG.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2089025728633339904/img/6-wA1CF-eBUORj6b.jpg?name=orig"
     }
   ]
 }
