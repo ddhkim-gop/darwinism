@@ -1,8 +1,21 @@
 {
   "team": "edgxrjiang",
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://x.com/snyjets/status/2095221629076812085",
+      "player": "Kenyon Sadiq",
+      "meta": "TE \u00b7 NYJ",
+      "date": "2026-09-02",
+      "author": "snyjets",
+      "text": "Kenyon Sadiq today at Jets practice",
+      "verified": true,
+      "faves": 287,
+      "secs": 9,
+      "video": "https://video.twimg.com/amplify_video/2095221550764978181/vid/avc1/720x1280/kip0cm6CjHdrklY5.mp4?tag=29",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2095221550764978181/img/82q1C7DY5D1MU6PT.jpg?name=orig"
+    },
     {
       "url": "https://x.com/ActionSportsJax/status/2089348631216132568",
       "player": "Chris Rodriguez",
