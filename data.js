@@ -16226,7 +16226,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -16677,6 +16677,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 58
         },
         {
+          "player_id": "11370",
+          "espn_id": null,
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "2000-01-11",
+          "college": "BYU",
+          "height": "73",
+          "weight": "219",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 448
+        },
+        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16923,21 +16938,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 107
         },
         {
-          "player_id": "3214",
-          "espn_id": 3046439,
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "birth_date": "1994-12-07",
-          "college": "Arkansas",
-          "height": "77",
-          "weight": "249",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 92
-        },
-        {
           "player_id": "4217",
           "espn_id": 3040151,
           "name": "George Kittle",
@@ -16949,7 +16949,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 82
         },
         {
@@ -17073,6 +17073,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 170
         },
         {
+          "player_id": "9482",
+          "espn_id": null,
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "birth_date": "2001-07-06",
+          "college": "Notre Dame",
+          "height": "76",
+          "weight": "256",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 484
+        },
+        {
           "player_id": "9997",
           "espn_id": null,
           "name": "Zay Flowers",
@@ -17184,6 +17199,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 120
         },
         {
+          "player_id": "13417",
+          "espn_id": null,
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "2002-12-18",
+          "college": "Ole Miss",
+          "height": "74",
+          "weight": "207",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 112
+        },
+        {
           "player_id": "1479",
           "espn_id": 15818,
           "name": "Keenan Allen",
@@ -17257,21 +17287,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 22
-        },
-        {
-          "player_id": "8154",
-          "espn_id": null,
-          "name": "Brian Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "birth_date": "1999-03-22",
-          "college": "Alabama",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 80
         },
         {
           "player_id": "8259",
@@ -18525,6 +18540,106 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 9, 2026 • 6:26 PM PT",
+      "transaction_id": "1403601579734499328",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 9, 2026 • 4:21 PM PT",
+      "transaction_id": "1403570127538081792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 9, 2026 • 6:10 AM PT",
+      "transaction_id": "1403416395340840960",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Brian Robinson",
+          "position": "RB",
+          "team": "ATL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 36,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 9, 2026 • 12:14 AM PT",
+      "transaction_id": "1403326595585814528",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "This player was claimed by another owner."
+    },
     {
       "season": "2026",
       "week": 1,
