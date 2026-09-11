@@ -16536,6 +16536,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 11
         },
         {
+          "player_id": "7002",
+          "espn_id": 3929645,
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "birth_date": "1996-09-13",
+          "college": "Oregon",
+          "height": "76",
+          "weight": "245",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 103
+        },
+        {
           "player_id": "7547",
           "espn_id": null,
           "name": "Amon-Ra St. Brown",
@@ -16840,6 +16855,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 107
+        },
+        {
+          "player_id": "8154",
+          "espn_id": null,
+          "name": "Brian Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "birth_date": "1999-03-22",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 80
         },
         {
           "player_id": "8155",
@@ -17210,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 112
         },
         {
@@ -18540,6 +18570,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 10, 2026 • 7:40 PM PT",
+      "transaction_id": "1403982649491476480",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 10, 2026 • 8:30 AM PT",
+      "transaction_id": "1403814003444027392",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Brian Robinson",
+          "position": "RB",
+          "team": "ATL"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
     {
       "season": "2026",
       "week": 1,
