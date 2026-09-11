@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 97
         },
         {
-          "player_id": "12487",
-          "espn_id": null,
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "2003-03-07",
-          "college": "Oregon",
-          "height": "77",
-          "weight": "252",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 141
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15214,6 +15199,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 162
+        },
+        {
+          "player_id": "13545",
+          "espn_id": null,
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "birth_date": "2003-06-12",
+          "college": "Florida",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 194
         },
         {
           "player_id": "4034",
@@ -15608,7 +15608,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 439
         },
         {
@@ -15997,21 +15997,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 105
-        },
-        {
-          "player_id": "4033",
-          "espn_id": 3123076,
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC",
-          "birth_date": "1996-07-10",
-          "college": "Miami (FL)",
-          "height": "76",
-          "weight": "246",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 131
         },
         {
           "player_id": "4866",
@@ -16692,21 +16677,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 57
         },
         {
-          "player_id": "11370",
-          "espn_id": null,
-          "name": "Chris Brooks",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2000-01-11",
-          "college": "BYU",
-          "height": "73",
-          "weight": "219",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 447
-        },
-        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16752,19 +16722,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 15
         },
         {
-          "player_id": "13345",
+          "player_id": "13311",
           "espn_id": null,
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "team": "DEN",
-          "birth_date": "2003-08-20",
-          "college": "Washington",
-          "height": "68",
-          "weight": "220",
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2004-06-07",
+          "college": "Louisville",
+          "height": "74",
+          "weight": "228",
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 118
+          "search_rank": 197
         },
         {
           "player_id": "2747",
@@ -17762,7 +17732,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -17807,7 +17777,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 93
         },
         {
@@ -18570,6 +18540,122 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 11, 2026 • 11:17 AM PT",
+      "transaction_id": "1404218409691983872",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 11, 2026 • 11:15 AM PT",
+      "transaction_id": "1404217908556513280",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 11, 2026 • 10:30 AM PT",
+      "transaction_id": "1404206550448390144",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 11, 2026 • 10:30 AM PT",
+      "transaction_id": "1404206526305947648",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 11, 2026 • 10:30 AM PT",
+      "transaction_id": "1404206508983500800",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
