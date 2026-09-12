@@ -15381,11 +15381,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 204
         },
         {
-          "player_id": "KC",
+          "player_id": "DAL",
           "espn_id": null,
-          "name": "Kansas City Chiefs",
+          "name": "Dallas Cowboys",
           "position": "DEF",
-          "team": "KC",
+          "team": "DAL",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18540,6 +18540,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 11, 2026 • 4:14 PM PT",
+      "transaction_id": "1404293018948804608",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Dallas Cowboys",
+          "position": "DEF",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
