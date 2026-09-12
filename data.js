@@ -15477,6 +15477,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 46
         },
         {
+          "player_id": "4035",
+          "espn_id": 3054850,
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "birth_date": "1995-07-25",
+          "college": "Tennessee",
+          "height": "70",
+          "weight": "215",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 119
+        },
+        {
           "player_id": "5967",
           "espn_id": 3916148,
           "name": "Tony Pollard",
@@ -18540,6 +18555,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 12, 2026 • 1:29 PM PT",
+      "transaction_id": "1404614042475065344",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
