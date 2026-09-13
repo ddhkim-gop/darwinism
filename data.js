@@ -15488,7 +15488,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 119
         },
         {
@@ -15890,7 +15890,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 64
         },
         {
@@ -15997,21 +15997,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 61
-        },
-        {
-          "player_id": "13269",
-          "espn_id": null,
-          "name": "Fernando Mendoza",
-          "position": "QB",
-          "team": "LV",
-          "birth_date": "2003-10-01",
-          "college": "Indiana",
-          "height": "77",
-          "weight": "225",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104
         },
         {
           "player_id": "4866",
@@ -17501,7 +17486,7 @@ window.__STATIC_DATA__ = {
           "weight": "219",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 167
         },
         {
@@ -18555,6 +18540,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 13, 2026 • 7:14 AM PT",
+      "transaction_id": "1404882039672430592",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
