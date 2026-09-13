@@ -15689,7 +15689,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 26
         },
         {
@@ -17169,6 +17169,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "13285",
+          "espn_id": null,
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG",
+          "birth_date": "2003-08-26",
+          "college": "Notre Dame",
+          "height": "76",
+          "weight": "222",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
+        },
+        {
           "player_id": "13296",
           "espn_id": null,
           "name": "Caleb Douglas",
@@ -17334,21 +17349,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 1
         },
         {
-          "player_id": "9511",
-          "espn_id": null,
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2002-01-17",
-          "college": "East Carolina",
-          "height": "68",
-          "weight": "191",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 148
-        },
-        {
           "player_id": "MIN",
           "espn_id": null,
           "name": "Minnesota Vikings",
@@ -17441,7 +17441,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 34
         },
         {
@@ -18540,6 +18540,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 13, 2026 • 2:47 PM PT",
+      "transaction_id": "1404996003844628480",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
