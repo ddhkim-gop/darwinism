@@ -16566,21 +16566,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
-          "player_id": "8205",
-          "espn_id": null,
-          "name": "Isiah Pacheco",
-          "position": "RB",
-          "team": "DET",
-          "birth_date": "1999-03-02",
-          "college": "Rutgers",
-          "height": "70",
-          "weight": "210",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 151
-        },
-        {
           "player_id": "8676",
           "espn_id": null,
           "name": "Rashid Shaheed",
@@ -18540,6 +18525,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 14, 2026 • 2:15 PM PT",
+      "transaction_id": "1405350211940831232",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
