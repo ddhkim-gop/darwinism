@@ -15186,6 +15186,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
+          "player_id": "13345",
+          "espn_id": null,
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
+          "birth_date": "2003-08-20",
+          "college": "Washington",
+          "height": "68",
+          "weight": "220",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 118
+        },
+        {
           "player_id": "13414",
           "espn_id": null,
           "name": "Kaelon Black",
@@ -15349,21 +15364,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "9225",
-          "espn_id": null,
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
-          "birth_date": "2002-08-30",
-          "college": "Auburn",
-          "height": "71",
-          "weight": "215",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 147
         },
         {
           "player_id": "9486",
@@ -15824,7 +15824,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 91
         },
         {
@@ -15935,7 +15935,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 132
         },
         {
@@ -18540,6 +18540,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 14, 2026 • 7:36 AM PT",
+      "transaction_id": "1405249796331040768",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 14, 2026 • 7:35 AM PT",
+      "transaction_id": "1405249699136495616",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tank Bigsby",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
