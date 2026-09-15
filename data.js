@@ -17712,7 +17712,7 @@ window.__STATIC_DATA__ = {
           "position": "WR",
           "team": "JAX",
           "birth_date": "1996-11-09",
-          "college": "North Carolina State",
+          "college": "NC State",
           "height": "74",
           "weight": "200",
           "years_exp": 7,
