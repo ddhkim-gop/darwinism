@@ -15186,21 +15186,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
-          "player_id": "13345",
-          "espn_id": null,
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "team": "DEN",
-          "birth_date": "2003-08-20",
-          "college": "Washington",
-          "height": "68",
-          "weight": "220",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 118
-        },
-        {
           "player_id": "13414",
           "espn_id": null,
           "name": "Kaelon Black",
@@ -15259,21 +15244,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 88
-        },
-        {
-          "player_id": "4950",
-          "espn_id": 3895856,
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1996-11-18",
-          "college": "Texas A&M",
-          "height": "71",
-          "weight": "200",
-          "years_exp": 8,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 210
         },
         {
           "player_id": "5849",
@@ -18510,6 +18480,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 15, 2026 • 5:21 AM PT",
+      "transaction_id": "1405578202633502720",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 15, 2026 • 5:21 AM PT",
+      "transaction_id": "1405578174514892800",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Christian Kirk",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
