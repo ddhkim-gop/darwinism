@@ -16416,21 +16416,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 74
         },
         {
-          "player_id": "12469",
-          "espn_id": null,
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2004-09-14",
-          "college": "Tennessee",
-          "height": "68",
-          "weight": "200",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 129
-        },
-        {
           "player_id": "12489",
           "espn_id": null,
           "name": "RJ Harvey",
@@ -18480,6 +18465,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 15, 2026 • 11:34 AM PT",
+      "transaction_id": "1405672160671895552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
