@@ -16275,21 +16275,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 86
         },
         {
-          "player_id": "8119",
-          "espn_id": null,
-          "name": "Jahan Dotson",
-          "position": "WR",
-          "team": "ATL",
-          "birth_date": "2000-03-22",
-          "college": "Penn State",
-          "height": "71",
-          "weight": "184",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 505
-        },
-        {
           "player_id": "8130",
           "espn_id": null,
           "name": "Trey McBride",
@@ -18525,6 +18510,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 15, 2026 • 4:03 AM PT",
+      "transaction_id": "1405558720154365952",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "team": "ATL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
