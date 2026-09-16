@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 98
         },
         {
-          "player_id": "11729",
-          "espn_id": null,
-          "name": "Sione Vaki",
-          "position": "RB",
-          "team": "DET",
-          "birth_date": "2001-07-30",
-          "college": "Utah",
-          "height": "71",
-          "weight": "216",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 527
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15214,6 +15199,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 62
+        },
+        {
+          "player_id": "13347",
+          "espn_id": null,
+          "name": "Demond Claiborne",
+          "position": "RB",
+          "team": "MIN",
+          "birth_date": "2003-10-09",
+          "college": "Wake Forest",
+          "height": "70",
+          "weight": "188",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 176
         },
         {
           "player_id": "13414",
@@ -15753,6 +15753,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 39
         },
         {
+          "player_id": "4177",
+          "espn_id": 2991662,
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "1993-09-16",
+          "college": "North Carolina",
+          "height": "76",
+          "weight": "221",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 697
+        },
+        {
           "player_id": "6806",
           "espn_id": 4241985,
           "name": "J.K. Dobbins",
@@ -15809,7 +15824,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "search_rank": 91
         },
         {
@@ -16979,7 +16994,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 46
         },
         {
@@ -17179,8 +17194,8 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "207",
           "years_exp": 0,
-          "status": "Active",
-          "injury_status": "Doubtful",
+          "status": "Inactive",
+          "injury_status": "Out",
           "search_rank": 113
         },
         {
@@ -17456,7 +17471,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "IR",
           "search_rank": 148
         },
         {
@@ -17918,7 +17933,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 16
         },
         {
@@ -18510,6 +18525,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 16, 2026 • 11:00 AM PT",
+      "transaction_id": "1406026028769447936",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [
+        {
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 16, 2026 • 10:46 AM PT",
+      "transaction_id": "1406022588634857472",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Demond Claiborne",
+          "position": "RB",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
