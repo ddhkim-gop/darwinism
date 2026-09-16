@@ -17,3 +17,6 @@ graft/
 
 # nflverse schedule cache for scoreboard dating - regenerable
 .games_cache.csv
+
+# Source frames for podcast cover art — regenerable from assets/highlights/
+assets/podcasts/art/.cache/

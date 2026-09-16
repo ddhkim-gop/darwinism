@@ -1,66 +1,108 @@
 #!/usr/bin/env python3
-"""Generate square cover art for each podcast episode.
+"""Generate square cover art for each podcast episode, built around the players
+the episode is actually about.
 
   python3 scripts/build_podcast_art.py
 
-One SVG per episode, rasterised to PNG via headless Chrome. The art is
-deliberately generative rather than illustrative: a seeded field of bars whose
-heights come from the episode slug, so every episode is visually distinct but
-unmistakably the same series. Palette is the site's own tokens.
+Art uses an ACTION frame, not a headshot: the poster image of that player's own
+highlight clip from assets/highlights/*.json -- so the cover is a photo of the
+play the episode is actually talking about. Frames are cached under
+assets/podcasts/art/.cache/ and composited into a static PNG, so the published
+page makes no third-party image request.
 
-Episodes are declared in EPISODES below -- keep in step with podcasts.js.
+Add an episode to EPISODES, naming the player whose highlight should front it.
 """
-import hashlib, os, subprocess, sys
+import os, subprocess, sys, urllib.request
 
-OUT = "assets/podcasts/art"
-SIZE = 640
+OUT   = "assets/podcasts/art"
+CACHE = os.path.join(OUT, ".cache")
+SIZE  = 640
+HIGHLIGHTS = "assets/highlights/*.json"
+# The CDN rejects urllib's default agent with a 403. A plain browser string is
+# enough; it deliberately carries nothing identifying about this machine.
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36")
 CHROME = ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
           "/Applications/Chromium.app/Contents/MacOS/Chromium")
 
-# slug, episode label, accent pair (from style.css tokens)
+# slug, label, accent, hero player, caption, clip match.
+# The clip is PINNED by a phrase from its text rather than taken as the most
+# recent: highlight feeds refresh, and most broadcast posters are wide pre-snap
+# frames that turn to green mush at 92px. These two are tight on the player.
 EPISODES = [
-    ("2026-01-the-grades-are-in",     "01", "#5a5be6", "#e74c82"),
-    ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "#4299e1"),
+    ("2026-01-the-grades-are-in",        "01", "#5a5be6", "Josh Allen",    "ALLEN",  "bulldozes"),
+    ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "Ashton Jeanty", "JEANTY", "walks into the endzone"),
 ]
 
 
-def bars(seed, n=14):
-    """Deterministic bar heights in [0.18, 1.0] derived from the slug."""
-    h = hashlib.sha256(seed.encode()).digest()
-    return [0.18 + (h[i % len(h)] / 255.0) * 0.82 for i in range(n)]
+def action_frame(player, match=None):
+    """Poster frame of the player's highlight clip, cached locally.
+
+    `match` pins a specific clip by a phrase in its text; without it the most
+    recent clip wins, which makes the cover art change under you on refresh.
+    """
+    import glob, json
+    best = None
+    for f in glob.glob(HIGHLIGHTS):
+        for t in json.load(open(f)).get("tweets", []):
+            if t.get("player") != player or not t.get("poster"):
+                continue
+            if match and match.lower() not in (t.get("text") or "").lower():
+                continue
+            if best is None or (t.get("date") or "") > (best.get("date") or ""):
+                best = t
+    if not best:
+        print(f"    ! no highlight poster for {player}", file=sys.stderr)
+        return None, None
+    os.makedirs(CACHE, exist_ok=True)
+    p = os.path.join(CACHE, player.replace(" ", "_").replace(".", "") + ".jpg")
+    if not os.path.exists(p):
+        try:
+            req = urllib.request.Request(best["poster"], headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as r, open(p, "wb") as f:
+                f.write(r.read())
+        except Exception as e:
+            print(f"    ! {player}: {e}", file=sys.stderr)
+            return None, None
+    return "file://" + os.path.abspath(p), best.get("text", "")
 
 
-def svg(slug, label, c1, c2):
-    hs = bars(slug)
-    n = len(hs)
-    gap, pad = 6, 54
-    bw = (SIZE - pad * 2 - gap * (n - 1)) / n
-    rects = []
-    for i, v in enumerate(hs):
-        bh = v * (SIZE - pad * 2) * 0.62
-        x = pad + i * (bw + gap)
-        y = SIZE - pad - bh
-        t = i / (n - 1)
-        rects.append(
-            f'<rect x="{x:.1f}" y="{y:.1f}" width="{bw:.1f}" height="{bh:.1f}" '
-            f'rx="{bw/2:.1f}" fill="url(#g)" opacity="{0.35 + 0.65*t:.2f}"/>')
+def svg(label, accent, player, caption, match):
+    """One action frame, full-bleed.
+
+    Renders at 92px in the episode table, so it is composed for a thumbnail: a
+    single frame reads at that size where a montage turns to mush. The source is
+    16x9, so it is scaled to cover the square and pushed right, keeping the
+    centred play button off the subject.
+    """
+    src, _ = action_frame(player, match)
+    # Source is 16:9. Scale to cover the square, then push right so the centred
+    # play button lands on background rather than across the subject.
+    iw = SIZE * 1.62
+    ih = iw * 9 / 16
+    img = (f'<image href="{src}" x="{-SIZE*0.28:.0f}" y="{(SIZE-ih)/2:.0f}" '
+           f'width="{iw:.0f}" height="{ih:.0f}" preserveAspectRatio="xMidYMid slice"/>') if src else ""
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{SIZE}" height="{SIZE}" viewBox="0 0 {SIZE} {SIZE}">
   <defs>
-    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.35" stop-color="#0e1014" stop-opacity="0"/>
+      <stop offset="0.74" stop-color="#0e1014" stop-opacity="0.74"/>
+      <stop offset="1" stop-color="#0e1014" stop-opacity="0.97"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.3" cy="0.25" r="0.9">
-      <stop offset="0" stop-color="{c1}" stop-opacity="0.30"/>
-      <stop offset="1" stop-color="{c1}" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="tint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{accent}" stop-opacity="0.26"/>
+      <stop offset="0.65" stop-color="{accent}" stop-opacity="0.04"/>
+    </linearGradient>
   </defs>
   <rect width="{SIZE}" height="{SIZE}" fill="#14161c"/>
-  <rect width="{SIZE}" height="{SIZE}" fill="url(#glow)"/>
-  {''.join(rects)}
-  <text x="{pad}" y="{pad + 46}" font-family="DM Sans, Helvetica, Arial, sans-serif"
-        font-size="46" font-weight="700" fill="#f0f1f3" letter-spacing="-1">DARWINISM</text>
-  <text x="{pad}" y="{pad + 86}" font-family="DM Mono, Menlo, monospace"
-        font-size="26" fill="{c1}" letter-spacing="3">EP {label}</text>
+  {img}
+  <rect width="{SIZE}" height="{SIZE}" fill="url(#tint)"/>
+  <rect width="{SIZE}" height="{SIZE}" fill="url(#fade)"/>
+  <rect x="0" y="0" width="{SIZE}" height="10" fill="{accent}"/>
+  <text x="34" y="{SIZE-96}" font-family="DM Mono, Menlo, monospace"
+        font-size="30" fill="{accent}" letter-spacing="5">EP {label}</text>
+  <text x="34" y="{SIZE-42}" font-family="DM Sans, Helvetica, Arial, sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">{caption}</text>
 </svg>'''
 
 
@@ -74,17 +116,18 @@ def chrome():
 def main():
     os.makedirs(OUT, exist_ok=True)
     binary = chrome()
-    for slug, label, c1, c2 in EPISODES:
+    for slug, label, accent, player, caption, match in EPISODES:
         s = os.path.join(OUT, slug + ".svg")
         p = os.path.join(OUT, slug + ".png")
         with open(s, "w") as f:
-            f.write(svg(slug, label, c1, c2))
+            f.write(svg(label, accent, player, caption, match))
         subprocess.run([binary, "--headless", "--disable-gpu", "--no-sandbox",
+                        "--allow-file-access-from-files",
                         f"--screenshot={os.path.abspath(p)}",
-                        f"--window-size={SIZE},{SIZE}", "--default-background-color=00000000",
+                        f"--window-size={SIZE},{SIZE}",
                         "file://" + os.path.abspath(s)],
                        check=True, capture_output=True)
-        os.remove(s)                       # PNG is the shipped asset; SVG is scaffolding
+        os.remove(s)
         print(f"  {p}  {os.path.getsize(p)//1024} KB")
 
 
