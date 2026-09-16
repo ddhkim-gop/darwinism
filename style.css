@@ -482,7 +482,41 @@ main {
 .pod-table tbody tr:hover { background: var(--card-el); }
 .pod-table tr.pod-active { background: var(--card-el); }
 
-.pod-play-cell { width: 44px; padding-right: 0 !important; }
+.pod-play-cell { width: 108px; padding-right: 0 !important; }
+
+/* Square cover art with the play button centred on it. The button keeps its own
+   hit area and focus ring; the art is decorative, so the img carries empty alt
+   and the button keeps the accessible name. */
+.pod-art {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    background: var(--card-el);
+    border: 1px solid var(--border);
+}
+.pod-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.pod-art .pod-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(12, 14, 18, 0.62);
+    backdrop-filter: blur(2px);
+    border-color: rgba(255, 255, 255, 0.28);
+}
+.pod-art .pod-play:hover:not(:disabled),
+.pod-art .pod-play.playing {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+.pod-art .pod-play:active:not(:disabled) { transform: translate(-50%, -50%) scale(0.94); }
 
 .pod-play {
     width: 32px;
@@ -535,6 +569,8 @@ main {
 
 @media (max-width: 600px) {
     .pod-table { font-size: 12px; }
+    .pod-play-cell { width: 72px; }
+    .pod-art { width: 60px; height: 60px; }
     .pod-table td { padding: 10px 8px; }
     .pod-table th { padding: 0 8px 8px; }
     .pod-title-cell { min-width: 130px; }
@@ -543,6 +579,11 @@ main {
 
 /* Play-count badge — hidden until a real count comes back, so an episode with
    no plays (or counts disabled) shows nothing rather than a discouraging zero. */
+/* An explicit display value beats the UA's [hidden]{display:none}, so the
+   hidden state has to be restated or an empty pill renders for episodes with
+   no plays yet. */
+.pod-plays[hidden] { display: none; }
+
 .pod-plays {
     display: inline-block;
     margin-top: 5px;
