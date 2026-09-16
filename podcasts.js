@@ -19,6 +19,14 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 2 — Week One Is In The Books",
+            date: "2026-09-16",
+            duration: "9:09",
+            slug: "2026-02-week-one-is-in-the-books",
+            audio: "assets/podcasts/2026/ep02-week-one-is-in-the-books.mp3",
+            description: "Week one recap: every matchup, the scores that broke the draft grades, and what six-and-six says about the season ahead.",
+        },
+        {
             title: "Episode 1 — The Grades Are In",
             date: "2026-09-03",
             duration: "14:12",
