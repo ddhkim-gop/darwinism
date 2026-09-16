@@ -1,6 +1,6 @@
 {
   "team": "eikichii952",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -60,6 +60,21 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0914/de90c39d-0cf4-4607-b0d4-40a2721233c1/de90c39d-0cf4-4607-b0d4-40a2721233c1.mp4",
       "game_time": "Q1 06:45",
       "kickoff": "9/13/26, 20:24:49"
+    },
+    {
+      "url": "https://x.com/NFLTDsVideos/status/2099570031742869734",
+      "player": "Jordan Love",
+      "meta": "QB \u00b7 GB",
+      "date": "2026-09-14",
+      "author": "NFL Touchdown Videos",
+      "text": "Jordan Love (2) to Christian Watson (2) Green Bay Packers 2 yards pic.twitter.com/JRK7bR7WRj \u2014 NFL Touchdown Videos (@NFLTDsVideos) September 14, 2026",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2099256211145465856/img/sbFhyc9h1kdTW-tJ.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2099256211145465856/vid/avc1/1920x1080/1nD0CKmmhq6uMUs6.mp4?tag=29",
+      "game_time": "Q1 07:54",
+      "kickoff": "9/13/26, 16:25:28"
     },
     {
       "url": "https://x.com/NFLTDsVideos/status/2099582105663553898",
@@ -133,6 +148,21 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/792dc5a0-43e7-4a42-8619-1ff386023b87/792dc5a0-43e7-4a42-8619-1ff386023b87.mp4",
       "game_time": "Q2 01:39",
       "kickoff": "9/13/26, 13:04:46"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/49932419/jordan-love-hooks-christian-watson-81-yard-packers-td",
+      "player": "Jordan Love",
+      "meta": "QB \u00b7 GB",
+      "date": "2026-09-13",
+      "author": "ESPN",
+      "text": "Jordan Love hooks up with Christian Watson for an 81-yard Packers TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/1157597b5a364698b39bd6789106bab51034/1157597b5a364698b39bd6789106bab51034.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/1157597b-5a36-4698-b39b-d6789106bab5/1157597b-5a36-4698-b39b-d6789106bab5.mp4",
+      "game_time": "Q2 00:18",
+      "kickoff": "9/13/26, 16:25:28"
     },
     {
       "url": "https://x.com/NFLTDsVideos/status/2099201510022238387",

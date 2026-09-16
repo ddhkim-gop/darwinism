@@ -1,6 +1,6 @@
 {
   "team": "Paul_Yoon",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -35,8 +35,8 @@
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/49936495/javonte-williams-powers-goal-line-cowboys-td",
-      "player": "Javonte Williams & Dak Prescott",
-      "meta": "QB \u00b7 DAL",
+      "player": "Javonte Williams",
+      "meta": "RB \u00b7 DAL",
       "date": "2026-09-14",
       "author": "ESPN",
       "text": "Javonte Williams powers across the goal line for a Cowboys TD",
@@ -44,12 +44,14 @@
       "faves": 0,
       "secs": 0,
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/9d11fa8238724c0e818eedeeedf412cf1418/9d11fa8238724c0e818eedeeedf412cf1418.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0914/9d11fa82-3872-4c0e-818e-edeeedf412cf/9d11fa82-3872-4c0e-818e-edeeedf412cf.mp4"
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0914/9d11fa82-3872-4c0e-818e-edeeedf412cf/9d11fa82-3872-4c0e-818e-edeeedf412cf.mp4",
+      "game_time": "Q3 00:41",
+      "kickoff": "9/13/26, 20:24:49"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/49936650/javonte-williams-trolls-giants-defender-walks-end-zone",
-      "player": "Javonte Williams & Dak Prescott",
-      "meta": "QB \u00b7 DAL",
+      "player": "Javonte Williams",
+      "meta": "RB \u00b7 DAL",
       "date": "2026-09-14",
       "author": "ESPN",
       "text": "Javonte Williams trolls Giants defender as he walks into the end zone",
@@ -57,7 +59,9 @@
       "faves": 0,
       "secs": 0,
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/de93ce5355fa423399e418d42c968bfd1413/de93ce5355fa423399e418d42c968bfd1413.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0914/de93ce53-55fa-4233-99e4-18d42c968bfd/de93ce53-55fa-4233-99e4-18d42c968bfd.mp4"
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0914/de93ce53-55fa-4233-99e4-18d42c968bfd/de93ce53-55fa-4233-99e4-18d42c968bfd.mp4",
+      "game_time": "Q4 05:26",
+      "kickoff": "9/13/26, 20:24:49"
     },
     {
       "url": "https://x.com/NFLTDsVideos/status/2099570031742869734",
