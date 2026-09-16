@@ -1,6 +1,6 @@
-import { renderNav } from "./components/nav.js?v=202609160934";
+import { renderNav } from "./components/nav.js?v=202609160938";
 import { trackEvent, fetchCount } from "./components/analytics.js";
-import { PODCAST_EPISODES } from "./podcasts.js?v=202609160934";
+import { PODCAST_EPISODES } from "./podcasts.js?v=202609160938";
 
 const audio = new Audio();
 let playingId = null;   // "<year>-<index>" of the row currently loaded
@@ -39,11 +39,14 @@ function rowHtml(ep, id) {
     return `
         <tr data-id="${id}">
             <td class="pod-play-cell">
-                <button class="pod-play" data-id="${id}" data-src="${esc(ep.audio || "")}"
-                        ${playable ? "" : "disabled"}
-                        aria-label="${playable ? "Play" : "Audio not available"}: ${esc(ep.title)}">
-                    <span class="pod-icon" aria-hidden="true"></span>
-                </button>
+                <div class="pod-art">
+                    ${ep.art ? `<img src="${esc(ep.art)}" alt="" loading="lazy" decoding="async">` : ""}
+                    <button class="pod-play" data-id="${id}" data-src="${esc(ep.audio || "")}"
+                            ${playable ? "" : "disabled"}
+                            aria-label="${playable ? "Play" : "Audio not available"}: ${esc(ep.title)}">
+                        <span class="pod-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
             </td>
             <td class="pod-title-cell">
                 <div class="pod-title">${esc(ep.title)}</div>
