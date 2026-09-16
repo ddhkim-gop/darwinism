@@ -25,13 +25,13 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 CHROME = ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
           "/Applications/Chromium.app/Contents/MacOS/Chromium")
 
-# slug, label, accent, hero player, caption, clip match.
+# slug, label, accent, hero player, clip match.
 # The clip is PINNED by a phrase from its text rather than taken as the most
 # recent: highlight feeds refresh, and most broadcast posters are wide pre-snap
 # frames that turn to green mush at 92px. These two are tight on the player.
 EPISODES = [
-    ("2026-01-the-grades-are-in",        "01", "#5a5be6", "Josh Allen",    "ALLEN",  "bulldozes"),
-    ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "Ashton Jeanty", "JEANTY", "walks into the endzone"),
+    ("2026-01-the-grades-are-in",        "01", "#5a5be6", "Josh Allen",    "bulldozes"),
+    ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "Ashton Jeanty", "walks into the endzone"),
 ]
 
 
@@ -67,7 +67,7 @@ def action_frame(player, match=None):
     return "file://" + os.path.abspath(p), best.get("text", "")
 
 
-def svg(label, accent, player, caption, match):
+def svg(label, accent, player, match):
     """One action frame, full-bleed.
 
     Renders at 92px in the episode table, so it is composed for a thumbnail: a
@@ -99,10 +99,8 @@ def svg(label, accent, player, caption, match):
   <rect width="{SIZE}" height="{SIZE}" fill="url(#tint)"/>
   <rect width="{SIZE}" height="{SIZE}" fill="url(#fade)"/>
   <rect x="0" y="0" width="{SIZE}" height="10" fill="{accent}"/>
-  <text x="34" y="{SIZE-96}" font-family="DM Mono, Menlo, monospace"
-        font-size="30" fill="{accent}" letter-spacing="5">EP {label}</text>
-  <text x="34" y="{SIZE-42}" font-family="DM Sans, Helvetica, Arial, sans-serif"
-        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">{caption}</text>
+  <text x="34" y="{SIZE-42}" font-family="DM Mono, Menlo, monospace"
+        font-size="46" fill="#ffffff" letter-spacing="6">EP {label}</text>
 </svg>'''
 
 
@@ -116,11 +114,11 @@ def chrome():
 def main():
     os.makedirs(OUT, exist_ok=True)
     binary = chrome()
-    for slug, label, accent, player, caption, match in EPISODES:
+    for slug, label, accent, player, match in EPISODES:
         s = os.path.join(OUT, slug + ".svg")
         p = os.path.join(OUT, slug + ".png")
         with open(s, "w") as f:
-            f.write(svg(label, accent, player, caption, match))
+            f.write(svg(label, accent, player, match))
         subprocess.run([binary, "--headless", "--disable-gpu", "--no-sandbox",
                         "--allow-file-access-from-files",
                         f"--screenshot={os.path.abspath(p)}",
