@@ -1,6 +1,6 @@
 {
   "team": "spiffster",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -19,6 +19,21 @@
       "kickoff": "9/13/26, 20:24:49"
     },
     {
+      "url": "https://x.com/NFLTDsVideos/status/2099569267490394462",
+      "player": "Jack Bech",
+      "meta": "WR \u00b7 LV",
+      "date": "2026-09-14",
+      "author": "NFL Touchdown Videos",
+      "text": "Kirk Cousins (1) to Jack Bech (1) Las Vegas Raiders 16 yards pic.twitter.com/hEq8w7Lbhu \u2014 NFL Touchdown Videos (@NFLTDsVideos) September 14, 2026",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2099238723888300032/img/U_hqI7oCnqVXWmgx.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2099238723888300032/vid/avc1/1920x1080/rSjDsnks7lVloTSE.mp4?tag=29",
+      "game_time": "Q1 01:38",
+      "kickoff": "9/13/26, 16:25:35"
+    },
+    {
       "url": "https://x.com/NFLTDsVideos/status/2099569745620083046",
       "player": "Ashton Jeanty",
       "meta": "RB \u00b7 LV",
@@ -32,6 +47,21 @@
       "video": "https://video.twimg.com/ext_tw_video/2099260922900393988/pu/vid/avc1/1280x720/fP-g6ysaiEoGSE8A.mp4?tag=12",
       "game_time": "Q2 01:12",
       "kickoff": "9/13/26, 16:25:35"
+    },
+    {
+      "url": "https://x.com/NFLTDsVideos/status/2099582377865445626",
+      "player": "Dallas Goedert",
+      "meta": "TE \u00b7 PHI",
+      "date": "2026-09-14",
+      "author": "NFL Touchdown Videos",
+      "text": "Jalen Hurts (3) to Dallas Goedert (1) Philadelphia Eagles 43 yards pic.twitter.com/40dMYJeNno \u2014 NFL Touchdown Videos (@NFLTDsVideos) September 14, 2026",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2099275270783971340/pu/img/ga0Tp3LiJ2gw_-dm.jpg?name=orig",
+      "video": "https://video.twimg.com/ext_tw_video/2099275270783971340/pu/vid/avc1/1280x720/zE1jxgNQfKeqw8WB.mp4?tag=12",
+      "game_time": "Q2 14:17",
+      "kickoff": "9/13/26, 16:25:25"
     },
     {
       "url": "https://x.com/NFLTDsVideos/status/2099582461885722806",
@@ -109,6 +139,34 @@
       "kickoff": "9/13/26, 13:04:46"
     },
     {
+      "url": "https://www.espn.com/video/clip/_/id/49933582/jack-bech-barrels-15-yard-raiders-td",
+      "player": "Jack Bech",
+      "meta": "WR \u00b7 LV",
+      "date": "2026-09-13",
+      "author": "ESPN",
+      "text": "Jack Bech barrels in a 15-yard Raiders TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/f50363f8-a9c0-4149-8263-46332d617a4e/f50363f8-a9c0-4149-8263-46332d617a4e.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/f50363f8-a9c0-4149-8263-46332d617a4e/f50363f8-a9c0-4149-8263-46332d617a4e.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/49933604/jalen-hurts-hits-dallas-goedert-eagles-first-td-season",
+      "player": "Dallas Goedert",
+      "meta": "TE \u00b7 PHI",
+      "date": "2026-09-13",
+      "author": "ESPN",
+      "text": "Jalen Hurts hits Dallas Goedert for Eagles first TD of season",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_eagles_td_1/dm_260913_eagles_td_1.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/0913/dm_260913_eagles_td_1/dm_260913_eagles_td_1.mp4",
+      "game_time": "Q4 06:12",
+      "kickoff": "9/13/26, 16:25:25"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/49933790/ashton-jeanty-walks-endzone",
       "player": "Ashton Jeanty",
       "meta": "RB \u00b7 LV",
@@ -150,6 +208,19 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/072823bf-609e-43f4-b188-d0479526fa50/072823bf-609e-43f4-b188-d0479526fa50.mp4"
     },
     {
+      "url": "https://www.espn.com/video/clip/_/id/49934558/dallas-goedert-takes-42-yards-house-eagles",
+      "player": "Dallas Goedert",
+      "meta": "TE \u00b7 PHI",
+      "date": "2026-09-13",
+      "author": "ESPN",
+      "text": "Dallas Goedert takes it 42 yards to the house for the Eagles. Dallas Goedert takes it 42 yards to the house for the Eagles ",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/9690d4f6268c45c89cbb5ce0db25824d1199/9690d4f6268c45c89cbb5ce0db25824d1199.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/9690d4f6-268c-45c8-9cbb-5ce0db25824d/9690d4f6-268c-45c8-9cbb-5ce0db25824d.mp4"
+    },
+    {
       "url": "https://x.com/NFLTDsVideos/status/2099201630147158373",
       "player": "Bijan Robinson",
       "meta": "RB \u00b7 ATL",
@@ -189,6 +260,19 @@
       "video": "https://video.twimg.com/amplify_video/2099204105990475776/vid/avc1/1920x1080/Ya3URVmIkw9tiG7Q.mp4?tag=29",
       "game_time": "Q2 00:31",
       "kickoff": "9/13/26, 13:04:46"
+    },
+    {
+      "url": "https://x.com/NFLonFOX/status/2099242241982156970",
+      "player": "Dallas Goedert",
+      "meta": "TE \u00b7 PHI",
+      "date": "2026-09-13",
+      "author": "FOX Sports: NFL",
+      "text": "Touchdown Eagles \ud83e\udd85 Dallas Goedert for six! \ud83d\udcfa: FOX pic.twitter.com/6c5Fadu55T \u2014 FOX Sports: NFL (@NFLonFOX) September 13, 2026",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2099242207660175364/pu/img/B5cuKSTdoB8mlsvt.jpg?name=orig",
+      "video": "https://video.twimg.com/ext_tw_video/2099242207660175364/pu/vid/avc1/1280x720/JDK_IGRdiEYuHrYn.mp4?tag=12"
     },
     {
       "url": "https://x.com/NFL/status/2098210866361671970",
