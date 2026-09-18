@@ -16949,7 +16949,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 80
         },
         {
@@ -17169,6 +17169,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "13294",
+          "espn_id": null,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2004-06-02",
+          "college": "USC",
+          "height": "71",
+          "weight": "192",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 90
+        },
+        {
           "player_id": "13296",
           "espn_id": null,
           "name": "Caleb Douglas",
@@ -17197,21 +17212,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 122
-        },
-        {
-          "player_id": "13417",
-          "espn_id": null,
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "2002-12-18",
-          "college": "Ole Miss",
-          "height": "74",
-          "weight": "207",
-          "years_exp": 0,
-          "status": "Inactive",
-          "injury_status": "Out",
-          "search_rank": 112
         },
         {
           "player_id": "1479",
@@ -17591,7 +17591,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 4
         },
         {
@@ -18555,6 +18555,78 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 3:13 PM PT",
+      "transaction_id": "1406814365243461632",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 3:08 PM PT",
+      "transaction_id": "1406813134659796992",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 3:07 PM PT",
+      "transaction_id": "1406813008553926656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
