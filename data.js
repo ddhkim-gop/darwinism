@@ -15186,6 +15186,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
+          "player_id": "12711",
+          "espn_id": null,
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL",
+          "birth_date": "2001-08-04",
+          "college": "Arizona",
+          "height": "71",
+          "weight": "191",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 150
+        },
+        {
           "player_id": "13281",
           "espn_id": null,
           "name": "Jordyn Tyson",
@@ -15995,7 +16010,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61
         },
         {
@@ -16412,7 +16427,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 23
         },
         {
@@ -16442,7 +16457,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 75
         },
         {
@@ -16645,6 +16660,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 57
+        },
+        {
+          "player_id": "12492",
+          "espn_id": null,
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "2002-12-10",
+          "college": "Illinois",
+          "height": "74",
+          "weight": "204",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 172
         },
         {
           "player_id": "12501",
@@ -16979,7 +17009,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 46
         },
         {
@@ -17054,7 +17084,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 40
         },
         {
@@ -17270,7 +17300,7 @@ window.__STATIC_DATA__ = {
           "weight": "222",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 22
         },
         {
@@ -17702,7 +17732,7 @@ window.__STATIC_DATA__ = {
           "weight": "240",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 454
         },
         {
@@ -17717,7 +17747,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -17762,7 +17792,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 94
         },
         {
@@ -18525,6 +18555,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 12:03 PM PT",
+      "transaction_id": "1406766738317545472",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 11:24 AM PT",
+      "transaction_id": "1406756904339845120",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
