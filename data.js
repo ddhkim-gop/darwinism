@@ -15186,21 +15186,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
-          "player_id": "12711",
-          "espn_id": null,
-          "name": "Tyler Loop",
-          "position": "K",
-          "team": "BAL",
-          "birth_date": "2001-08-04",
-          "college": "Arizona",
-          "height": "71",
-          "weight": "191",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 150
-        },
-        {
           "player_id": "13281",
           "espn_id": null,
           "name": "Jordyn Tyson",
@@ -15214,21 +15199,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 62
-        },
-        {
-          "player_id": "13347",
-          "espn_id": null,
-          "name": "Demond Claiborne",
-          "position": "RB",
-          "team": "MIN",
-          "birth_date": "2003-10-09",
-          "college": "Wake Forest",
-          "height": "70",
-          "weight": "188",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 176
         },
         {
           "player_id": "13414",
@@ -15336,6 +15306,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 67
         },
         {
+          "player_id": "7571",
+          "espn_id": null,
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "birth_date": "1999-11-29",
+          "college": "Minnesota",
+          "height": "73",
+          "weight": "193",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 203
+        },
+        {
           "player_id": "7611",
           "espn_id": null,
           "name": "Rhamondre Stevenson",
@@ -15379,6 +15364,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 204
+        },
+        {
+          "player_id": "9504",
+          "espn_id": null,
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "2002-05-07",
+          "college": "LSU",
+          "height": "72",
+          "weight": "203",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 164
         },
         {
           "player_id": "KC",
@@ -18555,6 +18555,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 19, 2026 • 1:20 PM PT",
+      "transaction_id": "1407148310304694272",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 19, 2026 • 1:19 PM PT",
+      "transaction_id": "1407148265681559552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Demond Claiborne",
+          "position": "RB",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
