@@ -15402,6 +15402,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 2,
       "players": [
         {
+          "player_id": "10218",
+          "espn_id": null,
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "2000-06-01",
+          "college": "Iowa State",
+          "height": "75",
+          "weight": "210",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
+        },
+        {
           "player_id": "11586",
           "espn_id": null,
           "name": "Blake Corum",
@@ -15475,21 +15490,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 46
-        },
-        {
-          "player_id": "4035",
-          "espn_id": 3054850,
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "1995-07-25",
-          "college": "Tennessee",
-          "height": "70",
-          "weight": "215",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 119
         },
         {
           "player_id": "5967",
@@ -15610,21 +15610,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 55
-        },
-        {
-          "player_id": "8800",
-          "espn_id": null,
-          "name": "Malik Davis",
-          "position": "RB",
-          "team": "DAL",
-          "birth_date": "1998-11-26",
-          "college": "Florida",
-          "height": "70",
-          "weight": "205",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 441
         },
         {
           "player_id": "DET",
@@ -17084,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 40
         },
         {
@@ -17485,8 +17470,8 @@ window.__STATIC_DATA__ = {
           "height": "72",
           "weight": "199",
           "years_exp": 0,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 151
         },
         {
@@ -17839,6 +17824,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 65
+        },
+        {
+          "player_id": "9758",
+          "espn_id": null,
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "birth_date": "2001-10-03",
+          "college": "Ohio State",
+          "height": "75",
+          "weight": "218",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 101
         },
         {
           "player_id": "DEN",
@@ -18555,6 +18555,94 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 19, 2026 • 11:34 AM PT",
+      "transaction_id": "1407121605427007488",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 19, 2026 • 11:33 AM PT",
+      "transaction_id": "1407121562921873408",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 19, 2026 • 11:31 AM PT",
+      "transaction_id": "1407120944123654144",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 19, 2026 • 11:24 AM PT",
+      "transaction_id": "1407119192599060480",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
