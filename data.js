@@ -15261,19 +15261,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 5
         },
         {
-          "player_id": "4037",
-          "espn_id": 3116165,
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
-          "birth_date": "1996-02-27",
-          "college": "Penn State",
-          "height": "73",
-          "weight": "209",
-          "years_exp": 9,
+          "player_id": "5022",
+          "espn_id": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "birth_date": "1995-01-03",
+          "college": "South Dakota State",
+          "height": "77",
+          "weight": "256",
+          "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 94
         },
         {
           "player_id": "5849",
@@ -17244,6 +17244,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 60
         },
         {
+          "player_id": "4037",
+          "espn_id": 3116165,
+          "name": "Chris Godwin",
+          "position": "WR",
+          "team": "TB",
+          "birth_date": "1996-02-27",
+          "college": "Penn State",
+          "height": "73",
+          "weight": "209",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 88
+        },
+        {
           "player_id": "4199",
           "espn_id": 3042519,
           "name": "Aaron Jones",
@@ -17272,21 +17287,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 49
-        },
-        {
-          "player_id": "5022",
-          "espn_id": 3121023,
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
-          "birth_date": "1995-01-03",
-          "college": "South Dakota State",
-          "height": "77",
-          "weight": "256",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 94
         },
         {
           "player_id": "7569",
@@ -18555,6 +18555,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 3:38 PM PT",
+      "transaction_id": "1406820821019668480",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "ddhk",
+        "spiffster"
+      ],
+      "assets_received": {
+        "spiffster": [
+          {
+            "name": "Chris Godwin",
+            "position": "WR",
+            "team": "TB"
+          }
+        ],
+        "ddhk": [
+          {
+            "name": "Dallas Goedert",
+            "position": "TE",
+            "team": "PHI"
+          }
+        ]
+      }
+    },
     {
       "season": "2026",
       "week": 2,
