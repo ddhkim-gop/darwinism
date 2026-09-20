@@ -15216,6 +15216,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
+          "player_id": "13545",
+          "espn_id": null,
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "birth_date": "2003-06-12",
+          "college": "Florida",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 194
+        },
+        {
           "player_id": "4034",
           "espn_id": 3117251,
           "name": "Christian McCaffrey",
@@ -15304,21 +15319,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 67
-        },
-        {
-          "player_id": "7571",
-          "espn_id": null,
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL",
-          "birth_date": "1999-11-29",
-          "college": "Minnesota",
-          "height": "73",
-          "weight": "193",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 203
         },
         {
           "player_id": "7611",
@@ -16010,7 +16010,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 11
         },
         {
@@ -16316,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 29
         },
         {
@@ -16707,21 +16707,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 15
         },
         {
-          "player_id": "2747",
-          "espn_id": 2473037,
-          "name": "Jason Myers",
-          "position": "K",
-          "team": "SEA",
-          "birth_date": "1991-05-12",
-          "college": "Marist",
-          "height": "70",
-          "weight": "190",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 124
-        },
-        {
           "player_id": "5850",
           "espn_id": 4047365,
           "name": "Josh Jacobs",
@@ -16735,6 +16720,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "NA",
           "search_rank": 20
+        },
+        {
+          "player_id": "6650",
+          "espn_id": 3150744,
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
+          "birth_date": "1996-04-09",
+          "college": "Illinois",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
         },
         {
           "player_id": "6797",
@@ -17627,7 +17627,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 99
         },
         {
@@ -17978,7 +17978,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 15
         },
         {
@@ -18570,6 +18570,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 20, 2026 • 8:55 AM PT",
+      "transaction_id": "1407444058003013632",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 20, 2026 • 8:21 AM PT",
+      "transaction_id": "1407435561479741440",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
