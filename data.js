@@ -15156,6 +15156,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 98
         },
         {
+          "player_id": "12048",
+          "espn_id": null,
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA",
+          "birth_date": "1999-12-16",
+          "college": "Boise State",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 455
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15212,7 +15227,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 161
         },
         {
@@ -15257,7 +15272,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 94
         },
         {
@@ -15364,21 +15379,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 204
-        },
-        {
-          "player_id": "9504",
-          "espn_id": null,
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-05-07",
-          "college": "LSU",
-          "height": "72",
-          "weight": "203",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 164
         },
         {
           "player_id": "KC",
@@ -15533,7 +15533,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 65
         },
         {
@@ -16412,7 +16412,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 23
         },
         {
@@ -16457,7 +16457,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 56
         },
         {
@@ -16474,6 +16474,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 113
+        },
+        {
+          "player_id": "13345",
+          "espn_id": null,
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
+          "birth_date": "2003-08-20",
+          "college": "Washington",
+          "height": "68",
+          "weight": "220",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 118
         },
         {
           "player_id": "3198",
@@ -17456,7 +17471,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 36
         },
         {
@@ -17627,7 +17642,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 99
         },
         {
@@ -18570,6 +18585,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 20, 2026 • 11:17 AM PT",
+      "transaction_id": "1407479807029108736",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 20, 2026 • 11:08 AM PT",
+      "transaction_id": "1407477511469719552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
