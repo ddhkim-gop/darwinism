@@ -28,7 +28,7 @@ export const PODCAST_EPISODES = {
             duration: "9:09",
             slug: "2026-02-week-one-is-in-the-books",
             audio: "assets/podcasts/2026/ep02-week-one-is-in-the-books.mp3",
-            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202609202225",
+            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202609210029",
             description: "Ghost of New Jeantys hung 166.2 on the league — Jeanty 29.7, Dart 25.6, Bijan 25.3 — while Mickey C's managed 69.92 and the draft grades started lying immediately. Five of six games were blowouts, Cameron Dicker scored two for the team named after him, and only Bower Outage over Salamander stayed inside thirteen points.",
         },
         {
@@ -37,7 +37,7 @@ export const PODCAST_EPISODES = {
             duration: "14:12",
             slug: "2026-01-the-grades-are-in",
             audio: "assets/podcasts/2026/ep01-the-grades-are-in.mp3",
-            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202609202225",
+            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202609210029",
             description: "Draft recap and season predictions, graded off the site's own draft panel: three tiers, twelve teams, predicted standings and awards.",
         },
     ],
