@@ -15734,7 +15734,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 54
         },
         {
@@ -15779,7 +15779,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 68
         },
         {
@@ -16662,21 +16662,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 58
         },
         {
-          "player_id": "12492",
-          "espn_id": null,
-          "name": "Pat Bryant",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "2002-12-10",
-          "college": "Illinois",
-          "height": "74",
-          "weight": "204",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 172
-        },
-        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16705,6 +16690,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 39
+        },
+        {
+          "player_id": "13285",
+          "espn_id": null,
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG",
+          "birth_date": "2003-08-26",
+          "college": "Notre Dame",
+          "height": "76",
+          "weight": "222",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 201
         },
         {
           "player_id": "13287",
@@ -16889,7 +16889,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 21
         },
         {
@@ -17210,7 +17210,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 198
         },
         {
@@ -17255,7 +17255,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 60
         },
         {
@@ -18585,6 +18585,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 20, 2026 • 3:23 PM PT",
+      "transaction_id": "1407541700657696768",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
