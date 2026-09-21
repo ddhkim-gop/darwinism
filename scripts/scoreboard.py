@@ -9,15 +9,26 @@ nflverse publishes every game with its season and week. So instead of guessing
     $ python3 scripts/scoreboard.py DAL PHI 20 24
     2025 week 1  DAL 20 @ PHI 24  (2025-09-04)  -> archive
 
-Reading the score bug itself needs eyes (this machine has no OCR), so
-`--strip` pulls the bottom band of a clip, where the bug lives, as frames to
-look at. Everything after that is deterministic.
+Reading the bug is automatic now. macOS ships Vision, so `scripts/ocr.py` pulls
+the burned-in text off sampled frames on-device, and `--auto CLIP` goes from a
+video file to a verdict without anyone looking at anything:
+
+    $ python3 scripts/scoreboard.py --auto clip.mp4
+    read DAL @ NYG  ->  2026 week 2  DAL @ NYG  (2026-09-14)  -> current-week
+
+Only the two team codes are read, not the score. Codes come out at confidence
+1.00 against a 32-entry whitelist; scores do not, because the bug renders them
+in a tight box where a clipped digit turns 19 into "NU". That costs nothing:
+a mid-game score matches no final anyway, so matchup-against-slate was already
+the signal carrying the weight here. `--strip` still exists for the cases the
+reader wants to check by eye.
 """
 from __future__ import annotations
 
 import argparse
 import csv
 import json
+import re
 import subprocess
 import sys
 import time
@@ -170,6 +181,77 @@ def verdict(away: str, home: str, away_score, home_score,
     return "unknown", None
 
 
+# The 32 current codes, as nflverse spells them. A whitelist rather than a
+# regex because a broadcast burns plenty of other three-letter text into the
+# frame - SNF, TNF, network bugs - and "NFL" is not a team.
+TEAM_CODES = {
+    "ARI", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL", "DEN",
+    "DET", "GB", "HOU", "IND", "JAX", "KC", "LA", "LAC", "LV", "MIA",
+    "MIN", "NE", "NO", "NYG", "NYJ", "PHI", "PIT", "SEA", "SF", "TB",
+    "TEN", "WAS",
+}
+
+
+def read_matchup(video: str, fps: float = 1.0) -> tuple[str | None, str | None, dict]:
+    """Which two teams the score bug names, read off the clip itself.
+
+    Returns (left, right, detail). Order is by position on screen - the bug
+    lists the away team first on every network - but it is not trusted:
+    `resolve_clip` checks the pair against the slate order-insensitively,
+    because a clip cropped to the bug's right half can invert them.
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import tempfile
+    import ocr
+
+    counts: dict[str, int] = {}
+    positions: dict[str, list[float]] = {}
+    with tempfile.TemporaryDirectory() as tmp:
+        # Only the bottom fifth: the bug lives there, and cropping keeps a
+        # player's nameplate from being mistaken for a team code.
+        paths = ocr.frames(video, tmp, fps=fps,
+                           crop="crop=iw:ih*0.25:0:ih*0.75")
+        for rows in ocr.boxes(paths).values():
+            for row in rows:
+                for tok in re.split(r"[^A-Z0-9]+", row["text"].upper()):
+                    if tok in TEAM_CODES:
+                        counts[tok] = counts.get(tok, 0) + 1
+                        positions.setdefault(tok, []).append(row["x"])
+
+    ranked = sorted(counts, key=lambda t: -counts[t])[:2]
+    detail = {"counts": counts, "frames": len(paths)}
+    if len(ranked) < 2:
+        return (ranked[0] if ranked else None), None, detail
+    left, right = sorted(ranked, key=lambda t: sum(positions[t]) / len(positions[t]))
+    return left, right, detail
+
+
+def resolve_clip(video: str, st: dict | None = None,
+                 fps: float = 1.0) -> tuple[str, dict | None, dict]:
+    """A clip file in, a current-week / earlier-week / archive verdict out."""
+    left, right, detail = read_matchup(video, fps=fps)
+    if not left or not right:
+        return "unknown", None, detail
+    st = st or state()
+    season, week = int(st.get("season") or 0), int(st.get("week") or 0)
+
+    g = on_slate(left, right, season, week)
+    if g:
+        return "current-week", g, detail
+    for w in range(1, 23):
+        if w == week:
+            continue
+        g = on_slate(left, right, season, w)
+        if g:
+            return "earlier-week", g, detail
+    for older in range(season - 1, season - 6, -1):
+        for w in range(1, 23):
+            g = on_slate(left, right, older, w)
+            if g:
+                return "archive", g, detail
+    return "unknown", None, detail
+
+
 def strip(video: str, out_dir: str, n: int = 6) -> list[str]:
     """Pull the bottom band of the frame, where the score bug sits, as JPEGs."""
     d = Path(out_dir)
@@ -200,11 +282,26 @@ def main() -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("away", nargs="?"); ap.add_argument("home", nargs="?")
     ap.add_argument("away_score", nargs="?"); ap.add_argument("home_score", nargs="?")
+    ap.add_argument("--auto", metavar="VIDEO",
+                    help="read the matchup off this clip and date it")
+    ap.add_argument("--fps", type=float, default=1.0,
+                    help="frames per second to sample for --auto (default 1)")
     ap.add_argument("--strip", metavar="VIDEO",
                     help="extract score-bug frames from this clip and exit")
     ap.add_argument("--out-dir", default="score_bug")
     a = ap.parse_args()
 
+    if a.auto:
+        v, g, detail = resolve_clip(a.auto, fps=a.fps)
+        seen = ", ".join(f"{k}x{n}" for k, n in
+                         sorted(detail["counts"].items(), key=lambda kv: -kv[1]))
+        print(f"read from {detail['frames']} frames: {seen or 'no team code'}")
+        if g:
+            print(f"  {g['season']} week {g['week']}  {g['away']} @ {g['home']}"
+                  f"  ({g['gameday']})  -> {v}")
+        else:
+            print(f"  no game matches  -> {v}")
+        return 0
     if a.strip:
         for p in strip(a.strip, a.out_dir):
             print(p)
