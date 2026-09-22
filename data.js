@@ -16823,7 +16823,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 80
         },
         {
@@ -17565,6 +17565,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 36
         },
         {
+          "player_id": "7090",
+          "espn_id": 4040655,
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG",
+          "birth_date": "1997-10-29",
+          "college": "Tulane",
+          "height": "71",
+          "weight": "177",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 194
+        },
+        {
           "player_id": "7594",
           "espn_id": null,
           "name": "Chuba Hubbard",
@@ -17606,7 +17621,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 4
         },
         {
@@ -18585,6 +18600,84 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 3:02 PM PT",
+      "transaction_id": "1407898733881942016",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 3:00 PM PT",
+      "transaction_id": "1407898335490187264",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 2:57 PM PT",
+      "transaction_id": "1407897507165442048",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
