@@ -17304,21 +17304,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 119
         },
         {
-          "player_id": "9502",
-          "espn_id": null,
-          "name": "Tank Dell",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "1999-10-29",
-          "college": "Houston",
-          "height": "70",
-          "weight": "165",
-          "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 187
-        },
-        {
           "player_id": "9509",
           "espn_id": null,
           "name": "Bijan Robinson",
@@ -18570,6 +18555,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 22, 2026 • 3:08 PM PT",
+      "transaction_id": "1408262809136988160",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
