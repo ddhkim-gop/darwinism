@@ -15644,7 +15644,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "IR",
           "search_rank": 87
         },
         {
@@ -16752,21 +16752,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 35
         },
         {
-          "player_id": "7049",
-          "espn_id": 3886598,
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "college": "Tennessee",
-          "height": "75",
-          "weight": "212",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 123
-        },
-        {
           "player_id": "8112",
           "espn_id": null,
           "name": "Drake London",
@@ -16893,21 +16878,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 209
         },
         {
-          "player_id": "2020",
-          "espn_id": 17427,
-          "name": "Cairo Santos",
-          "position": "K",
-          "team": "CHI",
-          "birth_date": "1991-11-12",
-          "college": "Tulane",
-          "height": "68",
-          "weight": "173",
-          "years_exp": 12,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 190
-        },
-        {
           "player_id": "2449",
           "espn_id": 2976212,
           "name": "Stefon Diggs",
@@ -16921,6 +16891,36 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 105
+        },
+        {
+          "player_id": "2747",
+          "espn_id": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "birth_date": "1991-05-12",
+          "college": "Marist",
+          "height": "70",
+          "weight": "190",
+          "years_exp": 11,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 125
+        },
+        {
+          "player_id": "421",
+          "espn_id": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
+          "birth_date": "1988-02-07",
+          "college": "Georgia",
+          "height": "75",
+          "weight": "214",
+          "years_exp": 17,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 65
         },
         {
           "player_id": "4217",
@@ -17028,21 +17028,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 34
         },
         {
-          "player_id": "7600",
-          "espn_id": null,
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "birth_date": "1998-10-25",
-          "college": "Penn State",
-          "height": "77",
-          "weight": "258",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 230
-        },
-        {
           "player_id": "8132",
           "espn_id": null,
           "name": "Tyler Allgeier",
@@ -17056,21 +17041,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 89
-        },
-        {
-          "player_id": "9482",
-          "espn_id": null,
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "birth_date": "2001-07-06",
-          "college": "Notre Dame",
-          "height": "76",
-          "weight": "256",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 467
         },
         {
           "player_id": "9997",
@@ -17124,21 +17094,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 81
         },
         {
-          "player_id": "12483",
-          "espn_id": null,
-          "name": "Jack Bech",
-          "position": "WR",
-          "team": "LV",
-          "birth_date": "2002-12-18",
-          "college": "TCU",
-          "height": "73",
-          "weight": "214",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 208
-        },
-        {
           "player_id": "12493",
           "espn_id": null,
           "name": "Oronde Gadsden",
@@ -17152,21 +17107,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 83
-        },
-        {
-          "player_id": "12508",
-          "espn_id": null,
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "team": "NYG",
-          "birth_date": "2003-05-13",
-          "college": "Ole Miss",
-          "height": "74",
-          "weight": "223",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 42
         },
         {
           "player_id": "12527",
@@ -17385,21 +17325,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 126
         },
         {
-          "player_id": "11370",
-          "espn_id": null,
-          "name": "Chris Brooks",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2000-01-11",
-          "college": "BYU",
-          "height": "73",
-          "weight": "219",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 449
-        },
-        {
           "player_id": "11435",
           "espn_id": null,
           "name": "Emanuel Wilson",
@@ -17535,19 +17460,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 109
         },
         {
-          "player_id": "4993",
-          "espn_id": 3116164,
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN",
-          "birth_date": "1995-10-03",
-          "college": "Penn State",
-          "height": "78",
-          "weight": "245",
-          "years_exp": 8,
+          "player_id": "3163",
+          "espn_id": 3046779,
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "birth_date": "1994-10-14",
+          "college": "California",
+          "height": "76",
+          "weight": "217",
+          "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 449
+          "search_rank": 61
         },
         {
           "player_id": "6801",
@@ -18585,6 +18510,232 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 6:26 AM PT",
+      "transaction_id": "1408493775700959233",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 6:24 AM PT",
+      "transaction_id": "1408493163324203008",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 6:23 AM PT",
+      "transaction_id": "1408493124631764992",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 6:23 AM PT",
+      "transaction_id": "1408493103530168320",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 5:11 AM PT",
+      "transaction_id": "1408474821225889792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 4:33 AM PT",
+      "transaction_id": "1408465229355982848",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 4:31 AM PT",
+      "transaction_id": "1408464922991460352",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jack Bech",
+          "position": "WR",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 2:04 AM PT",
+      "transaction_id": "1408427719779172352",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 2:04 AM PT",
+      "transaction_id": "1408427706382565376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 23, 2026 • 2:03 AM PT",
+      "transaction_id": "1408427530163167232",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
