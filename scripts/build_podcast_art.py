@@ -32,6 +32,7 @@ CHROME = ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
 EPISODES = [
     ("2026-01-the-grades-are-in",        "01", "#5a5be6", "Josh Allen",    "bulldozes"),
     ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "Ashton Jeanty", "walks into the endzone"),
+    ("2026-03-decided-by-inches",        "03", "#f6ad55", "CeeDee Lamb",   "Dak Prescott finds CeeDee Lamb"),
 ]
 
 
