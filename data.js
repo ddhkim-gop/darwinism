@@ -16491,21 +16491,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
-          "player_id": "7002",
-          "espn_id": 3929645,
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "birth_date": "1996-09-13",
-          "college": "Oregon",
-          "height": "76",
-          "weight": "245",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 103
-        },
-        {
           "player_id": "7547",
           "espn_id": null,
           "name": "Amon-Ra St. Brown",
@@ -16534,21 +16519,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 53
-        },
-        {
-          "player_id": "8676",
-          "espn_id": null,
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "SEA",
-          "birth_date": "1998-08-31",
-          "college": "Weber State",
-          "height": "72",
-          "weight": "180",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 149
         },
         {
           "player_id": "9508",
@@ -18555,6 +18525,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 22, 2026 • 8:10 PM PT",
+      "transaction_id": "1408338746444709888",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 22, 2026 • 7:48 PM PT",
+      "transaction_id": "1408333309682933760",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
