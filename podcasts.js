@@ -28,7 +28,7 @@ export const PODCAST_EPISODES = {
             duration: "9:35",
             slug: "2026-03-decided-by-inches",
             audio: "assets/podcasts/2026/ep03-decided-by-inches.mp3",
-            art: "assets/podcasts/art/2026-03-decided-by-inches.png?v=202609240609",
+            art: "assets/podcasts/art/2026-03-decided-by-inches.png?v=202609241143",
             description: "Four of six games were decided by under five points. Mickey C's beat Put It In Herbert by 0.52 with waiver pickup Tyler Shough, Snow King Ghidorah left 24 points on the bench in a loss, and last week's 166-point Ghost of New Jeantys fell to 79.3. Josh Allen's 39.82 led the league.",
         },
         {
@@ -37,7 +37,7 @@ export const PODCAST_EPISODES = {
             duration: "9:09",
             slug: "2026-02-week-one-is-in-the-books",
             audio: "assets/podcasts/2026/ep02-week-one-is-in-the-books.mp3",
-            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202609240609",
+            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202609241143",
             description: "Ghost of New Jeantys hung 166.2 on the league — Jeanty 29.7, Dart 25.6, Bijan 25.3 — while Mickey C's managed 69.92 and the draft grades started lying immediately. Five of six games were blowouts, Cameron Dicker scored two for the team named after him, and only Bower Outage over Salamander stayed inside thirteen points.",
         },
         {
@@ -46,7 +46,7 @@ export const PODCAST_EPISODES = {
             duration: "14:12",
             slug: "2026-01-the-grades-are-in",
             audio: "assets/podcasts/2026/ep01-the-grades-are-in.mp3",
-            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202609240609",
+            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202609241143",
             description: "Draft recap and season predictions, graded off the site's own draft panel: three tiers, twelve teams, predicted standings and awards.",
         },
     ],
