@@ -17661,21 +17661,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 92
         },
         {
-          "player_id": "4147",
-          "espn_id": 3116389,
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN",
-          "birth_date": "1995-09-16",
-          "college": "Oklahoma",
-          "height": "71",
-          "weight": "240",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 451
-        },
-        {
           "player_id": "5947",
           "espn_id": 3916433,
           "name": "Jakobi Meyers",
@@ -17796,11 +17781,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 101
         },
         {
-          "player_id": "DEN",
+          "player_id": "GB",
           "espn_id": null,
-          "name": "Denver Broncos",
+          "name": "Green Bay Packers",
           "position": "DEF",
-          "team": "DEN",
+          "team": "GB",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18510,6 +18495,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 3:42 AM PT",
+      "transaction_id": "1408814995076050944",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 3:35 AM PT",
+      "transaction_id": "1408813110864711680",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
