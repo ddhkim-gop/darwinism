@@ -15171,21 +15171,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 102
         },
         {
-          "player_id": "12048",
-          "espn_id": null,
-          "name": "George Holani",
-          "position": "RB",
-          "team": "SEA",
-          "birth_date": "1999-12-16",
-          "college": "Boise State",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 454
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15244,6 +15229,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 162
+        },
+        {
+          "player_id": "13545",
+          "espn_id": null,
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "birth_date": "2003-06-12",
+          "college": "Florida",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 195
         },
         {
           "player_id": "4034",
@@ -15364,6 +15364,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 207
+        },
+        {
+          "player_id": "9502",
+          "espn_id": null,
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-10-29",
+          "college": "Houston",
+          "height": "70",
+          "weight": "165",
+          "years_exp": 3,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 187
         },
         {
           "player_id": "KC",
@@ -15659,8 +15674,23 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 28
+        },
+        {
+          "player_id": "11635",
+          "espn_id": null,
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2001-11-11",
+          "college": "Georgia",
+          "height": "72",
+          "weight": "185",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 35
         },
         {
           "player_id": "11786",
@@ -15723,21 +15753,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
-          "player_id": "13286",
-          "espn_id": null,
-          "name": "Jadarian Price",
-          "position": "RB",
-          "team": "SEA",
-          "birth_date": "2003-10-09",
-          "college": "Notre Dame",
-          "height": "71",
-          "weight": "209",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 52
-        },
-        {
           "player_id": "3294",
           "espn_id": 2577417,
           "name": "Dak Prescott",
@@ -15764,7 +15779,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 68
         },
         {
@@ -15783,19 +15798,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 30
         },
         {
-          "player_id": "8167",
+          "player_id": "7594",
           "espn_id": null,
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "birth_date": "1999-05-12",
-          "college": "North Dakota State",
-          "height": "76",
-          "weight": "215",
-          "years_exp": 4,
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "birth_date": "1999-06-11",
+          "college": "Oklahoma State",
+          "height": "73",
+          "weight": "216",
+          "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 64
+          "search_rank": 66
         },
         {
           "player_id": "8408",
@@ -15848,6 +15863,21 @@ window.__STATIC_DATA__ = {
           "name": "Los Angeles Rams",
           "position": "DEF",
           "team": "LAR",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "SF",
+          "espn_id": null,
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -16442,7 +16472,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 56
         },
         {
@@ -16562,7 +16592,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 147
         },
         {
@@ -17385,21 +17415,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 32
         },
         {
-          "player_id": "11635",
-          "espn_id": null,
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2001-11-11",
-          "college": "Georgia",
-          "height": "72",
-          "weight": "185",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 35
-        },
-        {
           "player_id": "11637",
           "espn_id": null,
           "name": "Keon Coleman",
@@ -17428,6 +17443,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 44
+        },
+        {
+          "player_id": "13286",
+          "espn_id": null,
+          "name": "Jadarian Price",
+          "position": "RB",
+          "team": "SEA",
+          "birth_date": "2003-10-09",
+          "college": "Notre Dame",
+          "height": "71",
+          "weight": "209",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 52
         },
         {
           "player_id": "13293",
@@ -17490,21 +17520,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 35
         },
         {
-          "player_id": "7594",
-          "espn_id": null,
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
-          "birth_date": "1999-06-11",
-          "college": "Oklahoma State",
-          "height": "73",
-          "weight": "216",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 66
-        },
-        {
           "player_id": "8110",
           "espn_id": null,
           "name": "Jake Ferguson",
@@ -17518,6 +17533,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 97
+        },
+        {
+          "player_id": "8167",
+          "espn_id": null,
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "birth_date": "1999-05-12",
+          "college": "North Dakota State",
+          "height": "76",
+          "weight": "215",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 64
         },
         {
           "player_id": "9493",
@@ -17933,7 +17963,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 33
         },
         {
@@ -18495,6 +18525,78 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 1:39 PM PT",
+      "transaction_id": "1408965127650156544",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 1:38 PM PT",
+      "transaction_id": "1408964951267188736",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 1:27 PM PT",
+      "transaction_id": "1408961992605069312",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [
+        {
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
@@ -20046,6 +20148,44 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 18, 2026 • 3:58 AM PT",
+      "transaction_id": "1406644587904184320",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon",
+        "edgxrjiang"
+      ],
+      "assets_received": {
+        "Paul_Yoon": [
+          {
+            "name": "Ladd McConkey",
+            "position": "WR",
+            "team": "LAC"
+          },
+          {
+            "name": "Chuba Hubbard",
+            "position": "RB",
+            "team": "CAR"
+          }
+        ],
+        "edgxrjiang": [
+          {
+            "name": "Jadarian Price",
+            "position": "RB",
+            "team": "SEA"
+          },
+          {
+            "name": "Christian Watson",
+            "position": "WR",
+            "team": "GB"
+          }
+        ]
+      }
     },
     {
       "season": "2026",
