@@ -15141,6 +15141,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "11370",
+          "espn_id": null,
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "2000-01-11",
+          "college": "BYU",
+          "height": "73",
+          "weight": "219",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 450
+        },
+        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15229,21 +15244,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 162
-        },
-        {
-          "player_id": "2505",
-          "espn_id": 2576925,
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "birth_date": "1992-09-13",
-          "college": "Georgia Tech",
-          "height": "78",
-          "weight": "238",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 354
         },
         {
           "player_id": "4034",
@@ -18495,6 +18495,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 6:54 AM PT",
+      "transaction_id": "1408863122021797888",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
