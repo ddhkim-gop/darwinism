@@ -15935,7 +15935,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 174
         },
         {
@@ -17165,7 +17165,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 201
         },
         {
@@ -17270,7 +17270,7 @@ window.__STATIC_DATA__ = {
           "weight": "222",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 23
         },
         {
@@ -17302,6 +17302,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 133
+        },
+        {
+          "player_id": "9504",
+          "espn_id": null,
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "2002-05-07",
+          "college": "LSU",
+          "height": "72",
+          "weight": "203",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 164
         },
         {
           "player_id": "9509",
@@ -17561,7 +17576,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 4
         },
         {
@@ -18525,6 +18540,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 25, 2026 • 7:08 AM PT",
+      "transaction_id": "1409229093240672256",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
