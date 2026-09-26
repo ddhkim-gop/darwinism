@@ -15459,7 +15459,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 47
         },
         {
           "player_id": "13298",
@@ -15924,21 +15924,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 122
         },
         {
-          "player_id": "11643",
-          "espn_id": null,
-          "name": "Jaylen Wright",
-          "position": "RB",
-          "team": "MIA",
-          "birth_date": "2003-04-01",
-          "college": "Tennessee",
-          "height": "70",
-          "weight": "205",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 174
-        },
-        {
           "player_id": "11646",
           "espn_id": null,
           "name": "Jalen Coker",
@@ -15952,6 +15937,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 132
+        },
+        {
+          "player_id": "12185",
+          "espn_id": null,
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "birth_date": "1999-05-19",
+          "college": "Notre Dame",
+          "height": "74",
+          "weight": "201",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 355
         },
         {
           "player_id": "12474",
@@ -16476,21 +16476,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
-          "player_id": "12504",
-          "espn_id": null,
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2003-08-14",
-          "college": "Iowa",
-          "height": "73",
-          "weight": "224",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 173
-        },
-        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -16809,7 +16794,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 104
+          "search_rank": 106
         },
         {
           "player_id": "8154",
@@ -16995,7 +16980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 130
+          "search_rank": 131
         },
         {
           "player_id": "5892",
@@ -17166,7 +17151,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 201
+          "search_rank": 199
         },
         {
           "player_id": "13305",
@@ -17703,7 +17688,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 129
+          "search_rank": 127
         },
         {
           "player_id": "4137",
@@ -17808,7 +17793,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 13
+          "search_rank": 15
         },
         {
           "player_id": "9484",
@@ -17823,7 +17808,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 64
         },
         {
           "player_id": "9758",
@@ -18555,6 +18540,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 25, 2026 • 9:24 PM PT",
+      "transaction_id": "1409444475788443648",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 25, 2026 • 4:52 PM PT",
+      "transaction_id": "1409375964873445376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
