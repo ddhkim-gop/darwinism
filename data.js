@@ -15216,6 +15216,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 162
         },
         {
+          "player_id": "13423",
+          "espn_id": null,
+          "name": "Eli Heidenreich",
+          "position": "RB",
+          "team": "PIT",
+          "birth_date": "2003-06-28",
+          "college": "Navy",
+          "height": "72",
+          "weight": "198",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 486
+        },
+        {
           "player_id": "13545",
           "espn_id": null,
           "name": "Trey Smack",
@@ -15229,21 +15244,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 195
-        },
-        {
-          "player_id": "3214",
-          "espn_id": 3046439,
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "birth_date": "1994-12-07",
-          "college": "Arkansas",
-          "height": "77",
-          "weight": "249",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 92
         },
         {
           "player_id": "4034",
@@ -17430,19 +17430,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 32
         },
         {
-          "player_id": "11637",
+          "player_id": "11610",
           "espn_id": null,
-          "name": "Keon Coleman",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "BUF",
-          "birth_date": "2003-05-17",
-          "college": "Florida State",
-          "height": "75",
-          "weight": "213",
+          "team": "MIA",
+          "birth_date": "2001-01-04",
+          "college": "Virginia",
+          "height": "68",
+          "weight": "192",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 206
+          "injury_status": null,
+          "search_rank": 177
         },
         {
           "player_id": "12490",
@@ -17762,7 +17762,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 93
         },
         {
@@ -18540,6 +18540,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 26, 2026 • 8:23 AM PT",
+      "transaction_id": "1409610469693505536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Eli Heidenreich",
+          "position": "RB",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 26, 2026 • 6:48 AM PT",
+      "transaction_id": "1409586496226299908",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
