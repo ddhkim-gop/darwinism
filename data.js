@@ -16502,7 +16502,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 118
         },
         {
@@ -16577,7 +16577,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 147
         },
         {
@@ -17385,21 +17385,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
-          "player_id": "11539",
-          "espn_id": null,
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "birth_date": "1999-03-03",
-          "college": "Arkansas",
-          "height": "70",
-          "weight": "205",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 147
-        },
-        {
           "player_id": "11560",
           "espn_id": null,
           "name": "Caleb Williams",
@@ -17411,7 +17396,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 21
         },
         {
@@ -17458,6 +17443,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 44
+        },
+        {
+          "player_id": "12711",
+          "espn_id": null,
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL",
+          "birth_date": "2001-08-04",
+          "college": "Arizona",
+          "height": "71",
+          "weight": "191",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 150
         },
         {
           "player_id": "13286",
@@ -17978,7 +17978,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 33
         },
         {
@@ -18540,6 +18540,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 26, 2026 • 12:52 PM PT",
+      "transaction_id": "1409678129890430977",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
