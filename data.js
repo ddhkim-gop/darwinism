@@ -15216,21 +15216,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 162
         },
         {
-          "player_id": "13423",
-          "espn_id": null,
-          "name": "Eli Heidenreich",
-          "position": "RB",
-          "team": "PIT",
-          "birth_date": "2003-06-28",
-          "college": "Navy",
-          "height": "72",
-          "weight": "198",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 484
-        },
-        {
           "player_id": "13545",
           "espn_id": null,
           "name": "Trey Smack",
@@ -15379,6 +15364,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 187
+        },
+        {
+          "player_id": "9511",
+          "espn_id": null,
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2002-01-17",
+          "college": "East Carolina",
+          "height": "68",
+          "weight": "191",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 148
         },
         {
           "player_id": "KC",
@@ -15950,7 +15950,7 @@ window.__STATIC_DATA__ = {
           "weight": "201",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 355
         },
         {
@@ -16100,7 +16100,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 8
         },
         {
@@ -16316,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 125
         },
         {
@@ -16427,7 +16427,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 22
         },
         {
@@ -16442,7 +16442,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 162
         },
         {
@@ -16566,6 +16566,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
+          "player_id": "8676",
+          "espn_id": null,
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA",
+          "birth_date": "1998-08-31",
+          "college": "Weber State",
+          "height": "72",
+          "weight": "180",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 149
+        },
+        {
           "player_id": "9225",
           "espn_id": null,
           "name": "Tank Bigsby",
@@ -16592,7 +16607,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 122
         },
         {
@@ -17069,7 +17084,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 40
         },
         {
@@ -17180,7 +17195,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 60
         },
         {
@@ -17225,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 50
         },
         {
@@ -17732,7 +17747,7 @@ window.__STATIC_DATA__ = {
           "weight": "223",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 107
         },
         {
@@ -18038,7 +18053,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 52
         },
         {
@@ -18540,6 +18555,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 7:58 AM PT",
+      "transaction_id": "1409966404291100672",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Eli Heidenreich",
+          "position": "RB",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 7:51 AM PT",
+      "transaction_id": "1409964585229799424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
