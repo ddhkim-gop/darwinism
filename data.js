@@ -15336,6 +15336,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 5
         },
         {
+          "player_id": "8208",
+          "espn_id": null,
+          "name": "Tyler Badie",
+          "position": "RB",
+          "team": "DEN",
+          "birth_date": "2000-02-07",
+          "college": "Missouri",
+          "height": "68",
+          "weight": "197",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 684
+        },
+        {
           "player_id": "9486",
           "espn_id": null,
           "name": "Dontayvion Wicks",
@@ -15364,21 +15379,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 187
-        },
-        {
-          "player_id": "9511",
-          "espn_id": null,
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2002-01-17",
-          "college": "East Carolina",
-          "height": "68",
-          "weight": "191",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 148
         },
         {
           "player_id": "KC",
@@ -15518,7 +15518,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 13
         },
         {
@@ -15935,7 +15935,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 132
         },
         {
@@ -16226,7 +16226,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 96
         },
         {
@@ -16607,7 +16607,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 122
         },
         {
@@ -16838,7 +16838,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 27
         },
         {
@@ -17124,21 +17124,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 81
         },
         {
-          "player_id": "12493",
-          "espn_id": null,
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
-          "birth_date": "2003-06-25",
-          "college": "Syracuse",
-          "height": "77",
-          "weight": "236",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 83
-        },
-        {
           "player_id": "12527",
           "espn_id": null,
           "name": "Ashton Jeanty",
@@ -17195,8 +17180,23 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 60
+        },
+        {
+          "player_id": "3321",
+          "espn_id": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null,
+          "birth_date": "1994-03-01",
+          "college": "West Alabama",
+          "height": "70",
+          "weight": "191",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": "",
+          "search_rank": 145
         },
         {
           "player_id": "4037",
@@ -18555,6 +18555,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 2:28 PM PT",
+      "transaction_id": "1410064688498192384",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 2:04 PM PT",
+      "transaction_id": "1410058448057516032",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tyler Badie",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
