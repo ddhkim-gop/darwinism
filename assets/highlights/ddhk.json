@@ -2,5 +2,62 @@
   "team": "ddhk",
   "updated": "2026-09-28",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
-  "tweets": []
+  "tweets": [
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50046653/christian-mccaffrey-leaps-line-scrimmage-td",
+      "player": "Christian McCaffrey",
+      "meta": "RB \u00b7 SF",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Christian McCaffrey leaps over the line of scrimmage for a TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/46f2dc84b154435cb49f78fe16da917f1096/46f2dc84b154435cb49f78fe16da917f1096.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/46f2dc84-b154-435c-b49f-78fe16da917f/46f2dc84-b154-435c-b49f-78fe16da917f.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50046929/kyler-murray-throws-41-yard-touchdown-pass-jordan-addison",
+      "player": "Kyler Murray",
+      "meta": "QB \u00b7 MIN",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Kyler Murray throws a 41-yard touchdown pass to Jordan Addison",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/64d96666-a5fc-4baf-85e1-04503bac919c/64d96666-a5fc-4baf-85e1-04503bac919c.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/64d96666-a5fc-4baf-85e1-04503bac919c/64d96666-a5fc-4baf-85e1-04503bac919c.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50047475/tyler-shough-throws-4th-td-pass-noah-fant",
+      "player": "Tyler Shough",
+      "meta": "QB \u00b7 NO",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Tyler Shough throws 4th TD pass to Noah Fant",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/c0ce8a75-57af-4f85-9fd8-ea4091746a1b/c0ce8a75-57af-4f85-9fd8-ea4091746a1b.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/c0ce8a75-57af-4f85-9fd8-ea4091746a1b/c0ce8a75-57af-4f85-9fd8-ea4091746a1b.mp4",
+      "game_time": "Q3 00:34",
+      "kickoff": "9/13/26, 13:05:29"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50047485/juwan-johnson-2nd-td-puts-saints-ahead",
+      "player": "Tyler Shough",
+      "meta": "QB \u00b7 NO",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Juwan Johnson's 2nd TD puts Saints ahead",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/6ad50b9b-2386-49a4-9095-78787b689b38/6ad50b9b-2386-49a4-9095-78787b689b38.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/6ad50b9b-2386-49a4-9095-78787b689b38/6ad50b9b-2386-49a4-9095-78787b689b38.mp4",
+      "game_time": "Q5 01:38",
+      "kickoff": "9/13/26, 13:05:29"
+    }
+  ]
 }

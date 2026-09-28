@@ -17,6 +17,21 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/cd16a3de-13ec-4c82-ad8f-a7a58d8118aa/cd16a3de-13ec-4c82-ad8f-a7a58d8118aa.mp4"
     },
     {
+      "url": "https://www.espn.com/video/clip/_/id/50043719/patrick-mahomes-shovels-kenneth-walker-iii-2nd-td-game",
+      "player": "Patrick Mahomes",
+      "meta": "QB \u00b7 KC",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Patrick Mahomes shovels it to Kenneth Walker III for his 2nd TD of the game",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/686db305-f754-44c6-971b-5cba5a2fa156/686db305-f754-44c6-971b-5cba5a2fa156.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/686db305-f754-44c6-971b-5cba5a2fa156/686db305-f754-44c6-971b-5cba5a2fa156.mp4",
+      "game_time": "Q1 08:20",
+      "kickoff": "9/14/26, 20:16:12"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50044195/jahmyr-gibbs-races-17-yards-lions-td",
       "player": "Jahmyr Gibbs",
       "meta": "RB \u00b7 DET",
@@ -58,6 +73,21 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/e2244e1d-dbca-468d-8b1c-d6f9dc8ba90e/e2244e1d-dbca-468d-8b1c-d6f9dc8ba90e.mp4",
       "game_time": "Q3 11:18",
       "kickoff": "9/13/26, 13:05:29"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50044820/patrick-mahomes-links-travis-kelce-pad-chiefs-lead",
+      "player": "Patrick Mahomes",
+      "meta": "QB \u00b7 KC",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Patrick Mahomes links up with Travis Kelce to pad the Chiefs' lead",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/6deb7d55-f5d4-4e50-9fe9-04acdbf1a49d/6deb7d55-f5d4-4e50-9fe9-04acdbf1a49d.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/6deb7d55-f5d4-4e50-9fe9-04acdbf1a49d/6deb7d55-f5d4-4e50-9fe9-04acdbf1a49d.mp4",
+      "game_time": "Q2 01:46",
+      "kickoff": "9/14/26, 20:16:12"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50045044/jahmyr-gibbs-third-td-day-puts-lions-late",

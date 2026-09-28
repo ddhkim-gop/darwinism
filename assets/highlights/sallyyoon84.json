@@ -47,6 +47,64 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/658b70d8-7bfa-4cb0-92c6-f5ed10909a8e/658b70d8-7bfa-4cb0-92c6-f5ed10909a8e.mp4",
       "game_time": "Q2 06:24",
       "kickoff": "9/13/26, 13:03:54"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50045994/purdy-floats-evans-49ers-td",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Purdy floats it to Evans for a 49ers TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/b8f6e709bc924ceb866fff3aacc6f8831040/b8f6e709bc924ceb866fff3aacc6f8831040.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/b8f6e709-bc92-4ceb-866f-ff3aacc6f883/b8f6e709-bc92-4ceb-866f-ff3aacc6f883.mp4",
+      "game_time": "Q2 04:35",
+      "kickoff": "9/10/26, 20:37:25"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50047316/purdy-connects-kittle-niners-td",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Purdy connects with Kittle on a Niners TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/d33cf5647de04e4ea76859ecfd1e71b41156/d33cf5647de04e4ea76859ecfd1e71b41156.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/d33cf564-7de0-4e4e-a768-59ecfd1e71b4/d33cf564-7de0-4e4e-a768-59ecfd1e71b4.mp4",
+      "game_time": "Q3 11:07",
+      "kickoff": "9/10/26, 20:37:25"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50047725/george-kittle-cushions-49ers-lead-td-brock-purdy",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "George Kittle cushions the 49ers' lead with a TD from Brock Purdy",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/f754dc8fe9be4938a0df50a43e2cd9e91166/f754dc8fe9be4938a0df50a43e2cd9e91166.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/f754dc8f-e9be-4938-a0df-50a43e2cd9e9/f754dc8f-e9be-4938-a0df-50a43e2cd9e9.mp4",
+      "game_time": "Q4 13:04",
+      "kickoff": "9/10/26, 20:37:25"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50047823/mike-evans-carted-rib-injury",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Mike Evans carted off with a rib injury",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/ss_20260927_193141635_3677977/ss_20260927_193141635_3677977.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/0927/ss_20260927_193141635_3677977/ss_20260927_193141635_3677977.mp4"
     }
   ]
 }
