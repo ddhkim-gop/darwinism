@@ -59,6 +59,25 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/658b70d8-7bfa-4cb0-92c6-f5ed10909a8e/658b70d8-7bfa-4cb0-92c6-f5ed10909a8e.jpg",
       "published": "2026-09-27T19:29:19Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/658b70d8-7bfa-4cb0-92c6-f5ed10909a8e/658b70d8-7bfa-4cb0-92c6-f5ed10909a8e.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50043463/keaton-mitchell-puts-chargers-board-td-catch",
+      "player": "Justin Herbert",
+      "meta": "QB \u00b7 LAC",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Keaton Mitchell puts Chargers on the board with TD catch",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872953",
+      "game_id": "401872953",
+      "game_time": "Q1 10:33",
+      "play_key": "401872953:401872953295",
+      "played_at": "2026-09-27T17:10:21Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/fbf58be313a74854a6c9fbeab19c23b5973/fbf58be313a74854a6c9fbeab19c23b5973.jpg",
+      "published": "2026-09-27T17:19:19Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/fbf58be3-13a7-4854-a6c9-fbeab19c23b5/fbf58be3-13a7-4854-a6c9-fbeab19c23b5.mp4"
     }
   ]
 }

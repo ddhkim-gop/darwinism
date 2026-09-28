@@ -269,6 +269,16 @@
   "published": "2026-09-27T17:14:42Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/6591ce43-f47e-4065-99d6-354c4e9ed090/6591ce43-f47e-4065-99d6-354c4e9ed090.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50043463/keaton-mitchell-puts-chargers-board-td-catch": {
+  "espn_game": "401872953",
+  "game_id": "401872953",
+  "game_time": "Q1 10:33",
+  "play_key": "401872953:401872953295",
+  "played_at": "2026-09-27T17:10:21Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/fbf58be313a74854a6c9fbeab19c23b5973/fbf58be313a74854a6c9fbeab19c23b5973.jpg",
+  "published": "2026-09-27T17:19:19Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/fbf58be3-13a7-4854-a6c9-fbeab19c23b5/fbf58be3-13a7-4854-a6c9-fbeab19c23b5.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50043539/rachaad-white-scores-first-td-commander": {
   "espn_game": "401872955",
   "game_id": "401872955",
@@ -501,6 +511,16 @@
   "published": "2026-09-27T20:33:11Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/cc63c38f-80a5-42f8-8eb2-7ba9a914dde7/cc63c38f-80a5-42f8-8eb2-7ba9a914dde7.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50045971/evans-pulls-some-sweet-trickery-lateral-samuel-80-yard-td": {
+  "espn_game": "401872958",
+  "game_id": "401872958",
+  "game_time": "Q1 8:26",
+  "play_key": "401872958:401872958503",
+  "played_at": "2026-09-27T20:20:31Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/2d803eada4e44177aad3315c0152dcf71046/2d803eada4e44177aad3315c0152dcf71046.jpg",
+  "published": "2026-09-27T21:08:18Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/2d803ead-a4e4-4177-aad3-315c0152dcf7/2d803ead-a4e4-4177-aad3-315c0152dcf7.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50045994/purdy-floats-evans-49ers-td": {
   "espn_game": "401872958",
   "game_id": "401872958",
@@ -514,9 +534,9 @@
  "https://www.espn.com/video/clip/_/id/50046001/javonte-williams-powers-goal-line-pad-cowboys-lead": {
   "espn_game": "401872960",
   "game_id": "401872960",
-  "game_time": "Q2 10:02",
-  "play_key": "401872960:4018729601414",
-  "played_at": "2026-09-27T21:16:24Z",
+  "game_time": "Q1 4:32",
+  "play_key": "401872960:401872960644",
+  "played_at": "2026-09-27T20:44:46Z",
   "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/f892a40a67894960bcd887c13863c0a71048/f892a40a67894960bcd887c13863c0a71048.jpg",
   "published": "2026-09-27T21:14:49Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/f892a40a-6789-4960-bcd8-87c13863c0a7/f892a40a-6789-4960-bcd8-87c13863c0a7.mp4"
