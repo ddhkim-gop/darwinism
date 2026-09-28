@@ -15719,7 +15719,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 141
         },
         {
@@ -16677,6 +16677,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 58
         },
         {
+          "player_id": "11563",
+          "espn_id": null,
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "birth_date": "2000-02-25",
+          "college": "Oregon",
+          "height": "74",
+          "weight": "217",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 45
+        },
+        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16705,21 +16720,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 39
-        },
-        {
-          "player_id": "13285",
-          "espn_id": null,
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "birth_date": "2003-08-26",
-          "college": "Notre Dame",
-          "height": "76",
-          "weight": "222",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 202
         },
         {
           "player_id": "13287",
@@ -17054,7 +17054,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 34
         },
         {
@@ -17137,6 +17137,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 12
+        },
+        {
+          "player_id": "13294",
+          "espn_id": null,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2004-06-02",
+          "college": "USC",
+          "height": "71",
+          "weight": "192",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 89
         },
         {
           "player_id": "13296",
@@ -17302,21 +17317,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 134
-        },
-        {
-          "player_id": "9504",
-          "espn_id": null,
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-05-07",
-          "college": "LSU",
-          "height": "72",
-          "weight": "203",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 164
         },
         {
           "player_id": "9509",
@@ -17591,7 +17591,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 4
         },
         {
@@ -18555,6 +18555,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 5:10 PM PT",
+      "transaction_id": "1410105347602968576",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 3:46 PM PT",
+      "transaction_id": "1410084211167117312",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
