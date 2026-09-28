@@ -28,12 +28,16 @@ for w in "$WEEK" "$((WEEK-1))"; do
   echo "  espn_fetch --week $w" >> "$LOG"
   python3 scripts/espn_fetch.py --week "$w" --no-build >> "$LOG" 2>&1 || true
 done
+# X posts collected during games by the shared poller (gameofphones/scripts/
+# x_poll.py): tie each to its play and file it for this league.
+python3 scripts/x_ingest.py >> "$LOG" 2>&1 || true
 python3 scripts/build_highlights.py scripts/highlights_pool.txt >> "$LOG" 2>&1 || true
 
 if ! git diff --quiet scripts/highlights_reviewed.json assets/highlights 2>/dev/null; then
   git add assets/highlights scripts/highlights_reviewed.json scripts/highlights_pool.txt \
           scripts/.highlights_media_cache.json scripts/.highlights_oembed_cache.json \
-          scripts/.playtimes.json >> "$LOG" 2>&1
+          scripts/.playtimes.json \
+          scripts/highlights_authors.json scripts/.highlights_video_cache.json >> "$LOG" 2>&1
   git commit -q -m "Highlights: nightly ESPN auto-seed (week $WEEK)" >> "$LOG" 2>&1 \
     && git pull --rebase --autostash -q origin main >> "$LOG" 2>&1 \
     && git push -q origin main >> "$LOG" 2>&1 \
