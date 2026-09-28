@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50047204/lamar-jackson-finds-chris-moore-pad-ravens-lead",
+      "player": "Lamar Jackson",
+      "meta": "QB \u00b7 BAL",
+      "date": "2026-09-27",
+      "author": "ESPN",
+      "text": "Lamar Jackson finds Chris Moore to pad the Ravens' lead",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872960",
+      "game_id": "401872960",
+      "game_time": "Q3 3:44",
+      "play_key": "401872960:4018729602856",
+      "played_at": "2026-09-27T22:30:59Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/3dced4ecdac1486e955891748360ff931211/3dced4ecdac1486e955891748360ff931211.jpg",
+      "published": "2026-09-27T22:45:46Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/3dced4ec-dac1-486e-9558-91748360ff93/3dced4ec-dac1-486e-9558-91748360ff93.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50046013/derrick-henry-takes-direct-snap-td",
       "player": "Derrick Henry",
       "meta": "RB \u00b7 BAL",
@@ -13,25 +32,14 @@
       "verified": true,
       "faves": 0,
       "secs": 0,
+      "espn_game": "401872960",
+      "game_id": "401872960",
+      "game_time": "Q2 11:23",
+      "play_key": "401872960:4018729601305",
+      "played_at": "2026-09-27T21:10:37Z",
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/b67cecdde9004d26ac4fcfeeffa170161052/b67cecdde9004d26ac4fcfeeffa170161052.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/b67cecdd-e900-4d26-ac4f-cfeeffa17016/b67cecdd-e900-4d26-ac4f-cfeeffa17016.mp4",
-      "game_time": "Q1 04:08",
-      "kickoff": "9/13/26, 13:05:06"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50046077/derrick-henry-cuts-2nd-rushing-td",
-      "player": "Derrick Henry",
-      "meta": "RB \u00b7 BAL",
-      "date": "2026-09-27",
-      "author": "ESPN",
-      "text": "Derrick Henry cuts outside for 2nd rushing TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/bc1d0614f40e4116ab3ecc1c97ef3f881207/bc1d0614f40e4116ab3ecc1c97ef3f881207.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/bc1d0614-f40e-4116-ab3e-cc1c97ef3f88/bc1d0614-f40e-4116-ab3e-cc1c97ef3f88.mp4",
-      "game_time": "Q2 05:12",
-      "kickoff": "9/13/26, 13:05:06"
+      "published": "2026-09-27T21:16:49Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/b67cecdd-e900-4d26-ac4f-cfeeffa17016/b67cecdd-e900-4d26-ac4f-cfeeffa17016.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50046929/kyler-murray-throws-41-yard-touchdown-pass-jordan-addison",
@@ -43,23 +51,10 @@
       "verified": true,
       "faves": 0,
       "secs": 0,
+      "espn_game": "401872959",
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/64d96666-a5fc-4baf-85e1-04503bac919c/64d96666-a5fc-4baf-85e1-04503bac919c.jpg",
+      "published": "2026-09-27T22:31:03Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/64d96666-a5fc-4baf-85e1-04503bac919c/64d96666-a5fc-4baf-85e1-04503bac919c.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50047204/lamar-jackson-finds-chris-moore-pad-ravens-lead",
-      "player": "Lamar Jackson",
-      "meta": "QB \u00b7 BAL",
-      "date": "2026-09-27",
-      "author": "ESPN",
-      "text": "Lamar Jackson finds Chris Moore to pad the Ravens' lead",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/3dced4ecdac1486e955891748360ff931211/3dced4ecdac1486e955891748360ff931211.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/3dced4ec-dac1-486e-9558-91748360ff93/3dced4ec-dac1-486e-9558-91748360ff93.mp4",
-      "game_time": "Q1 08:25",
-      "kickoff": "9/13/26, 13:05:06"
     }
   ]
 }

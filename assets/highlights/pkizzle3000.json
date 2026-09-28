@@ -4,19 +4,6 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://www.espn.com/video/clip/_/id/50044346/dolphins-rb-devon-achane-takes-big-hit-leaves-knee-injury",
-      "player": "De'Von Achane",
-      "meta": "RB \u00b7 MIA",
-      "date": "2026-09-27",
-      "author": "ESPN",
-      "text": "Dolphins RB De'Von Achane takes big hit, leaves with knee injury",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/5068a92c-eb66-4a61-8f9a-cc75e67852b9/5068a92c-eb66-4a61-8f9a-cc75e67852b9.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/5068a92c-eb66-4a61-8f9a-cc75e67852b9/5068a92c-eb66-4a61-8f9a-cc75e67852b9.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50045402/spencer-shrader-53-yard-fg-lifts-colts-texans",
       "player": "Spencer Shrader",
       "meta": "K \u00b7 IND",
@@ -26,10 +13,14 @@
       "verified": true,
       "faves": 0,
       "secs": 0,
+      "espn_game": "401872951",
+      "game_id": "401872951",
+      "game_time": "Q4 0:16",
+      "play_key": "401872951:4018729513947",
+      "played_at": "2026-09-27T20:03:46Z",
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/ff7740db-d370-4f18-ae41-82f4652b40c2/ff7740db-d370-4f18-ae41-82f4652b40c2.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/ff7740db-d370-4f18-ae41-82f4652b40c2/ff7740db-d370-4f18-ae41-82f4652b40c2.mp4",
-      "game_time": "Q3 08:00",
-      "kickoff": "9/13/26, 13:05:06"
+      "published": "2026-09-27T20:30:35Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/ff7740db-d370-4f18-ae41-82f4652b40c2/ff7740db-d370-4f18-ae41-82f4652b40c2.mp4"
     }
   ]
 }
