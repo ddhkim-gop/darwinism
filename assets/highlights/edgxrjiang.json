@@ -40,6 +40,44 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/8010e959483048e4beff99ec5d9affb6904/8010e959483048e4beff99ec5d9affb6904.jpg",
       "published": "2026-09-27T18:59:20Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/8010e959-4830-48e4-beff-99ec5d9affb6/8010e959-4830-48e4-beff-99ec5d9affb6.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/l7Fbhiq31BE",
+      "player": "Kenyon Sadiq",
+      "meta": "TE \u00b7 NYJ",
+      "date": "2026-09-27",
+      "author": "nyjets",
+      "text": "CRAZY TD From the Rookie \ud83d\udc40 #nyjets #nfl #shorts #touchdown",
+      "verified": true,
+      "faves": 480,
+      "secs": 8,
+      "game_id": "401872954",
+      "game_time": "Q2 5:33",
+      "play_key": "401872954:4018729541389",
+      "played_at": "2026-09-27T17:50:39Z",
+      "poster": "https://i.ytimg.com/vi/l7Fbhiq31BE/hqdefault.jpg",
+      "published": "2026-09-27T18:09:58Z",
+      "youtube": "l7Fbhiq31BE",
+      "author_name": "New York Jets",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/_BE1bYY4CMo",
+      "player": "Tyler Loop",
+      "meta": "K \u00b7 BAL",
+      "date": "2026-09-27",
+      "author": "BaltimoreRavens",
+      "text": "LOOP!!!!! #ravens #nfl #shorts #highlight BalitmoreRavens.com for more!",
+      "verified": false,
+      "faves": 6661,
+      "secs": 28,
+      "poster": "https://i.ytimg.com/vi/_BE1bYY4CMo/hqdefault.jpg",
+      "published": "2026-09-27T23:57:33Z",
+      "youtube": "_BE1bYY4CMo",
+      "author_name": "Baltimore Ravens",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }
