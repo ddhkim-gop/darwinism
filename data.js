@@ -15459,7 +15459,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 47
+          "search_rank": 48
         },
         {
           "player_id": "13298",
@@ -15519,7 +15519,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 11
+          "search_rank": 12
         },
         {
           "player_id": "7021",
@@ -15609,7 +15609,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 56
+          "search_rank": 55
         },
         {
           "player_id": "DET",
@@ -15645,7 +15645,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 30
+          "search_rank": 29
         },
         {
           "player_id": "11583",
@@ -15705,7 +15705,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 131
+          "search_rank": 133
         },
         {
           "player_id": "12487",
@@ -15825,7 +15825,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 92
+          "search_rank": 90
         },
         {
           "player_id": "9488",
@@ -15840,7 +15840,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 5
+          "search_rank": 6
         },
         {
           "player_id": "9500",
@@ -15981,7 +15981,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 40
+          "search_rank": 39
         },
         {
           "player_id": "12517",
@@ -16137,7 +16137,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 185
+          "search_rank": 187
         },
         {
           "player_id": "11628",
@@ -16548,7 +16548,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
+          "search_rank": 6
         },
         {
           "player_id": "8148",
@@ -16566,21 +16566,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
-          "player_id": "8676",
-          "espn_id": null,
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "SEA",
-          "birth_date": "1998-08-31",
-          "college": "Weber State",
-          "height": "72",
-          "weight": "180",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 149
-        },
-        {
           "player_id": "9225",
           "espn_id": null,
           "name": "Tank Bigsby",
@@ -16594,21 +16579,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 147
-        },
-        {
-          "player_id": "9508",
-          "espn_id": null,
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "birth_date": "2001-06-15",
-          "college": "Tulane",
-          "height": "71",
-          "weight": "200",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 122
         },
         {
           "player_id": "9756",
@@ -16935,7 +16905,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 124
+          "search_rank": 125
         },
         {
           "player_id": "421",
@@ -17151,7 +17121,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "13296",
@@ -17442,7 +17412,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 176
+          "search_rank": 177
         },
         {
           "player_id": "12490",
@@ -17532,7 +17502,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 59
+          "search_rank": 61
         },
         {
           "player_id": "6801",
@@ -17628,7 +17598,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 99
+          "search_rank": 97
         },
         {
           "player_id": "11564",
@@ -17874,7 +17844,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 172
+          "search_rank": 173
         },
         {
           "player_id": "12481",
@@ -18555,6 +18525,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 28, 2026 • 5:28 PM PT",
+      "transaction_id": "1410472174388600832",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 28, 2026 • 5:27 PM PT",
+      "transaction_id": "1410472043555651584",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
