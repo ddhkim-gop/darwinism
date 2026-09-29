@@ -14,6 +14,21 @@ mkdir -p "$(dirname "$LOG")"
 cd "$REPO" || exit 1
 echo "--- $(date '+%Y-%m-%d %H:%M:%S') darwinism scan ---" >> "$LOG"
 
+# One run at a time across all four leagues and the game-day refresher
+# (gameday.py holds the lock itself and sets FF_LOCK_HELD for its runners).
+LOCK="$HOME/Library/Caches/fantasy-football/run.lock"
+if [ -z "${FF_LOCK_HELD:-}" ]; then
+  mkdir -p "$(dirname "$LOCK")"
+  waited=0
+  until mkdir "$LOCK" 2>/dev/null; do
+    age=$(( $(date +%s) - $(stat -f %m "$LOCK" 2>/dev/null || date +%s) ))
+    [ "$age" -gt 7200 ] && { rmdir "$LOCK" 2>/dev/null; continue; }   # crashed holder
+    sleep 30; waited=$((waited + 30))
+    [ "$waited" -ge 3600 ] && { echo "  ABORT: lock held for an hour" >> "$LOG"; exit 1; }
+  done
+  trap 'rmdir "$LOCK" 2>/dev/null' EXIT
+fi
+
 # A detached HEAD silently swallowed five nights of commits in gameofphones:
 # they were committed onto no branch and never pushed. Refuse to run instead.
 if ! git symbolic-ref -q HEAD >/dev/null; then
@@ -45,3 +60,6 @@ if ! git diff --quiet scripts/highlights_reviewed.json assets/highlights 2>/dev/
 else
   echo "  no highlight changes; nothing pushed" >> "$LOG"
 fi
+
+# Last league of the night: check all four and notify only if something broke.
+[ -z "${FF_LOCK_HELD:-}" ] && python3 "$REPO/../gameofphones/scripts/health.py" --source nightly >> "$LOG" 2>&1 || true
