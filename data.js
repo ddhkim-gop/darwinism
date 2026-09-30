@@ -15503,7 +15503,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -15533,7 +15533,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 65
         },
         {
@@ -16457,7 +16457,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 162
         },
         {
@@ -16547,7 +16547,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 10
         },
         {
@@ -16607,7 +16607,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 122
         },
         {
@@ -16677,21 +16677,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 57
         },
         {
-          "player_id": "11563",
-          "espn_id": null,
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "birth_date": "2000-02-25",
-          "college": "Oregon",
-          "height": "74",
-          "weight": "217",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 45
-        },
-        {
           "player_id": "11643",
           "espn_id": null,
           "name": "Jaylen Wright",
@@ -16705,6 +16690,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 174
+        },
+        {
+          "player_id": "1166",
+          "espn_id": 14880,
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
+          "birth_date": "1988-08-19",
+          "college": "Michigan State",
+          "height": "75",
+          "weight": "209",
+          "years_exp": 14,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 273
         },
         {
           "player_id": "12501",
@@ -16838,7 +16838,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 27
         },
         {
@@ -17501,7 +17501,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 109
         },
         {
@@ -17611,8 +17611,8 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "187",
           "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Doubtful",
+          "status": "Inactive",
+          "injury_status": "Out",
           "search_rank": 99
         },
         {
@@ -18540,6 +18540,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 9:13 AM PT",
+      "transaction_id": "1411072595775717376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
@@ -22855,7 +22883,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -23036,7 +23064,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham",
           "position": "WR",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [
