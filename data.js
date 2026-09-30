@@ -15171,6 +15171,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 690
         },
         {
+          "player_id": "12492",
+          "espn_id": null,
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "2002-12-10",
+          "college": "Illinois",
+          "height": "74",
+          "weight": "204",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 172
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15259,21 +15274,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 4
-        },
-        {
-          "player_id": "5849",
-          "espn_id": 3917315,
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "birth_date": "1997-08-07",
-          "college": "Oklahoma",
-          "height": "70",
-          "weight": "207",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 87
         },
         {
           "player_id": "6786",
@@ -15381,11 +15381,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 187
         },
         {
-          "player_id": "KC",
+          "player_id": "BUF",
           "espn_id": null,
-          "name": "Kansas City Chiefs",
+          "name": "Buffalo Bills",
           "position": "DEF",
-          "team": "KC",
+          "team": "BUF",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -16119,11 +16119,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 8
         },
         {
-          "player_id": "NYG",
+          "player_id": "CHI",
           "espn_id": null,
-          "name": "New York Giants",
+          "name": "Chicago Bears",
           "position": "DEF",
-          "team": "NYG",
+          "team": "CHI",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -16331,7 +16331,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 125
         },
         {
@@ -16594,6 +16594,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 147
+        },
+        {
+          "player_id": "9508",
+          "espn_id": null,
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "birth_date": "2001-06-15",
+          "college": "Tulane",
+          "height": "71",
+          "weight": "200",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 122
         },
         {
           "player_id": "9756",
@@ -17182,21 +17197,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 60
-        },
-        {
-          "player_id": "3321",
-          "espn_id": 3116406,
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
-          "birth_date": "1994-03-01",
-          "college": "West Alabama",
-          "height": "70",
-          "weight": "191",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 145
         },
         {
           "player_id": "3634",
@@ -17922,21 +17922,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "5844",
-          "espn_id": 4036133,
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "birth_date": "1997-07-03",
-          "college": "Iowa",
-          "height": "77",
-          "weight": "248",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 128
-        },
-        {
           "player_id": "6770",
           "espn_id": 3915511,
           "name": "Joe Burrow",
@@ -18040,6 +18025,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 52
+        },
+        {
+          "player_id": "9757",
+          "espn_id": null,
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
+          "birth_date": "2002-06-11",
+          "college": "TCU",
+          "height": "72",
+          "weight": "220",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 180
         },
         {
           "player_id": "BAL",
@@ -18540,6 +18540,162 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 5:11 AM PT",
+      "transaction_id": "1411011509844262912",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 4:32 AM PT",
+      "transaction_id": "1411001882477879296",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 4:06 AM PT",
+      "transaction_id": "1410995300037890048",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "New York Giants",
+          "position": "DEF",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 4:00 AM PT",
+      "transaction_id": "1410993692721836032",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 12:58 AM PT",
+      "transaction_id": "1410948015979589632",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 12:41 AM PT",
+      "transaction_id": "1410943667568451584",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
