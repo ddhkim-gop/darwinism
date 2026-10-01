@@ -15549,7 +15549,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 41
+          "search_rank": 42
         },
         {
           "player_id": "8121",
@@ -15609,7 +15609,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 55
+          "search_rank": 56
         },
         {
           "player_id": "DET",
@@ -15780,7 +15780,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 39
+          "search_rank": 38
         },
         {
           "player_id": "6806",
@@ -15855,7 +15855,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 6
+          "search_rank": 7
         },
         {
           "player_id": "9500",
@@ -15981,7 +15981,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 466
+          "search_rank": 465
         },
         {
           "player_id": "12514",
@@ -16011,7 +16011,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 36
+          "search_rank": 37
         },
         {
           "player_id": "12534",
@@ -16041,7 +16041,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 354
+          "search_rank": 353
         },
         {
           "player_id": "4866",
@@ -16212,7 +16212,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 40
+          "search_rank": 39
         },
         {
           "player_id": "4227",
@@ -16491,6 +16491,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
+          "player_id": "13294",
+          "espn_id": null,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2004-06-02",
+          "college": "USC",
+          "height": "71",
+          "weight": "192",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 91
+        },
+        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -16563,7 +16578,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
+          "search_rank": 6
         },
         {
           "player_id": "8148",
@@ -16594,21 +16609,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 147
-        },
-        {
-          "player_id": "9508",
-          "espn_id": null,
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "birth_date": "2001-06-15",
-          "college": "Tulane",
-          "height": "71",
-          "weight": "200",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 122
         },
         {
           "player_id": "9756",
@@ -16704,7 +16704,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 273
+          "search_rank": 272
         },
         {
           "player_id": "12501",
@@ -16950,7 +16950,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 17,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 66
         },
         {
           "player_id": "4217",
@@ -17808,7 +17808,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 101
+          "search_rank": 102
         },
         {
           "player_id": "GB",
@@ -17904,7 +17904,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 4
+          "search_rank": 3
         },
         {
           "player_id": "6770",
@@ -18546,6 +18546,34 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 30, 2026 • 9:44 AM PT",
+      "transaction_id": "1411080247171915776",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
     },
     {
       "season": "2026",
