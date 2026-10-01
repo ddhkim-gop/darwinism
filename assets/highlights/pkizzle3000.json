@@ -1,6 +1,6 @@
 {
   "team": "Pkizzle3000",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -82,6 +82,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/ff7740db-d370-4f18-ae41-82f4652b40c2/ff7740db-d370-4f18-ae41-82f4652b40c2.jpg",
       "published": "2026-09-27T20:30:35Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/ff7740db-d370-4f18-ae41-82f4652b40c2/ff7740db-d370-4f18-ae41-82f4652b40c2.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/e-KzvkyOAcA",
+      "player": "Ollie Gordon",
+      "meta": "RB \u00b7 MIA",
+      "date": "2026-09-27",
+      "author": "MiamiDolphins",
+      "text": "Ollie Gordon II in the end zone, powered by Kadyn Proctor \ud83d\ude24 \ud83d\udcfa:NFL on CBS",
+      "verified": true,
+      "faves": 232,
+      "secs": 8,
+      "game_id": "401872952",
+      "game_time": "Q1 3:27",
+      "play_key": "401872952:401872952691",
+      "played_at": "2026-09-27T17:25:14Z",
+      "poster": "https://i.ytimg.com/vi/e-KzvkyOAcA/hqdefault.jpg",
+      "published": "2026-09-27T17:48:42Z",
+      "youtube": "e-KzvkyOAcA",
+      "author_name": "Miami Dolphins",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50056004/jalen-hurts-briefly-knocked-game-late-hit-bounds",
