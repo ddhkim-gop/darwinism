@@ -15402,21 +15402,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 2,
       "players": [
         {
-          "player_id": "10218",
-          "espn_id": null,
-          "name": "Xavier Hutchinson",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2000-06-01",
-          "college": "Iowa State",
-          "height": "75",
-          "weight": "210",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 679
-        },
-        {
           "player_id": "11586",
           "espn_id": null,
           "name": "Blake Corum",
@@ -15492,6 +15477,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 46
         },
         {
+          "player_id": "3321",
+          "espn_id": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null,
+          "birth_date": "1994-03-01",
+          "college": "West Alabama",
+          "height": "70",
+          "weight": "191",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": "",
+          "search_rank": 145
+        },
+        {
           "player_id": "5967",
           "espn_id": 3916148,
           "name": "Tony Pollard",
@@ -15503,7 +15503,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -16562,7 +16562,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 10
         },
         {
@@ -16688,7 +16688,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 174
         },
         {
@@ -17024,7 +17024,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 45
         },
         {
@@ -17053,8 +17053,8 @@ window.__STATIC_DATA__ = {
           "height": "70",
           "weight": "215",
           "years_exp": 5,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 34
         },
         {
@@ -17084,7 +17084,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 40
         },
         {
@@ -17165,7 +17165,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 185
         },
         {
@@ -17210,7 +17210,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 88
         },
         {
@@ -18525,6 +18525,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 1, 2026 • 3:02 PM PT",
+      "transaction_id": "1411522663427407872",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
