@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
-          "player_id": "12472",
-          "espn_id": null,
-          "name": "Raheim Sanders",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2002-06-08",
-          "college": "South Carolina",
-          "height": "72",
-          "weight": "230",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 690
-        },
-        {
           "player_id": "12492",
           "espn_id": null,
           "name": "Pat Bryant",
@@ -15259,6 +15244,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 161
+        },
+        {
+          "player_id": "3271",
+          "espn_id": 2573401,
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR",
+          "birth_date": "1993-01-01",
+          "college": "Western Kentucky",
+          "height": "78",
+          "weight": "253",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 652
         },
         {
           "player_id": "4034",
@@ -16457,7 +16457,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 162
         },
         {
@@ -16838,7 +16838,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 27
         },
         {
@@ -16889,7 +16889,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 20
         },
         {
@@ -18525,6 +18525,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 2, 2026 • 1:43 AM PT",
+      "transaction_id": "1411683928753905664",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Raheim Sanders",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
