@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
-          "player_id": "12492",
-          "espn_id": null,
-          "name": "Pat Bryant",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "2002-12-10",
-          "college": "Illinois",
-          "height": "74",
-          "weight": "204",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 172
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15227,7 +15212,7 @@ window.__STATIC_DATA__ = {
           "weight": "228",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 198
         },
         {
@@ -15289,6 +15274,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 11
+        },
+        {
+          "player_id": "7049",
+          "espn_id": 3886598,
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1997-07-10",
+          "college": "Tennessee",
+          "height": "75",
+          "weight": "212",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 123
         },
         {
           "player_id": "7526",
@@ -15518,7 +15518,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 12
         },
         {
@@ -15719,7 +15719,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 141
         },
         {
@@ -16271,7 +16271,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 55
         },
         {
@@ -16331,7 +16331,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 125
         },
         {
@@ -16474,6 +16474,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 74
+        },
+        {
+          "player_id": "11729",
+          "espn_id": null,
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET",
+          "birth_date": "2001-07-30",
+          "college": "Utah",
+          "height": "71",
+          "weight": "216",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 527
         },
         {
           "player_id": "12489",
@@ -17024,7 +17039,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 45
         },
         {
@@ -17084,7 +17099,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 40
         },
         {
@@ -17240,7 +17255,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 49
         },
         {
@@ -17270,7 +17285,7 @@ window.__STATIC_DATA__ = {
           "weight": "222",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 21
         },
         {
@@ -17381,7 +17396,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 21
         },
         {
@@ -17396,7 +17411,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 32
         },
         {
@@ -17561,7 +17576,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 4
         },
         {
@@ -17702,7 +17717,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -17948,7 +17963,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 33
         },
         {
@@ -18525,6 +18540,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 2, 2026 • 10:32 AM PT",
+      "transaction_id": "1411817206286757888",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 2, 2026 • 8:44 AM PT",
+      "transaction_id": "1411790098625839104",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
