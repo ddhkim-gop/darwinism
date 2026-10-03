@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -23,27 +23,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/6b4fe8cb-4db7-47e4-ba68-0086e36a7559/6b4fe8cb-4db7-47e4-ba68-0086e36a7559.mp4"
     },
     {
-      "url": "https://www.youtube.com/shorts/wk1-Ju2HCoA",
-      "player": "Pat Bryant",
-      "meta": "WR \u00b7 DEN",
-      "date": "2026-09-28",
-      "author": "Broncos",
-      "text": "PB13 for SIX! #broncos #touchdown #patbryant #nfl #denver",
-      "verified": true,
-      "faves": 867,
-      "secs": 12,
-      "game_id": "401872962",
-      "game_time": "Q3 7:44",
-      "play_key": "401872962:4018729622890",
-      "played_at": "2026-09-28T02:26:44Z",
-      "poster": "https://i.ytimg.com/vi/wk1-Ju2HCoA/hqdefault.jpg",
-      "published": "2026-09-28T02:35:02Z",
-      "youtube": "wk1-Ju2HCoA",
-      "author_name": "Denver Broncos",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
       "url": "https://www.youtube.com/shorts/q1VKLDIysy4",
       "player": "Jaylen Waddle",
       "meta": "WR \u00b7 DEN",
@@ -61,6 +40,27 @@
       "published": "2026-09-28T02:40:33Z",
       "youtube": "q1VKLDIysy4",
       "author_name": "Denver Broncos",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/SaAhntjLK94",
+      "player": "Tyler Higbee",
+      "meta": "TE \u00b7 LAR",
+      "date": "2026-09-28",
+      "author": "LARams",
+      "text": "BIG RIG HIGS TOUCHDOWN \u203c\ufe0f  #rams #nfl #shorts",
+      "verified": true,
+      "faves": 435,
+      "secs": 18,
+      "game_id": "401872962",
+      "game_time": "Q1 4:55",
+      "play_key": "401872962:401872962632",
+      "played_at": "2026-09-28T00:47:53Z",
+      "poster": "https://i.ytimg.com/vi/SaAhntjLK94/hqdefault.jpg",
+      "published": "2026-09-28T01:04:03Z",
+      "youtube": "SaAhntjLK94",
+      "author_name": "Los Angeles Rams",
       "avatar": "",
       "author_verified": true
     },
