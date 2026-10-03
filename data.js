@@ -17169,6 +17169,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 123
         },
         {
+          "player_id": "13425",
+          "espn_id": null,
+          "name": "Jalon Daniels",
+          "position": "QB",
+          "team": "TB",
+          "birth_date": "2002-10-29",
+          "college": "Kansas",
+          "height": "72",
+          "weight": "219",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 647
+        },
+        {
           "player_id": "1479",
           "espn_id": 15818,
           "name": "Keenan Allen",
@@ -17180,7 +17195,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 185
         },
         {
@@ -18555,6 +18570,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 6:42 AM PT",
+      "transaction_id": "1412121700727865344",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Jalon Daniels",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
