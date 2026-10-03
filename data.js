@@ -15492,6 +15492,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 145
         },
         {
+          "player_id": "4663",
+          "espn_id": 3068267,
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
+          "birth_date": "1995-05-17",
+          "college": "Western Colorado",
+          "height": "70",
+          "weight": "200",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 632
+        },
+        {
           "player_id": "5967",
           "espn_id": 3916148,
           "name": "Tony Pollard",
@@ -17485,8 +17500,8 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "209",
           "years_exp": 0,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 52
         },
         {
@@ -18570,6 +18585,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 11:59 AM PT",
+      "transaction_id": "1412201492043120640",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 11:57 AM PT",
+      "transaction_id": "1412201036013121536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
