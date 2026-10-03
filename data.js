@@ -15201,6 +15201,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
+          "player_id": "13301",
+          "espn_id": null,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2004-07-14",
+          "college": "Clemson",
+          "height": "71",
+          "weight": "195",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 156
+        },
+        {
           "player_id": "13311",
           "espn_id": null,
           "name": "Chris Bell",
@@ -15274,21 +15289,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 11
-        },
-        {
-          "player_id": "7049",
-          "espn_id": 3886598,
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "college": "Tennessee",
-          "height": "75",
-          "weight": "212",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 123
         },
         {
           "player_id": "7526",
@@ -16271,7 +16271,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 55
         },
         {
@@ -18570,6 +18570,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 7:47 AM PT",
+      "transaction_id": "1412137930813603840",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,

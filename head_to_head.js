@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202610031455";
-import { renderNav } from "./components/nav.js?v=202610031455";
+import { api } from "./dataService.js?v=202610031840";
+import { renderNav } from "./components/nav.js?v=202610031840";
 
 let data = null;
 let currentView = "all_time";
