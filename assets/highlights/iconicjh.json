@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50102354/bucs-cut-packers-lead-kenny-gainwell-td",
+      "player": "Kenny Gainwell",
+      "meta": "RB \u00b7 TB",
+      "date": "2026-10-04",
+      "author": "ESPN",
+      "text": "Bucs cut into Packers' lead with a Kenny Gainwell TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872968",
+      "game_id": "401872968",
+      "game_time": "Q4 14:49",
+      "play_key": "401872968:4018729683027",
+      "played_at": "2026-10-04T19:12:02Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/35bb4d33-4b71-481f-8f35-da4d0791f220/35bb4d33-4b71-481f-8f35-da4d0791f220.jpg",
+      "published": "2026-10-04T19:27:05Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/35bb4d33-4b71-481f-8f35-da4d0791f220/35bb4d33-4b71-481f-8f35-da4d0791f220.mp4"
+    },
+    {
       "url": "https://x.com/Ravens/status/2106807766937444788",
       "player": "Mark Andrews",
       "meta": "TE \u00b7 BAL",
