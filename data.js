@@ -15444,7 +15444,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 47
         },
         {
           "player_id": "13298",
@@ -15492,21 +15492,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 145
         },
         {
-          "player_id": "4663",
-          "espn_id": 3068267,
-          "name": "Austin Ekeler",
-          "position": "RB",
-          "team": "WAS",
-          "birth_date": "1995-05-17",
-          "college": "Western Colorado",
-          "height": "70",
-          "weight": "200",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 632
-        },
-        {
           "player_id": "5967",
           "espn_id": 3916148,
           "name": "Tony Pollard",
@@ -15534,7 +15519,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 12
+          "search_rank": 11
         },
         {
           "player_id": "7021",
@@ -15594,7 +15579,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 22
+          "search_rank": 23
         },
         {
           "player_id": "8150",
@@ -15632,6 +15617,21 @@ window.__STATIC_DATA__ = {
           "name": "Detroit Lions",
           "position": "DEF",
           "team": "DET",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "KC",
+          "espn_id": null,
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -15870,7 +15870,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
+          "search_rank": 5
         },
         {
           "player_id": "9500",
@@ -16116,7 +16116,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 26
+          "search_rank": 28
         },
         {
           "player_id": "9226",
@@ -16167,7 +16167,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 187
+          "search_rank": 185
         },
         {
           "player_id": "11628",
@@ -16780,6 +16780,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 15
+        },
+        {
+          "player_id": "4663",
+          "espn_id": 3068267,
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
+          "birth_date": "1995-05-17",
+          "college": "Western Colorado",
+          "height": "70",
+          "weight": "200",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 632
         },
         {
           "player_id": "5850",
@@ -17778,7 +17793,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 106
+          "search_rank": 107
         },
         {
           "player_id": "7564",
@@ -18585,6 +18600,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 9:48 PM PT",
+      "transaction_id": "1412349574718201856",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 7:58 PM PT",
+      "transaction_id": "1412321868811182080",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
