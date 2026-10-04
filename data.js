@@ -16286,7 +16286,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 55
         },
         {
@@ -17086,6 +17086,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 4
+        },
+        {
+          "player_id": "7049",
+          "espn_id": 3886598,
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1997-07-10",
+          "college": "Tennessee",
+          "height": "75",
+          "weight": "212",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 123
         },
         {
           "player_id": "7543",
@@ -18600,6 +18615,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 3, 2026 • 11:20 PM PT",
+      "transaction_id": "1412372713414123520",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
