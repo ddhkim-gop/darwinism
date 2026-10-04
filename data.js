@@ -15141,36 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11571",
-          "espn_id": null,
-          "name": "Isaiah Davis",
-          "position": "RB",
-          "team": "NYJ",
-          "birth_date": "2002-02-21",
-          "college": "South Dakota State",
-          "height": "73",
-          "weight": "220",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 518
-        },
-        {
-          "player_id": "11581",
-          "espn_id": null,
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2001-01-05",
-          "college": "USC",
-          "height": "69",
-          "weight": "220",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 99
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15381,11 +15351,41 @@ window.__STATIC_DATA__ = {
           "search_rank": 187
         },
         {
+          "player_id": "9511",
+          "espn_id": null,
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2002-01-17",
+          "college": "East Carolina",
+          "height": "68",
+          "weight": "191",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 148
+        },
+        {
           "player_id": "BUF",
           "espn_id": null,
           "name": "Buffalo Bills",
           "position": "DEF",
           "team": "BUF",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "DEN",
+          "espn_id": null,
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -15704,7 +15704,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 35
         },
         {
@@ -16070,7 +16070,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 11
         },
         {
@@ -16592,7 +16592,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 9
         },
         {
@@ -16637,7 +16637,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 147
         },
         {
@@ -17214,21 +17214,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 123
         },
         {
-          "player_id": "13425",
-          "espn_id": null,
-          "name": "Jalon Daniels",
-          "position": "QB",
-          "team": "TB",
-          "birth_date": "2002-10-29",
-          "college": "Kansas",
-          "height": "72",
-          "weight": "219",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 647
-        },
-        {
           "player_id": "1479",
           "espn_id": 15818,
           "name": "Keenan Allen",
@@ -17255,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 60
         },
         {
@@ -17315,8 +17300,23 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 49
+        },
+        {
+          "player_id": "5849",
+          "espn_id": 3917315,
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
+          "birth_date": "1997-08-07",
+          "college": "Oklahoma",
+          "height": "70",
+          "weight": "207",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 86
         },
         {
           "player_id": "7002",
@@ -17822,7 +17822,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 3
         },
         {
@@ -18615,6 +18615,118 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 11:53 AM PT",
+      "transaction_id": "1412562331195502592",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 11:52 AM PT",
+      "transaction_id": "1412562078450855936",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 11:52 AM PT",
+      "transaction_id": "1412562040354037760",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 11:46 AM PT",
+      "transaction_id": "1412560655550033920",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jalon Daniels",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
