@@ -15141,6 +15141,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "11157",
+          "espn_id": null,
+          "name": "Brycen Tremayne",
+          "position": "WR",
+          "team": "CAR",
+          "birth_date": "1999-11-18",
+          "college": "Stanford",
+          "height": "76",
+          "weight": "212",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 542
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15171,6 +15186,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 90
         },
         {
+          "player_id": "12961",
+          "espn_id": null,
+          "name": "Ryan Fitzgerald",
+          "position": "K",
+          "team": "CAR",
+          "birth_date": "2000-08-13",
+          "college": "Florida State",
+          "height": "71",
+          "weight": "201",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 327
+        },
+        {
           "player_id": "13281",
           "espn_id": null,
           "name": "Jordyn Tyson",
@@ -15184,21 +15214,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 62
-        },
-        {
-          "player_id": "13311",
-          "espn_id": null,
-          "name": "Chris Bell",
-          "position": "WR",
-          "team": "MIA",
-          "birth_date": "2004-06-07",
-          "college": "Louisville",
-          "height": "74",
-          "weight": "228",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 198
         },
         {
           "player_id": "13414",
@@ -15349,21 +15364,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 187
-        },
-        {
-          "player_id": "9511",
-          "espn_id": null,
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2002-01-17",
-          "college": "East Carolina",
-          "height": "68",
-          "weight": "191",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 148
         },
         {
           "player_id": "BUF",
@@ -15659,7 +15659,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 29
         },
         {
@@ -15704,7 +15704,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 35
         },
         {
@@ -15950,7 +15950,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 132
         },
         {
@@ -16040,7 +16040,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -17606,7 +17606,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 36
         },
         {
@@ -18615,6 +18615,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 3:18 PM PT",
+      "transaction_id": "1412613934107594752",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Brycen Tremayne",
+          "position": "WR",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 2:31 PM PT",
+      "transaction_id": "1412601990868979712",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Ryan Fitzgerald",
+          "position": "K",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
