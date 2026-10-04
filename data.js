@@ -15141,6 +15141,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "11571",
+          "espn_id": null,
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ",
+          "birth_date": "2002-02-21",
+          "college": "South Dakota State",
+          "height": "73",
+          "weight": "220",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 518
+        },
+        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15199,21 +15214,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 62
-        },
-        {
-          "player_id": "13301",
-          "espn_id": null,
-          "name": "Antonio Williams",
-          "position": "WR",
-          "team": "WAS",
-          "birth_date": "2004-07-14",
-          "college": "Clemson",
-          "height": "71",
-          "weight": "195",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 156
         },
         {
           "player_id": "13311",
@@ -16070,7 +16070,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 11
         },
         {
@@ -17144,7 +17144,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 40
         },
         {
@@ -17561,7 +17561,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 109
         },
         {
@@ -18615,6 +18615,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 8:10 AM PT",
+      "transaction_id": "1412506254970015744",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
