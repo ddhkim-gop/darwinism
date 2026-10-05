@@ -3,7 +3,7 @@ import { renderNav } from "./components/nav.js?v=202610050224";
 
 renderNav();
 
-const YEARS = ["2025", "2024", "2023", "2022", "2021", "2020"];
+const YEARS = ["2026", "2025", "2024", "2023", "2022", "2021", "2020"];
 const PLAYOFF_START = 15;
 const PLAYOFF_WEEK_NAMES = {
     [PLAYOFF_START]:   "Playoffs · Round 1",
