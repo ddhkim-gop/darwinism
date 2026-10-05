@@ -16983,6 +16983,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 125
         },
         {
+          "player_id": "4018",
+          "espn_id": 3116385,
+          "name": "Joe Mixon",
+          "position": "RB",
+          "team": null,
+          "birth_date": "1996-07-24",
+          "college": "Oklahoma",
+          "height": "73",
+          "weight": "220",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": "Active",
+          "search_rank": 212
+        },
+        {
           "player_id": "421",
           "espn_id": 12483,
           "name": "Matthew Stafford",
@@ -17086,21 +17101,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 4
-        },
-        {
-          "player_id": "7049",
-          "espn_id": 3886598,
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "college": "Tennessee",
-          "height": "75",
-          "weight": "212",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 123
         },
         {
           "player_id": "7543",
@@ -18615,6 +18615,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 5:40 PM PT",
+      "transaction_id": "1412649627638824960",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Joe Mixon",
+          "position": "RB",
+          "team": null
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
