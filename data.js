@@ -15141,21 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11157",
-          "espn_id": null,
-          "name": "Brycen Tremayne",
-          "position": "WR",
-          "team": "CAR",
-          "birth_date": "1999-11-18",
-          "college": "Stanford",
-          "height": "76",
-          "weight": "212",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 489
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15199,6 +15184,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 327
+        },
+        {
+          "player_id": "13277",
+          "espn_id": null,
+          "name": "CJ Donaldson",
+          "position": "RB",
+          "team": "NO",
+          "birth_date": "2004-07-09",
+          "college": "Ohio State",
+          "height": "73",
+          "weight": "230",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 466
         },
         {
           "player_id": "13281",
@@ -18615,6 +18615,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 5, 2026 • 5:32 AM PT",
+      "transaction_id": "1412828765767147520",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "CJ Donaldson",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Brycen Tremayne",
+          "position": "WR",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
