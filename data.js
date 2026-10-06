@@ -16521,21 +16521,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
-          "player_id": "13294",
-          "espn_id": null,
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2004-06-02",
-          "college": "USC",
-          "height": "71",
-          "weight": "192",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 90
-        },
-        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -16624,21 +16609,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 53
-        },
-        {
-          "player_id": "9225",
-          "espn_id": null,
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
-          "birth_date": "2002-08-30",
-          "college": "Auburn",
-          "height": "71",
-          "weight": "215",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 147
         },
         {
           "player_id": "9756",
@@ -16778,7 +16748,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 15
         },
         {
@@ -16987,7 +16957,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 3116385,
           "name": "Joe Mixon",
           "position": "RB",
-          "team": null,
+          "team": "SEA",
           "birth_date": "1996-07-24",
           "college": "Oklahoma",
           "height": "73",
@@ -16995,7 +16965,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": "Active",
-          "search_rank": 212
+          "search_rank": 164
         },
         {
           "player_id": "421",
@@ -18618,6 +18588,50 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 4,
+      "created": "Oct 5, 2026 • 3:17 PM PT",
+      "transaction_id": "1412976098542665728",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 5, 2026 • 3:14 PM PT",
+      "transaction_id": "1412975344750743552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tank Bigsby",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
       "created": "Oct 5, 2026 • 5:32 AM PT",
       "transaction_id": "1412828765767147520",
       "type": "free_agent",
@@ -18657,7 +18671,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joe Mixon",
           "position": "RB",
-          "team": null
+          "team": "SEA"
         }
       ],
       "dropped": [
