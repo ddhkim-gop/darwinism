@@ -16793,7 +16793,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 199
         },
         {
@@ -16957,14 +16957,14 @@ window.__STATIC_DATA__ = {
           "espn_id": 3116385,
           "name": "Joe Mixon",
           "position": "RB",
-          "team": "SEA",
+          "team": null,
           "birth_date": "1996-07-24",
           "college": "Oklahoma",
           "height": "73",
           "weight": "220",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Active",
+          "injury_status": "",
           "search_rank": 164
         },
         {
@@ -18671,7 +18671,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Joe Mixon",
           "position": "RB",
-          "team": "SEA"
+          "team": null
         }
       ],
       "dropped": [
