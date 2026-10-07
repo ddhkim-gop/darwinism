@@ -13,7 +13,7 @@ Degrades gracefully: if this Mac is asleep the GitHub cron still runs, just slow
 Reads nothing secret — auth is whatever `gh` already has.
 Exit 0 always (launchd noise is not useful); problems go to the log.
 
-Mirrors personal/fantasy football/gameofphones/scripts/poll_sleeper_local.py.
+Mirrors projects/fantasy football/gameofphones/scripts/poll_sleeper_local.py.
 
 # edited-by: abbi | 2026-08-04
 """

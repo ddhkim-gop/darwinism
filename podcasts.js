@@ -23,12 +23,21 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 5 — Down To Two",
+            date: "2026-10-06",
+            duration: "6:57",
+            slug: "2026-05-down-to-two",
+            art: "assets/podcasts/art/2026-05-down-to-two.png?v=202610061705",
+            audio: "assets/podcasts/2026/ep05-down-to-two.mp3",
+            description: "Three unbeaten became two: eikichi's 143.32 ended Mighty Morphin Bower Rangers, built on Tetairoa McMillan 37.2 and Kenneth Walker 30.4. Repeat to Three-peat fell 125.5 to 68.4 with Olave and Kamara both starting at zero, IceBox finally won one, and Kicked in the Dicker is the last winless team at 0-4.",
+        },
+        {
             title: "Episode 4 — The Unbeaten Three",
             date: "2026-09-30",
             duration: "8:14",
             slug: "2026-04-the-unbeaten-three",
             audio: "assets/podcasts/2026/ep04-the-unbeaten-three.mp3",
-            art: "assets/podcasts/art/2026-04-the-unbeaten-three.png?v=202610062347",
+            art: "assets/podcasts/art/2026-04-the-unbeaten-three.png?v=202610061705",
             description: "eikichi, Bower Outage and LePuka Nacua are the last three unbeatens; eikichi stayed perfect by 2.06 over Put It In Herbert. Salamander's 134.4 topped the week, Eg Big Boo's kicker outscored Jalen Hurts, and Jahmyr Gibbs' 37.9 led the league.",
         },
         {
@@ -37,7 +46,7 @@ export const PODCAST_EPISODES = {
             duration: "9:35",
             slug: "2026-03-decided-by-inches",
             audio: "assets/podcasts/2026/ep03-decided-by-inches.mp3",
-            art: "assets/podcasts/art/2026-03-decided-by-inches.png?v=202610062347",
+            art: "assets/podcasts/art/2026-03-decided-by-inches.png?v=202610061705",
             description: "Four of six games were decided by under five points. Mickey C's beat Put It In Herbert by 0.52 with waiver pickup Tyler Shough, Snow King Ghidorah left 24 points on the bench in a loss, and last week's 166-point Ghost of New Jeantys fell to 79.3. Josh Allen's 39.82 led the league.",
         },
         {
@@ -46,7 +55,7 @@ export const PODCAST_EPISODES = {
             duration: "9:09",
             slug: "2026-02-week-one-is-in-the-books",
             audio: "assets/podcasts/2026/ep02-week-one-is-in-the-books.mp3",
-            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202610062347",
+            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202610061705",
             description: "Ghost of New Jeantys hung 166.2 on the league — Jeanty 29.7, Dart 25.6, Bijan 25.3 — while Mickey C's managed 69.92 and the draft grades started lying immediately. Five of six games were blowouts, Cameron Dicker scored two for the team named after him, and only Bower Outage over Salamander stayed inside thirteen points.",
         },
         {
@@ -55,7 +64,7 @@ export const PODCAST_EPISODES = {
             duration: "14:12",
             slug: "2026-01-the-grades-are-in",
             audio: "assets/podcasts/2026/ep01-the-grades-are-in.mp3",
-            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202610062347",
+            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202610061705",
             description: "Draft recap and season predictions, graded off the site's own draft panel: three tiers, twelve teams, predicted standings and awards.",
         },
     ],

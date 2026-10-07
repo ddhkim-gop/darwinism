@@ -34,6 +34,7 @@ EPISODES = [
     ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "Ashton Jeanty", "walks into the endzone"),
     ("2026-03-decided-by-inches",        "03", "#f6ad55", "CeeDee Lamb",   "Dak Prescott finds CeeDee Lamb"),
     ("2026-04-the-unbeaten-three",       "04", "#e5536b", "Jahmyr Gibbs",  "punches in for his second"),
+    ("2026-05-down-to-two",              "05", "#4299e1", "Tetairoa McMillan", "airs a deep TD pass"),
 ]
 
 
@@ -117,6 +118,15 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     binary = chrome()
     for slug, label, accent, player, match in EPISODES:
+        # Highlight feeds rotate: a clip pinned weeks ago may no longer be in
+        # assets/highlights/. Without this guard the episode re-renders with no
+        # image at all, silently replacing good art with an empty frame -- which
+        # is exactly what happened to episodes one through four on 2026-10-06.
+        if action_frame(player, match)[0] is None:
+            dest = os.path.join(OUT, slug + ".png")
+            keep = "keeping existing art" if os.path.exists(dest) else "NO ART EXISTS"
+            print(f"  SKIP {slug}: no clip for {player!r} / {match!r} -- {keep}", file=sys.stderr)
+            continue
         s = os.path.join(OUT, slug + ".svg")
         p = os.path.join(OUT, slug + ".png")
         with open(s, "w") as f:
