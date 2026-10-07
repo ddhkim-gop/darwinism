@@ -39,7 +39,7 @@ EPISODES = [
     ("2026-02-week-one-is-in-the-books", "02", "#3ecf8e", "Ashton Jeanty", "walks into the endzone"),
     ("2026-03-decided-by-inches",        "03", "#f6ad55", "CeeDee Lamb",   "late TD pass to CeeDee Lamb"),
     ("2026-04-the-unbeaten-three",       "04", "#e5536b", "Jahmyr Gibbs",  "shoulders his way in"),
-    ("2026-05-down-to-two",              "05", "#4299e1", "Tetairoa McMillan", "airs a deep TD pass"),
+    ("2026-05-one-left-standing",        "05", "#4299e1", "Tetairoa McMillan", "shreds Lions secondary"),
 ]
 
 
