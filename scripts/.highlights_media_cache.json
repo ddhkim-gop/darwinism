@@ -1275,7 +1275,7 @@
  },
  "https://www.espn.com/video/clip/_/id/50114507/brian-robinson-jr-hat-trick-gives-falcons-commanding-lead": {
   "espn_game": "401872979",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/1190cf2d-ce93-4dcb-a76c-e8730ee0a2e4/1190cf2d-ce93-4dcb-a76c-e8730ee0a2e4.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/1190cf2dce934dcba76ce8730ee0a2e41437/1190cf2dce934dcba76ce8730ee0a2e41437.jpg",
   "published": "2026-10-06T03:19:30Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/1190cf2d-ce93-4dcb-a76c-e8730ee0a2e4/1190cf2d-ce93-4dcb-a76c-e8730ee0a2e4.mp4"
  },
@@ -1466,6 +1466,11 @@
   "poster": "https://i.ytimg.com/vi/9JftUN8Uj_M/hqdefault.jpg",
   "published": "2026-09-24T20:32:52Z",
   "youtube": "9JftUN8Uj_M"
+ },
+ "https://www.youtube.com/shorts/9kX_7xGHfdA": {
+  "poster": "https://i.ytimg.com/vi/9kX_7xGHfdA/hqdefault.jpg",
+  "published": "2026-10-06T15:10:34Z",
+  "youtube": "9kX_7xGHfdA"
  },
  "https://www.youtube.com/shorts/AVnfdqxycRw": {
   "game_id": "401872949",
@@ -1903,6 +1908,11 @@
   "published": "2026-10-04T23:36:03Z",
   "youtube": "YqsAbT6MQg4"
  },
+ "https://www.youtube.com/shorts/Ysro7ztR0jA": {
+  "poster": "https://i.ytimg.com/vi/Ysro7ztR0jA/hqdefault.jpg",
+  "published": "2026-10-06T19:13:16Z",
+  "youtube": "Ysro7ztR0jA"
+ },
  "https://www.youtube.com/shorts/Z52V0m1_Bto": {
   "poster": "https://i.ytimg.com/vi/Z52V0m1_Bto/hqdefault.jpg",
   "published": "2026-10-05T19:55:10Z",
@@ -2156,6 +2166,11 @@
   "published": "2026-10-04T19:07:00Z",
   "youtube": "kOpGf9e_AIE"
  },
+ "https://www.youtube.com/shorts/kV493mcLG7Q": {
+  "poster": "https://i.ytimg.com/vi/kV493mcLG7Q/hqdefault.jpg",
+  "published": "2026-10-06T12:45:41Z",
+  "youtube": "kV493mcLG7Q"
+ },
  "https://www.youtube.com/shorts/l7Fbhiq31BE": {
   "game_id": "401872954",
   "game_time": "Q2 5:33",
@@ -2248,6 +2263,11 @@
   "poster": "https://i.ytimg.com/vi/nKtUzMOTabA/hqdefault.jpg",
   "published": "2026-09-27T21:29:41Z",
   "youtube": "nKtUzMOTabA"
+ },
+ "https://www.youtube.com/shorts/nTxML4Teq-Y": {
+  "poster": "https://i.ytimg.com/vi/nTxML4Teq-Y/hqdefault.jpg",
+  "published": "2026-10-06T18:00:02Z",
+  "youtube": "nTxML4Teq-Y"
  },
  "https://www.youtube.com/shorts/oDBsyYF-L54": {
   "poster": "https://i.ytimg.com/vi/oDBsyYF-L54/hqdefault.jpg",
@@ -2362,6 +2382,11 @@
   "poster": "https://i.ytimg.com/vi/qubp6jGfL7s/hqdefault.jpg",
   "published": "2026-09-27T22:52:05Z",
   "youtube": "qubp6jGfL7s"
+ },
+ "https://www.youtube.com/shorts/rU05qavcTSQ": {
+  "poster": "https://i.ytimg.com/vi/rU05qavcTSQ/hqdefault.jpg",
+  "published": "2026-10-06T16:55:15Z",
+  "youtube": "rU05qavcTSQ"
  },
  "https://www.youtube.com/shorts/rXeVT9c4BvQ": {
   "game_id": "401872950",

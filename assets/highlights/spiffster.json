@@ -1,6 +1,6 @@
 {
   "team": "spiffster",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -51,7 +51,7 @@
       "meta": "RB \u00b7 ATL",
       "date": "2026-10-06",
       "author": "ESPN",
-      "text": "Bijan Robinson breaks free for an opening drive 59-yard Falcons TD",
+      "text": "Bijan Robinson breaks free for an opening-drive 59-yard Falcons TD",
       "verified": true,
       "faves": 0,
       "secs": 0,
