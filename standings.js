@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202610071318";
-import { renderNav } from "./components/nav.js?v=202610071318";
+import { api } from "./dataService.js?v=202610071931";
+import { renderNav } from "./components/nav.js?v=202610071931";
 
 let standings = null;
 let transactions = null;

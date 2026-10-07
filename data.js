@@ -15302,7 +15302,7 @@ window.__STATIC_DATA__ = {
           "weight": "227",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 58
         },
         {
@@ -16059,6 +16059,36 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
+          "player_id": "13301",
+          "espn_id": null,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2004-07-14",
+          "college": "Clemson",
+          "height": "71",
+          "weight": "195",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 156
+        },
+        {
+          "player_id": "2078",
+          "espn_id": 16733,
+          "name": "Odell Beckham",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1992-11-05",
+          "college": "LSU",
+          "height": "71",
+          "weight": "198",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 443
+        },
+        {
           "player_id": "4866",
           "espn_id": 3929630,
           "name": "Saquon Barkley",
@@ -16072,21 +16102,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 11
-        },
-        {
-          "player_id": "5001",
-          "espn_id": 3117256,
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "birth_date": "1996-07-11",
-          "college": "Stanford",
-          "height": "77",
-          "weight": "242",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 98
         },
         {
           "player_id": "6904",
@@ -16461,19 +16476,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 23
         },
         {
-          "player_id": "11625",
+          "player_id": "11630",
           "espn_id": null,
-          "name": "Adonai Mitchell",
+          "name": "Roman Wilson",
           "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2002-10-08",
-          "college": "Texas",
-          "height": "74",
-          "weight": "205",
+          "team": "PIT",
+          "birth_date": "2001-06-19",
+          "college": "Michigan",
+          "height": "72",
+          "weight": "192",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 162
+          "injury_status": null,
+          "search_rank": 688
         },
         {
           "player_id": "11631",
@@ -16489,21 +16504,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 75
-        },
-        {
-          "player_id": "11729",
-          "espn_id": null,
-          "name": "Sione Vaki",
-          "position": "RB",
-          "team": "DET",
-          "birth_date": "2001-07-30",
-          "college": "Utah",
-          "height": "71",
-          "weight": "216",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 527
         },
         {
           "player_id": "12489",
@@ -16566,6 +16566,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 7
         },
         {
+          "player_id": "3257",
+          "espn_id": 2578570,
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "birth_date": "1992-12-11",
+          "college": "North Carolina State",
+          "height": "76",
+          "weight": "235",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 203
+        },
+        {
           "player_id": "4881",
           "espn_id": 3916387,
           "name": "Lamar Jackson",
@@ -16611,6 +16626,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
+          "player_id": "9506",
+          "espn_id": null,
+          "name": "Sean Tucker",
+          "position": "RB",
+          "team": "TB",
+          "birth_date": "2001-10-25",
+          "college": "Syracuse",
+          "height": "70",
+          "weight": "205",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 155
+        },
+        {
           "player_id": "9756",
           "espn_id": null,
           "name": "Jordan Addison",
@@ -16622,7 +16652,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 99
         },
         {
@@ -16923,6 +16953,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 209
         },
         {
+          "player_id": "2020",
+          "espn_id": 17427,
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI",
+          "birth_date": "1991-11-12",
+          "college": "Tulane",
+          "height": "68",
+          "weight": "173",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 190
+        },
+        {
           "player_id": "2449",
           "espn_id": 2976212,
           "name": "Stefon Diggs",
@@ -16934,23 +16979,8 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 104
-        },
-        {
-          "player_id": "2747",
-          "espn_id": 2473037,
-          "name": "Jason Myers",
-          "position": "K",
-          "team": "SEA",
-          "birth_date": "1991-05-12",
-          "college": "Marist",
-          "height": "70",
-          "weight": "190",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 124
         },
         {
           "player_id": "421",
@@ -17114,7 +17144,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 40
         },
         {
@@ -17460,6 +17490,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 44
         },
         {
+          "player_id": "12504",
+          "espn_id": null,
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "2003-08-14",
+          "college": "Iowa",
+          "height": "73",
+          "weight": "224",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 173
+        },
+        {
           "player_id": "12711",
           "espn_id": null,
           "name": "Tyler Loop",
@@ -17473,21 +17518,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 150
-        },
-        {
-          "player_id": "13264",
-          "espn_id": null,
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
-          "birth_date": "2000-07-06",
-          "college": "Delta State",
-          "height": "71",
-          "weight": "186",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 628
         },
         {
           "player_id": "13286",
@@ -17777,7 +17807,7 @@ window.__STATIC_DATA__ = {
           "weight": "223",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 107
         },
         {
@@ -17995,21 +18025,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 16
-        },
-        {
-          "player_id": "6804",
-          "espn_id": 4036378,
-          "name": "Jordan Love",
-          "position": "QB",
-          "team": "GB",
-          "birth_date": "1998-11-02",
-          "college": "Utah State",
-          "height": "76",
-          "weight": "219",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 69
         },
         {
           "player_id": "7525",
@@ -18600,6 +18615,240 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 10:27 AM PT",
+      "transaction_id": "1413627839592316928",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Sean Tucker",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 10:18 AM PT",
+      "transaction_id": "1413625453381484544",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 10:11 AM PT",
+      "transaction_id": "1413623843255222272",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 10:08 AM PT",
+      "transaction_id": "1413623000128913408",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 10:04 AM PT",
+      "transaction_id": "1413622044100239360",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 8:14 AM PT",
+      "transaction_id": "1413594339883458560",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 7:55 AM PT",
+      "transaction_id": "1413589579637796864",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 7:19 AM PT",
+      "transaction_id": "1413580618989600778",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 6:55 AM PT",
+      "transaction_id": "1413574388707528704",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Odell Beckham",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
@@ -24345,7 +24594,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham",
           "position": "WR",
-          "team": null
+          "team": "MIN"
         }
       ],
       "faab": 0,
@@ -24526,7 +24775,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham",
           "position": "WR",
-          "team": null
+          "team": "MIN"
         }
       ],
       "dropped": [
