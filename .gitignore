@@ -20,4 +20,5 @@ graft/
 
 # Source frames for podcast cover art — regenerable from assets/highlights/
 assets/podcasts/art/.cache/
+# frames/ is deliberately NOT ignored — it is the art's source of record
 scripts/.ocr-bin
