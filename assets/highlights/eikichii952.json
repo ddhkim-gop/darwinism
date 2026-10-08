@@ -1,6 +1,6 @@
 {
   "team": "eikichii952",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -204,23 +204,21 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50100930/jordan-love-hits-matthew-golden-packers-td",
-      "player": "Jordan Love",
-      "meta": "QB \u00b7 GB",
+      "url": "https://www.youtube.com/shorts/ZBLP405u1Ek",
+      "player": "T.J. Hockenson",
+      "meta": "TE \u00b7 MIN",
       "date": "2026-10-04",
-      "author": "ESPN",
-      "text": "Jordan Love hits Matthew Golden for Packers TD. Jordan Love hits Matthew Golden for Packers TD ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872968",
-      "game_id": "401872968",
-      "game_time": "Q2 12:54",
-      "play_key": "401872968:401872968927",
-      "played_at": "2026-10-04T17:34:31Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/0ed6ba23-4648-495c-8424-0df9e8f1adcb/0ed6ba23-4648-495c-8424-0df9e8f1adcb.jpg",
-      "published": "2026-10-04T17:45:37Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/0ed6ba23-4648-495c-8424-0df9e8f1adcb/0ed6ba23-4648-495c-8424-0df9e8f1adcb.mp4"
+      "author": "Vikings",
+      "text": "T.J. Hockenson's Game: 13 Catches, 119 Yards \ud83d\udd25 | \ud83d\udcfa: NFL on FOX",
+      "verified": false,
+      "faves": 433,
+      "secs": 15,
+      "poster": "https://i.ytimg.com/vi/ZBLP405u1Ek/hqdefault.jpg",
+      "published": "2026-10-04T23:05:33Z",
+      "youtube": "ZBLP405u1Ek",
+      "author_name": "Minnesota Vikings",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }

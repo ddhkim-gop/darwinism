@@ -1,6 +1,6 @@
 {
   "team": "spiffster",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -101,6 +101,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1004/e2ac3fcc40b34b98ae331785a3cde9df1376/e2ac3fcc40b34b98ae331785a3cde9df1376.jpg",
       "published": "2026-10-05T01:28:04Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1005/e2ac3fcc-40b3-4b98-ae33-1785a3cde9df/e2ac3fcc-40b3-4b98-ae33-1785a3cde9df.mp4"
+    },
+    {
+      "url": "https://x.com/Buccaneers/status/2106825416090570828",
+      "player": "Jalon Daniels",
+      "meta": "QB \u00b7 TB",
+      "date": "2026-10-04",
+      "author": "Buccaneers",
+      "text": "Jalon Daniels finds Kenny Gainwell for the TD \ud83d\ude4c\n\n\ud83d\udcfa: #GBvsTB on FOX",
+      "verified": true,
+      "faves": 184,
+      "secs": 12,
+      "game_id": "401872968",
+      "game_time": "Q4 14:49",
+      "play_key": "401872968:4018729683027",
+      "played_at": "2026-10-04T19:12:02Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106824855110709248/img/iFoyfojpHxSKl-2w.jpg",
+      "published": "2026-10-04T19:14:56Z",
+      "video": "https://video.twimg.com/amplify_video/2106824855110709248/vid/avc1/1920x1080/1LeYRFbWeGnkw8Bu.mp4",
+      "author_name": "Tampa Bay Buccaneers",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/HoustonTexans/status/2106819840832868434",

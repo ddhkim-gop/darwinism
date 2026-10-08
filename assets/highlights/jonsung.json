@@ -1,6 +1,6 @@
 {
   "team": "jonsung",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -101,6 +101,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/b1b8bda8-5b9e-4790-a3b5-a9273477295d/b1b8bda8-5b9e-4790-a3b5-a9273477295d.jpg",
       "published": "2026-10-04T21:58:14Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/b1b8bda8-5b9e-4790-a3b5-a9273477295d/b1b8bda8-5b9e-4790-a3b5-a9273477295d.mp4"
+    },
+    {
+      "url": "https://x.com/Bengals/status/2106819603229786421",
+      "player": "Mike Gesicki",
+      "meta": "TE \u00b7 CIN",
+      "date": "2026-10-04",
+      "author": "Bengals",
+      "text": "88 in the end zone.\n\n#JAXvsCIN at 1:00 PM on CBS/Paramount+",
+      "verified": true,
+      "faves": 817,
+      "secs": 3,
+      "game_id": "401872969",
+      "game_time": "Q3 8:44",
+      "play_key": "401872969:4018729692544",
+      "played_at": "2026-10-04T18:51:17Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106819551610449921/img/NZqUon63KmsYuZS8.jpg",
+      "published": "2026-10-04T18:51:50Z",
+      "video": "https://video.twimg.com/amplify_video/2106819551610449921/vid/avc1/1920x1080/avG_NAKyHXXCEweP.mp4",
+      "author_name": "Cincinnati Bengals",
+      "avatar": "https://pbs.twimg.com/profile_images/2079568103231348736/HbQk9Ucp_normal.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/Ravens/status/2106807352884097375",
