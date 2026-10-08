@@ -15246,6 +15246,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 5
         },
         {
+          "player_id": "5022",
+          "espn_id": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "birth_date": "1995-01-03",
+          "college": "South Dakota State",
+          "height": "77",
+          "weight": "256",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 94
+        },
+        {
           "player_id": "6786",
           "espn_id": 4241389,
           "name": "CeeDee Lamb",
@@ -15334,21 +15349,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 480
-        },
-        {
-          "player_id": "9480",
-          "espn_id": null,
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "birth_date": "2000-12-27",
-          "college": "Penn State",
-          "height": "76",
-          "weight": "253",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104
         },
         {
           "player_id": "9486",
@@ -15444,7 +15444,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 47
         },
         {
           "player_id": "13298",
@@ -15459,7 +15459,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 110
+          "search_rank": 111
         },
         {
           "player_id": "2133",
@@ -15612,26 +15612,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 55
         },
         {
-          "player_id": "DET",
+          "player_id": "NE",
           "espn_id": null,
-          "name": "Detroit Lions",
+          "name": "New England Patriots",
           "position": "DEF",
-          "team": "DET",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "KC",
-          "espn_id": null,
-          "name": "Kansas City Chiefs",
-          "position": "DEF",
-          "team": "KC",
+          "team": "NE",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -15720,7 +15705,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 133
+          "search_rank": 131
         },
         {
           "player_id": "12487",
@@ -16074,21 +16059,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 156
         },
         {
-          "player_id": "2078",
-          "espn_id": 16733,
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1992-11-05",
-          "college": "LSU",
-          "height": "71",
-          "weight": "198",
-          "years_exp": 12,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 443
-        },
-        {
           "player_id": "4866",
           "espn_id": 3929630,
           "name": "Saquon Barkley",
@@ -16117,6 +16087,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 26
+        },
+        {
+          "player_id": "8129",
+          "espn_id": null,
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI",
+          "birth_date": "2000-02-19",
+          "college": "Florida",
+          "height": "70",
+          "weight": "218",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 666
         },
         {
           "player_id": "9226",
@@ -16980,7 +16965,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 104
+          "search_rank": 105
         },
         {
           "player_id": "421",
@@ -17085,7 +17070,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 44
+          "search_rank": 46
         },
         {
           "player_id": "6813",
@@ -17259,21 +17244,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 60
         },
         {
-          "player_id": "3634",
-          "espn_id": 2973405,
-          "name": "Kalif Raymond",
-          "position": "WR",
-          "team": "CHI",
-          "birth_date": "1994-08-08",
-          "college": "Holy Cross",
-          "height": "69",
-          "weight": "160",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 645
-        },
-        {
           "player_id": "4037",
           "espn_id": 3116165,
           "name": "Chris Godwin",
@@ -17361,7 +17331,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 155
+          "search_rank": 154
         },
         {
           "player_id": "9228",
@@ -17934,7 +17904,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 170
+          "search_rank": 172
         },
         {
           "player_id": "12481",
@@ -17979,7 +17949,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 13,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 90
+          "search_rank": 89
         },
         {
           "player_id": "4984",
@@ -18615,6 +18585,134 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 7:21 PM PT",
+      "transaction_id": "1413762152925331456",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Odell Beckham",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 7:19 PM PT",
+      "transaction_id": "1413761759872831488",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "New England Patriots",
+          "position": "DEF",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 7:19 PM PT",
+      "transaction_id": "1413761638854676480",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 5:26 PM PT",
+      "transaction_id": "1413733396839981056",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 3:50 PM PT",
+      "transaction_id": "1413709062683578368",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
