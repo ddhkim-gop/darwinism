@@ -17184,6 +17184,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "13264",
+          "espn_id": null,
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN",
+          "birth_date": "2000-07-06",
+          "college": "Delta State",
+          "height": "71",
+          "weight": "186",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 628
+        },
+        {
           "player_id": "13305",
           "espn_id": null,
           "name": "Mike Washington",
@@ -17212,21 +17227,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 647
-        },
-        {
-          "player_id": "1479",
-          "espn_id": 15818,
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "birth_date": "1992-04-27",
-          "college": "California",
-          "height": "74",
-          "weight": "211",
-          "years_exp": 13,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 182
         },
         {
           "player_id": "2216",
@@ -17777,7 +17777,7 @@ window.__STATIC_DATA__ = {
           "weight": "223",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 107
         },
         {
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 7, 2026 • 5:29 PM PT",
+      "transaction_id": "1413733936701452288",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "Your waiver claim was processed successfully!"
     },
     {
       "season": "2026",
