@@ -15549,7 +15549,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 41
+          "search_rank": 42
         },
         {
           "player_id": "8121",
@@ -15855,7 +15855,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 6
+          "search_rank": 5
         },
         {
           "player_id": "9500",
@@ -15996,7 +15996,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 466
+          "search_rank": 463
         },
         {
           "player_id": "12514",
@@ -16026,7 +16026,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 36
+          "search_rank": 35
         },
         {
           "player_id": "12534",
@@ -16086,7 +16086,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 26
+          "search_rank": 28
         },
         {
           "player_id": "8129",
@@ -16458,7 +16458,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 23
+          "search_rank": 22
         },
         {
           "player_id": "11630",
@@ -16578,7 +16578,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 8
+          "search_rank": 10
         },
         {
           "player_id": "7547",
@@ -16719,7 +16719,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 268
+          "search_rank": 269
         },
         {
           "player_id": "12501",
@@ -16920,7 +16920,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 22
         },
         {
           "player_id": "11834",
@@ -17010,7 +17010,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 448
+          "search_rank": 449
         },
         {
           "player_id": "5846",
@@ -17346,7 +17346,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 134
+          "search_rank": 133
         },
         {
           "player_id": "9509",
@@ -17427,7 +17427,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 22
+          "search_rank": 21
         },
         {
           "player_id": "11584",
@@ -17458,21 +17458,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 44
-        },
-        {
-          "player_id": "12504",
-          "espn_id": null,
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2003-08-14",
-          "college": "Iowa",
-          "height": "73",
-          "weight": "224",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 173
         },
         {
           "player_id": "12711",
@@ -17547,7 +17532,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 389
+          "search_rank": 388
         },
         {
           "player_id": "3163",
@@ -17562,7 +17547,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 61
+          "search_rank": 62
         },
         {
           "player_id": "6801",
@@ -17578,6 +17563,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 36
+        },
+        {
+          "player_id": "7528",
+          "espn_id": null,
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG",
+          "birth_date": "1998-03-09",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "232",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 170
         },
         {
           "player_id": "8167",
@@ -17868,7 +17868,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 102
+          "search_rank": 101
         },
         {
           "player_id": "GB",
@@ -18585,6 +18585,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 8, 2026 • 4:48 AM PT",
+      "transaction_id": "1413904873128312832",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edgxrjiang"
+      ],
+      "added": [
+        {
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
