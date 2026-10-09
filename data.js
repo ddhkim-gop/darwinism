@@ -15764,7 +15764,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61
         },
         {
@@ -16040,7 +16040,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 61
         },
         {
@@ -16361,7 +16361,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 30
         },
         {
@@ -16577,7 +16577,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 10
         },
         {
@@ -16611,19 +16611,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 53
         },
         {
-          "player_id": "9506",
+          "player_id": "9508",
           "espn_id": null,
-          "name": "Sean Tucker",
+          "name": "Tyjae Spears",
           "position": "RB",
-          "team": "TB",
-          "birth_date": "2001-10-25",
-          "college": "Syracuse",
-          "height": "70",
-          "weight": "205",
+          "team": "TEN",
+          "birth_date": "2001-06-15",
+          "college": "Tulane",
+          "height": "71",
+          "weight": "200",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 155
+          "search_rank": 122
         },
         {
           "player_id": "9756",
@@ -16868,7 +16868,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 27
         },
         {
@@ -18585,6 +18585,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 9, 2026 • 7:51 AM PT",
+      "transaction_id": "1414313337654706176",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Sean Tucker",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
@@ -25140,7 +25168,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kaytron Allen",
           "position": "RB",
-          "team": "WAS"
+          "team": null
         }
       ],
       "faab": 0,
