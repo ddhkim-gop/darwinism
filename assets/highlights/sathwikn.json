@@ -1,6 +1,6 @@
 {
   "team": "sathwikn",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -162,6 +162,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/0ed6ba23-4648-495c-8424-0df9e8f1adcb/0ed6ba23-4648-495c-8424-0df9e8f1adcb.jpg",
       "published": "2026-10-04T17:45:37Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/0ed6ba23-4648-495c-8424-0df9e8f1adcb/0ed6ba23-4648-495c-8424-0df9e8f1adcb.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/_r4uSulSJAo",
+      "player": "Drake London",
+      "meta": "WR \u00b7 ATL",
+      "date": "2026-10-07",
+      "author": "AtlantaFalcons",
+      "text": "This Drake London route was nasty \ud83d\ude2e\u200d\ud83d\udca8 NFL+ #nfl #highlights #atlanta #football",
+      "verified": false,
+      "faves": 847,
+      "secs": 18,
+      "poster": "https://i.ytimg.com/vi/_r4uSulSJAo/hqdefault.jpg",
+      "published": "2026-10-07T17:23:27Z",
+      "youtube": "_r4uSulSJAo",
+      "author_name": "Atlanta Falcons",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2106766578385559556",
