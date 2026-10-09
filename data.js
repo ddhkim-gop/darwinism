@@ -15141,6 +15141,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "10235",
+          "espn_id": null,
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "birth_date": "2001-01-31",
+          "college": "Texas",
+          "height": "72",
+          "weight": "227",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 681
+        },
+        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15334,21 +15349,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "8207",
-          "espn_id": null,
-          "name": "Tyler Goodson",
-          "position": "RB",
-          "team": "DAL",
-          "birth_date": "2000-11-10",
-          "college": "Iowa",
-          "height": "69",
-          "weight": "197",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 480
         },
         {
           "player_id": "9486",
@@ -18585,6 +18585,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 8, 2026 • 10:32 PM PT",
+      "transaction_id": "1414172609100201984",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Goodson",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
