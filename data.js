@@ -16506,6 +16506,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
+          "player_id": "12504",
+          "espn_id": null,
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "2003-08-14",
+          "college": "Iowa",
+          "height": "73",
+          "weight": "224",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 173
+        },
+        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -16581,6 +16596,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
+          "player_id": "5045",
+          "espn_id": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "1995-10-10",
+          "college": "SMU",
+          "height": "76",
+          "weight": "216",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 72
+        },
+        {
           "player_id": "7547",
           "espn_id": null,
           "name": "Amon-Ra St. Brown",
@@ -16609,21 +16639,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 53
-        },
-        {
-          "player_id": "9508",
-          "espn_id": null,
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
-          "birth_date": "2001-06-15",
-          "college": "Tulane",
-          "height": "71",
-          "weight": "200",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 122
         },
         {
           "player_id": "9756",
@@ -17381,7 +17396,7 @@ window.__STATIC_DATA__ = {
       ]
     },
     {
-      "owner": "avecedgars15",
+      "owner": "edj11102024",
       "roster_id": 10,
       "players": [
         {
@@ -17776,7 +17791,7 @@ window.__STATIC_DATA__ = {
           "height": "76",
           "weight": "223",
           "years_exp": 6,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out",
           "search_rank": 107
         },
@@ -18603,6 +18618,56 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 5,
+      "created": "Oct 10, 2026 • 8:53 AM PT",
+      "transaction_id": "1414691257128603648",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 10, 2026 • 8:49 AM PT",
+      "transaction_id": "1414690325443641344",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
       "created": "Oct 9, 2026 • 12:15 PM PT",
       "transaction_id": "1414379750209695744",
       "type": "free_agent",
@@ -18686,7 +18751,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -18898,7 +18963,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -19388,7 +19453,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -19410,7 +19475,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -19704,7 +19769,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -19804,7 +19869,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -20300,7 +20365,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -20328,7 +20393,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -20852,7 +20917,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -20874,7 +20939,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -21340,7 +21405,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -21396,7 +21461,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -21912,7 +21977,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -21934,7 +21999,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [],
       "dropped": [
@@ -21956,7 +22021,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [],
       "dropped": [
@@ -22338,7 +22403,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -22498,7 +22563,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -22526,7 +22591,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -22620,7 +22685,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -22648,7 +22713,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -22676,7 +22741,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -23171,7 +23236,7 @@ window.__STATIC_DATA__ = {
       "status": "complete",
       "teams": [
         "Paul_Yoon",
-        "avecedgars15"
+        "edj11102024"
       ],
       "assets_received": {
         "Paul_Yoon": [
@@ -23186,7 +23251,7 @@ window.__STATIC_DATA__ = {
             "team": "CAR"
           }
         ],
-        "avecedgars15": [
+        "edj11102024": [
           {
             "name": "Jadarian Price",
             "position": "RB",
@@ -23230,7 +23295,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -23746,7 +23811,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -23774,7 +23839,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -24240,7 +24305,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -24412,7 +24477,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [
         {
@@ -24440,7 +24505,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [],
       "dropped": [
@@ -24618,7 +24683,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "avecedgars15"
+        "edj11102024"
       ],
       "added": [],
       "dropped": [
@@ -168435,8 +168500,8 @@ window.__STATIC_DATA__ = {
       "owner_id": "3",
       "previous_owner_id": "10",
       "owner_name": "Paul_Yoon",
-      "original_owner_name": "avecedgars15",
-      "previous_owner_name": "avecedgars15"
+      "original_owner_name": "edj11102024",
+      "previous_owner_name": "edj11102024"
     }
   ],
   "season_history": {
