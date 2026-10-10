@@ -15444,7 +15444,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 48
+          "search_rank": 47
         },
         {
           "player_id": "13298",
@@ -15690,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 34
+          "search_rank": 36
         },
         {
           "player_id": "11786",
@@ -15840,7 +15840,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 91
+          "search_rank": 92
         },
         {
           "player_id": "9488",
@@ -15906,7 +15906,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "11624",
@@ -16839,7 +16839,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 106
         },
         {
           "player_id": "8154",
@@ -16965,7 +16965,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 105
+          "search_rank": 103
         },
         {
           "player_id": "421",
@@ -17256,7 +17256,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 87
         },
         {
           "player_id": "4199",
@@ -17286,7 +17286,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 48
+          "search_rank": 50
         },
         {
           "player_id": "7002",
@@ -17381,7 +17381,7 @@ window.__STATIC_DATA__ = {
       ]
     },
     {
-      "owner": "edgxrjiang",
+      "owner": "avecedgars15",
       "roster_id": 10,
       "players": [
         {
@@ -17397,7 +17397,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11435",
@@ -17427,7 +17427,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 20
+          "search_rank": 22
         },
         {
           "player_id": "11584",
@@ -17502,7 +17502,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 147
+          "search_rank": 148
         },
         {
           "player_id": "13330",
@@ -17838,7 +17838,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 14
+          "search_rank": 15
         },
         {
           "player_id": "9484",
@@ -18686,7 +18686,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -18898,7 +18898,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -19388,7 +19388,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -19410,7 +19410,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -19704,7 +19704,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -19804,7 +19804,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -20300,7 +20300,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -20328,7 +20328,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -20852,7 +20852,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -20874,7 +20874,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -21340,7 +21340,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -21396,7 +21396,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -21912,7 +21912,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -21934,7 +21934,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [],
       "dropped": [
@@ -21956,7 +21956,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [],
       "dropped": [
@@ -22338,7 +22338,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -22498,7 +22498,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -22526,7 +22526,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -22620,7 +22620,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -22648,7 +22648,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -22676,7 +22676,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -23171,7 +23171,7 @@ window.__STATIC_DATA__ = {
       "status": "complete",
       "teams": [
         "Paul_Yoon",
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "assets_received": {
         "Paul_Yoon": [
@@ -23186,7 +23186,7 @@ window.__STATIC_DATA__ = {
             "team": "CAR"
           }
         ],
-        "edgxrjiang": [
+        "avecedgars15": [
           {
             "name": "Jadarian Price",
             "position": "RB",
@@ -23230,7 +23230,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -23746,7 +23746,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -23774,7 +23774,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -24240,7 +24240,7 @@ window.__STATIC_DATA__ = {
       "type": "waiver",
       "status": "failed",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -24412,7 +24412,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [
         {
@@ -24440,7 +24440,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [],
       "dropped": [
@@ -24618,7 +24618,7 @@ window.__STATIC_DATA__ = {
       "type": "free_agent",
       "status": "complete",
       "teams": [
-        "edgxrjiang"
+        "avecedgars15"
       ],
       "added": [],
       "dropped": [
@@ -168435,8 +168435,8 @@ window.__STATIC_DATA__ = {
       "owner_id": "3",
       "previous_owner_id": "10",
       "owner_name": "Paul_Yoon",
-      "original_owner_name": "edgxrjiang",
-      "previous_owner_name": "edgxrjiang"
+      "original_owner_name": "avecedgars15",
+      "previous_owner_name": "avecedgars15"
     }
   ],
   "season_history": {
