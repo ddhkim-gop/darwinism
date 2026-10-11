@@ -15141,21 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "10235",
-          "espn_id": null,
-          "name": "Roschon Johnson",
-          "position": "RB",
-          "team": "CHI",
-          "birth_date": "2001-01-31",
-          "college": "Texas",
-          "height": "72",
-          "weight": "227",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 681
-        },
-        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15169,6 +15154,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 98
+        },
+        {
+          "player_id": "12493",
+          "espn_id": null,
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC",
+          "birth_date": "2003-06-25",
+          "college": "Syracuse",
+          "height": "77",
+          "weight": "236",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 83
         },
         {
           "player_id": "12519",
@@ -15216,21 +15216,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
-          "player_id": "13294",
-          "espn_id": null,
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2004-06-02",
-          "college": "USC",
-          "height": "71",
-          "weight": "192",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 90
-        },
-        {
           "player_id": "13414",
           "espn_id": null,
           "name": "Kaelon Black",
@@ -15244,6 +15229,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 161
+        },
+        {
+          "player_id": "2747",
+          "espn_id": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "birth_date": "1991-05-12",
+          "college": "Marist",
+          "height": "70",
+          "weight": "190",
+          "years_exp": 11,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 124
         },
         {
           "player_id": "4034",
@@ -15332,7 +15332,7 @@ window.__STATIC_DATA__ = {
           "weight": "227",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 58
         },
         {
@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 111
         },
         {
@@ -15518,7 +15518,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 12
         },
         {
@@ -15533,7 +15533,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 65
         },
         {
@@ -15689,7 +15689,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 36
         },
         {
@@ -15764,7 +15764,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61
         },
         {
@@ -16211,7 +16211,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 686
         },
         {
@@ -16256,7 +16256,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -16316,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 55
         },
         {
@@ -16472,7 +16472,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 688
         },
         {
@@ -16652,7 +16652,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 99
         },
         {
@@ -16718,7 +16718,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 174
         },
         {
@@ -16763,7 +16763,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 39
         },
         {
@@ -16902,11 +16902,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 69
         },
         {
-          "player_id": "JAX",
+          "player_id": "LAC",
           "espn_id": null,
-          "name": "Jacksonville Jaguars",
+          "name": "Los Angeles Chargers",
           "position": "DEF",
-          "team": "JAX",
+          "team": "LAC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17013,6 +17013,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 79
         },
         {
+          "player_id": "4454",
+          "espn_id": 3045523,
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI",
+          "birth_date": "1995-08-04",
+          "college": "Eastern Washington",
+          "height": "73",
+          "weight": "205",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 673
+        },
+        {
           "player_id": "4993",
           "espn_id": 3116164,
           "name": "Mike Gesicki",
@@ -17069,7 +17084,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 42
         },
         {
@@ -17195,7 +17210,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 12
         },
         {
@@ -17285,7 +17300,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 85
         },
         {
@@ -17441,7 +17456,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 22
         },
         {
@@ -17531,7 +17546,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 109
         },
         {
@@ -17576,7 +17591,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 36
         },
         {
@@ -17807,7 +17822,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 4
         },
         {
@@ -18008,7 +18023,7 @@ window.__STATIC_DATA__ = {
           "weight": "248",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 128
         },
         {
@@ -18615,6 +18630,140 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 11:35 AM PT",
+      "transaction_id": "1415094405932584960",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 11:34 AM PT",
+      "transaction_id": "1415094302123511808",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 9:01 AM PT",
+      "transaction_id": "1415055701067231232",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 8:57 AM PT",
+      "transaction_id": "1415054662847021056",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 8:40 AM PT",
+      "transaction_id": "1415050385021808640",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
