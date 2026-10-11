@@ -15231,21 +15231,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
-          "player_id": "2747",
-          "espn_id": 2473037,
-          "name": "Jason Myers",
-          "position": "K",
-          "team": "SEA",
-          "birth_date": "1991-05-12",
-          "college": "Marist",
-          "height": "70",
-          "weight": "190",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 124
-        },
-        {
           "player_id": "4034",
           "espn_id": 3117251,
           "name": "Christian McCaffrey",
@@ -15274,6 +15259,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 94
+        },
+        {
+          "player_id": "650",
+          "espn_id": 10621,
+          "name": "Nick Folk",
+          "position": "K",
+          "team": "ATL",
+          "birth_date": "1984-11-05",
+          "college": "Arizona",
+          "height": "73",
+          "weight": "225",
+          "years_exp": 19,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 249
         },
         {
           "player_id": "6786",
@@ -15749,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 179
         },
         {
@@ -15995,7 +15995,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 460
         },
         {
@@ -16219,7 +16219,7 @@ window.__STATIC_DATA__ = {
           "espn_id": null,
           "name": "Marvin Harrison",
           "position": "WR",
-          "team": "ARI",
+          "team": "HOU",
           "birth_date": "2002-08-11",
           "college": "Ohio State",
           "height": "75",
@@ -17069,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 131
         },
         {
@@ -17159,7 +17159,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 40
         },
         {
@@ -17546,7 +17546,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 109
         },
         {
@@ -17732,7 +17732,7 @@ window.__STATIC_DATA__ = {
           "weight": "221",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 45
         },
         {
@@ -18630,6 +18630,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 12:45 PM PT",
+      "transaction_id": "1415112179035676672",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Nick Folk",
+          "position": "K",
+          "team": "ATL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
