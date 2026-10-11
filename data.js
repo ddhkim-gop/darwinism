@@ -16185,6 +16185,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 147
         },
         {
+          "player_id": "11563",
+          "espn_id": null,
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "birth_date": "2000-02-25",
+          "college": "Oregon",
+          "height": "74",
+          "weight": "217",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 45
+        },
+        {
           "player_id": "11577",
           "espn_id": null,
           "name": "Will Shipley",
@@ -16196,7 +16211,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 686
         },
         {
@@ -16303,21 +16318,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 55
-        },
-        {
-          "player_id": "7567",
-          "espn_id": null,
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "birth_date": "1999-03-14",
-          "college": "Memphis",
-          "height": "69",
-          "weight": "200",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 86
         },
         {
           "player_id": "8130",
@@ -18615,6 +18615,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 6:42 AM PT",
+      "transaction_id": "1415020805288423424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
