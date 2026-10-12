@@ -15689,7 +15689,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 35
         },
         {
@@ -16983,6 +16983,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
+          "player_id": "3271",
+          "espn_id": 2573401,
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR",
+          "birth_date": "1993-01-01",
+          "college": "Western Kentucky",
+          "height": "78",
+          "weight": "253",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 652
+        },
+        {
           "player_id": "421",
           "espn_id": 12483,
           "name": "Matthew Stafford",
@@ -17026,21 +17041,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 673
-        },
-        {
-          "player_id": "4993",
-          "espn_id": 3116164,
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN",
-          "birth_date": "1995-10-03",
-          "college": "Penn State",
-          "height": "78",
-          "weight": "245",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 448
         },
         {
           "player_id": "5846",
@@ -18630,6 +18630,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 12, 2026 • 1:56 AM PT",
+      "transaction_id": "1415311129722298368",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
