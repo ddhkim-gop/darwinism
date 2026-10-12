@@ -16506,21 +16506,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
-          "player_id": "12504",
-          "espn_id": null,
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2003-08-14",
-          "college": "Iowa",
-          "height": "73",
-          "weight": "224",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 173
-        },
-        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -16609,6 +16594,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 72
+        },
+        {
+          "player_id": "5995",
+          "espn_id": 4038441,
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1997-11-14",
+          "college": "Oklahoma State",
+          "height": "70",
+          "weight": "195",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 222
         },
         {
           "player_id": "7547",
@@ -17069,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 131
         },
         {
@@ -18630,6 +18630,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 11, 2026 • 4:04 PM PT",
+      "transaction_id": "1415162188619845632",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
