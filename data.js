@@ -15141,6 +15141,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "11439",
+          "espn_id": null,
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE",
+          "birth_date": "2000-09-13",
+          "college": "Youngstown State",
+          "height": "67",
+          "weight": "187",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 698
+        },
+        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15216,6 +15231,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
+          "player_id": "2747",
+          "espn_id": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "birth_date": "1991-05-12",
+          "college": "Marist",
+          "height": "70",
+          "weight": "190",
+          "years_exp": 11,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 125
+        },
+        {
           "player_id": "4034",
           "espn_id": 3117251,
           "name": "Christian McCaffrey",
@@ -15244,36 +15274,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 94
-        },
-        {
-          "player_id": "6039",
-          "espn_id": 3915411,
-          "name": "Ty Johnson",
-          "position": "RB",
-          "team": "BUF",
-          "birth_date": "1997-09-17",
-          "college": "Maryland",
-          "height": "70",
-          "weight": "210",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 534
-        },
-        {
-          "player_id": "650",
-          "espn_id": 10621,
-          "name": "Nick Folk",
-          "position": "K",
-          "team": "ATL",
-          "birth_date": "1984-11-05",
-          "college": "Arizona",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 19,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 249
         },
         {
           "player_id": "6786",
@@ -15381,11 +15381,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 187
         },
         {
-          "player_id": "DEN",
+          "player_id": "KC",
           "espn_id": null,
-          "name": "Denver Broncos",
+          "name": "Kansas City Chiefs",
           "position": "DEF",
-          "team": "DEN",
+          "team": "KC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 110
         },
         {
@@ -15533,7 +15533,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 65
         },
         {
@@ -15749,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 179
         },
         {
@@ -15950,7 +15950,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 132
         },
         {
@@ -16040,7 +16040,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -16055,8 +16055,23 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 11
+        },
+        {
+          "player_id": "6804",
+          "espn_id": 4036378,
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
+          "birth_date": "1998-11-02",
+          "college": "Utah State",
+          "height": "76",
+          "weight": "219",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 68
         },
         {
           "player_id": "6904",
@@ -16104,19 +16119,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 8
         },
         {
-          "player_id": "9511",
+          "player_id": "9480",
           "espn_id": null,
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2002-01-17",
-          "college": "East Carolina",
-          "height": "68",
-          "weight": "191",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "birth_date": "2000-12-27",
+          "college": "Penn State",
+          "height": "76",
+          "weight": "253",
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 148
+          "search_rank": 104
         }
       ]
     },
@@ -16181,7 +16196,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "search_rank": 686
         },
         {
@@ -16196,7 +16211,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "search_rank": 74
         },
         {
@@ -16547,7 +16562,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 10
         },
         {
@@ -16733,7 +16748,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "search_rank": 39
         },
         {
@@ -16853,7 +16868,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 27
         },
         {
@@ -16949,7 +16964,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 103
         },
         {
@@ -17054,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "search_rank": 43
         },
         {
@@ -17184,21 +17199,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
-          "player_id": "13264",
-          "espn_id": null,
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
-          "birth_date": "2000-07-06",
-          "college": "Delta State",
-          "height": "71",
-          "weight": "186",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 628
-        },
-        {
           "player_id": "13305",
           "espn_id": null,
           "name": "Mike Washington",
@@ -17214,19 +17214,34 @@ window.__STATIC_DATA__ = {
           "search_rank": 123
         },
         {
-          "player_id": "13425",
+          "player_id": "13417",
           "espn_id": null,
-          "name": "Jalon Daniels",
-          "position": "QB",
-          "team": "TB",
-          "birth_date": "2002-10-29",
-          "college": "Kansas",
-          "height": "72",
-          "weight": "219",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "2002-12-18",
+          "college": "Ole Miss",
+          "height": "74",
+          "weight": "207",
           "years_exp": 0,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 111
+        },
+        {
+          "player_id": "1479",
+          "espn_id": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "birth_date": "1992-04-27",
+          "college": "California",
+          "height": "74",
+          "weight": "211",
+          "years_exp": 13,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 647
+          "search_rank": 180
         },
         {
           "player_id": "2216",
@@ -17285,8 +17300,23 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 50
+        },
+        {
+          "player_id": "5189",
+          "espn_id": 4034949,
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "birth_date": "1995-09-13",
+          "college": "Florida",
+          "height": "71",
+          "weight": "190",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 174
         },
         {
           "player_id": "7002",
@@ -17319,21 +17349,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 23
         },
         {
-          "player_id": "7839",
-          "espn_id": null,
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
-          "birth_date": "1999-07-21",
-          "college": "Florida",
-          "height": "71",
-          "weight": "185",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 155
-        },
-        {
           "player_id": "9228",
           "espn_id": null,
           "name": "Bryce Young",
@@ -17362,6 +17377,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 1
+        },
+        {
+          "player_id": "IND",
+          "espn_id": null,
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         },
         {
           "player_id": "MIN",
@@ -17426,7 +17456,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 22
         },
         {
@@ -17516,7 +17546,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 109
         },
         {
@@ -17565,19 +17595,34 @@ window.__STATIC_DATA__ = {
           "search_rank": 36
         },
         {
-          "player_id": "7528",
+          "player_id": "7567",
           "espn_id": null,
-          "name": "Najee Harris",
+          "name": "Kenny Gainwell",
           "position": "RB",
-          "team": "NYG",
-          "birth_date": "1998-03-09",
-          "college": "Alabama",
-          "height": "73",
-          "weight": "232",
+          "team": "TB",
+          "birth_date": "1999-03-14",
+          "college": "Memphis",
+          "height": "69",
+          "weight": "200",
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 170
+          "search_rank": 86
+        },
+        {
+          "player_id": "7600",
+          "espn_id": null,
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT",
+          "birth_date": "1998-10-25",
+          "college": "Penn State",
+          "height": "77",
+          "weight": "258",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 230
         },
         {
           "player_id": "8167",
@@ -17593,21 +17638,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 64
-        },
-        {
-          "player_id": "9482",
-          "espn_id": null,
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "birth_date": "2001-07-06",
-          "college": "Notre Dame",
-          "height": "76",
-          "weight": "256",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 466
         },
         {
           "player_id": "9493",
@@ -17952,6 +17982,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 572
         },
         {
+          "player_id": "13274",
+          "espn_id": null,
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT",
+          "birth_date": "2003-12-02",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "206",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 194
+        },
+        {
           "player_id": "1466",
           "espn_id": 15847,
           "name": "Travis Kelce",
@@ -18023,7 +18068,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 34
         },
         {
@@ -18602,6 +18647,256 @@ window.__STATIC_DATA__ = {
   "transactions": [
     {
       "season": "2026",
+      "week": 6,
+      "created": "Oct 13, 2026 • 11:24 PM PT",
+      "transaction_id": "1415997737865883648",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 13, 2026 • 11:22 PM PT",
+      "transaction_id": "1415997087971098624",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 13, 2026 • 11:21 PM PT",
+      "transaction_id": "1415996899508391936",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nick Folk",
+          "position": "K",
+          "team": "ATL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 8:41 PM PT",
+      "transaction_id": "1415956782865510400",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 1,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 8:40 PM PT",
+      "transaction_id": "1415956518175580160",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 2,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 6:08 PM PT",
+      "transaction_id": "1415918177514180608",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 6:08 PM PT",
+      "transaction_id": "1415918107540676608",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 6:08 PM PT",
+      "transaction_id": "1415918085507997696",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 6:05 PM PT",
+      "transaction_id": "1415917540814659584",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 2,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 6:04 PM PT",
+      "transaction_id": "1415917258114367488",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
       "week": 5,
       "created": "Oct 13, 2026 • 5:53 PM PT",
       "transaction_id": "1415914389864824832",
@@ -18643,6 +18938,206 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 4:48 PM PT",
+      "transaction_id": "1415897982561247232",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jalon Daniels",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 4:47 PM PT",
+      "transaction_id": "1415897821927731200",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 4:47 PM PT",
+      "transaction_id": "1415897692327936000",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 4:46 PM PT",
+      "transaction_id": "1415897581850054656",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 4:28 PM PT",
+      "transaction_id": "1415893025850236928",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 6,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 3:34 PM PT",
+      "transaction_id": "1415879471147364352",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Germie Bernard",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 12,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 3:33 PM PT",
+      "transaction_id": "1415879128158150656",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 5,
+      "notes": "Unfortunately, your roster will have too many players after this transaction."
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 3:32 PM PT",
+      "transaction_id": "1415878978333384704",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "Unfortunately, your roster will have too many players after this transaction."
     },
     {
       "season": "2026",
