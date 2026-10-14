@@ -15503,7 +15503,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -15950,7 +15950,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 132
         },
         {
@@ -16346,7 +16346,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 29
         },
         {
@@ -16380,11 +16380,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 101
         },
         {
-          "player_id": "PHI",
+          "player_id": "PIT",
           "espn_id": null,
-          "name": "Philadelphia Eagles",
+          "name": "Pittsburgh Steelers",
           "position": "DEF",
-          "team": "PHI",
+          "team": "PIT",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17240,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 180
         },
         {
@@ -18645,6 +18645,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 9:07 AM PT",
+      "transaction_id": "1416144502233505792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Pittsburgh Steelers",
+          "position": "DEF",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Philadelphia Eagles",
+          "position": "DEF",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
