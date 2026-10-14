@@ -15421,7 +15421,7 @@ window.__STATIC_DATA__ = {
           "espn_id": null,
           "name": "Harrison Mevis",
           "position": "K",
-          "team": "LAR",
+          "team": null,
           "birth_date": "2002-03-27",
           "college": "Missouri",
           "height": "71",
@@ -16170,36 +16170,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 149
         },
         {
-          "player_id": "11563",
-          "espn_id": null,
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "birth_date": "2000-02-25",
-          "college": "Oregon",
-          "height": "74",
-          "weight": "217",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 46
-        },
-        {
-          "player_id": "11577",
-          "espn_id": null,
-          "name": "Will Shipley",
-          "position": "RB",
-          "team": "PHI",
-          "birth_date": "2002-08-29",
-          "college": "Clemson",
-          "height": "71",
-          "weight": "209",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 686
-        },
-        {
           "player_id": "11628",
           "espn_id": null,
           "name": "Marvin Harrison",
@@ -16230,6 +16200,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 95
         },
         {
+          "player_id": "13150",
+          "espn_id": null,
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2001-11-22",
+          "college": "Tarleton State",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 658
+        },
+        {
           "player_id": "4035",
           "espn_id": 3054850,
           "name": "Alvin Kamara",
@@ -16258,6 +16243,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 39
+        },
+        {
+          "player_id": "4227",
+          "espn_id": 3055899,
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC",
+          "birth_date": "1995-07-14",
+          "college": "Georgia Tech",
+          "height": "76",
+          "weight": "205",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 155
         },
         {
           "player_id": "5012",
@@ -16868,7 +16868,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 27
         },
         {
@@ -18645,6 +18645,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 4:29 AM PT",
+      "transaction_id": "1416074576034611200",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Will Shipley",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 4:29 AM PT",
+      "transaction_id": "1416074470279380992",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
