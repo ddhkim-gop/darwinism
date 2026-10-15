@@ -16085,7 +16085,7 @@ window.__STATIC_DATA__ = {
           "weight": "223",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 26
         },
         {
@@ -16132,6 +16132,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 104
+        },
+        {
+          "player_id": "CAR",
+          "espn_id": null,
+          "name": "Carolina Panthers",
+          "position": "DEF",
+          "team": "CAR",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         }
       ]
     },
@@ -16690,21 +16705,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 58
-        },
-        {
-          "player_id": "11643",
-          "espn_id": null,
-          "name": "Jaylen Wright",
-          "position": "RB",
-          "team": "MIA",
-          "birth_date": "2003-04-01",
-          "college": "Tennessee",
-          "height": "70",
-          "weight": "205",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 174
         },
         {
           "player_id": "1166",
@@ -18645,6 +18645,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 9:21 AM PT",
+      "transaction_id": "1416510230702964736",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Carolina Panthers",
+          "position": "DEF",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 9:14 AM PT",
+      "transaction_id": "1416508512254636032",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
