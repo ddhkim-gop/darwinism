@@ -17706,6 +17706,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 11
         },
         {
+          "player_id": "11647",
+          "espn_id": null,
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2001-08-28",
+          "college": "Troy",
+          "height": "68",
+          "weight": "215",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 141
+        },
+        {
           "player_id": "12507",
           "espn_id": null,
           "name": "Omarion Hampton",
@@ -17796,21 +17811,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 77
         },
         {
-          "player_id": "6819",
-          "espn_id": 4035687,
-          "name": "Michael Pittman",
-          "position": "WR",
-          "team": "PIT",
-          "birth_date": "1997-10-05",
-          "college": "USC",
-          "height": "76",
-          "weight": "223",
-          "years_exp": 6,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 106
-        },
-        {
           "player_id": "7564",
           "espn_id": null,
           "name": "Ja'Marr Chase",
@@ -17824,21 +17824,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 3
-        },
-        {
-          "player_id": "8142",
-          "espn_id": null,
-          "name": "Alec Pierce",
-          "position": "WR",
-          "team": "IND",
-          "birth_date": "2000-05-02",
-          "college": "Cincinnati",
-          "height": "75",
-          "weight": "211",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 94
         },
         {
           "player_id": "8146",
@@ -17884,6 +17869,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 64
+        },
+        {
+          "player_id": "9501",
+          "espn_id": null,
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "2000-12-08",
+          "college": "Liberty",
+          "height": "68",
+          "weight": "185",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 494
         },
         {
           "player_id": "9758",
@@ -18645,6 +18645,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 4:27 AM PT",
+      "transaction_id": "1416436243440373760",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 4:26 AM PT",
+      "transaction_id": "1416436144828137472",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Alec Pierce",
+          "position": "WR",
+          "team": "IND"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
