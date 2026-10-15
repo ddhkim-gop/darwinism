@@ -15141,21 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11439",
-          "espn_id": null,
-          "name": "Jaleel McLaughlin",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2000-09-13",
-          "college": "Youngstown State",
-          "height": "67",
-          "weight": "187",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 698
-        },
-        {
           "player_id": "11581",
           "espn_id": null,
           "name": "MarShawn Lloyd",
@@ -15169,6 +15154,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 98
+        },
+        {
+          "player_id": "12469",
+          "espn_id": null,
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "birth_date": "2004-09-14",
+          "college": "Tennessee",
+          "height": "68",
+          "weight": "200",
+          "years_exp": 1,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 129
         },
         {
           "player_id": "12519",
@@ -15417,21 +15417,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 68
         },
         {
-          "player_id": "12015",
-          "espn_id": null,
-          "name": "Harrison Mevis",
-          "position": "K",
-          "team": null,
-          "birth_date": "2002-03-27",
-          "college": "Missouri",
-          "height": "71",
-          "weight": "243",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 154
-        },
-        {
           "player_id": "12518",
           "espn_id": null,
           "name": "Tyler Warren",
@@ -15460,6 +15445,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 110
+        },
+        {
+          "player_id": "13545",
+          "espn_id": null,
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "birth_date": "2003-06-12",
+          "college": "Florida",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 194
         },
         {
           "player_id": "2133",
@@ -16442,7 +16442,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 20
         },
         {
@@ -17490,6 +17490,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 44
         },
         {
+          "player_id": "12536",
+          "espn_id": null,
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "2002-09-04",
+          "college": "Iowa State",
+          "height": "71",
+          "weight": "201",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 190
+        },
+        {
           "player_id": "12711",
           "espn_id": null,
           "name": "Tyler Loop",
@@ -17535,34 +17550,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 147
         },
         {
-          "player_id": "13330",
+          "player_id": "13294",
           "espn_id": null,
-          "name": "Kenyon Sadiq",
-          "position": "TE",
-          "team": "NYJ",
-          "birth_date": "2005-03-04",
-          "college": "Oregon",
-          "height": "75",
-          "weight": "241",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 109
-        },
-        {
-          "player_id": "13424",
-          "espn_id": null,
-          "name": "Seth McGowan",
-          "position": "RB",
-          "team": "IND",
-          "birth_date": "2001-10-23",
-          "college": "Kentucky",
-          "height": "72",
-          "weight": "223",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2004-06-02",
+          "college": "USC",
+          "height": "71",
+          "weight": "192",
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 389
+          "search_rank": 91
         },
         {
           "player_id": "3163",
@@ -17655,11 +17655,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "CIN",
+          "player_id": "SF",
           "espn_id": null,
-          "name": "Cincinnati Bengals",
+          "name": "San Francisco 49ers",
           "position": "DEF",
-          "team": "CIN",
+          "team": "SF",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18645,6 +18645,146 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 5:03 PM PT",
+      "transaction_id": "1416264176745152512",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 5:00 PM PT",
+      "transaction_id": "1416263379122704384",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 4:59 PM PT",
+      "transaction_id": "1416263283710726144",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 4:21 PM PT",
+      "transaction_id": "1416253525834452992",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 4:19 PM PT",
+      "transaction_id": "1416253124187815936",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Harrison Mevis",
+          "position": "K",
+          "team": null
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
