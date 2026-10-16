@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Seahawks/status/2110933256535503138",
+      "player": "Jason Myers",
+      "meta": "K \u00b7 SEA",
+      "date": "2026-10-16",
+      "author": "Seahawks",
+      "text": "JASON. MYERS.",
+      "verified": true,
+      "faves": 453,
+      "secs": 0,
+      "game_id": "401872995",
+      "game_time": "Q4 0:03",
+      "play_key": "401872995:4018729954412",
+      "played_at": "2026-10-16T03:17:51Z",
+      "poster": "https://pbs.twimg.com/tweet_video_thumb/HUuKhw2bIAAed_f.jpg",
+      "published": "2026-10-16T03:18:02Z",
+      "video": "https://video.twimg.com/tweet_video/HUuKhw2bIAAed_f.mp4",
+      "author_name": "Seattle Seahawks",
+      "avatar": "https://pbs.twimg.com/profile_images/2110082485757652992/TivFxPcI_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2110892382388375831",
       "player": "Jason Myers",
       "meta": "K \u00b7 SEA",

@@ -1349,6 +1349,26 @@
   "published": "2026-10-11T14:53:06Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1011/896e88af-2671-49dd-84e4-6c065741472f/896e88af-2671-49dd-84e4-6c065741472f.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50193012/broncos-strike-first-jk-dobbins-4-yard-rushing-td": {
+  "espn_game": "401872995",
+  "game_id": "401872995",
+  "game_time": "Q2 12:52",
+  "play_key": "401872995:401872995990",
+  "played_at": "2026-10-16T00:52:50Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/fcbc10f7-e11f-4afc-a3f3-d9956036dc8d/fcbc10f7-e11f-4afc-a3f3-d9956036dc8d.jpg",
+  "published": "2026-10-16T01:15:17Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1016/fcbc10f7-e11f-4afc-a3f3-d9956036dc8d/fcbc10f7-e11f-4afc-a3f3-d9956036dc8d.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50193066/rj-harvey-punches-the-broncos": {
+  "espn_game": "401872995",
+  "game_id": "401872995",
+  "game_time": "Q2 5:15",
+  "play_key": "401872995:4018729951469",
+  "played_at": "2026-10-16T01:11:30Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/382eebee-9cc2-4d05-bb79-110e89d34df7/382eebee-9cc2-4d05-bb79-110e89d34df7.jpg",
+  "published": "2026-10-16T01:23:24Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1016/382eebee-9cc2-4d05-bb79-110e89d34df7/382eebee-9cc2-4d05-bb79-110e89d34df7.mp4"
+ },
  "https://www.youtube.com/shorts/-150A9vaDV0": {
   "poster": "https://i.ytimg.com/vi/-150A9vaDV0/hqdefault.jpg",
   "published": "2026-10-14T17:00:35Z",
@@ -1453,6 +1473,11 @@
   "poster": "https://i.ytimg.com/vi/2QvtJzOosng/hqdefault.jpg",
   "published": "2026-10-05T01:33:59Z",
   "youtube": "2QvtJzOosng"
+ },
+ "https://www.youtube.com/shorts/2lm4B4dR7iI": {
+  "poster": "https://i.ytimg.com/vi/2lm4B4dR7iI/hqdefault.jpg",
+  "published": "2026-10-15T20:50:47Z",
+  "youtube": "2lm4B4dR7iI"
  },
  "https://www.youtube.com/shorts/2wA0CWNraGk": {
   "poster": "https://i.ytimg.com/vi/2wA0CWNraGk/hqdefault.jpg",
@@ -1764,6 +1789,11 @@
   "poster": "https://i.ytimg.com/vi/EYTomUdkxYw/hqdefault.jpg",
   "published": "2026-09-28T23:03:30Z",
   "youtube": "EYTomUdkxYw"
+ },
+ "https://www.youtube.com/shorts/EbbsPCWHHWE": {
+  "poster": "https://i.ytimg.com/vi/EbbsPCWHHWE/hqdefault.jpg",
+  "published": "2026-10-15T16:30:47Z",
+  "youtube": "EbbsPCWHHWE"
  },
  "https://www.youtube.com/shorts/Eo07ew-5nKI": {
   "poster": "https://i.ytimg.com/vi/Eo07ew-5nKI/hqdefault.jpg",
@@ -2275,6 +2305,15 @@
   "published": "2026-10-04T17:12:26Z",
   "youtube": "VHcNnHIo9Fo"
  },
+ "https://www.youtube.com/shorts/VvYfa9HX288": {
+  "game_id": "401872995",
+  "game_time": "Q2 12:52",
+  "play_key": "401872995:401872995990",
+  "played_at": "2026-10-16T00:52:50Z",
+  "poster": "https://i.ytimg.com/vi/VvYfa9HX288/hqdefault.jpg",
+  "published": "2026-10-16T00:59:28Z",
+  "youtube": "VvYfa9HX288"
+ },
  "https://www.youtube.com/shorts/W8gQQSo0yps": {
   "game_id": "401872978",
   "game_time": "Q3 9:33",
@@ -2650,6 +2689,11 @@
   "published": "2026-10-01T19:13:40Z",
   "youtube": "flJTQm-XsNs"
  },
+ "https://www.youtube.com/shorts/fmwzaAO-JKM": {
+  "poster": "https://i.ytimg.com/vi/fmwzaAO-JKM/hqdefault.jpg",
+  "published": "2026-10-15T20:43:06Z",
+  "youtube": "fmwzaAO-JKM"
+ },
  "https://www.youtube.com/shorts/g-a_VJnJeFU": {
   "poster": "https://i.ytimg.com/vi/g-a_VJnJeFU/hqdefault.jpg",
   "published": "2026-10-04T12:42:14Z",
@@ -2750,6 +2794,11 @@
   "poster": "https://i.ytimg.com/vi/jeMeiMfdJOo/hqdefault.jpg",
   "published": "2026-09-30T21:00:08Z",
   "youtube": "jeMeiMfdJOo"
+ },
+ "https://www.youtube.com/shorts/jp0_pMPqxIU": {
+  "poster": "https://i.ytimg.com/vi/jp0_pMPqxIU/hqdefault.jpg",
+  "published": "2026-10-15T16:00:15Z",
+  "youtube": "jp0_pMPqxIU"
  },
  "https://www.youtube.com/shorts/kJmscR81y9U": {
   "poster": "https://i.ytimg.com/vi/kJmscR81y9U/hqdefault.jpg",
@@ -3144,6 +3193,11 @@
   "published": "2026-10-02T00:19:48Z",
   "youtube": "tI0d1QAMh94"
  },
+ "https://www.youtube.com/shorts/tf50w_sKhFg": {
+  "poster": "https://i.ytimg.com/vi/tf50w_sKhFg/hqdefault.jpg",
+  "published": "2026-10-15T23:00:11Z",
+  "youtube": "tf50w_sKhFg"
+ },
  "https://www.youtube.com/shorts/tmX8nyYlZgQ": {
   "poster": "https://i.ytimg.com/vi/tmX8nyYlZgQ/hqdefault.jpg",
   "published": "2026-10-06T02:49:20Z",
@@ -3249,6 +3303,11 @@
   "published": "2026-09-28T00:10:28Z",
   "youtube": "xcxODhXfPdI"
  },
+ "https://www.youtube.com/shorts/xizuDLcXZ5Q": {
+  "poster": "https://i.ytimg.com/vi/xizuDLcXZ5Q/hqdefault.jpg",
+  "published": "2026-10-15T15:02:22Z",
+  "youtube": "xizuDLcXZ5Q"
+ },
  "https://www.youtube.com/shorts/xufe2KU-xvg": {
   "game_id": "401872979",
   "game_time": "Q4 6:52",
@@ -3277,6 +3336,11 @@
   "published": "2026-09-27T21:16:25Z",
   "youtube": "yDoY4w2Afdc"
  },
+ "https://www.youtube.com/shorts/yStNOA8yreI": {
+  "poster": "https://i.ytimg.com/vi/yStNOA8yreI/hqdefault.jpg",
+  "published": "2026-10-16T01:11:02Z",
+  "youtube": "yStNOA8yreI"
+ },
  "https://www.youtube.com/shorts/yXsJOzmWM-0": {
   "game_id": "401872983",
   "game_time": "Q4 3:01",
@@ -3300,6 +3364,15 @@
   "poster": "https://i.ytimg.com/vi/ygsGZYzjH-M/hqdefault.jpg",
   "published": "2026-10-07T20:45:09Z",
   "youtube": "ygsGZYzjH-M"
+ },
+ "https://www.youtube.com/shorts/yipmZrAZw5Q": {
+  "game_id": "401872995",
+  "game_time": "Q2 5:15",
+  "play_key": "401872995:4018729951469",
+  "played_at": "2026-10-16T01:11:30Z",
+  "poster": "https://i.ytimg.com/vi/yipmZrAZw5Q/hqdefault.jpg",
+  "published": "2026-10-16T01:23:01Z",
+  "youtube": "yipmZrAZw5Q"
  },
  "https://www.youtube.com/shorts/ywv0h0CzaSs": {
   "poster": "https://i.ytimg.com/vi/ywv0h0CzaSs/hqdefault.jpg",
@@ -5372,6 +5445,15 @@
  "https://x.com/ScottPetrak/status/2095185248669569246": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2095185195489964032/img/l7n24u9uf6eeFci7.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2095185195489964032/vid/avc1/1920x1080/AoPcffqNY_mswUgo.mp4?tag=29"
+ },
+ "https://x.com/Seahawks/status/2110933256535503138": {
+  "game_id": "401872995",
+  "game_time": "Q4 0:03",
+  "play_key": "401872995:4018729954412",
+  "played_at": "2026-10-16T03:17:51Z",
+  "poster": "https://pbs.twimg.com/tweet_video_thumb/HUuKhw2bIAAed_f.jpg",
+  "published": "2026-10-16T03:18:02Z",
+  "video": "https://video.twimg.com/tweet_video/HUuKhw2bIAAed_f.mp4"
  },
  "https://x.com/SleeperCarolina/status/2089450832764850182": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2089443433836355584/img/oNfTvSMGW-b9Qagj.jpg?name=orig",

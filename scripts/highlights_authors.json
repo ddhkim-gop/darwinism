@@ -60,7 +60,7 @@
   "verified": false
  },
  "Broncos": {
-  "avatar": "https://pbs.twimg.com/profile_images/2110023123517190144/RPbz56R6_normal.jpg",
+  "avatar": "",
   "name": "Denver Broncos",
   "verified": true
  },
@@ -300,7 +300,7 @@
   "verified": true
  },
  "Seahawks": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2110082485757652992/TivFxPcI_normal.jpg",
   "name": "Seattle Seahawks",
   "verified": true
  },
