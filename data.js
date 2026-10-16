@@ -15362,7 +15362,7 @@ window.__STATIC_DATA__ = {
           "weight": "206",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 203
         },
         {
@@ -15443,7 +15443,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 48
         },
         {
@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 110
         },
         {
@@ -15533,7 +15533,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 65
         },
         {
@@ -15689,7 +15689,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 35
         },
         {
@@ -15749,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 179
         },
         {
@@ -16040,7 +16040,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 61
         },
         {
@@ -16055,7 +16055,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 11
         },
         {
@@ -16561,7 +16561,7 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "205",
           "years_exp": 8,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out",
           "search_rank": 10
         },
@@ -16622,7 +16622,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 203
         },
         {
@@ -16722,6 +16722,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 266
         },
         {
+          "player_id": "12499",
+          "espn_id": null,
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
+          "birth_date": "2003-06-03",
+          "college": "Stanford",
+          "height": "74",
+          "weight": "206",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 185
+        },
+        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16763,7 +16778,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 15
         },
         {
@@ -16887,11 +16902,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 68
         },
         {
-          "player_id": "LAC",
+          "player_id": "9511",
           "espn_id": null,
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
+          "name": "Keaton Mitchell",
+          "position": "RB",
           "team": "LAC",
+          "birth_date": "2002-01-17",
+          "college": "East Carolina",
+          "height": "68",
+          "weight": "191",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 148
+        },
+        {
+          "player_id": "JAX",
+          "espn_id": null,
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17039,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 73
         },
         {
@@ -17144,7 +17174,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 40
         },
         {
@@ -17762,7 +17792,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 153
         },
         {
@@ -18068,7 +18098,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 34
         },
         {
@@ -18645,6 +18675,78 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 16, 2026 • 1:14 PM PT",
+      "transaction_id": "1416931375361048576",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 16, 2026 • 1:14 PM PT",
+      "transaction_id": "1416931298055847936",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 16, 2026 • 1:13 PM PT",
+      "transaction_id": "1416931228719788032",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
