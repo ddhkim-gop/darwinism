@@ -23,6 +23,15 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 6 — The Crowded Middle",
+            date: "2026-10-15",
+            duration: "10:22",
+            slug: "2026-06-the-crowded-middle",
+            audio: "assets/podcasts/2026/ep06-the-crowded-middle.mp3",
+            art: "assets/podcasts/art/2026-06-the-crowded-middle.png?v=202610160427",
+            description: "eikichi is the last unbeaten at 5-0, and nobody is winless after Kicked in the Dicker beat MickeyC's, who left 27.2 points on the bench. Puka Doncic's 164.64 over Cea5e and De5i5t's 75.72 was the week's high, low and biggest margin, Drake Maye's 39.46 led the league, and six teams now sit at 2-3.",
+        },
+        {
             title: "Episode 5 — One Left Standing",
             date: "2026-10-06",
             duration: "8:40",

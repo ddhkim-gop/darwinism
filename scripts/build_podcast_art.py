@@ -40,6 +40,7 @@ EPISODES = [
     ("2026-03-decided-by-inches",        "03", "#f6ad55", "CeeDee Lamb",   "late TD pass to CeeDee Lamb"),
     ("2026-04-the-unbeaten-three",       "04", "#e5536b", "Jahmyr Gibbs",  "shoulders his way in"),
     ("2026-05-one-left-standing",        "05", "#4299e1", "Tetairoa McMillan", "shreds Lions secondary"),
+    ("2026-06-the-crowded-middle",       "06", "#9f7aea", "Drake Maye",    "374 passing yards"),
 ]
 
 
