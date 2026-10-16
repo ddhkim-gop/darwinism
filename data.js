@@ -15302,7 +15302,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 42
         },
         {
@@ -15417,6 +15417,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 68
         },
         {
+          "player_id": "11783",
+          "espn_id": null,
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "birth_date": "1999-10-27",
+          "college": "Southeast Missouri State",
+          "height": "73",
+          "weight": "205",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
+        },
+        {
           "player_id": "12518",
           "espn_id": null,
           "name": "Tyler Warren",
@@ -15475,21 +15490,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 46
-        },
-        {
-          "player_id": "3321",
-          "espn_id": 3116406,
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
-          "birth_date": "1994-03-01",
-          "college": "West Alabama",
-          "height": "70",
-          "weight": "191",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": "",
-          "search_rank": 145
         },
         {
           "player_id": "5967",
@@ -16457,23 +16457,8 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 20
-        },
-        {
-          "player_id": "11630",
-          "espn_id": null,
-          "name": "Roman Wilson",
-          "position": "WR",
-          "team": "PIT",
-          "birth_date": "2001-06-19",
-          "college": "Michigan",
-          "height": "72",
-          "weight": "192",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 688
         },
         {
           "player_id": "11631",
@@ -16624,6 +16609,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 7
+        },
+        {
+          "player_id": "7571",
+          "espn_id": null,
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "birth_date": "1999-11-29",
+          "college": "Minnesota",
+          "height": "73",
+          "weight": "193",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 203
         },
         {
           "player_id": "8148",
@@ -18645,6 +18645,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 5:21 PM PT",
+      "transaction_id": "1416631096862359552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 4:02 PM PT",
+      "transaction_id": "1416611161389993984",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
