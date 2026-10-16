@@ -1,8 +1,29 @@
 {
   "team": "Paul_Yoon",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://x.com/NFL/status/2110896914761662673",
+      "player": "J.K. Dobbins",
+      "meta": "RB \u00b7 DEN",
+      "date": "2026-10-16",
+      "author": "NFL",
+      "text": "Dobbins finds pay dirt and gives the Broncos the lead\n\nSEAvsDEN on Prime Video\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 869,
+      "secs": 5,
+      "game_id": "401872995",
+      "game_time": "Q2 12:52",
+      "play_key": "401872995:401872995990",
+      "played_at": "2026-10-16T00:52:50Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2110896805277839360/img/utTlZSQl41QHydRp.jpg",
+      "published": "2026-10-16T00:53:37Z",
+      "video": "https://video.twimg.com/amplify_video/2110896805277839360/vid/avc1/1920x1080/dsTwtA3DeJ1XRb_G.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
     {
       "url": "https://www.youtube.com/shorts/rKANN3zB6n4",
       "player": "J.K. Dobbins",
@@ -21,7 +42,7 @@
       "published": "2026-10-11T20:34:32Z",
       "youtube": "rKANN3zB6n4",
       "author_name": "Denver Broncos",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2110023123517190144/RPbz56R6_normal.jpg",
       "author_verified": true
     },
     {

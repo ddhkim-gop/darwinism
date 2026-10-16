@@ -1,8 +1,29 @@
 {
   "team": "andyxia124",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://x.com/Broncos/status/2110901662961279225",
+      "player": "RJ Harvey",
+      "meta": "RB \u00b7 DEN",
+      "date": "2026-10-16",
+      "author": "Broncos",
+      "text": "Wildcat TD \ud83e\udd29\n\n\ud83d\udcfa: #TNFonPrime",
+      "verified": true,
+      "faves": 1064,
+      "secs": 12,
+      "game_id": "401872995",
+      "game_time": "Q2 5:15",
+      "play_key": "401872995:4018729951469",
+      "played_at": "2026-10-16T01:11:30Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2110901545323974656/img/-1Nz_hFgaq4BpLE7.jpg",
+      "published": "2026-10-16T01:12:29Z",
+      "video": "https://video.twimg.com/amplify_video/2110901545323974656/vid/avc1/1920x1080/IGN8WoPPGHphMlhy.mp4",
+      "author_name": "Denver Broncos",
+      "avatar": "https://pbs.twimg.com/profile_images/2110023123517190144/RPbz56R6_normal.jpg",
+      "author_verified": true
+    },
     {
       "url": "https://www.youtube.com/shorts/m_y22WRyxok",
       "player": "Derrick Henry",
@@ -42,7 +63,7 @@
       "published": "2026-10-11T22:56:05Z",
       "youtube": "jbuVLf5TX6Q",
       "author_name": "Denver Broncos",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2110023123517190144/RPbz56R6_normal.jpg",
       "author_verified": true
     },
     {

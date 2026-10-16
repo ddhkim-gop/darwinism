@@ -1,6 +1,6 @@
 {
   "team": "eikichii952",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -63,23 +63,6 @@
       "published": "2026-10-11T17:25:19Z",
       "youtube": "eLRl3g6JkK8",
       "author_name": "Pittsburgh Steelers",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/d4v5DF_Ht-c",
-      "player": "Will Reichard",
-      "meta": "K \u00b7 MIN",
-      "date": "2026-10-08",
-      "author": "Vikings",
-      "text": "Will Reichard is \"so nasty\" \ud83e\udd23 | Mic'd Up",
-      "verified": false,
-      "faves": 295,
-      "secs": 8,
-      "poster": "https://i.ytimg.com/vi/d4v5DF_Ht-c/hqdefault.jpg",
-      "published": "2026-10-08T22:00:14Z",
-      "youtube": "d4v5DF_Ht-c",
-      "author_name": "Minnesota Vikings",
       "avatar": "",
       "author_verified": true
     }
