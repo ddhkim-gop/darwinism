@@ -16084,8 +16084,8 @@ window.__STATIC_DATA__ = {
           "height": "73",
           "weight": "223",
           "years_exp": 6,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 28
         },
         {
@@ -16301,7 +16301,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "IR",
+          "injury_status": "Questionable",
           "search_rank": 18
         },
         {
@@ -16316,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 55
         },
         {
@@ -16346,7 +16346,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 125
         },
         {
@@ -16793,7 +16793,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 632
         },
         {
@@ -17178,11 +17178,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "LV",
+          "player_id": "NO",
           "espn_id": null,
-          "name": "Las Vegas Raiders",
+          "name": "New Orleans Saints",
           "position": "DEF",
-          "team": "LV",
+          "team": "NO",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17575,8 +17575,8 @@ window.__STATIC_DATA__ = {
           "height": "76",
           "weight": "205",
           "years_exp": 0,
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": "Questionable",
           "search_rank": 147
         },
         {
@@ -18675,6 +18675,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 17, 2026 • 11:29 AM PT",
+      "transaction_id": "1417267287072772096",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "New Orleans Saints",
+          "position": "DEF",
+          "team": "NO"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Las Vegas Raiders",
+          "position": "DEF",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
