@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/HoustonTexans/status/2111819156806852743",
+      "player": "C.J. Stroud",
+      "meta": "QB \u00b7 HOU",
+      "date": "2026-10-18",
+      "author": "HoustonTexans",
+      "text": "Love this connection!\n\n\ud83d\udcfa: @nflnetwork",
+      "verified": true,
+      "faves": 418,
+      "secs": 15,
+      "game_id": "401872996",
+      "game_time": "Q1 5:13",
+      "play_key": "401872996:401872996571",
+      "played_at": "2026-10-18T13:58:17Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111818898987180032/img/P9Nk3ZJBDm0E3PRW.jpg",
+      "published": "2026-10-18T13:58:17Z",
+      "video": "https://video.twimg.com/amplify_video/2111818898987180032/vid/avc1/1920x1080/qS7tfD_k8oUl_rCx.mp4",
+      "author_name": "Houston Texans",
+      "avatar": "https://pbs.twimg.com/profile_images/2110364383498940416/fs1Z1M1p_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.youtube.com/shorts/oeeqWICb_A8",
       "player": "Denzel Boston",
       "meta": "WR \u00b7 CLE",
