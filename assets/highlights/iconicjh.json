@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2111829700599312845",
+      "player": "Marvin Harrison",
+      "meta": "WR \u00b7 HOU",
+      "date": "2026-10-18",
+      "author": "NFL",
+      "text": "Marvin Harrison Jr. gets his first catch as a Texan\n\nHOUvsJAX on NFL Network\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 61,
+      "secs": 11,
+      "game_id": "401872996",
+      "game_time": "Q2 5:47",
+      "play_key": "401872996:4018729961467",
+      "played_at": "2026-10-18T14:37:47Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111829587709538304/img/VE56zzaor_Lh-M0K.jpg",
+      "published": "2026-10-18T14:40:11Z",
+      "video": "https://video.twimg.com/amplify_video/2111829587709538304/vid/avc1/1920x1080/xM3ibDpcpAtvWiWs.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50157323/jalen-hurts-hits-darius-cooper-62-yard-eagles-td",
       "player": "Darius Cooper",
       "meta": "WR \u00b7 PHI",
