@@ -1,6 +1,6 @@
 {
   "team": "Paul_Yoon",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -61,23 +61,6 @@
       "published": "2026-10-11T20:16:01Z",
       "youtube": "-rkjyX7sqDw",
       "author_name": "New York Giants",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/HW9qBbvE87E",
-      "player": "Carnell Tate",
-      "meta": "WR \u00b7 TEN",
-      "date": "2026-10-10",
-      "author": "Titans",
-      "text": "Carnell Tate Catches | Film Review powered by Microsoft Surface  #titans",
-      "verified": false,
-      "faves": 96,
-      "secs": 111,
-      "poster": "https://i.ytimg.com/vi/HW9qBbvE87E/hqdefault.jpg",
-      "published": "2026-10-10T15:00:25Z",
-      "youtube": "HW9qBbvE87E",
-      "author_name": "Tennessee Titans",
       "avatar": "",
       "author_verified": true
     }
