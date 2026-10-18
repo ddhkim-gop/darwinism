@@ -15276,6 +15276,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 94
         },
         {
+          "player_id": "6039",
+          "espn_id": 3915411,
+          "name": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF",
+          "birth_date": "1997-09-17",
+          "college": "Maryland",
+          "height": "70",
+          "weight": "210",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 534
+        },
+        {
           "player_id": "6786",
           "espn_id": 4241389,
           "name": "CeeDee Lamb",
@@ -15349,21 +15364,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "9486",
-          "espn_id": null,
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2001-06-16",
-          "college": "Virginia",
-          "height": "73",
-          "weight": "206",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 204
         },
         {
           "player_id": "9502",
@@ -15578,7 +15578,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 117
         },
         {
@@ -16230,6 +16230,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 95
         },
         {
+          "player_id": "13413",
+          "espn_id": null,
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC",
+          "birth_date": "2003-02-11",
+          "college": "Cincinnati",
+          "height": "71",
+          "weight": "180",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 181
+        },
+        {
           "player_id": "4035",
           "espn_id": 3054850,
           "name": "Alvin Kamara",
@@ -16241,7 +16256,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 119
         },
         {
@@ -16318,21 +16333,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 55
-        },
-        {
-          "player_id": "7528",
-          "espn_id": null,
-          "name": "Najee Harris",
-          "position": "RB",
-          "team": "NYG",
-          "birth_date": "1998-03-09",
-          "college": "Alabama",
-          "height": "73",
-          "weight": "232",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 170
         },
         {
           "player_id": "8130",
@@ -16637,7 +16637,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 203
         },
         {
@@ -17193,11 +17193,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "NO",
+          "player_id": "BUF",
           "espn_id": null,
-          "name": "New Orleans Saints",
+          "name": "Buffalo Bills",
           "position": "DEF",
-          "team": "NO",
+          "team": "BUF",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17345,7 +17345,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 50
         },
         {
@@ -17422,6 +17422,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 1
+        },
+        {
+          "player_id": "9754",
+          "espn_id": null,
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2001-09-06",
+          "college": "TCU",
+          "height": "74",
+          "weight": "208",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 103
         },
         {
           "player_id": "IND",
@@ -17606,7 +17621,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 91
         },
         {
@@ -17967,6 +17982,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 12,
       "players": [
         {
+          "player_id": "11058",
+          "espn_id": null,
+          "name": "Blake Grupe",
+          "position": "K",
+          "team": "LAR",
+          "birth_date": "1998-11-05",
+          "college": "Notre Dame",
+          "height": "67",
+          "weight": "156",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 689
+        },
+        {
           "player_id": "11792",
           "espn_id": null,
           "name": "Will Reichard",
@@ -18115,21 +18145,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 105
-        },
-        {
-          "player_id": "8134",
-          "espn_id": null,
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "birth_date": "2000-02-03",
-          "college": "Boise State",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 120
         },
         {
           "player_id": "8151",
@@ -18675,6 +18690,140 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 12:25 PM PT",
+      "transaction_id": "1417643702548987904",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 12:23 PM PT",
+      "transaction_id": "1417643300415913984",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 11:56 AM PT",
+      "transaction_id": "1417636497011564544",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Blake Grupe",
+          "position": "K",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 10:59 AM PT",
+      "transaction_id": "1417622138847780864",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 10:32 AM PT",
+      "transaction_id": "1417615258901655552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "New Orleans Saints",
+          "position": "DEF",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
