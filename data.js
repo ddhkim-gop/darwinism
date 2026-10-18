@@ -15443,7 +15443,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 48
         },
         {
@@ -15492,6 +15492,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 46
         },
         {
+          "player_id": "2505",
+          "espn_id": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
+          "birth_date": "1992-09-13",
+          "college": "Georgia Tech",
+          "height": "78",
+          "weight": "238",
+          "years_exp": 11,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 359
+        },
+        {
           "player_id": "5967",
           "espn_id": 3916148,
           "name": "Tony Pollard",
@@ -15533,7 +15548,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 65
         },
         {
@@ -15563,7 +15578,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 117
         },
         {
@@ -16215,21 +16230,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 95
         },
         {
-          "player_id": "13150",
-          "espn_id": null,
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2001-11-22",
-          "college": "Tarleton State",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 658
-        },
-        {
           "player_id": "4035",
           "espn_id": 3054850,
           "name": "Alvin Kamara",
@@ -16241,7 +16241,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -16301,7 +16301,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 18
         },
         {
@@ -16318,6 +16318,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 55
+        },
+        {
+          "player_id": "7528",
+          "espn_id": null,
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG",
+          "birth_date": "1998-03-09",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "232",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 170
         },
         {
           "player_id": "8130",
@@ -16361,7 +16376,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 29
         },
         {
@@ -16763,7 +16778,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 39
         },
         {
@@ -17486,7 +17501,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 21
         },
         {
@@ -17576,7 +17591,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 147
         },
         {
@@ -17651,7 +17666,7 @@ window.__STATIC_DATA__ = {
           "weight": "258",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 230
         },
         {
@@ -17721,6 +17736,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
+          "player_id": "11439",
+          "espn_id": null,
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE",
+          "birth_date": "2000-09-13",
+          "college": "Youngstown State",
+          "height": "67",
+          "weight": "187",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 698
+        },
+        {
           "player_id": "11564",
           "espn_id": null,
           "name": "Drake Maye",
@@ -17777,7 +17807,7 @@ window.__STATIC_DATA__ = {
           "weight": "221",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 45
         },
         {
@@ -17901,21 +17931,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 64
         },
         {
-          "player_id": "9501",
-          "espn_id": null,
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "2000-12-08",
-          "college": "Liberty",
-          "height": "68",
-          "weight": "185",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 495
-        },
-        {
           "player_id": "9758",
           "espn_id": null,
           "name": "C.J. Stroud",
@@ -17995,21 +18010,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 37
-        },
-        {
-          "player_id": "12542",
-          "espn_id": null,
-          "name": "Efton Chism",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "2001-10-26",
-          "college": "Eastern Washington",
-          "height": "70",
-          "weight": "198",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 572
         },
         {
           "player_id": "13274",
@@ -18675,6 +18675,106 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 8:57 AM PT",
+      "transaction_id": "1417591453927927808",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 8:51 AM PT",
+      "transaction_id": "1417589902110982144",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Efton Chism",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 7:56 AM PT",
+      "transaction_id": "1417576184861986816",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 7:55 AM PT",
+      "transaction_id": "1417575966170972160",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
