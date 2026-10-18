@@ -15704,7 +15704,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 35
         },
         {
@@ -16506,6 +16506,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
+          "player_id": "13301",
+          "espn_id": null,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2004-07-14",
+          "college": "Clemson",
+          "height": "71",
+          "weight": "195",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 156
+        },
+        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -16594,21 +16609,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 72
-        },
-        {
-          "player_id": "5995",
-          "espn_id": 4038441,
-          "name": "Justice Hill",
-          "position": "RB",
-          "team": "BAL",
-          "birth_date": "1997-11-14",
-          "college": "Oklahoma State",
-          "height": "70",
-          "weight": "195",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 220
         },
         {
           "player_id": "7547",
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 12:51 PM PT",
+      "transaction_id": "1417650439767248896",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
