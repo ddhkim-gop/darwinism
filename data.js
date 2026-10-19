@@ -15276,21 +15276,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 94
         },
         {
-          "player_id": "6039",
-          "espn_id": 3915411,
-          "name": "Ty Johnson",
-          "position": "RB",
-          "team": "BUF",
-          "birth_date": "1997-09-17",
-          "college": "Maryland",
-          "height": "70",
-          "weight": "210",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 534
-        },
-        {
           "player_id": "6786",
           "espn_id": 4241389,
           "name": "CeeDee Lamb",
@@ -15364,6 +15349,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
+        },
+        {
+          "player_id": "8207",
+          "espn_id": null,
+          "name": "Tyler Goodson",
+          "position": "RB",
+          "team": "DAL",
+          "birth_date": "2000-11-10",
+          "college": "Iowa",
+          "height": "69",
+          "weight": "197",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 480
         },
         {
           "player_id": "9502",
@@ -17225,7 +17225,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 81
         },
         {
@@ -17653,21 +17653,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 36
-        },
-        {
-          "player_id": "7567",
-          "espn_id": null,
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "birth_date": "1999-03-14",
-          "college": "Memphis",
-          "height": "69",
-          "weight": "200",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 86
         },
         {
           "player_id": "7600",
@@ -18690,6 +18675,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 3:52 PM PT",
+      "transaction_id": "1417695825735286784",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tyler Goodson",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 3:52 PM PT",
+      "transaction_id": "1417695780155768832",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
