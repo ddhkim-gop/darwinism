@@ -15261,6 +15261,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
+          "player_id": "4219",
+          "espn_id": 3127586,
+          "name": "Jeremy McNichols",
+          "position": "RB",
+          "team": "WAS",
+          "birth_date": "1995-12-26",
+          "college": "Boise State",
+          "height": "69",
+          "weight": "205",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 641
+        },
+        {
           "player_id": "5022",
           "espn_id": 3121023,
           "name": "Dallas Goedert",
@@ -15349,21 +15364,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "8207",
-          "espn_id": null,
-          "name": "Tyler Goodson",
-          "position": "RB",
-          "team": "DAL",
-          "birth_date": "2000-11-10",
-          "college": "Iowa",
-          "height": "69",
-          "weight": "197",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 480
         },
         {
           "player_id": "9502",
@@ -16316,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 18
         },
         {
@@ -16331,7 +16331,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 55
         },
         {
@@ -17009,7 +17009,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 104
         },
         {
@@ -17300,7 +17300,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 60
         },
         {
@@ -18675,6 +18675,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 19, 2026 • 3:26 PM PT",
+      "transaction_id": "1418051808416313344",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jeremy McNichols",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Goodson",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
