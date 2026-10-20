@@ -18830,7 +18830,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -18929,7 +18929,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [
@@ -19628,7 +19628,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": "NYG"
+          "team": null
         }
       ],
       "faab": 0,
@@ -20433,7 +20433,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Najee Harris",
           "position": "RB",
-          "team": "NYG"
+          "team": null
         }
       ],
       "dropped": [
