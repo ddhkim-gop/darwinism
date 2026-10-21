@@ -16230,6 +16230,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 95
         },
         {
+          "player_id": "13296",
+          "espn_id": null,
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2003-09-09",
+          "college": "Texas Tech",
+          "height": "76",
+          "weight": "208",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 199
+        },
+        {
           "player_id": "4035",
           "espn_id": 3054850,
           "name": "Alvin Kamara",
@@ -16378,21 +16393,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 1
-        },
-        {
-          "player_id": "9501",
-          "espn_id": null,
-          "name": "DeMario Douglas",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "2000-12-08",
-          "college": "Liberty",
-          "height": "68",
-          "weight": "185",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 490
         },
         {
           "player_id": "9753",
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 3:51 AM PT",
+      "transaction_id": "1418601690642358272",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
