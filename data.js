@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 681
         },
         {
-          "player_id": "11581",
-          "espn_id": null,
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2001-01-05",
-          "college": "USC",
-          "height": "69",
-          "weight": "220",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 98
-        },
-        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden",
@@ -15198,7 +15183,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 88
         },
         {
           "player_id": "13281",
@@ -15261,21 +15246,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "4219",
-          "espn_id": 3127586,
-          "name": "Jeremy McNichols",
-          "position": "RB",
-          "team": "WAS",
-          "birth_date": "1995-12-26",
-          "college": "Boise State",
-          "height": "69",
-          "weight": "205",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 641
-        },
-        {
           "player_id": "5022",
           "espn_id": 3121023,
           "name": "Dallas Goedert",
@@ -15306,6 +15276,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
+          "player_id": "7049",
+          "espn_id": 3886598,
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1997-07-10",
+          "college": "Tennessee",
+          "height": "75",
+          "weight": "212",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 123
+        },
+        {
           "player_id": "7526",
           "espn_id": null,
           "name": "Jaylen Waddle",
@@ -15317,7 +15302,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 42
         },
         {
@@ -15349,6 +15334,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 58
+        },
+        {
+          "player_id": "8135",
+          "espn_id": null,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2000-03-23",
+          "college": "Arkansas",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
         },
         {
           "player_id": "8138",
@@ -15443,7 +15443,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 48
         },
         {
@@ -15492,19 +15492,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 46
         },
         {
-          "player_id": "2505",
-          "espn_id": 2576925,
-          "name": "Darren Waller",
+          "player_id": "3214",
+          "espn_id": 3046439,
+          "name": "Hunter Henry",
           "position": "TE",
-          "team": "CAR",
-          "birth_date": "1992-09-13",
-          "college": "Georgia Tech",
-          "height": "78",
-          "weight": "238",
-          "years_exp": 11,
+          "team": "NE",
+          "birth_date": "1994-12-07",
+          "college": "Arkansas",
+          "height": "77",
+          "weight": "249",
+          "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 357
+          "search_rank": 92
         },
         {
           "player_id": "5967",
@@ -15534,7 +15534,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 11
+          "search_rank": 12
         },
         {
           "player_id": "7021",
@@ -15659,7 +15659,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 29
         },
         {
@@ -15720,7 +15720,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 131
+          "search_rank": 133
         },
         {
           "player_id": "12487",
@@ -15753,21 +15753,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 63
         },
         {
-          "player_id": "12509",
-          "espn_id": null,
-          "name": "Tre' Harris",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2002-02-28",
-          "college": "Ole Miss",
-          "height": "75",
-          "weight": "210",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 179
-        },
-        {
           "player_id": "13279",
           "espn_id": null,
           "name": "Carnell Tate",
@@ -15796,6 +15781,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 39
+        },
+        {
+          "player_id": "6650",
+          "espn_id": 3150744,
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
+          "birth_date": "1996-04-09",
+          "college": "Illinois",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
         },
         {
           "player_id": "6806",
@@ -15870,7 +15870,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 5
+          "search_rank": 6
         },
         {
           "player_id": "9500",
@@ -15921,7 +15921,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 64
+          "search_rank": 65
         },
         {
           "player_id": "11624",
@@ -16010,8 +16010,8 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 459
+          "injury_status": null,
+          "search_rank": 457
         },
         {
           "player_id": "12514",
@@ -16026,7 +16026,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 38
+          "search_rank": 39
         },
         {
           "player_id": "12517",
@@ -16055,7 +16055,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -16070,8 +16070,8 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 11
+          "injury_status": "Questionable",
+          "search_rank": 10
         },
         {
           "player_id": "6804",
@@ -16101,7 +16101,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 28
+          "search_rank": 27
         },
         {
           "player_id": "8129",
@@ -16116,7 +16116,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 393
+          "search_rank": 627
         },
         {
           "player_id": "9226",
@@ -16230,21 +16230,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 95
         },
         {
-          "player_id": "13413",
-          "espn_id": null,
-          "name": "Cyrus Allen",
-          "position": "WR",
-          "team": "KC",
-          "birth_date": "2003-02-11",
-          "college": "Cincinnati",
-          "height": "71",
-          "weight": "180",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 180
-        },
-        {
           "player_id": "4035",
           "espn_id": 3054850,
           "name": "Alvin Kamara",
@@ -16256,7 +16241,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -16272,7 +16257,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 39
+          "search_rank": 40
         },
         {
           "player_id": "4227",
@@ -16395,6 +16380,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 1
         },
         {
+          "player_id": "9501",
+          "espn_id": null,
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "2000-12-08",
+          "college": "Liberty",
+          "height": "68",
+          "weight": "185",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 490
+        },
+        {
           "player_id": "9753",
           "espn_id": null,
           "name": "Zach Charbonnet",
@@ -16443,7 +16443,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 90
+          "search_rank": 91
         },
         {
           "player_id": "11576",
@@ -16488,7 +16488,22 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 75
+          "search_rank": 74
+        },
+        {
+          "player_id": "11655",
+          "espn_id": null,
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "birth_date": "1999-11-23",
+          "college": "Purdue",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 110
         },
         {
           "player_id": "12489",
@@ -16504,6 +16519,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 56
+        },
+        {
+          "player_id": "13276",
+          "espn_id": null,
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ",
+          "birth_date": "2003-12-14",
+          "college": "Indiana",
+          "height": "72",
+          "weight": "199",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 151
         },
         {
           "player_id": "13301",
@@ -16566,21 +16596,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 7
         },
         {
-          "player_id": "3257",
-          "espn_id": 2578570,
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
-          "birth_date": "1992-12-11",
-          "college": "North Carolina State",
-          "height": "76",
-          "weight": "235",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 203
-        },
-        {
           "player_id": "4881",
           "espn_id": 3916387,
           "name": "Lamar Jackson",
@@ -16591,8 +16606,8 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "205",
           "years_exp": 8,
-          "status": "Inactive",
-          "injury_status": "Out",
+          "status": "Active",
+          "injury_status": "Questionable",
           "search_rank": 10
         },
         {
@@ -16623,22 +16638,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
-        },
-        {
-          "player_id": "7571",
-          "espn_id": null,
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL",
-          "birth_date": "1999-11-29",
-          "college": "Minnesota",
-          "height": "73",
-          "weight": "193",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 203
+          "search_rank": 6
         },
         {
           "player_id": "8148",
@@ -16667,7 +16667,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 99
         },
         {
@@ -16734,7 +16734,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 266
+          "search_rank": 265
         },
         {
           "player_id": "12499",
@@ -16793,7 +16793,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 15
         },
         {
@@ -16823,7 +16823,7 @@ window.__STATIC_DATA__ = {
           "weight": "223",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "NA",
+          "injury_status": null,
           "search_rank": 20
         },
         {
@@ -16869,7 +16869,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 106
+          "search_rank": 104
         },
         {
           "player_id": "8154",
@@ -16898,7 +16898,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 27
         },
         {
@@ -16932,11 +16932,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 148
         },
         {
-          "player_id": "JAX",
+          "player_id": "CLE",
           "espn_id": null,
-          "name": "Jacksonville Jaguars",
+          "name": "Cleveland Browns",
           "position": "DEF",
-          "team": "JAX",
+          "team": "CLE",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17011,21 +17011,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 105
-        },
-        {
-          "player_id": "3271",
-          "espn_id": 2573401,
-          "name": "Tyler Higbee",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "1993-01-01",
-          "college": "Western Kentucky",
-          "height": "78",
-          "weight": "253",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 647
         },
         {
           "player_id": "421",
@@ -17114,7 +17099,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 41
         },
         {
@@ -17178,6 +17163,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 89
         },
         {
+          "player_id": "9482",
+          "espn_id": null,
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "birth_date": "2001-07-06",
+          "college": "Notre Dame",
+          "height": "76",
+          "weight": "256",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 462
+        },
+        {
           "player_id": "9997",
           "espn_id": null,
           "name": "Zay Flowers",
@@ -17193,11 +17193,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "BUF",
+          "player_id": "NYJ",
           "espn_id": null,
-          "name": "Buffalo Bills",
+          "name": "New York Jets",
           "position": "DEF",
-          "team": "BUF",
+          "team": "NYJ",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17244,6 +17244,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "12718",
+          "espn_id": null,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "2002-10-24",
+          "college": "Pittsburgh",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 678
+        },
+        {
           "player_id": "13305",
           "espn_id": null,
           "name": "Mike Washington",
@@ -17271,7 +17286,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 113
+          "search_rank": 111
         },
         {
           "player_id": "1479",
@@ -17300,7 +17315,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 60
         },
         {
@@ -17330,7 +17345,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 85
         },
         {
@@ -17346,22 +17361,22 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 50
+          "search_rank": 48
         },
         {
-          "player_id": "5189",
-          "espn_id": 4034949,
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
-          "birth_date": "1995-09-13",
-          "college": "Florida",
-          "height": "71",
-          "weight": "190",
-          "years_exp": 8,
+          "player_id": "5849",
+          "espn_id": 3917315,
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
+          "birth_date": "1997-08-07",
+          "college": "Oklahoma",
+          "height": "70",
+          "weight": "207",
+          "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 174
+          "search_rank": 87
         },
         {
           "player_id": "7002",
@@ -17394,6 +17409,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 23
         },
         {
+          "player_id": "7839",
+          "espn_id": null,
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "birth_date": "1999-07-21",
+          "college": "Florida",
+          "height": "71",
+          "weight": "185",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 153
+        },
+        {
           "player_id": "9228",
           "espn_id": null,
           "name": "Bryce Young",
@@ -17422,36 +17452,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 1
-        },
-        {
-          "player_id": "9754",
-          "espn_id": null,
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2001-09-06",
-          "college": "TCU",
-          "height": "74",
-          "weight": "208",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 103
-        },
-        {
-          "player_id": "IND",
-          "espn_id": null,
-          "name": "Indianapolis Colts",
-          "position": "DEF",
-          "team": "IND",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         },
         {
           "player_id": "MIN",
@@ -17592,7 +17592,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 53
+          "search_rank": 52
         },
         {
           "player_id": "13293",
@@ -17621,8 +17621,8 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 89
+          "injury_status": null,
+          "search_rank": 91
         },
         {
           "player_id": "3163",
@@ -17763,7 +17763,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 10
+          "search_rank": 11
         },
         {
           "player_id": "11647",
@@ -17807,7 +17807,7 @@ window.__STATIC_DATA__ = {
           "weight": "221",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 45
         },
         {
@@ -17943,7 +17943,22 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 101
+          "search_rank": 102
+        },
+        {
+          "player_id": "DEN",
+          "espn_id": null,
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         },
         {
           "player_id": "GB",
@@ -18068,7 +18083,7 @@ window.__STATIC_DATA__ = {
           "weight": "248",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 128
         },
         {
@@ -18117,6 +18132,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
+          "player_id": "8134",
+          "espn_id": null,
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "birth_date": "2000-02-03",
+          "college": "Boise State",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 120
+        },
+        {
           "player_id": "8151",
           "espn_id": null,
           "name": "Kenneth Walker",
@@ -18129,7 +18159,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 17
+          "search_rank": 19
         },
         {
           "player_id": "8228",
@@ -18662,6 +18692,494 @@ window.__STATIC_DATA__ = {
   "transactions": [
     {
       "season": "2026",
+      "week": 7,
+      "created": "Oct 20, 2026 • 11:17 PM PT",
+      "transaction_id": "1418532612946862080",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 20, 2026 • 11:14 PM PT",
+      "transaction_id": "1418531845523460096",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 20, 2026 • 11:12 PM PT",
+      "transaction_id": "1418531391699742720",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jeremy McNichols",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 20, 2026 • 11:09 PM PT",
+      "transaction_id": "1418530669016961024",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 10:37 PM PT",
+      "transaction_id": "1418522473774714880",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Cleveland Browns",
+          "position": "DEF",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 4,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 10:36 PM PT",
+      "transaction_id": "1418522421127905280",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 7,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 10:35 PM PT",
+      "transaction_id": "1418521968713416704",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "New York Jets",
+          "position": "DEF",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 1,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 10:34 PM PT",
+      "transaction_id": "1418521840619474944",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Cleveland Browns",
+          "position": "DEF",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 2,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 10:34 PM PT",
+      "transaction_id": "1418521763108691968",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 10:31 PM PT",
+      "transaction_id": "1418521169224617984",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 2,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 8:58 PM PT",
+      "transaction_id": "1418497739779592192",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 12,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 8:56 PM PT",
+      "transaction_id": "1418497125783756800",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 28,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 7:39 PM PT",
+      "transaction_id": "1418477824913813504",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 7:39 PM PT",
+      "transaction_id": "1418477744471228416",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 2,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 7:38 PM PT",
+      "transaction_id": "1418477497766469632",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 7,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 7:21 PM PT",
+      "transaction_id": "1418473243903287296",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 7:21 PM PT",
+      "transaction_id": "1418473201125646336",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 6:34 PM PT",
+      "transaction_id": "1418461442226597888",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 6:34 PM PT",
+      "transaction_id": "1418461414586081280",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 4:44 PM PT",
+      "transaction_id": "1418433751783841792",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 10,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
       "week": 6,
       "created": "Oct 20, 2026 • 4:41 PM PT",
       "transaction_id": "1418432900029788160",
@@ -18681,6 +19199,206 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 3:45 PM PT",
+      "transaction_id": "1418418948017303552",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 11,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 3:45 PM PT",
+      "transaction_id": "1418418846062141440",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 16,
+      "notes": "This player was claimed by another owner."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 1:46 PM PT",
+      "transaction_id": "1418388879622389760",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 1:45 PM PT",
+      "transaction_id": "1418388699451801600",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Unfortunately, your roster will have too many players after this transaction."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 1:45 PM PT",
+      "transaction_id": "1418388603750354944",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 8:58 AM PT",
+      "transaction_id": "1418316509633056768",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 9,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 8:58 AM PT",
+      "transaction_id": "1418316467660763136",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 8,
+      "notes": "Unfortunately, your roster will have too many players after this transaction."
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 8:53 AM PT",
+      "transaction_id": "1418315287459094528",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 8,
+      "notes": "This player was claimed by another owner."
     },
     {
       "season": "2026",
