@@ -17967,21 +17967,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 12,
       "players": [
         {
-          "player_id": "11058",
-          "espn_id": null,
-          "name": "Blake Grupe",
-          "position": "K",
-          "team": "LAR",
-          "birth_date": "1998-11-05",
-          "college": "Notre Dame",
-          "height": "67",
-          "weight": "156",
-          "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 689
-        },
-        {
           "player_id": "11792",
           "espn_id": null,
           "name": "Will Reichard",
@@ -18675,6 +18660,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 20, 2026 • 4:41 PM PT",
+      "transaction_id": "1418432900029788160",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Blake Grupe",
+          "position": "K",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
