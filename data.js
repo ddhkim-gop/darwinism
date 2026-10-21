@@ -16275,19 +16275,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "4227",
-          "espn_id": 3055899,
-          "name": "Harrison Butker",
-          "position": "K",
-          "team": "KC",
-          "birth_date": "1995-07-14",
-          "college": "Georgia Tech",
-          "height": "76",
-          "weight": "205",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 155
+          "player_id": "4950",
+          "espn_id": 3895856,
+          "name": "Christian Kirk",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1996-11-18",
+          "college": "Texas A&M",
+          "height": "71",
+          "weight": "200",
+          "years_exp": 8,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 210
         },
         {
           "player_id": "5012",
@@ -16318,21 +16318,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 18
-        },
-        {
-          "player_id": "5927",
-          "espn_id": 3121422,
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "birth_date": "1995-09-15",
-          "college": "Ohio State",
-          "height": "72",
-          "weight": "210",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 55
         },
         {
           "player_id": "8130",
@@ -16393,6 +16378,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 1
+        },
+        {
+          "player_id": "9501",
+          "espn_id": null,
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "2000-12-08",
+          "college": "Liberty",
+          "height": "68",
+          "weight": "185",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 490
         },
         {
           "player_id": "9753",
@@ -18690,6 +18690,78 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 5:45 AM PT",
+      "transaction_id": "1418630189281247232",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Christian Kirk",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 5:25 AM PT",
+      "transaction_id": "1418625297183485952",
+      "type": "commissioner",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 5:25 AM PT",
+      "transaction_id": "1418625242691117056",
+      "type": "commissioner",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
@@ -27119,7 +27191,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jaydon Blue",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
