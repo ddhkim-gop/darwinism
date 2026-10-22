@@ -17736,21 +17736,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
-          "player_id": "11439",
-          "espn_id": null,
-          "name": "Jaleel McLaughlin",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2000-09-13",
-          "college": "Youngstown State",
-          "height": "67",
-          "weight": "187",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 698
-        },
-        {
           "player_id": "11564",
           "espn_id": null,
           "name": "Drake Maye",
@@ -17764,6 +17749,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 11
+        },
+        {
+          "player_id": "11610",
+          "espn_id": null,
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2001-01-04",
+          "college": "Virginia",
+          "height": "68",
+          "weight": "192",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 176
         },
         {
           "player_id": "11647",
@@ -17886,6 +17886,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 3
         },
         {
+          "player_id": "7567",
+          "espn_id": null,
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "birth_date": "1999-03-14",
+          "college": "Memphis",
+          "height": "69",
+          "weight": "200",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 86
+        },
+        {
           "player_id": "8146",
           "espn_id": null,
           "name": "Garrett Wilson",
@@ -17951,21 +17966,6 @@ window.__STATIC_DATA__ = {
           "name": "Denver Broncos",
           "position": "DEF",
           "team": "DEN",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "GB",
-          "espn_id": null,
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18690,6 +18690,90 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 7:48 PM PT",
+      "transaction_id": "1418842329950797824",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dallas Cowboys",
+          "position": "DEF",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 7:46 PM PT",
+      "transaction_id": "1418841929965191168",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Dallas Cowboys",
+          "position": "DEF",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 7:45 PM PT",
+      "transaction_id": "1418841639312445440",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
