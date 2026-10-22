@@ -1,6 +1,6 @@
-import { renderNav } from "./components/nav.js?v=202610220523";
+import { renderNav } from "./components/nav.js?v=202610221038";
 import { trackEvent, fetchCount } from "./components/analytics.js";
-import { PODCAST_EPISODES } from "./podcasts.js?v=202610220523";
+import { PODCAST_EPISODES } from "./podcasts.js?v=202610221038";
 
 const audio = new Audio();
 let playingId = null;   // "<year>-<index>" of the row currently loaded
