@@ -15533,7 +15533,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 12
         },
         {
@@ -15593,7 +15593,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 22
         },
         {
@@ -16085,7 +16085,7 @@ window.__STATIC_DATA__ = {
           "weight": "219",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 69
         },
         {
@@ -16185,6 +16185,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 184
         },
         {
+          "player_id": "10219",
+          "espn_id": null,
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "team": "JAX",
+          "birth_date": "1999-09-26",
+          "college": "Kentucky",
+          "height": "71",
+          "weight": "224",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 127
+        },
+        {
           "player_id": "11539",
           "espn_id": null,
           "name": "Jake Bates",
@@ -16273,21 +16288,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 39
-        },
-        {
-          "player_id": "4950",
-          "espn_id": 3895856,
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1996-11-18",
-          "college": "Texas A&M",
-          "height": "71",
-          "weight": "200",
-          "years_exp": 8,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 210
         },
         {
           "player_id": "5012",
@@ -17696,7 +17696,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 5
         },
         {
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 22, 2026 • 4:40 AM PT",
+      "transaction_id": "1418976402660757504",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Christian Kirk",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 7,
+      "notes": "Your waiver claim was processed successfully!"
+    },
     {
       "season": "2026",
       "week": 7,
@@ -27359,7 +27387,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jaydon Blue",
           "position": "RB",
-          "team": null
+          "team": "PHI"
         }
       ],
       "faab": 0,
