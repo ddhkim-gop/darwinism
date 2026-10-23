@@ -15302,7 +15302,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 42
         },
         {
@@ -15593,7 +15593,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 22
         },
         {
@@ -16256,7 +16256,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 197
         },
         {
@@ -16406,7 +16406,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 101
         },
         {
@@ -17028,19 +17028,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 80
         },
         {
-          "player_id": "4454",
-          "espn_id": 3045523,
-          "name": "Kendrick Bourne",
+          "player_id": "4950",
+          "espn_id": 3895856,
+          "name": "Christian Kirk",
           "position": "WR",
-          "team": "ARI",
-          "birth_date": "1995-08-04",
-          "college": "Eastern Washington",
-          "height": "73",
-          "weight": "205",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 673
+          "team": "SF",
+          "birth_date": "1996-11-18",
+          "college": "Texas A&M",
+          "height": "71",
+          "weight": "200",
+          "years_exp": 8,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 210
         },
         {
           "player_id": "5846",
@@ -17084,7 +17084,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 43
         },
         {
@@ -17300,7 +17300,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 60
         },
         {
@@ -18675,6 +18675,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 23, 2026 • 12:37 PM PT",
+      "transaction_id": "1419458639382491136",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Christian Kirk",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
