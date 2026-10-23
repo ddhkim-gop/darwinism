@@ -28,7 +28,7 @@ export const PODCAST_EPISODES = {
             duration: "10:22",
             slug: "2026-06-the-crowded-middle",
             audio: "assets/podcasts/2026/ep06-the-crowded-middle.mp3",
-            art: "assets/podcasts/art/2026-06-the-crowded-middle.png?v=202610230628",
+            art: "assets/podcasts/art/2026-06-the-crowded-middle.png?v=202610231703",
             description: "eikichi is the last unbeaten at 5-0, and nobody is winless after Kicked in the Dicker beat MickeyC's, who left 27.2 points on the bench. Puka Doncic's 164.64 over Cea5e and De5i5t's 75.72 was the week's high, low and biggest margin, Drake Maye's 39.46 led the league, and six teams now sit at 2-3.",
         },
         {
@@ -36,7 +36,7 @@ export const PODCAST_EPISODES = {
             date: "2026-10-06",
             duration: "8:40",
             slug: "2026-05-one-left-standing",
-            art: "assets/podcasts/art/2026-05-one-left-standing.png?v=202610230628",
+            art: "assets/podcasts/art/2026-05-one-left-standing.png?v=202610231703",
             audio: "assets/podcasts/2026/ep05-one-left-standing.mp3",
             description: "Three unbeaten became one. NewJeantys Fannin ended LePuka Nacua 139.56-124.78 behind Nico Collins (7-of-8, 118, two TDs) and Bijan Robinson (19 carries, 145, two TDs), while eikichi stayed perfect on Tetairoa McMillan's career-best 14 catches for 192 and two scores. Rashee Rice was forced out with a hamstring and still cost Put It In Herbert nothing; IceBox won its first, leaving Kicked in the Dicker alone at 0-4.",
         },
@@ -46,7 +46,7 @@ export const PODCAST_EPISODES = {
             duration: "8:14",
             slug: "2026-04-the-unbeaten-three",
             audio: "assets/podcasts/2026/ep04-the-unbeaten-three.mp3",
-            art: "assets/podcasts/art/2026-04-the-unbeaten-three.png?v=202610230628",
+            art: "assets/podcasts/art/2026-04-the-unbeaten-three.png?v=202610231703",
             description: "eikichi, Bower Outage and LePuka Nacua are the last three unbeatens; eikichi stayed perfect by 2.06 over Put It In Herbert. Salamander's 134.4 topped the week, Eg Big Boo's kicker outscored Jalen Hurts, and Jahmyr Gibbs' 37.9 led the league.",
         },
         {
@@ -55,7 +55,7 @@ export const PODCAST_EPISODES = {
             duration: "9:35",
             slug: "2026-03-decided-by-inches",
             audio: "assets/podcasts/2026/ep03-decided-by-inches.mp3",
-            art: "assets/podcasts/art/2026-03-decided-by-inches.png?v=202610230628",
+            art: "assets/podcasts/art/2026-03-decided-by-inches.png?v=202610231703",
             description: "Four of six games were decided by under five points. Mickey C's beat Put It In Herbert by 0.52 with waiver pickup Tyler Shough, Snow King Ghidorah left 24 points on the bench in a loss, and last week's 166-point Ghost of New Jeantys fell to 79.3. Josh Allen's 39.82 led the league.",
         },
         {
@@ -64,7 +64,7 @@ export const PODCAST_EPISODES = {
             duration: "9:09",
             slug: "2026-02-week-one-is-in-the-books",
             audio: "assets/podcasts/2026/ep02-week-one-is-in-the-books.mp3",
-            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202610230628",
+            art: "assets/podcasts/art/2026-02-week-one-is-in-the-books.png?v=202610231703",
             description: "Ghost of New Jeantys hung 166.2 on the league — Jeanty 29.7, Dart 25.6, Bijan 25.3 — while Mickey C's managed 69.92 and the draft grades started lying immediately. Five of six games were blowouts, Cameron Dicker scored two for the team named after him, and only Bower Outage over Salamander stayed inside thirteen points.",
         },
         {
@@ -73,7 +73,7 @@ export const PODCAST_EPISODES = {
             duration: "14:12",
             slug: "2026-01-the-grades-are-in",
             audio: "assets/podcasts/2026/ep01-the-grades-are-in.mp3",
-            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202610230628",
+            art: "assets/podcasts/art/2026-01-the-grades-are-in.png?v=202610231703",
             description: "Draft recap and season predictions, graded off the site's own draft panel: three tiers, twelve teams, predicted standings and awards.",
         },
     ],
