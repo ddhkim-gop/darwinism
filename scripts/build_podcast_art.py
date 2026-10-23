@@ -41,6 +41,7 @@ EPISODES = [
     ("2026-04-the-unbeaten-three",       "04", "#e5536b", "Jahmyr Gibbs",  "shoulders his way in"),
     ("2026-05-one-left-standing",        "05", "#4299e1", "Tetairoa McMillan", "shreds Lions secondary"),
     ("2026-06-the-crowded-middle",       "06", "#9f7aea", "Drake Maye",    "374 passing yards"),
+    ("2026-07-still-perfect-barely",     "07", "#ed8936", "RJ Harvey",     "punches it in for the Broncos"),
 ]
 
 

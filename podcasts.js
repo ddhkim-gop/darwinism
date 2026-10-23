@@ -23,6 +23,15 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 7 — Still Perfect, Barely",
+            date: "2026-10-22",
+            duration: "9:07",
+            slug: "2026-07-still-perfect-barely",
+            audio: "assets/podcasts/2026/ep07-still-perfect-barely.mp3",
+            art: "assets/podcasts/art/2026-07-still-perfect-barely.png?v=202610181451",
+            description: "eikichi stayed perfect at 6-0 by 2.48 over Kicked in the Dicker while leaving 30.5 points on the bench. Bower Outage's 49.82 was the lowest score of the season, Salamander benched the week's top scorer in Trevor Lawrence, and MickeyC's topped the week at 147.86 behind Tyler Shough's four touchdowns. Five teams now sit at 3-3.",
+        },
+        {
             title: "Episode 6 — The Crowded Middle",
             date: "2026-10-15",
             duration: "10:22",
