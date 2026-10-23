@@ -15443,7 +15443,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 48
         },
         {
@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 110
         },
         {
@@ -15659,7 +15659,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 29
         },
         {
@@ -16025,7 +16025,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 39
         },
         {
@@ -16611,21 +16611,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 9
         },
         {
-          "player_id": "5045",
-          "espn_id": 3128429,
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "1995-10-10",
-          "college": "SMU",
-          "height": "76",
-          "weight": "216",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 72
-        },
-        {
           "player_id": "7547",
           "espn_id": null,
           "name": "Amon-Ra St. Brown",
@@ -16763,7 +16748,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 118
         },
         {
@@ -16793,7 +16778,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 15
         },
         {
@@ -16883,7 +16868,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 80
         },
         {
@@ -17516,7 +17501,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 32
         },
         {
@@ -17681,7 +17666,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 64
         },
         {
@@ -17807,7 +17792,7 @@ window.__STATIC_DATA__ = {
           "weight": "221",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 45
         },
         {
@@ -17822,7 +17807,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 153
         },
         {
@@ -18053,7 +18038,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 90
         },
         {
@@ -18083,7 +18068,7 @@ window.__STATIC_DATA__ = {
           "weight": "248",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 128
         },
         {
@@ -18690,6 +18675,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 23, 2026 • 10:25 AM PT",
+      "transaction_id": "1419425442904993792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
