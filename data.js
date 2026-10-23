@@ -15141,19 +15141,19 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "10235",
+          "player_id": "12469",
           "espn_id": null,
-          "name": "Roschon Johnson",
+          "name": "Dylan Sampson",
           "position": "RB",
-          "team": "CHI",
-          "birth_date": "2001-01-31",
-          "college": "Texas",
-          "height": "72",
-          "weight": "227",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 681
+          "team": "CLE",
+          "birth_date": "2004-09-14",
+          "college": "Tennessee",
+          "height": "68",
+          "weight": "200",
+          "years_exp": 1,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 129
         },
         {
           "player_id": "12519",
@@ -15690,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 28
+          "search_rank": 26
         },
         {
           "player_id": "11635",
@@ -15921,7 +15921,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 64
+          "search_rank": 65
         },
         {
           "player_id": "11624",
@@ -16011,7 +16011,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 453
+          "search_rank": 452
         },
         {
           "player_id": "12514",
@@ -16041,7 +16041,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 37
+          "search_rank": 35
         },
         {
           "player_id": "12534",
@@ -16101,7 +16101,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 28
+          "search_rank": 26
         },
         {
           "player_id": "8129",
@@ -16197,7 +16197,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 127
+          "search_rank": 125
         },
         {
           "player_id": "11539",
@@ -16257,7 +16257,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 199
+          "search_rank": 197
         },
         {
           "player_id": "4035",
@@ -16287,7 +16287,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 39
+          "search_rank": 40
         },
         {
           "player_id": "5012",
@@ -16317,7 +16317,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 18
+          "search_rank": 17
         },
         {
           "player_id": "8130",
@@ -16392,7 +16392,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 490
+          "search_rank": 491
         },
         {
           "player_id": "9753",
@@ -16443,7 +16443,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 91
+          "search_rank": 90
         },
         {
           "player_id": "11576",
@@ -16608,7 +16608,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 10
+          "search_rank": 9
         },
         {
           "player_id": "5045",
@@ -16965,7 +16965,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 23
+          "search_rank": 22
         },
         {
           "player_id": "11834",
@@ -17010,7 +17010,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 104
+          "search_rank": 105
         },
         {
           "player_id": "421",
@@ -17115,7 +17115,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 46
+          "search_rank": 44
         },
         {
           "player_id": "6813",
@@ -17175,7 +17175,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 463
+          "search_rank": 461
         },
         {
           "player_id": "9997",
@@ -17286,7 +17286,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 111
+          "search_rank": 113
         },
         {
           "player_id": "1479",
@@ -17376,7 +17376,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 87
         },
         {
           "player_id": "7002",
@@ -17436,7 +17436,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 134
+          "search_rank": 133
         },
         {
           "player_id": "9509",
@@ -17502,7 +17502,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 22
         },
         {
           "player_id": "11584",
@@ -17607,7 +17607,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 91
+          "search_rank": 89
         },
         {
           "player_id": "3163",
@@ -17637,7 +17637,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 652
+          "search_rank": 644
         },
         {
           "player_id": "6801",
@@ -18159,7 +18159,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 19
+          "search_rank": 17
         },
         {
           "player_id": "8228",
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 22, 2026 • 8:36 PM PT",
+      "transaction_id": "1419216946079023104",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
