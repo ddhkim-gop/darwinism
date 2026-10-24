@@ -15151,8 +15151,8 @@ window.__STATIC_DATA__ = {
           "height": "68",
           "weight": "200",
           "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "search_rank": 129
         },
         {
@@ -15199,6 +15199,36 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 62
+        },
+        {
+          "player_id": "13311",
+          "espn_id": null,
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2004-06-07",
+          "college": "Louisville",
+          "height": "74",
+          "weight": "228",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 197
+        },
+        {
+          "player_id": "13330",
+          "espn_id": null,
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ",
+          "birth_date": "2005-03-04",
+          "college": "Oregon",
+          "height": "75",
+          "weight": "241",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 109
         },
         {
           "player_id": "13414",
@@ -15276,21 +15306,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
-          "player_id": "7049",
-          "espn_id": 3886598,
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "college": "Tennessee",
-          "height": "75",
-          "weight": "212",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 123
-        },
-        {
           "player_id": "7526",
           "espn_id": null,
           "name": "Jaylen Waddle",
@@ -15336,21 +15351,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 58
         },
         {
-          "player_id": "8135",
-          "espn_id": null,
-          "name": "Treylon Burks",
-          "position": "WR",
-          "team": "WAS",
-          "birth_date": "2000-03-23",
-          "college": "Arkansas",
-          "height": "74",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 679
-        },
-        {
           "player_id": "8138",
           "espn_id": null,
           "name": "James Cook III",
@@ -15381,11 +15381,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 187
         },
         {
-          "player_id": "KC",
+          "player_id": "CIN",
           "espn_id": null,
-          "name": "Kansas City Chiefs",
+          "name": "Cincinnati Bengals",
           "position": "DEF",
-          "team": "KC",
+          "team": "CIN",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18675,6 +18675,90 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 8:24 AM PT",
+      "transaction_id": "1419757578614841344",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 8:24 AM PT",
+      "transaction_id": "1419757519324135424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 8:23 AM PT",
+      "transaction_id": "1419757133653684224",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
