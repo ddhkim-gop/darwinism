@@ -1,6 +1,6 @@
-import { api } from "./dataService.js?v=202610242135";
-import { renderNav } from "./components/nav.js?v=202610242135";
-import { ensurePlayerCardPopover, openPlayerCard } from "./playerCard.js?v=202610242135";
+import { api } from "./dataService.js?v=202610242343";
+import { renderNav } from "./components/nav.js?v=202610242343";
+import { ensurePlayerCardPopover, openPlayerCard } from "./playerCard.js?v=202610242343";
 
 renderNav();
 
