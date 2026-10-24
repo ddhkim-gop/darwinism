@@ -5,7 +5,7 @@
   "verified": true
  },
  "49ers": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2106827392912359424/VM4grny-_normal.jpg",
   "name": "San Francisco 49ers",
   "verified": true
  },
@@ -75,7 +75,7 @@
   "verified": true
  },
  "BuffaloBills": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2104615660366016512/ngGoCmLH_normal.jpg",
   "name": "Buffalo Bills",
   "verified": true
  },
@@ -90,7 +90,7 @@
   "verified": true
  },
  "ChicagoBears": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
   "name": "Chicago Bears",
   "verified": true
  },
@@ -115,7 +115,7 @@
   "verified": true
  },
  "Commanders": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
   "name": "Washington Commanders",
   "verified": true
  },
@@ -190,7 +190,7 @@
   "verified": true
  },
  "Jaguars": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2105350006693593088/29Lj7GDb_normal.jpg",
   "name": "Jacksonville Jaguars",
   "verified": true
  },
@@ -269,8 +269,13 @@
   "name": "Noelle Blumel",
   "verified": false
  },
+ "Panthers": {
+  "avatar": "https://pbs.twimg.com/profile_images/2092340007943999488/x1DqQr26_normal.jpg",
+  "name": "Carolina Panthers",
+  "verified": true
+ },
  "Patriots": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2110415676393340928/jGZjXu_R_normal.jpg",
   "name": "New England Patriots",
   "verified": true
  },
@@ -280,8 +285,8 @@
   "verified": true
  },
  "Raiders": {
-  "avatar": "",
-  "name": "Raiders",
+  "avatar": "https://pbs.twimg.com/profile_images/1846312316486537220/UXydCG21_normal.jpg",
+  "name": "Las Vegas Raiders",
   "verified": true
  },
  "RamsNFL": {
@@ -335,12 +340,12 @@
   "verified": true
  },
  "chargers": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2110146872325369856/tFzwBOOs_normal.jpg",
   "name": "Los Angeles Chargers",
   "verified": true
  },
  "dallascowboys": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
   "name": "Dallas Cowboys",
   "verified": true
  },
@@ -365,7 +370,7 @@
   "verified": true
  },
  "packers": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2110091159766802432/OF5urpIt_normal.jpg",
   "name": "Green Bay Packers",
   "verified": true
  },
