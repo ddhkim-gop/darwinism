@@ -15287,7 +15287,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 94
         },
         {
@@ -15377,7 +15377,7 @@ window.__STATIC_DATA__ = {
           "weight": "165",
           "years_exp": 3,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": null,
           "search_rank": 187
         },
         {
@@ -15663,21 +15663,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 29
         },
         {
-          "player_id": "11583",
-          "espn_id": null,
-          "name": "Jonathon Brooks",
-          "position": "RB",
-          "team": "CAR",
-          "birth_date": "2003-07-21",
-          "college": "Texas",
-          "height": "72",
-          "weight": "216",
-          "years_exp": 2,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 88
-        },
-        {
           "player_id": "11632",
           "espn_id": null,
           "name": "Malik Nabers",
@@ -15768,6 +15753,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
+          "player_id": "13424",
+          "espn_id": null,
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
+          "birth_date": "2001-10-23",
+          "college": "Kentucky",
+          "height": "72",
+          "weight": "223",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 384
+        },
+        {
           "player_id": "3294",
           "espn_id": 2577417,
           "name": "Dak Prescott",
@@ -15854,7 +15854,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 4,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": null,
           "search_rank": 91
         },
         {
@@ -16577,7 +16577,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 0,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": "Questionable",
           "search_rank": 118
         },
         {
@@ -16607,7 +16607,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 9
         },
         {
@@ -16639,6 +16639,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 53
+        },
+        {
+          "player_id": "96",
+          "espn_id": 8439,
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
+          "birth_date": "1983-12-02",
+          "college": "California",
+          "height": "74",
+          "weight": "223",
+          "years_exp": 21,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 186
         },
         {
           "player_id": "9756",
@@ -17039,7 +17054,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 8,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": null,
           "search_rank": 210
         },
         {
@@ -18098,7 +18113,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 34
         },
         {
@@ -18675,6 +18690,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 12:05 PM PT",
+      "transaction_id": "1419813066710749184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 11:15 AM PT",
+      "transaction_id": "1419800500131377152",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
