@@ -15272,7 +15272,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 4
         },
         {
@@ -16502,7 +16502,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 110
         },
         {
@@ -16562,7 +16562,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 118
         },
         {
@@ -16838,7 +16838,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 19
         },
         {
@@ -17240,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "228",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 123
         },
         {
@@ -17640,19 +17640,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 36
         },
         {
-          "player_id": "8116",
+          "player_id": "8122",
           "espn_id": null,
-          "name": "Pierre Strong Jr.",
+          "name": "Zonovan Knight",
           "position": "RB",
-          "team": "GB",
-          "birth_date": "1998-12-10",
-          "college": "South Dakota State",
+          "team": "ARI",
+          "birth_date": "2001-04-11",
+          "college": "NC State",
           "height": "71",
-          "weight": "207",
+          "weight": "210",
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 631
+          "search_rank": 669
         },
         {
           "player_id": "8167",
@@ -17681,7 +17681,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 5
         },
         {
@@ -17882,7 +17882,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 86
         },
         {
@@ -18675,6 +18675,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 25, 2026 • 10:32 AM PT",
+      "transaction_id": "1420152123697426432",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Pierre Strong Jr.",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
