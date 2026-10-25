@@ -17244,21 +17244,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
-          "player_id": "12718",
-          "espn_id": null,
-          "name": "Konata Mumpfield",
-          "position": "WR",
-          "team": "LAR",
-          "birth_date": "2002-10-24",
-          "college": "Pittsburgh",
-          "height": "73",
-          "weight": "188",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 678
-        },
-        {
           "player_id": "13305",
           "espn_id": null,
           "name": "Mike Washington Jr.",
@@ -17362,6 +17347,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 50
+        },
+        {
+          "player_id": "5045",
+          "espn_id": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "1995-10-10",
+          "college": "SMU",
+          "height": "76",
+          "weight": "216",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 72
         },
         {
           "player_id": "5849",
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 4:45 PM PT",
+      "transaction_id": "1419883616632061952",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
