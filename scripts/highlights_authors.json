@@ -5,7 +5,7 @@
   "verified": true
  },
  "49ers": {
-  "avatar": "https://pbs.twimg.com/profile_images/2106827392912359424/VM4grny-_normal.jpg",
+  "avatar": "",
   "name": "San Francisco 49ers",
   "verified": true
  },
@@ -20,7 +20,7 @@
   "verified": false
  },
  "AZCardinals": {
-  "avatar": "https://pbs.twimg.com/profile_images/2102075156814565376/cJ_gXOLr_normal.png",
+  "avatar": "",
   "name": "Arizona Cardinals",
   "verified": true
  },
@@ -50,7 +50,7 @@
   "verified": true
  },
  "Bengals": {
-  "avatar": "https://pbs.twimg.com/profile_images/2079568103231348736/HbQk9Ucp_normal.jpg",
+  "avatar": "",
   "name": "Cincinnati Bengals",
   "verified": true
  },
@@ -75,7 +75,7 @@
   "verified": true
  },
  "BuffaloBills": {
-  "avatar": "https://pbs.twimg.com/profile_images/2104615660366016512/ngGoCmLH_normal.jpg",
+  "avatar": "",
   "name": "Buffalo Bills",
   "verified": true
  },
@@ -90,7 +90,7 @@
   "verified": true
  },
  "ChicagoBears": {
-  "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+  "avatar": "",
   "name": "Chicago Bears",
   "verified": true
  },
@@ -174,13 +174,18 @@
   "name": "Football Is Life",
   "verified": true
  },
+ "Giants": {
+  "avatar": "https://pbs.twimg.com/profile_images/1948024945973272577/q2A09qic_normal.jpg",
+  "name": "New York Giants",
+  "verified": true
+ },
  "GlennMariniWANE": {
   "avatar": "https://pbs.twimg.com/profile_images/1152341298638204929/kE2ZfefY_x96.png",
   "name": "Glenn Marini",
   "verified": true
  },
  "HoustonTexans": {
-  "avatar": "https://pbs.twimg.com/profile_images/2110364383498940416/fs1Z1M1p_normal.jpg",
+  "avatar": "",
   "name": "Houston Texans",
   "verified": true
  },
@@ -190,7 +195,7 @@
   "verified": true
  },
  "Jaguars": {
-  "avatar": "https://pbs.twimg.com/profile_images/2105350006693593088/29Lj7GDb_normal.jpg",
+  "avatar": "",
   "name": "Jacksonville Jaguars",
   "verified": true
  },
@@ -219,13 +224,18 @@
   "name": "Los Angeles Rams",
   "verified": true
  },
+ "Lions": {
+  "avatar": "https://pbs.twimg.com/profile_images/2111253267879497728/EgJd5luG_normal.jpg",
+  "name": "Detroit Lions",
+  "verified": true
+ },
  "McGruderPmac": {
   "avatar": "https://pbs.twimg.com/profile_images/2089550325363449856/XPlK1pKR_x96.jpg",
   "name": "Phillip P-Mac McGruder",
   "verified": true
  },
  "MiamiDolphins": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2003476192737857536/3trK5_DF_normal.jpg",
   "name": "Miami Dolphins",
   "verified": true
  },
@@ -275,7 +285,7 @@
   "verified": true
  },
  "Patriots": {
-  "avatar": "https://pbs.twimg.com/profile_images/2110415676393340928/jGZjXu_R_normal.jpg",
+  "avatar": "",
   "name": "New England Patriots",
   "verified": true
  },
@@ -285,8 +295,8 @@
   "verified": true
  },
  "Raiders": {
-  "avatar": "https://pbs.twimg.com/profile_images/1846312316486537220/UXydCG21_normal.jpg",
-  "name": "Las Vegas Raiders",
+  "avatar": "",
+  "name": "Raiders",
   "verified": true
  },
  "RamsNFL": {
@@ -305,7 +315,7 @@
   "verified": true
  },
  "Seahawks": {
-  "avatar": "https://pbs.twimg.com/profile_images/2110082485757652992/TivFxPcI_normal.jpg",
+  "avatar": "",
   "name": "Seattle Seahawks",
   "verified": true
  },
@@ -325,7 +335,7 @@
   "verified": true
  },
  "Titans": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2093190077832654850/UOW9XTq4_normal.jpg",
   "name": "Tennessee Titans",
   "verified": true
  },
@@ -345,7 +355,7 @@
   "verified": true
  },
  "dallascowboys": {
-  "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+  "avatar": "",
   "name": "Dallas Cowboys",
   "verified": true
  },
@@ -370,12 +380,12 @@
   "verified": true
  },
  "packers": {
-  "avatar": "https://pbs.twimg.com/profile_images/2110091159766802432/OF5urpIt_normal.jpg",
+  "avatar": "",
   "name": "Green Bay Packers",
   "verified": true
  },
  "steelers": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
   "name": "Pittsburgh Steelers",
   "verified": true
  }
