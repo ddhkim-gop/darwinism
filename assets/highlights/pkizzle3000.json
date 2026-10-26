@@ -103,6 +103,27 @@
       "author_name": "Chicago Bears",
       "avatar": "",
       "author_verified": true
+    },
+    {
+      "url": "https://x.com/BuffaloBills/status/2111947176037187893",
+      "player": "Keon Coleman",
+      "meta": "WR \u00b7 BUF",
+      "date": "2026-10-18",
+      "author": "BuffaloBills",
+      "text": "JOSH ALLEN DOING JOSH ALLEN THINGS!!!!\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 4649,
+      "secs": 29,
+      "game_id": "401873005",
+      "game_time": "Q3 6:22",
+      "play_key": "401873005:4018730052683",
+      "played_at": "2026-10-18T22:23:50Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111946681767854080/img/-xGT3Lsfabw_f-km.jpg",
+      "published": "2026-10-18T22:26:59Z",
+      "video": "https://video.twimg.com/amplify_video/2111946681767854080/vid/avc1/1920x1080/Qrpna9gZ-eiIJeiY.mp4",
+      "author_name": "Buffalo Bills",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }

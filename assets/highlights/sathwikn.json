@@ -122,6 +122,48 @@
       "author_name": "Green Bay Packers",
       "avatar": "",
       "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2111963409629774065",
+      "player": "Kirk Cousins",
+      "meta": "QB \u00b7 LV",
+      "date": "2026-10-18",
+      "author": "NFL",
+      "text": "An unreal grab by Tre Tucker \ud83d\ude4c\n\nBUFvsLV on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 747,
+      "secs": 19,
+      "game_id": "401873005",
+      "game_time": "Q4 1:32",
+      "play_key": "401873005:4018730054324",
+      "played_at": "2026-10-18T23:27:31Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111963203655872512/img/MaIh8_XQedaGnB42.jpg",
+      "published": "2026-10-18T23:31:29Z",
+      "video": "https://video.twimg.com/amplify_video/2111963203655872512/vid/avc1/1920x1080/tNHVlvfluyPNilEe.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2111915962631082014",
+      "player": "Isaiah Likely",
+      "meta": "TE \u00b7 NYG",
+      "date": "2026-10-18",
+      "author": "NFL",
+      "text": "J.J. McCarthy and Isaiah Likely moving the Giants down the field!\n\nNOvsNYG on FOX/FOX One\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 471,
+      "secs": 10,
+      "game_id": "401873000",
+      "game_time": "Q4 0:12",
+      "play_key": "401873000:4018730005058",
+      "played_at": "2026-10-18T20:23:56Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111915668228784128/img/x6weJ7J49OcYz6Y5.jpg",
+      "published": "2026-10-18T20:22:57Z",
+      "video": "https://video.twimg.com/amplify_video/2111915668228784128/vid/avc1/1920x1080/zMWDi9DDeX0B1HcH.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
     }
   ]
 }

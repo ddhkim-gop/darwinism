@@ -1599,6 +1599,16 @@
   "published": "2026-10-25T19:21:25Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/2cddf1e4-d231-418d-a9d2-ccd23270e5ae/2cddf1e4-d231-418d-a9d2-ccd23270e5ae.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50279103/kyler-murray-connects-tj-hockenson-vikings-td": {
+  "espn_game": "401873014",
+  "game_id": "401873014",
+  "game_time": "Q4 14:36",
+  "play_key": "401873014:4018730142783",
+  "played_at": "2026-10-25T19:06:26Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/a89d6fcc-87cd-4f1c-89d2-1f1fc0d24653/a89d6fcc-87cd-4f1c-89d2-1f1fc0d24653.jpg",
+  "published": "2026-10-25T19:22:56Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/a89d6fcc-87cd-4f1c-89d2-1f1fc0d24653/a89d6fcc-87cd-4f1c-89d2-1f1fc0d24653.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50279489/joe-burrow-connects-leaping-jamarr-chase-td": {
   "espn_game": "401873012",
   "game_id": "401873012",
@@ -1678,6 +1688,16 @@
   "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/655f7160e8ee4c94b4a6c283f8c46ddc1181/655f7160e8ee4c94b4a6c283f8c46ddc1181.jpg",
   "published": "2026-10-25T21:22:07Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/655f7160-e8ee-4c94-b4a6-c283f8c46ddc/655f7160-e8ee-4c94-b4a6-c283f8c46ddc.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50280866/matthew-stafford-puka-nacua-connect-short-td": {
+  "espn_game": "401873021",
+  "game_id": "401873021",
+  "game_time": "Q2 4:15",
+  "play_key": "401873021:4018730211633",
+  "played_at": "2026-10-25T21:28:51Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/c5f3fdddf2c9406094f7e6e26c0c95401133/c5f3fdddf2c9406094f7e6e26c0c95401133.jpg",
+  "published": "2026-10-25T21:47:13Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/c5f3fddd-f2c9-4060-94f7-e6e26c0c9540/c5f3fddd-f2c9-4060-94f7-e6e26c0c9540.mp4"
  },
  "https://www.espn.com/video/clip/_/id/50280925/kyren-williams-spins-free-another-rams-td": {
   "espn_game": "401873021",
@@ -1852,6 +1872,15 @@
   "published": "2026-10-11T20:16:01Z",
   "youtube": "-rkjyX7sqDw"
  },
+ "https://www.youtube.com/shorts/0Ci0PrmAlGE": {
+  "game_id": "401873013",
+  "game_time": "Q1 12:57",
+  "play_key": "401873013:401873013186",
+  "played_at": "2026-10-25T17:07:09Z",
+  "poster": "https://i.ytimg.com/vi/0Ci0PrmAlGE/hqdefault.jpg",
+  "published": "2026-10-25T17:12:45Z",
+  "youtube": "0Ci0PrmAlGE"
+ },
  "https://www.youtube.com/shorts/0HX0pq8toqE": {
   "poster": "https://i.ytimg.com/vi/0HX0pq8toqE/hqdefault.jpg",
   "published": "2026-09-27T19:52:45Z",
@@ -1904,6 +1933,15 @@
   "poster": "https://i.ytimg.com/vi/12MQhEkhI3M/hqdefault.jpg",
   "published": "2026-09-28T20:07:42Z",
   "youtube": "12MQhEkhI3M"
+ },
+ "https://www.youtube.com/shorts/1M7Ia823Mjo": {
+  "game_id": "401873013",
+  "game_time": "Q4 0:58",
+  "play_key": "401873013:4018730134171",
+  "played_at": "2026-10-25T20:00:16Z",
+  "poster": "https://i.ytimg.com/vi/1M7Ia823Mjo/hqdefault.jpg",
+  "published": "2026-10-25T20:03:46Z",
+  "youtube": "1M7Ia823Mjo"
  },
  "https://www.youtube.com/shorts/1X1a1EBiPFg": {
   "poster": "https://i.ytimg.com/vi/1X1a1EBiPFg/hqdefault.jpg",
@@ -2155,6 +2193,15 @@
   "poster": "https://i.ytimg.com/vi/7JFjAmSpwSM/hqdefault.jpg",
   "published": "2026-10-15T16:05:01Z",
   "youtube": "7JFjAmSpwSM"
+ },
+ "https://www.youtube.com/shorts/7QwvZXsJ5nY": {
+  "game_id": "401873013",
+  "game_time": "Q1 8:35",
+  "play_key": "401873013:401873013462",
+  "played_at": "2026-10-25T17:17:53Z",
+  "poster": "https://i.ytimg.com/vi/7QwvZXsJ5nY/hqdefault.jpg",
+  "published": "2026-10-25T17:29:48Z",
+  "youtube": "7QwvZXsJ5nY"
  },
  "https://www.youtube.com/shorts/7WjU0El77xQ": {
   "poster": "https://i.ytimg.com/vi/7WjU0El77xQ/hqdefault.jpg",
@@ -2666,6 +2713,15 @@
   "poster": "https://i.ytimg.com/vi/J5MFn4oJdkY/hqdefault.jpg",
   "published": "2026-10-19T21:42:25Z",
   "youtube": "J5MFn4oJdkY"
+ },
+ "https://www.youtube.com/shorts/J7xCSK-83Po": {
+  "game_id": "401873018",
+  "game_time": "Q1 7:22",
+  "play_key": "401873018:401873018365",
+  "played_at": "2026-10-25T17:12:35Z",
+  "poster": "https://i.ytimg.com/vi/J7xCSK-83Po/hqdefault.jpg",
+  "published": "2026-10-25T17:31:33Z",
+  "youtube": "J7xCSK-83Po"
  },
  "https://www.youtube.com/shorts/JJZD7dYz4co": {
   "poster": "https://i.ytimg.com/vi/JJZD7dYz4co/hqdefault.jpg",
@@ -3460,6 +3516,11 @@
   "poster": "https://i.ytimg.com/vi/akqwnGYf4dk/hqdefault.jpg",
   "published": "2026-10-25T17:32:34Z",
   "youtube": "akqwnGYf4dk"
+ },
+ "https://www.youtube.com/shorts/amvmMpf3qpg": {
+  "poster": "https://i.ytimg.com/vi/amvmMpf3qpg/hqdefault.jpg",
+  "published": "2026-10-25T18:51:36Z",
+  "youtube": "amvmMpf3qpg"
  },
  "https://www.youtube.com/shorts/b11FKthJ230": {
   "poster": "https://i.ytimg.com/vi/b11FKthJ230/hqdefault.jpg",
