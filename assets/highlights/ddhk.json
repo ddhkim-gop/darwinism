@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/dallascowboys/status/2114906789313421336",
+      "player": "CeeDee Lamb",
+      "meta": "WR \u00b7 DAL",
+      "date": "2026-10-27",
+      "author": "dallascowboys",
+      "text": "ANOTHER ONE FOR @_CeeDeeThree \u2b50\ufe0f\n\n\ud83d\udcfa:\u00a0#DALvsPHI on ESPN\n\ud83d\udcf2: Stream on NFL+",
+      "verified": true,
+      "faves": 572,
+      "secs": 14,
+      "game_id": "401873009",
+      "game_time": "Q3 1:30",
+      "play_key": "401873009:4018730093048",
+      "played_at": "2026-10-27T02:25:10Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114906380637204481/img/uSuc71jfP1yeh74_.jpg",
+      "published": "2026-10-27T02:27:26Z",
+      "video": "https://video.twimg.com/amplify_video/2114906380637204481/vid/avc1/1920x1080/ptt5bmkrVenBMiRt.mp4",
+      "author_name": "Dallas Cowboys",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50293123/michael-irvin-fired-ceedee-lamb-catch",
       "player": "CeeDee Lamb",
       "meta": "WR \u00b7 DAL",
