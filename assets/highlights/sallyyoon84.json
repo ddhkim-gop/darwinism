@@ -1,6 +1,6 @@
 {
   "team": "sallyyoon84",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -189,27 +189,6 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/NFL/status/2111923644037579102",
-      "player": "Blake Corum",
-      "meta": "RB \u00b7 LAR",
-      "date": "2026-10-18",
-      "author": "NFL",
-      "text": "Blake Corum takes the screen pass into the end zone \u203c\ufe0f\n\nAZvsLAR on FOX/FOX One\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 301,
-      "secs": 12,
-      "game_id": "401873004",
-      "game_time": "Q2 8:23",
-      "play_key": "401873004:4018730041275",
-      "played_at": "2026-10-18T20:52:28Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111923537984503808/img/LrNZE4nJLCmljVLP.jpg",
-      "published": "2026-10-18T20:53:29Z",
-      "video": "https://video.twimg.com/amplify_video/2111923537984503808/vid/avc1/1920x1080/-qf9pu1jIpWvoyhU.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2114447365235228978",
       "player": "Tony Pollard",
       "meta": "RB \u00b7 TEN",
@@ -224,23 +203,6 @@
       "video": "https://video.twimg.com/amplify_video/2114447094706778112/vid/avc1/1920x1080/uU6DbMUfAJKRjO3y.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFLonFOX/status/2111953084993671545",
-      "player": "Davante Adams",
-      "meta": "WR \u00b7 LAR",
-      "date": "2026-10-18",
-      "author": "NFLonFOX",
-      "text": "Davante Adams had to head to the sideline after that last play.\n\n\ud83d\udcfa: FOX/FOX One",
-      "verified": false,
-      "faves": 172,
-      "secs": 5,
-      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2111953059253215232/pu/img/zPu6zJKqHEiZaZvL.jpg",
-      "published": "2026-10-18T22:50:28Z",
-      "video": "https://video.twimg.com/ext_tw_video/2111953059253215232/pu/vid/avc1/1280x720/1MvRC-C0v-S8jOk_.mp4?tag=12",
-      "author_name": "FOX Sports: NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1889457774159167488/SooiqbNH_normal.jpg",
       "author_verified": true
     }
   ]

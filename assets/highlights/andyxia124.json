@@ -1,6 +1,6 @@
 {
   "team": "andyxia124",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -224,27 +224,6 @@
       "video": "https://video.twimg.com/amplify_video/2114381968381018112/vid/avc1/1920x1080/QB0rymXFf8Xa6KLl.mp4",
       "author_name": "Pittsburgh Steelers",
       "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2111909110409224338",
-      "player": "Tyrone Tracy Jr.",
-      "meta": "RB \u00b7 NYG",
-      "date": "2026-10-18",
-      "author": "NFL",
-      "text": "Tyrone Tracy Jr. rushes it in for his second TD of the day!\n\nNOvsNYG on FOX/FOX One\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 0,
-      "secs": 10,
-      "game_id": "401873000",
-      "game_time": "Q4 7:00",
-      "play_key": "401873000:4018730004066",
-      "played_at": "2026-10-18T19:51:45Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2111908292431863808/img/nN8uRclAl5HiY1a9.jpg",
-      "published": "2026-10-18T19:55:43Z",
-      "video": "https://video.twimg.com/amplify_video/2111908292431863808/vid/avc1/1920x1080/k6uKMQnuHKr6hNZN.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
     },
     {
