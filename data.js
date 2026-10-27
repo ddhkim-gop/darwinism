@@ -16471,8 +16471,8 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "210",
           "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 110
         },
         {
@@ -17197,21 +17197,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 12
-        },
-        {
-          "player_id": "12530",
-          "espn_id": null,
-          "name": "Travis Hunter",
-          "position": "WR/DB",
-          "team": "JAX",
-          "birth_date": "2003-05-18",
-          "college": "Colorado",
-          "height": "73",
-          "weight": "185",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 105
         },
         {
           "player_id": "13305",
@@ -18645,6 +18630,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 27, 2026 • 11:50 AM PT",
+      "transaction_id": "1420896380011974656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Travis Hunter",
+          "position": "WR/DB",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
