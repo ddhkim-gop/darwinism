@@ -15171,21 +15171,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "12545",
-          "espn_id": null,
-          "name": "Tyler Shough",
-          "position": "QB",
-          "team": "NO",
-          "birth_date": "1999-09-28",
-          "college": "Louisville",
-          "height": "77",
-          "weight": "219",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 87
-        },
-        {
           "player_id": "13281",
           "espn_id": null,
           "name": "Jordyn Tyson",
@@ -15364,21 +15349,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "9502",
-          "espn_id": null,
-          "name": "Tank Dell",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "1999-10-29",
-          "college": "Houston",
-          "height": "70",
-          "weight": "165",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 187
         },
         {
           "player_id": "CIN",
@@ -16115,7 +16085,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 627
         },
         {
@@ -16502,7 +16472,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 110
         },
         {
@@ -18675,6 +18645,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 27, 2026 • 6:15 AM PT",
+      "transaction_id": "1420812107582042112",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 27, 2026 • 6:15 AM PT",
+      "transaction_id": "1420812054855450624",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
