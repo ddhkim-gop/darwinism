@@ -15734,7 +15734,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -16442,7 +16442,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 135
         },
         {
@@ -16624,6 +16624,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 99
+        },
+        {
+          "player_id": "DET",
+          "espn_id": null,
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         },
         {
           "player_id": "HOU",
@@ -17550,21 +17565,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
-          "player_id": "3271",
-          "espn_id": 2573401,
-          "name": "Tyler Higbee",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "1993-01-01",
-          "college": "Western Kentucky",
-          "height": "78",
-          "weight": "253",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 633
-        },
-        {
           "player_id": "6801",
           "espn_id": 4239993,
           "name": "Tee Higgins",
@@ -17578,6 +17578,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 36
+        },
+        {
+          "player_id": "6865",
+          "espn_id": 4242557,
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR",
+          "birth_date": "1999-01-08",
+          "college": "Stanford",
+          "height": "79",
+          "weight": "266",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 136
         },
         {
           "player_id": "8122",
@@ -17625,11 +17640,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "SF",
+          "player_id": "KC",
           "espn_id": null,
-          "name": "San Francisco 49ers",
+          "name": "Kansas City Chiefs",
           "position": "DEF",
-          "team": "SF",
+          "team": "KC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17792,7 +17807,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 77
         },
         {
@@ -18615,6 +18630,84 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 11:00 AM PT",
+      "transaction_id": "1421246303953817600",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 10:59 AM PT",
+      "transaction_id": "1421245912264486912",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 10:11 AM PT",
+      "transaction_id": "1421233971177533440",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
