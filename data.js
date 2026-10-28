@@ -17691,21 +17691,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 176
         },
         {
-          "player_id": "11647",
-          "espn_id": null,
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2001-08-28",
-          "college": "Troy",
-          "height": "68",
-          "weight": "215",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 141
-        },
-        {
           "player_id": "12507",
           "espn_id": null,
           "name": "Omarion Hampton",
@@ -17749,6 +17734,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 153
+        },
+        {
+          "player_id": "13968",
+          "espn_id": null,
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS",
+          "birth_date": "2003-12-09",
+          "college": "Iowa",
+          "height": "73",
+          "weight": "213",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 630
         },
         {
           "player_id": "3451",
@@ -18615,6 +18615,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 6:24 AM PT",
+      "transaction_id": "1421176954933030912",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
