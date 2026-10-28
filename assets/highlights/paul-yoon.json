@@ -1,6 +1,6 @@
 {
   "team": "Paul_Yoon",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -290,6 +290,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/fcbc10f7e11f4afca3f3d9956036dc8d9/fcbc10f7e11f4afca3f3d9956036dc8d9.jpg",
       "published": "2026-10-16T01:15:17Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1016/fcbc10f7-e11f-4afc-a3f3-d9956036dc8d/fcbc10f7-e11f-4afc-a3f3-d9956036dc8d.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/fbLyKclLw_A",
+      "player": "Malik Nabers",
+      "meta": "WR \u00b7 NYG",
+      "date": "2026-10-27",
+      "author": "NYGiants",
+      "text": "H1M #giants #maliknabers #highlights #nabers #nfl #football #shorts #newyorkgiants",
+      "verified": false,
+      "faves": 930,
+      "secs": 113,
+      "poster": "https://i.ytimg.com/vi/fbLyKclLw_A/hqdefault.jpg",
+      "published": "2026-10-27T19:30:39Z",
+      "youtube": "fbLyKclLw_A",
+      "author_name": "New York Giants",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }
