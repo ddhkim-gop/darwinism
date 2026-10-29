@@ -15171,19 +15171,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 98
         },
         {
-          "player_id": "12469",
+          "player_id": "11583",
           "espn_id": null,
-          "name": "Dylan Sampson",
+          "name": "Jonathon Brooks",
           "position": "RB",
-          "team": "CLE",
-          "birth_date": "2004-09-14",
-          "college": "Tennessee",
-          "height": "68",
-          "weight": "200",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 129
+          "team": "CAR",
+          "birth_date": "2003-07-21",
+          "college": "Texas",
+          "height": "72",
+          "weight": "216",
+          "years_exp": 2,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 88
         },
         {
           "player_id": "12519",
@@ -15578,7 +15578,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 22
         },
         {
@@ -16089,19 +16089,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "8129",
+          "player_id": "7561",
           "espn_id": null,
-          "name": "Dameon Pierce",
+          "name": "Elijah Mitchell",
           "position": "RB",
           "team": "PHI",
-          "birth_date": "2000-02-19",
-          "college": "Florida",
+          "birth_date": "1998-05-02",
+          "college": "Louisiana",
           "height": "70",
-          "weight": "218",
-          "years_exp": 4,
+          "weight": "200",
+          "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 627
+          "injury_status": null,
+          "search_rank": 532
         },
         {
           "player_id": "9226",
@@ -16301,7 +16301,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 17
         },
         {
@@ -16361,7 +16361,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 1
         },
         {
@@ -16457,7 +16457,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 21
         },
         {
@@ -16673,7 +16673,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 75
         },
         {
@@ -16964,7 +16964,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 105
         },
         {
@@ -17114,7 +17114,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 89
         },
         {
@@ -17180,7 +17180,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 81
         },
         {
@@ -17485,8 +17485,8 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "201",
           "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 190
         },
         {
@@ -17591,7 +17591,7 @@ window.__STATIC_DATA__ = {
           "weight": "266",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 136
         },
         {
@@ -17702,7 +17702,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 176
         },
         {
@@ -17822,7 +17822,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 3
         },
         {
@@ -17837,7 +17837,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 86
         },
         {
@@ -18630,6 +18630,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 3:51 PM PT",
+      "transaction_id": "1421319641011097600",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 1:13 PM PT",
+      "transaction_id": "1421279707323695104",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
