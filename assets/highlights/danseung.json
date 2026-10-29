@@ -1,6 +1,6 @@
 {
   "team": "danseung",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -122,7 +122,7 @@
       "published": "2026-10-25T18:20:10Z",
       "video": "https://video.twimg.com/amplify_video/2114420983712944129/vid/avc1/1920x1080/3PXZuYAfqn9llUhr.mp4",
       "author_name": "Miami Dolphins",
-      "avatar": "https://pbs.twimg.com/profile_images/2003476192737857536/3trK5_DF_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -197,7 +197,7 @@
       "faves": 0,
       "secs": 0,
       "espn_game": "401873015",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/ss_20261025_201955396_3711587/ss_20261025_201955396_3711587.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_201955396_371158716/ss_20261025_201955396_371158716.jpg",
       "published": "2026-10-26T00:19:54Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1025/ss_20261025_201955396_3711587/ss_20261025_201955396_3711587.mp4"
     },

@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -101,6 +101,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/55efe18ba7944258bd372b772d9d735c994/55efe18ba7944258bd372b772d9d735c994.jpg",
       "published": "2026-10-25T18:55:44Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/55efe18b-a794-4258-bd37-2b772d9d735c/55efe18b-a794-4258-bd37-2b772d9d735c.mp4"
+    },
+    {
+      "url": "https://x.com/NFLonFOX/status/2114414810959904835",
+      "player": "Bryce Young",
+      "meta": "QB \u00b7 CAR",
+      "date": "2026-10-25",
+      "author": "NFLonFOX",
+      "text": "The Panthers answer!\n\nBryce Young connects with Darren Waller for a 50-yard touchdown!\n\n\ud83d\udcfa: FOX/FOX One",
+      "verified": false,
+      "faves": 169,
+      "secs": 11,
+      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2114414780135899136/pu/img/WkTDLqgLy6CiSi4G.jpg",
+      "published": "2026-10-25T17:52:29Z",
+      "video": "https://video.twimg.com/ext_tw_video/2114414780135899136/pu/vid/avc1/1280x720/pG_z_q7KKIBEn-S5.mp4?tag=12",
+      "played_at": "2026-10-25T17:43:08Z",
+      "game_time": "Q2 11:05",
+      "play_key": "401873018:4018730181087",
+      "game_id": "401873018",
+      "author_name": "FOX Sports: NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1889457774159167488/SooiqbNH_normal.jpg",
+      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50278236/kaelon-black-breaks-30-yard-49ers-td",

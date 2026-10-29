@@ -1,6 +1,6 @@
 {
   "team": "andyxia124",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -183,25 +183,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57.jpg",
       "published": "2026-10-25T17:16:24Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50193066/rj-harvey-punches-the-broncos",
-      "player": "RJ Harvey",
-      "meta": "RB \u00b7 DEN",
-      "date": "2026-10-16",
-      "author": "ESPN",
-      "text": "RJ Harvey punches it in for the Broncos",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872995",
-      "game_id": "401872995",
-      "game_time": "Q2 5:15",
-      "play_key": "401872995:4018729951469",
-      "played_at": "2026-10-16T01:11:30Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/382eebee9cc24d05bb79110e89d34df75/382eebee9cc24d05bb79110e89d34df75.jpg",
-      "published": "2026-10-16T01:23:24Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1016/382eebee-9cc2-4d05-bb79-110e89d34df7/382eebee-9cc2-4d05-bb79-110e89d34df7.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50284231/jonah-coleman-difference-maker-broncos-win",

@@ -1,6 +1,6 @@
 {
   "team": "sathwikn",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -101,6 +101,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/2cddf1e4d231418da9d2ccd23270e5ae998/2cddf1e4d231418da9d2ccd23270e5ae998.jpg",
       "published": "2026-10-25T19:21:25Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/2cddf1e4-d231-418d-a9d2-ccd23270e5ae/2cddf1e4-d231-418d-a9d2-ccd23270e5ae.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/9i95tBPcg4w",
+      "player": "Isaiah Likely",
+      "meta": "TE \u00b7 NYG",
+      "date": "2026-10-28",
+      "author": "NYGiants",
+      "text": "Catches? Likely. #giants #shorts #nfl #football #isaiahlikely #newyorkgiants",
+      "verified": false,
+      "faves": 545,
+      "secs": 98,
+      "poster": "https://i.ytimg.com/vi/9i95tBPcg4w/hqdefault.jpg",
+      "published": "2026-10-28T17:00:25Z",
+      "youtube": "9i95tBPcg4w",
+      "author_name": "New York Giants",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }
