@@ -16737,21 +16737,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 265
         },
         {
-          "player_id": "12499",
-          "espn_id": null,
-          "name": "Elic Ayomanor",
-          "position": "WR",
-          "team": "TEN",
-          "birth_date": "2003-06-03",
-          "college": "Stanford",
-          "height": "74",
-          "weight": "206",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 185
-        },
-        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16778,7 +16763,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 39
         },
         {
@@ -18675,6 +18660,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 11:02 AM PT",
+      "transaction_id": "1421609087019364352",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
