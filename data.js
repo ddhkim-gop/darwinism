@@ -15261,6 +15261,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
+          "player_id": "3257",
+          "espn_id": 2578570,
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "birth_date": "1992-12-11",
+          "college": "North Carolina State",
+          "height": "76",
+          "weight": "235",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 203
+        },
+        {
           "player_id": "4034",
           "espn_id": 3117251,
           "name": "Christian McCaffrey",
@@ -15364,21 +15379,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "9228",
-          "espn_id": null,
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "birth_date": "2001-07-25",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "204",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 132
         },
         {
           "player_id": "CIN",
@@ -17244,6 +17244,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "12530",
+          "espn_id": null,
+          "name": "Travis Hunter",
+          "position": "WR/DB",
+          "team": "JAX",
+          "birth_date": "2003-05-18",
+          "college": "Colorado",
+          "height": "73",
+          "weight": "185",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 104
+        },
+        {
           "player_id": "13305",
           "espn_id": null,
           "name": "Mike Washington Jr.",
@@ -17349,21 +17364,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 48
         },
         {
-          "player_id": "5045",
-          "espn_id": 3128429,
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "1995-10-10",
-          "college": "SMU",
-          "height": "76",
-          "weight": "216",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 72
-        },
-        {
           "player_id": "5849",
           "espn_id": 3917315,
           "name": "Kyler Murray",
@@ -17407,6 +17407,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 153
+        },
+        {
+          "player_id": "8142",
+          "espn_id": null,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "team": "IND",
+          "birth_date": "2000-05-02",
+          "college": "Cincinnati",
+          "height": "75",
+          "weight": "211",
+          "years_exp": 4,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 94
         },
         {
           "player_id": "9509",
@@ -18660,6 +18675,112 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 5:20 AM PT",
+      "transaction_id": "1421523018760376320",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 4:57 AM PT",
+      "transaction_id": "1421517393003323392",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Travis Hunter",
+          "position": "WR/DB",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 4:56 AM PT",
+      "transaction_id": "1421517065310756864",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 4:55 AM PT",
+      "transaction_id": "1421516803028295680",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Alec Pierce",
+          "position": "WR",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
