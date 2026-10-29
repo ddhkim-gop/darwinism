@@ -23,6 +23,15 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 8 — Nobody At Kicker",
+            date: "2026-10-29",
+            duration: "9:23",
+            slug: "2026-08-nobody-at-kicker",
+            audio: "assets/podcasts/2026/ep08-nobody-at-kicker.mp3",
+            art: "assets/podcasts/art/2026-08-nobody-at-kicker.png?v=202610291937",
+            description: "Bower Outage won the week's closest game by 1.18 with an empty kicker slot, and eikichi went 7-0 by 3.62 as EgBigBoo's kicker missed two field goals. Tony Pollard's 35 led the league for Salamander's 138.62 high score, Put It In Herbert set a perfect lineup, and Puka Doncic now has the most points in the league.",
+        },
+        {
             title: "Episode 7 — Still Perfect, Barely",
             date: "2026-10-22",
             duration: "9:07",

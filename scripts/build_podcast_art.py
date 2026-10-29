@@ -42,6 +42,7 @@ EPISODES = [
     ("2026-05-one-left-standing",        "05", "#4299e1", "Tetairoa McMillan", "shreds Lions secondary"),
     ("2026-06-the-crowded-middle",       "06", "#9f7aea", "Drake Maye",    "374 passing yards"),
     ("2026-07-still-perfect-barely",     "07", "#ed8936", "RJ Harvey",     "punches it in for the Broncos"),
+    ("2026-08-nobody-at-kicker",         "08", "#38b2ac", "Javonte Williams", "waves bye"),
 ]
 
 
@@ -140,12 +141,19 @@ def main():
         p = os.path.join(OUT, slug + ".png")
         with open(s, "w") as f:
             f.write(svg(slug, label, accent, player, match))
-        subprocess.run([binary, "--headless", "--disable-gpu", "--no-sandbox",
-                        "--allow-file-access-from-files",
-                        f"--screenshot={os.path.abspath(p)}",
-                        f"--window-size={SIZE},{SIZE}",
-                        "file://" + os.path.abspath(s)],
-                       check=True, capture_output=True)
+        # Chrome can write the screenshot and then exit 2 when its teardown
+        # watchdog fires (seen 2026-10-29). Judge success by a fresh PNG, not
+        # the exit code.
+        if os.path.exists(p):
+            os.remove(p)
+        r = subprocess.run([binary, "--headless", "--disable-gpu", "--no-sandbox",
+                            "--allow-file-access-from-files",
+                            f"--screenshot={os.path.abspath(p)}",
+                            f"--window-size={SIZE},{SIZE}",
+                            "file://" + os.path.abspath(s)],
+                           capture_output=True)
+        if not os.path.exists(p):
+            raise subprocess.CalledProcessError(r.returncode, r.args, r.stdout, r.stderr)
         os.remove(s)
         print(f"  {p}  {os.path.getsize(p)//1024} KB")
 
