@@ -15186,6 +15186,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
+          "player_id": "12482",
+          "espn_id": null,
+          "name": "Savion Williams",
+          "position": "WR",
+          "team": "GB",
+          "birth_date": "2001-11-22",
+          "college": "TCU",
+          "height": "76",
+          "weight": "222",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden III",
@@ -15363,7 +15378,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 133
+          "search_rank": 132
         },
         {
           "player_id": "CIN",
@@ -15447,21 +15462,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 111
         },
         {
-          "player_id": "13545",
-          "espn_id": null,
-          "name": "Trey Smack",
-          "position": "K",
-          "team": "GB",
-          "birth_date": "2003-06-12",
-          "college": "Florida",
-          "height": "73",
-          "weight": "188",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 194
-        },
-        {
           "player_id": "2133",
           "espn_id": 16800,
           "name": "Davante Adams",
@@ -15519,7 +15519,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 11
+          "search_rank": 12
         },
         {
           "player_id": "7021",
@@ -15535,6 +15535,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 65
+        },
+        {
+          "player_id": "7042",
+          "espn_id": 3917232,
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "birth_date": "1997-02-14",
+          "college": "Georgia Southern",
+          "height": "70",
+          "weight": "183",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 288
         },
         {
           "player_id": "7523",
@@ -15565,6 +15580,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 117
+        },
+        {
+          "player_id": "8135",
+          "espn_id": null,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2000-03-23",
+          "college": "Arkansas",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 679
         },
         {
           "player_id": "8137",
@@ -15660,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 28
+          "search_rank": 27
         },
         {
           "player_id": "11635",
@@ -15675,7 +15705,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 35
+          "search_rank": 34
         },
         {
           "player_id": "11786",
@@ -15690,7 +15720,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 131
+          "search_rank": 133
         },
         {
           "player_id": "12487",
@@ -15750,7 +15780,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 384
+          "search_rank": 382
         },
         {
           "player_id": "3294",
@@ -15810,7 +15840,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 30
+          "search_rank": 31
         },
         {
           "player_id": "7594",
@@ -15855,7 +15885,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 5
+          "search_rank": 7
         },
         {
           "player_id": "9500",
@@ -16071,7 +16101,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 67
         },
         {
           "player_id": "6904",
@@ -16242,7 +16272,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 197
+          "search_rank": 199
         },
         {
           "player_id": "4035",
@@ -16272,7 +16302,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 40
+          "search_rank": 39
         },
         {
           "player_id": "5012",
@@ -16428,7 +16458,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "11576",
@@ -16593,7 +16623,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 7
+          "search_rank": 6
         },
         {
           "player_id": "8148",
@@ -16824,7 +16854,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 106
+          "search_rank": 105
         },
         {
           "player_id": "8154",
@@ -16920,7 +16950,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 22
+          "search_rank": 23
         },
         {
           "player_id": "11834",
@@ -17241,7 +17271,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 113
+          "search_rank": 112
         },
         {
           "player_id": "1479",
@@ -17316,7 +17346,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 50
+          "search_rank": 48
         },
         {
           "player_id": "5045",
@@ -17376,7 +17406,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 155
+          "search_rank": 153
         },
         {
           "player_id": "9509",
@@ -17442,7 +17472,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 22
+          "search_rank": 20
         },
         {
           "player_id": "11584",
@@ -17547,7 +17577,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "3163",
@@ -18099,7 +18129,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 17
+          "search_rank": 19
         },
         {
           "player_id": "8228",
@@ -18630,6 +18660,78 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 4:28 PM PT",
+      "transaction_id": "1421328893477941248",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 4:27 PM PT",
+      "transaction_id": "1421328689144107008",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Savion Williams",
+          "position": "WR",
+          "team": "GB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 4:27 PM PT",
+      "transaction_id": "1421328646584426500",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
