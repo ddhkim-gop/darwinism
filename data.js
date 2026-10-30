@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 324
         },
         {
-          "player_id": "11581",
-          "espn_id": null,
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "2001-01-05",
-          "college": "USC",
-          "height": "69",
-          "weight": "220",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 98
-        },
-        {
           "player_id": "11583",
           "espn_id": null,
           "name": "Jonathon Brooks",
@@ -15184,21 +15169,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 88
-        },
-        {
-          "player_id": "12482",
-          "espn_id": null,
-          "name": "Savion Williams",
-          "position": "WR",
-          "team": "GB",
-          "birth_date": "2001-11-22",
-          "college": "TCU",
-          "height": "76",
-          "weight": "222",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 679
         },
         {
           "player_id": "12519",
@@ -15258,7 +15228,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 161
+          "search_rank": 162
         },
         {
           "player_id": "3257",
@@ -15289,6 +15259,36 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 4
+        },
+        {
+          "player_id": "4147",
+          "espn_id": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "birth_date": "1995-09-16",
+          "college": "Oklahoma",
+          "height": "71",
+          "weight": "240",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 459
+        },
+        {
+          "player_id": "4454",
+          "espn_id": 3045523,
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI",
+          "birth_date": "1995-08-04",
+          "college": "Eastern Washington",
+          "height": "73",
+          "weight": "205",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 673
         },
         {
           "player_id": "5022",
@@ -15609,7 +15609,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 22
+          "search_rank": 23
         },
         {
           "player_id": "8150",
@@ -15690,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 27
+          "search_rank": 28
         },
         {
           "player_id": "11635",
@@ -15705,7 +15705,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 34
+          "search_rank": 35
         },
         {
           "player_id": "11786",
@@ -15780,7 +15780,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 382
+          "search_rank": 380
         },
         {
           "player_id": "3294",
@@ -15840,7 +15840,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 31
+          "search_rank": 30
         },
         {
           "player_id": "7594",
@@ -15936,7 +15936,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 64
         },
         {
           "player_id": "11624",
@@ -16026,7 +16026,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 449
+          "search_rank": 451
         },
         {
           "player_id": "12514",
@@ -16116,7 +16116,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 27
+          "search_rank": 28
         },
         {
           "player_id": "7561",
@@ -16212,7 +16212,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11539",
@@ -16407,7 +16407,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 490
+          "search_rank": 489
         },
         {
           "player_id": "9753",
@@ -16623,7 +16623,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 6
+          "search_rank": 7
         },
         {
           "player_id": "8148",
@@ -16734,7 +16734,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 265
+          "search_rank": 263
         },
         {
           "player_id": "12501",
@@ -16839,7 +16839,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 106
         },
         {
           "player_id": "8154",
@@ -16980,7 +16980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 104
         },
         {
           "player_id": "421",
@@ -17055,7 +17055,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 41
+          "search_rank": 43
         },
         {
           "player_id": "6130",
@@ -17346,7 +17346,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 48
+          "search_rank": 50
         },
         {
           "player_id": "5849",
@@ -17391,7 +17391,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 153
+          "search_rank": 155
         },
         {
           "player_id": "8142",
@@ -17472,7 +17472,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 20
+          "search_rank": 22
         },
         {
           "player_id": "11584",
@@ -17607,7 +17607,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 634
+          "search_rank": 636
         },
         {
           "player_id": "6801",
@@ -18024,7 +18024,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 13,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 90
+          "search_rank": 89
         },
         {
           "player_id": "4984",
@@ -18645,6 +18645,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 7:47 PM PT",
+      "transaction_id": "1421741323983069184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Savion Williams",
+          "position": "WR",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 29, 2026 • 7:46 PM PT",
+      "transaction_id": "1421741170068934656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
