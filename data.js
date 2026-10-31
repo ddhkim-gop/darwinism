@@ -16055,7 +16055,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 36
         },
         {
@@ -16421,7 +16421,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 101
         },
         {
@@ -16506,6 +16506,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 74
         },
         {
+          "player_id": "11647",
+          "espn_id": null,
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2001-08-28",
+          "college": "Troy",
+          "height": "68",
+          "weight": "215",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 141
+        },
+        {
           "player_id": "11655",
           "espn_id": null,
           "name": "Tyrone Tracy Jr.",
@@ -16531,8 +16546,8 @@ window.__STATIC_DATA__ = {
           "height": "68",
           "weight": "205",
           "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 56
         },
         {
@@ -18645,6 +18660,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 31, 2026 • 12:49 PM PT",
+      "transaction_id": "1422360954548531200",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
