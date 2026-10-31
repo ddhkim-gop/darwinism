@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -141,65 +141,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/5b7c94f6214e4b0ea5694af7dc470cea997/5b7c94f6214e4b0ea5694af7dc470cea997.jpg",
       "published": "2026-10-25T17:48:43Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/5b7c94f6-214e-4b0e-a569-4af7dc470cea/5b7c94f6-214e-4b0e-a569-4af7dc470cea.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50254208/rhamondre-stevenson-stuns-bears-48-yard-td-end-first-half",
-      "player": "Rhamondre Stevenson",
-      "meta": "RB \u00b7 NE",
-      "date": "2026-10-23",
-      "author": "ESPN",
-      "text": "Rhamondre Stevenson stuns Bears with 48-yard TD to end first half",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873010",
-      "game_id": "401873010",
-      "game_time": "Q2 0:00",
-      "play_key": "401873010:4018730102079",
-      "played_at": "2026-10-23T01:44:35Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/cc0ae79db3ee4beea4815ec7cdf581c31410/cc0ae79db3ee4beea4815ec7cdf581c31410.jpg",
-      "published": "2026-10-23T02:00:04Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1023/cc0ae79d-b3ee-4bee-a481-5ec7cdf581c3/cc0ae79d-b3ee-4bee-a481-5ec7cdf581c3.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50254172/luther-burden-iii-finds-seam-3rd-17-bears-td",
-      "player": "Luther Burden III",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ESPN",
-      "text": "Luther Burden III finds a seam on 3rd-and-17 for a Bears TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873010",
-      "game_id": "401873010",
-      "game_time": "Q2 0:14",
-      "play_key": "401873010:4018730101983",
-      "played_at": "2026-10-23T01:40:39Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/0eff46382e3a492295891e320c01afe51407/0eff46382e3a492295891e320c01afe51407.jpg",
-      "published": "2026-10-23T01:53:54Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1023/0eff4638-2e3a-4922-9589-1e320c01afe5/0eff4638-2e3a-4922-9589-1e320c01afe5.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2113432185546187221",
-      "player": "Luther Burden III",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "NFL",
-      "text": "LUTHER BURDEN INSIDE THE 5\n\nNEvsCHI on Prime Video\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 1445,
-      "secs": 11,
-      "game_id": "401873010",
-      "game_time": "Q1 2:32",
-      "play_key": "401873010:401873010807",
-      "played_at": "2026-10-23T00:46:54Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2113432060450754560/img/Nbip-Xh8U6W9zlQ9.jpg",
-      "published": "2026-10-23T00:47:53Z",
-      "video": "https://video.twimg.com/amplify_video/2113432060450754560/vid/avc1/1920x1080/8WWjHgTlNKb2NGkg.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     }
   ]
 }

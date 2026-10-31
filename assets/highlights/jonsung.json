@@ -1,6 +1,6 @@
 {
   "team": "jonsung",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -143,27 +143,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/8bf25adfa05a4042b1cae1be3085d4f8760/8bf25adfa05a4042b1cae1be3085d4f8760.jpg",
       "published": "2026-10-25T14:38:28Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/8bf25adf-a05a-4042-b1ca-e1be3085d4f8/8bf25adf-a05a-4042-b1ca-e1be3085d4f8.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/CAtd8Zt3G70",
-      "player": "D'Andre Swift",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ChicagoBears",
-      "text": "Swift gets the scoring started \ud83d\ude24 #TNF",
-      "verified": true,
-      "faves": 759,
-      "secs": 25,
-      "game_id": "401873010",
-      "game_time": "Q1 1:38",
-      "play_key": "401873010:401873010832",
-      "played_at": "2026-10-23T00:48:49Z",
-      "poster": "https://i.ytimg.com/vi/CAtd8Zt3G70/hqdefault.jpg",
-      "published": "2026-10-23T01:08:15Z",
-      "youtube": "CAtd8Zt3G70",
-      "author_name": "Chicago Bears",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://x.com/NFLonFOX/status/2114518444267954613",
