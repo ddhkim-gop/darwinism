@@ -16070,7 +16070,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 61
         },
         {
@@ -16331,7 +16331,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -16763,7 +16763,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 39
         },
         {
@@ -17505,21 +17505,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 44
         },
         {
-          "player_id": "12536",
-          "espn_id": null,
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-09-04",
-          "college": "Iowa State",
-          "height": "71",
-          "weight": "201",
-          "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 190
-        },
-        {
           "player_id": "12711",
           "espn_id": null,
           "name": "Tyler Loop",
@@ -17608,6 +17593,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 636
+        },
+        {
+          "player_id": "5001",
+          "espn_id": 3117256,
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "birth_date": "1996-07-11",
+          "college": "Stanford",
+          "height": "77",
+          "weight": "242",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 98
         },
         {
           "player_id": "6801",
@@ -18645,6 +18645,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 31, 2026 • 7:39 AM PT",
+      "transaction_id": "1422282767365877760",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 31, 2026 • 7:38 AM PT",
+      "transaction_id": "1422282662789259264",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,

@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202610310658";
-import { renderNav } from "./components/nav.js?v=202610310658";
+import { api } from "./dataService.js?v=202610311755";
+import { renderNav } from "./components/nav.js?v=202610311755";
 
 function el(id) {
     return document.getElementById(id);
