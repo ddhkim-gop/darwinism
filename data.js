@@ -16749,7 +16749,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 265
+          "search_rank": 264
         },
         {
           "player_id": "12501",
@@ -17607,7 +17607,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 636
+          "search_rank": 647
         },
         {
           "player_id": "5001",
