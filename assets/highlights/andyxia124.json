@@ -63,25 +63,23 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/ee63ee6d-1eda-4389-9b9b-648e20487817/ee63ee6d-1eda-4389-9b9b-648e20487817.mp4"
     },
     {
-      "url": "https://x.com/Ravens/status/2116963466804081128",
+      "url": "https://www.espn.com/video/clip/_/id/50349657/derrick-henry-td-helps-ravens-capitalize-josh-allen-int",
       "player": "Derrick Henry",
       "meta": "RB \u00b7 BAL",
       "date": "2026-11-01",
-      "author": "Ravens",
-      "text": "The King \ud83d\udc51\n\nTune in on CBS",
+      "author": "ESPN",
+      "text": "Derrick Henry's TD helps Ravens capitalize off a Josh Allen INT",
       "verified": true,
-      "faves": 556,
-      "secs": 9,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873026",
       "game_id": "401873026",
       "game_time": "Q1 3:18",
       "play_key": "401873026:401873026947",
       "played_at": "2026-11-01T18:37:35Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2116963385594007552/img/L9m_QTusdoq6fbVY.jpg",
-      "published": "2026-11-01T18:39:56Z",
-      "video": "https://video.twimg.com/amplify_video/2116963385594007552/vid/avc1/1920x1080/d2PDRfKcob5cdpvg.mp4",
-      "author_name": "Baltimore Ravens",
-      "avatar": "https://pbs.twimg.com/profile_images/1994466436266225664/05ma1sy0_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/694bc9f8d9f84664a0768555931788d1959/694bc9f8d9f84664a0768555931788d1959.jpg",
+      "published": "2026-11-01T18:53:41Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/694bc9f8-d9f8-4664-a076-8555931788d1/694bc9f8-d9f8-4664-a076-8555931788d1.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50349508/brock-bowers-makes-spectacular-one-handed-snag-raiders-td",
@@ -198,7 +196,7 @@
       "published": "2026-10-25T18:56:57Z",
       "video": "https://video.twimg.com/amplify_video/2114430856467042304/vid/avc1/1920x1080/tViNz2lOPxVnlnRV.mp4",
       "author_name": "New York Jets",
-      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -240,7 +238,7 @@
       "published": "2026-10-25T17:38:35Z",
       "video": "https://video.twimg.com/amplify_video/2114411182530375680/vid/avc1/1100x1080/JDkqQK1SRvlEDswY.mp4",
       "author_name": "New York Jets",
-      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -282,7 +280,7 @@
       "published": "2026-10-25T17:14:24Z",
       "video": "https://video.twimg.com/amplify_video/2114404990387105792/vid/avc1/1920x1080/1FUmdE111zqxapu3.mp4",
       "author_name": "New York Jets",
-      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

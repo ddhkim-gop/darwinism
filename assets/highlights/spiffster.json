@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50351361/josh-allen-links-dalton-kincaid-extend-bills-lead",
+      "player": "Dalton Kincaid",
+      "meta": "TE \u00b7 BUF",
+      "date": "2026-11-01",
+      "author": "ESPN",
+      "text": "Josh Allen links up with Dalton Kincaid to extend Bills' lead",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873026",
+      "game_id": "401873026",
+      "game_time": "Q4 5:58",
+      "play_key": "401873026:4018730264251",
+      "played_at": "2026-11-01T21:08:47Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/21aff665-9d05-4ae3-bbd1-e94ce1416ca6/21aff665-9d05-4ae3-bbd1-e94ce1416ca6.jpg",
+      "published": "2026-11-01T21:29:38Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/21aff665-9d05-4ae3-bbd1-e94ce1416ca6/21aff665-9d05-4ae3-bbd1-e94ce1416ca6.mp4"
+    },
+    {
       "url": "https://x.com/NFL/status/2116996772501565462",
       "player": "DJ Moore",
       "meta": "WR \u00b7 BUF",
@@ -166,7 +185,7 @@
       "published": "2026-10-25T19:45:03Z",
       "video": "https://video.twimg.com/amplify_video/2114442936049942528/vid/avc1/1920x1080/5D-Tu0ZRF8jcgruA.mp4",
       "author_name": "New York Jets",
-      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -187,7 +206,7 @@
       "published": "2026-10-25T17:15:30Z",
       "video": "https://video.twimg.com/amplify_video/2114405467032047616/vid/avc1/1080x1080/EVN5GQw6bKFYYn0m.mp4",
       "author_name": "New York Jets",
-      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

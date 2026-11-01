@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50351230/trey-mcbride-keeps-cardinals-alive-late-td",
+      "player": "Jacoby Brissett",
+      "meta": "QB \u00b7 ARI",
+      "date": "2026-11-01",
+      "author": "ESPN",
+      "text": "Trey McBride keeps Cardinals alive with late TD.  Trey McBride keeps Cardinals alive with late TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873024",
+      "game_id": "401873024",
+      "game_time": "Q4 2:11",
+      "play_key": "401873024:4018730244256",
+      "played_at": "2026-11-01T21:01:31Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/d537dee1d1884d6a9f461b4ca423977f1010/d537dee1d1884d6a9f461b4ca423977f1010.jpg",
+      "published": "2026-11-01T21:23:30Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/d537dee1-d188-4d6a-9f46-1b4ca423977f/d537dee1-d188-4d6a-9f46-1b4ca423977f.mp4"
+    },
+    {
       "url": "https://x.com/NFL/status/2116988419469676546",
       "player": "James Cook III",
       "meta": "RB \u00b7 BUF",
