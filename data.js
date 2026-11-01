@@ -15171,6 +15171,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
+          "player_id": "12499",
+          "espn_id": null,
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
+          "birth_date": "2003-06-03",
+          "college": "Stanford",
+          "height": "74",
+          "weight": "206",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 185
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden III",
@@ -15259,21 +15274,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 4
-        },
-        {
-          "player_id": "4147",
-          "espn_id": 3116389,
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN",
-          "birth_date": "1995-09-16",
-          "college": "Oklahoma",
-          "height": "71",
-          "weight": "240",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 459
         },
         {
           "player_id": "4454",
@@ -15608,7 +15608,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 23
         },
         {
@@ -16622,7 +16622,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 9
         },
         {
@@ -16637,7 +16637,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -16752,6 +16752,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 264
         },
         {
+          "player_id": "12469",
+          "espn_id": null,
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "birth_date": "2004-09-14",
+          "college": "Tennessee",
+          "height": "68",
+          "weight": "200",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 129
+        },
+        {
           "player_id": "12501",
           "espn_id": null,
           "name": "Matthew Golden",
@@ -16793,8 +16808,23 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 15
+        },
+        {
+          "player_id": "5045",
+          "espn_id": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "1995-10-10",
+          "college": "SMU",
+          "height": "76",
+          "weight": "216",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 72
         },
         {
           "player_id": "5850",
@@ -16838,7 +16868,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 19
         },
         {
@@ -16883,7 +16913,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 27
         },
         {
@@ -17210,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 81
         },
         {
@@ -17360,7 +17390,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 48
         },
         {
@@ -17852,7 +17882,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -17882,7 +17912,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 86
         },
         {
@@ -18010,6 +18040,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 37
+        },
+        {
+          "player_id": "13150",
+          "espn_id": null,
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2001-11-22",
+          "college": "Tarleton State",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 658
         },
         {
           "player_id": "13274",
@@ -18182,21 +18227,6 @@ window.__STATIC_DATA__ = {
           "name": "Seattle Seahawks",
           "position": "DEF",
           "team": "SEA",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "WAS",
-          "espn_id": null,
-          "name": "Washington Commanders",
-          "position": "DEF",
-          "team": "WAS",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18675,6 +18705,106 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 1, 2026 • 9:59 AM PT",
+      "transaction_id": "1422680454712029184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 1, 2026 • 9:59 AM PT",
+      "transaction_id": "1422680400022487040",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 1, 2026 • 9:41 AM PT",
+      "transaction_id": "1422675933004836864",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Washington Commanders",
+          "position": "DEF",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 1, 2026 • 8:27 AM PT",
+      "transaction_id": "1422657343149068288",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
