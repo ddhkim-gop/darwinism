@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/v4ze-TEau0A",
+      "player": "Kirk Cousins",
+      "meta": "QB \u00b7 LV",
+      "date": "2026-11-01",
+      "author": "Raiders",
+      "text": "BROCK ARE YOU KIDDING?! \ud83d\udc10",
+      "verified": true,
+      "faves": 269,
+      "secs": 13,
+      "game_id": "401873029",
+      "game_time": "Q1 7:23",
+      "play_key": "401873029:401873029545",
+      "played_at": "2026-11-01T18:19:29Z",
+      "poster": "https://i.ytimg.com/vi/v4ze-TEau0A/hqdefault.jpg",
+      "published": "2026-11-01T18:33:22Z",
+      "youtube": "v4ze-TEau0A",
+      "author_name": "Raiders",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/packers/status/2115990858470244861",
       "player": "Josh Jacobs",
       "meta": "RB \u00b7 GB",
