@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Eagles/status/2117073707659133203",
+      "player": "Saquon Barkley",
+      "meta": "RB \u00b7 PHI",
+      "date": "2026-11-02",
+      "author": "Eagles",
+      "text": "Alllll Saquon \ud83d\ude4c",
+      "verified": true,
+      "faves": 1190,
+      "secs": 7,
+      "game_id": "401873035",
+      "game_time": "Q1 4:27",
+      "play_key": "401873035:401873035906",
+      "played_at": "2026-11-02T01:55:13Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117073183287197696/img/0eTqyhkeOvZUQcqK.jpg",
+      "published": "2026-11-02T01:57:59Z",
+      "video": "https://video.twimg.com/amplify_video/2117073183287197696/vid/avc1/1920x1080/DEjh9ATdvj8HAIz2.mp4",
+      "author_name": "Philadelphia Eagles",
+      "avatar": "https://pbs.twimg.com/profile_images/2097678958909415424/CUZFsXqV_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/packers/status/2115980193550536714",
       "player": "Jordan Love",
       "meta": "QB \u00b7 GB",
@@ -84,6 +105,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/c1c104c8f80a457cb841929b64062b041253/c1c104c8f80a457cb841929b64062b041253.jpg",
       "published": "2026-10-27T00:36:06Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/c1c104c8-f80a-457c-b841-929b64062b04/c1c104c8-f80a-457c-b841-929b64062b04.mp4"
+    },
+    {
+      "url": "https://x.com/NFL/status/2117086713487196336",
+      "player": "Elijah Mitchell",
+      "meta": "RB \u00b7 PHI",
+      "date": "2026-11-02",
+      "author": "NFL",
+      "text": "This stiff arm by Elijah Mitchell \ud83d\ude33\n\nPHIvsWAS on NBC/Peacock\nStream on @NFLPlus",
+      "verified": false,
+      "faves": 89,
+      "secs": 14,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117086500504621056/img/sIsItlxysgTuKk0I.jpg",
+      "published": "2026-11-02T02:49:40Z",
+      "video": "https://video.twimg.com/amplify_video/2117086500504621056/vid/avc1/1920x1080/KPY6yluBYoD04CYj.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2116002493255852246",
