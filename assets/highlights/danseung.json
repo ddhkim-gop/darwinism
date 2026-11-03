@@ -1,6 +1,6 @@
 {
   "team": "danseung",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -192,21 +192,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/942d90ad28fd40668384efa031310c7f940/942d90ad28fd40668384efa031310c7f940.jpg",
       "published": "2026-11-01T19:46:07Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/942d90ad-28fd-4066-8384-efa031310c7f/942d90ad-28fd-4066-8384-efa031310c7f.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50282905/garrett-wilson-frustrated-jets-sidelines",
-      "player": "Garrett Wilson",
-      "meta": "WR \u00b7 NYJ",
-      "date": "2026-10-26",
-      "author": "ESPN",
-      "text": "Garrett Wilson frustrated on the Jets' sidelines",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873015",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_201955396_371158716/ss_20261025_201955396_371158716.jpg",
-      "published": "2026-10-26T00:19:54Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1025/ss_20261025_201955396_3711587/ss_20261025_201955396_3711587.mp4"
     }
   ]
 }

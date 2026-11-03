@@ -1,6 +1,6 @@
 {
   "team": "edj11102024",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -261,25 +261,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/89d41412f684440db080b347ee5043df1364/89d41412f684440db080b347ee5043df1364.jpg",
       "published": "2026-10-27T02:22:22Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/89d41412-f684-440d-b080-b347ee5043df/89d41412-f684-440d-b080-b347ee5043df.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50284269/emanuel-wilson-breaks-free-big-seahawks-td",
-      "player": "Emanuel Wilson",
-      "meta": "RB \u00b7 SEA",
-      "date": "2026-10-26",
-      "author": "ESPN",
-      "text": "Emanuel Wilson breaks free for a big-time Seahawks TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873022",
-      "game_id": "401873022",
-      "game_time": "Q4 3:47",
-      "play_key": "401873022:4018730223643",
-      "played_at": "2026-10-26T02:59:28Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/9979175130cb473e8fbb07968417d15e1410/9979175130cb473e8fbb07968417d15e1410.jpg",
-      "published": "2026-10-26T03:10:28Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1026/99791751-30cb-473e-8fbb-07968417d15e/99791751-30cb-473e-8fbb-07968417d15e.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50324867/christian-watson-heads-hospital-reenters-game-third-quarter",
