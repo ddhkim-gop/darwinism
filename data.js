@@ -16656,21 +16656,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
-          "player_id": "DET",
-          "espn_id": null,
-          "name": "Detroit Lions",
-          "position": "DEF",
-          "team": "DET",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
           "player_id": "HOU",
           "espn_id": null,
           "name": "Houston Texans",
@@ -18690,6 +18675,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 3, 2026 • 8:25 AM PT",
+      "transaction_id": "1423381568440774656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
