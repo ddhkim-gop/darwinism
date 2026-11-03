@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/iJwbbB0N-Hw",
+      "player": "Jaxon Smith-Njigba",
+      "meta": "WR \u00b7 SEA",
+      "date": "2026-11-03",
+      "author": "Seahawks",
+      "text": "JSN! 43 YARDS TO THE HOUSE! \ud83d\udcfa: @espn",
+      "verified": true,
+      "faves": 462,
+      "secs": 23,
+      "game_id": "401873036",
+      "game_time": "Q2 0:30",
+      "play_key": "401873036:4018730361939",
+      "played_at": "2026-11-03T02:35:59Z",
+      "poster": "https://i.ytimg.com/vi/iJwbbB0N-Hw/hqdefault.jpg",
+      "published": "2026-11-03T02:46:42Z",
+      "youtube": "iJwbbB0N-Hw",
+      "author_name": "Seattle Seahawks",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50351514/rashee-rice-rushes-chiefs-opening-td",
       "player": "Rashee Rice",
       "meta": "WR \u00b7 KC",
