@@ -1,6 +1,6 @@
 {
   "team": "Pkizzle3000",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -107,25 +107,6 @@
       "author_name": "Green Bay Packers",
       "avatar": "",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50292362/saquon-barkley-rushes-defender-end-zone",
-      "player": "Saquon Barkley",
-      "meta": "RB \u00b7 PHI",
-      "date": "2026-10-27",
-      "author": "ESPN",
-      "text": "Saquon Barkley rushes past a defender to the end zone",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873009",
-      "game_id": "401873009",
-      "game_time": "Q1 10:25",
-      "play_key": "401873009:401873009385",
-      "played_at": "2026-10-27T00:28:02Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/c1c104c8f80a457cb841929b64062b041253/c1c104c8f80a457cb841929b64062b041253.jpg",
-      "published": "2026-10-27T00:36:06Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/c1c104c8-f80a-457c-b841-929b64062b04/c1c104c8-f80a-457c-b841-929b64062b04.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2117086713487196336",

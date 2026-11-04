@@ -1,6 +1,6 @@
 {
   "team": "Paul_Yoon",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -103,25 +103,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas",
-      "player": "Javonte Williams",
-      "meta": "RB \u00b7 DAL",
-      "date": "2026-10-27",
-      "author": "ESPN",
-      "text": "Javonte Williams waves bye after scoring a TD for Dallas",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873009",
-      "game_id": "401873009",
-      "game_time": "Q4 2:21",
-      "play_key": "401873009:4018730094082",
-      "played_at": "2026-10-27T03:09:41Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg",
-      "published": "2026-10-27T03:20:16Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50352234/justin-herbert-hail-mary-ladd-mcconkey-just-short-chargers-td",
       "player": "Ladd McConkey",
       "meta": "WR \u00b7 LAC",
@@ -135,23 +116,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70.jpg",
       "published": "2026-11-01T22:58:10Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/fbLyKclLw_A",
-      "player": "Malik Nabers",
-      "meta": "WR \u00b7 NYG",
-      "date": "2026-10-27",
-      "author": "NYGiants",
-      "text": "H1M #giants #maliknabers #highlights #nabers #nfl #football #shorts #newyorkgiants",
-      "verified": false,
-      "faves": 930,
-      "secs": 113,
-      "poster": "https://i.ytimg.com/vi/fbLyKclLw_A/hqdefault.jpg",
-      "published": "2026-10-27T19:30:39Z",
-      "youtube": "fbLyKclLw_A",
-      "author_name": "New York Giants",
-      "avatar": "",
-      "author_verified": true
     }
   ]
 }
