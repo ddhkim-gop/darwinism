@@ -43,6 +43,7 @@ EPISODES = [
     ("2026-06-the-crowded-middle",       "06", "#9f7aea", "Drake Maye",    "374 passing yards"),
     ("2026-07-still-perfect-barely",     "07", "#ed8936", "RJ Harvey",     "punches it in for the Broncos"),
     ("2026-08-nobody-at-kicker",         "08", "#38b2ac", "Javonte Williams", "waves bye"),
+    ("2026-09-collision-course",         "09", "#f56565", "Tyler Allgeier", "breaks multiple tackles"),
 ]
 
 

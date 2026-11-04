@@ -23,6 +23,15 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 9 — Collision Course",
+            date: "2026-11-04",
+            duration: "8:21",
+            slug: "2026-09-collision-course",
+            audio: "assets/podcasts/2026/ep09-collision-course.mp3",
+            art: "assets/podcasts/art/2026-09-collision-course.png?v=202611041851",
+            description: "eikichi went 8-0 with Joe Burrow's 42.48, the best game of the season, on the bench. Puka Doncic set a perfect lineup for the week's high of 143.78 and became the first team past 1,000 points, and the two meet in week nine. Bower Outage won with two zeros, and Tyler Allgeier's 33.6 led all starters.",
+        },
+        {
             title: "Episode 8 — Nobody At Kicker",
             date: "2026-10-29",
             duration: "9:23",
