@@ -16074,6 +16074,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
+          "player_id": "6803",
+          "espn_id": 4360438,
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1998-03-17",
+          "college": "Arizona State",
+          "height": "72",
+          "weight": "200",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": "DNR",
+          "search_rank": 177
+        },
+        {
           "player_id": "6804",
           "espn_id": 4036378,
           "name": "Jordan Love",
@@ -16147,21 +16162,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 104
-        },
-        {
-          "player_id": "9502",
-          "espn_id": null,
-          "name": "Tank Dell",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "1999-10-29",
-          "college": "Houston",
-          "height": "70",
-          "weight": "165",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 187
         },
         {
           "player_id": "JAX",
@@ -16998,21 +16998,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
-          "player_id": "421",
-          "espn_id": 12483,
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "birth_date": "1988-02-07",
-          "college": "Georgia",
-          "height": "75",
-          "weight": "214",
-          "years_exp": 17,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 66
-        },
-        {
           "player_id": "4217",
           "espn_id": 3040151,
           "name": "George Kittle",
@@ -17026,6 +17011,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 80
+        },
+        {
+          "player_id": "4993",
+          "espn_id": 3116164,
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "birth_date": "1995-10-03",
+          "college": "Penn State",
+          "height": "78",
+          "weight": "245",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 448
         },
         {
           "player_id": "5846",
@@ -17148,21 +17148,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 89
         },
         {
-          "player_id": "8210",
-          "espn_id": null,
-          "name": "Chig Okonkwo",
-          "position": "TE",
-          "team": "WAS",
-          "birth_date": "1999-09-08",
-          "college": "Maryland",
-          "height": "75",
-          "weight": "238",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 137
-        },
-        {
           "player_id": "9997",
           "espn_id": null,
           "name": "Zay Flowers",
@@ -17178,11 +17163,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "TB",
+          "player_id": "NYG",
           "espn_id": null,
-          "name": "Tampa Bay Buccaneers",
+          "name": "New York Giants",
           "position": "DEF",
-          "team": "TB",
+          "team": "NYG",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17214,6 +17199,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 81
         },
         {
+          "player_id": "11565",
+          "espn_id": null,
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "NYG",
+          "birth_date": "2003-01-20",
+          "college": "Michigan",
+          "height": "75",
+          "weight": "219",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 224
+        },
+        {
           "player_id": "12498",
           "espn_id": null,
           "name": "Mason Taylor",
@@ -17242,21 +17242,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 12
-        },
-        {
-          "player_id": "12530",
-          "espn_id": null,
-          "name": "Travis Hunter",
-          "position": "WR/DB",
-          "team": "JAX",
-          "birth_date": "2003-05-18",
-          "college": "Colorado",
-          "height": "73",
-          "weight": "185",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 103
         },
         {
           "player_id": "13305",
@@ -17897,7 +17882,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 38
         },
         {
@@ -18675,6 +18660,140 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 8:07 AM PT",
+      "transaction_id": "1423739392366858240",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 8:06 AM PT",
+      "transaction_id": "1423739121729347584",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "New York Giants",
+          "position": "DEF",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 8:04 AM PT",
+      "transaction_id": "1423738830741057536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 6:11 AM PT",
+      "transaction_id": "1423710312456073216",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 5:03 AM PT",
+      "transaction_id": "1423693154531491840",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Travis Hunter",
+          "position": "WR/DB",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
