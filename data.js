@@ -15608,7 +15608,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 23
         },
         {
@@ -15674,7 +15674,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 29
         },
         {
@@ -16070,7 +16070,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 10
         },
         {
@@ -16211,7 +16211,7 @@ window.__STATIC_DATA__ = {
           "weight": "224",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 125
         },
         {
@@ -16286,7 +16286,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 119
         },
         {
@@ -16622,7 +16622,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -17069,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 41
         },
         {
@@ -17199,6 +17199,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 81
         },
         {
+          "player_id": "11557",
+          "espn_id": null,
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "PHI",
+          "birth_date": "2000-03-06",
+          "college": "Tennessee",
+          "height": "77",
+          "weight": "246",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 503
+        },
+        {
           "player_id": "11565",
           "espn_id": null,
           "name": "J.J. McCarthy",
@@ -17225,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "251",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 138
         },
         {
@@ -17347,21 +17362,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 50
-        },
-        {
-          "player_id": "5849",
-          "espn_id": 3917315,
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "birth_date": "1997-08-07",
-          "college": "Oklahoma",
-          "height": "70",
-          "weight": "207",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 88
         },
         {
           "player_id": "7569",
@@ -17777,7 +17777,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 153
         },
         {
@@ -17837,7 +17837,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -18038,7 +18038,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 89
         },
         {
@@ -18660,6 +18660,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 11:01 AM PT",
+      "transaction_id": "1423783164853211136",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,

@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202611041353";
-import { renderNav } from "./components/nav.js?v=202611041353";
+import { api } from "./dataService.js?v=202611050021";
+import { renderNav } from "./components/nav.js?v=202611050021";
 
 const YEARS = ["2020", "2021", "2022", "2023", "2024", "2025", "2026"];
 let standingsData = null;
