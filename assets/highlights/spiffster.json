@@ -1,6 +1,6 @@
 {
   "team": "spiffster",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -44,27 +44,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.youtube.com/shorts/fm1Q2paAtLE",
-      "player": "Kyler Murray",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-11-01",
-      "author": "Vikings",
-      "text": "Kyler Murray to T.J. Hockenson for a TOUCHDOWN \ud83d\ude4c | \ud83d\udcfa: NFL on FOX",
-      "verified": true,
-      "faves": 11,
-      "secs": 21,
-      "game_id": "401873030",
-      "game_time": "Q4 8:44",
-      "play_key": "401873030:4018730303536",
-      "played_at": "2026-11-01T20:44:07Z",
-      "poster": "https://i.ytimg.com/vi/fm1Q2paAtLE/hqdefault.jpg",
-      "published": "2026-11-01T20:55:01Z",
-      "youtube": "fm1Q2paAtLE",
-      "author_name": "Minnesota Vikings",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2116988734352904566",
       "player": "Ashton Jeanty",
       "meta": "RB \u00b7 LV",
@@ -105,72 +84,6 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/LbYRXIhoGtM",
-      "player": "Kyler Murray",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-11-01",
-      "author": "Vikings",
-      "text": "HOW DID JUSTIN JEFFERSON CATCH THAT? \ud83e\udd2f | \ud83d\udcfa: NFL on FOX",
-      "verified": true,
-      "faves": 209,
-      "secs": 27,
-      "game_id": "401873030",
-      "game_time": "Q2 14:25",
-      "play_key": "401873030:4018730301086",
-      "played_at": "2026-11-01T18:47:33Z",
-      "poster": "https://i.ytimg.com/vi/LbYRXIhoGtM/hqdefault.jpg",
-      "published": "2026-11-01T18:54:56Z",
-      "youtube": "LbYRXIhoGtM",
-      "author_name": "Minnesota Vikings",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50349985/dj-reed-makes-impressive-diving-int-kyler-murray",
-      "player": "Kyler Murray",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-11-01",
-      "author": "ESPN",
-      "text": "D.J. Reed makes impressive diving INT off Kyler Murray. D.J. Reed makes impressive diving INT off Kyler Murray ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873030",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/942d90ad28fd40668384efa031310c7f940/942d90ad28fd40668384efa031310c7f940.jpg",
-      "published": "2026-11-01T19:46:07Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/942d90ad-28fd-4066-8384-efa031310c7f/942d90ad-28fd-4066-8384-efa031310c7f.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50307797/how-far-kyler-murray-take-vikings-season",
-      "player": "Kyler Murray",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-10-28",
-      "author": "ESPN",
-      "text": "How far can Kyler Murray take the Vikings this season?",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873030",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_094210569_3714091600/ss_20261028_094210569_3714091600.jpg",
-      "published": "2026-10-28T13:42:09Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1028/ss_20261028_094210569_3714091/ss_20261028_094210569_3714091.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50308704/what-jordan-rodgers-wants-see-kyler-murray",
-      "player": "Kyler Murray",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-10-28",
-      "author": "ESPN",
-      "text": "What Jordan Rodgers wants to see from Kyler Murray",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873030",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_114410540_3714157709/ss_20261028_114410540_3714157709.jpg",
-      "published": "2026-10-28T15:44:09Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1028/ss_20261028_114410540_3714157/ss_20261028_114410540_3714157.mp4"
     }
   ]
 }

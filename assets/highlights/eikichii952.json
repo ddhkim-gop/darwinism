@@ -1,6 +1,6 @@
 {
   "team": "eikichii952",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -62,6 +62,27 @@
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2117001172858929152/img/u2afs7XDt2-_D9i8.jpg",
       "published": "2026-11-01T21:10:43Z",
       "video": "https://video.twimg.com/amplify_video/2117001172858929152/vid/avc1/1920x1080/1N3j_BzoDi_J96d6.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2116998552908132801",
+      "player": "Joe Burrow",
+      "meta": "QB \u00b7 CIN",
+      "date": "2026-11-01",
+      "author": "NFL",
+      "text": "5th straight game with a TD for Mike Gesicki! Bengals retake the lead.\n\nTENvsCIN on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 316,
+      "secs": 13,
+      "game_id": "401873031",
+      "game_time": "Q4 7:13",
+      "play_key": "401873031:4018730314047",
+      "played_at": "2026-11-01T20:57:25Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2116998211483439104/img/xe9XfAiDysoB6tOB.jpg",
+      "published": "2026-11-01T20:59:21Z",
+      "video": "https://video.twimg.com/amplify_video/2116998211483439104/vid/avc1/1920x1080/ZaAaHKDyE8jSFT-I.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
@@ -145,27 +166,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/877ac5d8-8fee-40b8-874e-02e6982f0925/877ac5d8-8fee-40b8-874e-02e6982f0925.jpg",
       "published": "2026-11-01T20:13:44Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/877ac5d8-8fee-40b8-874e-02e6982f0925/877ac5d8-8fee-40b8-874e-02e6982f0925.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/cxIsGRCvAhs",
-      "player": "Joe Burrow",
-      "meta": "QB \u00b7 CIN",
-      "date": "2026-11-01",
-      "author": "Bengals",
-      "text": "Endries in for his first career NFL touchdown. #TENvsCIN on CBS/Paramount+",
-      "verified": true,
-      "faves": 143,
-      "secs": 16,
-      "game_id": "401873031",
-      "game_time": "Q2 0:20",
-      "play_key": "401873031:4018730312203",
-      "played_at": "2026-11-01T19:30:07Z",
-      "poster": "https://i.ytimg.com/vi/cxIsGRCvAhs/hqdefault.jpg",
-      "published": "2026-11-01T19:44:27Z",
-      "youtube": "cxIsGRCvAhs",
-      "author_name": "Cincinnati Bengals",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50349657/derrick-henry-td-helps-ravens-capitalize-josh-allen-int",

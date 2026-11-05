@@ -1,6 +1,6 @@
 {
   "team": "edj11102024",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -82,6 +82,25 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88.jpg",
       "published": "2026-11-01T23:28:52Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50351518/chad-ryland-hits-game-winning-field-goal-cardinals-ot",
+      "player": "Chad Ryland",
+      "meta": "K \u00b7 ARI",
+      "date": "2026-11-01",
+      "author": "ESPN",
+      "text": "Chad Ryland hits the game-winning field goal for Cardinals in OT",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873024",
+      "game_id": "401873024",
+      "game_time": "Q5 2:53",
+      "play_key": "401873024:4018730245167",
+      "played_at": "2026-11-01T21:38:40Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/a0fca5a0-a7ea-49c6-bdb1-4fc43390394a/a0fca5a0-a7ea-49c6-bdb1-4fc43390394a.jpg",
+      "published": "2026-11-01T21:52:10Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/a0fca5a0-a7ea-49c6-bdb1-4fc43390394a/a0fca5a0-a7ea-49c6-bdb1-4fc43390394a.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2117003104726196263",
@@ -240,6 +259,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/88a7654d-d2e5-4a9b-b040-78de3ad543f4/88a7654d-d2e5-4a9b-b040-78de3ad543f4.jpg",
       "published": "2026-11-01T19:32:39Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/88a7654d-d2e5-4a9b-b040-78de3ad543f4/88a7654d-d2e5-4a9b-b040-78de3ad543f4.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/C-mg6K6z2yI",
+      "player": "Adonai Mitchell",
+      "meta": "WR \u00b7 NYJ",
+      "date": "2026-11-01",
+      "author": "nyjets",
+      "text": "Adonai Mitchell Finds the Back of the End Zone \ud83d\udc4f #nyjets #nfl",
+      "verified": true,
+      "faves": 63,
+      "secs": 10,
+      "game_id": "401873029",
+      "game_time": "Q2 6:18",
+      "play_key": "401873029:4018730291620",
+      "played_at": "2026-11-01T19:00:05Z",
+      "poster": "https://i.ytimg.com/vi/C-mg6K6z2yI/hqdefault.jpg",
+      "published": "2026-11-01T19:28:53Z",
+      "youtube": "C-mg6K6z2yI",
+      "author_name": "New York Jets",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2115974949026640067",
