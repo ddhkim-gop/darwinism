@@ -164756,6 +164756,104 @@ window.__STATIC_DATA__ = {
         "pf": 1394.44,
         "pa": 1542.96
       }
+    ],
+    "2026": [
+      {
+        "name": "eikichii952",
+        "wins": 8,
+        "losses": 0,
+        "ties": 0,
+        "pf": 960.5,
+        "pa": 807.34
+      },
+      {
+        "name": "edj11102024",
+        "wins": 7,
+        "losses": 1,
+        "ties": 0,
+        "pf": 1019.76,
+        "pa": 795.1
+      },
+      {
+        "name": "andyxia124",
+        "wins": 6,
+        "losses": 2,
+        "ties": 0,
+        "pf": 909.16,
+        "pa": 910.44
+      },
+      {
+        "name": "Paul_Yoon",
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "pf": 981.6,
+        "pa": 857.92
+      },
+      {
+        "name": "sallyyoon84",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "pf": 925.96,
+        "pa": 885.92
+      },
+      {
+        "name": "ddhk",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "pf": 902.92,
+        "pa": 909.88
+      },
+      {
+        "name": "danseung",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "pf": 850.22,
+        "pa": 869.8
+      },
+      {
+        "name": "IconicJH",
+        "wins": 3,
+        "losses": 5,
+        "ties": 0,
+        "pf": 947.72,
+        "pa": 964.62
+      },
+      {
+        "name": "jonsung",
+        "wins": 3,
+        "losses": 5,
+        "ties": 0,
+        "pf": 929.86,
+        "pa": 1007.9
+      },
+      {
+        "name": "spiffster",
+        "wins": 2,
+        "losses": 6,
+        "ties": 0,
+        "pf": 867.8,
+        "pa": 886.52
+      },
+      {
+        "name": "sathwikn",
+        "wins": 1,
+        "losses": 7,
+        "ties": 0,
+        "pf": 807.08,
+        "pa": 978.88
+      },
+      {
+        "name": "Pkizzle3000",
+        "wins": 1,
+        "losses": 7,
+        "ties": 0,
+        "pf": 729.84,
+        "pa": 958.1
+      }
     ]
   },
   "head_to_head": {
