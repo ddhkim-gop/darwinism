@@ -15213,7 +15213,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 162
+          "search_rank": 161
         },
         {
           "player_id": "2747",
@@ -15348,7 +15348,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 121
+          "search_rank": 122
         },
         {
           "player_id": "9754",
@@ -15519,7 +15519,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 11
+          "search_rank": 12
         },
         {
           "player_id": "7021",
@@ -15593,7 +15593,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 679
         },
         {
@@ -15720,7 +15720,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 131
+          "search_rank": 133
         },
         {
           "player_id": "12487",
@@ -15780,7 +15780,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 380
+          "search_rank": 377
         },
         {
           "player_id": "3294",
@@ -15840,7 +15840,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 30
+          "search_rank": 31
         },
         {
           "player_id": "7594",
@@ -15885,7 +15885,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 5
+          "search_rank": 7
         },
         {
           "player_id": "9500",
@@ -16041,7 +16041,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 35
+          "search_rank": 37
         },
         {
           "player_id": "12534",
@@ -16272,7 +16272,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 197
+          "search_rank": 199
         },
         {
           "player_id": "4035",
@@ -16392,7 +16392,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 488
+          "search_rank": 489
         },
         {
           "player_id": "9753",
@@ -16458,7 +16458,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "11576",
@@ -16488,7 +16488,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 20
         },
         {
           "player_id": "11631",
@@ -16608,7 +16608,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Inactive",
           "injury_status": "Out",
-          "search_rank": 9
+          "search_rank": 10
         },
         {
           "player_id": "7547",
@@ -16719,7 +16719,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 263
+          "search_rank": 262
         },
         {
           "player_id": "12469",
@@ -16869,7 +16869,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 106
+          "search_rank": 105
         },
         {
           "player_id": "8154",
@@ -17025,7 +17025,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 448
+          "search_rank": 447
         },
         {
           "player_id": "5846",
@@ -17070,7 +17070,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 41
+          "search_rank": 42
         },
         {
           "player_id": "6130",
@@ -17361,7 +17361,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 50
+          "search_rank": 48
         },
         {
           "player_id": "7569",
@@ -17391,7 +17391,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 155
+          "search_rank": 153
         },
         {
           "player_id": "8142",
@@ -17445,6 +17445,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 10,
       "players": [
         {
+          "player_id": "10955",
+          "espn_id": null,
+          "name": "Chad Ryland",
+          "position": "K",
+          "team": "ARI",
+          "birth_date": "1999-10-15",
+          "college": "Maryland",
+          "height": "72",
+          "weight": "195",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 324
+        },
+        {
           "player_id": "11560",
           "espn_id": null,
           "name": "Caleb Williams",
@@ -17457,7 +17472,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 22
+          "search_rank": 20
         },
         {
           "player_id": "11584",
@@ -17535,21 +17550,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 52
         },
         {
-          "player_id": "13293",
-          "espn_id": null,
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "team": "BAL",
-          "birth_date": "2004-05-05",
-          "college": "USC",
-          "height": "76",
-          "weight": "205",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 147
-        },
-        {
           "player_id": "13294",
           "espn_id": null,
           "name": "Makai Lemon",
@@ -17562,7 +17562,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "3163",
@@ -17867,7 +17867,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 86
         },
         {
@@ -18144,7 +18144,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 17
+          "search_rank": 19
         },
         {
           "player_id": "8228",
@@ -18660,6 +18660,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 4:50 PM PT",
+      "transaction_id": "1423870986972864512",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Chad Ryland",
+          "position": "K",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 4:48 PM PT",
+      "transaction_id": "1423870654272270336",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
