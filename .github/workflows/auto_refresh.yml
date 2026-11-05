@@ -55,30 +55,3 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-  # Deploy in-run: a push made with GITHUB_TOKEN can't trigger deploy.yml, so
-  # without this the refreshed data waited for the next push from the Mac.
-  deploy:
-    needs: refresh
-    if: needs.refresh.outputs.changed == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    concurrency:
-      group: pages
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      # ref: main, not the triggering SHA - that predates the refresh job's push.
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/configure-pages@v4
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      - uses: actions/deploy-pages@v4
-        id: deployment
