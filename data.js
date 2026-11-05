@@ -15674,7 +15674,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 29
         },
         {
@@ -15689,7 +15689,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 28
         },
         {
@@ -15749,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -16025,7 +16025,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 39
         },
         {
@@ -16622,7 +16622,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 10
         },
         {
@@ -17229,19 +17229,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 503
         },
         {
-          "player_id": "11565",
+          "player_id": "12471",
           "espn_id": null,
-          "name": "J.J. McCarthy",
-          "position": "QB",
-          "team": "NYG",
-          "birth_date": "2003-01-20",
-          "college": "Michigan",
-          "height": "75",
-          "weight": "219",
-          "years_exp": 2,
+          "name": "DJ Giddens",
+          "position": "RB",
+          "team": "IND",
+          "birth_date": "2003-08-26",
+          "college": "Kansas State",
+          "height": "72",
+          "weight": "212",
+          "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 224
+          "search_rank": 503
         },
         {
           "player_id": "12498",
@@ -17255,7 +17255,7 @@ window.__STATIC_DATA__ = {
           "weight": "251",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 138
         },
         {
@@ -17882,7 +17882,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 86
         },
         {
@@ -18053,7 +18053,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 89
         },
         {
@@ -18675,6 +18675,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 5, 2026 • 9:06 AM PT",
+      "transaction_id": "1424116733366562816",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "DJ Giddens",
+          "position": "RB",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
