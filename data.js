@@ -15156,6 +15156,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
+          "player_id": "12492",
+          "espn_id": null,
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "2002-12-10",
+          "college": "Illinois",
+          "height": "74",
+          "weight": "204",
+          "years_exp": 1,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 172
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden III",
@@ -15349,21 +15364,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 122
-        },
-        {
-          "player_id": "9754",
-          "espn_id": null,
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2001-09-06",
-          "college": "TCU",
-          "height": "74",
-          "weight": "208",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104
         },
         {
           "player_id": "CHI",
@@ -16594,6 +16594,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 7
+        },
+        {
+          "player_id": "421",
+          "espn_id": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
+          "birth_date": "1988-02-07",
+          "college": "Georgia",
+          "height": "75",
+          "weight": "214",
+          "years_exp": 17,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 66
         },
         {
           "player_id": "4881",
@@ -18663,6 +18678,34 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 9,
+      "created": "Nov 5, 2026 • 7:16 AM PT",
+      "transaction_id": "1424088987009626112",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
       "created": "Nov 4, 2026 • 4:50 PM PT",
       "transaction_id": "1423870986972864512",
       "type": "waiver",
@@ -18703,6 +18746,28 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 4, 2026 • 12:22 PM PT",
+      "transaction_id": "1423803619500675072",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
     },
     {
       "season": "2026",
