@@ -16521,6 +16521,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 141
         },
         {
+          "player_id": "11729",
+          "espn_id": null,
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET",
+          "birth_date": "2001-07-30",
+          "college": "Utah",
+          "height": "71",
+          "weight": "216",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 527
+        },
+        {
           "player_id": "12489",
           "espn_id": null,
           "name": "RJ Harvey",
@@ -16898,7 +16913,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 80
         },
         {
@@ -17011,6 +17026,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 104
+        },
+        {
+          "player_id": "3286",
+          "espn_id": 3043116,
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1994-09-21",
+          "college": "Florida",
+          "height": "73",
+          "weight": "202",
+          "years_exp": 10,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 679
         },
         {
           "player_id": "4217",
@@ -17897,7 +17927,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 38
         },
         {
@@ -18660,6 +18690,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 6, 2026 • 9:11 AM PT",
+      "transaction_id": "1424480452684640256",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 6, 2026 • 9:10 AM PT",
+      "transaction_id": "1424480165093732352",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
