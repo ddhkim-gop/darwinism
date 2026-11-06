@@ -16913,7 +16913,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 27
         },
         {
@@ -17210,7 +17210,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 81
         },
         {
@@ -17531,7 +17531,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 44
         },
         {
@@ -18010,21 +18010,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 38
-        },
-        {
-          "player_id": "13150",
-          "espn_id": null,
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2001-11-22",
-          "college": "Tarleton State",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 658
         },
         {
           "player_id": "13274",
@@ -18675,6 +18660,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 5, 2026 • 5:33 PM PT",
+      "transaction_id": "1424244265466294272",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
