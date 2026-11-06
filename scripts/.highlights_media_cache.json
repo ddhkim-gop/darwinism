@@ -2764,6 +2764,11 @@
   "published": "2026-09-23T20:38:53Z",
   "youtube": "3kGrtRToJs0"
  },
+ "https://www.youtube.com/shorts/3rzj4bUKJxs": {
+  "poster": "https://i.ytimg.com/vi/3rzj4bUKJxs/hqdefault.jpg",
+  "published": "2026-11-04T19:37:21Z",
+  "youtube": "3rzj4bUKJxs"
+ },
  "https://www.youtube.com/shorts/46LOhrADqYc": {
   "game_id": "401873015",
   "game_time": "Q1 10:53",
@@ -4570,6 +4575,11 @@
   "published": "2026-10-27T22:00:04Z",
   "youtube": "Z_m9HPI8vYQ"
  },
+ "https://www.youtube.com/shorts/Zbo3AZSWUBU": {
+  "poster": "https://i.ytimg.com/vi/Zbo3AZSWUBU/hqdefault.jpg",
+  "published": "2026-11-06T01:14:36Z",
+  "youtube": "Zbo3AZSWUBU"
+ },
  "https://www.youtube.com/shorts/ZoPNFrO5iRk": {
   "poster": "https://i.ytimg.com/vi/ZoPNFrO5iRk/hqdefault.jpg",
   "published": "2026-09-29T14:21:32Z",
@@ -5450,6 +5460,11 @@
   "poster": "https://i.ytimg.com/vi/m_y22WRyxok/hqdefault.jpg",
   "published": "2026-10-12T02:29:47Z",
   "youtube": "m_y22WRyxok"
+ },
+ "https://www.youtube.com/shorts/ma1UVfrWa1U": {
+  "poster": "https://i.ytimg.com/vi/ma1UVfrWa1U/hqdefault.jpg",
+  "published": "2026-11-05T12:11:02Z",
+  "youtube": "ma1UVfrWa1U"
  },
  "https://www.youtube.com/shorts/mfMqwlVc2s4": {
   "game_id": "401873021",
@@ -7290,6 +7305,65 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2111827538909560832/img/UXhDMOST4SW3j4lN.jpg",
   "published": "2026-10-18T14:44:06Z",
   "video": "https://video.twimg.com/amplify_video/2111827538909560832/vid/avc1/1920x1080/xHDEtcUK_OC3-ckP.mp4"
+ },
+ "https://x.com/Jaguars/status/2118493612598272390": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2118493580788391936/img/K059RDiBNTYREKAW.jpg",
+  "published": "2026-11-06T00:00:11Z",
+  "video": "https://video.twimg.com/amplify_video/2118493580788391936/vid/avc1/720x1280/jko1yy1BkbvElTnM.mp4"
+ },
+ "https://x.com/Jaguars/status/2118514288599998959": {
+  "game_id": "401873037",
+  "game_time": "Q1 11:20",
+  "play_key": "401873037:401873037218",
+  "played_at": "2026-11-06T01:21:45Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2099159024268713986/img/xKXPZBoOV53JCX_s.jpg",
+  "published": "2026-11-06T01:22:21Z",
+  "video": "https://video.twimg.com/amplify_video/2099159024268713986/vid/avc1/1080x1080/wWpmb1kTVHK7l-El.mp4"
+ },
+ "https://x.com/Jaguars/status/2118514757909295363": {
+  "game_id": "401873037",
+  "game_time": "Q1 11:20",
+  "play_key": "401873037:401873037218",
+  "played_at": "2026-11-06T01:21:45Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2118514241703759872/img/TBPGEytZJRwdprrW.jpg",
+  "published": "2026-11-06T01:24:13Z",
+  "video": "https://video.twimg.com/amplify_video/2118514241703759872/vid/avc1/1920x1080/jKdQP5ZY8tQ7JGvQ.mp4"
+ },
+ "https://x.com/Jaguars/status/2118520063707742714": {
+  "game_id": "401873037",
+  "game_time": "Q1 2:00",
+  "play_key": "401873037:401873037757",
+  "played_at": "2026-11-06T01:44:46Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2088683839442788352/img/XISorwuu9TI2iLQz.jpg",
+  "published": "2026-11-06T01:45:18Z",
+  "video": "https://video.twimg.com/amplify_video/2088683839442788352/vid/avc1/1080x1080/TVU0iXBt1PcfWNvo.mp4"
+ },
+ "https://x.com/Jaguars/status/2118530098454229383": {
+  "game_id": "401873037",
+  "game_time": "Q2 0:58",
+  "play_key": "401873037:4018730371721",
+  "played_at": "2026-11-06T02:24:58Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2088684091155591168/img/wt_BgvG5omwUGbMT.jpg",
+  "published": "2026-11-06T02:25:10Z",
+  "video": "https://video.twimg.com/amplify_video/2088684091155591168/vid/avc1/1080x1080/feQJ5bpeGs2D0nKv.mp4"
+ },
+ "https://x.com/Jaguars/status/2118530220005216564": {
+  "game_id": "401873037",
+  "game_time": "Q2 0:58",
+  "play_key": "401873037:4018730371721",
+  "played_at": "2026-11-06T02:24:58Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2099159189826195458/img/uBt2VW-IXwnKOMX-.jpg",
+  "published": "2026-11-06T02:25:39Z",
+  "video": "https://video.twimg.com/amplify_video/2099159189826195458/vid/avc1/1080x1080/s-qF8t_wIq4IxxpE.mp4"
+ },
+ "https://x.com/Jaguars/status/2118530820080308422": {
+  "game_id": "401873037",
+  "game_time": "Q2 0:58",
+  "play_key": "401873037:4018730371721",
+  "played_at": "2026-11-06T02:24:58Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2118530218659061760/img/dd4drubaLlhnwuqW.jpg",
+  "published": "2026-11-06T02:28:02Z",
+  "video": "https://video.twimg.com/amplify_video/2118530218659061760/vid/avc1/1920x1080/v9agkgLsCrMcxs3d.mp4"
  },
  "https://x.com/JamesCookMuse/status/2095517719374307408": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/1843002707139051520/img/WK7_x035YPNSDl7d.jpg?name=orig",
@@ -10675,6 +10749,11 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2117051613227737088/img/ynaaDVm-0B_y0EXi.jpg",
   "published": "2026-11-02T00:34:44Z",
   "video": "https://video.twimg.com/amplify_video/2117051613227737088/vid/avc1/1920x1080/lbyt0RPJpDfhUlYc.mp4"
+ },
+ "https://x.com/NFLonFOX/status/2118356413953319180": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2118354235129843712/img/OXfqHWls4yZq77Q8.jpg",
+  "published": "2026-11-05T14:55:00Z",
+  "video": "https://video.twimg.com/amplify_video/2118354235129843712/vid/avc1/1080x1920/Wgg9BxfcfWqfkGgs.mp4"
  },
  "https://x.com/NFLonPrime/status/2090544447800946897": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2090544419824947200/img/IAqeOOBA6vJxNq06.jpg?name=orig",

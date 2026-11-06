@@ -1,6 +1,6 @@
 {
   "team": "eikichii952",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -62,27 +62,6 @@
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2117001172858929152/img/u2afs7XDt2-_D9i8.jpg",
       "published": "2026-11-01T21:10:43Z",
       "video": "https://video.twimg.com/amplify_video/2117001172858929152/vid/avc1/1920x1080/1N3j_BzoDi_J96d6.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2116998552908132801",
-      "player": "Joe Burrow",
-      "meta": "QB \u00b7 CIN",
-      "date": "2026-11-01",
-      "author": "NFL",
-      "text": "5th straight game with a TD for Mike Gesicki! Bengals retake the lead.\n\nTENvsCIN on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 316,
-      "secs": 13,
-      "game_id": "401873031",
-      "game_time": "Q4 7:13",
-      "play_key": "401873031:4018730314047",
-      "played_at": "2026-11-01T20:57:25Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2116998211483439104/img/xe9XfAiDysoB6tOB.jpg",
-      "published": "2026-11-01T20:59:21Z",
-      "video": "https://video.twimg.com/amplify_video/2116998211483439104/vid/avc1/1920x1080/ZaAaHKDyE8jSFT-I.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
@@ -225,6 +204,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/69d2ab832d0c44618b731d66003a3af6949/69d2ab832d0c44618b731d66003a3af6949.jpg",
       "published": "2026-11-01T18:18:52Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/69d2ab83-2d0c-4461-8b73-1d66003a3af6/69d2ab83-2d0c-4461-8b73-1d66003a3af6.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ma1UVfrWa1U",
+      "player": "Joe Burrow",
+      "meta": "QB \u00b7 CIN",
+      "date": "2026-11-05",
+      "author": "Bengals",
+      "text": "Joe Burrow arrives at Bengals practice in Madrid, Spain.",
+      "verified": false,
+      "faves": 1094,
+      "secs": 8,
+      "poster": "https://i.ytimg.com/vi/ma1UVfrWa1U/hqdefault.jpg",
+      "published": "2026-11-05T12:11:02Z",
+      "youtube": "ma1UVfrWa1U",
+      "author_name": "Cincinnati Bengals",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2117019890569585024",
