@@ -15257,7 +15257,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 4
         },
         {
@@ -15593,7 +15593,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 679
         },
         {
@@ -15689,7 +15689,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 28
         },
         {
@@ -15749,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -16025,7 +16025,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 39
         },
         {
@@ -16070,7 +16070,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 10
         },
         {
@@ -16286,7 +16286,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -16316,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -16718,7 +16718,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 75
         },
         {
@@ -16793,7 +16793,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 39
         },
         {
@@ -17099,7 +17099,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 130
         },
         {
@@ -17240,7 +17240,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 81
         },
         {
@@ -17360,7 +17360,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 60
         },
         {
@@ -17696,7 +17696,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 64
         },
         {
@@ -17781,6 +17781,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 176
         },
         {
+          "player_id": "12491",
+          "espn_id": null,
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
+          "birth_date": "2002-01-21",
+          "college": "Cincinnati",
+          "height": "69",
+          "weight": "209",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 487
+        },
+        {
           "player_id": "12507",
           "espn_id": null,
           "name": "Omarion Hampton",
@@ -17822,23 +17837,8 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 153
-        },
-        {
-          "player_id": "13968",
-          "espn_id": null,
-          "name": "Drew Stevens",
-          "position": "K",
-          "team": "WAS",
-          "birth_date": "2003-12-09",
-          "college": "Iowa",
-          "height": "73",
-          "weight": "213",
-          "years_exp": 0,
-          "status": "Active",
           "injury_status": null,
-          "search_rank": 630
+          "search_rank": 153
         },
         {
           "player_id": "3451",
@@ -18023,7 +18023,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 36
         },
         {
@@ -18128,7 +18128,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 33
         },
         {
@@ -18693,6 +18693,34 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 9,
+      "created": "Nov 6, 2026 • 1:15 PM PT",
+      "transaction_id": "1424541860403113984",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
       "created": "Nov 6, 2026 • 9:11 AM PT",
       "transaction_id": "1424480452684640256",
       "type": "free_agent",
@@ -19089,7 +19117,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "faab": 0,
@@ -19738,7 +19766,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "dropped": [
@@ -21575,7 +21603,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "faab": 0,
@@ -23880,7 +23908,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "dropped": [],
