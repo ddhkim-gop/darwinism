@@ -15141,19 +15141,19 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11583",
+          "player_id": "11646",
           "espn_id": null,
-          "name": "Jonathon Brooks",
-          "position": "RB",
+          "name": "Jalen Coker",
+          "position": "WR",
           "team": "CAR",
-          "birth_date": "2003-07-21",
-          "college": "Texas",
-          "height": "72",
-          "weight": "216",
+          "birth_date": "2001-10-30",
+          "college": "Holy Cross",
+          "height": "75",
+          "weight": "215",
           "years_exp": 2,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 88
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 132
         },
         {
           "player_id": "12492",
@@ -15261,6 +15261,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
+          "player_id": "4147",
+          "espn_id": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "birth_date": "1995-09-16",
+          "college": "Oklahoma",
+          "height": "71",
+          "weight": "240",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 459
+        },
+        {
           "player_id": "5022",
           "espn_id": 3121023,
           "name": "Dallas Goedert",
@@ -15289,21 +15304,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 10
-        },
-        {
-          "player_id": "7526",
-          "espn_id": null,
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "1998-11-25",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "185",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 42
         },
         {
           "player_id": "7553",
@@ -15924,6 +15924,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 4,
       "players": [
         {
+          "player_id": "11583",
+          "espn_id": null,
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR",
+          "birth_date": "2003-07-21",
+          "college": "Texas",
+          "height": "72",
+          "weight": "216",
+          "years_exp": 2,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 88
+        },
+        {
           "player_id": "11620",
           "espn_id": null,
           "name": "Rome Odunze",
@@ -15952,21 +15967,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 122
-        },
-        {
-          "player_id": "11646",
-          "espn_id": null,
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "birth_date": "2001-10-30",
-          "college": "Holy Cross",
-          "height": "75",
-          "weight": "215",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 132
         },
         {
           "player_id": "12185",
@@ -16119,6 +16119,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
+          "player_id": "7526",
+          "espn_id": null,
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "birth_date": "1998-11-25",
+          "college": "Alabama",
+          "height": "70",
+          "weight": "185",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 42
+        },
+        {
           "player_id": "7561",
           "espn_id": null,
           "name": "Elijah Mitchell",
@@ -16147,21 +16162,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 8
-        },
-        {
-          "player_id": "9480",
-          "espn_id": null,
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "birth_date": "2000-12-27",
-          "college": "Penn State",
-          "height": "76",
-          "weight": "253",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104
         },
         {
           "player_id": "JAX",
@@ -17405,7 +17405,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 50
         },
         {
@@ -18690,6 +18690,83 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 7, 2026 • 10:37 AM PT",
+      "transaction_id": "1424864297422495744",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 7, 2026 • 10:28 AM PT",
+      "transaction_id": "1424862167538176000",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 7, 2026 • 10:10 AM PT",
+      "transaction_id": "1424857524238086144",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "ddhk",
+        "Pkizzle3000"
+      ],
+      "assets_received": {
+        "Pkizzle3000": [
+          {
+            "name": "Jonathon Brooks",
+            "position": "RB",
+            "team": "CAR"
+          },
+          {
+            "name": "Jaylen Waddle",
+            "position": "WR",
+            "team": "DEN"
+          }
+        ],
+        "ddhk": [
+          {
+            "name": "Jalen Coker",
+            "position": "WR",
+            "team": "CAR"
+          }
+        ]
+      }
+    },
     {
       "season": "2026",
       "week": 9,
@@ -19979,7 +20056,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dameon Pierce",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -23640,7 +23717,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dameon Pierce",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [
