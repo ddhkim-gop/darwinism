@@ -2523,6 +2523,12 @@
   "published": "2026-11-06T04:05:14Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/59af00c2-4a10-4d4c-90b8-1788043bc910/59af00c2-4a10-4d4c-90b8-1788043bc910.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50399574/how-bucs-defense-create-problems-caleb-williams": {
+  "espn_game": "401873050",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1106/ss_20261106_100715530_3727572/ss_20261106_100715530_3727572.jpg",
+  "published": "2026-11-06T15:07:14Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1106/ss_20261106_100715530_3727572/ss_20261106_100715530_3727572.mp4"
+ },
  "https://www.youtube.com/shorts/-150A9vaDV0": {
   "poster": "https://i.ytimg.com/vi/-150A9vaDV0/hqdefault.jpg",
   "published": "2026-10-14T17:00:35Z",
@@ -2827,6 +2833,11 @@
   "published": "2026-10-11T19:39:40Z",
   "youtube": "47tIVCKT-B8"
  },
+ "https://www.youtube.com/shorts/4E0otX2KT2c": {
+  "poster": "https://i.ytimg.com/vi/4E0otX2KT2c/hqdefault.jpg",
+  "published": "2026-11-06T18:35:25Z",
+  "youtube": "4E0otX2KT2c"
+ },
  "https://www.youtube.com/shorts/4OfpJiKHkz8": {
   "poster": "https://i.ytimg.com/vi/4OfpJiKHkz8/hqdefault.jpg",
   "published": "2026-09-27T14:19:53Z",
@@ -2915,6 +2926,11 @@
   "poster": "https://i.ytimg.com/vi/6FV1-bn9kDo/hqdefault.jpg",
   "published": "2026-10-30T20:00:50Z",
   "youtube": "6FV1-bn9kDo"
+ },
+ "https://www.youtube.com/shorts/6NZFmWrAQ8s": {
+  "poster": "https://i.ytimg.com/vi/6NZFmWrAQ8s/hqdefault.jpg",
+  "published": "2026-11-06T20:31:52Z",
+  "youtube": "6NZFmWrAQ8s"
  },
  "https://www.youtube.com/shorts/6NsA4w6TXdY": {
   "poster": "https://i.ytimg.com/vi/6NsA4w6TXdY/hqdefault.jpg",
@@ -4561,6 +4577,11 @@
   "published": "2026-10-22T18:25:22Z",
   "youtube": "YVooZIlshj0"
  },
+ "https://www.youtube.com/shorts/YYL5ie7K-Yc": {
+  "poster": "https://i.ytimg.com/vi/YYL5ie7K-Yc/hqdefault.jpg",
+  "published": "2026-11-06T21:27:16Z",
+  "youtube": "YYL5ie7K-Yc"
+ },
  "https://www.youtube.com/shorts/YlaA2bjcNpc": {
   "poster": "https://i.ytimg.com/vi/YlaA2bjcNpc/hqdefault.jpg",
   "published": "2026-10-25T17:03:22Z",
@@ -5289,6 +5310,11 @@
   "published": "2026-10-07T16:00:10Z",
   "youtube": "jYxJu_fTSrs"
  },
+ "https://www.youtube.com/shorts/jZVI10BhyuM": {
+  "poster": "https://i.ytimg.com/vi/jZVI10BhyuM/hqdefault.jpg",
+  "published": "2026-11-06T19:45:27Z",
+  "youtube": "jZVI10BhyuM"
+ },
  "https://www.youtube.com/shorts/jbuVLf5TX6Q": {
   "game_id": "401872989",
   "game_time": "Q4 8:53",
@@ -5302,6 +5328,11 @@
   "poster": "https://i.ytimg.com/vi/jeMeiMfdJOo/hqdefault.jpg",
   "published": "2026-09-30T21:00:08Z",
   "youtube": "jeMeiMfdJOo"
+ },
+ "https://www.youtube.com/shorts/jl0E4f1vV5Y": {
+  "poster": "https://i.ytimg.com/vi/jl0E4f1vV5Y/hqdefault.jpg",
+  "published": "2026-11-07T00:00:36Z",
+  "youtube": "jl0E4f1vV5Y"
  },
  "https://www.youtube.com/shorts/jofbPZpBJwg": {
   "poster": "https://i.ytimg.com/vi/jofbPZpBJwg/hqdefault.jpg",
@@ -5670,6 +5701,11 @@
   "poster": "https://i.ytimg.com/vi/onukvS3qNAo/hqdefault.jpg",
   "published": "2026-10-29T21:08:16Z",
   "youtube": "onukvS3qNAo"
+ },
+ "https://www.youtube.com/shorts/oxpTjiLmW2U": {
+  "poster": "https://i.ytimg.com/vi/oxpTjiLmW2U/hqdefault.jpg",
+  "published": "2026-11-06T16:39:51Z",
+  "youtube": "oxpTjiLmW2U"
  },
  "https://www.youtube.com/shorts/oyo6AnMAUEQ": {
   "poster": "https://i.ytimg.com/vi/oyo6AnMAUEQ/hqdefault.jpg",
@@ -10057,6 +10093,15 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2117008605102919680/img/Ts8-7FzbAqcBYWaY.jpg",
   "published": "2026-11-01T21:39:45Z",
   "video": "https://video.twimg.com/amplify_video/2117008605102919680/vid/avc1/1920x1080/w4Avr6tZcDdxR9oJ.mp4"
+ },
+ "https://x.com/NFL/status/2117012242596012429": {
+  "game_id": "401873034",
+  "game_time": "Q1 3:39",
+  "play_key": "401873034:401873034727",
+  "played_at": "2026-11-01T21:52:47Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117012118478241792/img/ggBxWRtcPTzrvbXV.jpg",
+  "published": "2026-11-01T21:53:45Z",
+  "video": "https://video.twimg.com/amplify_video/2117012118478241792/vid/avc1/1920x1080/oHSQDqoOWEJjfiCr.mp4"
  },
  "https://x.com/NFL/status/2117014295816929651": {
   "game_id": "401873033",
