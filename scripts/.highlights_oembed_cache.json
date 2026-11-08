@@ -2120,6 +2120,20 @@
   "text": "Joe Burrow goes deep to Ja'Marr Chase for a 47-yard Bengals TD",
   "url": "https://www.espn.com/video/clip/_/id/50420103/joe-burrow-goes-deep-jamarr-chase-47-yard-bengals-td"
  },
+ "https://www.espn.com/video/clip/_/id/50420313/joe-burrow-sneaks-end-zone-bengals-td": {
+  "author": "ESPN",
+  "author_url": "https://www.espn.com",
+  "date": "2026-11-08",
+  "text": "Joe Burrow sneaks into the end zone for a Bengals TD",
+  "url": "https://www.espn.com/video/clip/_/id/50420313/joe-burrow-sneaks-end-zone-bengals-td"
+ },
+ "https://www.espn.com/video/clip/_/id/50420552/joe-burrow-links-tee-higgins-bengals-td": {
+  "author": "ESPN",
+  "author_url": "https://www.espn.com",
+  "date": "2026-11-08",
+  "text": "Joe Burrow links up with Tee Higgins for a Bengals TD",
+  "url": "https://www.espn.com/video/clip/_/id/50420552/joe-burrow-links-tee-higgins-bengals-td"
+ },
  "https://www.youtube.com/shorts/-150A9vaDV0": {
   "author": "AtlantaFalcons",
   "author_url": "https://www.youtube.com/@AtlantaFalcons",
@@ -2137,6 +2151,15 @@
   "secs": 8,
   "text": "CMC is a touchdown machine \ud83d\udc4f #christianmccaffrey",
   "url": "https://www.youtube.com/shorts/-9mLHMkLMRw"
+ },
+ "https://www.youtube.com/shorts/-A6_wYR6KkA": {
+  "author": "Browns",
+  "author_url": "https://www.youtube.com/@Browns",
+  "date": "2026-11-08",
+  "faves": 23,
+  "secs": 8,
+  "text": "pregame drip from denzel \ud83d\ude2e\u200d\ud83d\udca8",
+  "url": "https://www.youtube.com/shorts/-A6_wYR6KkA"
  },
  "https://www.youtube.com/shorts/-HVTeuI6MBE": {
   "author": "Eagles",
@@ -3505,6 +3528,15 @@
   "secs": 16,
   "text": "Let\u2019s have some fun fam\u203c\ufe0f #patriots #nfl #drakemaye #shorts",
   "url": "https://www.youtube.com/shorts/Do1s2bhVsjA"
+ },
+ "https://www.youtube.com/shorts/EB3fhlYSZgA": {
+  "author": "Browns",
+  "author_url": "https://www.youtube.com/@Browns",
+  "date": "2026-11-08",
+  "faves": 23,
+  "secs": 5,
+  "text": "denzel boston checking in \ud83e\udee1",
+  "url": "https://www.youtube.com/shorts/EB3fhlYSZgA"
  },
  "https://www.youtube.com/shorts/EH0MtCZpPps": {
   "author": "Vikings",
@@ -7945,7 +7977,7 @@
   "author": "Bengals",
   "author_url": "https://x.com/Bengals",
   "date": "2026-11-08",
-  "faves": 3049,
+  "faves": 3215,
   "secs": 5,
   "text": "Burrow in the Bernab\u00e9u.",
   "url": "https://x.com/Bengals/status/2119392702794207598"
@@ -7954,10 +7986,28 @@
   "author": "Bengals",
   "author_url": "https://x.com/Bengals",
   "date": "2026-11-08",
-  "faves": 1341,
+  "faves": 2888,
   "secs": 6,
   "text": "UNNNOOOOOOOOOOO\n\n#CINatATL on NFL Network",
   "url": "https://x.com/Bengals/status/2119442320114274712"
+ },
+ "https://x.com/Bengals/status/2119449645113909518": {
+  "author": "Bengals",
+  "author_url": "https://x.com/Bengals",
+  "date": "2026-11-08",
+  "faves": 749,
+  "secs": 6,
+  "text": "Joe fr\u00edo.\n\n#CINatATL on NFL Network",
+  "url": "https://x.com/Bengals/status/2119449645113909518"
+ },
+ "https://x.com/Bengals/status/2119454980696318451": {
+  "author": "Bengals",
+  "author_url": "https://x.com/Bengals",
+  "date": "2026-11-08",
+  "faves": 689,
+  "secs": 5,
+  "text": "TEEEEEEEEEEEEE\n\n#CINatATL on NFL Network",
+  "url": "https://x.com/Bengals/status/2119454980696318451"
  },
  "https://x.com/BigVeks/status/2095857678534795378": {
   "author": "Veks",
@@ -12563,10 +12613,28 @@
   "author": "NFL",
   "author_url": "https://x.com/NFL",
   "date": "2026-11-08",
-  "faves": 663,
+  "faves": 779,
   "secs": 11,
   "text": "Burrow at the Bernab\u00e9u\n\nCINvsATL on NFL Network\u00a0\nStream on @NFLPlus",
   "url": "https://x.com/NFL/status/2119415453403787333"
+ },
+ "https://x.com/NFL/status/2119442177151447295": {
+  "author": "NFL",
+  "author_url": "https://x.com/NFL",
+  "date": "2026-11-08",
+  "faves": 2518,
+  "secs": 12,
+  "text": "BURROW. JA'MARR. TOUCHDOWN. \n\nCINvsATL on NFL Network\nStream on @NFLPlus",
+  "url": "https://x.com/NFL/status/2119442177151447295"
+ },
+ "https://x.com/NFL/status/2119447305036185695": {
+  "author": "NFL",
+  "author_url": "https://x.com/NFL",
+  "date": "2026-11-08",
+  "faves": 376,
+  "secs": 14,
+  "text": "Strong catch from @teehiggins5 \n\nCINvsATL on NFL Network\nStream on @NFLPlus",
+  "url": "https://x.com/NFL/status/2119447305036185695"
  },
  "https://x.com/NFLTDsVideos/status/2098243863588540602": {
   "author": "NFL Touchdown Videos",
@@ -13525,6 +13593,24 @@
   "secs": 36,
   "text": "Not too shabby for an amateur at Augusta, Drake Maye.\n\n@GronkandJules @Edelman11 @DrakeMaye2",
   "url": "https://x.com/NFLonFOX/status/2118356413953319180"
+ },
+ "https://x.com/NFLonFOX/status/2118798831328567429": {
+  "author": "NFLonFOX",
+  "author_url": "https://x.com/NFLonFOX",
+  "date": "2026-11-06",
+  "faves": 287,
+  "secs": 30,
+  "text": "Is Bakemas coming back?\n\n@GronkandJules @DrakeMaye2 @Edelman11",
+  "url": "https://x.com/NFLonFOX/status/2118798831328567429"
+ },
+ "https://x.com/NFLonFOX/status/2118858806566469701": {
+  "author": "NFLonFOX",
+  "author_url": "https://x.com/NFLonFOX",
+  "date": "2026-11-07",
+  "faves": 467,
+  "secs": 24,
+  "text": "Brandon Aiyuk looks ahead to the possibilities of what's next\n\n(Via @newsdamian)",
+  "url": "https://x.com/NFLonFOX/status/2118858806566469701"
  },
  "https://x.com/Nate_Tice/status/2095691914121265331": {
   "author": "Nate Tice",
