@@ -495,6 +495,7 @@ https://x.com/Bengals/status/2119471348602802440
 https://x.com/BigVeks/status/2095857678534795378
 https://x.com/BleacherReport/status/2096227598846341556
 https://x.com/Broncos/status/2117026946127180055
+https://x.com/Broncos/status/2119498204760645896
 https://x.com/ChiSportsTracks/status/2095307339750404405
 https://x.com/ChicagoBears/status/2117454133448044738
 https://x.com/ChicagoBears/status/2117455480151007738
@@ -503,6 +504,7 @@ https://x.com/Chiefs/status/2116991165333397651
 https://x.com/Chiefs/status/2117012651368935518
 https://x.com/Chiefs/status/2117022737596047658
 https://x.com/Chiefs/status/2119473339781783577
+https://x.com/Colts/status/2119496098494496855
 https://x.com/Commanders/status/2117080989688033669
 https://x.com/Commanders/status/2117108338693378265
 https://x.com/Commanders/status/2117109214531174856
@@ -648,6 +650,9 @@ https://x.com/NFL/status/2119482106153721959
 https://x.com/NFL/status/2119490895250686161
 https://x.com/NFL/status/2119495827592761830
 https://x.com/NFL/status/2119496020497207475
+https://x.com/NFL/status/2119506265617379802
+https://x.com/NFL/status/2119507387123941856
+https://x.com/NFL/status/2119511019944919352
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -737,6 +742,7 @@ https://x.com/Philouimette_/status/2098217922950783404
 https://x.com/RCBTweets/status/2095858475142390244
 https://x.com/RamsNFL/status/2117026193044296002
 https://x.com/RamsNFL/status/2117031390453870608
+https://x.com/RamsNFL/status/2119517815539466652
 https://x.com/RapSheet/status/2095935429207867767
 https://x.com/RapSheet/status/2095957628618723773
 https://x.com/RapSheet/status/2096015690520023318
@@ -757,6 +763,7 @@ https://x.com/RotoBaller/status/2096263487353651217
 https://x.com/RotoBaller/status/2096263864115507283
 https://x.com/RotoWireNFL/status/2095860588584866096
 https://x.com/SNFonNBC/status/2097877321680031876
+https://x.com/Saints/status/2119509849738248431
 https://x.com/SauceStatline/status/2099202201365164367
 https://x.com/Schultz_Report/status/2090918231456301160
 https://x.com/Seahawks/status/2117462285912567991
@@ -780,6 +787,7 @@ https://x.com/bet_105/status/2095896428786684321
 https://x.com/burgermanders/status/2096208530218811728
 https://x.com/cooterdoodle/status/2095888393615904800
 https://x.com/dallascowboys/status/2095949595217932480
+https://x.com/dallascowboys/status/2119501456373862533
 https://x.com/dawhitehousepod/status/2096011194247069748
 https://x.com/fantasyfocus/status/2095998338160108030
 https://x.com/gbellseattle/status/2095753484431933695
