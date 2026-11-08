@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -44,25 +44,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50352326/bo-nix-finds-jaylen-waddle-broncos-1st-td",
-      "player": "Jaylen Waddle",
-      "meta": "WR \u00b7 DEN",
-      "date": "2026-11-01",
-      "author": "ESPN",
-      "text": "Bo Nix finds Jaylen Waddle for Broncos' 1st TD. Bo Nix finds Jaylen Waddle for Broncos' 1st TD  ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873033",
-      "game_id": "401873033",
-      "game_time": "Q2 1:15",
-      "play_key": "401873033:4018730332223",
-      "played_at": "2026-11-01T22:49:54Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/09f16252e9424e0ea281afe091619f581088/09f16252e9424e0ea281afe091619f581088.jpg",
-      "published": "2026-11-01T23:03:17Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/09f16252-e942-4e0e-a281-afe091619f58/09f16252-e942-4e0e-a281-afe091619f58.mp4"
-    },
-    {
       "url": "https://x.com/MiamiDolphins/status/2117024754456563823",
       "player": "Malik Willis",
       "meta": "QB \u00b7 MIA",
@@ -101,27 +82,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/68c485a3154f4b27af60d5f6013352db1075/68c485a3154f4b27af60d5f6013352db1075.jpg",
       "published": "2026-11-01T22:48:12Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/68c485a3-154f-4b27-af60-d5f6013352db/68c485a3-154f-4b27-af60-d5f6013352db.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2117018569540251747",
-      "player": "Jaylen Waddle",
-      "meta": "WR \u00b7 DEN",
-      "date": "2026-11-01",
-      "author": "NFL",
-      "text": "Bo Nix scrambles and finds Jaylen Waddle for 35 yards!\n\nKCvsDEN on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 317,
-      "secs": 11,
-      "game_id": "401873033",
-      "game_time": "Q2 13:04",
-      "play_key": "401873033:4018730331392",
-      "played_at": "2026-11-01T22:17:49Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117018461885063168/img/mEWLvsqB5vKpUCAz.jpg",
-      "published": "2026-11-01T22:18:53Z",
-      "video": "https://video.twimg.com/amplify_video/2117018461885063168/vid/avc1/1920x1080/T2ugTwS6HJDw2oZy.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2117015322838372640",

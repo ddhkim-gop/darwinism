@@ -1,6 +1,6 @@
 {
   "team": "danseung",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -169,7 +169,7 @@
       "url": "https://x.com/rannyxkmj/status/2097884866348216770",
       "player": "Drake Maye",
       "meta": "QB \u00b7 NE",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "author": "rannyxkmj",
       "text": "Eli Raridon & Drake Maye - 2-yard TD catch in NFL debut, first TD of the 2026 season vs SEA (NE #82, ref signals TD, NE 0-0 1st & Goal, NBC, watched)",
       "verified": true,
@@ -207,23 +207,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/942d90ad28fd40668384efa031310c7f940/942d90ad28fd40668384efa031310c7f940.jpg",
       "published": "2026-11-01T19:46:07Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/942d90ad-28fd-4066-8384-efa031310c7f/942d90ad-28fd-4066-8384-efa031310c7f.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/phRD7LPk6hw",
-      "player": "Garrett Wilson",
-      "meta": "WR \u00b7 NYJ",
-      "date": "2026-10-31",
-      "author": "nyjets",
-      "text": "2 years ago G5 made this INSANE catch \ud83e\udd2f #nyjets #nfl #garrett wilson",
-      "verified": false,
-      "faves": 388,
-      "secs": 20,
-      "poster": "https://i.ytimg.com/vi/phRD7LPk6hw/hqdefault.jpg",
-      "published": "2026-10-31T16:15:27Z",
-      "youtube": "phRD7LPk6hw",
-      "author_name": "New York Jets",
-      "avatar": "",
-      "author_verified": true
     }
   ]
 }
