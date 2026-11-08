@@ -15167,7 +15167,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 172
         },
         {
@@ -15197,7 +15197,7 @@ window.__STATIC_DATA__ = {
           "weight": "203",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 62
         },
         {
@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 111
         },
         {
@@ -15488,7 +15488,7 @@ window.__STATIC_DATA__ = {
           "weight": "249",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 92
         },
         {
@@ -15582,21 +15582,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 117
         },
         {
-          "player_id": "8135",
-          "espn_id": null,
-          "name": "Treylon Burks",
-          "position": "WR",
-          "team": "WAS",
-          "birth_date": "2000-03-23",
-          "college": "Arkansas",
-          "height": "74",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 679
-        },
-        {
           "player_id": "8137",
           "espn_id": null,
           "name": "George Pickens",
@@ -15608,7 +15593,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 23
         },
         {
@@ -15640,6 +15625,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 56
+        },
+        {
+          "player_id": "9754",
+          "espn_id": null,
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2001-09-06",
+          "college": "TCU",
+          "height": "74",
+          "weight": "208",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 104
         },
         {
           "player_id": "NE",
@@ -16130,7 +16130,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 42
         },
         {
@@ -16532,7 +16532,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 527
         },
         {
@@ -16652,7 +16652,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 7
         },
         {
@@ -17681,7 +17681,7 @@ window.__STATIC_DATA__ = {
           "weight": "266",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 136
         },
         {
@@ -18038,7 +18038,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 36
         },
         {
@@ -18100,6 +18100,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 89
+        },
+        {
+          "player_id": "4039",
+          "espn_id": 2977187,
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "team": "SEA",
+          "birth_date": "1993-06-15",
+          "college": "Eastern Washington",
+          "height": "73",
+          "weight": "205",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 195
         },
         {
           "player_id": "4984",
@@ -18708,6 +18723,84 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 9,
+      "created": "Nov 8, 2026 • 9:59 AM PT",
+      "transaction_id": "1425217235605098496",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 8, 2026 • 9:58 AM PT",
+      "transaction_id": "1425217033271791616",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 8, 2026 • 8:50 AM PT",
+      "transaction_id": "1425199816794742784",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sallyyoon84"
+      ],
+      "added": [
+        {
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
       "created": "Nov 7, 2026 • 11:39 PM PT",
       "transaction_id": "1425061218711769088",
       "type": "free_agent",
@@ -18748,7 +18841,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": "NO"
+          "team": null
         }
       ],
       "faab": 0,
@@ -25624,7 +25717,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": "NO"
+          "team": null
         }
       ],
       "dropped": [
