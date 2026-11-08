@@ -15318,7 +15318,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 68
+          "search_rank": 67
         },
         {
           "player_id": "7611",
@@ -15519,7 +15519,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 12
+          "search_rank": 11
         },
         {
           "player_id": "7021",
@@ -15690,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 26
+          "search_rank": 28
         },
         {
           "player_id": "11635",
@@ -15720,7 +15720,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 133
+          "search_rank": 131
         },
         {
           "player_id": "12487",
@@ -15885,7 +15885,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
+          "search_rank": 5
         },
         {
           "player_id": "9500",
@@ -16116,7 +16116,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 27
+          "search_rank": 28
         },
         {
           "player_id": "7526",
@@ -16242,7 +16242,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 74
+          "search_rank": 73
         },
         {
           "player_id": "12533",
@@ -16638,7 +16638,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 8
+          "search_rank": 10
         },
         {
           "player_id": "7547",
@@ -17145,7 +17145,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 44
+          "search_rank": 46
         },
         {
           "player_id": "6813",
@@ -17406,7 +17406,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 50
+          "search_rank": 49
         },
         {
           "player_id": "7569",
@@ -17997,6 +17997,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 12,
       "players": [
         {
+          "player_id": "11579",
+          "espn_id": null,
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "birth_date": "2003-09-06",
+          "college": "Notre Dame",
+          "height": "71",
+          "weight": "227",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 190
+        },
+        {
           "player_id": "11792",
           "espn_id": null,
           "name": "Will Reichard",
@@ -18040,6 +18055,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 38
+        },
+        {
+          "player_id": "13150",
+          "espn_id": null,
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "birth_date": "2001-11-22",
+          "college": "Tarleton State",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 658
         },
         {
           "player_id": "13274",
@@ -18190,21 +18220,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 52
-        },
-        {
-          "player_id": "9757",
-          "espn_id": null,
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "2002-06-11",
-          "college": "TCU",
-          "height": "72",
-          "weight": "220",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 180
         },
         {
           "player_id": "SEA",
@@ -18690,6 +18705,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 7, 2026 • 11:39 PM PT",
+      "transaction_id": "1425061218711769088",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 7, 2026 • 10:30 PM PT",
+      "transaction_id": "1425043871460581376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
