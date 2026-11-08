@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50421609/evan-mcpherson-nails-43-yard-fg-bengals",
+      "player": "Evan McPherson",
+      "meta": "K \u00b7 CIN",
+      "date": "2026-11-08",
+      "author": "ESPN",
+      "text": "Evan McPherson nails a 43-yard FG for the Bengals",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873038",
+      "game_id": "401873038",
+      "game_time": "Q4 4:36",
+      "play_key": "401873038:4018730383775",
+      "played_at": "2026-11-08T17:19:47Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/fffa19e6-c02e-4e4e-bc80-a730a8864b64/fffa19e6-c02e-4e4e-bc80-a730a8864b64.jpg",
+      "published": "2026-11-08T17:26:27Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/fffa19e6-c02e-4e4e-bc80-a730a8864b64/fffa19e6-c02e-4e4e-bc80-a730a8864b64.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50421099/bijan-robinson-goes-untouched-falcons-td",
       "player": "Bijan Robinson",
       "meta": "RB \u00b7 ATL",
