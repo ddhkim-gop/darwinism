@@ -1,6 +1,6 @@
 {
   "team": "edj11102024",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -21,7 +21,7 @@
       "published": "2026-11-09T04:36:12Z",
       "video": "https://video.twimg.com/amplify_video/2119650158740746240/vid/avc1/1920x1080/0MDZHSsS4D9x7xrE.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -84,7 +84,7 @@
       "published": "2026-11-09T01:44:20Z",
       "video": "https://video.twimg.com/amplify_video/2119606789150818304/vid/avc1/1920x1080/kjJNb-GZI0JQVqml.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -165,7 +165,7 @@
       "game_time": "Q4 12:51",
       "play_key": "401873043:4018730433542",
       "played_at": "2026-11-08T20:25:59Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/9ec58b98f0eb4250adc6c69f0624d1f51062/9ec58b98f0eb4250adc6c69f0624d1f51062.jpg",
       "published": "2026-11-08T20:35:05Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.mp4"
     },
@@ -250,27 +250,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/3d249c72128447d1a4b18c6266fa87821399/3d249c72128447d1a4b18c6266fa87821399.jpg",
       "published": "2026-11-06T01:33:57Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/3d249c72-1284-47d1-a4b1-8c6266fa8782/3d249c72-1284-47d1-a4b1-8c6266fa8782.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2117070258662154620",
-      "player": "Makai Lemon",
-      "meta": "WR \u00b7 PHI",
-      "date": "2026-11-02",
-      "author": "NFL",
-      "text": "Tanner McKee floats it to Makai Lemon for the first down!\n\nPHIvsWAS on NBC/Peacock\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 586,
-      "secs": 11,
-      "game_id": "401873035",
-      "game_time": "Q1 9:40",
-      "play_key": "401873035:401873035554",
-      "played_at": "2026-11-02T01:42:40Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117070037181960192/img/Dwl-2McAQ5Unzg-1.jpg",
-      "published": "2026-11-02T01:44:17Z",
-      "video": "https://video.twimg.com/amplify_video/2117070037181960192/vid/avc1/1920x1080/JC7j9tJ0uVQ0F7ls.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2119559971360694691",
