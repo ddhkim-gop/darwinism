@@ -3025,6 +3025,16 @@
   "published": "2026-11-09T04:47:22Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/46c9cd0b-71e0-4e66-a674-1fa055620fe4/46c9cd0b-71e0-4e66-a674-1fa055620fe4.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50438454/keleki-latu-hauls-first-nfl-td-dime-josh-allen": {
+  "espn_game": "401873051",
+  "game_id": "401873051",
+  "game_time": "Q2 0:44",
+  "play_key": "401873051:4018730512011",
+  "played_at": "2026-11-10T02:42:02Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1109/233afea7a83340aea846f644b0708c081318/233afea7a83340aea846f644b0708c081318.jpg",
+  "published": "2026-11-10T02:55:04Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/233afea7-a833-40ae-a846-f644b0708c08/233afea7-a833-40ae-a846-f644b0708c08.mp4"
+ },
  "https://www.youtube.com/shorts/-150A9vaDV0": {
   "poster": "https://i.ytimg.com/vi/-150A9vaDV0/hqdefault.jpg",
   "published": "2026-10-14T17:00:35Z",
@@ -4219,6 +4229,15 @@
   "poster": "https://i.ytimg.com/vi/FvdjEnK4yjM/hqdefault.jpg",
   "published": "2026-10-04T18:32:27Z",
   "youtube": "FvdjEnK4yjM"
+ },
+ "https://www.youtube.com/shorts/GI2NLJ7gl2Y": {
+  "game_id": "401873051",
+  "game_time": "Q2 0:44",
+  "play_key": "401873051:4018730512011",
+  "played_at": "2026-11-10T02:42:02Z",
+  "poster": "https://i.ytimg.com/vi/GI2NLJ7gl2Y/hqdefault.jpg",
+  "published": "2026-11-10T02:54:55Z",
+  "youtube": "GI2NLJ7gl2Y"
  },
  "https://www.youtube.com/shorts/GUKs0HfwBQA": {
   "game_id": "401873035",
@@ -12003,6 +12022,24 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2119960797137051648/img/PH_VRGYfcG7whc3L.jpg",
   "published": "2026-11-10T01:11:42Z",
   "video": "https://video.twimg.com/amplify_video/2119960797137051648/vid/avc1/1080x1920/IWseh3cQhRdbt5Qh.mp4"
+ },
+ "https://x.com/NFL/status/2119985275384602814": {
+  "game_id": "401873051",
+  "game_time": "Q2 0:27",
+  "play_key": "401873051:4018730512182",
+  "played_at": "2026-11-10T02:48:41Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119985116718276608/img/kzyqlI6bLsqsN7PQ.jpg",
+  "published": "2026-11-10T02:47:31Z",
+  "video": "https://video.twimg.com/amplify_video/2119985116718276608/vid/avc1/1920x1080/A60Y4HnM0Q52U7TY.mp4"
+ },
+ "https://x.com/NFL/status/2119992250507948160": {
+  "game_id": "401873051",
+  "game_time": "Q3 11:48",
+  "play_key": "401873051:4018730512533",
+  "played_at": "2026-11-10T03:15:20Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119992195172438016/img/tH4lVXYIXCNcsz3h.jpg",
+  "published": "2026-11-10T03:15:14Z",
+  "video": "https://video.twimg.com/amplify_video/2119992195172438016/vid/avc1/1920x1080/HFu8j_dgnjJUpNnV.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
