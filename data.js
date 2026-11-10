@@ -15361,8 +15361,8 @@ window.__STATIC_DATA__ = {
           "height": "73",
           "weight": "225",
           "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 122
         },
         {
@@ -15892,7 +15892,7 @@ window.__STATIC_DATA__ = {
           "espn_id": null,
           "name": "Josh Downs",
           "position": "WR",
-          "team": "IND",
+          "team": "KC",
           "birth_date": "2001-08-12",
           "college": "North Carolina",
           "height": "69",
@@ -16717,8 +16717,8 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "213",
           "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 75
         },
         {
@@ -16741,7 +16741,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 14880,
           "name": "Kirk Cousins",
           "position": "QB",
-          "team": "LV",
+          "team": "MIN",
           "birth_date": "1988-08-19",
           "college": "Michigan State",
           "height": "75",
@@ -17338,7 +17338,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 15818,
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND",
+          "team": "SF",
           "birth_date": "1992-04-27",
           "college": "California",
           "height": "74",
@@ -18841,7 +18841,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": null
+          "team": "DAL"
         }
       ],
       "faab": 0,
@@ -23301,7 +23301,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND"
+          "team": "SF"
         }
       ],
       "dropped": [],
@@ -23960,7 +23960,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND"
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -25667,7 +25667,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kirk Cousins",
           "position": "QB",
-          "team": "LV"
+          "team": "MIN"
         }
       ],
       "dropped": [
@@ -25717,7 +25717,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": null
+          "team": "DAL"
         }
       ],
       "dropped": [
@@ -26151,7 +26151,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND"
+          "team": "SF"
         }
       ],
       "dropped": [
@@ -26289,7 +26289,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND"
+          "team": "SF"
         }
       ],
       "dropped": [],
@@ -26958,7 +26958,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Keenan Allen",
           "position": "WR",
-          "team": "IND"
+          "team": "SF"
         }
       ],
       "faab": 0,
