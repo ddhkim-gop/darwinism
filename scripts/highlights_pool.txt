@@ -545,7 +545,6 @@ https://x.com/ChicagoBears/status/2119650238877028825
 https://x.com/Chiefs/status/2119473339781783577
 https://x.com/Chiefs/status/2119534505278964061
 https://x.com/Colts/status/2119496098494496855
-https://x.com/Commanders/status/2117108338693378265
 https://x.com/Commanders/status/2117109214531174856
 https://x.com/DreareaSports/status/2091624681573146837
 https://x.com/Eagles/status/2119499702882259069
@@ -604,10 +603,6 @@ https://x.com/NFL/status/2098210866361671970
 https://x.com/NFL/status/2098224339447656814
 https://x.com/NFL/status/2098242171513999386
 https://x.com/NFL/status/2099205601394041343
-https://x.com/NFL/status/2117097127012860320
-https://x.com/NFL/status/2117098667442332097
-https://x.com/NFL/status/2117105004586959038
-https://x.com/NFL/status/2117108283437899921
 https://x.com/NFL/status/2117109272349982825
 https://x.com/NFL/status/2117116513018847716
 https://x.com/NFL/status/2117443019767267829
@@ -765,6 +760,8 @@ https://x.com/NFLonFOX/status/2119573533642604882
 https://x.com/NFLonFOX/status/2119578429469151490
 https://x.com/NFLonFOX/status/2119581026909397363
 https://x.com/NFLonFOX/status/2119585533357891807
+https://x.com/NFLonFOX/status/2119918946401042454
+https://x.com/NFLonFOX/status/2119925458485850170
 https://x.com/Nate_Tice/status/2095691914121265331
 https://x.com/NotJustFootball/status/2095953794605645913
 https://x.com/OwenGregorian/status/2096200858102813005
