@@ -185,27 +185,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/38b73af9-d4e7-4d08-b611-ee693d5d409e/38b73af9-d4e7-4d08-b611-ee693d5d409e.mp4"
     },
     {
-      "url": "https://x.com/NFL/status/2117443019767267829",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-11-03",
-      "author": "NFL",
-      "text": "Odunze catches another big one. Caleb starting to cook.\n\nBears on the move to end the half.\n\nCHIvsSEA on ESPN\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 831,
-      "secs": 6,
-      "game_id": "401873036",
-      "game_time": "Q2 3:09",
-      "play_key": "401873036:4018730361634",
-      "played_at": "2026-11-03T02:23:20Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117442607588704256/img/eOTZjJQIxWtFPSb7.jpg",
-      "published": "2026-11-03T02:25:30Z",
-      "video": "https://video.twimg.com/amplify_video/2117442607588704256/vid/avc1/1920x1080/lYJq_J0ZghIqIVCk.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50425348/jordan-love-runs-put-packers-board",
       "player": "Jordan Love",
       "meta": "QB \u00b7 GB",
@@ -219,6 +198,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/4dbafa9fb9a040f5834e9a322e5b0e0e1194/4dbafa9fb9a040f5834e9a322e5b0e0e1194.jpg",
       "published": "2026-11-08T21:55:14Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/4dbafa9f-b9a0-40f5-834e-9a322e5b0e0e/4dbafa9f-b9a0-40f5-834e-9a322e5b0e0e.mp4"
+    },
+    {
+      "url": "https://x.com/NFL/status/2117443019767267829",
+      "player": "Rome Odunze",
+      "meta": "WR \u00b7 CHI",
+      "date": "2026-11-03",
+      "author": "NFL",
+      "text": "Odunze catches another big one. Caleb starting to cook.\n\nBears on the move to end the half.\n\nCHIvsSEA on ESPN\nStream on @NFLPlus",
+      "verified": false,
+      "faves": 831,
+      "secs": 6,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117442607588704256/img/eOTZjJQIxWtFPSb7.jpg",
+      "published": "2026-11-03T02:25:30Z",
+      "video": "https://video.twimg.com/amplify_video/2117442607588704256/vid/avc1/1920x1080/lYJq_J0ZghIqIVCk.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
     }
   ]
 }
