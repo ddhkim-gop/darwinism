@@ -23,6 +23,15 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 10 — Nobody's Perfect",
+            date: "2026-11-10",
+            duration: "7:39",
+            slug: "2026-10-nobodys-perfect",
+            audio: "assets/podcasts/2026/ep10-nobodys-perfect.mp3",
+            art: "assets/podcasts/art/2026-10-nobodys-perfect.png?v=202611102315",
+            description: "Puka Doncic beat eikichi 150.56-128.86 behind Puka Nacua's 14 catches, ending the league's last unbeaten run; both now sit at 8-1. C.J. Stroud's 36.36 led the league from Snow King Ghidorah's bench, Jordan Love's 36.18 won EgBigBoo its second game, and MickeyC's beat a perfect Salamander lineup.",
+        },
+        {
             title: "Episode 9 — Collision Course",
             date: "2026-11-04",
             duration: "8:21",
