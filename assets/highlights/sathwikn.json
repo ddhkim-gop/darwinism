@@ -1,12 +1,12 @@
 {
   "team": "sathwikn",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
       "url": "https://x.com/NFL/status/2119566195477094442",
       "player": "Kirk Cousins",
-      "meta": "QB \u00b7 LV",
+      "meta": "QB \u00b7 MIN",
       "date": "2026-11-08",
       "author": "NFL",
       "text": "Kirk Cousins over the top to Brock Bowers for the TD \ud83d\ude4c\n\nLVvsSF on FOX/FOX One\nStream on @NFLPlus",
@@ -25,25 +25,23 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/Raiders/status/2119552929493291355",
+      "url": "https://www.espn.com/video/clip/_/id/50425785/kirk-cousins-plows-end-zone-raiders",
       "player": "Kirk Cousins",
-      "meta": "QB \u00b7 LV",
+      "meta": "QB \u00b7 MIN",
       "date": "2026-11-08",
-      "author": "Raiders",
-      "text": "Snuck in for six.\n\n#LVvsSF | \ud83d\udcfa FOX",
+      "author": "ESPN",
+      "text": "Live on FOX: Kirk Cousins plows into the end zone for Raiders. Live on FOX: Kirk Cousins plows into the end zone for Raiders ",
       "verified": true,
-      "faves": 245,
-      "secs": 24,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873047",
       "game_id": "401873047",
       "game_time": "Q2 12:41",
       "play_key": "401873047:4018730471225",
       "played_at": "2026-11-08T22:06:32Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119552416412585984/img/jP-HCzmYnLmA93k4.jpg",
-      "published": "2026-11-08T22:09:32Z",
-      "video": "https://video.twimg.com/amplify_video/2119552416412585984/vid/avc1/1920x1080/LZG9jJ79uDRy-1V2.mp4",
-      "author_name": "Raiders",
-      "avatar": "",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/a4879a44-b586-493e-b5e4-2fe0f361ff35/a4879a44-b586-493e-b5e4-2fe0f361ff35.jpg",
+      "published": "2026-11-08T22:27:20Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/a4879a44-b586-493e-b5e4-2fe0f361ff35/a4879a44-b586-493e-b5e4-2fe0f361ff35.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50425347/jordan-love-drops-matthew-golden-td",
