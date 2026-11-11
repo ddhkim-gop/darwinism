@@ -15261,21 +15261,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "4147",
-          "espn_id": 3116389,
-          "name": "Samaje Perine",
-          "position": "RB",
-          "team": "CIN",
-          "birth_date": "1995-09-16",
-          "college": "Oklahoma",
-          "height": "71",
-          "weight": "240",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 458
-        },
-        {
           "player_id": "5022",
           "espn_id": 3121023,
           "name": "Dallas Goedert",
@@ -15349,21 +15334,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "8161",
-          "espn_id": null,
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
-          "birth_date": "1999-05-25",
-          "college": "Liberty",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 122
         },
         {
           "player_id": "CHI",
@@ -16132,21 +16102,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 42
-        },
-        {
-          "player_id": "7561",
-          "espn_id": null,
-          "name": "Elijah Mitchell",
-          "position": "RB",
-          "team": "PHI",
-          "birth_date": "1998-05-02",
-          "college": "Louisiana",
-          "height": "70",
-          "weight": "200",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 532
         },
         {
           "player_id": "9226",
@@ -18720,6 +18675,72 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 10, 2026 • 5:01 PM PT",
+      "transaction_id": "1426048082637770752",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 10, 2026 • 3:44 PM PT",
+      "transaction_id": "1426028712192643072",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 10, 2026 • 3:43 PM PT",
+      "transaction_id": "1426028505904197632",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
