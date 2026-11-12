@@ -16938,19 +16938,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
-          "player_id": "3286",
-          "espn_id": 3043116,
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1994-09-21",
-          "college": "Florida",
-          "height": "73",
-          "weight": "202",
-          "years_exp": 10,
+          "player_id": "2505",
+          "espn_id": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
+          "birth_date": "1992-09-13",
+          "college": "Georgia Tech",
+          "height": "78",
+          "weight": "238",
+          "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 679
+          "search_rank": 356
         },
         {
           "player_id": "4217",
@@ -16966,21 +16966,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 80
-        },
-        {
-          "player_id": "4993",
-          "espn_id": 3116164,
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN",
-          "birth_date": "1995-10-03",
-          "college": "Penn State",
-          "height": "78",
-          "weight": "245",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 399
         },
         {
           "player_id": "5119",
@@ -17086,6 +17071,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 34
+        },
+        {
+          "player_id": "8116",
+          "espn_id": null,
+          "name": "Pierre Strong Jr.",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "1998-12-10",
+          "college": "South Dakota State",
+          "height": "71",
+          "weight": "207",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 631
         },
         {
           "player_id": "8132",
@@ -18645,6 +18645,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 1:42 AM PT",
+      "transaction_id": "1426541737282650112",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Pierre Strong Jr.",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 1:41 AM PT",
+      "transaction_id": "1426541458986373120",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
@@ -23465,7 +23521,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Mevis",
           "position": "K",
-          "team": null
+          "team": "BAL"
         }
       ],
       "faab": 0,
