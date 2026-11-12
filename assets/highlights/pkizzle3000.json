@@ -1,6 +1,6 @@
 {
   "team": "Pkizzle3000",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -63,6 +63,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/71897c5805f84bf19d43d32a9b5c55a71259/71897c5805f84bf19d43d32a9b5c55a71259.jpg",
       "published": "2026-11-09T01:42:49Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/71897c58-05f8-4bf1-9d43-d32a9b5c55a7/71897c58-05f8-4bf1-9d43-d32a9b5c55a7.mp4"
+    },
+    {
+      "url": "https://x.com/Patriots/status/2119580664383046002",
+      "player": "Mack Hollins",
+      "meta": "WR \u00b7 NE",
+      "date": "2026-11-08",
+      "author": "Patriots",
+      "text": "Touchdown Drake Maye to Mack Hollins.\n\n\ud83d\udcfa FOX",
+      "verified": true,
+      "faves": 644,
+      "secs": 10,
+      "game_id": "401873049",
+      "game_time": "Q3 1:11",
+      "play_key": "401873049:4018730493516",
+      "played_at": "2026-11-08T23:58:58Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119580581545574402/img/3vzwYVU7YDycp1cX.jpg",
+      "published": "2026-11-08T23:59:44Z",
+      "video": "https://video.twimg.com/amplify_video/2119580581545574402/vid/avc1/1920x1080/j8Ad5SF7ioexb8pa.mp4",
+      "author_name": "New England Patriots",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2119578109380788367",

@@ -1,6 +1,6 @@
 {
   "team": "edj11102024",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -42,7 +42,7 @@
       "published": "2026-11-09T04:30:17Z",
       "video": "https://video.twimg.com/amplify_video/2119648399578353664/vid/avc1/1920x1080/8YiJKSagavrldcJQ.mp4",
       "author_name": "Tampa Bay Buccaneers",
-      "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_normal.png",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -125,6 +125,27 @@
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2119577959782641664/img/YFYySfdrhp-B5IdQ.jpg",
       "published": "2026-11-08T23:49:35Z",
       "video": "https://video.twimg.com/amplify_video/2119577959782641664/vid/avc1/1920x1080/XNXD-mvt_mgjWFbd.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2119561513438490955",
+      "player": "Kaleb Johnson",
+      "meta": "RB \u00b7 GB",
+      "date": "2026-11-08",
+      "author": "NFL",
+      "text": "Kaleb Johnson powers in! What a first half for the @Packers\n\nGBvsNE on FOX/FOX One\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 343,
+      "secs": 7,
+      "game_id": "401873049",
+      "game_time": "Q2 4:45",
+      "play_key": "401873049:4018730491862",
+      "played_at": "2026-11-08T22:42:51Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119561425290936320/img/dzJLGuszUQ0tscfP.jpg",
+      "published": "2026-11-08T22:43:39Z",
+      "video": "https://video.twimg.com/amplify_video/2119561425290936320/vid/avc1/1920x1080/dQq8uXU3FkUiNf49.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
@@ -250,23 +271,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/3d249c72128447d1a4b18c6266fa87821399/3d249c72128447d1a4b18c6266fa87821399.jpg",
       "published": "2026-11-06T01:33:57Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/3d249c72-1284-47d1-a4b1-8c6266fa8782/3d249c72-1284-47d1-a4b1-8c6266fa8782.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2119559971360694691",
-      "player": "Dalton Schultz",
-      "meta": "TE \u00b7 HOU",
-      "date": "2026-11-08",
-      "author": "NFL",
-      "text": "This toe tap by Dalton Schultz \ud83d\udd25\n\nHOUvsLAC on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 116,
-      "secs": 14,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119559710948884480/img/nxWoRQkgzd_RE4V1.jpg",
-      "published": "2026-11-08T22:37:31Z",
-      "video": "https://video.twimg.com/amplify_video/2119559710948884480/vid/avc1/1920x1080/QRDJ0Wc3_UaSJO4i.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     }
   ]
 }

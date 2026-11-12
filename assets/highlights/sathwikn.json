@@ -1,6 +1,6 @@
 {
   "team": "sathwikn",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -120,27 +120,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/9360c8cb-32b8-42a0-a4fd-3391298256ee/9360c8cb-32b8-42a0-a4fd-3391298256ee.jpg",
       "published": "2026-11-08T18:38:56Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9360c8cb-32b8-42a0-a4fd-3391298256ee/9360c8cb-32b8-42a0-a4fd-3391298256ee.mp4"
-    },
-    {
-      "url": "https://x.com/AtlantaFalcons/status/2119469568326541630",
-      "player": "Brian Robinson Jr.",
-      "meta": "RB \u00b7 ATL",
-      "date": "2026-11-08",
-      "author": "AtlantaFalcons",
-      "text": "Bijan takes it outside for six!\n\nNFLN | ANF",
-      "verified": true,
-      "faves": 180,
-      "secs": 35,
-      "game_id": "401873038",
-      "game_time": "Q3 6:18",
-      "play_key": "401873038:4018730382692",
-      "played_at": "2026-11-08T16:34:06Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119469492367396864/img/4wAUDcaE5SN67PC4.jpg",
-      "published": "2026-11-08T16:38:17Z",
-      "video": "https://video.twimg.com/amplify_video/2119469492367396864/vid/avc1/864x1080/i27BtMOgs1AT798z.mp4",
-      "author_name": "Atlanta Falcons",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50395412/trevor-lawrence-dimes-parker-washington-50-yard-td",

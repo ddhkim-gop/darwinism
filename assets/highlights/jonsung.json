@@ -1,27 +1,8 @@
 {
   "team": "jonsung",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50429559/cairo-santos-walk-fg-lifts-bears-bucs-snf",
-      "player": "Cairo Santos",
-      "meta": "K \u00b7 CHI",
-      "date": "2026-11-09",
-      "author": "ESPN",
-      "text": "Cairo Santos' walk-off FG lifts Bears over Bucs on SNF. Cairo Santos' walk-off FG lifts Bears over Bucs on SNF  ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873050",
-      "game_id": "401873050",
-      "game_time": "Q4 0:00",
-      "play_key": "401873050:4018730504405",
-      "played_at": "2026-11-09T04:38:28Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/46c9cd0b71e04e66a6741fa055620fe41429/46c9cd0b71e04e66a6741fa055620fe41429.jpg",
-      "published": "2026-11-09T04:47:22Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/46c9cd0b-71e0-4e66-a674-1fa055620fe4/46c9cd0b-71e0-4e66-a674-1fa055620fe4.mp4"
-    },
     {
       "url": "https://x.com/NFL/status/2119546316942369180",
       "player": "George Kittle",
@@ -80,6 +61,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/f757fc1d-824d-4211-860b-3a2cc903b62d/f757fc1d-824d-4211-860b-3a2cc903b62d.jpg",
       "published": "2026-11-08T18:46:58Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/f757fc1d-824d-4211-860b-3a2cc903b62d/f757fc1d-824d-4211-860b-3a2cc903b62d.mp4"
+    },
+    {
+      "url": "https://x.com/nyjets/status/2119493835600589250",
+      "player": "Jason Sanders",
+      "meta": "K \u00b7 NYJ",
+      "date": "2026-11-08",
+      "author": "nyjets",
+      "text": "Jason Sanders from 23 yards out is good \n\n3-0 with 6:47 remaining in the first quarter",
+      "verified": true,
+      "faves": 57,
+      "secs": 8,
+      "game_id": "401873045",
+      "game_time": "Q1 6:47",
+      "play_key": "401873045:401873045399",
+      "played_at": "2026-11-08T18:14:14Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119493767317069824/img/K_0-S8hTWAKYl3wi.jpg",
+      "published": "2026-11-08T18:14:43Z",
+      "video": "https://video.twimg.com/amplify_video/2119493767317069824/vid/avc1/1080x1080/u43fve-8rYboMRLw.mp4",
+      "author_name": "New York Jets",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }
