@@ -15489,7 +15489,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 12
+          "search_rank": 11
         },
         {
           "player_id": "7021",
@@ -15660,7 +15660,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 26
+          "search_rank": 28
         },
         {
           "player_id": "11635",
@@ -15690,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 133
+          "search_rank": 131
         },
         {
           "player_id": "12487",
@@ -15855,7 +15855,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
+          "search_rank": 5
         },
         {
           "player_id": "9500",
@@ -15981,7 +15981,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 448
+          "search_rank": 449
         },
         {
           "player_id": "12514",
@@ -16011,7 +16011,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 35
+          "search_rank": 36
         },
         {
           "player_id": "12534",
@@ -16257,7 +16257,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 39
+          "search_rank": 40
         },
         {
           "player_id": "5859",
@@ -16347,7 +16347,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 488
+          "search_rank": 486
         },
         {
           "player_id": "9753",
@@ -16563,7 +16563,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 17,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 66
         },
         {
           "player_id": "4881",
@@ -16578,7 +16578,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 9
+          "search_rank": 10
         },
         {
           "player_id": "7547",
@@ -16980,7 +16980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 450
+          "search_rank": 399
         },
         {
           "player_id": "5119",
@@ -17055,7 +17055,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 44
+          "search_rank": 46
         },
         {
           "player_id": "6813",
@@ -17361,7 +17361,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 131
+          "search_rank": 130
         },
         {
           "player_id": "9509",
@@ -17427,7 +17427,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 22
         },
         {
           "player_id": "11584",
@@ -17562,7 +17562,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 61
+          "search_rank": 62
         },
         {
           "player_id": "6801",
@@ -17595,6 +17595,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 136
         },
         {
+          "player_id": "7562",
+          "espn_id": null,
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "1999-10-07",
+          "college": "Louisville",
+          "height": "69",
+          "weight": "165",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 691
+        },
+        {
           "player_id": "8167",
           "espn_id": null,
           "name": "Christian Watson",
@@ -17620,7 +17635,7 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "216",
           "years_exp": 3,
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "Out",
           "search_rank": 4
         },
@@ -17868,7 +17883,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 64
+          "search_rank": 65
         },
         {
           "player_id": "9758",
@@ -17883,7 +17898,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 102
+          "search_rank": 101
         },
         {
           "player_id": "DEN",
@@ -18630,6 +18645,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 11, 2026 • 8:56 PM PT",
+      "transaction_id": "1426469736467677184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,

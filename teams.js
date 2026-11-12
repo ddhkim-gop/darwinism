@@ -1,6 +1,6 @@
-import { api } from "./dataService.js?v=202611120059";
-import { renderNav } from "./components/nav.js?v=202611120059";
-import { ensurePlayerCardPopover, openPlayerCard } from "./playerCard.js?v=202611120059";
+import { api } from "./dataService.js?v=202611120817";
+import { renderNav } from "./components/nav.js?v=202611120817";
+import { ensurePlayerCardPopover, openPlayerCard } from "./playerCard.js?v=202611120817";
 
 // Data/helpers the shared player card needs, resolved from this page's caches.
 function playerCardCtx() {
