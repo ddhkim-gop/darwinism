@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "249",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 92
         },
         {
@@ -15719,7 +15719,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -15935,7 +15935,7 @@ window.__STATIC_DATA__ = {
           "weight": "165",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 122
         },
         {
@@ -15965,7 +15965,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 105
         },
         {
@@ -16166,7 +16166,7 @@ window.__STATIC_DATA__ = {
           "weight": "224",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 125
         },
         {
@@ -16196,7 +16196,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 73
         },
         {
@@ -16241,7 +16241,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 119
         },
         {
@@ -16256,7 +16256,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 39
         },
         {
@@ -16378,21 +16378,6 @@ window.__STATIC_DATA__ = {
           "status": null,
           "injury_status": null,
           "search_rank": null
-        },
-        {
-          "player_id": "SF",
-          "espn_id": null,
-          "name": "San Francisco 49ers",
-          "position": "DEF",
-          "team": "SF",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         }
       ]
     },
@@ -16487,7 +16472,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 527
         },
         {
@@ -16607,7 +16592,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -16748,7 +16733,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 39
         },
         {
@@ -17165,7 +17150,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 81
         },
         {
@@ -17486,7 +17471,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 44
         },
         {
@@ -17576,7 +17561,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -17606,7 +17591,7 @@ window.__STATIC_DATA__ = {
           "weight": "266",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 136
         },
         {
@@ -17636,7 +17621,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Inactive",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 4
         },
         {
@@ -17807,7 +17792,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 77
         },
         {
@@ -18053,7 +18038,7 @@ window.__STATIC_DATA__ = {
           "weight": "248",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 128
         },
         {
@@ -18158,7 +18143,7 @@ window.__STATIC_DATA__ = {
           "weight": "165",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 187
         },
         {
@@ -18645,6 +18630,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 11, 2026 • 1:34 PM PT",
+      "transaction_id": "1426358457161768960",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
@@ -24457,7 +24464,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham Jr.",
           "position": "WR",
-          "team": null
+          "team": "MIN"
         }
       ],
       "faab": 0,
@@ -24818,7 +24825,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham Jr.",
           "position": "WR",
-          "team": null
+          "team": "MIN"
         }
       ],
       "dropped": [],
@@ -30571,7 +30578,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham Jr.",
           "position": "WR",
-          "team": null
+          "team": "MIN"
         }
       ],
       "faab": 0,
@@ -30752,7 +30759,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Odell Beckham Jr.",
           "position": "WR",
-          "team": null
+          "team": "MIN"
         }
       ],
       "dropped": [
