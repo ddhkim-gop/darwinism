@@ -17635,8 +17635,8 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "216",
           "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 4
         },
         {
@@ -17980,21 +17980,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 38
-        },
-        {
-          "player_id": "13150",
-          "espn_id": null,
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2001-11-22",
-          "college": "Tarleton State",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 658
         },
         {
           "player_id": "13274",
@@ -18645,6 +18630,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 5:16 PM PT",
+      "transaction_id": "1426776616406638592",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
