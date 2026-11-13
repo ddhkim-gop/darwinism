@@ -15473,7 +15473,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -15563,7 +15563,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 23
         },
         {
@@ -15719,7 +15719,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -15965,7 +15965,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 105
         },
         {
@@ -16181,7 +16181,7 @@ window.__STATIC_DATA__ = {
           "weight": "224",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 125
         },
         {
@@ -16211,7 +16211,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 73
         },
         {
@@ -16380,6 +16380,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 101
         },
         {
+          "player_id": "BUF",
+          "espn_id": null,
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
           "player_id": "PIT",
           "espn_id": null,
           "name": "Pittsburgh Steelers",
@@ -16461,21 +16476,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 75
         },
         {
-          "player_id": "11647",
-          "espn_id": null,
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "birth_date": "2001-08-28",
-          "college": "Troy",
-          "height": "68",
-          "weight": "215",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 141
-        },
-        {
           "player_id": "11729",
           "espn_id": null,
           "name": "Sione Vaki",
@@ -16506,6 +16506,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
+          "player_id": "12969",
+          "espn_id": null,
+          "name": "Lan Larison",
+          "position": "RB",
+          "team": "NE",
+          "birth_date": "2001-10-11",
+          "college": "UC Davis",
+          "height": "71",
+          "weight": "209",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 512
+        },
+        {
           "player_id": "13276",
           "espn_id": null,
           "name": "Omar Cooper Jr.",
@@ -16517,7 +16532,7 @@ window.__STATIC_DATA__ = {
           "weight": "199",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 151
         },
         {
@@ -16637,7 +16652,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 99
         },
         {
@@ -16780,6 +16795,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 15
+        },
+        {
+          "player_id": "13293",
+          "espn_id": null,
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "birth_date": "2004-05-05",
+          "college": "USC",
+          "height": "76",
+          "weight": "205",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 147
         },
         {
           "player_id": "5045",
@@ -17024,7 +17054,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 130
         },
         {
@@ -17165,7 +17195,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 81
         },
         {
@@ -17270,7 +17300,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 60
         },
         {
@@ -17285,7 +17315,7 @@ window.__STATIC_DATA__ = {
           "weight": "253",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 652
         },
         {
@@ -17471,7 +17501,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 162
         },
         {
@@ -17486,7 +17516,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 44
         },
         {
@@ -17606,7 +17636,7 @@ window.__STATIC_DATA__ = {
           "weight": "266",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 136
         },
         {
@@ -17822,7 +17852,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -17916,11 +17946,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 102
         },
         {
-          "player_id": "DEN",
+          "player_id": "GB",
           "espn_id": null,
-          "name": "Denver Broncos",
+          "name": "Green Bay Packers",
           "position": "DEF",
-          "team": "DEN",
+          "team": "GB",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18053,7 +18083,7 @@ window.__STATIC_DATA__ = {
           "weight": "248",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 128
         },
         {
@@ -18128,7 +18158,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 19
         },
         {
@@ -18645,6 +18675,122 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 1:56 PM PT",
+      "transaction_id": "1427088794988859392",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 1:15 PM PT",
+      "transaction_id": "1427078582055751680",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Lan Larison",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 1:14 PM PT",
+      "transaction_id": "1427078236185059328",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 12:07 PM PT",
+      "transaction_id": "1427061479827312640",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 11:36 AM PT",
+      "transaction_id": "1427053501673930752",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
