@@ -15458,7 +15458,7 @@ window.__STATIC_DATA__ = {
           "weight": "249",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 92
         },
         {
@@ -15734,7 +15734,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 61
         },
         {
@@ -16027,6 +16027,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 61
+        },
+        {
+          "player_id": "3286",
+          "espn_id": 3043116,
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1994-09-21",
+          "college": "Florida",
+          "height": "73",
+          "weight": "202",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
         },
         {
           "player_id": "4177",
@@ -16502,7 +16517,7 @@ window.__STATIC_DATA__ = {
           "weight": "199",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 151
         },
         {
@@ -18630,6 +18645,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 7:44 AM PT",
+      "transaction_id": "1426995092236828672",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
