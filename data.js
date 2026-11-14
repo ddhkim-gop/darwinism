@@ -17490,21 +17490,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 32
         },
         {
-          "player_id": "11625",
-          "espn_id": null,
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2002-10-08",
-          "college": "Texas",
-          "height": "74",
-          "weight": "205",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 162
-        },
-        {
           "player_id": "12490",
           "espn_id": null,
           "name": "Bhayshul Tuten",
@@ -17563,6 +17548,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 678
+        },
+        {
+          "player_id": "13270",
+          "espn_id": null,
+          "name": "CJ Daniels",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "2002-01-04",
+          "college": "Miami (FL)",
+          "height": "74",
+          "weight": "205",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 550
         },
         {
           "player_id": "13286",
@@ -18675,6 +18675,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 13, 2026 • 6:04 PM PT",
+      "transaction_id": "1427151151106641920",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "CJ Daniels",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
