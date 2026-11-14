@@ -17069,7 +17069,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 42
         },
         {
@@ -18117,6 +18117,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 33
         },
         {
+          "player_id": "8122",
+          "espn_id": null,
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "birth_date": "2001-04-11",
+          "college": "NC State",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 669
+        },
+        {
           "player_id": "8126",
           "espn_id": null,
           "name": "Wan'Dale Robinson",
@@ -18158,7 +18173,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 19
         },
         {
@@ -18675,6 +18690,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 14, 2026 • 10:41 AM PT",
+      "transaction_id": "1427401982057926656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
