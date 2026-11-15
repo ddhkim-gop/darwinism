@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Panthers/status/2122072099237867526",
+      "player": "Chuba Hubbard",
+      "meta": "RB \u00b7 CAR",
+      "date": "2026-11-15",
+      "author": "Panthers",
+      "text": "CHUBA x2 \n\n#CARvsNO\n\n\ud83d\udcfa FOX",
+      "verified": true,
+      "faves": 337,
+      "secs": 39,
+      "game_id": "401873055",
+      "game_time": "Q4 1:49",
+      "play_key": "401873055:4018730554009",
+      "played_at": "2026-11-15T20:57:29Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122071765417336832/img/jvXsGvhIXT1iO4JH.jpg",
+      "published": "2026-11-15T20:59:49Z",
+      "video": "https://video.twimg.com/amplify_video/2122071765417336832/vid/avc1/1920x1080/x_5z9SJhTRj8OgHv.mp4",
+      "author_name": "Carolina Panthers",
+      "avatar": "https://pbs.twimg.com/profile_images/2092340007943999488/x1DqQr26_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2122047973597274429",
       "player": "Josh Downs",
       "meta": "WR \u00b7 KC",
@@ -187,27 +208,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/5eaaa1cf-a363-4462-89b2-e4f68d3f470c/5eaaa1cf-a363-4462-89b2-e4f68d3f470c.mp4"
     },
     {
-      "url": "https://x.com/Colts/status/2119496098494496855",
-      "player": "Seth McGowan",
-      "meta": "RB \u00b7 IND",
-      "date": "2026-11-08",
-      "author": "Colts",
-      "text": "THE ROOK. SETH McGOWAN. \n\n\ud83d\udcfa Fox",
-      "verified": true,
-      "faves": 259,
-      "secs": 6,
-      "game_id": "401873040",
-      "game_time": "Q1 6:13",
-      "play_key": "401873040:401873040546",
-      "played_at": "2026-11-08T18:22:32Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119495939257765888/img/TbSl7rsI6PfAE_ei.jpg",
-      "published": "2026-11-08T18:23:42Z",
-      "video": "https://video.twimg.com/amplify_video/2119495939257765888/vid/avc1/1920x1080/QvHGO5cd4ZSwkd1J.mp4",
-      "author_name": "Indianapolis Colts",
-      "avatar": "https://pbs.twimg.com/profile_images/2119807214407897088/QsbT0-qM_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2119495827592761830",
       "player": "Malik Nabers",
       "meta": "WR \u00b7 NYG",
@@ -227,6 +227,21 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50491774/seth-mcgowan-puts-colts-board",
+      "player": "Seth McGowan",
+      "meta": "RB \u00b7 IND",
+      "date": "2026-11-15",
+      "author": "ESPN",
+      "text": "Seth McGowan puts the Colts on the board",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873059",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/d5c82a69-e6de-43fa-9a9b-120e6a0eb193/d5c82a69-e6de-43fa-9a9b-120e6a0eb193.jpg",
+      "published": "2026-11-15T18:49:19Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/d5c82a69-e6de-43fa-9a9b-120e6a0eb193/d5c82a69-e6de-43fa-9a9b-120e6a0eb193.mp4"
     }
   ]
 }
