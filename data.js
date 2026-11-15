@@ -15141,21 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11261",
-          "espn_id": null,
-          "name": "Andre Szmyt",
-          "position": "K",
-          "team": "CLE",
-          "birth_date": "1998-09-26",
-          "college": "Syracuse",
-          "height": "72",
-          "weight": "200",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 319
-        },
-        {
           "player_id": "11646",
           "espn_id": null,
           "name": "Jalen Coker",
@@ -15231,6 +15216,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
+          "player_id": "13302",
+          "espn_id": null,
+          "name": "Adam Randall",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "2004-07-14",
+          "college": "Clemson",
+          "height": "75",
+          "weight": "240",
+          "years_exp": 0,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 411
+        },
+        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -15259,6 +15259,36 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 162
+        },
+        {
+          "player_id": "2747",
+          "espn_id": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "birth_date": "1991-05-12",
+          "college": "Marist",
+          "height": "70",
+          "weight": "190",
+          "years_exp": 11,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 125
+        },
+        {
+          "player_id": "4033",
+          "espn_id": 3123076,
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "LAC",
+          "birth_date": "1996-07-10",
+          "college": "Miami (FL)",
+          "height": "76",
+          "weight": "246",
+          "years_exp": 9,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 131
         },
         {
           "player_id": "4034",
@@ -15317,7 +15347,7 @@ window.__STATIC_DATA__ = {
           "weight": "227",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 58
         },
         {
@@ -16286,7 +16316,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 17
         },
         {
@@ -16487,7 +16517,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 527
         },
         {
@@ -16532,7 +16562,7 @@ window.__STATIC_DATA__ = {
           "weight": "199",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 151
         },
         {
@@ -16622,7 +16652,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 7
         },
         {
@@ -16652,7 +16682,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 99
         },
         {
@@ -17114,23 +17144,8 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 34
-        },
-        {
-          "player_id": "8116",
-          "espn_id": null,
-          "name": "Pierre Strong Jr.",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "1998-12-10",
-          "college": "South Dakota State",
-          "height": "71",
-          "weight": "207",
-          "years_exp": 4,
-          "status": "Active",
           "injury_status": null,
-          "search_rank": 631
+          "search_rank": 34
         },
         {
           "player_id": "8132",
@@ -17227,21 +17242,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 12
-        },
-        {
-          "player_id": "12634",
-          "espn_id": null,
-          "name": "Jordan Watkins",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "2002-02-15",
-          "college": "Ole Miss",
-          "height": "71",
-          "weight": "196",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 999
         },
         {
           "player_id": "13305",
@@ -17429,6 +17429,21 @@ window.__STATIC_DATA__ = {
           "name": "Minnesota Vikings",
           "position": "DEF",
           "team": "MIN",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "TB",
+          "espn_id": null,
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17732,7 +17747,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 9
         },
         {
@@ -17807,7 +17822,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 153
         },
         {
@@ -17897,7 +17912,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 38
         },
         {
@@ -18690,6 +18705,128 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 8:40 AM PT",
+      "transaction_id": "1427734045382410240",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 8:39 AM PT",
+      "transaction_id": "1427733745045098496",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 8:38 AM PT",
+      "transaction_id": "1427733587641262080",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Adam Randall",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Andre Szmyt",
+          "position": "K",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 7:49 AM PT",
+      "transaction_id": "1427721119212773376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Pierre Strong Jr.",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 5:39 AM PT",
+      "transaction_id": "1427688389448040448",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jordan Watkins",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
