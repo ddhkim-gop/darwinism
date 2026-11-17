@@ -15286,8 +15286,8 @@ window.__STATIC_DATA__ = {
           "height": "76",
           "weight": "246",
           "years_exp": 9,
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "search_rank": 131
         },
         {
@@ -16681,7 +16681,7 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "179",
           "years_exp": 3,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out",
           "search_rank": 99
         },
@@ -17013,21 +17013,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
-          "player_id": "2505",
-          "espn_id": 2576925,
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "birth_date": "1992-09-13",
-          "college": "Georgia Tech",
-          "height": "78",
-          "weight": "238",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 356
-        },
-        {
           "player_id": "4217",
           "espn_id": 3040151,
           "name": "George Kittle",
@@ -17101,6 +17086,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 42
+        },
+        {
+          "player_id": "5995",
+          "espn_id": 4038441,
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1997-11-14",
+          "college": "Oklahoma State",
+          "height": "70",
+          "weight": "195",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 220
         },
         {
           "player_id": "6790",
@@ -18705,6 +18705,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 16, 2026 • 4:34 PM PT",
+      "transaction_id": "1428215827005452288",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
