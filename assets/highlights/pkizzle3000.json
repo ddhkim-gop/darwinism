@@ -1,6 +1,6 @@
 {
   "team": "Pkizzle3000",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -42,67 +42,6 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
-    },
-    {
-      "url": "https://x.com/ChicagoBears/status/2119650238877028825",
-      "player": "Colston Loveland",
-      "meta": "TE \u00b7 CHI",
-      "date": "2026-11-09",
-      "author": "ChicagoBears",
-      "text": "Caleb to Colston. Big gain. \ud83d\udcaa\n\n\ud83d\udcfa: NBC",
-      "verified": true,
-      "faves": 1337,
-      "secs": 20,
-      "game_id": "401873050",
-      "game_time": "Q4 0:36",
-      "play_key": "401873050:4018730504376",
-      "played_at": "2026-11-09T04:37:00Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119650158740746240/img/iYLwob7KwWbABIsy.jpg",
-      "published": "2026-11-09T04:36:12Z",
-      "video": "https://video.twimg.com/amplify_video/2119650158740746240/vid/avc1/1920x1080/0MDZHSsS4D9x7xrE.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2119613341513519275",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-11-09",
-      "author": "NFL",
-      "text": "The Williams \u27a1\ufe0f Odunze connection is strong tonight!\n\nTBvsCHI on NBC/Peacock\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 495,
-      "secs": 10,
-      "game_id": "401873050",
-      "game_time": "Q2 8:12",
-      "play_key": "401873050:4018730501284",
-      "played_at": "2026-11-09T02:11:14Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119613081185550336/img/uorsydv9i-j1G5EC.jpg",
-      "published": "2026-11-09T02:09:35Z",
-      "video": "https://video.twimg.com/amplify_video/2119613081185550336/vid/avc1/1920x1080/W5NPgS6o0xZzgTFO.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50428198/rome-odunze-scores-first-td-season-bears-opening-drive",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-11-09",
-      "author": "ESPN",
-      "text": "Live on NBC: Rome Odunze scores first TD of season on Bears' opening drive",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873050",
-      "game_id": "401873050",
-      "game_time": "Q1 9:38",
-      "play_key": "401873050:401873050292",
-      "played_at": "2026-11-09T01:31:02Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/71897c5805f84bf19d43d32a9b5c55a71259/71897c5805f84bf19d43d32a9b5c55a71259.jpg",
-      "published": "2026-11-09T01:42:49Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/71897c58-05f8-4bf1-9d43-d32a9b5c55a7/71897c58-05f8-4bf1-9d43-d32a9b5c55a7.mp4"
     }
   ]
 }
