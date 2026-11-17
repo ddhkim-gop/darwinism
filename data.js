@@ -16074,21 +16074,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 679
         },
         {
-          "player_id": "4177",
-          "espn_id": 2991662,
-          "name": "Mack Hollins",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "1993-09-16",
-          "college": "North Carolina",
-          "height": "76",
-          "weight": "221",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 697
-        },
-        {
           "player_id": "4866",
           "espn_id": 3929630,
           "name": "Saquon Barkley",
@@ -16536,21 +16521,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
-          "player_id": "12969",
-          "espn_id": null,
-          "name": "Lan Larison",
-          "position": "RB",
-          "team": "NE",
-          "birth_date": "2001-10-11",
-          "college": "UC Davis",
-          "height": "71",
-          "weight": "209",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 512
-        },
-        {
           "player_id": "13276",
           "espn_id": null,
           "name": "Omar Cooper Jr.",
@@ -16609,21 +16579,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 7
-        },
-        {
-          "player_id": "421",
-          "espn_id": 12483,
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
-          "birth_date": "1988-02-07",
-          "college": "Georgia",
-          "height": "75",
-          "weight": "214",
-          "years_exp": 17,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 65
         },
         {
           "player_id": "4881",
@@ -18705,6 +18660,72 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 17, 2026 • 11:36 AM PT",
+      "transaction_id": "1428503179254849536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Lan Larison",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 17, 2026 • 11:36 AM PT",
+      "transaction_id": "1428503149517217792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 17, 2026 • 8:11 AM PT",
+      "transaction_id": "1428451607409876992",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
