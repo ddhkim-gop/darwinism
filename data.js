@@ -15242,7 +15242,7 @@ window.__STATIC_DATA__ = {
           "weight": "240",
           "years_exp": 0,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": null,
           "search_rank": 411
         },
         {
@@ -15768,21 +15768,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
-          "player_id": "13424",
-          "espn_id": null,
-          "name": "Seth McGowan",
-          "position": "RB",
-          "team": "IND",
-          "birth_date": "2001-10-23",
-          "college": "Kentucky",
-          "height": "72",
-          "weight": "223",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 379
-        },
-        {
           "player_id": "3294",
           "espn_id": 2577417,
           "name": "Dak Prescott",
@@ -15798,34 +15783,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 38
         },
         {
-          "player_id": "6650",
-          "espn_id": 3150744,
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "birth_date": "1996-04-09",
-          "college": "Illinois",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 7,
+          "player_id": "5022",
+          "espn_id": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "birth_date": "1995-01-03",
+          "college": "South Dakota State",
+          "height": "77",
+          "weight": "256",
+          "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 199
-        },
-        {
-          "player_id": "6806",
-          "espn_id": 4241985,
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "birth_date": "1998-12-17",
-          "college": "Ohio State",
-          "height": "70",
-          "weight": "212",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 68
+          "search_rank": 94
         },
         {
           "player_id": "7588",
@@ -15901,6 +15871,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 111
+        },
+        {
+          "player_id": "CAR",
+          "espn_id": null,
+          "name": "Carolina Panthers",
+          "position": "DEF",
+          "team": "CAR",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         },
         {
           "player_id": "LAR",
@@ -16074,21 +16059,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
-          "player_id": "3286",
-          "espn_id": 3043116,
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1994-09-21",
-          "college": "Florida",
-          "height": "73",
-          "weight": "202",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 679
-        },
-        {
           "player_id": "4866",
           "espn_id": 3929630,
           "name": "Saquon Barkley",
@@ -16147,6 +16117,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 42
+        },
+        {
+          "player_id": "8135",
+          "espn_id": null,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2000-03-23",
+          "college": "Arkansas",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
         },
         {
           "player_id": "9226",
@@ -16609,6 +16594,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 11
+        },
+        {
+          "player_id": "6797",
+          "espn_id": 4038941,
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC",
+          "birth_date": "1998-03-10",
+          "college": "Oregon",
+          "height": "78",
+          "weight": "236",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 33
         },
         {
           "player_id": "6819",
@@ -17163,11 +17163,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "IND",
+          "player_id": "DET",
           "espn_id": null,
-          "name": "Indianapolis Colts",
+          "name": "Detroit Lions",
           "position": "DEF",
-          "team": "IND",
+          "team": "DET",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17197,6 +17197,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 81
+        },
+        {
+          "player_id": "11199",
+          "espn_id": null,
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "HOU",
+          "birth_date": "1999-01-20",
+          "college": "TCU",
+          "height": "69",
+          "weight": "215",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 502
         },
         {
           "player_id": "11557",
@@ -17289,6 +17304,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 180
         },
         {
+          "player_id": "2020",
+          "espn_id": 17427,
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI",
+          "birth_date": "1991-11-12",
+          "college": "Tulane",
+          "height": "68",
+          "weight": "173",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 190
+        },
+        {
           "player_id": "2216",
           "espn_id": 16737,
           "name": "Mike Evans",
@@ -17304,21 +17334,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 60
         },
         {
-          "player_id": "3271",
-          "espn_id": 2573401,
-          "name": "Tyler Higbee",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "1993-01-01",
-          "college": "Western Kentucky",
-          "height": "78",
-          "weight": "253",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 652
-        },
-        {
           "player_id": "4199",
           "espn_id": 3042519,
           "name": "Aaron Jones Sr.",
@@ -17332,6 +17347,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 85
+        },
+        {
+          "player_id": "4663",
+          "espn_id": 3068267,
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
+          "birth_date": "1995-05-17",
+          "college": "Western Colorado",
+          "height": "70",
+          "weight": "200",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 632
         },
         {
           "player_id": "4983",
@@ -17364,21 +17394,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 23
         },
         {
-          "player_id": "7839",
-          "espn_id": null,
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
-          "birth_date": "1999-07-21",
-          "college": "Florida",
-          "height": "71",
-          "weight": "185",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 155
-        },
-        {
           "player_id": "8142",
           "espn_id": null,
           "name": "Alec Pierce",
@@ -17392,21 +17407,6 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 94
-        },
-        {
-          "player_id": "9228",
-          "espn_id": null,
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "birth_date": "2001-07-25",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "204",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 131
         },
         {
           "player_id": "9509",
@@ -17535,21 +17535,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 678
         },
         {
-          "player_id": "13270",
-          "espn_id": null,
-          "name": "CJ Daniels",
-          "position": "WR",
-          "team": "LAR",
-          "birth_date": "2002-01-04",
-          "college": "Miami (FL)",
-          "height": "74",
-          "weight": "205",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 550
-        },
-        {
           "player_id": "13286",
           "espn_id": null,
           "name": "Jadarian Price",
@@ -17608,6 +17593,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 62
+        },
+        {
+          "player_id": "4993",
+          "espn_id": 3116164,
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "birth_date": "1995-10-03",
+          "college": "Penn State",
+          "height": "78",
+          "weight": "245",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 398
         },
         {
           "player_id": "6801",
@@ -18690,6 +18690,274 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 10:38 AM PT",
+      "transaction_id": "1428850857411088384",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [
+        {
+          "name": "Carolina Panthers",
+          "position": "DEF",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 10:37 AM PT",
+      "transaction_id": "1428850726255206400",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [
+        {
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 10:36 AM PT",
+      "transaction_id": "1428850432972689408",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Paul_Yoon"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 9:36 AM PT",
+      "transaction_id": "1428835409315512320",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "Pkizzle3000"
+      ],
+      "added": [
+        {
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 8:37 AM PT",
+      "transaction_id": "1428820480441204736",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 6:25 AM PT",
+      "transaction_id": "1428787292897574912",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 6:23 AM PT",
+      "transaction_id": "1428786612518539264",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 5:56 AM PT",
+      "transaction_id": "1428779911597797376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 5:55 AM PT",
+      "transaction_id": "1428779758648295424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 5:30 AM PT",
+      "transaction_id": "1428773352503250944",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "CJ Daniels",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
@@ -24586,7 +24854,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Mevis",
           "position": "K",
-          "team": "BAL"
+          "team": null
         }
       ],
       "faab": 0,
