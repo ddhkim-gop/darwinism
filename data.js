@@ -15261,36 +15261,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
-          "player_id": "2747",
-          "espn_id": 2473037,
-          "name": "Jason Myers",
-          "position": "K",
-          "team": "SEA",
-          "birth_date": "1991-05-12",
-          "college": "Marist",
-          "height": "70",
-          "weight": "190",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 125
-        },
-        {
-          "player_id": "4033",
-          "espn_id": 3123076,
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC",
-          "birth_date": "1996-07-10",
-          "college": "Miami (FL)",
-          "height": "76",
-          "weight": "246",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 131
-        },
-        {
           "player_id": "4034",
           "espn_id": 3117251,
           "name": "Christian McCaffrey",
@@ -15364,21 +15334,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "BAL",
-          "espn_id": null,
-          "name": "Baltimore Ravens",
-          "position": "DEF",
-          "team": "BAL",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         },
         {
           "player_id": "CHI",
@@ -18112,8 +18067,8 @@ window.__STATIC_DATA__ = {
           "height": "68",
           "weight": "185",
           "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 105
         },
         {
@@ -18660,6 +18615,72 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 17, 2026 • 5:37 PM PT",
+      "transaction_id": "1428594049962508288",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Baltimore Ravens",
+          "position": "DEF",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 17, 2026 • 5:37 PM PT",
+      "transaction_id": "1428594029590757376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 17, 2026 • 5:37 PM PT",
+      "transaction_id": "1428594000205471744",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
