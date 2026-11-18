@@ -1,6 +1,6 @@
 {
   "team": "spiffster",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -143,6 +143,27 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/0ab1fd130dee43b0ac0c5bcc9ea407f7950/0ab1fd130dee43b0ac0c5bcc9ea407f7950.jpg",
       "published": "2026-11-15T19:17:51Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/0ab1fd13-0dee-43b0-ac0c-5bcc9ea407f7/0ab1fd13-0dee-43b0-ac0c-5bcc9ea407f7.mp4"
+    },
+    {
+      "url": "https://x.com/Titans/status/2122043052927701450",
+      "player": "Elic Ayomanor",
+      "meta": "WR \u00b7 TEN",
+      "date": "2026-11-15",
+      "author": "Titans",
+      "text": "Elic with a huge gain\n\n@NFLonFOX",
+      "verified": true,
+      "faves": 324,
+      "secs": 33,
+      "game_id": "401873057",
+      "game_time": "Q2 6:31",
+      "play_key": "401873057:4018730571489",
+      "played_at": "2026-11-15T19:02:46Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122042854054793217/img/GEbZGFQdR1m3LW0V.jpg",
+      "published": "2026-11-15T19:04:24Z",
+      "video": "https://video.twimg.com/amplify_video/2122042854054793217/vid/avc1/1920x1080/7KKOWSjg6MLghegr.mp4",
+      "author_name": "Tennessee Titans",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50491607/cj-stroud-throws-dart-nico-collins-texans-td",
