@@ -17565,6 +17565,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 89
         },
         {
+          "player_id": "13424",
+          "espn_id": null,
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
+          "birth_date": "2001-10-23",
+          "college": "Kentucky",
+          "height": "72",
+          "weight": "223",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 378
+        },
+        {
           "player_id": "1945",
           "espn_id": 17372,
           "name": "Chris Boswell",
@@ -17623,21 +17638,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 36
-        },
-        {
-          "player_id": "6865",
-          "espn_id": 4242557,
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "1999-01-08",
-          "college": "Stanford",
-          "height": "79",
-          "weight": "266",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 136
         },
         {
           "player_id": "8167",
@@ -18690,6 +18690,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 18, 2026 • 6:52 PM PT",
+      "transaction_id": "1428975336879554560",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 3,
+      "notes": "Your waiver claim was processed successfully!"
+    },
     {
       "season": "2026",
       "week": 11,
