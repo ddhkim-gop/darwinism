@@ -23,6 +23,15 @@
 export const PODCAST_EPISODES = {
     2026: [
         {
+            title: "Episode 11 — Records Both Ways",
+            date: "2026-11-19",
+            duration: "6:27",
+            slug: "2026-11-records-both-ways",
+            audio: "assets/podcasts/2026/ep11-records-both-ways.mp3",
+            art: "assets/podcasts/art/2026-11-records-both-ways.png?v=202611200055",
+            description: "Put It In Herbert's 168.52 is the highest score of the season, and EgBigBoo's 49.6 the lowest, from a perfect lineup. Both 8-1 teams lost: Puka Doncic to Put It In Herbert and eikichi to Salamander. Christian McCaffrey's 44.3 led the league as MickeyC's set a perfect lineup.",
+        },
+        {
             title: "Episode 10 — Nobody's Perfect",
             date: "2026-11-10",
             duration: "7:39",

@@ -45,6 +45,7 @@ EPISODES = [
     ("2026-08-nobody-at-kicker",         "08", "#38b2ac", "Javonte Williams", "waves bye"),
     ("2026-09-collision-course",         "09", "#f56565", "Tyler Allgeier", "breaks multiple tackles"),
     ("2026-10-nobodys-perfect",          "10", "#667eea", "Puka Nacua",    "leaping Puka Nacua"),
+    ("2026-11-records-both-ways",        "11", "#d69e2e", "Christian McCaffrey", "takes it to the house again"),
 ]
 
 
