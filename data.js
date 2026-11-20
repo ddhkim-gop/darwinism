@@ -15227,7 +15227,7 @@ window.__STATIC_DATA__ = {
           "weight": "203",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 62
         },
         {
@@ -16115,7 +16115,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 42
         },
         {
@@ -16130,7 +16130,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 679
         },
         {
@@ -16256,7 +16256,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 197
         },
         {
@@ -16346,7 +16346,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 125
         },
         {
@@ -17195,7 +17195,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 81
         },
         {
@@ -17257,6 +17257,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 12
+        },
+        {
+          "player_id": "12700",
+          "espn_id": null,
+          "name": "Gavin Bartholomew",
+          "position": "TE",
+          "team": "MIN",
+          "birth_date": "2003-04-30",
+          "college": "Pittsburgh",
+          "height": "77",
+          "weight": "249",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 667
         },
         {
           "player_id": "13305",
@@ -17347,21 +17362,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 85
-        },
-        {
-          "player_id": "4663",
-          "espn_id": 3068267,
-          "name": "Austin Ekeler",
-          "position": "RB",
-          "team": "WAS",
-          "birth_date": "1995-05-17",
-          "college": "Western Colorado",
-          "height": "70",
-          "weight": "200",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 632
         },
         {
           "player_id": "4983",
@@ -17471,7 +17471,7 @@ window.__STATIC_DATA__ = {
           "weight": "224",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 125
         },
         {
@@ -17516,7 +17516,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 44
         },
         {
@@ -17852,7 +17852,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -18068,7 +18068,7 @@ window.__STATIC_DATA__ = {
           "weight": "248",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 128
         },
         {
@@ -18128,7 +18128,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -18660,6 +18660,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 20, 2026 • 10:21 AM PT",
+      "transaction_id": "1429571401194434560",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Gavin Bartholomew",
+          "position": "TE",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
