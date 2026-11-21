@@ -15152,7 +15152,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 2,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": "Questionable",
           "search_rank": 688
         },
         {
@@ -17259,21 +17259,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
-          "player_id": "12700",
-          "espn_id": null,
-          "name": "Gavin Bartholomew",
-          "position": "TE",
-          "team": "MIN",
-          "birth_date": "2003-04-30",
-          "college": "Pittsburgh",
-          "height": "77",
-          "weight": "249",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 667
-        },
-        {
           "player_id": "13305",
           "espn_id": null,
           "name": "Mike Washington Jr.",
@@ -17377,6 +17362,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 49
+        },
+        {
+          "player_id": "4993",
+          "espn_id": 3116164,
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "birth_date": "1995-10-03",
+          "college": "Penn State",
+          "height": "78",
+          "weight": "245",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 397
         },
         {
           "player_id": "7569",
@@ -18660,6 +18660,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 21, 2026 • 7:27 AM PT",
+      "transaction_id": "1429889935552307200",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dawson Knox",
+          "position": "TE",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 21, 2026 • 7:27 AM PT",
+      "transaction_id": "1429889886273441792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Dawson Knox",
+          "position": "TE",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Gavin Bartholomew",
+          "position": "TE",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
