@@ -607,6 +607,7 @@ https://x.com/BleacherReport/status/2096227598846341556
 https://x.com/Browns/status/2122056830243201064
 https://x.com/Browns/status/2122057367529652534
 https://x.com/Browns/status/2122072963629375833
+https://x.com/Buccaneers/status/2124595800097341666
 https://x.com/BuffaloBills/status/2122057732488376770
 https://x.com/BuffaloBills/status/2122061373710422295
 https://x.com/BuffaloBills/status/2122070575602352469
@@ -628,6 +629,7 @@ https://x.com/Colts/status/2122035334435180572
 https://x.com/Colts/status/2122036952580968873
 https://x.com/Colts/status/2122045737873625332
 https://x.com/DreareaSports/status/2091624681573146837
+https://x.com/Eagles/status/2124572827709813189
 https://x.com/FFPhinest/status/2095346301269357032
 https://x.com/FantasyInjuryT/status/2099242235669708959
 https://x.com/FantasyPros/status/2095905904549867837
@@ -780,6 +782,14 @@ https://x.com/NFL/status/2124581486863294815
 https://x.com/NFL/status/2124581860928040995
 https://x.com/NFL/status/2124582293205549157
 https://x.com/NFL/status/2124590066333028823
+https://x.com/NFL/status/2124592521074585808
+https://x.com/NFL/status/2124594369009500349
+https://x.com/NFL/status/2124594545757446523
+https://x.com/NFL/status/2124594808132100176
+https://x.com/NFL/status/2124595376435179945
+https://x.com/NFL/status/2124595629313691762
+https://x.com/NFL/status/2124596314533159036
+https://x.com/NFL/status/2124596657786360081
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -906,6 +916,8 @@ https://x.com/Titans/status/2122034464331047152
 https://x.com/Titans/status/2122043052927701450
 https://x.com/Titans/status/2122043619775217772
 https://x.com/Titans/status/2124186079041634396
+https://x.com/Titans/status/2124590379664101868
+https://x.com/Titans/status/2124594794315796658
 https://x.com/TristanThomasTV/status/2095748772588314625
 https://x.com/UnderdogNFL/status/2094869543046795763
 https://x.com/UnderdogNFL/status/2095628236919021595
