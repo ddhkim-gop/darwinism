@@ -15141,21 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11630",
-          "espn_id": null,
-          "name": "Roman Wilson",
-          "position": "WR",
-          "team": "PIT",
-          "birth_date": "2001-06-19",
-          "college": "Michigan",
-          "height": "72",
-          "weight": "192",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 688
-        },
-        {
           "player_id": "11646",
           "espn_id": null,
           "name": "Jalen Coker",
@@ -15231,21 +15216,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
-          "player_id": "13302",
-          "espn_id": null,
-          "name": "Adam Randall",
-          "position": "RB",
-          "team": "BAL",
-          "birth_date": "2004-07-14",
-          "college": "Clemson",
-          "height": "75",
-          "weight": "240",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 412
-        },
-        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -15273,7 +15243,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 161
+          "search_rank": 162
         },
         {
           "player_id": "4034",
@@ -15720,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 133
+          "search_rank": 132
         },
         {
           "player_id": "12487",
@@ -15780,7 +15750,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 38
+          "search_rank": 39
         },
         {
           "player_id": "5022",
@@ -15951,7 +15921,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "11624",
@@ -16101,7 +16071,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 28
+          "search_rank": 27
         },
         {
           "player_id": "7526",
@@ -16287,7 +16257,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 40
+          "search_rank": 39
         },
         {
           "player_id": "5012",
@@ -16608,7 +16578,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 34
+          "search_rank": 35
         },
         {
           "player_id": "6819",
@@ -16794,7 +16764,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 201
+          "search_rank": 199
         },
         {
           "player_id": "13287",
@@ -17010,7 +16980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 104
         },
         {
           "player_id": "4217",
@@ -17472,7 +17442,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11560",
@@ -17592,7 +17562,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 376
+          "search_rank": 375
         },
         {
           "player_id": "1945",
@@ -17622,7 +17592,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 61
+          "search_rank": 62
         },
         {
           "player_id": "6801",
@@ -17680,7 +17650,7 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "216",
           "years_exp": 3,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 4
         },
@@ -17733,7 +17703,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 12
+          "search_rank": 11
         },
         {
           "player_id": "11610",
@@ -17928,7 +17898,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 64
         },
         {
           "player_id": "9758",
@@ -18175,6 +18145,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 187
+        },
+        {
+          "player_id": "CIN",
+          "espn_id": null,
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         },
         {
           "player_id": "SEA",
@@ -18660,6 +18645,72 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 21, 2026 • 9:00 PM PT",
+      "transaction_id": "1430094681089257472",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 21, 2026 • 4:49 PM PT",
+      "transaction_id": "1430031479471112192",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Adam Randall",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 21, 2026 • 4:49 PM PT",
+      "transaction_id": "1430031455882326016",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
