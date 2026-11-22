@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/ChicagoBears/status/2124576315680362570",
+      "player": "D'Andre Swift",
+      "meta": "RB \u00b7 CHI",
+      "date": "2026-11-22",
+      "author": "ChicagoBears",
+      "text": "A shovel pass for 6 \ud83e\ude8f\n\n\ud83d\udcfa: FOX",
+      "verified": true,
+      "faves": 1077,
+      "secs": 25,
+      "game_id": "401873071",
+      "game_time": "Q2 11:34",
+      "play_key": "401873071:4018730711226",
+      "played_at": "2026-11-22T18:48:54Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124576040764731392/img/LWcIOMkNc3hvCARg.jpg",
+      "published": "2026-11-22T18:50:41Z",
+      "video": "https://video.twimg.com/amplify_video/2124576040764731392/vid/avc1/1920x1080/eQsSTHtIJ5n7W2SA.mp4",
+      "author_name": "Chicago Bears",
+      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Ravens/status/2122536025750749381",
       "player": "Zay Flowers",
       "meta": "WR \u00b7 BAL",
