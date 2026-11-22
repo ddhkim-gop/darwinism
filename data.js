@@ -15261,6 +15261,36 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
+          "player_id": "5849",
+          "espn_id": 3917315,
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
+          "birth_date": "1997-08-07",
+          "college": "Oklahoma",
+          "height": "70",
+          "weight": "207",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": "Out",
+          "search_rank": 88
+        },
+        {
+          "player_id": "6650",
+          "espn_id": 3150744,
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
+          "birth_date": "1996-04-09",
+          "college": "Illinois",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
+        },
+        {
           "player_id": "6786",
           "espn_id": 4241389,
           "name": "CeeDee Lamb",
@@ -15321,6 +15351,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 5
         },
         {
+          "player_id": "8154",
+          "espn_id": null,
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "team": "ATL",
+          "birth_date": "1999-03-22",
+          "college": "Alabama",
+          "height": "73",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 80
+        },
+        {
           "player_id": "8210",
           "espn_id": null,
           "name": "Chig Okonkwo",
@@ -15334,21 +15379,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 137
-        },
-        {
-          "player_id": "CHI",
-          "espn_id": null,
-          "name": "Chicago Bears",
-          "position": "DEF",
-          "team": "CHI",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         },
         {
           "player_id": "DEN",
@@ -15674,7 +15704,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 35
         },
         {
@@ -15734,7 +15764,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61
         },
         {
@@ -16442,7 +16472,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 19
         },
         {
@@ -16472,7 +16502,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 527
         },
         {
@@ -16521,6 +16551,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 156
         },
         {
+          "player_id": "13330",
+          "espn_id": null,
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ",
+          "birth_date": "2005-03-04",
+          "college": "Oregon",
+          "height": "75",
+          "weight": "241",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 109
+        },
+        {
           "player_id": "13345",
           "espn_id": null,
           "name": "Jonah Coleman",
@@ -16547,7 +16592,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -16579,21 +16624,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 35
-        },
-        {
-          "player_id": "6819",
-          "espn_id": 4035687,
-          "name": "Michael Pittman Jr.",
-          "position": "WR",
-          "team": "PIT",
-          "birth_date": "1997-10-05",
-          "college": "USC",
-          "height": "76",
-          "weight": "223",
-          "years_exp": 6,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 106
         },
         {
           "player_id": "7547",
@@ -16662,21 +16692,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 7,
       "players": [
         {
-          "player_id": "10232",
-          "espn_id": null,
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "birth_date": "2000-02-23",
-          "college": "Stanford",
-          "height": "74",
-          "weight": "213",
-          "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 75
-        },
-        {
           "player_id": "10859",
           "espn_id": null,
           "name": "Sam LaPorta",
@@ -16705,21 +16720,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 261
-        },
-        {
-          "player_id": "12469",
-          "espn_id": null,
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2004-09-14",
-          "college": "Tennessee",
-          "height": "68",
-          "weight": "200",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 129
         },
         {
           "player_id": "12501",
@@ -16797,6 +16797,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 147
         },
         {
+          "player_id": "4147",
+          "espn_id": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "birth_date": "1995-09-16",
+          "college": "Oklahoma",
+          "height": "71",
+          "weight": "240",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 459
+        },
+        {
           "player_id": "5045",
           "espn_id": 3128429,
           "name": "Courtland Sutton",
@@ -16838,7 +16853,7 @@ window.__STATIC_DATA__ = {
           "weight": "232",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 239
         },
         {
@@ -16915,6 +16930,21 @@ window.__STATIC_DATA__ = {
           "status": null,
           "injury_status": null,
           "search_rank": null
+        },
+        {
+          "player_id": "LAC",
+          "espn_id": null,
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         }
       ]
     },
@@ -16951,21 +16981,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 209
-        },
-        {
-          "player_id": "12540",
-          "espn_id": null,
-          "name": "Chimere Dike",
-          "position": "WR",
-          "team": "TEN",
-          "birth_date": "2001-12-14",
-          "college": "Florida",
-          "height": "73",
-          "weight": "196",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 175
         },
         {
           "player_id": "2449",
@@ -17088,6 +17103,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
+          "player_id": "7049",
+          "espn_id": 3886598,
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN",
+          "birth_date": "1997-07-10",
+          "college": "Tennessee",
+          "height": "75",
+          "weight": "212",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 123
+        },
+        {
           "player_id": "7543",
           "espn_id": null,
           "name": "Travis Etienne Jr.",
@@ -17103,19 +17133,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 34
         },
         {
-          "player_id": "8132",
+          "player_id": "7567",
           "espn_id": null,
-          "name": "Tyler Allgeier",
+          "name": "Kenny Gainwell",
           "position": "RB",
-          "team": "ARI",
-          "birth_date": "2000-04-15",
-          "college": "BYU",
-          "height": "70",
-          "weight": "225",
-          "years_exp": 4,
+          "team": "TB",
+          "birth_date": "1999-03-14",
+          "college": "Memphis",
+          "height": "69",
+          "weight": "200",
+          "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 86
         },
         {
           "player_id": "9997",
@@ -17165,7 +17195,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 81
         },
         {
@@ -17330,7 +17360,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 49
         },
         {
@@ -17777,7 +17807,7 @@ window.__STATIC_DATA__ = {
           "weight": "238",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 356
         },
         {
@@ -18645,6 +18675,290 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 11:53 AM PT",
+      "transaction_id": "1430319298076766208",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "andyxia124"
+      ],
+      "added": [
+        {
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 11:27 AM PT",
+      "transaction_id": "1430312851318276096",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 10:27 AM PT",
+      "transaction_id": "1430297724065947648",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 10:27 AM PT",
+      "transaction_id": "1430297641392021504",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 10:26 AM PT",
+      "transaction_id": "1430297348776431616",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 9:01 AM PT",
+      "transaction_id": "1430276135001792512",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 9:00 AM PT",
+      "transaction_id": "1430275725943906304",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "team": "ATL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 8:59 AM PT",
+      "transaction_id": "1430275557605507072",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 8:59 AM PT",
+      "transaction_id": "1430275520901165056",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 8:59 AM PT",
+      "transaction_id": "1430275415087288320",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 7:50 AM PT",
+      "transaction_id": "1430258223495020544",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
