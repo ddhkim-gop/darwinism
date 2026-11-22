@@ -15151,7 +15151,7 @@ window.__STATIC_DATA__ = {
           "height": "72",
           "weight": "192",
           "years_exp": 2,
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 688
         },
@@ -15593,7 +15593,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 13
         },
         {
@@ -16130,7 +16130,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 679
         },
         {
@@ -19999,7 +19999,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Pierre Strong Jr.",
           "position": "RB",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -20286,7 +20286,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Pierre Strong Jr.",
           "position": "RB",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
@@ -23116,7 +23116,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Pierre Strong Jr.",
           "position": "RB",
-          "team": null
+          "team": "GB"
         }
       ],
       "faab": 0,
@@ -23539,7 +23539,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Pierre Strong Jr.",
           "position": "RB",
-          "team": null
+          "team": "GB"
         }
       ],
       "dropped": [
