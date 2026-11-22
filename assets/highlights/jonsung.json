@@ -4,25 +4,23 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/ChicagoBears/status/2124576315680362570",
+      "url": "https://www.espn.com/video/clip/_/id/50563620/caleb-williams-underhands-pass-dandre-swift-bears-td",
       "player": "D'Andre Swift",
       "meta": "RB \u00b7 CHI",
       "date": "2026-11-22",
-      "author": "ChicagoBears",
-      "text": "A shovel pass for 6 \ud83e\ude8f\n\n\ud83d\udcfa: FOX",
+      "author": "ESPN",
+      "text": "Live on FOX: Caleb Williams underhands pass to D'Andre Swift for a Bears TD. Live on FOX: Caleb Williams underhands pass to D'Andre Swift for a Bears TD  ",
       "verified": true,
-      "faves": 1077,
-      "secs": 25,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873071",
       "game_id": "401873071",
       "game_time": "Q2 11:34",
       "play_key": "401873071:4018730711226",
       "played_at": "2026-11-22T18:48:54Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124576040764731392/img/LWcIOMkNc3hvCARg.jpg",
-      "published": "2026-11-22T18:50:41Z",
-      "video": "https://video.twimg.com/amplify_video/2124576040764731392/vid/avc1/1920x1080/eQsSTHtIJ5n7W2SA.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/01445ef7-21b5-4b0d-b2e1-acade1cc5d45/01445ef7-21b5-4b0d-b2e1-acade1cc5d45.jpg",
+      "published": "2026-11-22T19:00:13Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/01445ef7-21b5-4b0d-b2e1-acade1cc5d45/01445ef7-21b5-4b0d-b2e1-acade1cc5d45.mp4"
     },
     {
       "url": "https://x.com/Ravens/status/2122536025750749381",
@@ -147,6 +145,21 @@
       "author_name": "New Orleans Saints",
       "avatar": "https://pbs.twimg.com/profile_images/2056742674477035520/4azt0iTz_normal.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50564445/dk-metcalf-ejected-altercations-eagles",
+      "player": "DK Metcalf",
+      "meta": "WR \u00b7 PIT",
+      "date": "2026-11-22",
+      "author": "ESPN",
+      "text": "Live on CBS: DK Metcalf ejected after altercations with Eagles",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873076",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/ad48625335584e4aa01dfffeda38b12f931/ad48625335584e4aa01dfffeda38b12f931.jpg",
+      "published": "2026-11-22T20:28:25Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/ad486253-3558-4e4a-a01d-fffeda38b12f/ad486253-3558-4e4a-a01d-fffeda38b12f.mp4"
     }
   ]
 }
