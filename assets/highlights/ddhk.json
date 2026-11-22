@@ -124,6 +124,27 @@
       "author_verified": true
     },
     {
+      "url": "https://x.com/AtlantaFalcons/status/2122066831204655280",
+      "player": "Brian Robinson Jr.",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-11-15",
+      "author": "AtlantaFalcons",
+      "text": "Touchdown, Bijan Robinson!\n\nCBS | NFL+",
+      "verified": true,
+      "faves": 167,
+      "secs": 11,
+      "game_id": "401873058",
+      "game_time": "Q4 8:12",
+      "play_key": "401873058:4018730583623",
+      "played_at": "2026-11-15T20:36:21Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122066815727607808/img/tjRh5s5RVPHKCog8.jpg",
+      "published": "2026-11-15T20:38:53Z",
+      "video": "https://video.twimg.com/amplify_video/2122066815727607808/vid/avc1/576x720/9mepgPvI2TlcbsGh.mp4?tag=16",
+      "author_name": "Atlanta Falcons",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Chiefs/status/2122064183625740513",
       "player": "Emmett Johnson",
       "meta": "RB \u00b7 KC",
@@ -223,7 +244,7 @@
       "published": "2026-11-15T18:30:16Z",
       "video": "https://video.twimg.com/amplify_video/2122034254716481536/vid/avc1/1920x1080/BmCeDb_to2UpDHWS.mp4",
       "author_name": "Tennessee Titans",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2123076662069792768/JIoLPoQh_normal.png",
       "author_verified": true
     },
     {

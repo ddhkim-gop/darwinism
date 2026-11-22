@@ -432,7 +432,6 @@ https://www.youtube.com/shorts/6mEMJ6lUAUc
 https://www.youtube.com/shorts/6uoe_12OFX4
 https://www.youtube.com/shorts/8HxN-qobDrs
 https://www.youtube.com/shorts/8_Z0eM4txEc
-https://www.youtube.com/shorts/8h5nj4uqzfI
 https://www.youtube.com/shorts/8y12eHI0brg
 https://www.youtube.com/shorts/9Mgkk24wgaM
 https://www.youtube.com/shorts/A87w47d0ZL0
@@ -488,6 +487,9 @@ https://www.youtube.com/shorts/R1YpdQj2Cfc
 https://www.youtube.com/shorts/RTcYqGzorCY
 https://www.youtube.com/shorts/RWWz3K6MydA
 https://www.youtube.com/shorts/RfW1LX2XwNs
+https://www.youtube.com/shorts/SbDh6fFiDzI
+https://www.youtube.com/shorts/Tmqa9MgjqHg
+https://www.youtube.com/shorts/Tur1lJFTZq8
 https://www.youtube.com/shorts/UOhtQhyAYyU
 https://www.youtube.com/shorts/UTWN858YWfw
 https://www.youtube.com/shorts/UdzJgyKFnPI
@@ -501,6 +503,7 @@ https://www.youtube.com/shorts/Y7sFLyQXYxE
 https://www.youtube.com/shorts/Z4Bjom52iq0
 https://www.youtube.com/shorts/ZBLP405u1Ek
 https://www.youtube.com/shorts/Zi1pzlCYsEc
+https://www.youtube.com/shorts/Zn6xoZ13nUc
 https://www.youtube.com/shorts/_GvS_gIwuew
 https://www.youtube.com/shorts/_N5mxg3-Mrw
 https://www.youtube.com/shorts/_RM6F-sks_0
@@ -527,6 +530,7 @@ https://www.youtube.com/shorts/fWV7VOTJXyQ
 https://www.youtube.com/shorts/fWgfJ3FUUQI
 https://www.youtube.com/shorts/gIdO_jNyg8s
 https://www.youtube.com/shorts/gRvVB3rMXvU
+https://www.youtube.com/shorts/gdYv3u03MFw
 https://www.youtube.com/shorts/gi-mdzbi9e8
 https://www.youtube.com/shorts/gl-0jML4SPo
 https://www.youtube.com/shorts/gwKbE4P33TY
@@ -558,7 +562,6 @@ https://www.youtube.com/shorts/qd2tOmM48K8
 https://www.youtube.com/shorts/qk5NaIMsxO4
 https://www.youtube.com/shorts/rZK2zYip9GY
 https://www.youtube.com/shorts/rpuLeGhwf34
-https://www.youtube.com/shorts/sEyQOcwkWXU
 https://www.youtube.com/shorts/sFaVxKy9yqI
 https://www.youtube.com/shorts/shvnIgpAUno
 https://www.youtube.com/shorts/t2aDDQJjozo
@@ -731,6 +734,7 @@ https://x.com/NFL/status/2122154821419667929
 https://x.com/NFL/status/2122169336857317877
 https://x.com/NFL/status/2122174292997935134
 https://x.com/NFL/status/2122175102955778155
+https://x.com/NFL/status/2122177346577068074
 https://x.com/NFL/status/2122411146196246753
 https://x.com/NFL/status/2122481330680402329
 https://x.com/NFL/status/2122500398414225731
@@ -747,6 +751,10 @@ https://x.com/NFL/status/2123576179512992165
 https://x.com/NFL/status/2123595089394229303
 https://x.com/NFL/status/2123599940811387062
 https://x.com/NFL/status/2123618818589429900
+https://x.com/NFL/status/2124555057765253447
+https://x.com/NFL/status/2124557402335002764
+https://x.com/NFL/status/2124566327348105661
+https://x.com/NFL/status/2124567717592129914
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -849,6 +857,7 @@ https://x.com/RapSheet/status/2096260488178880883
 https://x.com/Ravens/status/2122511512967258439
 https://x.com/Ravens/status/2122536025750749381
 https://x.com/Ravens/status/2122537772590260454
+https://x.com/Ravens/status/2124567751888982170
 https://x.com/RotoBaller/status/2095960020219310539
 https://x.com/RotoBaller/status/2096015618826801341
 https://x.com/RotoBaller/status/2096015904819613939
@@ -871,6 +880,7 @@ https://x.com/TexansCommenter/status/2095971068963889327
 https://x.com/Titans/status/2122034464331047152
 https://x.com/Titans/status/2122043052927701450
 https://x.com/Titans/status/2122043619775217772
+https://x.com/Titans/status/2124186079041634396
 https://x.com/TristanThomasTV/status/2095748772588314625
 https://x.com/UnderdogNFL/status/2094869543046795763
 https://x.com/UnderdogNFL/status/2095628236919021595
@@ -898,6 +908,7 @@ https://x.com/newheightshow/status/2095920685457494043
 https://x.com/packers/status/2122057861949788625
 https://x.com/rannyxkmj/status/2097884866348216770
 https://x.com/steelers/status/2122175082709549449
+https://x.com/steelers/status/2124560194608738790
 https://x.com/talktoemhavin/status/2092756082384941418
 https://x.com/thescorechicago/status/2095861735408214076
 https://x.com/thomasrp93/status/2098032737227505686

@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/Tmqa9MgjqHg",
+      "player": "Samaje Perine",
+      "meta": "RB \u00b7 CIN",
+      "date": "2026-11-16",
+      "author": "Bengals",
+      "text": "Samaje for six. #PITvsCIN on NBC",
+      "verified": true,
+      "faves": 142,
+      "secs": 10,
+      "game_id": "401873064",
+      "game_time": "Q4 10:08",
+      "play_key": "401873064:4018730643515",
+      "played_at": "2026-11-16T03:55:51Z",
+      "poster": "https://i.ytimg.com/vi/Tmqa9MgjqHg/hqdefault.jpg",
+      "published": "2026-11-16T04:03:55Z",
+      "youtube": "Tmqa9MgjqHg",
+      "author_name": "Cincinnati Bengals",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.youtube.com/shorts/BZ2zbA4kEPY",
       "player": "Kirk Cousins",
       "meta": "QB \u00b7 MIN",
