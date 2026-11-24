@@ -15156,21 +15156,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 132
         },
         {
-          "player_id": "12492",
-          "espn_id": null,
-          "name": "Pat Bryant",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "2002-12-10",
-          "college": "Illinois",
-          "height": "74",
-          "weight": "204",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 172
-        },
-        {
           "player_id": "12495",
           "espn_id": null,
           "name": "Ollie Gordon II",
@@ -15291,21 +15276,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 20
         },
         {
-          "player_id": "6650",
-          "espn_id": 3150744,
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "birth_date": "1996-04-09",
-          "college": "Illinois",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 199
-        },
-        {
           "player_id": "6786",
           "espn_id": 4241389,
           "name": "CeeDee Lamb",
@@ -15394,21 +15364,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 5
-        },
-        {
-          "player_id": "8154",
-          "espn_id": null,
-          "name": "Brian Robinson Jr.",
-          "position": "RB",
-          "team": "ATL",
-          "birth_date": "1999-03-22",
-          "college": "Alabama",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 80
         },
         {
           "player_id": "8210",
@@ -15549,7 +15504,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 12
+          "search_rank": 11
         },
         {
           "player_id": "7021",
@@ -15966,7 +15921,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 44
+          "search_rank": 46
         },
         {
           "player_id": "11583",
@@ -17055,7 +17010,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 44
+          "search_rank": 46
         },
         {
           "player_id": "6813",
@@ -17414,21 +17369,6 @@ window.__STATIC_DATA__ = {
       "owner": "edj11102024",
       "roster_id": 10,
       "players": [
-        {
-          "player_id": "10218",
-          "espn_id": null,
-          "name": "Xavier Hutchinson",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2000-06-01",
-          "college": "Iowa State",
-          "height": "75",
-          "weight": "210",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 679
-        },
         {
           "player_id": "10219",
           "espn_id": null,
@@ -18675,6 +18615,94 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 24, 2026 • 8:22 AM PT",
+      "transaction_id": "1430991121613344768",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 24, 2026 • 5:46 AM PT",
+      "transaction_id": "1430951624855027712",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 24, 2026 • 5:45 AM PT",
+      "transaction_id": "1430951543758131200",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 24, 2026 • 5:45 AM PT",
+      "transaction_id": "1430951518659436544",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "team": "ATL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
@@ -21413,7 +21441,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -22099,7 +22127,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [
