@@ -15171,6 +15171,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 172
         },
         {
+          "player_id": "12495",
+          "espn_id": null,
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "team": "MIA",
+          "birth_date": "2004-01-15",
+          "college": "Oklahoma State",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 388
+        },
+        {
           "player_id": "12519",
           "espn_id": null,
           "name": "Luther Burden III",
@@ -15184,21 +15199,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 40
-        },
-        {
-          "player_id": "12522",
-          "espn_id": null,
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
-          "birth_date": "2002-05-25",
-          "college": "Miami (FL)",
-          "height": "74",
-          "weight": "219",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 116
         },
         {
           "player_id": "13281",
@@ -15276,6 +15276,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 89
         },
         {
+          "player_id": "5850",
+          "espn_id": 4047365,
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "1998-02-11",
+          "college": "Alabama",
+          "height": "70",
+          "weight": "223",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": "Out",
+          "search_rank": 20
+        },
+        {
           "player_id": "6650",
           "espn_id": 3150744,
           "name": "Chase McLaughlin",
@@ -15306,6 +15321,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
+          "player_id": "6804",
+          "espn_id": 4036378,
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
+          "birth_date": "1998-11-02",
+          "college": "Utah State",
+          "height": "76",
+          "weight": "219",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 66
+        },
+        {
           "player_id": "7553",
           "espn_id": null,
           "name": "Kyle Pitts Sr.",
@@ -15334,6 +15364,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 58
+        },
+        {
+          "player_id": "8112",
+          "espn_id": null,
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "birth_date": "2001-07-24",
+          "college": "USC",
+          "height": "76",
+          "weight": "215",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 19
         },
         {
           "player_id": "8138",
@@ -15444,7 +15489,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 48
         },
         {
           "player_id": "13298",
@@ -15690,7 +15735,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 26
+          "search_rank": 28
         },
         {
           "player_id": "11635",
@@ -15794,7 +15839,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 94
         },
         {
@@ -15855,7 +15900,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 7
+          "search_rank": 5
         },
         {
           "player_id": "9500",
@@ -15999,21 +16044,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
-          "player_id": "12495",
-          "espn_id": null,
-          "name": "Ollie Gordon II",
-          "position": "RB",
-          "team": "MIA",
-          "birth_date": "2004-01-15",
-          "college": "Oklahoma State",
-          "height": "74",
-          "weight": "225",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 388
-        },
-        {
           "player_id": "12514",
           "espn_id": null,
           "name": "Emeka Egbuka",
@@ -16044,6 +16074,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 36
         },
         {
+          "player_id": "12522",
+          "espn_id": null,
+          "name": "Cam Ward",
+          "position": "QB",
+          "team": "TEN",
+          "birth_date": "2002-05-25",
+          "college": "Miami (FL)",
+          "height": "74",
+          "weight": "219",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 116
+        },
+        {
           "player_id": "12534",
           "espn_id": null,
           "name": "Kyle Monangai",
@@ -16072,21 +16117,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 10
-        },
-        {
-          "player_id": "6804",
-          "espn_id": 4036378,
-          "name": "Jordan Love",
-          "position": "QB",
-          "team": "GB",
-          "birth_date": "1998-11-02",
-          "college": "Utah State",
-          "height": "76",
-          "weight": "219",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 66
         },
         {
           "player_id": "6904",
@@ -16346,7 +16376,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 125
         },
         {
@@ -16703,7 +16733,7 @@ window.__STATIC_DATA__ = {
           "weight": "245",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 58
         },
         {
@@ -16720,21 +16750,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 260
-        },
-        {
-          "player_id": "12501",
-          "espn_id": null,
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "birth_date": "2003-08-01",
-          "college": "Texas",
-          "height": "71",
-          "weight": "191",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 118
         },
         {
           "player_id": "12529",
@@ -16827,21 +16842,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 72
         },
         {
-          "player_id": "5850",
-          "espn_id": 4047365,
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "birth_date": "1998-02-11",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "223",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 20
-        },
-        {
           "player_id": "6083",
           "espn_id": 4249087,
           "name": "Matt Gay",
@@ -16855,36 +16855,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 239
-        },
-        {
-          "player_id": "8112",
-          "espn_id": null,
-          "name": "Drake London",
-          "position": "WR",
-          "team": "ATL",
-          "birth_date": "2001-07-24",
-          "college": "USC",
-          "height": "76",
-          "weight": "215",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 19
-        },
-        {
-          "player_id": "8131",
-          "espn_id": null,
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "team": "NYG",
-          "birth_date": "2000-04-18",
-          "college": "Coastal Carolina",
-          "height": "76",
-          "weight": "241",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 105
         },
         {
           "player_id": "8155",
@@ -16902,19 +16872,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "9487",
+          "player_id": "9493",
           "espn_id": null,
-          "name": "Parker Washington",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "JAX",
-          "birth_date": "2002-03-21",
-          "college": "Penn State",
-          "height": "70",
-          "weight": "204",
+          "team": "LAR",
+          "birth_date": "2001-05-29",
+          "college": "BYU",
+          "height": "74",
+          "weight": "216",
           "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 68
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 4
         },
         {
           "player_id": "CLE",
@@ -17520,6 +17490,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 44
         },
         {
+          "player_id": "12501",
+          "espn_id": null,
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "birth_date": "2003-08-01",
+          "college": "Texas",
+          "height": "71",
+          "weight": "191",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 118
+        },
+        {
           "player_id": "12711",
           "espn_id": null,
           "name": "Tyler Loop",
@@ -17640,6 +17625,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 36
         },
         {
+          "player_id": "8131",
+          "espn_id": null,
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
+          "birth_date": "2000-04-18",
+          "college": "Coastal Carolina",
+          "height": "76",
+          "weight": "241",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 105
+        },
+        {
           "player_id": "8167",
           "espn_id": null,
           "name": "Christian Watson",
@@ -17668,21 +17668,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 104
-        },
-        {
-          "player_id": "9493",
-          "espn_id": null,
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "birth_date": "2001-05-29",
-          "college": "BYU",
-          "height": "74",
-          "weight": "216",
-          "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 4
         },
         {
           "player_id": "KC",
@@ -18160,6 +18145,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 417
+        },
+        {
+          "player_id": "9487",
+          "espn_id": null,
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "birth_date": "2002-03-21",
+          "college": "Penn State",
+          "height": "70",
+          "weight": "204",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 68
         },
         {
           "player_id": "9502",
@@ -18675,6 +18675,177 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 23, 2026 • 8:10 PM PT",
+      "transaction_id": "1430806767465426944",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "ddhk",
+        "sathwikn"
+      ],
+      "assets_received": {
+        "ddhk": [
+          {
+            "name": "Josh Jacobs",
+            "position": "RB",
+            "team": "GB"
+          },
+          {
+            "name": "Drake London",
+            "position": "WR",
+            "team": "ATL"
+          },
+          {
+            "name": "2027 Round 10",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "sathwikn"
+          }
+        ],
+        "sathwikn": [
+          {
+            "name": "2027 Round 4",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "Pkizzle3000"
+          }
+        ]
+      }
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 23, 2026 • 7:35 PM PT",
+      "transaction_id": "1430797970168619008",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "ddhk",
+        "Pkizzle3000"
+      ],
+      "assets_received": {
+        "ddhk": [
+          {
+            "name": "Ollie Gordon II",
+            "position": "RB",
+            "team": "MIA"
+          },
+          {
+            "name": "Jordan Love",
+            "position": "QB",
+            "team": "GB"
+          },
+          {
+            "name": "2027 Round 12",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "Pkizzle3000"
+          },
+          {
+            "name": "2027 Round 4",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "Pkizzle3000"
+          }
+        ],
+        "Pkizzle3000": [
+          {
+            "name": "Cam Ward",
+            "position": "QB",
+            "team": "TEN"
+          },
+          {
+            "name": "2027 Round 4",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "ddhk"
+          },
+          {
+            "name": "2027 Round 6",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "ddhk"
+          }
+        ]
+      }
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 23, 2026 • 3:49 PM PT",
+      "transaction_id": "1430741048266608640",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "sathwikn",
+        "edj11102024"
+      ],
+      "assets_received": {
+        "edj11102024": [
+          {
+            "name": "Matthew Golden",
+            "position": "WR",
+            "team": "GB"
+          },
+          {
+            "name": "Isaiah Likely",
+            "position": "TE",
+            "team": "NYG"
+          },
+          {
+            "name": "2027 Round 9",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "sathwikn"
+          }
+        ],
+        "sathwikn": [
+          {
+            "name": "Puka Nacua",
+            "position": "WR",
+            "team": "LAR"
+          },
+          {
+            "name": "2027 Round 5",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "edj11102024"
+          }
+        ]
+      }
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 23, 2026 • 3:46 PM PT",
+      "transaction_id": "1430740466172694528",
+      "type": "trade",
+      "status": "complete",
+      "teams": [
+        "sathwikn",
+        "eikichii952"
+      ],
+      "assets_received": {
+        "eikichii952": [
+          {
+            "name": "Parker Washington",
+            "position": "WR",
+            "team": "JAX"
+          }
+        ],
+        "sathwikn": [
+          {
+            "name": "2027 Round 4",
+            "position": "PICK",
+            "team": null,
+            "original_owner": "eikichii952"
+          }
+        ]
+      }
+    },
     {
       "season": "2026",
       "week": 11,
@@ -167770,100 +167941,100 @@ window.__STATIC_DATA__ = {
     ],
     "2026": [
       {
-        "name": "edj11102024",
-        "wins": 8,
-        "losses": 2,
-        "ties": 0,
-        "pf": 1270.04,
-        "pa": 1092.48
-      },
-      {
         "name": "eikichii952",
-        "wins": 8,
+        "wins": 9,
         "losses": 2,
         "ties": 0,
-        "pf": 1160.9,
-        "pa": 1101.56
+        "pf": 1259.9,
+        "pa": 1181.22
       },
       {
         "name": "Paul_Yoon",
-        "wins": 7,
+        "wins": 8,
         "losses": 3,
         "ties": 0,
-        "pf": 1264.62,
-        "pa": 1046.1
+        "pf": 1416.42,
+        "pa": 1142.54
+      },
+      {
+        "name": "edj11102024",
+        "wins": 8,
+        "losses": 3,
+        "ties": 0,
+        "pf": 1349.48,
+        "pa": 1247.52
       },
       {
         "name": "ddhk",
-        "wins": 6,
+        "wins": 7,
         "losses": 4,
         "ties": 0,
-        "pf": 1185.82,
-        "pa": 1130.28
+        "pf": 1316.04,
+        "pa": 1229.34
       },
       {
         "name": "andyxia124",
-        "wins": 6,
+        "wins": 7,
         "losses": 4,
         "ties": 0,
-        "pf": 1106.22,
-        "pa": 1143.12
+        "pf": 1261.26,
+        "pa": 1222.56
       },
       {
         "name": "IconicJH",
-        "wins": 5,
+        "wins": 6,
         "losses": 5,
         "ties": 0,
-        "pf": 1188.52,
-        "pa": 1118.56
+        "pf": 1304.38,
+        "pa": 1226.9
       },
       {
         "name": "sallyyoon84",
         "wins": 5,
-        "losses": 5,
+        "losses": 6,
         "ties": 0,
-        "pf": 1177.9,
-        "pa": 1090.78
+        "pf": 1274.34,
+        "pa": 1242.58
       },
       {
         "name": "danseung",
         "wins": 5,
-        "losses": 5,
+        "losses": 6,
         "ties": 0,
-        "pf": 1071.4,
-        "pa": 1093.44
+        "pf": 1151.06,
+        "pa": 1192.44
       },
       {
         "name": "jonsung",
         "wins": 4,
-        "losses": 6,
+        "losses": 7,
         "ties": 0,
-        "pf": 1139.28,
-        "pa": 1219.74
+        "pf": 1238.34,
+        "pa": 1349.96
       },
       {
         "name": "spiffster",
         "wins": 3,
-        "losses": 7,
+        "losses": 8,
         "ties": 0,
-        "pf": 1075.36,
-        "pa": 1093.98
+        "pf": 1183.7,
+        "pa": 1209.84
+      },
+      {
+        "name": "sathwikn",
+        "wins": 2,
+        "losses": 9,
+        "ties": 0,
+        "pf": 1086.3,
+        "pa": 1291.62
       },
       {
         "name": "Pkizzle3000",
         "wins": 2,
-        "losses": 8,
-        "ties": 0,
-        "pf": 893.02,
-        "pa": 1192.42
-      },
-      {
-        "name": "sathwikn",
-        "wins": 1,
         "losses": 9,
         "ties": 0,
-        "pf": 1014.2,
-        "pa": 1224.82
+        "pf": 959.82,
+        "pa": 1264.52
       }
     ]
   },
@@ -176259,6 +176430,26 @@ window.__STATIC_DATA__ = {
       "previous_owner_name": "ddhk"
     },
     {
+      "season": "2027",
+      "round": 4,
+      "roster_id": "1",
+      "owner_id": "4",
+      "previous_owner_id": "1",
+      "owner_name": "Pkizzle3000",
+      "original_owner_name": "ddhk",
+      "previous_owner_name": "ddhk"
+    },
+    {
+      "season": "2027",
+      "round": 6,
+      "roster_id": "1",
+      "owner_id": "4",
+      "previous_owner_id": "1",
+      "owner_name": "Pkizzle3000",
+      "original_owner_name": "ddhk",
+      "previous_owner_name": "ddhk"
+    },
+    {
       "season": "2026",
       "round": 9,
       "roster_id": "4",
@@ -176271,6 +176462,26 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "round": 10,
+      "roster_id": "4",
+      "owner_id": "1",
+      "previous_owner_id": "4",
+      "owner_name": "ddhk",
+      "original_owner_name": "Pkizzle3000",
+      "previous_owner_name": "Pkizzle3000"
+    },
+    {
+      "season": "2027",
+      "round": 4,
+      "roster_id": "4",
+      "owner_id": "7",
+      "previous_owner_id": "1",
+      "owner_name": "sathwikn",
+      "original_owner_name": "Pkizzle3000",
+      "previous_owner_name": "ddhk"
+    },
+    {
+      "season": "2027",
+      "round": 12,
       "roster_id": "4",
       "owner_id": "1",
       "previous_owner_id": "4",
@@ -176295,6 +176506,26 @@ window.__STATIC_DATA__ = {
       "owner_id": "9",
       "previous_owner_id": "7",
       "owner_name": "spiffster",
+      "original_owner_name": "sathwikn",
+      "previous_owner_name": "sathwikn"
+    },
+    {
+      "season": "2027",
+      "round": 9,
+      "roster_id": "7",
+      "owner_id": "10",
+      "previous_owner_id": "7",
+      "owner_name": "edj11102024",
+      "original_owner_name": "sathwikn",
+      "previous_owner_name": "sathwikn"
+    },
+    {
+      "season": "2027",
+      "round": 10,
+      "roster_id": "7",
+      "owner_id": "1",
+      "previous_owner_id": "7",
+      "owner_name": "ddhk",
       "original_owner_name": "sathwikn",
       "previous_owner_name": "sathwikn"
     },
@@ -176357,6 +176588,26 @@ window.__STATIC_DATA__ = {
       "owner_name": "Paul_Yoon",
       "original_owner_name": "edj11102024",
       "previous_owner_name": "edj11102024"
+    },
+    {
+      "season": "2027",
+      "round": 5,
+      "roster_id": "10",
+      "owner_id": "7",
+      "previous_owner_id": "10",
+      "owner_name": "sathwikn",
+      "original_owner_name": "edj11102024",
+      "previous_owner_name": "edj11102024"
+    },
+    {
+      "season": "2027",
+      "round": 4,
+      "roster_id": "12",
+      "owner_id": "7",
+      "previous_owner_id": "12",
+      "owner_name": "sathwikn",
+      "original_owner_name": "eikichii952",
+      "previous_owner_name": "eikichii952"
     }
   ],
   "season_history": {
