@@ -1,8 +1,27 @@
 {
   "team": "edj11102024",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50578630/joe-burrow-heaves-beauty-tee-higgins-bengals-td",
+      "player": "Tee Higgins",
+      "meta": "WR \u00b7 CIN",
+      "date": "2026-11-24",
+      "author": "ESPN",
+      "text": "Joe Burrow heaves a beauty to Tee Higgins for a Bengals TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873078",
+      "game_id": "401873078",
+      "game_time": "Q2 1:55",
+      "play_key": "401873078:4018730781583",
+      "played_at": "2026-11-24T02:22:59Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1123/3e3f3ce0ed8d42c9bbef4c860c6f1afa1305/3e3f3ce0ed8d42c9bbef4c860c6f1afa1305.jpg",
+      "published": "2026-11-24T02:30:58Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1124/3e3f3ce0-ed8d-42c9-bbef-4c860c6f1afa/3e3f3ce0-ed8d-42c9-bbef-4c860c6f1afa.mp4"
+    },
     {
       "url": "https://www.espn.com/video/clip/_/id/50564432/bucky-irving-finds-end-zone-bucs",
       "player": "Bucky Irving",
@@ -140,6 +159,23 @@
       "video": "https://video.twimg.com/amplify_video/2124554540309741568/vid/avc1/1080x1920/xplyVUBatENLWePF.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/7Ywr4gTK9bw",
+      "player": "Isaiah Likely",
+      "meta": "TE \u00b7 NYG",
+      "date": "2026-11-22",
+      "author": "NYGiants",
+      "text": "Run out with Isaiah Likely \ud83d\udd25 #giants #nfl #newyorkgiants #football #isaiahlikely #football #gameday",
+      "verified": false,
+      "faves": 13,
+      "secs": 16,
+      "poster": "https://i.ytimg.com/vi/7Ywr4gTK9bw/hqdefault.jpg",
+      "published": "2026-11-22T21:33:45Z",
+      "youtube": "7Ywr4gTK9bw",
+      "author_name": "New York Giants",
+      "avatar": "",
       "author_verified": true
     }
   ]
