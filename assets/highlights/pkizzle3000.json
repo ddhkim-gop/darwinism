@@ -1,8 +1,29 @@
 {
   "team": "Pkizzle3000",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://www.youtube.com/shorts/YRGgp73wPrU",
+      "player": "Jack Bech",
+      "meta": "WR \u00b7 LV",
+      "date": "2026-11-23",
+      "author": "Raiders",
+      "text": "JACK-POT! \ud83c\udff4\u200d\u2620\ufe0f",
+      "verified": true,
+      "faves": 361,
+      "secs": 19,
+      "game_id": "401873075",
+      "game_time": "Q4 4:29",
+      "play_key": "401873075:4018730754074",
+      "played_at": "2026-11-23T00:20:02Z",
+      "poster": "https://i.ytimg.com/vi/YRGgp73wPrU/hqdefault.jpg",
+      "published": "2026-11-23T00:43:40Z",
+      "youtube": "YRGgp73wPrU",
+      "author_name": "Raiders",
+      "avatar": "",
+      "author_verified": true
+    },
     {
       "url": "https://www.espn.com/video/clip/_/id/50565818/announcer-breaks-song-adam-trautman-broncos-td",
       "player": "Bo Nix",
