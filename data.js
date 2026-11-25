@@ -15608,7 +15608,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 56
         },
         {
@@ -15749,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -16592,7 +16592,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -16692,6 +16692,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 7,
       "players": [
         {
+          "player_id": "10218",
+          "espn_id": null,
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "2000-06-01",
+          "college": "Iowa State",
+          "height": "75",
+          "weight": "210",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
+        },
+        {
           "player_id": "10859",
           "espn_id": null,
           "name": "Sam LaPorta",
@@ -16737,19 +16752,34 @@ window.__STATIC_DATA__ = {
           "search_rank": 129
         },
         {
-          "player_id": "12529",
+          "player_id": "12491",
           "espn_id": null,
-          "name": "TreVeyon Henderson",
+          "name": "Corey Kiner",
           "position": "RB",
           "team": "NE",
-          "birth_date": "2002-10-22",
-          "college": "Ohio State",
-          "height": "70",
-          "weight": "202",
+          "birth_date": "2002-01-21",
+          "college": "Cincinnati",
+          "height": "69",
+          "weight": "209",
           "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 39
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 487
+        },
+        {
+          "player_id": "12540",
+          "espn_id": null,
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN",
+          "birth_date": "2001-12-14",
+          "college": "Florida",
+          "height": "73",
+          "weight": "196",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 175
         },
         {
           "player_id": "13285",
@@ -16842,6 +16872,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 239
         },
         {
+          "player_id": "6803",
+          "espn_id": 4360438,
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "1998-03-17",
+          "college": "Arizona State",
+          "height": "72",
+          "weight": "200",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 177
+        },
+        {
           "player_id": "8155",
           "espn_id": null,
           "name": "Breece Hall",
@@ -16877,21 +16922,6 @@ window.__STATIC_DATA__ = {
           "name": "Cleveland Browns",
           "position": "DEF",
           "team": "CLE",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "LAC",
-          "espn_id": null,
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -16938,6 +16968,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 209
         },
         {
+          "player_id": "13317",
+          "espn_id": null,
+          "name": "Ted Hurst III",
+          "position": "WR",
+          "team": "TB",
+          "birth_date": "2004-07-02",
+          "college": "Georgia State",
+          "height": "75",
+          "weight": "195",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 196
+        },
+        {
           "player_id": "2449",
           "espn_id": 2976212,
           "name": "Stefon Diggs",
@@ -16949,7 +16994,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 105
         },
         {
@@ -17028,6 +17073,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 42
         },
         {
+          "player_id": "5995",
+          "espn_id": 4038441,
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1997-11-14",
+          "college": "Oklahoma State",
+          "height": "70",
+          "weight": "195",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 220
+        },
+        {
           "player_id": "6790",
           "espn_id": 4259545,
           "name": "D'Andre Swift",
@@ -17058,21 +17118,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "7049",
-          "espn_id": 3886598,
-          "name": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "birth_date": "1997-07-10",
-          "college": "Tennessee",
-          "height": "75",
-          "weight": "212",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 123
-        },
-        {
           "player_id": "7543",
           "espn_id": null,
           "name": "Travis Etienne Jr.",
@@ -17086,21 +17131,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 34
-        },
-        {
-          "player_id": "7567",
-          "espn_id": null,
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "birth_date": "1999-03-14",
-          "college": "Memphis",
-          "height": "69",
-          "weight": "200",
-          "years_exp": 5,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 86
         },
         {
           "player_id": "9997",
@@ -17118,11 +17148,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "DET",
+          "player_id": "NYJ",
           "espn_id": null,
-          "name": "Detroit Lions",
+          "name": "New York Jets",
           "position": "DEF",
-          "team": "DET",
+          "team": "NYJ",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17244,21 +17274,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 112
         },
         {
-          "player_id": "1479",
-          "espn_id": 15818,
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "1992-04-27",
-          "college": "California",
-          "height": "74",
-          "weight": "211",
-          "years_exp": 13,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 180
-        },
-        {
           "player_id": "2020",
           "espn_id": 17427,
           "name": "Cairo Santos",
@@ -17285,8 +17300,23 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 60
+        },
+        {
+          "player_id": "4017",
+          "espn_id": 3122840,
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
+          "birth_date": "1995-09-14",
+          "college": "Clemson",
+          "height": "75",
+          "weight": "223",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 290
         },
         {
           "player_id": "4199",
@@ -17606,7 +17636,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 105
         },
         {
@@ -17676,19 +17706,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
-          "player_id": "11564",
+          "player_id": "11565",
           "espn_id": null,
-          "name": "Drake Maye",
+          "name": "J.J. McCarthy",
           "position": "QB",
-          "team": "NE",
-          "birth_date": "2002-08-30",
-          "college": "North Carolina",
-          "height": "76",
-          "weight": "225",
+          "team": "NYG",
+          "birth_date": "2003-01-20",
+          "college": "Michigan",
+          "height": "75",
+          "weight": "219",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 10
+          "injury_status": null,
+          "search_rank": 224
         },
         {
           "player_id": "11610",
@@ -17751,21 +17781,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 153
         },
         {
-          "player_id": "2505",
-          "espn_id": 2576925,
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "birth_date": "1992-09-13",
-          "college": "Georgia Tech",
-          "height": "78",
-          "weight": "238",
-          "years_exp": 11,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 355
-        },
-        {
           "player_id": "3451",
           "espn_id": 2971573,
           "name": "Ka'imi Fairbairn",
@@ -17796,6 +17811,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 92
         },
         {
+          "player_id": "4177",
+          "espn_id": 2991662,
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE",
+          "birth_date": "1993-09-16",
+          "college": "North Carolina",
+          "height": "76",
+          "weight": "221",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 697
+        },
+        {
           "player_id": "5947",
           "espn_id": 3916433,
           "name": "Jakobi Meyers",
@@ -17807,7 +17837,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 77
         },
         {
@@ -17824,6 +17854,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 3
+        },
+        {
+          "player_id": "8132",
+          "espn_id": null,
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "birth_date": "2000-04-15",
+          "college": "BYU",
+          "height": "70",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 89
         },
         {
           "player_id": "8146",
@@ -17854,21 +17899,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 14
-        },
-        {
-          "player_id": "9228",
-          "espn_id": null,
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "birth_date": "2001-07-25",
-          "college": "Alabama",
-          "height": "70",
-          "weight": "204",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 130
         },
         {
           "player_id": "9484",
@@ -17963,7 +17993,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 38
         },
         {
@@ -18083,7 +18113,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 19
         },
         {
@@ -18648,6 +18678,334 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 12,
+      "created": "Nov 25, 2026 • 11:11 AM PT",
+      "transaction_id": "1431396018900971520",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 11:10 AM PT",
+      "transaction_id": "1431395550447566848",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 11:09 AM PT",
+      "transaction_id": "1431395357773824000",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:46 AM PT",
+      "transaction_id": "1431389522171527168",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:42 AM PT",
+      "transaction_id": "1431388622757584896",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:41 AM PT",
+      "transaction_id": "1431388453760696320",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:41 AM PT",
+      "transaction_id": "1431388349385445376",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:41 AM PT",
+      "transaction_id": "1431388327403098112",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:40 AM PT",
+      "transaction_id": "1431388154786484224",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 6:38 AM PT",
+      "transaction_id": "1431327223733841920",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Ted Hurst III",
+          "position": "WR",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 6:37 AM PT",
+      "transaction_id": "1431326905864294400",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 6:36 AM PT",
+      "transaction_id": "1431326676398112768",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "jonsung"
+      ],
+      "added": [
+        {
+          "name": "New York Jets",
+          "position": "DEF",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 6:02 AM PT",
+      "transaction_id": "1431318269251293184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "spiffster"
+      ],
+      "added": [
+        {
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
       "created": "Nov 25, 2026 • 12:07 AM PT",
       "transaction_id": "1431228728687468544",
       "type": "free_agent",
@@ -18819,7 +19177,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null
+          "team": "WAS"
         }
       ],
       "dropped": [],
@@ -21781,7 +22139,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null
+          "team": "WAS"
         }
       ],
       "faab": 0,
@@ -22467,7 +22825,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null
+          "team": "WAS"
         }
       ],
       "dropped": [
