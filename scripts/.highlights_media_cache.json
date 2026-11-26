@@ -4673,6 +4673,11 @@
   "published": "2026-11-20T01:56:41Z",
   "youtube": "5vRZggzKamE"
  },
+ "https://www.youtube.com/shorts/64fzMxVTmX4": {
+  "poster": "https://i.ytimg.com/vi/64fzMxVTmX4/hqdefault.jpg",
+  "published": "2026-11-25T18:00:38Z",
+  "youtube": "64fzMxVTmX4"
+ },
  "https://www.youtube.com/shorts/6CW-KrBXuWM": {
   "poster": "https://i.ytimg.com/vi/6CW-KrBXuWM/hqdefault.jpg",
   "published": "2026-09-24T20:24:36Z",
@@ -16303,6 +16308,11 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2125733684992974848/img/9tWJoPzmVkXpt6Ip.jpg",
   "published": "2026-11-25T23:31:54Z",
   "video": "https://video.twimg.com/amplify_video/2125733684992974848/vid/avc1/1728x3072/LvH8lhw2OO9MFYa3.mp4"
+ },
+ "https://x.com/NFL/status/2125768053426458874": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2125767878028992512/img/ZXlhAUAIjs6CBD_k.jpg",
+  "published": "2026-11-26T01:46:13Z",
+  "video": "https://video.twimg.com/amplify_video/2125767878028992512/vid/avc1/1920x1080/tyOx2QkWqPKk7fX_.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
