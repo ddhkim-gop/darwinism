@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Lions/status/2126021889734619204",
+      "player": "Amon-Ra St. Brown",
+      "meta": "WR \u00b7 DET",
+      "date": "2026-11-26",
+      "author": "Lions",
+      "text": "Sheesh, Amon-Ra",
+      "verified": true,
+      "faves": 578,
+      "secs": 37,
+      "game_id": "401873081",
+      "game_time": "Q1 3:12",
+      "play_key": "401873081:401873081819",
+      "played_at": "2026-11-26T18:33:21Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126021767869186048/img/VpO9qmbPPUUVrUsY.jpg",
+      "published": "2026-11-26T18:34:52Z",
+      "video": "https://video.twimg.com/amplify_video/2126021767869186048/vid/avc1/1920x1080/g0Z8rG61FT2UvxG9.mp4",
+      "author_name": "Detroit Lions",
+      "avatar": "https://pbs.twimg.com/profile_images/2124918223527170048/75olEatQ_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Lions/status/2126015217607786544",
       "player": "Amon-Ra St. Brown",
       "meta": "WR \u00b7 DET",
