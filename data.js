@@ -15141,21 +15141,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11646",
-          "espn_id": null,
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "birth_date": "2001-10-30",
-          "college": "Holy Cross",
-          "height": "75",
-          "weight": "215",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 132
-        },
-        {
           "player_id": "12495",
           "espn_id": null,
           "name": "Ollie Gordon II",
@@ -15168,7 +15153,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 387
+          "search_rank": 386
         },
         {
           "player_id": "12519",
@@ -15228,7 +15213,22 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 161
+          "search_rank": 162
+        },
+        {
+          "player_id": "13968",
+          "espn_id": null,
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS",
+          "birth_date": "2003-12-09",
+          "college": "Iowa",
+          "height": "73",
+          "weight": "213",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 630
         },
         {
           "player_id": "4034",
@@ -15244,21 +15244,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 4
-        },
-        {
-          "player_id": "5849",
-          "espn_id": 3917315,
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "birth_date": "1997-08-07",
-          "college": "Oklahoma",
-          "height": "70",
-          "weight": "207",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 89
         },
         {
           "player_id": "5850",
@@ -15444,7 +15429,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 49
+          "search_rank": 48
         },
         {
           "player_id": "13298",
@@ -15549,7 +15534,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 41
+          "search_rank": 42
         },
         {
           "player_id": "8121",
@@ -15690,7 +15675,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 28
+          "search_rank": 27
         },
         {
           "player_id": "11635",
@@ -15780,7 +15765,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 39
+          "search_rank": 38
         },
         {
           "player_id": "5022",
@@ -15921,7 +15906,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 46
+          "search_rank": 45
         },
         {
           "player_id": "11583",
@@ -15951,7 +15936,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "11624",
@@ -16056,7 +16041,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 115
+          "search_rank": 116
         },
         {
           "player_id": "12534",
@@ -16101,7 +16086,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 27
+          "search_rank": 28
         },
         {
           "player_id": "7526",
@@ -16653,7 +16638,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 476
+          "search_rank": 474
         },
         {
           "player_id": "9756",
@@ -16734,7 +16719,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 261
+          "search_rank": 260
         },
         {
           "player_id": "12469",
@@ -16794,7 +16779,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 201
+          "search_rank": 199
         },
         {
           "player_id": "13287",
@@ -16839,7 +16824,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 458
+          "search_rank": 456
         },
         {
           "player_id": "5045",
@@ -16885,6 +16870,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 177
+        },
+        {
+          "player_id": "7567",
+          "espn_id": null,
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "birth_date": "1999-03-14",
+          "college": "Memphis",
+          "height": "69",
+          "weight": "200",
+          "years_exp": 5,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 86
         },
         {
           "player_id": "8155",
@@ -16950,7 +16950,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 22
         },
         {
           "player_id": "11834",
@@ -16995,7 +16995,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 105
+          "search_rank": 104
         },
         {
           "player_id": "4217",
@@ -17256,7 +17256,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 123
+          "search_rank": 124
         },
         {
           "player_id": "13417",
@@ -17316,7 +17316,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 290
+          "search_rank": 291
         },
         {
           "player_id": "4199",
@@ -17361,7 +17361,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 397
+          "search_rank": 395
         },
         {
           "player_id": "7569",
@@ -17442,7 +17442,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11560",
@@ -17577,7 +17577,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 376
+          "search_rank": 375
         },
         {
           "player_id": "1945",
@@ -17733,7 +17733,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 177
+          "search_rank": 176
         },
         {
           "player_id": "12507",
@@ -17853,7 +17853,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 3
+          "search_rank": 4
         },
         {
           "player_id": "8132",
@@ -17913,7 +17913,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "9758",
@@ -17928,7 +17928,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 101
+          "search_rank": 102
         },
         {
           "player_id": "DAL",
@@ -18039,7 +18039,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 3
+          "search_rank": 4
         },
         {
           "player_id": "5844",
@@ -18678,6 +18678,56 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 12,
+      "created": "Nov 26, 2026 • 2:45 AM PT",
+      "transaction_id": "1431630981655175168",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 26, 2026 • 2:44 AM PT",
+      "transaction_id": "1431630608966119424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
       "created": "Nov 25, 2026 • 11:11 AM PT",
       "transaction_id": "1431396018900971520",
       "type": "free_agent",
@@ -18890,6 +18940,28 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 10:28 AM PT",
+      "transaction_id": "1431385173085163520",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "sathwikn"
+      ],
+      "added": [
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
     },
     {
       "season": "2026",
