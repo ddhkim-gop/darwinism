@@ -15171,6 +15171,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
+          "player_id": "12529",
+          "espn_id": null,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "birth_date": "2002-10-22",
+          "college": "Ohio State",
+          "height": "70",
+          "weight": "202",
+          "years_exp": 1,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 39
+        },
+        {
           "player_id": "13281",
           "espn_id": null,
           "name": "Jordyn Tyson",
@@ -15734,7 +15749,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -15779,7 +15794,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 94
         },
         {
@@ -16025,7 +16040,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 36
         },
         {
@@ -16070,7 +16085,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 10
         },
         {
@@ -16211,7 +16226,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 73
         },
         {
@@ -16994,7 +17009,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 104
         },
         {
@@ -17144,7 +17159,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 40
         },
         {
@@ -17456,7 +17471,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 23
         },
         {
@@ -17931,11 +17946,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 102
         },
         {
-          "player_id": "DAL",
+          "player_id": "JAX",
           "espn_id": null,
-          "name": "Dallas Cowboys",
+          "name": "Jacksonville Jaguars",
           "position": "DEF",
-          "team": "DAL",
+          "team": "JAX",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -18158,7 +18173,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 68
         },
         {
@@ -18175,21 +18190,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 187
-        },
-        {
-          "player_id": "CIN",
-          "espn_id": null,
-          "name": "Cincinnati Bengals",
-          "position": "DEF",
-          "team": "CIN",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         },
         {
           "player_id": "SEA",
@@ -18675,6 +18675,106 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 26, 2026 • 12:33 PM PT",
+      "transaction_id": "1431779008260902912",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "danseung"
+      ],
+      "added": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dallas Cowboys",
+          "position": "DEF",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 26, 2026 • 10:30 AM PT",
+      "transaction_id": "1431748045149585408",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 26, 2026 • 9:54 AM PT",
+      "transaction_id": "1431739033804894208",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 26, 2026 • 9:54 AM PT",
+      "transaction_id": "1431738971339112448",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Drew Stevens",
+          "position": "K",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 12,
@@ -24212,7 +24312,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "faab": 0,
@@ -24521,7 +24621,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "dropped": [],
