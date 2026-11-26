@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/dallascowboys/status/2126072907394584825",
+      "player": "CeeDee Lamb",
+      "meta": "WR \u00b7 DAL",
+      "date": "2026-11-26",
+      "author": "dallascowboys",
+      "text": "Dak to CeeDee for a big 3rd down conversion \ud83d\udc4f\n\n\ud83d\udcfa: #PHIvsDAL on FOX\n\ud83d\udcf2: Stream on NFL+",
+      "verified": true,
+      "faves": 358,
+      "secs": 13,
+      "game_id": "401873080",
+      "game_time": "Q1 10:56",
+      "play_key": "401873080:401873080314",
+      "played_at": "2026-11-26T21:56:15Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126072703249461249/img/cr85_r6QhGyhvhqf.jpg",
+      "published": "2026-11-26T21:57:36Z",
+      "video": "https://video.twimg.com/amplify_video/2126072703249461249/vid/avc1/1920x1080/DWb8PWUG8DgivXZO.mp4",
+      "author_name": "Dallas Cowboys",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50600829/vicious-hit-christian-watson-gets-kamren-kinchens-ejected",
       "player": "Jordan Love",
       "meta": "QB \u00b7 GB",
