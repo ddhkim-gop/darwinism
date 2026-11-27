@@ -15194,7 +15194,7 @@ window.__STATIC_DATA__ = {
           "birth_date": "2004-08-12",
           "college": "Arizona State",
           "height": "74",
-          "weight": "203",
+          "weight": "200",
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
@@ -15608,7 +15608,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 56
         },
         {
@@ -15854,7 +15854,7 @@ window.__STATIC_DATA__ = {
           "weight": "197",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 6
         },
         {
@@ -15995,7 +15995,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 105
         },
         {
@@ -16130,7 +16130,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 679
         },
         {
@@ -16215,6 +16215,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 73
         },
         {
+          "player_id": "11646",
+          "espn_id": null,
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "birth_date": "2001-10-30",
+          "college": "Holy Cross",
+          "height": "75",
+          "weight": "215",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 132
+        },
+        {
           "player_id": "12533",
           "espn_id": null,
           "name": "Jacory Croskey-Merritt",
@@ -16286,7 +16301,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -16517,7 +16532,7 @@ window.__STATIC_DATA__ = {
           "weight": "199",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 151
         },
         {
@@ -16562,7 +16577,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 7
         },
         {
@@ -16637,7 +16652,7 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 99
         },
         {
@@ -17471,7 +17486,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 44
         },
         {
@@ -17606,7 +17621,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 36
         },
         {
@@ -17621,7 +17636,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 105
         },
         {
@@ -17655,11 +17670,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 104
         },
         {
-          "player_id": "CHI",
+          "player_id": "CIN",
           "espn_id": null,
-          "name": "Chicago Bears",
+          "name": "Cincinnati Bengals",
           "position": "DEF",
-          "team": "CHI",
+          "team": "CIN",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -17822,7 +17837,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -17997,6 +18012,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 194
         },
         {
+          "player_id": "13394",
+          "espn_id": null,
+          "name": "Josh Cameron",
+          "position": "WR",
+          "team": "JAX",
+          "birth_date": "2003-03-18",
+          "college": "Baylor",
+          "height": "73",
+          "weight": "224",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 656
+        },
+        {
           "player_id": "1466",
           "espn_id": 15847,
           "name": "Travis Kelce",
@@ -18143,7 +18173,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 68
         },
         {
@@ -18648,6 +18678,50 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 12,
+      "created": "Nov 27, 2026 • 1:51 PM PT",
+      "transaction_id": "1432161045920649216",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "eikichii952"
+      ],
+      "added": [
+        {
+          "name": "Josh Cameron",
+          "position": "WR",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 27, 2026 • 10:16 AM PT",
+      "transaction_id": "1432106921896198144",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [
+        {
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
       "created": "Nov 27, 2026 • 4:11 AM PT",
       "transaction_id": "1432014892881154048",
       "type": "free_agent",
@@ -18688,6 +18762,34 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 26, 2026 • 3:19 PM PT",
+      "transaction_id": "1431820827438882816",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "edj11102024"
+      ],
+      "added": [
+        {
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
     },
     {
       "season": "2026",
