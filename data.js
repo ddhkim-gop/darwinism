@@ -15153,7 +15153,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 386
+          "search_rank": 384
         },
         {
           "player_id": "12519",
@@ -15444,7 +15444,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 48
+          "search_rank": 49
         },
         {
           "player_id": "13298",
@@ -15690,7 +15690,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 27
+          "search_rank": 26
         },
         {
           "player_id": "11635",
@@ -15951,7 +15951,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 63
+          "search_rank": 65
         },
         {
           "player_id": "11624",
@@ -16200,21 +16200,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 148
         },
         {
-          "player_id": "11625",
-          "espn_id": null,
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2002-10-08",
-          "college": "Texas",
-          "height": "74",
-          "weight": "205",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 162
-        },
-        {
           "player_id": "11628",
           "espn_id": null,
           "name": "Marvin Harrison Jr.",
@@ -16257,22 +16242,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 199
-        },
-        {
-          "player_id": "4035",
-          "espn_id": 3054850,
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "1995-07-25",
-          "college": "Tennessee",
-          "height": "70",
-          "weight": "215",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 119
+          "search_rank": 197
         },
         {
           "player_id": "4046",
@@ -16443,7 +16413,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 91
+          "search_rank": 89
         },
         {
           "player_id": "11576",
@@ -16533,7 +16503,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 109
+          "search_rank": 108
         },
         {
           "player_id": "13276",
@@ -16734,7 +16704,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 260
+          "search_rank": 261
         },
         {
           "player_id": "12469",
@@ -16794,7 +16764,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 199
+          "search_rank": 201
         },
         {
           "player_id": "13287",
@@ -17010,7 +16980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 104
+          "search_rank": 105
         },
         {
           "player_id": "4217",
@@ -17115,7 +17085,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 46
+          "search_rank": 44
         },
         {
           "player_id": "6813",
@@ -17457,7 +17427,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 127
+          "search_rank": 125
         },
         {
           "player_id": "11560",
@@ -17472,7 +17442,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 23
+          "search_rank": 22
         },
         {
           "player_id": "11584",
@@ -17577,7 +17547,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 91
+          "search_rank": 89
         },
         {
           "player_id": "13424",
@@ -17748,7 +17718,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 176
+          "search_rank": 177
         },
         {
           "player_id": "12507",
@@ -17928,7 +17898,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 63
+          "search_rank": 65
         },
         {
           "player_id": "9758",
@@ -17994,7 +17964,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 37
+          "search_rank": 36
         },
         {
           "player_id": "12526",
@@ -18129,7 +18099,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 19
+          "search_rank": 17
         },
         {
           "player_id": "8228",
@@ -18675,6 +18645,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 27, 2026 • 4:11 AM PT",
+      "transaction_id": "1432014892881154048",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 27, 2026 • 4:10 AM PT",
+      "transaction_id": "1432014643018080256",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "IconicJH"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 12,
